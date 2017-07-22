@@ -1,6 +1,6 @@
 [![MIUI8 logo](https://i.imgur.com/btvipaY.png)](https://xiaomi.eu/)
 
-# MIUI 8 Daily XML changes by xiaomi.eu / miui.com
+# MIUI 9 Daily XML changes by xiaomi.eu / miui.com
 
 [![ghit.me](https://ghit.me/badge.svg?repo=ingbrzy/Xiaomi.eu-MIUIv9-XML-Compare)](https://ghit.me/repo/ingbrzy/Xiaomi.eu-MIUIv9-XML-Compare)
 
