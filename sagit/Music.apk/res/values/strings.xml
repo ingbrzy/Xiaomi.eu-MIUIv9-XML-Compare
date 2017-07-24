@@ -74,6 +74,8 @@
   <string name="asset_sync_power_alert_title">Low battery</string>
   <string name="atmd_music">Ultimate</string>
   <string name="audio_picker_title">Choose a song</string>
+  <string name="audio_recognition_setting_summary">"Automatically optimize song' info, album and lyric when playing local songs"</string>
+  <string name="audio_recognition_setting_title">Intelligent optimize album and lyric</string>
   <string name="auth_activity_title">Xunlei Account</string>
   <string name="auto_download_in_wifi">Download favorite songs using WLAN</string>
   <string name="auto_payment">Automatic renewal</string>
