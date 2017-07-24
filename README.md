@@ -17,6 +17,6 @@ For more info visit:
 Xiaomi.eu Translation Guide http://miui.connortumbleson.com/dev_guide
 
 ##### Credits:
-- ingbrzy
-- Acid
+- ingbrzy [miuios.cz](https://miuios.cz) 
+- Acid [miuipolska.pl](http://miuipolska.pl) 
 
