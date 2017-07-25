@@ -38,7 +38,6 @@
   <string name="mibi_button_retry">Retry</string>
   <string name="mibi_cancel">Cancel</string>
   <string name="mibi_change_security_lock">More screen locks</string>
-  <string name="mibi_click_retry">%1$s, click to retry</string>
   <string name="mibi_colon">": "</string>
   <string name="mibi_deduct_goods_name">Product</string>
   <string name="mibi_deduct_open_prompt">%1$s will be able to charge you automatically using %2$s without verification.You can turn this feature off in %1$s</string>
@@ -129,7 +128,6 @@ Please contact Xiaomi customer service."</string>
   <string name="mibi_giftcard_title">Mi Credit Gift Card</string>
   <string name="mibi_giftcard_will_expire">Expires on %1$s</string>
   <string name="mibi_giftcard_with_num">%1$s Mi Credit coupon available</string>
-  <string name="mibi_header_network_error">"Couldn't connect to network."</string>
   <string name="mibi_illegal_intent">Illegal intent request</string>
   <string name="mibi_is_what">What can you buy with Mi Credits?</string>
   <string name="mibi_label_balance">Balance</string>

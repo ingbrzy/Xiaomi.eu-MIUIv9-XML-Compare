@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="account_info">Me</string>
+  <string name="account_info">My Account</string>
   <string name="account_name_not_login">Sign in</string>
   <string name="account_unactivated">Account not activated</string>
   <string name="ad_app_download_start">Starting download…</string>
@@ -24,10 +24,6 @@
   <string name="both_all_apply_failured">"Can't apply wallpaper"</string>
   <string name="both_all_apply_success">Wallpaper applied</string>
   <string name="browser_local_resource">Local resources</string>
-  <string name="card_data_request_error">Data request exception, please try again later~</string>
-  <string name="card_loading">Loading...</string>
-  <string name="card_no_network">No network now, please connect and try again~</string>
-  <string name="card_retry">Retry</string>
   <string name="change_host_hint">Change host</string>
   <string name="change_wallpaper">Wallpaper</string>
   <string name="close">Close</string>
@@ -91,18 +87,12 @@
   <string name="gift_used">Sent</string>
   <string name="home_apply_failured">"Can't apply Home screen wallpaper"</string>
   <string name="home_apply_success">Home screen wallpaper applied</string>
-  <string name="in_the_end">No more</string>
   <string name="incompatible_dialog_message">This theme isnt fully compatible with MIUI 8. Some elements may be displayed incorrectly.</string>
   <string name="incompatible_dialog_ok">Got it</string>
   <string name="incompatible_dialog_title">Compatibility issues</string>
   <string name="internal_online_precust_gorgeous_black_name">gorgeous black</string>
   <string name="internal_online_precust_gorgeous_color_name">gorgeous color</string>
   <string name="is_setting_wallpaper_message">Setting wallpaper…</string>
-  <string name="item_resource_audio_divider">│</string>
-  <string name="item_resource_audio_optional_alarm_ring">alarm ring</string>
-  <string name="item_resource_audio_optional_color_ring">color ring</string>
-  <string name="item_resource_audio_optional_notification_ring">notification ring</string>
-  <string name="item_resource_audio_optional_phone_ring">phone ring</string>
   <string name="live_wallpaper">Live wallpaper</string>
   <string name="loading">Just a sec…</string>
   <string name="loading_resource_detail_fail">"Can't load resource"</string>
@@ -278,10 +268,6 @@
   <string name="resource_ranking">Popular</string>
   <string name="resource_ranking_free">Free</string>
   <string name="resource_ranking_purchase">Paid</string>
-  <string name="resource_ring_ranking_list_divider">-</string>
-  <string name="resource_ring_ranking_list_rank_1">1</string>
-  <string name="resource_ring_ranking_list_rank_2">2</string>
-  <string name="resource_ring_ranking_list_rank_3">3</string>
   <string name="resource_ringtone_default">Ringtones</string>
   <string name="resource_ringtone_playing_error">Error</string>
   <string name="resource_ringtone_volume_mute">Ringer is silenced</string>
@@ -337,7 +323,6 @@
   <string name="resource_user_know">OK</string>
   <string name="resource_waiting_download">Waiting</string>
   <string name="resource_waiting_pause">Pause</string>
-  <string name="ringtone_set_success">Set successfully</string>
   <string name="sdcard_not_mounted_dialog_message">"Insert SD card now.
 "</string>
   <string name="sdcard_not_mounted_dialog_title">No SD card detected</string>

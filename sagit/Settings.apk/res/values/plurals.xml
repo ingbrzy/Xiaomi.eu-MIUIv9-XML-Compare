@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">"%d apps can't show notifications"</item>
-        <item quantity="one">"%d app can't show notifications"</item>
+        <item quantity="other">"%s apps can't show notifications"</item>
+        <item quantity="one">"1 app can't show notifications"</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
-        <item quantity="other">%d apps can show notifications</item>
-        <item quantity="one">%d app can show notifications</item>
+        <item quantity="other">%s apps can show notifications</item>
+        <item quantity="one">1 app can show notifications</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d toggles placed above bar are active</item>
-        <item quantity="one">%1$d toggle placed above bar are active</item>
+        <item quantity="one">1 toggle placed above bar are active</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">You are now %1$d steps away from being a developer.</item>
@@ -155,7 +155,7 @@ For more information about this certificate, contact your admin."</item>
     </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">%d apps are allowed to autostart</item>
-        <item quantity="one">%d app is allowed to autostart</item>
+        <item quantity="one">%d app are allowed to autostart</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN must be %d digits</item>
@@ -171,7 +171,7 @@ For more information about this certificate, contact your admin."</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">%1$d people connected</item>
-        <item quantity="one">%1$d person connected</item>
+        <item quantity="one">%1$d people connected</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">"You're %1$d steps away from entering phone info."</item>
@@ -192,25 +192,5 @@ For more information about this certificate, contact your admin."</item>
     <plurals name="auto_disable_screenbuttons_disabled_header_title">
         <item quantity="other">Never disable for %d apps</item>
         <item quantity="one">Never disable for 1 app</item>
-    </plurals>
-    <plurals name="lockpassword_pin_too_short">
-        <item quantity="other">PIN must be %d digits long</item>
-        <item quantity="one">PIN must be %d digit long</item>
-    </plurals>
-    <plurals name="lockpassword_pin_too_long">
-        <item quantity="other">PIN can contain up to %d digits</item>
-        <item quantity="one">PIN can contain up to %d digit</item>
-    </plurals>
-    <plurals name="lockpattern_recording_incorrect_too_short">
-        <item quantity="other">Connect at least %d dots. Try again.</item>
-        <item quantity="one">Connect at least %d dot. Try again.</item>
-    </plurals>
-    <plurals name="lockpattern_too_many_failed_confirmation_attempts">
-        <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
-        <item quantity="one">Too many incorrect attempt. Try again in %d second.</item>
-    </plurals>
-    <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
-        <item quantity="other">Wait for %d seconds and try again.</item>
-        <item quantity="one">Wait for %d second and try again.</item>
     </plurals>
 </resources>

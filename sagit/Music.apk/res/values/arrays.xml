@@ -122,19 +122,6 @@
         <item>female</item>
         <item>group</item>
     </string-array>
-    <integer-array name="song_group_detail_gray_colors">
-        <item>0x33000000</item>
-        <item>0x33000000</item>
-        <item>0x33000000</item>
-        <item>0x33000000</item>
-        <item>0x33000000</item>
-        <item>0x33000000</item>
-        <item>0x457F7F7F</item>
-        <item>0x77C7C7C7</item>
-        <item>0xA6E0E0E0</item>
-        <item>0xD4EBEBEB</item>
-        <item>0xFFF6F6F6</item>
-    </integer-array>
     <array name="desktop_lyric_seekbar_track_color">
         <item>#ff13baff</item>
         <item>#ff616acb</item>

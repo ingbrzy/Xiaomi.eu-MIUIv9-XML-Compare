@@ -13,6 +13,9 @@
   <string name="bugreport_dump_complete_notification_title">Created bug report</string>
   <string name="bugreport_dump_start_notification_summary">This takes several minutes.</string>
   <string name="bugreport_dump_start_notification_title">Creating bug report…</string>
+  <string name="bugreport_tool_log">Create bug report</string>
+  <string name="bugreport_tool_log_toast">Log saved to %s</string>
+  <string name="bugreport_tool_log_toast_generate_bugreport">Creating bug report (takes about a minute)</string>
   <string name="close_feedback_main">Hide</string>
   <string name="cta_cancel">Cancel</string>
   <string name="cta_confirm">OK</string>
@@ -179,11 +182,11 @@
   <string name="michat_wait_for_a_moment">Just a sec, help is on the way!</string>
   <string name="michat_webview_title">View details</string>
   <string name="min_error">Your %1$s should be longer.</string>
-  <string name="mobile_data_note_dialog_cancel">Wait for WLAN</string>
-  <string name="mobile_data_note_dialog_confirm">Upload</string>
-  <string name="mobile_data_note_dialog_content">Using mobile data to upload logs may generate additional fees.</string>
-  <string name="mobile_data_note_dialog_content_with_file_size">Uploading logs using mobile data connection will require %sMB of data.</string>
-  <string name="mobile_data_note_dialog_title">Data usage warning</string>
+  <string name="modem_tool_log">Capture modem logs</string>
+  <string name="modem_tool_log_start">Start</string>
+  <string name="modem_tool_log_start_toast">Saving modem log to %s</string>
+  <string name="modem_tool_log_stop">Stop</string>
+  <string name="modem_tool_log_stop_toast">Stopped saving modem log to %s</string>
   <string name="module_communication">Communication</string>
   <string name="module_data">Storage &amp; Dual apps</string>
   <string name="module_desktop">Home screen &amp; settings</string>

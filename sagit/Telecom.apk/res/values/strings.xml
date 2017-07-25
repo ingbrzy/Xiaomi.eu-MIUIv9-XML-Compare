@@ -97,7 +97,6 @@
   <string name="bugreport_in_power">Bug report shortcut</string>
   <string name="bugreport_in_power_summary">Show a button in the power menu for taking a bug report</string>
   <string name="button_convert_fbe">Wipe and convert…</string>
-  <string name="callFailed_simError">SIM card error</string>
   <string name="can_not_dial_vt_while_voice_prompt">"Can't make a video call while a voice call is in progress"</string>
   <string name="can_not_dial_while_vt_prompt">"Can't dial while a video call in process"</string>
   <string name="category_personal">Personal</string>
@@ -110,7 +109,6 @@
   <string name="charge_length_format">%1$s ago</string>
   <string name="choose_profile">Choose Profile</string>
   <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
-  <string name="close">Close</string>
   <string name="config_helpIntentExtraKey"/>
   <string name="config_helpIntentNameKey"/>
   <string name="config_helpPackageNameKey"/>
@@ -201,8 +199,6 @@
   <string name="inactive_apps_title">Inactive apps</string>
   <string name="incall_default_class">com.android.incallui.InCallServiceImpl</string>
   <string name="incall_error_call_failed">"Couldn't make call."</string>
-  <string name="incall_error_power_off">Turn off airplane mode to make a call.</string>
-  <string name="incall_error_supp_service_unknown">"This service isn't supported."</string>
   <string name="incoming_call_failed_low_battery">Incoming Call is failed due to low battery.</string>
   <string name="keep_screen_on">Stay awake</string>
   <string name="keep_screen_on_summary">Screen will never sleep while charging</string>

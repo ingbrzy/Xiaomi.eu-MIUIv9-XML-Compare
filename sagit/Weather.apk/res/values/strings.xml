@@ -22,7 +22,6 @@
   <string name="activity_main_update_time">Updated %1$s</string>
   <string name="activity_main_update_time_expire">Data expired</string>
   <string name="activity_main_update_time_right_now">just now</string>
-  <string name="activity_minute_rain_location_fail_msg">Locating failed, default location of map is Beijing</string>
   <string name="activity_weathermain_locationg">Locating…</string>
   <string name="activity_weathermain_locationg_error">"Can't locate"</string>
   <string name="add_city">Add</string>
@@ -44,7 +43,7 @@
   <string name="aqi_detail_pm10">PM10</string>
   <string name="aqi_detail_pm25">PM2.5</string>
   <string name="aqi_detail_so2">SO₂</string>
-  <string name="aqi_detail_sub_title">Air Quality Index Details</string>
+  <string name="aqi_detail_sub_title">AQI details</string>
   <string name="aqi_detail_subtitle">AQI %1$s</string>
   <string name="aqi_detail_title">Air Quality Index</string>
   <string name="aqi_detail_unit">Unit: µg/m³</string>
@@ -63,8 +62,6 @@
   <string name="aqi_quality_pm10_desc">Inhalable coarse particles</string>
   <string name="aqi_quality_pm25_desc">Fine particles</string>
   <string name="aqi_quality_so2_desc">Sulfur dioxide</string>
-  <string name="aqi_settings_summary">Aqi Settings</string>
-  <string name="aqi_settings_title">Aqi Warning</string>
   <string name="aqi_short_desc">AQI %1$s</string>
   <string name="aqi_station_best_quality_station">Best around</string>
   <string name="aqi_station_min_distance_station">Nearest station</string>
@@ -83,9 +80,6 @@
   <string name="commercial">Commercial</string>
   <string name="common_loading_text">Just a sec…</string>
   <string name="connect_fail">"Couldn't connect to the network, try again"</string>
-  <string name="content_desc_activity_main_add_city">Add city</string>
-  <string name="content_desc_activity_main_add_city_manage">City management</string>
-  <string name="content_desc_activity_main_more_settings">More settings</string>
   <string name="daily_forcast_drawer_on_bottom">Hide</string>
   <string name="daily_forcast_no_stable_direction">Breeze</string>
   <string name="daily_forcast_no_wind">0</string>
@@ -116,7 +110,6 @@ Pull down to refresh or check the network settings"</string>
   <string name="feedback_sunny">Sunny</string>
   <string name="first_start_network_msg">This app needs to connect to the internet and access your location to work normally.</string>
   <string name="first_start_network_title">Internet connection and location access</string>
-  <string name="forecast_vedio_visible_setting_string">Weather video</string>
   <string name="global_aqi">AQI: %1$s %2$s</string>
   <string name="gps_hint">Current location</string>
   <string name="hour_minute_time_format">HH:mm</string>
@@ -124,7 +117,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="hourly_forecast_bottom_aqi_chinese">%1$s %2$s</string>
   <string name="hourly_forecast_bottom_aqi_else">%1$s</string>
   <string name="hourly_forecast_date">M/d</string>
-  <string name="hourly_forecast_title">Hourly Forecast</string>
+  <string name="hourly_forecast_title">Hourly forecast</string>
   <string name="index_item_experience_now">Install now</string>
   <string name="index_item_install_dialog"/>
   <string name="index_item_install_dialog_cancel"/>
@@ -139,15 +132,15 @@ Pull down to refresh or check the network settings"</string>
   <string name="indices_desc_pressure">%1$smb</string>
   <string name="indices_desc_visibility">%1$skm</string>
   <string name="indices_no_restriction">None</string>
-  <string name="indices_title">Recommended Activities</string>
+  <string name="indices_title">Recommended activities</string>
   <string name="indices_title_Precip1hr">Precip 1hr</string>
-  <string name="indices_title_car_wash">Car wash</string>
+  <string name="indices_title_car_wash">Wash car</string>
   <string name="indices_title_feel">Real feel</string>
   <string name="indices_title_humidity">Humidity</string>
   <string name="indices_title_pressure">Pressure</string>
-  <string name="indices_title_restriction">Car limit</string>
-  <string name="indices_title_sport">Sport</string>
-  <string name="indices_title_uv">UV Index</string>
+  <string name="indices_title_restriction">Road space</string>
+  <string name="indices_title_sport">Sports</string>
+  <string name="indices_title_uv">UV index</string>
   <string name="indices_title_visibility">Visibility</string>
   <string name="information_manager_default_weather_bg">Default weather background</string>
   <string name="information_manager_extension">Weather extension</string>
@@ -166,7 +159,6 @@ Pull down to refresh or check the network settings"</string>
   <string name="international_details_uv_index_title">UV INDEX</string>
   <string name="international_details_wind_connect">%1$s %2$s</string>
   <string name="international_details_wind_title">WIND</string>
-  <string name="it_is_going_to_rain">It is going to rain</string>
   <string name="locate_fail_detail_err">"Can't locate device
 Tap the screen to manually add or reposition city"</string>
   <string name="location_tag">Locate</string>
@@ -190,8 +182,6 @@ Tap the screen to manually add or reposition city"</string>
   <string name="more_details">More details</string>
   <string name="network_not_available">"Can't connect to the network"</string>
   <string name="network_unavailable">"Can't connect to the network."</string>
-  <string name="night_not_disturb_settings_summary">Will not receive all weather notices from 23:00 to 07:00 the next day after opening</string>
-  <string name="night_not_disturb_settings_title">Do not disturb at night</string>
   <string name="no_data">--</string>
   <string name="no_network_btn">Try again</string>
   <string name="no_vote_ratio">Against %1$s%%</string>
@@ -199,7 +189,6 @@ Tap the screen to manually add or reposition city"</string>
   <string name="open_browser">Open in browser</string>
   <string name="open_now">Open</string>
   <string name="other">Other</string>
-  <string name="other_warning_settings">Other Warning Settings</string>
   <string name="particulate_matter_exceeded">High</string>
   <string name="particulate_matter_not_exceeded">Normal</string>
   <string name="particulate_matter_serious_exceeded">Too high</string>
@@ -210,14 +199,11 @@ Tap the screen to manually add or reposition city"</string>
   <string name="precipitation_degree_two">Light</string>
   <string name="pressure_connect">%1$s mb</string>
   <string name="radar_cloud_image_title">Radar map</string>
-  <string name="rainfall_settings_summary">Rainfall Settings</string>
-  <string name="rainfall_settings_title">Rainfall Warning</string>
   <string name="realtime_aqi_title">Air Quality Index</string>
   <string name="realtime_humidity_title">Relative humidity</string>
   <string name="realtime_temperature_no_data">N/A</string>
   <string name="realtime_wind_default_title">Wind</string>
   <string name="refresh_fail">"Couldn't connect to network"</string>
-  <string name="reminder_from_xiaomi_weather_app">Reminder From Xiaomi Weather APP</string>
   <string name="retry">Try again</string>
   <string name="search_weather">Weather</string>
   <string name="search_weather_keywords">Temperature;Weather Forecast;Weather;Air Quality;Pollution Degree;Humidity</string>
@@ -266,9 +252,6 @@ Tap the screen to manually add or reposition city"</string>
   <string name="unit">Unit</string>
   <string name="unit_temperature">Temperature units</string>
   <string name="unit_wind">Wind speed units</string>
-  <string name="update_night_setting_summary_text">Will not update automatically 23:00-07:00 after closed</string>
-  <string name="update_night_setting_title_text">Update Automatically At Night</string>
-  <string name="update_setting_title_text">Update Settings</string>
   <string name="video_dialog_no_play"/>
   <string name="video_dialog_play"/>
   <string name="video_dialog_subtitle"/>
@@ -283,5 +266,4 @@ Tap the screen to manually add or reposition city"</string>
   <string name="xiaomi_weather_description_content">"Weather provides you with accurate weather info. Without this app, status bar and Home screen Weather widget won't work properly. Make sure you can do without these features before you uninstall the app."</string>
   <string name="xiaomi_weather_description_title">About Weather</string>
   <string name="yes_vote_ratio">For %1$s%%</string>
-  <string name="your_location">Your location</string>
 </resources>
