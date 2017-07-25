@@ -22,6 +22,7 @@
   <string name="activity_main_update_time">Updated %1$s</string>
   <string name="activity_main_update_time_expire">Data expired</string>
   <string name="activity_main_update_time_right_now">just now</string>
+  <string name="activity_minute_rain_location_fail_msg">Locating failed, default location of map is Beijing</string>
   <string name="activity_weathermain_locationg">Locating…</string>
   <string name="activity_weathermain_locationg_error">"Can't locate"</string>
   <string name="add_city">Add</string>
