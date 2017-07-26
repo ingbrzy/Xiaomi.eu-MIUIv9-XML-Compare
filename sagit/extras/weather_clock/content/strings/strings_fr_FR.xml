@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEEE, d MMMM</string>
+    <string name="date_time">EEEE d MMMM</string>
     <string name="language">en</string>
-    <string name="desc_date_format">EEEE, d MMMM</string>
+    <string name="desc_date_format">EEEE d MMMM</string>
     <string name="desc_time">'heure actuelle' + #hour12+' '+ifelse(#minute,#minute,'oclock')+', appuyez deux fois pour ouvrir l'horloge'</string>
-    <string name="weather_type_0">Ciel dégagé</string>
+    <string name="weather_type_0">Dégagé</string>
     <string name="weather_type_1">Nuageux</string>
     <string name="weather_type_2">Couvert</string>
     <string name="weather_type_3">Brumeux</string>
