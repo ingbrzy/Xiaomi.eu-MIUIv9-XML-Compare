@@ -50,7 +50,10 @@
   <string name="album_jump_failed">Wait until albums are synced with Mi Cloud ​​and try again</string>
   <string name="album_member">Album members %s</string>
   <string name="album_name">Album name</string>
+  <string name="album_name_locations">Locations</string>
+  <string name="album_name_people">People</string>
   <string name="album_name_recent_discovery">Recent</string>
+  <string name="album_name_tags">Tags</string>
   <string name="album_others_share_baby_info_format">Baby album from %s</string>
   <string name="album_others_share_info_format">From %s</string>
   <string name="album_owner_share">Shared</string>
@@ -696,6 +699,7 @@
   <string name="empty_recommend_back">Back</string>
   <string name="empty_recommend_face_page_view">No more recommendations</string>
   <string name="empty_relation">"Group name can't be blank"</string>
+  <string name="empty_title_no_photos">No photos or videos</string>
   <string name="enable_auto_upload_tip">Turn on sync with Mi Cloud for this album?</string>
   <string name="enable_auto_upload_title">Turn on sync with Mi Cloud</string>
   <string name="enable_cloud_for_sharing">Turn on Mi Cloud albums to view shared photos.</string>
@@ -728,7 +732,7 @@
   <string name="face_album_empty">"Not enough photos to recognize people.
 Take more photos of your friends!"</string>
   <string name="face_album_empty_syncing">Syncing data, come back in a while</string>
-  <string name="face_album_empty_syncing_when_connect_wifi">Connect to WLAN to sync info</string>
+  <string name="face_album_empty_syncing_when_connect_wifi">Connect to network to sync info</string>
   <string name="face_album_long_tap_tip">To select multiple people or change group settings, press &amp; hold a profile photo</string>
   <string name="face_album_new_name_hint">New name</string>
   <string name="face_album_not_named">Unnamed</string>
@@ -787,7 +791,7 @@ Take more photos of your friends!"</string>
   <string name="has_invalid_recipient">Invalid recipients: %1$s</string>
   <string name="have_known">Got it</string>
   <string name="hidden_album_display_name">Hidden album</string>
-  <string name="home_page_empty">Empty</string>
+  <string name="home_page_empty_action">Take a photo</string>
   <string name="home_page_label">Photos</string>
   <string name="how_to_set_relation">Press &amp; hold an album to create a group</string>
   <string name="hybrid_check_network">Network settings</string>
@@ -941,7 +945,10 @@ Take more photos of your friends!"</string>
   <string name="other_album">Other albums</string>
   <string name="other_settings">Additional settings</string>
   <string name="owner_album_subtitle">Shared with %1$s people</string>
+  <string name="people_album_empty_title">Photos can be sorted by people in them</string>
   <string name="people_jump_failed">Wait until photos with people are synced with Mi Cloud and try again</string>
+  <string name="people_mark_mode_title">Select \"%s\"</string>
+  <string name="people_mark_mode_title_no_mark_name">Select a person</string>
   <string name="people_page_label">People</string>
   <string name="people_page_unname">Unnamed</string>
   <string name="percent_sign">%</string>
@@ -968,6 +975,7 @@ Take more photos of your friends!"</string>
   <string name="picker_title_format">You can select %d photos</string>
   <string name="picker_title_selection_format">Selected photos: %d</string>
   <string name="picker_title_unlimit">Select photos</string>
+  <string name="places_album_empty_title">Photos can be sorted by location</string>
   <string name="preparing_data">Just a sec…</string>
   <string name="projection_checkbox_text">Remember this display</string>
   <string name="projection_device_connection_failed">"Couldn't connect projector"</string>
@@ -983,6 +991,7 @@ Take more photos of your friends!"</string>
   <string name="publish_succeeded">Album published</string>
   <string name="publishing">Publishing…</string>
   <string name="quotation">\"%s\"</string>
+  <string name="recent_album_empty_title">"Haven't added new photos recently"</string>
   <string name="recipient_editor_count_format">%d</string>
   <string name="recommanded_face_abandon_tip">Removed from suggestions</string>
   <string name="recommanded_face_added_tip">Added to \"%s\"</string>
@@ -1030,7 +1039,6 @@ Take more photos of your friends!"</string>
   <string name="scan_barcode_guide">"To get album's QR code, tap the Share icon."</string>
   <string name="scan_barcode_to_join">Scan QR code to add album</string>
   <string name="scan_qr_code_buttom_text">Scan QR code to view this album</string>
-  <string name="search_album_jump_failed">Wait until albums are synced with Mi Cloud and try again</string>
   <string name="search_backup_full_screen">Turn on sync with Mi Cloud to find more objects and people</string>
   <string name="search_backup_now">Turn on</string>
   <string name="search_backup_sub_title">Turn on to find more images</string>
@@ -1046,15 +1054,22 @@ Take more photos of your friends!"</string>
   <string name="search_login_sub_title">Sign in to find more photos</string>
   <string name="search_login_title">Mi Account</string>
   <string name="search_login_title_full_screen">Sign in with your Mi Account to find more objects and people</string>
-  <string name="search_people_jump_failed">Wait until photos with people are synced with Mi Cloud and try again</string>
+  <string name="search_net_error">A network error occurred. Connect to a different network and try again.</string>
+  <string name="search_request_open">Join testing team</string>
   <string name="search_result_empty">"Couldn't find anything"</string>
   <string name="search_retry">Try again</string>
+  <string name="search_select_network">Select network</string>
   <string name="search_set_network_connection">Network settings</string>
+  <string name="search_setting_sub_title">Improved image search</string>
+  <string name="search_setting_sub_title_open">Approved. Wait a while before you start.</string>
+  <string name="search_setting_title">Find photos in Gallery</string>
+  <string name="search_title_album">Album</string>
   <string name="search_title_history">Search history</string>
   <string name="search_title_location">Locations</string>
   <string name="search_title_others">All results</string>
   <string name="search_title_people">People</string>
   <string name="search_title_recommend">Recommended</string>
+  <string name="search_title_suggestion">Suggestions</string>
   <string name="search_title_tag">Objects</string>
   <string name="search_transition_element_icon">search_icon</string>
   <string name="search_transition_element_input">search_input</string>
@@ -1090,6 +1105,7 @@ Take more photos of your friends!"</string>
   <string name="set_face_image">Set a new profile pic</string>
   <string name="set_group">Set group</string>
   <string name="set_wallpaper_get_image_failed">"Couldn't download image, try again later"</string>
+  <string name="setup_network_connection">Network settings</string>
   <string name="share">Share</string>
   <string name="share_album">Share album</string>
   <string name="share_album_needs_auto_upload_tip">"Can't turn off backups for shared albums"</string>
@@ -1145,6 +1161,7 @@ Take more photos of your friends!"</string>
   <string name="text_append_hint">Enter text</string>
   <string name="text_append_style">Bubble</string>
   <string name="text_append_transparent">Opacity</string>
+  <string name="things_album_empty_title">Photos can be sorted by objects in them</string>
   <string name="tip_capture_location">Location:</string>
   <string name="tip_capture_params">EXIF data:</string>
   <string name="tip_capture_time">Taken on:</string>

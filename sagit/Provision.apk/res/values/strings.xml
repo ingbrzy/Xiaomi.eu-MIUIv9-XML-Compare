@@ -20,6 +20,7 @@
   <string name="enable_accessibility_dialog_message">You turned on TalkBack by pressing the screen with 2 fingers for more than 10 seconds. TalkBack provides voice feedback for people with visual impairments. If you turned it on by accident, tap the Cancel button, and then double tap the screen.</string>
   <string name="enable_accessibility_dialog_negative_btn">Cancel</string>
   <string name="enable_accessibility_dialog_positive_btn">OK</string>
+  <string name="fail_to_generate_qr_code">Fail to generate QR code, please reenter this page.</string>
   <string name="ime_privacy_policy">Privacy Policy for selected keyboard</string>
   <string name="ime_privacy_policy_no_network">No network connection. View the Privacy Policy for this keyboard at %s.</string>
   <string name="input_method_category">"Choose the default keyboard that you'll use for writing messages, notes, and just about everything else. Note that you can install other third-party keyboards later."</string>
@@ -65,6 +66,8 @@ View the selected keyboard's Privacy Policy."</string>
 
 You must agree to our Terms of Service and Privacy Policy before you can use MIUI. During the activation, Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen modules, Game Service, MAB and MSA system components, Direct Service, Quick Card, statistic, and Mi Account components will connect to the internet and acquire your location."</string>
   <string name="title_fingerprint">Add your fingerprint</string>
+  <string name="two_dimensional_code_scan">QR code scan</string>
   <string name="user_agreement">Terms of Service</string>
+  <string name="user_strayed_warning">The page is designed for factory test, Click back button to exit.</string>
   <string name="welcome">Welcome</string>
 </resources>
