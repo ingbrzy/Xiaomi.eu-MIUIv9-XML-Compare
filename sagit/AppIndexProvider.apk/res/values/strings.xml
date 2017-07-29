@@ -27,7 +27,7 @@
      <string name="Dashboard_Perm_SU_Disabled_In_Stable_Download">MIUI herunterladen</string>
      <string name="Dashboard_Perm_SU_Disabled_In_Stable_URL">http://miui.eu</string>
      <string name="Dashboard_Perm_SU_Switch">Rootzugriff</string>
-     <string name="default_permission_description">perform an unknown action</string>     
+     <string name="default_permission_description">Eine unbekannte Aktion durchführen</string>     
      <string name="Generic_Canceling">Abbrechen…</string>
      <string name="Generic_Check">Prüfen</string>
      <string name="Generic_Clean">Säubern</string>
