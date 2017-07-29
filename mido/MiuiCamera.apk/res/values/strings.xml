@@ -531,6 +531,8 @@ with more clear main body and more beautiful portrait"</string>
   <string name="pref_video_time_lapse_frame_interval_title">Time lapse interval</string>
   <string name="preparing_sd">Checking internal storage…</string>
   <string name="record_back_pressed_hint">Touch again to stop recording</string>
+  <string name="screen_on_proximity_sensor_hint">To turn this feature off, press the Volume up and Back buttons simultaneously.</string>
+  <string name="screen_on_proximity_sensor_summary">"Don't cover the earphone area"</string>
   <string name="search_settings">Camera settings;Quality;Image quality;Image location;Picture location;Face detection;Camera sound</string>
   <string name="see_qrcode_detals">View QR code details</string>
   <string name="simple_mode_button_asd_flash">Turn off Flash capture</string>
