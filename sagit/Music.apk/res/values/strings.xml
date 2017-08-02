@@ -831,8 +831,13 @@ is mainly provided by Ultimate Inc."</string>
   <string name="talkback_download">Download</string>
   <string name="talkback_favorite">Like this song</string>
   <string name="talkback_mode">Loop playlist</string>
+  <string name="talkback_mode_repeat_all">List loop mode</string>
+  <string name="talkback_mode_repeat_current">Single loop mode</string>
+  <string name="talkback_mode_repeat_shuffle">Random play mode</string>
   <string name="talkback_more">More menus</string>
   <string name="talkback_next">Next song</string>
+  <string name="talkback_nowplaying_bar">Play Bar</string>
+  <string name="talkback_nowplaying_circle">Play Circle</string>
   <string name="talkback_play">Play / Pause</string>
   <string name="talkback_pre">Previous song</string>
   <string name="talkback_progress">Progress bar</string>

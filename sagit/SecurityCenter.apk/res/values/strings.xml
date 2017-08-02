@@ -125,6 +125,10 @@ or enter App lock password"</string>
   <string name="app_install_tips_go_to">Open</string>
   <string name="app_install_tips_install_success">Installed %1$s successfully</string>
   <string name="app_maanger_app_uninstalled_toast">This app is uninstalled</string>
+  <string name="app_manager_app_ifno_version">App version</string>
+  <string name="app_manager_app_info_label">App info</string>
+  <string name="app_manager_app_info_name">App name</string>
+  <string name="app_manager_app_info_pkg">APK name</string>
   <string name="app_manager_app_lock">App lock</string>
   <string name="app_manager_app_power">"Battery usage: "</string>
   <string name="app_manager_app_storage">"Storage: "</string>
@@ -138,6 +142,7 @@ or enter App lock password"</string>
   <string name="app_manager_clear_data_dlg_title">Delete app data?</string>
   <string name="app_manager_clear_failed_dlg_message">Couldn’t clear data for app.</string>
   <string name="app_manager_clear_failed_dlg_title">Clear data</string>
+  <string name="app_manager_copy_pkg_to_clip">Copied to clipboard</string>
   <string name="app_manager_default_close_summary">No defaults set.</string>
   <string name="app_manager_default_open">Open by default</string>
   <string name="app_manager_default_open_summary">You’ve chosen to launch this app by default for some actions.</string>
@@ -154,6 +159,7 @@ or enter App lock password"</string>
   <string name="app_manager_force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
   <string name="app_manager_force_stop_dlg_title">Force stop?</string>
   <string name="app_manager_have_not_consume">None</string>
+  <string name="app_manager_hide_system_server">Hide system services</string>
   <string name="app_manager_instruction">Instruction</string>
   <string name="app_manager_loading_data">Loading data…</string>
   <string name="app_manager_manage_space">Manage space</string>
@@ -182,6 +188,7 @@ or enter App lock password"</string>
   <string name="app_manager_reduce_wakepath_dialog">Minimize chain start</string>
   <string name="app_manager_reduce_wakepath_summary">Restricting autostart will minimize chain start. Restrict autostart for %s?</string>
   <string name="app_manager_reject_count_over">Blocked 100000+ times</string>
+  <string name="app_manager_show_all_apps">Show all apps</string>
   <string name="app_manager_show_detail_infos">View all</string>
   <string name="app_manager_sort">Sort by</string>
   <string name="app_manager_start_by">Started by %s</string>

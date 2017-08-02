@@ -228,6 +228,7 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="debug_monitoring_category">Monitoring</string>
   <string name="debug_networking_category">Networking</string>
   <string name="debug_view_attributes">Enable view attribute inspection</string>
+  <string name="demo_mode">Demo mode</string>
   <string name="description_direction_left">Swipe left for %s.</string>
   <string name="description_direction_up">Swipe up for %s.</string>
   <string name="description_target_search">Search</string>
@@ -481,6 +482,7 @@ Use only the supplied charger."</string>
   <string name="screenshot_dlg_delete_button">Delete</string>
   <string name="screenshot_edit">Edit</string>
   <string name="screenshot_failed_text">"Can't take screenshot due to limited storage space or the app forbid that."</string>
+  <string name="screenshot_insert_failed">Fail to load the screenshot, please retake a new one or view the picture in the album</string>
   <string name="screenshot_long_screenshot">Scroll</string>
   <string name="screenshot_saved_text">Tap to view your screenshot.</string>
   <string name="screenshot_saved_title">Screenshot captured</string>
@@ -506,6 +508,7 @@ Use only the supplied charger."</string>
   <string name="show_all_anrs_summary">Show App Not Responding dialog for background apps</string>
   <string name="show_cpu_usage">Show CPU usage</string>
   <string name="show_cpu_usage_summary">Screen overlay showing current CPU usage</string>
+  <string name="show_demo_mode">Show demo mode</string>
   <string name="show_hw_layers_updates">Show hardware layers updates</string>
   <string name="show_hw_layers_updates_summary">Flash hardware layers green when they update</string>
   <string name="show_hw_screen_updates">Show GPU view updates</string>
