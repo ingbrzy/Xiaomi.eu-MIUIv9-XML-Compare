@@ -91,8 +91,8 @@ or enter App lock password"</string>
   <string name="antivirus_choose_engine_dialog_title">Choose definitions</string>
   <string name="antivirus_choose_engine_settings">Virus definition settings</string>
   <string name="antivirus_choose_engine_title">Definitions</string>
-  <string name="antivirus_longtime_no_update">Looks like your virus definitions are old. Regular updates help to gat better scanning results. Allow Security to connect to the internet and update virus definitions?</string>
-  <string name="antivirus_longtime_no_update1">Looks like your virus definitions are old. Regular updates help to gat better scanning results. Update definitions and try again.</string>
+  <string name="antivirus_longtime_no_update">Looks like your virus definitions are old. Regular updates help to get better scanning results. Allow Security to connect to the internet and update virus definitions?</string>
+  <string name="antivirus_longtime_no_update1">Looks like your virus definitions are old. Regular updates help to get better scanning results. Update definitions and try again.</string>
   <string name="antivirus_monitor_btn_text_clean_risk">Delete risky apps</string>
   <string name="antivirus_monitor_btn_text_clean_virus">Delete viruses</string>
   <string name="antivirus_monitor_clean_tips">Deleted items: %s</string>
@@ -108,10 +108,10 @@ or enter App lock password"</string>
   <string name="antivirus_privacy_dialog_title">Privacy Policy</string>
   <string name="antivirus_sec_network_unavailable">"Security app can't update because you've restricted the internet connection. Allow Security to connect to the internet?"</string>
   <string name="antivirus_toast_already_update">Up to date</string>
-  <string name="antivirus_toast_network_unavailable">Couldn’t connect to the network</string>
-  <string name="antivirus_toast_update_failed">Couldn’t update</string>
+  <string name="antivirus_toast_network_unavailable">"Couldn't connect to the network"</string>
+  <string name="antivirus_toast_update_failed">"Couldn't update"</string>
   <string name="antivirus_toast_update_success">Updated successfully</string>
-  <string name="antivirus_toast_updating">Updating...</string>
+  <string name="antivirus_toast_updating">Updating…</string>
   <string name="antivirus_update_btn_contiue">Continue</string>
   <string name="antivirus_update_btn_open">Allow</string>
   <string name="antivirus_update_btn_update">Update</string>
@@ -165,7 +165,7 @@ or enter App lock password"</string>
   <string name="app_manager_manage_space">Manage space</string>
   <string name="app_manager_menu_clear_data">Clear data</string>
   <string name="app_manager_net_control_title">Restrict data usage</string>
-  <string name="app_manager_net_mobile">Mobile</string>
+  <string name="app_manager_net_mobile">Data</string>
   <string name="app_manager_net_wifi">WLAN</string>
   <string name="app_manager_not_record">"Couldn't find apps which require permissions"</string>
   <string name="app_manager_notify_bar">Badges</string>
@@ -747,8 +747,8 @@ in case you forget it"</string>
   <string name="handle_bar_summary_wifi_unknown">Unknown</string>
   <string name="handle_bar_title_system">System</string>
   <string name="handle_title_network">WLAN Security</string>
-  <string name="handle_title_pay_env">Pay Environment</string>
-  <string name="handle_title_privacy">Privacy Security</string>
+  <string name="handle_title_pay_env">Payment environment</string>
+  <string name="handle_title_privacy">Privacy &amp; security</string>
   <string name="hide_mode_app_background_setting_text">App battery saver</string>
   <string name="hide_mode_summary_text">"Manage apps' background activity to save battery"</string>
   <string name="hide_system_app">Hide system apps</string>
@@ -756,8 +756,8 @@ in case you forget it"</string>
   <string name="hints_handle_item_text_virus">Danger</string>
   <string name="hints_input_roaming_daily_limit">Enter data usage limit</string>
   <string name="hints_loading_text">Loading…</string>
-  <string name="hints_scan_danger_result">risk found, fix now</string>
-  <string name="hints_scan_result_no_finish">Scan is not finished. Click to restart.</string>
+  <string name="hints_scan_danger_result">Risk found, fix now</string>
+  <string name="hints_scan_result_no_finish">"Scan isn't finished. Tap to start over."</string>
   <string name="hints_scan_result_phone_safe">Everything looks good</string>
   <string name="hints_scan_result_safe">Safe</string>
   <string name="hints_scanning">Scanning…</string>
@@ -1772,7 +1772,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="start_game">Start</string>
   <string name="start_tc_button">Calibrate</string>
   <string name="suggest_app_tolock">Suggestions</string>
-  <string name="suggest_scan_again">It is proposed to scan completely to ensure security.</string>
+  <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
   <string name="summary_app_lock_disable">Protect your data with App lock</string>
   <string name="summary_auto_update">MIUI will select the most suitable time to download and install updates.</string>
   <string name="summary_cleaner_cloudscan">Upload and compare folder names with online definitions</string>
@@ -2081,7 +2081,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="use_immediately">Use</string>
   <string name="user_define_title">Add rules</string>
   <string name="virus_ad_icon_text">Ad</string>
-  <string name="virus_auto_update_engine">Auto Update：%s</string>
+  <string name="virus_auto_update_engine">Auto updates：%s</string>
   <string name="virus_scan_process_pre">%</string>
   <string name="virus_update_tips_title">Connect to WLAN</string>
   <string name="virus_wait_network_dialog_message">Updates are big. Connect to WLAN to download them.</string>

@@ -32,6 +32,7 @@
 Battery saver will treat important apps selectively."</string>
   <string name="config_suggest_suffix_title">MIUI Battery saver (recommended)</string>
   <string name="config_suggest_title">MIUI Battery saver</string>
+  <string name="confirm">Confirm</string>
   <string name="disable_hide_mode">Disable MIUI Battery Saver</string>
   <string name="disable_hide_mode_warning">Disable MIUI Battery Saver may cause more power consumption</string>
   <string name="disabled">Off</string>
@@ -50,6 +51,7 @@ Battery saver will treat important apps selectively."</string>
   <string name="hide_system_app">Hide system apps</string>
   <string name="high">Performance</string>
   <string name="hints_loading_text">Just a sec…</string>
+  <string name="important_warning">Warning</string>
   <string name="invalid_size_value">"Couldn't get package size."</string>
   <string name="location_disable_description">Apps in the background can only access location services for a brief period of time while continuous access is restricted</string>
   <string name="location_disable_title">Restrict</string>
@@ -182,4 +184,5 @@ Battery saver will treat important apps selectively."</string>
   <string name="vip_feedback">Vip Feedback</string>
   <string name="vip_feedback_enable">Enable Vip Auto Feedback</string>
   <string name="warm_configure">Warm control configure</string>
+  <string name="warm_performance_tip">In high load scenarios, the cell phone temperature is higher than the default mode</string>
 </resources>
