@@ -1509,7 +1509,7 @@ This setting affects all users on this phone."</string>
   <string name="enable_service_password_reason">Because turning on %1$s affects data encryption, you need to confirm your password.</string>
   <string name="enable_service_pattern_reason">Because turning on %1$s affects data encryption, you need to confirm your pattern.</string>
   <string name="enable_service_pin_reason">Because turning on %1$s affects data encryption, you need to confirm your PIN.</string>
-  <string name="enable_service_title">Use %1$s?</string>
+  <string name="enable_service_title">The service will perform these actions:</string>
   <string name="enable_snapshot_screenlock">Long press Back to take photo</string>
   <string name="enable_terminal_summary">Enable terminal app that offers local shell access</string>
   <string name="enable_terminal_title">Local terminal</string>
@@ -2735,9 +2735,9 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="open_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
   <string name="open_personal_assistant_dialog_btn_cancel">Cancel</string>
   <string name="open_personal_assistant_dialog_btn_confirm">Close</string>
-  <string name="open_personal_assistant_dialog_desc">"You won't be able to use Smart assistant and receive its updates. Turn off now?"</string>
-  <string name="open_personal_assistant_dialog_title">Turn off Smart assistant</string>
-  <string name="open_personal_assistant_title">Turn on Smart assistant</string>
+  <string name="open_personal_assistant_dialog_desc">"You won't be able to use QuickCard and receive its updates. Turn off now?"</string>
+  <string name="open_personal_assistant_dialog_title">Turn off QuickCard</string>
+  <string name="open_personal_assistant_title">Turn on QuickCard</string>
   <string name="open_sdcard_optimization_title">open emulated sdcard optimization</string>
   <string name="open_sdcard_optimization_warning_message">Your device will reboot to apply this change.</string>
   <string name="open_wifi_connect_summary">Tap to view details.</string>
