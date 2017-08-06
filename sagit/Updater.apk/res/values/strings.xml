@@ -11,11 +11,9 @@
   <string name="btn_share">Share</string>
   <string name="btn_yes">Yes</string>
   <string name="check_new_version">Check</string>
-  <string name="download_chlog">%1$s</string>
   <string name="download_done">Successfully downloaded!</string>
   <string name="download_fail">Error while downloading!</string>
   <string name="download_fail_desc">MD5 Sum does not match…</string>
-  <string name="download_md5">MD5: %1$s</string>
   <string name="downloading">Downloading…</string>
   <string name="downloading_desc">Downloading in progress, check status in notification area.</string>
   <string name="install_desc">"Device will reboot to recovery and install chosen file: %1$s
@@ -24,7 +22,6 @@ Data will not be wiped."</string>
   <string name="menu_title_current_version_log">What is new?</string>
   <string name="menu_title_pick_rom_file">Choose update package</string>
   <string name="menu_title_recovery">Reboot to Recovery mode</string>
-  <string name="new_desc">%1$s</string>
   <string name="new_version">New version found!</string>
   <string name="no_network">No network access.</string>
   <string name="no_update">You already up to date!</string>
@@ -40,11 +37,6 @@ Data will not be wiped."</string>
   <string name="pick_title">Pick using:</string>
   <string name="recovery_desc">Device will reboot to Recover mode now if you are not familiar with the mode cancel future actions. Continue?</string>
   <string name="server_error">Server not responding, application might not work properly!</string>
-  <string name="share_desc">Your MIUI version has been updated to %1$s, check latest changelog at: https://xiaomi.eu/community/link-forums/rom-downloads.73/</string>
   <string name="share_title">Share with</string>
-  <string name="unit" formatted="false">%1$s %</string>
-  <string name="url_down">https://miuipolska.pl/d/xiaomi.eu/xiaomi.eu_multi_%2$s_%1$s_v9-%3$s.zip</string>
-  <string name="url_down_bak">https://netcologne.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-WEEKLY-RELEASES/%1$s/xiaomi.eu_multi_%2$s_%1$s_v9-%3$s.zip</string>
   <string name="version">Currently installed:</string>
-  <string name="version_type">MIUI 9 | %1$s | (%2$s)</string>
 </resources>
