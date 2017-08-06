@@ -38,5 +38,7 @@ Data will not be wiped."</string>
   <string name="recovery_desc">Device will reboot to Recover mode now if you are not familiar with the mode cancel future actions. Continue?</string>
   <string name="server_error">Server not responding, application might not work properly!</string>
   <string name="share_title">Share with</string>
+  <string name="stable">stable</string>
   <string name="version">Currently installed:</string>
+  <string name="weekly">weekly</string>
 </resources>
