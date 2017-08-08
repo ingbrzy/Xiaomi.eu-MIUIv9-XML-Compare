@@ -54,6 +54,8 @@
   <string name="app_name">指纹测试</string>
   <string name="app_name_far_frr">FRR/FAR测试</string>
   <string name="app_name_goodix">Goodix指纹测试</string>
+  <string name="audio_spk_cal_wait">Calibration, please...</string>
+  <string name="audio_spk_def">Calibrate the speakers, please</string>
   <string name="authenticate_category">识别策略</string>
   <string name="authenticate_time">识别耗时:</string>
   <string name="authentication_failed">识别失败</string>

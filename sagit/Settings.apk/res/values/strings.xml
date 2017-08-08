@@ -4334,6 +4334,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="turn_off_common_password_confirm_msg">Screen lock will be turned off as well.</string>
   <string name="turn_off_keyguard_password_alert_title">Turn off</string>
   <string name="turn_off_keyguard_password_confirm_msg">"Some security features won't work without your password."</string>
+  <string name="turn_off_keyguard_password_wait_dialog">Closing password</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">"You won't be able to unlock the device using your fingerprint after you turn off the password."</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg_delete">"After you turn off your Lock screen password, recorded fingerprints will be deleted. You won't be able to unlock the device using your fingerprint."</string>
   <string name="turn_off_security_lock">Turn off lock</string>
@@ -4341,6 +4342,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="turn_on_security_lock">Choose screen lock</string>
   <string name="turn_on_wifi_dialog_text">WLAN is turned off when Mobile HotSpot is active. To turn on WLAN, please turn off Mobile HotSpot.</string>
   <string name="turn_on_wifi_dialog_title">Turn on wifi</string>
+  <string name="turn_update_keyguard_password_wait_dialog">Modifying password</string>
   <string name="twohours">1 hours</string>
   <string name="under_keyguard">Screen off</string>
   <string name="uninstall_all_users_text">Uninstall for all users</string>
