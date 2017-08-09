@@ -179,6 +179,7 @@ to enter Second space from Lock screen"</string>
   <string name="scanner_fingerprint_tips_desc">"Select existing fingerprint to enter Second space. You won't be able to use it in First space."</string>
   <string name="scanner_fingerprint_tips_title">Enter Second space using existing fingerprint</string>
   <string name="scanner_second_space_fingerprint">Scan Second space fingerprint</string>
+  <string name="sdcardfs_dialog_message">进入分身前需要在开发者选项中关闭”模拟SD卡优化“</string>
   <string name="search_input_txt_na">"&lt;font color='#ff0000'&gt;%s&lt;/font&gt;"</string>
   <string name="search_result_text">"Couldn't find any apps"</string>
   <string name="secondSpace">Second space</string>

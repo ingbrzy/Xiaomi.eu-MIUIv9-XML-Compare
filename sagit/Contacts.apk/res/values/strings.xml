@@ -88,6 +88,7 @@
   <string name="call_radio">Call radio</string>
   <string name="call_record_setting_miui">Record settings</string>
   <string name="call_settings">Settings</string>
+  <string name="call_settings_primary_user_only">Call settings can only be changed by the primary user.</string>
   <string name="call_sim1_description">SIM 1</string>
   <string name="call_sim1_menu_title">Dial on SIM 1</string>
   <string name="call_sim2_description">SIM 2</string>
@@ -1205,10 +1206,12 @@ To add a contact to your list of favorites:
   <string name="type_outgoing">Outgoing call</string>
   <string name="type_voicemail">Voicemail</string>
   <string name="unable_get_device_id">Unable to get IMEI</string>
+  <string name="unfold_all">unfold all</string>
   <string name="unknow_phone_number_call_failed">"Can't call unknown number"</string>
   <string name="unknow_phone_number_mms_failed">"Can't send message to unknown number"</string>
   <string name="unknown">Unknown</string>
   <string name="unknown_contact_name">Unknown contact</string>
+  <string name="unknown_details_new_contact">New contact</string>
   <string name="update_sim_contact_photo_toast">"Can't set profile photos for SIM contacts"</string>
   <string name="upgrade_in_progress">Contact list is being updated.</string>
   <string name="upgrade_out_of_memory">"Contacts are in the process of being upgraded. 

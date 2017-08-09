@@ -60,6 +60,8 @@
 
 .field public static final IS_D6S:Z
 
+.field public static final IS_E7:Z
+
 .field public static final IS_H2XLTE:Z
 
 .field public static final IS_H2X_LC:Z
@@ -614,6 +616,16 @@
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_D6S:Z
 
+    const-string/jumbo v0, "vince"
+
+    sget-object v2, Lmiui/os/Build;->DEVICE:Ljava/lang/String;
+
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    sput-boolean v0, Lcom/android/camera/Device;->IS_E7:Z
+
     const-string/jumbo v0, "is_hongmi"
 
     invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
@@ -805,6 +817,24 @@
     sget-object v2, Lcom/android/camera/Device;->sFpNavEventNameList:Ljava/util/ArrayList;
 
     return-object v2
+.end method
+
+.method public static is18x9RatioScreen()Z
+    .locals 1
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_D5:Z
+
+    if-nez v0, :cond_0
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_E7:Z
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    goto :goto_0
 .end method
 
 .method public static isCaptureStopFaceDetection()Z
