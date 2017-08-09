@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="status_bar_settings_disabled_header_title">
-        <item quantity="other">"%s apps can't show notifications"</item>
-        <item quantity="one">"1 app can't show notifications"</item>
+        <item quantity="other">"%d apps can't show notifications"</item>
+        <item quantity="one">"%d app can't show notifications"</item>
     </plurals>
     <plurals name="status_bar_settings_enabled_header_title">
-        <item quantity="other">%s apps can show notifications</item>
-        <item quantity="one">1 app can show notifications</item>
+        <item quantity="other">%d apps can show notifications</item>
+        <item quantity="one">%d app can show notifications</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
         <item quantity="other">%1$d toggles placed above bar are active</item>
-        <item quantity="one">1 toggle placed above bar are active</item>
+        <item quantity="one">%1$d toggle placed above bar are active</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">You are now %1$d steps away from being a developer.</item>

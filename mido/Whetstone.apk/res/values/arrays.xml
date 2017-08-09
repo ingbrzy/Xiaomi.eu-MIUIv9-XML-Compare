@@ -54,6 +54,7 @@
         <item>com.lbe.security.miui</item>
         <item>com.google.android.marvin.talkback</item>
         <item>com.android.updater</item>
+        <item>org.simalliance.openmobileapi.service</item>
     </string-array>
     <string-array name="deepclean_no_ui_white_list">
         <item>com.miui.powerkeeper</item>
@@ -84,6 +85,7 @@
         <item>com.miui.touchassistant</item>
         <item>com.google.android.marvin.talkback</item>
         <item>com.miui.powerkeeper</item>
+        <item>com.miui.virtualsim</item>
     </string-array>
     <string-array name="sleepstart_white_list">
         <item>com.android.incallui</item>
@@ -98,6 +100,7 @@
         <item>com.android.deskclock</item>
         <item>com.android.settings</item>
         <item>com.miui.securitycenter</item>
+        <item>com.miui.virtualsim</item>
     </string-array>
     <string-array name="sleepclean_normal_kill_list">
         <item>com.xiaomi.hm.health</item>
@@ -109,6 +112,9 @@
     <string-array name="push_service_list">
         <item>com.tencent.mobileqq/com.tencent.mobileqq.msf.service.MsfService</item>
         <item>com.tencent.mm/com.tencent.mm.booter.CoreService</item>
+    </string-array>
+    <string-array name="disable_autostart_list">
+        <item>com.android.incallui</item>
     </string-array>
     <string-array name="light_sleep_process_list">
         <item>com.tencent.mm/com.tencent.mm:push</item>

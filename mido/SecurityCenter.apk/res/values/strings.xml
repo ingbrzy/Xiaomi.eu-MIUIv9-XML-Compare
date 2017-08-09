@@ -15,10 +15,10 @@
   <string name="ac_firstUseApplock_title">Set a password to protect your apps</string>
   <string name="ac_summaryOff">Turned off, no password is required to open apps</string>
   <string name="ac_summaryOn">Turned on, password is required to open apps</string>
+  <string name="access_control_failed_need_to_unlock_nofingerprint">Password is required to open apps</string>
+  <string name="access_control_fingerprint_not_identified_msg">"Couldn't read fingerprint."</string>
   <string name="access_control_need_password">"%s added successfully
 "</string>
-  <string name="access_control_need_to_unlock">"Scan fingerprint
-or enter App lock password"</string>
   <string name="access_control_need_to_unlock_nofingerprint">Enter App lock password</string>
   <string name="accessibility_service_description"/>
   <string name="action_button_text_100">Optimize</string>
@@ -26,8 +26,6 @@ or enter App lock password"</string>
   <string name="action_button_text_60_80">Fix</string>
   <string name="action_button_text_80_100">Optimize</string>
   <string name="action_source_sms_title">Blocked SMS</string>
-  <string name="activate_fingerprint_dialog_message">"This fingerprint isn't active. Enter your password to activate this fingerprint."</string>
-  <string name="activate_fingerprint_dialog_title">Enter password</string>
   <string name="activity_title_antispam">Blocklist</string>
   <string name="activity_title_antivirus">Security scan</string>
   <string name="activity_title_apps_manager">Apps</string>
@@ -72,7 +70,7 @@ or enter App lock password"</string>
   <string name="adjust_traffic_carrier_summary_two_day_before">Updated 2 days ago</string>
   <string name="adjust_traffic_carrier_summary_yesterday">Updated yesterday at %s</string>
   <string name="adjust_traffic_data">Set data usage</string>
-  <string name="after_the_lock_screen">"App is locked together with the screen, you can change this in App lock's settings."</string>
+  <string name="after_the_lock_screen">App is locked together with the screen</string>
   <string name="alarm_headsup_bottom">小米手机抢红包就是快</string>
   <string name="alarm_lock_screen_summary">一大波红包雨在路上...</string>
   <string name="alarm_lockscreen_btn">开始抢红包</string>
@@ -91,8 +89,8 @@ or enter App lock password"</string>
   <string name="antivirus_choose_engine_dialog_title">Choose definitions</string>
   <string name="antivirus_choose_engine_settings">Virus definition settings</string>
   <string name="antivirus_choose_engine_title">Definitions</string>
-  <string name="antivirus_longtime_no_update">Looks like your virus definitions are old. Regular updates help to gat better scanning results. Allow Security to connect to the internet and update virus definitions?</string>
-  <string name="antivirus_longtime_no_update1">Looks like your virus definitions are old. Regular updates help to gat better scanning results. Update definitions and try again.</string>
+  <string name="antivirus_longtime_no_update">Looks like your virus definitions are old. Regular updates help to get better scanning results. Allow Security to connect to the internet and update virus definitions?</string>
+  <string name="antivirus_longtime_no_update1">Looks like your virus definitions are old. Regular updates help to get better scanning results. Update definitions and try again.</string>
   <string name="antivirus_monitor_btn_text_clean_risk">Delete risky apps</string>
   <string name="antivirus_monitor_btn_text_clean_virus">Delete viruses</string>
   <string name="antivirus_monitor_clean_tips">Deleted items: %s</string>
@@ -108,10 +106,10 @@ or enter App lock password"</string>
   <string name="antivirus_privacy_dialog_title">Privacy Policy</string>
   <string name="antivirus_sec_network_unavailable">"Security app can't update because you've restricted the internet connection. Allow Security to connect to the internet?"</string>
   <string name="antivirus_toast_already_update">Up to date</string>
-  <string name="antivirus_toast_network_unavailable">Couldn’t connect to the network</string>
-  <string name="antivirus_toast_update_failed">Couldn’t update</string>
+  <string name="antivirus_toast_network_unavailable">"Couldn't connect to the network"</string>
+  <string name="antivirus_toast_update_failed">"Couldn't update"</string>
   <string name="antivirus_toast_update_success">Updated successfully</string>
-  <string name="antivirus_toast_updating">Updating...</string>
+  <string name="antivirus_toast_updating">Updating…</string>
   <string name="antivirus_update_btn_contiue">Continue</string>
   <string name="antivirus_update_btn_open">Allow</string>
   <string name="antivirus_update_btn_update">Update</string>
@@ -125,6 +123,10 @@ or enter App lock password"</string>
   <string name="app_install_tips_go_to">Open</string>
   <string name="app_install_tips_install_success">Installed %1$s successfully</string>
   <string name="app_maanger_app_uninstalled_toast">This app is uninstalled</string>
+  <string name="app_manager_app_ifno_version">App version</string>
+  <string name="app_manager_app_info_label">App info</string>
+  <string name="app_manager_app_info_name">App name</string>
+  <string name="app_manager_app_info_pkg">APK name</string>
   <string name="app_manager_app_lock">App lock</string>
   <string name="app_manager_app_power">"Battery usage: "</string>
   <string name="app_manager_app_storage">"Storage: "</string>
@@ -138,6 +140,7 @@ or enter App lock password"</string>
   <string name="app_manager_clear_data_dlg_title">Delete app data?</string>
   <string name="app_manager_clear_failed_dlg_message">Couldn’t clear data for app.</string>
   <string name="app_manager_clear_failed_dlg_title">Clear data</string>
+  <string name="app_manager_copy_pkg_to_clip">Copied to clipboard</string>
   <string name="app_manager_default_close_summary">No defaults set.</string>
   <string name="app_manager_default_open">Open by default</string>
   <string name="app_manager_default_open_summary">You’ve chosen to launch this app by default for some actions.</string>
@@ -154,12 +157,13 @@ or enter App lock password"</string>
   <string name="app_manager_force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
   <string name="app_manager_force_stop_dlg_title">Force stop?</string>
   <string name="app_manager_have_not_consume">None</string>
+  <string name="app_manager_hide_system_server">Hide system services</string>
   <string name="app_manager_instruction">Instruction</string>
   <string name="app_manager_loading_data">Loading data…</string>
   <string name="app_manager_manage_space">Manage space</string>
   <string name="app_manager_menu_clear_data">Clear data</string>
   <string name="app_manager_net_control_title">Restrict data usage</string>
-  <string name="app_manager_net_mobile">Mobile</string>
+  <string name="app_manager_net_mobile">Data</string>
   <string name="app_manager_net_wifi">WLAN</string>
   <string name="app_manager_not_record">"Couldn't find apps which require permissions"</string>
   <string name="app_manager_notify_bar">Badges</string>
@@ -182,6 +186,7 @@ or enter App lock password"</string>
   <string name="app_manager_reduce_wakepath_dialog">Minimize chain start</string>
   <string name="app_manager_reduce_wakepath_summary">Restricting autostart will minimize chain start. Restrict autostart for %s?</string>
   <string name="app_manager_reject_count_over">Blocked 100000+ times</string>
+  <string name="app_manager_show_all_apps">Show all apps</string>
   <string name="app_manager_show_detail_infos">View all</string>
   <string name="app_manager_sort">Sort by</string>
   <string name="app_manager_start_by">Started by %s</string>
@@ -220,14 +225,15 @@ or enter App lock password"</string>
   <string name="application_item_already_permission">Allowed</string>
   <string name="application_item_disable">Restricted</string>
   <string name="applock_add_account">Add</string>
-  <string name="applock_add_account_info">"Add Mi Account to be able to reset your password
-in case you forget it"</string>
+  <string name="applock_add_account_info">Add your Mi Account to be able to reset your password in case you forget it.</string>
   <string name="applock_add_account_setting">Account &amp; privacy</string>
+  <string name="applock_bind_account_title">Resetting your password</string>
   <string name="applock_close_dialog_summary">Apps will no longer be protected and your password will be deleted after you turn off App lock.</string>
   <string name="applock_close_dialog_title">Turn off App lock?</string>
   <string name="applock_exit_account_info">Account will be removed automatically when you sign out</string>
+  <string name="applock_header_text_less_than_half">Too little space for this app. Drag the separator further.</string>
   <string name="applock_login_and_add_account">Sign in &amp; add</string>
-  <string name="applock_not_add_account">Not now</string>
+  <string name="applock_not_add_account">&lt;u&gt;Not now&lt;/u&gt;</string>
   <string name="applock_not_login_account">"You aren't signed in"</string>
   <string name="apps_item_sign_dialog_content">"%s's signature is different from the version in App Store. Delete this app and install the official version? Note: installing an app with a conflicting signature may lead to the loss of app data."</string>
   <string name="apps_item_sign_dialog_title">Install official app</string>
@@ -451,8 +457,6 @@ in case you forget it"</string>
   <string name="card_main_private_space_title">Second space</string>
   <string name="card_main_sectool_title">Tools</string>
   <string name="card_main_speeddetail_action">@string/card_main_monthreport_action</string>
-  <string name="card_main_speeddetail_title">Connection speed</string>
-  <string name="card_main_speeddetailt_summary">View connection speed for individual apps</string>
   <string name="card_main_xspace_action">Create</string>
   <string name="card_main_xspace_summary">Create dual accounts for any app</string>
   <string name="card_main_xspace_title">Dual apps</string>
@@ -486,7 +490,7 @@ in case you forget it"</string>
   <string name="cmd_lucky_float">摇一摇</string>
   <string name="confirmSecondSpacePassword">Confirm Second space password</string>
   <string name="confirm_bind_xiaomi_account_dialog_title">Adding Mi Account</string>
-  <string name="confirm_fingerprint_msg">Put your finger on the sensor</string>
+  <string name="confirm_fingerprint_msg">Verify your fingerprint</string>
   <string name="confirm_prompt_all_permission">Ask for permissions for all apps?</string>
   <string name="confirm_reject_all_permission">Restrict all apps from using this feature?</string>
   <string name="connect_internet_by_mobiledata">Mobile data connection</string>
@@ -643,8 +647,8 @@ in case you forget it"</string>
   <string name="exception_notify_message">网络统计模块异常，建议重启恢复</string>
   <string name="exception_titile">网络助手异常</string>
   <string name="exit">Exit</string>
-  <string name="finger_remind_message">You can also use your fingerprint with App lock.</string>
-  <string name="fingerprint_identify_msg">Scan your fingerprint</string>
+  <string name="finger_remind_message">Add your fingerprint first. Tap to open Settings.</string>
+  <string name="fingerprint_identify_msg">Turn on Fingerprint unlock</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_remind">"Don't ask again"</string>
   <string name="fingerprint_remind_dialog_title">Fingerprint unlock</string>
@@ -683,7 +687,8 @@ in case you forget it"</string>
   <string name="float_window_tips">小米手机就是快！</string>
   <string name="foreground_traffic">Foreground %s</string>
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
-  <string name="forget_pattern">&lt;u&gt;Forgot pattern?&lt;/u&gt;</string>
+  <string name="forget_password_button_text_normal">Forgot password</string>
+  <string name="forget_pattern">&lt;u&gt;Forgot password&lt;/u&gt;</string>
   <string name="free_time_traffic">Off-peak data limit</string>
   <string name="free_time_traffic_hint">Enter off-peak data limit</string>
   <string name="free_time_traffic_settings">Off-peak data limit</string>
@@ -740,8 +745,8 @@ in case you forget it"</string>
   <string name="handle_bar_summary_wifi_unknown">Unknown</string>
   <string name="handle_bar_title_system">System</string>
   <string name="handle_title_network">WLAN Security</string>
-  <string name="handle_title_pay_env">Pay Environment</string>
-  <string name="handle_title_privacy">Privacy Security</string>
+  <string name="handle_title_pay_env">Payment environment</string>
+  <string name="handle_title_privacy">Privacy &amp; security</string>
   <string name="hide_mode_app_background_setting_text">App battery saver</string>
   <string name="hide_mode_summary_text">"Manage apps' background activity to save battery"</string>
   <string name="hide_system_app">Hide system apps</string>
@@ -749,8 +754,8 @@ in case you forget it"</string>
   <string name="hints_handle_item_text_virus">Danger</string>
   <string name="hints_input_roaming_daily_limit">Enter data usage limit</string>
   <string name="hints_loading_text">Loading…</string>
-  <string name="hints_scan_danger_result">risk found, fix now</string>
-  <string name="hints_scan_result_no_finish">Scan is not finished. Click to restart.</string>
+  <string name="hints_scan_danger_result">Risk found, fix now</string>
+  <string name="hints_scan_result_no_finish">"Scan isn't finished. Tap to start over."</string>
   <string name="hints_scan_result_phone_safe">Everything looks good</string>
   <string name="hints_scan_result_safe">Safe</string>
   <string name="hints_scanning">Scanning…</string>
@@ -839,10 +844,12 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="lock_screen_warning_switch_summary">Show warning on lock screen when data usage exceeds a certain amount</string>
   <string name="lock_screen_warning_switch_title">Show warnings on lock screen</string>
   <string name="lock_screen_warning_value">Data usage warning</string>
+  <string name="lockpattern_access_need_to_unlock_wrong_fingerprint">"Couldn't recognize fingerprint, try again."</string>
+  <string name="lockpattern_access_need_to_unlock_wrong_pattern">Password is incorrect, try again.</string>
   <string name="lockpattern_confirm_button_text">OK</string>
   <string name="lockpattern_continue_button_text">Next</string>
   <string name="lockpattern_need_to_confirm">Draw the pattern again to confirm</string>
-  <string name="lockpattern_need_to_unlock_wrong">Try again</string>
+  <string name="lockpattern_need_to_unlock_wrong">"Passwords don't match, try again."</string>
   <string name="lockpattern_pattern_confirmed_header">New unlock pattern</string>
   <string name="lockpattern_pattern_entered_header">Pattern added</string>
   <string name="lockpattern_recording_incorrect_too_short">Connect at least %d dots</string>
@@ -1022,6 +1029,7 @@ to respond"</string>
   <string name="mi_service_traffic_detail">Framework details</string>
   <string name="mian_page_primary_txt">Overseas roaming</string>
   <string name="miliao_lucky_warning">米聊红包</string>
+  <string name="modify_password_mode">&lt;u&gt;Change password type&lt;/u&gt;</string>
   <string name="modifypassword">Change password</string>
   <string name="monitor_app_add">Add</string>
   <string name="monitor_app_more">More</string>
@@ -1227,9 +1235,11 @@ This activity shortens battery life."</string>
   <string name="package_setted_error_notification_titile">"Couldn't set data plan"</string>
   <string name="packages_subtitle">Included packages</string>
   <string name="passwordIncorrect">Username or password is incorrect</string>
-  <string name="password_forget_pattern_confirm">Back up data</string>
-  <string name="password_forget_pattern_message">"Back up your data locally, and then perform a factory data reset. After that, you'll be able to change your password."</string>
-  <string name="password_forget_pattern_title">Back up your data</string>
+  <string name="password_forget_pattern_confirm">Got it</string>
+  <string name="password_forget_pattern_message">Due to security reasons, you can only reset your password after a factory data reset. Tap to reset.</string>
+  <string name="password_forget_pattern_message_none">"Apps aren't locked. You can reset your password."</string>
+  <string name="password_forget_pattern_reset">Reset</string>
+  <string name="password_forget_pattern_title">Attention</string>
   <string name="password_promotion_not_login_xiaomi_account_message">Add your Mi Account to be able to reset your password in case you forget it.</string>
   <string name="password_promotion_postbutton_text">Add</string>
   <string name="password_promotion_title">Add Mi Account</string>
@@ -1578,7 +1588,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="set_applock_password">Set password</string>
   <string name="setting">Settings</string>
   <string name="setting_alarm_summary">各大平台官方红包活动闹钟提醒</string>
-  <string name="setting_privacy_password">Set App lock password</string>
+  <string name="setting_privacy_password">Add pattern</string>
   <string name="settings">Data usage settings</string>
   <string name="settings_battery_consume_abnormal_summary">Receive notifications when battery is being drained fast</string>
   <string name="settings_battery_consume_abnormal_title">Battery drain notifications</string>
@@ -1765,7 +1775,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="start_game">Start</string>
   <string name="start_tc_button">Calibrate</string>
   <string name="suggest_app_tolock">Suggestions</string>
-  <string name="suggest_scan_again">It is proposed to scan completely to ensure security.</string>
+  <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
   <string name="summary_app_lock_disable">Protect your data with App lock</string>
   <string name="summary_auto_update">MIUI will select the most suitable time to download and install updates.</string>
   <string name="summary_cleaner_cloudscan">Upload and compare folder names with online definitions</string>
@@ -2049,6 +2059,8 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="uninstall_app_dialog_title">Uninstall now?</string>
   <string name="uninstall_app_done">Uninstalled successfully</string>
   <string name="unlike">No thanks</string>
+  <string name="unlock_pattern">&lt;u&gt;Pattern&lt;/u&gt;</string>
+  <string name="unlock_pattern_to_bind_fingerprint">Enter password to activate fingerprint</string>
   <string name="updating_diagnostic_botton">Analyzing data…</string>
   <string name="usage_sorted_activity_lable">Data usage</string>
   <string name="usage_sorted_empty_text">Empty</string>
@@ -2074,7 +2086,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="use_immediately">Use</string>
   <string name="user_define_title">Add rules</string>
   <string name="virus_ad_icon_text">Ad</string>
-  <string name="virus_auto_update_engine">Auto Update：%s</string>
+  <string name="virus_auto_update_engine">Auto updates：%s</string>
   <string name="virus_scan_process_pre">%</string>
   <string name="virus_update_tips_title">Connect to WLAN</string>
   <string name="virus_wait_network_dialog_message">Updates are big. Connect to WLAN to download them.</string>

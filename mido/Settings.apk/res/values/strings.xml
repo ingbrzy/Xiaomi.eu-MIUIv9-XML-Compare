@@ -608,7 +608,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bluetooth_device_searchable">Discoverable</string>
   <string name="bluetooth_devices">Bluetooth devices</string>
   <string name="bluetooth_disable_absolute_volume">Disable absolute volume</string>
-  <string name="bluetooth_disable_absolute_volume_summary">Disables the Bluetooth absolute volume feature in case of volume issues with remote devices such as unacceptably loud volume or lack of control.</string>
+  <string name="bluetooth_disable_absolute_volume_summary">Disable absolute volume for Bluetooth in case of volume issues with remote devices, such as unacceptably loud volume or inability to control it.</string>
   <string name="bluetooth_disable_profile_message">This will disable:&lt;br&gt;&lt;b&gt;%1$s&lt;/b&gt;&lt;br&gt;&lt;br&gt;From:&lt;br&gt;&lt;b&gt;%2$s&lt;/b&gt;</string>
   <string name="bluetooth_disable_profile_title">Disable profile?</string>
   <string name="bluetooth_disabled">Disabled</string>
@@ -922,7 +922,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="checking_find_device_status">Checking Find device status…</string>
   <string name="checking_for_updates">Checking for updates…</string>
   <string name="choose_assist_title">Choose Assist app</string>
-  <string name="choose_profile">Choose Profile</string>
+  <string name="choose_profile">Choose profile</string>
   <string name="choose_smartcover_type">Choose case type</string>
   <string name="choose_spell_checker">Choose spell checker</string>
   <string name="choose_timezone">Choose time zone</string>
@@ -1027,11 +1027,11 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="controls_subtitle">Adjust power use</string>
   <string name="convenience_key_category_title">Shortcuts</string>
   <string name="convert_to_fbe_warning">"Convert data partition to file based encryption.
- !!Warning!! This will erase all your data.
- This feature is alpha, and may not work correctly.
+ Warning: This will erase all your data.
+ This feature is being developed, and may not work correctly.
  Press 'Wipe and convert…' to continue."</string>
   <string name="convert_to_file_encryption">Convert to file encryption</string>
-  <string name="convert_to_file_encryption_done">Already file encrypted</string>
+  <string name="convert_to_file_encryption_done">Files are encrypted</string>
   <string name="convert_to_file_encryption_enabled">Convert…</string>
   <string name="copyright_title">Copyright</string>
   <string name="country_name">%s (system)</string>
@@ -1243,11 +1243,11 @@ This setting affects all users on this phone."</string>
   <string name="debug_hw_overdraw">Debug GPU overdraw</string>
   <string name="debug_input_category">Input</string>
   <string name="debug_intent_sender_label">Debug intent sender</string>
-  <string name="debug_layout">Show layout bounds</string>
-  <string name="debug_layout_summary">Show clip bounds, margins, etc.</string>
+  <string name="debug_layout">Show layout boundaries</string>
+  <string name="debug_layout_summary">Show clip boundaries, margins, etc.</string>
   <string name="debug_monitoring_category">Monitoring</string>
   <string name="debug_networking_category">Networking</string>
-  <string name="debug_view_attributes">Enable view attribute inspection</string>
+  <string name="debug_view_attributes">Enable viewing attributes</string>
   <string name="decline_remote_bugreport_action">Decline</string>
   <string name="defalut_launcher_title">Default launcher</string>
   <string name="default_admin_support_msg">"This action is disabled. Contact your organization's administrator to learn more."</string>
@@ -1274,10 +1274,11 @@ This setting affects all users on this phone."</string>
   <string name="delete_rule">remove rules</string>
   <string name="delete_saved_network">Delete saved networks</string>
   <string name="demo_mode">Demo mode</string>
+  <string name="demo_mode_summary">Display specific status bar icons for demo</string>
   <string name="deny">Deny</string>
   <string name="details_subtitle">Use details</string>
   <string name="details_title">Use details</string>
-  <string name="dev_settings_warning_message">These settings are intended for development use only. They can cause your device and the applications on it to break or misbehave.</string>
+  <string name="dev_settings_warning_message">These settings are intended for developers only. Enabling these features may make your device and the apps on it misbehave or cause errors.</string>
   <string name="dev_settings_warning_title">Allow development settings?</string>
   <string name="developer_build">" | Beta"</string>
   <string name="developer_density_summary">%d dp</string>
@@ -1341,8 +1342,8 @@ This setting affects all users on this phone."</string>
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
   <string name="disableNetwork">disableNetwork</string>
-  <string name="disable_overlays">Disable HW overlays</string>
-  <string name="disable_overlays_summary">Always use GPU for screen compositing</string>
+  <string name="disable_overlays">Disable HW overlay</string>
+  <string name="disable_overlays_summary">Always use GPU for screen rendering</string>
   <string name="disable_power_key_long_press_under_keyguard">Turn off Power button menu</string>
   <string name="disable_service_message">Tapping OK will stop %1$s.</string>
   <string name="disable_service_title">Stop %1$s?</string>
@@ -1502,13 +1503,13 @@ This setting affects all users on this phone."</string>
   <string name="enable_freeform_support">Enable freeform windows</string>
   <string name="enable_freeform_support_summary">Enable support for experimental freeform windows.</string>
   <string name="enable_mobile_data_when_opening_hotspot">Turn on mobile data connection too?</string>
-  <string name="enable_opengl_traces_title">Enable OpenGL traces</string>
+  <string name="enable_opengl_traces_title">Enable OpenGL tracing</string>
   <string name="enable_quick_setting">Show in Quick Settings</string>
   <string name="enable_service_encryption_warning">If you turn on %1$s, your device won’t use your screen lock to enhance data encryption.</string>
   <string name="enable_service_password_reason">Because turning on %1$s affects data encryption, you need to confirm your password.</string>
   <string name="enable_service_pattern_reason">Because turning on %1$s affects data encryption, you need to confirm your pattern.</string>
   <string name="enable_service_pin_reason">Because turning on %1$s affects data encryption, you need to confirm your PIN.</string>
-  <string name="enable_service_title">Use %1$s?</string>
+  <string name="enable_service_title">The service will perform these actions:</string>
   <string name="enable_snapshot_screenlock">Long press Back to take photo</string>
   <string name="enable_terminal_summary">Enable terminal app that offers local shell access</string>
   <string name="enable_terminal_title">Local terminal</string>
@@ -1672,10 +1673,10 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="font_size_summary1">"If your system's text is still too small, try "</string>
   <string name="font_size_summary2">Lite mode.</string>
   <string name="forbidden_switch_apn_string">"Selected APN settings don't match current network type"</string>
-  <string name="force_allow_on_external">Force allow apps on external</string>
+  <string name="force_allow_on_external">Force allow apps ro write on external storage</string>
   <string name="force_allow_on_external_summary">Makes any app eligible to be written to external storage, regardless of manifest values</string>
   <string name="force_hw_ui">Force GPU rendering</string>
-  <string name="force_hw_ui_summary">Force use of GPU for 2d drawing</string>
+  <string name="force_hw_ui_summary">Force use GPU for 2D drawing</string>
   <string name="force_msaa">Force 4x MSAA</string>
   <string name="force_msaa_summary">Enable 4x MSAA in OpenGL ES 2.0 apps</string>
   <string name="force_resizable_activities">Force activities to be resizable</string>
@@ -1862,7 +1863,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="imei_information_summary">IMEI relative information</string>
   <string name="imei_information_title">IMEI information</string>
   <string name="immediately_destroy_activities">Don’t keep activities</string>
-  <string name="immediately_destroy_activities_summary">Destroy every activity as soon as the user leaves it</string>
+  <string name="immediately_destroy_activities_summary">End every activity as soon as the user leaves it</string>
   <string name="importance_reset">Reset</string>
   <string name="inactive_app_active_summary">Active. Tap to toggle.</string>
   <string name="inactive_app_inactive_summary">Inactive. Tap to toggle.</string>
@@ -2045,9 +2046,9 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="local_backup_password_summary_change">Tap to change or remove the password for desktop full backups</string>
   <string name="local_backup_password_summary_none">Desktop full backups aren’t currently protected</string>
   <string name="local_backup_password_title">Desktop backup password</string>
-  <string name="local_backup_password_toast_confirmation_mismatch">New password and confirmation don’t match</string>
+  <string name="local_backup_password_toast_confirmation_mismatch">Passwords don’t match</string>
   <string name="local_backup_password_toast_success">New backup password set</string>
-  <string name="local_backup_password_toast_validation_failure">Failure setting backup password</string>
+  <string name="local_backup_password_toast_validation_failure">"Couldn't set backup password"</string>
   <string name="local_backup_section_summary">Backup system settings, account info, and apps</string>
   <string name="local_backup_section_title">Local backups</string>
   <string name="locale_default">Default</string>
@@ -2263,6 +2264,7 @@ You can set a new screen lock for both your device and your work profile, but an
   <string name="lockscreen_glogin_checking_password">Checking…</string>
   <string name="lockscreen_glogin_password_hint">Password</string>
   <string name="lockscreen_glogin_submit_button">Sign in</string>
+  <string name="lockscreen_magazine_title">Wallpaper Carousel</string>
   <string name="lockscreen_remote_input">If device is locked, prevent typing replies or other text in notifications</string>
   <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with Mi Cloud.</string>
   <string name="login_account_dialog_title">Sign in with Mi Account</string>
@@ -2507,6 +2509,7 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_general_earbuds">General</string>
   <string name="music_dirac_mode_general_inear">General In-Ear</string>
   <string name="music_dirac_mode_headset">Mi Headphones</string>
+  <string name="music_dirac_mode_headset_comfort">Mi Comfort</string>
   <string name="music_dirac_mode_in_ear">Mi In-Ear</string>
   <string name="music_dirac_mode_in_ear_2013">Mi In-Ear (2013)</string>
   <string name="music_dirac_mode_in_ear_pro">Mi In-Ear Pro</string>
@@ -2732,9 +2735,9 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="open_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
   <string name="open_personal_assistant_dialog_btn_cancel">Cancel</string>
   <string name="open_personal_assistant_dialog_btn_confirm">Close</string>
-  <string name="open_personal_assistant_dialog_desc">"You won't be able to use Smart assistant and receive its updates. Turn off now?"</string>
-  <string name="open_personal_assistant_dialog_title">Turn off Smart assistant</string>
-  <string name="open_personal_assistant_title">Turn on Smart assistant</string>
+  <string name="open_personal_assistant_dialog_desc">"You won't be able to use QuickCard and receive its updates. Turn off now?"</string>
+  <string name="open_personal_assistant_dialog_title">Turn off QuickCard</string>
+  <string name="open_personal_assistant_title">Turn on QuickCard</string>
   <string name="open_sdcard_optimization_title">open emulated sdcard optimization</string>
   <string name="open_sdcard_optimization_warning_message">Your device will reboot to apply this change.</string>
   <string name="open_wifi_connect_summary">Tap to view details.</string>
@@ -3684,14 +3687,14 @@ Note: Your fingerprint may be less secure than a strong pattern or PIN. "&lt;ann
   <string name="select_all">Select all</string>
   <string name="select_application">Select application</string>
   <string name="select_device_admin_msg">Device administrators</string>
-  <string name="select_logd_size_dialog_title">Select Logger sizes per log buffer</string>
-  <string name="select_logd_size_title">Logger buffer sizes</string>
+  <string name="select_logd_size_dialog_title">Select size for log buffers</string>
+  <string name="select_logd_size_title">Log buffer sizes</string>
   <string name="select_sim_card">Select SIM card</string>
   <string name="select_sim_for_calls">Call with</string>
   <string name="select_sim_for_data">Select a SIM for data</string>
   <string name="select_ssid_type_title">Select SSID</string>
-  <string name="select_usb_configuration_dialog_title">Select USB Configuration</string>
-  <string name="select_usb_configuration_title">Select USB Configuration</string>
+  <string name="select_usb_configuration_dialog_title">Select USB configuration</string>
+  <string name="select_usb_configuration_title">Select USB configuration</string>
   <string name="select_webview_provider_dialog_title">Set WebView implementation</string>
   <string name="select_webview_provider_title">WebView implementation</string>
   <string name="select_webview_provider_toast_text">This choice is no longer valid. Try again.</string>
@@ -3751,20 +3754,20 @@ Note: Your fingerprint may be less secure than a strong pattern or PIN. "&lt;ann
   <string name="sharing_remote_bugreport_dialog_message">This bug report is being shared with your IT admin. Contact them for more details.</string>
   <string name="short_summary_font_size">Make text larger or smaller</string>
   <string name="show_all_anrs">Show all ANRs</string>
-  <string name="show_all_anrs_summary">Show App Not Responding dialog for background apps</string>
+  <string name="show_all_anrs_summary">Show \"App not responding\" dialog for background apps</string>
   <string name="show_background_processes">Show cached processes</string>
   <string name="show_connected_devices_summary">View connected devices</string>
   <string name="show_connected_devices_title">Connected devices</string>
   <string name="show_cpu_usage">Show CPU usage</string>
-  <string name="show_cpu_usage_summary">Screen overlay showing current CPU usage</string>
+  <string name="show_cpu_usage_summary">Show CPU usage using screen overlay</string>
   <string name="show_dev_already">No need, you are already a developer.</string>
   <string name="show_dev_on">You are now a developer!</string>
   <string name="show_fc">Force-closed apps</string>
   <string name="show_fc_summary">Show apps that have been force-closed</string>
-  <string name="show_hw_layers_updates">Show hardware layers updates</string>
-  <string name="show_hw_layers_updates_summary">Flash hardware layers green when they update</string>
-  <string name="show_hw_screen_updates">Show GPU view updates</string>
-  <string name="show_hw_screen_updates_summary">Flash views inside windows when drawn with the GPU</string>
+  <string name="show_hw_layers_updates">Show hardware level updates</string>
+  <string name="show_hw_layers_updates_summary">Hardware items that are being updated will flash green</string>
+  <string name="show_hw_screen_updates">Visualize GPU rendering</string>
+  <string name="show_hw_screen_updates_summary">Flash windows where videos are being rendered by GPU</string>
   <string name="show_ime">Show virtual keyboard</string>
   <string name="show_ime_summary">Keep it on screen while physical keyboard is active</string>
   <string name="show_magnifier_when_input">Text magnifying glass</string>
@@ -4251,7 +4254,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="timer_switch_settings_title">Scheduled power on and off</string>
   <string name="timezone_settings">Time zone</string>
   <string name="title_color_calibration">Color correction preset</string>
-  <string name="title_convert_fbe">Converting to file based encryption</string>
+  <string name="title_convert_fbe">Converting to file based encryption…</string>
   <string name="title_font">Font</string>
   <string name="title_font2">Font</string>
   <string name="title_font_current">System font</string>
@@ -4297,7 +4300,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="trusted_credentials_system_tab">System</string>
   <string name="trusted_credentials_trust_label">Trust</string>
   <string name="trusted_credentials_user_tab">User</string>
-  <string name="tts_default_lang_summary">Sets the language-specific voice for the spoken text</string>
+  <string name="tts_default_lang_summary">Set the default language for text-to-speech output</string>
   <string name="tts_default_lang_title">Language</string>
   <string name="tts_default_pitch_summary">Affects the tone of the synthesized speech</string>
   <string name="tts_default_pitch_title">Pitch</string>
@@ -4306,7 +4309,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="tts_default_sample_string">This is an example of speech synthesis</string>
   <string name="tts_engine_network_required">This language requires a working network connection for text-to-speech output.</string>
   <string name="tts_engine_preference_section_title">Preferred engine</string>
-  <string name="tts_engine_security_warning">This speech synthesis engine may be able to collect all the text that will be spoken, including personal data like passwords and credit card numbers. It comes from the %s engine. Enable the use of this speech synthesis engine?</string>
+  <string name="tts_engine_security_warning">This voice engine may be able to record and collect everything you say, including personal data like passwords and credit card numbers. This voice engine is provided by %s. Turn on voice engine?</string>
   <string name="tts_engine_settings_button">Launch engine settings</string>
   <string name="tts_engine_settings_title">Settings for %s</string>
   <string name="tts_general_section_title">General</string>
@@ -4323,13 +4326,14 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="tts_settings">Text-to-speech settings</string>
   <string name="tts_settings_title">Text-to-speech output</string>
   <string name="tts_status_checking">Checking…</string>
-  <string name="tts_status_not_supported">%1$s is not supported</string>
+  <string name="tts_status_not_supported">"%1$s isn't supported"</string>
   <string name="tts_status_ok">%1$s is fully supported</string>
   <string name="tts_status_requires_network">%1$s requires network connection</string>
   <string name="tts_status_title">Default language status</string>
   <string name="turn_off_common_password_confirm_msg">Screen lock will be turned off as well.</string>
   <string name="turn_off_keyguard_password_alert_title">Turn off</string>
   <string name="turn_off_keyguard_password_confirm_msg">"Some security features won't work without your password."</string>
+  <string name="turn_off_keyguard_password_wait_dialog">Closing password</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">"You won't be able to unlock the device using your fingerprint after you turn off the password."</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg_delete">"After you turn off your Lock screen password, recorded fingerprints will be deleted. You won't be able to unlock the device using your fingerprint."</string>
   <string name="turn_off_security_lock">Turn off lock</string>
@@ -4337,6 +4341,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="turn_on_security_lock">Choose screen lock</string>
   <string name="turn_on_wifi_dialog_text">WLAN is turned off when Mobile HotSpot is active. To turn on WLAN, please turn off Mobile HotSpot.</string>
   <string name="turn_on_wifi_dialog_title">Turn on wifi</string>
+  <string name="turn_update_keyguard_password_wait_dialog">Modifying password</string>
   <string name="twohours">1 hours</string>
   <string name="under_keyguard">Screen off</string>
   <string name="uninstall_all_users_text">Uninstall for all users</string>

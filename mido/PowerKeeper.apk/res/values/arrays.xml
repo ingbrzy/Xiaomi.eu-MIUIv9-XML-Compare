@@ -173,8 +173,8 @@
         <item>Performance first mode</item>
     </string-array>
     <string-array name="thermal_summaries">
-        <item>The current temperature control mode, the temperature of experience is preferred</item>
-        <item>The current performance model, performance experience is preferred, temperatures could rise</item>
+        <item>Current default mode</item>
+        <item>Current performance mode</item>
     </string-array>
     <array name="read_enable" />
     <string-array name="read_disable">
