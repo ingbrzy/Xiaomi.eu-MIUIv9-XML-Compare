@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<MIUI-Theme category="clock" size="4:2">
+	<version>1</version>
+	<uiVersion>1</uiVersion>
+	<title>Classical clock</title>
+	<titles>
+		<title locale="zh_CN">经典时钟</title>
+		<title locale="zh_TW">經典時鐘</title>
+	</titles>
+</MIUI-Theme>

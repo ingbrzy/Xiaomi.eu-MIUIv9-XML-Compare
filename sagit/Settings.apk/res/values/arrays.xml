@@ -2518,6 +2518,20 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1</item>
         <item>3</item>
     </string-array>
+    <string-array name="silent_mode_duration_text">
+        <item>Always</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>2 hours</item>
+        <item>8 hours</item>
+    </string-array>
+    <string-array name="silent_mode_duration_value">
+        <item>0</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>480</item>
+    </string-array>
     <integer-array name="alarm_repeat_type_values">
         <item>1</item>
         <item>3</item>
