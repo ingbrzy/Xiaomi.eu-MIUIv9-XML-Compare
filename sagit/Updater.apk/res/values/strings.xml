@@ -43,4 +43,5 @@ Updates are not available for you!"</string>
   <string name="stable">stable</string>
   <string name="version">Currently installed:</string>
   <string name="weekly">weekly</string>
+  <string name="wifi_recommended">No WiFi connection to start download safely!</string>
 </resources>
