@@ -25,6 +25,8 @@ Data will not be wiped."</string>
   <string name="new_version">New version found!</string>
   <string name="no_network">No network access.</string>
   <string name="no_update">You already up to date!</string>
+  <string name="no_xioamieu">"You are not using MIUI Rom created by Xiaomi.eu team!
+Updates are not available for you!"</string>
   <string name="notif_cancel">Cancel</string>
   <string name="notif_install">Install</string>
   <string name="notif_new_summary">Tap to get details</string>
@@ -41,4 +43,5 @@ Data will not be wiped."</string>
   <string name="stable">stable</string>
   <string name="version">Currently installed:</string>
   <string name="weekly">weekly</string>
+  <string name="wifi_recommended">No WiFi connection to start download safely!</string>
 </resources>

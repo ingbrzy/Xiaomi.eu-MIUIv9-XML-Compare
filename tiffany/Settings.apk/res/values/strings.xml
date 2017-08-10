@@ -2133,9 +2133,9 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="lock_screen_notifications_interstitial_title_profile">Profile notifications</string>
   <string name="lock_screen_notifications_summary_disable">Don’t show notifications at all</string>
   <string name="lock_screen_notifications_summary_disable_profile">Don’t show work notifications at all</string>
-  <string name="lock_screen_notifications_summary_hide">Hide sensitive notification content</string>
+  <string name="lock_screen_notifications_summary_hide">Show all notifications but hide contents</string>
   <string name="lock_screen_notifications_summary_hide_profile">Hide sensitive work notification content</string>
-  <string name="lock_screen_notifications_summary_show">Show all notification content</string>
+  <string name="lock_screen_notifications_summary_show">Show all notifications and their contents</string>
   <string name="lock_screen_notifications_summary_show_profile">Show all work notification content</string>
   <string name="lock_screen_notifications_title">On the lock screen</string>
   <string name="lock_screen_secure_after_timeout_immediately_summary">Require password immediately.</string>
@@ -2627,6 +2627,8 @@ Select your operating system:"</string>
   <string name="no_updates_warning2">"Relax, we'll let you know if there's an update :)"</string>
   <string name="no_vr_listeners">No installed apps have requested to be run as VR helper services.</string>
   <string name="noise_suppression">Ambient noise suppression</string>
+  <string name="normal">Normal</string>
+  <string name="normal_info">All the volume is normal</string>
   <string name="normal_smartcover_title">Opaque front cover</string>
   <string name="not_battery_optimizing">Not using battery optimization</string>
   <string name="not_installed">Not installed for this user</string>
@@ -3178,7 +3180,6 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="remove_managed_profile_label">Remove work profile</string>
   <string name="repeat">Repeat</string>
   <string name="repeat_call">Repeated caller reminder</string>
-  <string name="repeat_call_info">In the Silent mode, if the same person in 15 minutes two calls, allowing Ling Ling reminders</string>
   <string name="repeat_title">Repeat</string>
   <string name="reset_aaid">Reset advertising identifier</string>
   <string name="reset_app_preferences">Reset app preferences</string>
@@ -3788,10 +3789,11 @@ Note: Your fingerprint may be less secure than a strong pattern or PIN. "&lt;ann
   <string name="shut_down_find_device_network_failure_content">"Couldn't turn off Find device. Make sure your device has an internet connection."</string>
   <string name="shut_down_find_device_network_failure_title">"Can't connect to the network"</string>
   <string name="shuting_down_find_device">Turning off Find device…</string>
+  <string name="silent_duration">Duration</string>
   <string name="silent_mode">Silent Mode</string>
   <string name="silent_mode_title">Silent mode</string>
   <string name="silent_off">Turn off</string>
-  <string name="silent_settings">Silent Mode</string>
+  <string name="silent_settings">Silence/DND</string>
   <string name="silent_standard">Silent</string>
   <string name="silent_time">Slience Duration</string>
   <string name="silent_total">DND</string>
