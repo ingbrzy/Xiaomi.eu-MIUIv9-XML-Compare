@@ -1774,6 +1774,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="start_downloading_app">Starting download: %1$s</string>
   <string name="start_game">Start</string>
   <string name="start_tc_button">Calibrate</string>
+  <string name="still_retain_btn">Keep</string>
   <string name="suggest_app_tolock">Suggestions</string>
   <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
   <string name="summary_app_lock_disable">Protect your data with App lock</string>
@@ -2058,6 +2059,10 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="uninstall_app_dialog_msg">Uninstalling will remove all app data.</string>
   <string name="uninstall_app_dialog_title">Uninstall now?</string>
   <string name="uninstall_app_done">Uninstalled successfully</string>
+  <string name="uninstall_danagerous_btn">Uninstall</string>
+  <string name="uninstall_danagerous_desc">\"%s\" may damage your device</string>
+  <string name="uninstall_danagerous_msg">\"%s\" may damage your device, lower its performance, or cause reboots.</string>
+  <string name="uninstall_danagerous_title">Uninstall malicious app</string>
   <string name="unlike">No thanks</string>
   <string name="unlock_pattern">&lt;u&gt;Pattern&lt;/u&gt;</string>
   <string name="unlock_pattern_to_bind_fingerprint">Enter password to activate fingerprint</string>
