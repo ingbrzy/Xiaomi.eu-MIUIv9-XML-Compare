@@ -1104,8 +1104,6 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="notification_mask_title">Hide content</string>
   <string name="notification_subtitle">Tap to turn on</string>
   <string name="notification_summary_cmcc_app_check">Touch to view details.</string>
-  <string name="notification_sysapp_cracked_text">The current version of MIUI has been modified</string>
-  <string name="notification_sysapp_cracked_title">Security risk is detected</string>
   <string name="notify_daily_data_usage_body">To limit data usage automatically, set up your monthly data plan.</string>
   <string name="notify_daily_limit_body">Tap to set data limit.</string>
   <string name="notify_daily_limit_title">Used %s today</string>
@@ -1643,6 +1641,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sp_empty_title_sign_exception">Hold the app to add it to exceptions</string>
   <string name="sp_monitored_apps_count_zero">No payment apps are protected</string>
   <string name="sp_monitored_apps_list_title">Monitoring settings</string>
+  <string name="sp_network_privacy_dialog_message">"Security app can't work properly because you've restricted the internet connection. Allow Security to connect to the internet?"</string>
+  <string name="sp_network_privacy_dialog_title">"Can't use security scan"</string>
   <string name="sp_scan_item_monitor">Monitor payments</string>
   <string name="sp_scan_item_url_antispam">Protection from malicious URLs</string>
   <string name="sp_settings_check_item_summary_sign_exception">Manage signature exceptions</string>
@@ -1660,6 +1660,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sp_toast_removed_from_sign_white_list">Removed from exceptions. Item will be scanned next time.</string>
   <string name="special_number_group">Block reported numbers</string>
   <string name="sponsored_sec_fb">Sponsored</string>
+  <string name="ss_activity_main_support_text">Powered by %s</string>
   <string name="st_antispam_black_adress_add">Add locations</string>
   <string name="st_antispam_bw_adress_add">Add locations</string>
   <string name="st_antispam_bw_choose_modes">Add to list</string>
@@ -1815,14 +1816,6 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="summary_xiaomi_roaming">CNY 0.01/MB for mobile data roaming.</string>
   <string name="support_game_booster_tips">Boost speed &amp; improve gaming experience</string>
   <string name="sys_app_prot_cracked_confirm">Got it</string>
-  <string name="sys_app_prot_cracked_login">Sign in with Mi Account</string>
-  <string name="sys_app_prot_cracked_text_login">"The current version of MIUI has been modified which puts your device's security at risk.
-
-Make sure you know where this device comes from, and contact authorized Xiaomi service center in your area to get help."</string>
-  <string name="sys_app_prot_cracked_text_unlogin">"The current version of MIUI has been modified which puts your device's security at risk. Sign in with your Mi Account to turn this warning off.
-
-If you haven't modified MIUI in any way, make sure you know where this device comes from and contact authorized Xiaomi service center in your area."</string>
-  <string name="sys_app_prot_cracked_title">Security risk</string>
   <string name="sys_cpu_title">CPU usage</string>
   <string name="sys_freememory_title">Available</string>
   <string name="sys_title_gamebooster_unit_gb">G</string>

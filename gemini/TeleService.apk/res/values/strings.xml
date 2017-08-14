@@ -391,6 +391,7 @@
   <string name="card_title_outgoing_barred">Outgoing Calls Barred</string>
   <string name="card_title_redialing">Redialing</string>
   <string name="card_title_unconditionalCF">Call Forward Unconditional is enabled</string>
+  <string name="carrier_info">Carrier info</string>
   <string name="carrier_settings"/>
   <string name="carrier_settings_menu"/>
   <string name="carrier_settings_title">Carrier settings</string>
