@@ -109,9 +109,6 @@
   <string name="cancel_running_download">Cancel</string>
   <string name="change_download_quality">Change download quality</string>
   <string name="channel_list_fragment_title">Radio</string>
-  <string name="chinese_female">Female artists (China)</string>
-  <string name="chinese_group">Bands (China)</string>
-  <string name="chinese_male">Male artists (China)</string>
   <string name="choose_download_quality">Choose download quality</string>
   <string name="choose_stream_quality">Choose streaming quality</string>
   <string name="click_modify">Tap to edit lyrics.</string>
@@ -124,8 +121,6 @@
   <string name="cloud_loading_message">Searching for songs…</string>
   <string name="cloud_music">Songs in Mi Cloud</string>
   <string name="cloud_settings">Sync settings</string>
-  <string name="cloud_space_full">No storage space left</string>
-  <string name="cloud_space_full_message">Not enough room in your Mi Cloud to add more songs. To get more space, upgrade your Mi Account.</string>
   <string name="cloud_state_cloud_space_full">Not enough Mi Cloud storage, paused backup</string>
   <string name="cloud_state_low_power">Connect charger to resume backup</string>
   <string name="cloud_state_network_data">"Couldn't find WLAN networks, paused backup"</string>
@@ -209,7 +204,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="disable_auto_payment_success_message">"Turned off automatic renewal. After your current subscription expires, you'll have to subscribe again to download songs."</string>
   <string name="disallow_add_to_fm">"Can't add songs to FM radio"</string>
   <string name="disallow_add_to_personal_radio">"Can't add songs to Personal radio"</string>
-  <string name="do_not_remind_again">"Don't show again"</string>
   <string name="doc_filter">Docs</string>
   <string name="done">Done</string>
   <string name="download">Download</string>
@@ -306,9 +300,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="enable_auto_payment_success">Renew automatically</string>
   <string name="enable_auto_payment_success_message">Turned on automatic renewal. Next payment due on %s.</string>
   <string name="enabled">Enabled</string>
-  <string name="english_female">Female artists (US/Europe)</string>
-  <string name="english_group">Bands (US/Europe)</string>
-  <string name="english_male">Male artists (US/Europe)</string>
   <string name="enter_garbage_clean">Clean up internal storage.</string>
   <string name="eq_auto">Custom</string>
   <string name="eq_blues">Blues</string>
@@ -345,7 +336,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="favorites">Favorites</string>
   <string name="favourite_music_left_half">To add songs to this playlist, tap the</string>
   <string name="favourite_music_right_half">"Favorite icon to the right of the song's title"</string>
-  <string name="female_artist">Female artists</string>
   <string name="file_not_found">"File doesn't exist"</string>
   <string name="filter_by_duration">By length</string>
   <string name="filter_by_duration_format">%2$dm %5$2ds</string>
@@ -404,7 +394,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="global_search_title_movie">Movie soundtracks</string>
   <string name="global_search_title_prenatal">Prenatal music</string>
   <string name="global_search_title_radar">Music recognition</string>
-  <string name="group_artist">Bands</string>
   <string name="handle_later">Not now</string>
   <string name="higher_quality_music">High quality audio</string>
   <string name="higher_quality_music_summary">Stream and download higher bitrate files</string>
@@ -431,9 +420,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="is_scanning">Checking storage…</string>
   <string name="is_scanning_support_online">"Checking storage…
 (In the meantime, you can stream music online)"</string>
-  <string name="japan_korea_female">Female artists (Japan/Korea)</string>
-  <string name="japan_korea_group">Bands (Japan/Korea)</string>
-  <string name="japan_korea_male">Male artists (Japan/Korea)</string>
   <string name="keep_queued_download">Keep</string>
   <string name="ktv_playlist">KTV playlist</string>
   <string name="latest_song">Play history (%d)</string>
@@ -465,7 +451,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="lyric_is_empty">No lyrics available</string>
   <string name="lyric_open_other_connect">Download lyrics using mobile network</string>
   <string name="lyric_setting">Lyrics settings</string>
-  <string name="male_artist">Male artists</string>
   <string name="manager_cloud_space">Manage Mi Cloud storage</string>
   <string name="max_sleep_time">%d</string>
   <string name="media_filter">Media</string>
@@ -573,7 +558,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="no_song_downloaded">"Couldn't connect to server"</string>
   <string name="normal_quality">Good</string>
   <string name="not_login">Not signed in</string>
-  <string name="not_now">Not now</string>
   <string name="not_selected">Choose a song</string>
   <string name="notif_text_engine_off">Xunlei accelerator is off.</string>
   <string name="notif_text_engine_on">Accelerating…</string>
@@ -894,7 +878,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="upgrade">Upgrade:</string>
   <string name="upgrade_force">"We're discontinuing our current streaming service due to copyright issues. Update to the newest version of the Music app to listen to high quality music."</string>
   <string name="upgrade_immediate">Update now</string>
-  <string name="upgrade_membership">Get more space</string>
   <string name="upgrade_music">Update Music</string>
   <string name="upgrade_music_message">Updates are ready. Restart to update.</string>
   <string name="upgrade_nobeta">"We're discontinuing our current streaming service while we resolve copyright issues. Sorry for the inconvenience :("</string>

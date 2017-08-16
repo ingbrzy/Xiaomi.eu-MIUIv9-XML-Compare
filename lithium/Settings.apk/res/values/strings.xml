@@ -2988,6 +2988,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="privacy_factory_reset_dlg_title">Back up your data</string>
   <string name="privacy_file">Files</string>
   <string name="privacy_gallery">Photos</string>
+  <string name="privacy_header_text_less_than_half">Too little space for this app. Drag the separator further.</string>
   <string name="privacy_mms">Messages</string>
   <string name="privacy_mode_dialog_message">Hide messages, notes, photos, settings, and incoming calls?</string>
   <string name="privacy_mode_dialog_title">Guest mode</string>
