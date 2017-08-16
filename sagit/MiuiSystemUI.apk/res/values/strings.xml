@@ -253,6 +253,7 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="dlg_error_title">USB operation unsuccessful</string>
   <string name="dlg_ok">OK</string>
   <string name="dock_forced_resizable">App may not work with split-screen.</string>
+  <string name="dock_keyguard_locked_failed_to_dock_text">KeyGuard not support multi window, exit multi window mode.</string>
   <string name="dock_non_resizeble_failed_to_dock_text">App does not support split-screen</string>
   <string name="drive_mode_tip">"You're in Car mode"</string>
   <string name="enable_adb">USB debugging</string>
