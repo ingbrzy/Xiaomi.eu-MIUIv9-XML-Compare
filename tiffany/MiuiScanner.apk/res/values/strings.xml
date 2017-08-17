@@ -232,6 +232,7 @@
   <string name="document_ocr_result_title">Document photo</string>
   <string name="document_ocr_tip_msg">Reading…</string>
   <string name="document_recognize_fail_tip">"Couldn't read document"</string>
+  <string name="document_recognize_null_tip">Document result is empty</string>
   <string name="document_rectify">Adjust</string>
   <string name="document_rectify_tip_msg">Adjusting…</string>
   <string name="document_save_succeed_tip">Document saved to %1$s</string>

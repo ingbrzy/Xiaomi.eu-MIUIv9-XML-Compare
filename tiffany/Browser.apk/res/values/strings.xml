@@ -244,6 +244,7 @@
   <string name="aqi_quality_index_moderate">Moderate</string>
   <string name="aqi_quality_index_pure">Excellent</string>
   <string name="aqi_quality_index_unhealthy">Unhealthy</string>
+  <string name="at_miui_browser">\@小米浏览器</string>
   <string name="autoSwithcingSearchEngineTips">Switched to the frequent search engine</string>
   <string name="autofill_keyboard_accessory_content_description">Suggestions available…</string>
   <string name="autofill_popup_content_description">Showing autofill pop-up</string>
@@ -675,6 +676,8 @@ Leave this page?"</string>
   <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(WiFi) Check your %s1proxy settings%s2.</string>
   <string name="miuichromium_error_page_suggestion_clear_cache" formatted="false">Clear cache (%s1Settings%s2 - Clear data).</string>
   <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">Clear cache and cookies (%s1Settings%s2 - Clear data, your account info may be lost).</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">Clear cache and cookies (your account info may be lost).</string>
+  <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">Clear cache.</string>
   <string name="miuichromium_error_page_suggestion_connect_and_retry">Reload after connecting to the internet</string>
   <string name="miuichromium_error_page_suggestion_contact_admin">Contact your system administrator.</string>
   <string name="miuichromium_error_page_suggestion_correct_url">"Check the address you've entered and try again using the correct URL."</string>
@@ -870,6 +873,7 @@ Leave this page?"</string>
   <string name="pull_to_refresh_pull_label">Pull to refresh</string>
   <string name="pull_to_refresh_release_label">Release to recommend and refresh</string>
   <string name="qr_code_title">QR Code</string>
+  <string name="qr_description">Scan QR code</string>
   <string name="quicklink_bookmark_save">Save to</string>
   <string name="quicklink_cannot_save_url">"This URL can't be added."</string>
   <string name="quicklink_folder_text">Top apps</string>
@@ -969,8 +973,9 @@ Leave this page?"</string>
   <string name="send_comment_title">Comment</string>
   <string name="senddesktop">Home screen</string>
   <string name="sendstartpage">Start page</string>
-  <string name="share_image_text">Look what I found!</string>
-  <string name="share_page_text">Look what I found: %1$s | %2$s</string>
+  <string name="share_by_yidianzixun">【一点资讯】</string>
+  <string name="share_image_text">Look what I shared! @MIUI</string>
+  <string name="share_page_text">Look what I shared: %1$s @MIUI| %2$s</string>
   <string name="show_check_security_url_check_tip_dialog_description">Browser needs to connect to the internet to work normally. To improve security and receive more relevant recommendations, allow Browser to get the URLs of the websites you visit and access your location info.</string>
   <string name="show_check_security_url_check_tip_dialog_description_international">Browser needs to connect to the internet to work normally. To receive more relevant recommendations, allow Browser to get the URLs of the websites you visit and access your location info.</string>
   <string name="show_security_tip_dialog_title">Terms of Service</string>
@@ -980,12 +985,13 @@ Leave this page?"</string>
   <string name="skip_current_version">Skip this version</string>
   <string name="snapshot">Local</string>
   <string name="snapshot_failed">"Couldn't save page"</string>
-  <string name="snapshot_successed">Saved page successfully</string>
+  <string name="snapshot_successed">Open Bookmarks/History-&gt;LOCAL to view page</string>
   <string name="ssl_bad_clock_date_settings">Set date</string>
   <string name="ssl_bad_clock_warning" formatted="false">"A private connection to %s1 can't be established because your device's date and time (%s2) are incorrect."</string>
   <string name="ssl_certificate">Security certificate</string>
   <string name="ssl_certificate_is_valid">This certificate is valid.</string>
   <string name="ssl_continue">Continue</string>
+  <string name="ssl_date_error_warnings_header">"The certificate of this site has expired or isn't valid yet. You are advised to leave this page."</string>
   <string name="ssl_date_invalid">This certificate has an invalid date.</string>
   <string name="ssl_expired">This certificate has expired.</string>
   <string name="ssl_go_back">Go back</string>
@@ -1122,6 +1128,7 @@ Leave this page?"</string>
   <string name="view_document_downloaded_files">View downloaded files in Downloads</string>
   <string name="voice_check_network">Check your network settings and try again.</string>
   <string name="voice_connect_network">"Couldn't connect to the network."</string>
+  <string name="voice_description">Voice search</string>
   <string name="voice_network_connection">Voice search requires to connect to the internet to work normally.</string>
   <string name="voice_search_permission">Voice search needs to access your mic to work normally.</string>
   <string name="voice_semantic_analysis">Browser will be able to analyze semantics after you allow it to connect.</string>

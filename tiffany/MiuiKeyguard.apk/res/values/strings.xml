@@ -89,13 +89,14 @@
   <string name="open_camera_hint_text">Swipe left to open camera</string>
   <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
   <string name="phone_locked_foget_password">Forgot password?</string>
-  <string name="phone_locked_foget_password_content">"You can sign in to i.mi.com using the Mi Account which is associated with this device, and clear all data. This will erase all personal data stored on this device. After this, you can reboot the device and restore contacts, messages, photos, and other items from Mi Cloud. 
-
-You won't be able to do this unless you've signed in to your Mi Account on this device. Otherwise, you'll have to flash the device again."</string>
-  <string name="phone_locked_foget_password_footer">"Steps:
-Sign in to i.mi.com, go to “Find device”, select the device and press Wipe device."</string>
-  <string name="phone_locked_foget_password_header">What should I do if I forgot my password?</string>
+  <string name="phone_locked_foget_password_mehod_back">Back</string>
+  <string name="phone_locked_foget_password_method">Forgot password?</string>
+  <string name="phone_locked_foget_password_method_content">&lt;Data&gt;You have to &amp;lt;font color=#a5220e&amp;gt;erase all data &amp;lt;/font&amp;gt; on your device, including photos and contacts, and then set a new Lock screen password.&lt;/Data&gt;</string>
+  <string name="phone_locked_foget_password_method_next">Next</string>
   <string name="phone_locked_foget_password_ok">Got it</string>
+  <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data&gt;Power off your device, press and hold the &amp;lt;font color=#a5220e&amp;gt;Power button &amp;lt;/font&amp;gt; and the &amp;lt;font color=#a5220e&amp;gt;Volume up button &amp;lt;/font&amp;gt;simultaneously until you see ml.&lt;/Data&gt;</string>
+  <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;Select &amp;lt;font color=#a5220e&amp;gt;\"Wipe &amp;amp;amp; Reset\"&amp;lt;/font&amp;gt; and wait until the device reboots.&lt;/Data&gt;</string>
+  <string name="phone_locked_forget_password_suggesstions_title">How to erase data?</string>
   <string name="phone_locked_string">Phone has been locked</string>
   <string name="phone_locked_timeout_minutes_string">Try again in %d minutes</string>
   <string name="phone_locked_timeout_seconds_string">Try again in %d seconds</string>

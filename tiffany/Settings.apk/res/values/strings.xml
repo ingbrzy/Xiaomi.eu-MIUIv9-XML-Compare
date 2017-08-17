@@ -2262,6 +2262,7 @@ You can set a new screen lock for both your device and your work profile, but an
   <string name="lockscreen_glogin_checking_password">Checking…</string>
   <string name="lockscreen_glogin_password_hint">Password</string>
   <string name="lockscreen_glogin_submit_button">Sign in</string>
+  <string name="lockscreen_magazine">Wallpaper Carousel</string>
   <string name="lockscreen_magazine_title">Wallpaper Carousel</string>
   <string name="lockscreen_remote_input">If device is locked, prevent typing replies or other text in notifications</string>
   <string name="login_account_dialog_message">Sign in with your Mi Account and turn on sync with Mi Cloud.</string>
@@ -2281,6 +2282,7 @@ You can set a new screen lock for both your device and your work profile, but an
   <string name="man_add_application">Add autostart apps</string>
   <string name="manage_device_admin">Device administrators</string>
   <string name="manage_device_admin_summary">View or deactivate device administrators</string>
+  <string name="manage_fakecell_settings">Protection from fake base stations</string>
   <string name="manage_fingerprint_text">Manage fingerprints</string>
   <string name="manage_mobile_plan_title">Mobile plan</string>
   <string name="manage_notification_access_summary_zero">Apps cannot read notifications</string>
@@ -2984,6 +2986,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="privacy_factory_reset_dlg_title">Back up your data</string>
   <string name="privacy_file">Files</string>
   <string name="privacy_gallery">Photos</string>
+  <string name="privacy_header_text_less_than_half">Too little space for this app. Drag the separator further.</string>
   <string name="privacy_mms">Messages</string>
   <string name="privacy_mode_dialog_message">Hide messages, notes, photos, settings, and incoming calls?</string>
   <string name="privacy_mode_dialog_title">Guest mode</string>
@@ -3970,6 +3973,8 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_style">Notifications &amp; toggles layout</string>
   <string name="status_bar_settings_toggle_collapse_after_clicked">Collapse after touch</string>
   <string name="status_bar_settings_toggle_position">Toggle positions</string>
+  <string name="status_bar_settings_user_fold">Notifications folder</string>
+  <string name="status_bar_settings_user_fold_summary">All unimportant notifications will appear in a separate folder</string>
   <string name="status_bar_style_list">Combined</string>
   <string name="status_bar_style_page">Separate</string>
   <string name="status_bt_address">Bluetooth address</string>
@@ -4339,6 +4344,13 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg_delete">"After you turn off your Lock screen password, recorded fingerprints will be deleted. You won't be able to unlock the device using your fingerprint."</string>
   <string name="turn_off_security_lock">Turn off lock</string>
   <string name="turn_on_keyguard_password">Turn on Lock screen password</string>
+  <string name="turn_on_keyguard_password_alert">"Remember your password. If you forget it, you won't be able to restore it."</string>
+  <string name="turn_on_keyguard_password_alert_choose">"Remember your password. If you forget it, you'll have to erase all data on your device to set a new one."</string>
+  <string name="turn_on_keyguard_password_alert_foget_cacel">Not now</string>
+  <string name="turn_on_keyguard_password_alert_foget_ok">Got it</string>
+  <string name="turn_on_keyguard_password_alert_foget_ok_time">Got it(%dsecond)</string>
+  <string name="turn_on_keyguard_password_alert_forget_content">"Remember your Lock screen password. If you forget it, you'll have to erase all data on your device, including photos and contacts, and then set a new one."</string>
+  <string name="turn_on_keyguard_password_alert_forget_title">"If you forget it, you won't be able to restore it."</string>
   <string name="turn_on_security_lock">Choose screen lock</string>
   <string name="turn_on_wifi_dialog_text">WLAN is turned off when Mobile HotSpot is active. To turn on WLAN, please turn off Mobile HotSpot.</string>
   <string name="turn_on_wifi_dialog_title">Turn on wifi</string>

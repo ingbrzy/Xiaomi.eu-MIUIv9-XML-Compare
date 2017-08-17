@@ -23,6 +23,7 @@ Data will not be wiped."</string>
   <string name="menu_title_pick_rom_file">Choose update package</string>
   <string name="menu_title_recovery">Reboot to Recovery mode</string>
   <string name="new_version">New version found!</string>
+  <string name="no_info">No info available.</string>
   <string name="no_network">No network access.</string>
   <string name="no_update">You already up to date!</string>
   <string name="no_xioamieu">"You are not using MIUI Rom created by Xiaomi.eu team!
@@ -31,6 +32,7 @@ Updates are not available for you!"</string>
   <string name="notif_install">Install</string>
   <string name="notif_new_summary">Tap to get details</string>
   <string name="notif_new_title">New version available!</string>
+  <string name="notifications_switch">Show notifications</string>
   <string name="permdesc_cache_filesystem">Allows app to write files on /cache.</string>
   <string name="permdesc_reboot">Allows app to reboot the device.</string>
   <string name="permlab_cache_filesystem">Cache Access</string>
