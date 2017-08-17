@@ -9,6 +9,7 @@
   <string name="activate_feature_default_name">Mi services</string>
   <string name="activate_feature_find_device">Find device</string>
   <string name="activate_feature_live_talk">Top-up package</string>
+  <string name="activate_feature_mi_roaming">Mi Roaming</string>
   <string name="activate_feature_mms_sync">Sync messages</string>
   <string name="activate_feature_mx">Mi Message</string>
   <string name="activate_feature_mx_and_voip">Mi Message and Voice</string>
