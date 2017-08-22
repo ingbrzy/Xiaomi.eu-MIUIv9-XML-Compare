@@ -75,6 +75,7 @@
   <string name="feedback_report_remind_login_desc2">"You can also view your report's progress in \"My reports\"."</string>
   <string name="feedback_retest_label">Steps to reproduce</string>
   <string name="feedback_select_images">Add images</string>
+  <string name="feedback_select_modem_log">Add modem logs</string>
   <string name="feedback_select_problem">Issues</string>
   <string name="feedback_select_suggestion">Suggestions</string>
   <string name="feedback_select_upload_log">Add logs</string>
