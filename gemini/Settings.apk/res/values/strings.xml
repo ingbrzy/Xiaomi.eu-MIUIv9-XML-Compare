@@ -2864,6 +2864,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="pointer_location_summary">Show touch coordinates</string>
   <string name="pointer_settings_category">Mouse/trackpad</string>
   <string name="pointer_speed">Pointer speed</string>
+  <string name="popup_window">allow popup windows</string>
   <string name="power_autorun_apps_empty">Empty</string>
   <string name="power_autorun_empty">Empty</string>
   <string name="power_bluetooth">Bluetooth</string>
