@@ -104,8 +104,6 @@
   <string name="button_sort_by_date">Sort by date</string>
   <string name="button_sort_by_size">Sort by size</string>
   <string name="button_wait_for_wifi">Wait</string>
-  <string name="buy_other_flow">Regular data</string>
-  <string name="buy_traffic">China Unicom</string>
   <string name="can_not_find_resource">"Can't find resources"</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_running_download">Cancel</string>
@@ -268,7 +266,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="download_toast">Using mobile data to download songs</string>
   <string name="download_toast_with_beyond_data">Using mobile data to download songs. Exceeded limit by %s</string>
   <string name="download_toast_with_data">Using mobile data to download songs, %s remaining</string>
-  <string name="download_traffic_dialog_buy_package">Buy music data plan</string>
   <string name="download_traffic_dialog_msg">You have %s of mobile data left. Use mobile data to download songs?</string>
   <string name="download_traffic_dialog_msg_beyond">"You've already exceeded your mobile data limit by %s. Use mobile data to download songs?"</string>
   <string name="download_traffic_dialog_msg_serious">You have only %s of mobile data left. Use mobile data to download songs?</string>
@@ -526,8 +523,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="music_filter">Filter audio files</string>
   <string name="music_service">Music Service</string>
   <string name="music_settings">Music</string>
-  <string name="music_traffic">Mi Music data plan</string>
-  <string name="music_traffic_summary">Listen and download songs without using data</string>
   <string name="my_account">Mi Account</string>
   <string name="my_music_empty">Playlist is empty.</string>
   <string name="my_music_empty_goto_online">No songs found</string>
@@ -754,7 +749,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="set_id3_not_support_format">"Can't edit this file format"</string>
   <string name="set_id3_successful">Song info saved</string>
   <string name="set_lyric_successful">Lyrics saved</string>
-  <string name="set_now">Go to Settings</string>
   <string name="set_ringtones_failed">"Couldn't set ringtone"</string>
   <string name="set_ringtones_successful">%s set as ringtone</string>
   <string name="setting_feature_setting">Feature settings</string>
@@ -814,9 +808,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="storage_usb">USB storage</string>
   <string name="stream_quality">Streaming quality</string>
   <string name="streamloadingtext">Connecting to %s</string>
-  <string name="sub_explanation">Mi Music data plan</string>
-  <string name="sub_explanation_message">"Mi Music data plan is currently supported by China Unicom. Your network provider doesn't support this feature. You can buy regular mobile data."</string>
-  <string name="subed">On</string>
   <string name="suggest_text">People who liked this also liked</string>
   <string name="sync_only_in_wifi">Only sync using WLAN</string>
   <string name="sync_only_in_wifi_summary">Sync your music across all your devices with Mi Cloud. Using your mobile data connection to sync music will increase your data usage. If you go over your plan’s data limit, your carrier could charge you additional fees.</string>
@@ -889,9 +880,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="track_main_fragment_tab_track">Songs</string>
   <string name="track_search_title">Track</string>
   <string name="track_view">Song</string>
-  <string name="traffic_free_to_play">Use music data plan</string>
-  <string name="traffic_network_alert">Mi Music data plan</string>
-  <string name="traffic_network_alert_message">"You're using Mi Music data plan provided by China Unicom. You should connect to a 3gnet network to stream songs without spending mobile data. Make sure you check network settings before streaming music."</string>
   <string name="trigger_to_scan_media_library_finish">Refreshed</string>
   <string name="trigger_to_scan_media_library_processing">Still refreshing…</string>
   <string name="trigger_to_scan_media_library_start">Refreshing…</string>

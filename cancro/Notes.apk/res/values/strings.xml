@@ -179,6 +179,7 @@
   <string name="toast_notes_unhidden">Unhidden successfully</string>
   <string name="toast_notes_unhidden_count">Unhid %1$s successfully</string>
   <string name="toast_reach_text_limit_attachment">"Can't add new attachments because note is too long"</string>
+  <string name="toast_reach_text_limit_checkbox">"Can't add checkbox because note is too long"</string>
   <string name="toast_reach_text_limit_truncate">This note is too long. Some text has been cut off of the end.</string>
   <string name="toolbar_check_description">Add checkbox</string>
   <string name="toolbar_delete_description">Delete this note</string>

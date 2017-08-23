@@ -4,7 +4,7 @@
   <string name="battery_islow">&lt;font color=#f37981&gt;Plug your charger&lt;/font&gt;</string>
   <string name="battery_islow_desc">Battery level is too low to install zip file safely, plug in your charger and try again later!</string>
   <string name="btn_changelog">Changelog</string>
-  <string name="btn_download">Download</string>
+  <string name="btn_download">Download (%1$s)</string>
   <string name="btn_install">Install</string>
   <string name="btn_no">Cancel</string>
   <string name="btn_ok">OK</string>
@@ -16,7 +16,7 @@
   <string name="download_fail_desc">MD5 Sum does not match…</string>
   <string name="downloading">Downloading…</string>
   <string name="downloading_desc">Downloading in progress, check status in notification area.</string>
-  <string name="install_desc">"Device will reboot to recovery and install chosen file: %1$s
+  <string name="install_desc">Device will reboot to recovery and install chosen file: &lt;b&gt;%1$s&lt;/b&gt;"
 Data will not be wiped."</string>
   <string name="install_title">Are you sure to continue?</string>
   <string name="menu_title_current_version_log">What is new?</string>

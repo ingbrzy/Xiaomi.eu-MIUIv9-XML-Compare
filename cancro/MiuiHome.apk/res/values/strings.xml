@@ -61,6 +61,7 @@
   <string name="default_folder_title_security">System</string>
   <string name="default_folder_title_telcel">Telcel</string>
   <string name="default_folder_title_tools">Tools</string>
+  <string name="default_screen_preview_title">Default screen Setting</string>
   <string name="default_shortcut_title_10086">10086.cn</string>
   <string name="delete">Delete</string>
   <string name="delete_screen">Delete screen</string>
@@ -162,6 +163,7 @@
   <string name="menu_back_desktop">Back to Home screen</string>
   <string name="menu_cell_setting">Screen Setting</string>
   <string name="menu_customize">Settings</string>
+  <string name="menu_default_screen_preview">Default screen Setting</string>
   <string name="menu_edit">Edit Home screen</string>
   <string name="menu_exit_scene">Exit Mi Space</string>
   <string name="menu_item_add_item">Place on Home screen</string>

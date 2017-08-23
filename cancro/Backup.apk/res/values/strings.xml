@@ -41,8 +41,11 @@
   <string name="backup_new">New:</string>
   <string name="backup_progress">Backing up…</string>
   <string name="backup_report">View details</string>
+  <string name="backup_security_tips_message">Some apps may not be able to be backed up or restored.</string>
+  <string name="backup_security_tips_title">Backups may not work</string>
   <string name="backup_update">Update</string>
   <string name="batch_delete_backup_confirm">Delete selected backups?</string>
+  <string name="btn_got_it">Got it</string>
   <string name="button_backup">Back up</string>
   <string name="button_cancel">Cancel</string>
   <string name="button_continue">Continue</string>
@@ -161,6 +164,7 @@
   <string name="notif_trans_receiving_failed">"Couldn't receive data"</string>
   <string name="notif_trans_sending_completed">Data sent successfully</string>
   <string name="notif_trans_sending_failed">"Couldn't send data"</string>
+  <string name="notif_trans_wait_for_reconnecting">Remote device is disconnected. Please connect again.</string>
   <string name="page_loading">Just a sec…</string>
   <string name="progress_backup_hint">Backing up…</string>
   <string name="progress_restore_hint">Restoring…</string>
@@ -168,6 +172,7 @@
   <string name="prompt_sending">Uploading…</string>
   <string name="prompt_writing">Saving…</string>
   <string name="read_encrypt_fail">"Couldn't read encrypted backup"</string>
+  <string name="reconnect">Reconnect</string>
   <string name="refresh">Refresh</string>
   <string name="remote_receive">Receive</string>
   <string name="restore">Restore</string>
@@ -259,6 +264,7 @@
   <string name="trans_calculating_base_size">Calculating data size</string>
   <string name="trans_cancel_confirm">Transfer in progress, stop now?</string>
   <string name="trans_cancelling">Canceling…</string>
+  <string name="trans_connect_failed_device_incompatible">device incompatible. Please cancel the transfering progress and try again.</string>
   <string name="trans_connect_failed_message">"Couldn't connect, try again or reboot device. On the other device, go to Settings &gt; Additional Settings &gt; Mi Mover, tap [I'm a sender], or launch Mi Mover again after reboot."</string>
   <string name="trans_connect_failed_title">"Couldn't connect"</string>
   <string name="trans_connect_failed_toast">"Couldn't connect"</string>
@@ -269,6 +275,7 @@
   <string name="trans_detail_category_sysdata">System data</string>
   <string name="trans_detail_category_userdata">Apps</string>
   <string name="trans_device_disconnected">Device disconnected</string>
+  <string name="trans_device_wait_for_reconnecting">Device disconnected. Please reconnect.</string>
   <string name="trans_generate_qr_code_failed">"Couldn't create QR code"</string>
   <string name="trans_intro_desc_2">Cancel the transfer, exit Mi Mover, and start over. Duplicate files will be overwritten during the new transfer.</string>
   <string name="trans_intro_desc_3">"Mi Mover uses WLAN to transfer files. That's why you can't connect to the internet using WLAN on either device during a transfer. You can still use mobile data, though. However, some newer devices (for example, Mi 6) would still be able to connect to the internet using WLAN during transfers."</string>
@@ -310,6 +317,10 @@ Tap [I'm a recipient] to create a QR code"</string>
 2. Open the app and tap Start
 3. Scan the QR code with your old device"</string>
   <string name="trans_operate_old_phone_tips2">"Go to Settings &gt; Additional Settings &gt; Mi Mover, Tap [I'm a sender]"</string>
+  <string name="trans_operate_reconnect_new_tips">"Wait until new phone shows \"Device disconnected\".
+Then click [Reconnect] to create a QR code."</string>
+  <string name="trans_operate_reconnect_old_tips">"Wait until old phone shows \"Device disconnected\".
+Then click [Reconnect] to scan the QR code."</string>
   <string name="trans_please_waiting">Just a sec…</string>
   <string name="trans_progress_subdescript_br_receiver">Restoring %1$s, %2$s completed</string>
   <string name="trans_progress_subdescript_br_sender">Backing up %1$s, %2$s completed</string>
@@ -332,6 +343,8 @@ Keep devices close to each other."</string>
   <string name="trans_retry">Retry</string>
   <string name="trans_scan_invalid_qrcode">QR code invalid</string>
   <string name="trans_scan_qr_code_tips">Scan QR code using new device</string>
+  <string name="trans_security_tips_message">"Some apps don't support Mi Mover."</string>
+  <string name="trans_security_tips_title">Mi Mover compatibility</string>
   <string name="trans_select_data">Select items to send</string>
   <string name="trans_select_data_no_space">"Not enough storage on the new device
 Select files again or clear %s of storage on the new device"</string>
