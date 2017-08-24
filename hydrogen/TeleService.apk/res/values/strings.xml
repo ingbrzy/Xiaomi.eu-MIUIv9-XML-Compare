@@ -318,7 +318,7 @@
   <string name="call_advanced_setting_title">Advanced settings</string>
   <string name="call_background_default">Default</string>
   <string name="call_background_lock_wallpaper">Lock screen wallpaper</string>
-  <string name="call_background_setting">Call background</string>
+  <string name="call_background_setting">Incoming call background</string>
   <string name="call_barring">Call barring</string>
   <string name="call_barring_sum">Voice call barring settings</string>
   <string name="call_description_recording">Recording…</string>
