@@ -253,6 +253,7 @@
   <string name="apps_list_header_title_sms_access">Restrict access to verification codes</string>
   <string name="auto_atsk_condition_battery_level_text_down">When battery reaches %s</string>
   <string name="auto_atsk_condition_battery_level_text_up">When battery is charged to %s</string>
+  <string name="auto_clean_close">Automatic cleanups are off</string>
   <string name="auto_handle_title">GENERAL</string>
   <string name="auto_import_games">Put all your games in one place</string>
   <string name="auto_task_condition_choose_battery_level_down">When battery reaches a certain level</string>
@@ -354,6 +355,7 @@
   <string name="battery_status_unknown">Unknown error</string>
   <string name="battery_temperature_title">Temperature</string>
   <string name="begin_date">Usage reset date</string>
+  <string name="best_booster_status">Gaming speed is the best available now.</string>
   <string name="best_warning_dialog_button">我知道了</string>
   <string name="best_warning_dialog_message">"温馨提示：使用小米红包助手后，会提升您抢红包的速度。但如果您手太快，姿势太迅猛，每次都率先抢到红包，&lt;font color='#e56255'&gt;有一定几率会被微信误认为使用了自动抢红包插件&lt;/font&gt;，影响您后面使用红包功能。所以，有时候，高抬贵手略控制节奏，抢红包风味更佳。红包虽好，可不要贪多哟～"</string>
   <string name="best_warning_dialog_message1">"使用小米红包助手后，会提升您抢红包的速度。但如果您手太快，姿势太迅猛，每次都率先抢到红包，&lt;font color='#e56255'&gt;有一定几率会被微信误认为使用了自动抢红包插件&lt;/font&gt;，影响您后面使用红包功能。所以，有时候，高抬贵手略控制节奏，抢红包风味更佳。红包虽好，可不要贪多哟～～"</string>
@@ -437,11 +439,13 @@
   <string name="card_main_applock_summary">Protect private items with App lock</string>
   <string name="card_main_applock_title">App lock</string>
   <string name="card_main_deepclean_action">Clear</string>
+  <string name="card_main_deepclean_qq_title">QQ cleaner</string>
   <string name="card_main_deepclean_summary">Delete unnecessary files</string>
   <string name="card_main_deepclean_title">Deep clean</string>
   <string name="card_main_deepclean_wechat_action">Clear</string>
   <string name="card_main_deepclean_wechat_summary">Clear WeChat cache to free up storage space</string>
   <string name="card_main_deepclean_wechat_title">WeChat cache</string>
+  <string name="card_main_gamebooster_title">Gaming speed boost</string>
   <string name="card_main_hbassistant_summary">Use this tool to grab the envelopes faster</string>
   <string name="card_main_hbassistant_title">Red envelope assistant</string>
   <string name="card_main_monthreport_action">View</string>
@@ -616,6 +620,7 @@
   <string name="dnd_no_sound">仅屏蔽声音</string>
   <string name="dns_exception_summary">"Check router's DNS settings"</string>
   <string name="dns_exception_title">Check DNS settings</string>
+  <string name="do_clean">Clearing…</string>
   <string name="domestic_roaming_setting">National roaming</string>
   <string name="dont_bore">"Don't let buttons and notifications distract you"</string>
   <string name="dont_bore_text">Silence notifications and turn off buttons to remove distractions</string>
@@ -689,6 +694,8 @@
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
   <string name="forget_password_button_text_normal">Forgot password</string>
   <string name="forget_pattern">&lt;u&gt;Forgot password&lt;/u&gt;</string>
+  <string name="free_send_net_booster">Free Network speed boost</string>
+  <string name="free_send_net_booster_tip">Enjoy smooth gaming with the free Network speed boost.</string>
   <string name="free_time_traffic">Off-peak data limit</string>
   <string name="free_time_traffic_hint">Enter off-peak data limit</string>
   <string name="free_time_traffic_settings">Off-peak data limit</string>
@@ -798,6 +805,7 @@
   <string name="item_install_monitor">Install monitor</string>
   <string name="item_lucky_alarm_has_been_closed">已结束</string>
   <string name="item_mms">Filter unwanted messages</string>
+  <string name="item_system_auto_download">Download updates automatically</string>
   <string name="item_usb_debug">USB debugging</string>
   <string name="item_virus_lib">Update virus definitions automatically</string>
   <string name="keywords_antispam">Blocklist;Block;Black list;Smart blocklist;Fraud;Sales;Agents;Call blocklist;Message blocklist;Messaging blocklist;SMS blocklist;blacklist;black list;blocklist;block list;fraud;block contact;block contacts</string>
@@ -978,6 +986,7 @@ to respond"</string>
   <string name="memory_clean_running_process_title">Monitoring apps (%d)</string>
   <string name="memory_cleaned_memory_info">Available memory</string>
   <string name="memory_cleaned_memory_up">Speed boost</string>
+  <string name="memory_clear_unused">Clear cache (%s)</string>
   <string name="menu_add">Add</string>
   <string name="menu_bl_call_log">View blocked calls</string>
   <string name="menu_bl_remove">Unblock</string>
@@ -1020,6 +1029,7 @@ to respond"</string>
   <string name="menu_text_networkassistants_unit_gb">GB</string>
   <string name="menu_text_networkassistants_unit_kb">KB</string>
   <string name="menu_text_networkassistants_unit_mb">MB</string>
+  <string name="menu_text_optimize_manage">Boost speed</string>
   <string name="menu_text_power_manager">Battery usage</string>
   <string name="menu_text_power_percent">%s</string>
   <string name="menu_text_power_percent_title">Battery %s</string>
@@ -1038,7 +1048,16 @@ to respond"</string>
   <string name="more_game">More games</string>
   <string name="more_setting_summary">支持红包提醒种类、红包闹钟、勿扰时段等功能</string>
   <string name="name">Name</string>
+  <string name="net_booster">Network speed boost</string>
+  <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
+  <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
+  <string name="net_booster_overdue_notification">Network speed boost session is about to end</string>
+  <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
+  <string name="net_booster_tip">Turn on Network speed boost to make WLAN connection more stable and reduce network delay.</string>
+  <string name="net_booster_title">Network speed boost</string>
+  <string name="net_boosting">Boosting speed…</string>
   <string name="net_delay_title">Delay</string>
+  <string name="net_overdue">Session ended</string>
   <string name="network_blocked_connected_open_wifi">Connected to public network</string>
   <string name="network_blocked_notification_summary">Test network</string>
   <string name="network_blocked_switch_wifi">Switch networks</string>
@@ -1490,6 +1509,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="reach_daily_limit_value_body">Reduce your mobile data usage.</string>
   <string name="reach_daily_limit_value_title">Daily data limit reached</string>
   <string name="read_all_sms">Read all</string>
+  <string name="receive_now">Receive</string>
   <string name="recently_reject_message">Rejected installation of %1$s and %2$d other apps</string>
   <string name="recently_reject_message_one">Rejected %1$s installation requests</string>
   <string name="recommend_news">Receive recommendations</string>
@@ -1497,8 +1517,10 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="reject_all">Restrict all</string>
   <string name="reject_countdown">Deny (%d)</string>
   <string name="reject_usb_install">Denied installation of the following apps via USB</string>
+  <string name="release_meminfo">Free up %dMB</string>
   <string name="release_memory">Clear cache</string>
   <string name="renew_ip">Retry</string>
+  <string name="renew_now">Renew</string>
   <string name="repair">Repair</string>
   <string name="repair_loading_text">Just a sec…</string>
   <string name="repeated_marked_number_summary">"Don't block a second call from the same reported number within 3 minutes"</string>
@@ -1826,6 +1848,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="tab_blacklist">Blacklist</string>
   <string name="tab_block_log_unKnowNumber">Private number</string>
   <string name="tab_call">Calls</string>
+  <string name="tab_gift">Gifts</string>
+  <string name="tab_guide">Guide</string>
   <string name="tab_sms">SMS</string>
   <string name="tab_title">Blacklist</string>
   <string name="tc_diagnostic_all_error_notification_summary">Tap to report an issue</string>
@@ -1927,6 +1951,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_app_lock_disable">Lock apps</string>
   <string name="title_app_update">Updates available</string>
   <string name="title_auto_update">Update automatically</string>
+  <string name="title_chain_start">Restrict chain start</string>
   <string name="title_cleaner_cloudscan">Cloud trash scan</string>
   <string name="title_cloud_account">Mi Account</string>
   <string name="title_cloud_service">Mi Cloud</string>
@@ -1935,8 +1960,11 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_cmcc_app_check">"Verification isn't complete"</string>
   <string name="title_consume_power_rank">Battery usage</string>
   <string name="title_data_flow">Control mobile data</string>
+  <string name="title_data_flow_monitor">Data usage monitor is on</string>
+  <string name="title_dev_model_off">"Developer's options are off"</string>
   <string name="title_dev_no">Developer options on</string>
   <string name="title_dev_yes">Developer options off</string>
+  <string name="title_device_not_root">"Root access wasn't granted"</string>
   <string name="title_find_device">Find device</string>
   <string name="title_flow_notification">Mobile data notification</string>
   <string name="title_flow_purchase">Buy mobile data</string>
@@ -1944,18 +1972,21 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_flow_verify">Compare accounting</string>
   <string name="title_flow_verify_failed">"Couldn't adjust for 5 days in a row"</string>
   <string name="title_garbage_clean">App cache size reached %s</string>
+  <string name="title_garbage_less">App cache is small</string>
   <string name="title_garbage_lib">Update trash definitions</string>
   <string name="title_install_virus_no">Installation monitor off</string>
   <string name="title_install_virus_yes">Installation monitor on</string>
   <string name="title_limit_traffic_per_day">Daily data usage limit</string>
   <string name="title_mifi_insurance">Extended warranty</string>
   <string name="title_miui_update">Update available</string>
+  <string name="title_miui_update_latest">MIUI is up to date</string>
   <string name="title_mms_no">Message filter is off</string>
   <string name="title_mms_yes">Message filter is on</string>
   <string name="title_more_setting">更多设置</string>
   <string name="title_network_switch">Network connection</string>
   <string name="title_of_app_manage">Apps</string>
   <string name="title_of_auto_launch_manage">Autostart</string>
+  <string name="title_payment_protection">Payments are secured</string>
   <string name="title_payment_risk">Payment risks found</string>
   <string name="title_permission_no">Permission manager off</string>
   <string name="title_permission_root">Root access</string>
@@ -1963,6 +1994,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_power_optimizer">Battery saver</string>
   <string name="title_realname_verify">ID verification</string>
   <string name="title_show_notification">Notification shade widget</string>
+  <string name="title_system_auto_download">Updates will be downloaded automatically</string>
   <string name="title_telecom_operator">Auto adjust</string>
   <string name="title_usb_no">USB debugging on</string>
   <string name="title_usb_yes">USB debugging off</string>
@@ -2105,8 +2137,13 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="wifi_item_title_encryption">WLAN encryption</string>
   <string name="wifi_item_title_fake">Detect fake WLAN</string>
   <string name="wifi_network_blocked_notification_title">No internet connection</string>
+  <string name="wifi_optizition_loading">Turning on Xunyou Network speed boost…</string>
+  <string name="wifi_optizition_tip">Turn on WLAN speed boost to make WLAN connection more stable. A small amount of mobile data will be used.</string>
+  <string name="wifi_optizition_title">WLAN speed boost</string>
   <string name="wl_no_whitelist">No exceptions.</string>
+  <string name="wlan_booster">WLAN speed boost</string>
   <string name="wlan_change_protection_detail">"Don't switch to WLAN automatically when connected to mobile data network"</string>
   <string name="wlan_change_protection_title">Prevent switching networks</string>
+  <string name="xunyou_pay_webview">Xunyou services</string>
   <string name="zhifubao_not_found">您的应用版本过低或者未安装</string>
 </resources>

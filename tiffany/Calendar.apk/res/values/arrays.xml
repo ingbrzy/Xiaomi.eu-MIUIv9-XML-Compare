@@ -10,6 +10,10 @@
         <item>Aries</item>
         <item>3/21 - 4/19</item>
     </string-array>
+    <string-array name="bundesliga">
+        <item>2</item>
+        <item>Bundesliga</item>
+    </string-array>
     <string-array name="cancer_info">
         <item>cancer</item>
         <item>Cancer</item>
@@ -44,10 +48,18 @@
         <item>This and future events</item>
         <item>All events</item>
     </string-array>
+    <string-array name="english_premium_league">
+        <item>4</item>
+        <item>@string/english_premium_league</item>
+    </string-array>
     <string-array name="gemini_info">
         <item>gemini</item>
         <item>Gemini</item>
         <item>5/21 - 6/21</item>
+    </string-array>
+    <string-array name="la_liga">
+        <item>3</item>
+        <item>La Liga</item>
     </string-array>
     <string-array name="leo_info">
         <item>leo</item>
@@ -58,6 +70,10 @@
         <item>libra</item>
         <item>Libra</item>
         <item>9/23 - 10/23</item>
+    </string-array>
+    <string-array name="ligue_1">
+        <item>5</item>
+        <item>Ligue 1</item>
     </string-array>
     <string-array name="ordinal_labels">
         <item>first</item>
@@ -182,6 +198,10 @@
         <item>Scorpio</item>
         <item>10/24 - 11/22</item>
     </string-array>
+    <string-array name="serie_a">
+        <item>1</item>
+        <item>Serie A</item>
+    </string-array>
     <string-array name="taurus_info">
         <item>taurus</item>
         <item>Taurus</item>
@@ -298,14 +318,6 @@
         <item>Transparent</item>
         <item>White background</item>
     </string-array>
-    <string-array name="bundesliga">
-        <item>2</item>
-        <item>Bundesliga</item>
-    </string-array>
-    <string-array name="english_premium_league">
-        <item>4</item>
-        <item>@string/english_premium_league</item>
-    </string-array>
     <array name="global_football_match">
         <item>@array/english_premium_league</item>
         <item>@array/serie_a</item>
@@ -327,18 +339,6 @@
         <item>@array/aquarius_info</item>
         <item>@array/pisces_info</item>
     </array>
-    <string-array name="la_liga">
-        <item>3</item>
-        <item>La Liga</item>
-    </string-array>
-    <string-array name="ligue_1">
-        <item>5</item>
-        <item>Ligue 1</item>
-    </string-array>
-    <string-array name="serie_a">
-        <item>1</item>
-        <item>Serie A</item>
-    </string-array>
     <array name="account_birthday">
         <item>#ffe99080</item>
         <item>#b3d5a198</item>
