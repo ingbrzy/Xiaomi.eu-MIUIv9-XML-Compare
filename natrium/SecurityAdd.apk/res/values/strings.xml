@@ -47,6 +47,8 @@
   <string name="game_setting">Game settings</string>
   <string name="gamebooster_network_dialog_message">Allow Security to connect to the network in order to use all features of the Game speed booster?</string>
   <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
+  <string name="gb_alipays_can_not_complete">"Can't complete payment. Install to continue."</string>
+  <string name="gb_weixinpay_can_not_complete">"Can't complete payment. Install to continue."</string>
   <string name="get_sys_info">Getting info…</string>
   <string name="gs_anto_clean_memory_whitelist">Exceptions</string>
   <string name="gs_app_back_self_start">Battery saver</string>

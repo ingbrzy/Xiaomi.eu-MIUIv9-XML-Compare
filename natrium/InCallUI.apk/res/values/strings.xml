@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="accept_modify_call_request_prompt">Accept modify call request?</string>
-  <string name="add_vm_number_str">Add number</string>
   <string name="antispam_local_marked">Local marked</string>
   <string name="antispam_marked_count">Reported by %1$d MIUI users</string>
   <string name="antispam_marked_title">%1$s</string>
@@ -184,8 +183,6 @@
   <string name="no_balance_title">Insufficient funds</string>
   <string name="no_call_back_message">Its taking too long to connect. Switching to regular call for which you might be charged by the carrier.</string>
   <string name="no_call_back_title">Attention</string>
-  <string name="no_vm_number">Missing voicemail number</string>
-  <string name="no_vm_number_msg">No voicemail numbers stored on SIM card.</string>
   <string name="non_ivr_menu_collapse_menu">Collapse menu</string>
   <string name="non_ivr_menu_view_menu">View menu</string>
   <string name="not_activate_sim_card_content">Verify your phone number to start using Top-up package. You can still make a regular call for which youll be charged by the carrier.</string>
