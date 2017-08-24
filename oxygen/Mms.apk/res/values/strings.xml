@@ -576,6 +576,8 @@
   <string name="sp_category_title_prefix">%s</string>
   <string name="sp_conversation_title">Notifications</string>
   <string name="sp_mark_as_read_menu_title">Mark as read</string>
+  <string name="sqlite_disk_full">Database or Disk is full</string>
+  <string name="sqlite_low_memory">Low Memory</string>
   <string name="status_failed">Unsuccessful</string>
   <string name="status_label">"Status: "</string>
   <string name="status_pending">Pending</string>
@@ -648,11 +650,6 @@ Attempt made: %s."</string>
   <string name="url_fraud_visit">&lt;u&gt;Visit anyway&lt;/u&gt;</string>
   <string name="url_result_safe">This URL is safe</string>
   <string name="url_scanning">Checking URL…</string>
-  <string name="user_agreement1">Read the applicable terms carefully before you install additional software or use this product.</string>
-  <string name="user_agreement2">Terms of Service</string>
-  <string name="user_agreement3">" and "</string>
-  <string name="user_agreement4">Privacy Policy</string>
-  <string name="user_agreement5">By tapping OK, you agree to our Terms of Service and Privacy Policy.</string>
   <string name="verification_code_icon_name">V</string>
   <string name="verification_code_list_title">Verification codes</string>
   <string name="view">View</string>
