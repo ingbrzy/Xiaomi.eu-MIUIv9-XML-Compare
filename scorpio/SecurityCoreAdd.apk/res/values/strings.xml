@@ -68,6 +68,7 @@ to be able to view them anytime"</string>
   <string name="delete_src_photo">Delete photos</string>
   <string name="dir_switch_out_all_photos">Second space Gallery</string>
   <string name="disable">Turn off</string>
+  <string name="do_not_ask">不再询问</string>
   <string name="dont_import">Not now</string>
   <string name="downloading_space">Downloading…</string>
   <string name="enable">Turn on</string>
@@ -89,8 +90,13 @@ to be able to view them anytime"</string>
   <string name="finger_print_of_use">Use fingerprint</string>
   <string name="fingerprint_removal_failed">"Couldn't delete fingerprint"</string>
   <string name="function_not_support">Not supported on this device</string>
+  <string name="gms_message">双开该应用需要依赖谷歌服务,是否同步双开谷歌服务</string>
+  <string name="gms_open_button">开启</string>
+  <string name="gms_title">双开谷歌服务</string>
   <string name="goToSecondSpacce">Go to Second space</string>
   <string name="go_on_import">Keep importing</string>
+  <string name="gpg_message">双开游戏需要依赖谷歌游戏中心应用,是否同步双开谷歌游戏中心应用</string>
+  <string name="gpg_title">双开谷歌游戏中心</string>
   <string name="guide_contact_sub_title_desc">"Contacts added to Second space will be private.
 Messages will only appear in Second space."</string>
   <string name="guide_contact_suc_sub_title_desc">Only private contacts and messages will be shown in Second space</string>

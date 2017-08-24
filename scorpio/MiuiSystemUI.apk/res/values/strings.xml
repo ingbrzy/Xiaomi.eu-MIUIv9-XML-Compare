@@ -11,7 +11,6 @@
   <string name="accessibility_action_divider_top_70">Top 70%</string>
   <string name="accessibility_action_divider_top_full">Top full screen</string>
   <string name="accessibility_airplane_mode">Airplane mode.</string>
-  <string name="accessibility_assistant">Quick ball</string>
   <string name="accessibility_back">Back</string>
   <string name="accessibility_battery_level">Battery %d percent.</string>
   <string name="accessibility_bluetooth_connected">Bluetooth connected.</string>
