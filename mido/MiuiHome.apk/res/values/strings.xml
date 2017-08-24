@@ -85,7 +85,6 @@
   <string name="failed_to_delete_temporary">"Can't remove"</string>
   <string name="failed_to_drop">"Can't move"</string>
   <string name="failed_to_drop_widget_invalid">Widget invalid</string>
-  <string name="failed_to_drop_widget_nospace">No more room on this Home screen</string>
   <string name="failed_to_load_image">"Can't load image"</string>
   <string name="folder_name">Folder</string>
   <string name="frame_load_failed">"Can't load frame"</string>
@@ -181,6 +180,7 @@
   <string name="mtzgadget_missing_text">"Widget isn't available"</string>
   <string name="multi_selecting_tips">To pick up an app, drag its icon and drop here</string>
   <string name="no_detail_page">No details page</string>
+  <string name="no_space_toast">No space</string>
   <string name="normal_wallpaper">Wallpaper</string>
   <string name="notification_installed">Installed successfully</string>
   <string name="notification_open_button">Open</string>

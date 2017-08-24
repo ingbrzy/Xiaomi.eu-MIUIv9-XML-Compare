@@ -364,6 +364,7 @@ using %s"</string>
   <string name="editTextMenuTitle">Text actions</string>
   <string name="elapsed_time_short_format_h_mm_ss">%1$d:%2$02d:%3$02d</string>
   <string name="elapsed_time_short_format_mm_ss">%1$02d:%2$02d</string>
+  <string name="ellipsis">…</string>
   <string name="emailTypeCustom">Custom</string>
   <string name="emailTypeHome">Home</string>
   <string name="emailTypeMobile">Mobile</string>
@@ -1469,6 +1470,19 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="usb_mtp_notification_title">USB for file transfer</string>
   <string name="usb_notification_message">Tap for more options.</string>
   <string name="usb_ptp_notification_title">USB for photo transfer</string>
+  <string name="usb_storage_activity_title">USB mass storage</string>
+  <string name="usb_storage_button_mount">Turn on USB storage</string>
+  <string name="usb_storage_error_message">"There's a problem using your USB storage for USB mass storage."</string>
+  <string name="usb_storage_message">"You've connected to your computer via USB. Touch the button below if you want to copy files between your computer and your Android's USB storage."</string>
+  <string name="usb_storage_notification_message">Touch to copy files to/from your computer.</string>
+  <string name="usb_storage_notification_title">USB connected</string>
+  <string name="usb_storage_stop_button_mount">Turn off USB storage</string>
+  <string name="usb_storage_stop_error_message">"There was a problem turning off USB storage. Check that you've unmounted the USB host, then try again."</string>
+  <string name="usb_storage_stop_message">"Before turning off USB storage, unmount (\"eject\") your Android's USB storage from your computer."</string>
+  <string name="usb_storage_stop_notification_message">Touch to turn off USB storage.</string>
+  <string name="usb_storage_stop_notification_title">Turn off USB storage</string>
+  <string name="usb_storage_stop_title">USB storage in use</string>
+  <string name="usb_storage_title">USB connected</string>
   <string name="usb_supplying_notification_title">USB supplying power to attached device</string>
   <string name="use_a_different_app">Use a different app</string>
   <string name="user_creation_account_exists">Allow %1$s to create a new User with %2$s ?</string>

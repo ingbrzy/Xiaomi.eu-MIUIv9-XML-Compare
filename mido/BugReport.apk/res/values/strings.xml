@@ -55,6 +55,7 @@
   <string name="feedback_choose_module">Select item</string>
   <string name="feedback_choose_module_hint">Required</string>
   <string name="feedback_collect_log_failed">"Couldn't get logs"</string>
+  <string name="feedback_contact_info_hint">Phone number/Email</string>
   <string name="feedback_continue">Continue with feedback</string>
   <string name="feedback_description">Description</string>
   <string name="feedback_description_bugreport_hint">In some cases (…) my phone misbehaves (…).</string>
@@ -74,6 +75,7 @@
   <string name="feedback_report_remind_login_desc2">"You can also view your report's progress in \"My reports\"."</string>
   <string name="feedback_retest_label">Steps to reproduce</string>
   <string name="feedback_select_images">Add images</string>
+  <string name="feedback_select_modem_log">Add modem logs</string>
   <string name="feedback_select_problem">Issues</string>
   <string name="feedback_select_suggestion">Suggestions</string>
   <string name="feedback_select_upload_log">Add logs</string>
@@ -196,6 +198,7 @@
   <string name="module_data">Storage &amp; Dual apps</string>
   <string name="module_desktop">Home screen &amp; settings</string>
   <string name="module_finance">Finance &amp; Mi Wallet</string>
+  <string name="module_google_apps">Google apps</string>
   <string name="module_item_less">Hide</string>
   <string name="module_item_more">More</string>
   <string name="module_medias">Media</string>
