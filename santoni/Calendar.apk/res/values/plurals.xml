@@ -40,6 +40,14 @@
         <item quantity="other">%1$s years</item>
         <item quantity="one">%1$s year</item>
     </plurals>
+    <plurals name="birthday_event_description_days_ago">
+        <item quantity="other">%1$d days since</item>
+        <item quantity="one">%1$d day since</item>
+    </plurals>
+    <plurals name="birthday_event_description_days_later">
+        <item quantity="other">%1$d days until</item>
+        <item quantity="one">%1$d day until</item>
+    </plurals>
     <plurals name="birthday_notification_age_term">
         <item quantity="other">%1$s-year-old</item>
         <item quantity="one">%1$s-year-old</item>
@@ -63,6 +71,10 @@
     <plurals name="date_calculate_direction_forward">
         <item quantity="other">%1$d days before</item>
         <item quantity="one">%1$d day before</item>
+    </plurals>
+    <plurals name="edit_date_calculate_days_error_hint">
+        <item quantity="other">You can enter up to %1$d days</item>
+        <item quantity="one">You can enter up to %1$d day</item>
     </plurals>
     <plurals name="month_more_events">
         <item quantity="other">+%d</item>
@@ -90,18 +102,6 @@
     <plurals name="work_days">
         <item quantity="other">%d working days</item>
         <item quantity="one">%d working day</item>
-    </plurals>
-    <plurals name="birthday_event_description_days_ago">
-        <item quantity="other">%1$d days since</item>
-        <item quantity="one">%1$d day since</item>
-    </plurals>
-    <plurals name="birthday_event_description_days_later">
-        <item quantity="other">%1$d days until</item>
-        <item quantity="one">%1$d day until</item>
-    </plurals>
-    <plurals name="edit_date_calculate_days_error_hint">
-        <item quantity="other">You can enter up to %1$d days</item>
-        <item quantity="one">You can enter up to %1$d day</item>
     </plurals>
     <plurals name="Ndays_after">
         <item quantity="other">%1$d天后</item>
