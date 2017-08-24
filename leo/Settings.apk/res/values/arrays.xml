@@ -1913,8 +1913,8 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@string/screen_resolution_normal_format</item>
     </string-array>
     <integer-array name="screen_resolution">
-        <item>1440</item>
-        <item>720</item>
+        <item>3686400</item>
+        <item>921600</item>
     </integer-array>
     <string-array name="edge_touch_volume_action">
         <item>Click adjust - Double click trigger</item>
