@@ -138,6 +138,11 @@
   <string name="memory_clear_nothing_result">Nothing to clear in cache</string>
   <string name="memory_clear_result">%1$sB cleared</string>
   <string name="miui">miui</string>
+  <string name="miui_screen_ratio_hint">Screen ratio issues</string>
+  <string name="miui_screen_ratio_hint_dont_show_again">"Don't show again"</string>
+  <string name="miui_screen_ratio_hint_go_to_settings">Go to Settings</string>
+  <string name="miui_screen_ratio_hint_message">This app is allowed to run in the fullscreen mode which may cause it to be displayed incorrectly. You can change this in Settings &gt; Advanced settings &gt; Buttons.</string>
+  <string name="miui_screen_ratio_hint_ok">OK</string>
   <string name="miui_upgrading_notification_title">System is loading, some features may be limited</string>
   <string name="onehour">30 minutes</string>
   <string name="package_delete_confirm_step_1">Delete %s?</string>

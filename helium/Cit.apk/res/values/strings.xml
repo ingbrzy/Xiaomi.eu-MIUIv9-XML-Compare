@@ -15,6 +15,8 @@
   <string name="cit_OTG_plugout_check_title">OTG (removal)</string>
   <string name="cit_OTG_waiting_in">Connect USB OTG device now</string>
   <string name="cit_OTG_waiting_out">Disconnect USB OTG device now</string>
+  <string name="cit_abnormal_reboot_summary">Please wait...Reading stability data on this device.</string>
+  <string name="cit_abnormal_reboot_title">Device Stability Data</string>
   <string name="cit_ac_charger_in">Charging via AC</string>
   <string name="cit_ac_charger_out">AC charger disconnected</string>
   <string name="cit_accelermeter_sensor_check_summary">"Move the device quickly in one direction. X，Y，Z coordinate values are displayed below. (when phone is in motion: X is represents left/right, y represents front/back, z represents up and down).
@@ -80,6 +82,8 @@ Hold the phone as if you're answering a call, speak in to the microphone. You sh
   <string name="cit_audio_right_caldata">"Right PA Calibrated Data:
 "</string>
   <string name="cit_audio_right_calfail">Right PA Calibrated Failed!</string>
+  <string name="cit_battery_check_summary">Device battery statistics</string>
+  <string name="cit_battery_check_title">Battery info</string>
   <string name="cit_battery_temp_fail">Battery temperature is not normal (value=%d)</string>
   <string name="cit_battery_temp_pass">Battery temperature is normal</string>
   <string name="cit_batterylight_blue">Blue</string>
