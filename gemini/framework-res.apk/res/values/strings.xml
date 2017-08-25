@@ -223,7 +223,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_customVpnConfirmDialogComponent">com.android.vpndialogs/com.android.vpndialogs.ConfirmDialog</string>
   <string name="config_datause_iface">rmnet0</string>
   <string name="config_defaultNetworkScorerPackageName"/>
-  <string name="config_defaultPictureInPictureBounds">0 0 100 100</string>
+  <string name="config_defaultPictureInPictureBounds">180 200 880 600</string>
   <string name="config_default_dns_server">8.8.8.8</string>
   <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
   <string name="config_dreamsDefaultComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
@@ -663,16 +663,9 @@ Try again in %2$d seconds."</string>
   <string name="locale_replacement"/>
   <string name="locale_search_menu">Search</string>
   <string name="lock_pattern_view_aspect">square</string>
-  <string name="lock_to_app_description">"Screen pinning locks the display in a single view.
-
-To unpin, press and hold Home and the Power button at the same time."</string>
-  <string name="lock_to_app_description_accessible">"Screen pinning locks the display in a single view.
-
-To unpin, press and hold Home and the Power button at the same time."</string>
   <string name="lock_to_app_exit">Screen unpinned</string>
   <string name="lock_to_app_start">Screen pinned</string>
-  <string name="lock_to_app_toast">To unpin this screen, press and hold Home and the Power button at the same time.</string>
-  <string name="lock_to_app_toast_accessible">To unpin this screen, press and hold Home and the Power button at the same time.</string>
+  <string name="lock_to_app_toast">To unpin this screen, touch &amp; hold Back.</string>
   <string name="lock_to_app_toast_locked">"App is pinned: Unpinning isn't allowed on this device."</string>
   <string name="lock_to_app_unlock_password">Ask for password before unpinning</string>
   <string name="lock_to_app_unlock_pattern">Ask for unlock pattern before unpinning</string>
@@ -713,7 +706,7 @@ Visit "&lt;b&gt;google.com/accounts/recovery&lt;/b&gt;.</string>
   <string name="lockscreen_pattern_instructions">Draw pattern to unlock</string>
   <string name="lockscreen_pattern_wrong">Try again</string>
   <string name="lockscreen_permanent_disabled_sim_instructions">"Your SIM card has been permanently disabled.
-Contact your wireless service provider for another SIM card."</string>
+ Contact your wireless service provider for another SIM card."</string>
   <string name="lockscreen_permanent_disabled_sim_message_short">Unusable SIM card.</string>
   <string name="lockscreen_return_to_call">Return to call</string>
   <string name="lockscreen_screen_locked">Screen locked.</string>
@@ -1497,11 +1490,11 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="volume_alarm">Alarm volume</string>
   <string name="volume_bluetooth_call">Bluetooth in-call volume</string>
   <string name="volume_call">In-call volume</string>
-  <string name="volume_icon_description_bluetooth">Bluetooth</string>
-  <string name="volume_icon_description_incall">Call</string>
-  <string name="volume_icon_description_media">Media</string>
-  <string name="volume_icon_description_notification">Notification</string>
-  <string name="volume_icon_description_ringer">Ringer</string>
+  <string name="volume_icon_description_bluetooth">Bluetooth volume</string>
+  <string name="volume_icon_description_incall">Call volume</string>
+  <string name="volume_icon_description_media">Media volume</string>
+  <string name="volume_icon_description_notification">Notification volume</string>
+  <string name="volume_icon_description_ringer">Ringtone volume</string>
   <string name="volume_music">Media volume</string>
   <string name="volume_music_hint_playing_through_bluetooth">Playing through Bluetooth</string>
   <string name="volume_music_hint_silent_ringtone_selected">Silent ringtone set</string>

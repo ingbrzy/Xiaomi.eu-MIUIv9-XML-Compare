@@ -246,8 +246,8 @@
   <string name="aqi_quality_index_unhealthy">Unhealthy</string>
   <string name="at_miui_browser">\@小米浏览器</string>
   <string name="autoSwithcingSearchEngineTips">Switched to the frequent search engine</string>
-  <string name="autofill_keyboard_accessory_content_description">Suggestions available…</string>
-  <string name="autofill_popup_content_description">Showing autofill pop-up</string>
+  <string name="autofill_keyboard_accessory_content_description">Suggestions available</string>
+  <string name="autofill_popup_content_description">Showing autofill popup</string>
   <string name="autologin_bar_error">"Couldn't sign in"</string>
   <string name="autologin_bar_hide_text">Hide</string>
   <string name="autologin_bar_login_text">Sign in</string>
@@ -372,6 +372,7 @@
   <string name="contextmenu_dial_dot">Dial…</string>
   <string name="contextmenu_download_image">Save image</string>
   <string name="contextmenu_download_image_as">Save image</string>
+  <string name="contextmenu_manually_block_ad">Mark as ad</string>
   <string name="contextmenu_map">Map</string>
   <string name="contextmenu_openlink">Open</string>
   <string name="contextmenu_openlink_newwindow">Open in new tab</string>
@@ -513,7 +514,7 @@ Pages you view won't appear in history."</string>
   <string name="geolocation_permissions_prompt_message">%s wants to know your location</string>
   <string name="geolocation_permissions_prompt_remember">Remember preference</string>
   <string name="geolocation_permissions_prompt_share">Share location</string>
-  <string name="geolocation_permissions_prompt_toast_allowed">This site can access your location info. You can change this in Settings.</string>
+  <string name="geolocation_permissions_prompt_toast_allowed">This site can access your location info. You can change in Settings.</string>
   <string name="geolocation_permissions_prompt_toast_disallowed">This site cannot access your location</string>
   <string name="geolocation_settings_page_dialog_cancel_button">Cancel</string>
   <string name="geolocation_settings_page_dialog_message">Clear location access for this website?</string>
@@ -602,6 +603,7 @@ Leave this page?"</string>
   <string name="miui_content_select">Select</string>
   <string name="miui_content_select_all">Select all</string>
   <string name="miui_content_share">Share</string>
+  <string name="miui_content_translate">Translate</string>
   <string name="miui_content_web_search">Search</string>
   <string name="miui_quicksearch_enable_pref_summary">Show link to search bar in the notification shade</string>
   <string name="miui_quicksearch_enable_pref_title">Search bar in notification shade</string>
@@ -737,7 +739,7 @@ Leave this page?"</string>
   <string name="page_info_address">Address:</string>
   <string name="page_info_view">View page info</string>
   <string name="password">Password</string>
-  <string name="password_generation_popup_content_description">Showing password generation pop-up…</string>
+  <string name="password_generation_popup_content_description">Showing password generation popup</string>
   <string name="pause_download">Paused</string>
   <string name="paused_queued_for_wifi">Waiting for connection…</string>
   <string name="paused_unknown">Paused</string>
@@ -755,8 +757,10 @@ Leave this page?"</string>
   <string name="pref_accessibility_url_shortcut_enter_title">Quick URL input</string>
   <string name="pref_adblock_counts">%d blocked</string>
   <string name="pref_adblock_title">Ad blocker</string>
+  <string name="pref_advert_null">Unmarked advertising,You can press the label on the page</string>
   <string name="pref_auto_update_under_wifi">Update using Wi-Fi</string>
   <string name="pref_automatic_matching_searchengines_title">Switch to the frequent search engine</string>
+  <string name="pref_cancel_screen">Cancel screen</string>
   <string name="pref_category_hint">Category</string>
   <string name="pref_check_security_url_summary">"Send website URL to Mi's servers to check if it's secure"</string>
   <string name="pref_check_security_url_summary_international">Allow Browser to access the URLs of the websites you visit to receive more relevant recommendations.</string>
@@ -808,13 +812,14 @@ Leave this page?"</string>
   <string name="pref_images_preload_value_never">0</string>
   <string name="pref_images_preload_value_wifi_only">1</string>
   <string name="pref_key_gesture_title">Buttons &amp; gestures</string>
+  <string name="pref_label_advert_manager">Manager labelled ads</string>
   <string name="pref_link_prefetch_default_value">@string/pref_link_prefetch_value_wifi_only</string>
   <string name="pref_link_prefetch_value_always">ALWAYS</string>
   <string name="pref_link_prefetch_value_never">NEVER</string>
   <string name="pref_link_prefetch_value_wifi_only">WIFI_ONLY</string>
   <string name="pref_nav_mode_summary_pad">Pad</string>
   <string name="pref_nav_mode_summary_phone">Phone</string>
-  <string name="pref_nav_mode_title">Browser Mode</string>
+  <string name="pref_nav_mode_title">Desktop</string>
   <string name="pref_notifications_hint">Notifications</string>
   <string name="pref_notifications_receive">Notifications</string>
   <string name="pref_notifications_title">Notifications</string>
@@ -1045,7 +1050,7 @@ Leave this page?"</string>
   <string name="unsecurity_url_toast">"This website isn't secure"</string>
   <string name="up_to_loading_tips">Release to refresh</string>
   <string name="update_no_network_toast">"Can't connect to the network"</string>
-  <string name="updating_chrome">Updating Chrome…</string>
+  <string name="updating_chrome">Updating Chrome...</string>
   <string name="uploads_disabled">File uploads are disabled</string>
   <string name="url_copy_done">URL copied to clipboard</string>
   <string name="url_find_on_page_result">View in Browser</string>
@@ -1103,7 +1108,7 @@ Leave this page?"</string>
   <string name="video_edit">Edit</string>
   <string name="video_float_window">Pop-up</string>
   <string name="video_float_window_playing">Playing video</string>
-  <string name="video_float_window_text">Pop-up</string>
+  <string name="video_float_window_text">PopUp</string>
   <string name="video_fragment_name_collections">Favorites</string>
   <string name="video_fragment_name_download">Offline video</string>
   <string name="video_fragment_name_historys">History</string>
@@ -1119,6 +1124,7 @@ Leave this page?"</string>
   <string name="video_push_multi_message">%1$d updates available.</string>
   <string name="video_push_multi_title">Update available</string>
   <string name="video_push_single_message">Tap to update to %1$d.</string>
+  <string name="video_service_notification_title">Popup video playing</string>
   <string name="video_subtitle_last_message1">Less than 1 minute remaining</string>
   <string name="video_subtitle_prefix1">Watched</string>
   <string name="video_subtitle_prefix2">"Watched "</string>

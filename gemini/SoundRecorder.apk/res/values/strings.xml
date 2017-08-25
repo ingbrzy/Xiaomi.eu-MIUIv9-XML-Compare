@@ -77,6 +77,7 @@
   <string name="preference_tip_rename">Name recordings manually</string>
   <string name="recognition_error_cancel">Canceled</string>
   <string name="recognition_error_download_cancel">Later</string>
+  <string name="recognition_error_download_data_msg">Download recognition engine to make this service available, which will consume about 20MB in current mobile data connection.</string>
   <string name="recognition_error_download_fail">"Couldn't download. Check network settings and try again."</string>
   <string name="recognition_error_download_msg">Download recognition engine to make this service available.</string>
   <string name="recognition_error_download_ok">Download</string>
@@ -97,6 +98,7 @@
   <string name="record_downloading_notification">Downloading…</string>
   <string name="record_downloading_notification_complete">Download complete</string>
   <string name="record_downloading_notification_count">%d downloading</string>
+  <string name="record_format_preference_title">Recording format</string>
   <string name="record_list">Recordings</string>
   <string name="record_list_call">Recorded calls</string>
   <string name="record_list_category_title_format">MMMM yyyy</string>
@@ -108,6 +110,7 @@
   <string name="record_name_hour">.</string>
   <string name="record_name_minute"/>
   <string name="record_quliaty_preference_title">Recording quality</string>
+  <string name="record_resotre">Recover records</string>
   <string name="recording">Recording</string>
   <string name="recording_quality_high">High quality</string>
   <string name="recording_quality_low">Low quality</string>
@@ -150,6 +153,13 @@
   <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
   <string name="toast_max_record_time">%1$s can record for about %2$s</string>
   <string name="toast_uninstall_fileexplorer">"Explorer app isn't installed"</string>
+  <string name="webview_check_network">Network settings</string>
+  <string name="webview_data_error">An error occurred</string>
+  <string name="webview_locating_fail">"Couldn't find your location"</string>
+  <string name="webview_network_access_denied">Network access denied</string>
+  <string name="webview_network_unavaliable">"Can't connect to the network"</string>
+  <string name="webview_service_unavailiable">Service unavailable</string>
+  <string name="webview_try_again">Try again</string>
   <string name="wifi_recommended_body" formatted="false">Using your mobile data connection to download this file (%s) will increase your data usage. If you go over your plan’s data usage limit, your carrier could charge you additional fees. To wait for a WLAN connection to download this file, tap %s.</string>
   <string name="wifi_recommended_title">Data usage warning</string>
   <string name="xiaomi_account_type">com.xiaomi</string>

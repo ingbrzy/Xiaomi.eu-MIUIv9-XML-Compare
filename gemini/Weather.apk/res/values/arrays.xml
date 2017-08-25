@@ -185,4 +185,8 @@
         <item>Severely polluted</item>
         <item>Beyond index</item>
     </string-array>
+    <string-array name="dislike_alert_dialog_selectitems">
+        <item>not interested</item>
+        <item>poor quality of content</item>
+    </string-array>
 </resources>

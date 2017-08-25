@@ -22,9 +22,6 @@
   <string name="delete_failed">"Can't delete"</string>
   <string name="delete_failed_retry">"Can't delete, wait %1$s and try again"</string>
   <string name="delete_file">Delete this file?</string>
-  <string name="delete_files">Delete %1$d files?</string>
-  <string name="delete_folder">Delete this folder?</string>
-  <string name="delete_folders">Delete %1$d folders?</string>
   <string name="delete_success">File deleted</string>
   <string name="download_current_progress">%1$d%%</string>
   <string name="download_failed">"Couldn't download"</string>
@@ -112,6 +109,7 @@
   <string name="sd_invalid">Your SD card is corrupted.</string>
   <string name="send_to_midrive_failed">"This file type isn't supported."</string>
   <string name="slashes">/</string>
+  <string name="source_file_missing">File is missing.</string>
   <string name="space_full">Not enough cloud space.</string>
   <string name="start_use_xiaomi_account">Start using Mi Drive</string>
   <string name="system_alert">Internet connection</string>

@@ -158,10 +158,6 @@
   <string name="ivr_menu_dialing_msg_no_mute">Go to selected service…[Automatic error correction is enabled]</string>
   <string name="ivr_menu_list_sub_menu_count_format">Tap %s</string>
   <string name="ivr_menu_list_title">Voice menu</string>
-  <string name="jeejen_answer_call_text">Answer call</string>
-  <string name="jeejen_end_call_text">End call</string>
-  <string name="jeejen_reject_call_text">Reject call</string>
-  <string name="jeejen_toggle_dialpad_text">Dialpad</string>
   <string name="keep_wait_call_back">Keep waiting</string>
   <string name="livetalk_dial">Using Top-up package</string>
   <string name="livetalk_hangup">Hang up</string>
@@ -223,6 +219,7 @@
   <string name="onscreen_note_calls_text">Note</string>
   <string name="onscreen_swap_calls_text">Swap</string>
   <string name="onscreen_switch_camera">Switch</string>
+  <string name="package_not_available">\"%s\" is not available</string>
   <string name="pause_prompt_no">No</string>
   <string name="pause_prompt_yes">Yes</string>
   <string name="payphone">Payphone</string>
@@ -237,7 +234,7 @@
   <string name="select_voice_call_sim">Choose SIM card</string>
   <string name="separate_from_conference">Separate call</string>
   <string name="sip_call_not_support_record">"Can't record SIP calls"</string>
-  <string name="suspect_info">Be careful with your personal info.</string>
+  <string name="suspect_info">Be careful your personal information.</string>
   <string name="time_left_livetalk">(%ds)</string>
   <string name="unknown">Unknown</string>
   <string name="unlock_phone">Unlock device</string>

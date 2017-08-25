@@ -147,7 +147,7 @@
         <item>Dec</item>
     </string-array>
     <string-array name="alphabet_chars">
-        <item>☆</item>
+        <item>★</item>
         <item>A</item>
         <item>B</item>
         <item>C</item>
@@ -314,6 +314,14 @@
         <item>@string/eas_outlook_email</item>
         <item>@string/eas_hotmail_email</item>
     </string-array>
+    <integer-array name="senders_lengths">
+        <item>27</item>
+        <item>27</item>
+    </integer-array>
+    <integer-array name="senders_with_attachment_lengths">
+        <item>25</item>
+        <item>25</item>
+    </integer-array>
     <string-array name="signature_normal_string_array">
         <item>Blog:</item>
         <item>Site:</item>
