@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="incorrect_pukcode_remaining_attempts">
+        <item quantity="other">Incorrect PUK code, %d attempts remaining</item>
+        <item quantity="one">Incorrect PUK code, %d attempt remaining</item>
+    </plurals>
+    <plurals name="incorrect_pincode_remaining_attempts">
+        <item quantity="other">Incorrect PIN code, %d attempts remaining</item>
+        <item quantity="one">Incorrect PIN code, %d attempt remaining</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_seconds_string">
+        <item quantity="other">Try again in %d seconds</item>
+        <item quantity="one">Try again in %d second</item>
+    </plurals>
+    <plurals name="phone_locked_timeout_minutes_string">
+        <item quantity="other">Try again in %d minutes</item>
+        <item quantity="one">Try again in %d minute</item>
+    </plurals>
+    <plurals name="new_notifications_msg">
+        <item quantity="other">%d new notifications</item>
+        <item quantity="one">%d new notification</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_min_time__text">
+        <item quantity="other">About %d mins until full​</item>
+        <item quantity="one">About %d min until full​</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_hour_time__text">
+        <item quantity="other">About %d hrs until full</item>
+        <item quantity="one">About %d hr until full</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_charging_full_need_time__text">
+        <item quantity="other">About %1$d hrs %2$d mins until full</item>
+        <item quantity="one">About %1$d hr %2$d min until full</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_min_time_text">
+        <item quantity="other">About %d mins left</item>
+        <item quantity="one">About %d min left</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_hour_time_text">
+        <item quantity="other">About %d hrs left</item>
+        <item quantity="one">About %d hr left</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_could_use_time_text">
+        <item quantity="other">About %1$d hrs %2$d mins left</item>
+        <item quantity="one">About %1$d hr %2$d min left</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_hour_time_format">
+        <item quantity="other">%d hrs</item>
+        <item quantity="one">%d hr</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_min_time_format">
+        <item quantity="other">%d mins</item>
+        <item quantity="one">%d min</item>
+    </plurals>
+    <plurals name="keyguard_charging_info_drained_time_format">
+        <item quantity="other">%1$d hrs %2$d mins</item>
+        <item quantity="one">%1$d hr %2$d min</item>
+    </plurals>
+</resources>
