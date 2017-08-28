@@ -11,7 +11,7 @@
   <string name="alert_message_delete_note">Delete this note?</string>
   <string name="alert_message_edit_anyway">If you edit this note, some of its contents may be lost.</string>
   <string name="alert_message_restore">"Couldn't open this note. Restore it to edit its content."</string>
-  <string name="alert_title_delete">Delete note</string>
+  <string name="alert_title_delete">Delete note?</string>
   <string name="alert_title_edit_anyway">This note contains unsupported contents</string>
   <string name="alert_title_hidden_note">Received a hidden note reminder</string>
   <string name="alert_title_restore">Restore note</string>
@@ -179,7 +179,6 @@
   <string name="toast_notes_unhidden">Unhidden successfully</string>
   <string name="toast_notes_unhidden_count">Unhid %1$s successfully</string>
   <string name="toast_reach_text_limit_attachment">"Can't add new attachments because note is too long"</string>
-  <string name="toast_reach_text_limit_checkbox">"Can't add checkbox because note is too long"</string>
   <string name="toast_reach_text_limit_truncate">This note is too long. Some text has been cut off of the end.</string>
   <string name="toolbar_check_description">Add checkbox</string>
   <string name="toolbar_delete_description">Delete this note</string>

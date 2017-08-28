@@ -74,8 +74,6 @@
   <string name="asset_sync_power_alert_title">Low battery</string>
   <string name="atmd_music">Ultimate</string>
   <string name="audio_picker_title">Choose a song</string>
-  <string name="audio_recognition_setting_summary">"Automatically optimize song' info, album and lyric when playing local songs"</string>
-  <string name="audio_recognition_setting_title">Intelligent optimize album and lyric</string>
   <string name="auth_activity_title">Xunlei Account</string>
   <string name="auto_download_in_wifi">Download favorite songs using WLAN</string>
   <string name="auto_payment">Automatic renewal</string>
@@ -104,6 +102,8 @@
   <string name="button_sort_by_date">Sort by date</string>
   <string name="button_sort_by_size">Sort by size</string>
   <string name="button_wait_for_wifi">Wait</string>
+  <string name="buy_other_flow">Regular data</string>
+  <string name="buy_traffic">China Unicom</string>
   <string name="can_not_find_resource">"Can't find resources"</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_running_download">Cancel</string>
@@ -266,6 +266,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="download_toast">Using mobile data to download songs</string>
   <string name="download_toast_with_beyond_data">Using mobile data to download songs. Exceeded limit by %s</string>
   <string name="download_toast_with_data">Using mobile data to download songs, %s remaining</string>
+  <string name="download_traffic_dialog_buy_package">Buy music data plan</string>
   <string name="download_traffic_dialog_msg">You have %s of mobile data left. Use mobile data to download songs?</string>
   <string name="download_traffic_dialog_msg_beyond">"You've already exceeded your mobile data limit by %s. Use mobile data to download songs?"</string>
   <string name="download_traffic_dialog_msg_serious">You have only %s of mobile data left. Use mobile data to download songs?</string>
@@ -393,7 +394,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="global_search_title_movie">Movie soundtracks</string>
   <string name="global_search_title_prenatal">Prenatal music</string>
   <string name="global_search_title_radar">Music recognition</string>
-  <string name="go_to_settings">Go to settings</string>
   <string name="handle_later">Not now</string>
   <string name="higher_quality_music">High quality audio</string>
   <string name="higher_quality_music_summary">Stream and download higher bitrate files</string>
@@ -416,7 +416,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="in_searching_please_wait">Searching…</string>
   <string name="input_hint_prefix">Please input %1$s</string>
   <string name="insufficient_space">"Not enough space on your device's internal storage"</string>
-  <string name="intelligent_recognize">Intelligent optimize album and lyric</string>
   <string name="is_loading_data">Still loading songs. Wait a minute or two and try again.</string>
   <string name="is_scanning">Checking storage…</string>
   <string name="is_scanning_support_online">"Checking storage…
@@ -437,9 +436,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="local_music_empty">Local playlist is empty</string>
   <string name="local_music_empty_goto_online">No songs found</string>
   <string name="local_music_is_not_available">Local music is not available.</string>
-  <string name="local_page_album_more">View all</string>
   <string name="local_page_artist">Followed artists</string>
-  <string name="local_page_artist_more">More works of %s</string>
   <string name="local_page_custom_subtitle">New songs every day</string>
   <string name="local_page_custom_title">For you</string>
   <string name="local_page_playlist">My playlists</string>
@@ -499,7 +496,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="miuishare_wechat_timeline_title">WeChat Moments</string>
   <string name="miuishare_weibo_title">Weibo</string>
   <string name="mobile_recommended_title">Mobile data usage</string>
-  <string name="modify_info_disable_note">If you want to modify info manually, shutdown auto optimize info first</string>
   <string name="modify_lyric">Edit lyrics</string>
   <string name="modify_progress">Change lyrics scroll speed</string>
   <string name="modify_progress_helper">Swipe up or down to adjust lyrics progress.</string>
@@ -523,6 +519,8 @@ is mainly provided by Ultimate Inc."</string>
   <string name="music_filter">Filter audio files</string>
   <string name="music_service">Music Service</string>
   <string name="music_settings">Music</string>
+  <string name="music_traffic">Mi Music data plan</string>
+  <string name="music_traffic_summary">Listen and download songs without using data</string>
   <string name="my_account">Mi Account</string>
   <string name="my_music_empty">Playlist is empty.</string>
   <string name="my_music_empty_goto_online">No songs found</string>
@@ -558,7 +556,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="no_scanned_songs">Empty</string>
   <string name="no_song">No songs</string>
   <string name="no_song_downloaded">"Couldn't connect to server"</string>
-  <string name="no_system_cropper_find">"System doesn't have cropper for image"</string>
   <string name="normal_quality">Good</string>
   <string name="not_login">Not signed in</string>
   <string name="not_selected">Choose a song</string>
@@ -676,21 +673,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="really_pay">Pay now?</string>
   <string name="recently_played">Recently played</string>
   <string name="recently_played_songs">Recently played</string>
-  <string name="recognition_reverted_message">"Song' info, album and lyric have been reverted. You can revert all info of songs that have been optimize in Settings."</string>
-  <string name="recognition_reverted_title">Intelligent optimize album and lyric</string>
-  <string name="recognize_call">Optimize</string>
-  <string name="recognize_call_summary">"Song' info, album and lyric have not been optimized"</string>
-  <string name="recognize_calling">"Optimizing song' info, album and lyric…"</string>
-  <string name="recognize_calling_fail">No information of this song was found now. We will add as soon as possible</string>
-  <string name="recognize_calling_network_error">Network is unavailable, please try again later</string>
-  <string name="recognize_revert">Revert</string>
-  <string name="recognize_revert_summary">"Song' info, album and lyric have been optimized"</string>
-  <string name="recognize_reverting">"Reverting song' info, album and lyric…"</string>
-  <string name="recognize_switch_off_alert_not_now">Not now</string>
-  <string name="recognize_switch_off_alert_revert">Revert</string>
-  <string name="recognize_switch_off_alert_title">Intelligent optimize album and lyric</string>
-  <string name="recognized_alert_message">"Music app has automatically optimize song' info, album and lyric. You could click「...」and modify them manually"</string>
-  <string name="recognized_alert_title">Intelligent optimize album and lyric</string>
   <string name="recommend_fragment_title">Featured</string>
   <string name="recommended_file_size_download_in_mobile">Use %s of mobile data to download this file?</string>
   <string name="recommended_no_file_size_download_in_mobile">Use your mobile data connection to download this file?</string>
@@ -712,7 +694,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="ringtone_not_support">"This song's format is not supported"</string>
   <string name="root_downloads">Downloads</string>
   <string name="save_to_playlist">Save as playlist</string>
-  <string name="search_album">Search albums by above info</string>
+  <string name="search_album">Search albums</string>
   <string name="search_empty">"Couldn't find any results"</string>
   <string name="search_for_album">Album</string>
   <string name="search_for_artist">Artist</string>
@@ -720,7 +702,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="search_hint_not_support_online">Search for artists, songs, and albums</string>
   <string name="search_history_clear_all">Clear</string>
   <string name="search_instant_online_music">Online</string>
-  <string name="search_lyric">Search lyrics by above info</string>
+  <string name="search_lyric">Search lyrics</string>
   <string name="search_title">Search</string>
   <string name="search_title_album">Albums</string>
   <string name="search_title_singer">Artists</string>
@@ -749,6 +731,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="set_id3_not_support_format">"Can't edit this file format"</string>
   <string name="set_id3_successful">Song info saved</string>
   <string name="set_lyric_successful">Lyrics saved</string>
+  <string name="set_now">Go to Settings</string>
   <string name="set_ringtones_failed">"Couldn't set ringtone"</string>
   <string name="set_ringtones_successful">%s set as ringtone</string>
   <string name="setting_feature_setting">Feature settings</string>
@@ -808,6 +791,9 @@ is mainly provided by Ultimate Inc."</string>
   <string name="storage_usb">USB storage</string>
   <string name="stream_quality">Streaming quality</string>
   <string name="streamloadingtext">Connecting to %s</string>
+  <string name="sub_explanation">Mi Music data plan</string>
+  <string name="sub_explanation_message">"Mi Music data plan is currently supported by China Unicom. Your network provider doesn't support this feature. You can buy regular mobile data."</string>
+  <string name="subed">On</string>
   <string name="suggest_text">People who liked this also liked</string>
   <string name="sync_only_in_wifi">Only sync using WLAN</string>
   <string name="sync_only_in_wifi_summary">Sync your music across all your devices with Mi Cloud. Using your mobile data connection to sync music will increase your data usage. If you go over your plan’s data limit, your carrier could charge you additional fees.</string>
@@ -862,8 +848,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="toast_download_error_by_not_login">Sign in to Mi Account and try again.</string>
   <string name="toast_download_error_by_vip_required">Get Premium Song Pack to download this song.</string>
   <string name="toast_download_in_process">Download in process</string>
-  <string name="toast_new_playlist_name_no_enter">"key 'Enter' has been deleted'"</string>
-  <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
   <string name="toast_normal_songs_for_download">Downloading quality set to Standard</string>
   <string name="toast_normal_songs_for_stream">Streaming quality set to Standard</string>
   <string name="toast_stream_normal">Now playing in Standard quality. Get Premium Song Pack to enjoy High quality streaming.</string>
@@ -880,6 +864,9 @@ is mainly provided by Ultimate Inc."</string>
   <string name="track_main_fragment_tab_track">Songs</string>
   <string name="track_search_title">Track</string>
   <string name="track_view">Song</string>
+  <string name="traffic_free_to_play">Use music data plan</string>
+  <string name="traffic_network_alert">Mi Music data plan</string>
+  <string name="traffic_network_alert_message">"You're using Mi Music data plan provided by China Unicom. You should connect to a 3gnet network to stream songs without spending mobile data. Make sure you check network settings before streaming music."</string>
   <string name="trigger_to_scan_media_library_finish">Refreshed</string>
   <string name="trigger_to_scan_media_library_processing">Still refreshing…</string>
   <string name="trigger_to_scan_media_library_start">Refreshing…</string>

@@ -90,7 +90,6 @@
   <string name="app_name_view_picture">View photos</string>
   <string name="app_name_view_video">View videos</string>
   <string name="apply">Apply</string>
-  <string name="assistant_page_label">Assistant</string>
   <string name="associate_face_album">Choose an album</string>
   <string name="auto_backup_introduce">Back up photos and videos automatically (Mi Account is required)</string>
   <string name="auto_update_face">Add photos automatically</string>
@@ -1036,7 +1035,6 @@ Take more photos of your friends!"</string>
   <string name="photo_editor_mosaic">Mosaic</string>
   <string name="photo_editor_navigator_cancel">Cancel</string>
   <string name="photo_editor_navigator_export">Finish</string>
-  <string name="photo_editor_remover">Erase</string>
   <string name="photo_editor_rotate">Rotate</string>
   <string name="photo_editor_saving">Saving…</string>
   <string name="photo_editor_sticker">Sticker</string>
@@ -1106,10 +1104,6 @@ Take more photos of your friends!"</string>
   <string name="remove_from_secret_successful">Removed from hidden album</string>
   <string name="remove_to_album_title">Merge with</string>
   <string name="remove_to_other_album">Merge with a different person</string>
-  <string name="remover_edit_type_free">Objects</string>
-  <string name="remover_edit_type_line">Lines</string>
-  <string name="remover_erase_aera_too_big">The erase area is too big</string>
-  <string name="remover_menu_processing">Processing</string>
   <string name="rename_album">Rename album</string>
   <string name="rename_album_failed">"Couldn't rename"</string>
   <string name="rename_album_succeeded">Renamed successfully</string>
@@ -1155,7 +1149,6 @@ Take more photos of your friends!"</string>
   <string name="search_title_album">Album</string>
   <string name="search_title_history">Search history</string>
   <string name="search_title_location">Locations</string>
-  <string name="search_title_more">More</string>
   <string name="search_title_others">All results</string>
   <string name="search_title_people">People</string>
   <string name="search_title_recommend">Recommended</string>

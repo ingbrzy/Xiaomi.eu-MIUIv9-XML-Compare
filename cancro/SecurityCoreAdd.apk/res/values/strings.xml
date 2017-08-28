@@ -52,7 +52,6 @@ to be able to view them anytime"</string>
   <string name="createUserFail">"Couldn't create"</string>
   <string name="create_app_icon_failed">"Couldn't create icon"</string>
   <string name="create_app_icon_success">Icon created successfully</string>
-  <string name="create_second_space">创建成功</string>
   <string name="create_space_loading">Creating Second space…</string>
   <string name="create_work_space">Create Work space</string>
   <string name="creating_app_icon">Creating icon…</string>
@@ -69,7 +68,7 @@ to be able to view them anytime"</string>
   <string name="delete_src_photo">Delete photos</string>
   <string name="dir_switch_out_all_photos">Second space Gallery</string>
   <string name="disable">Turn off</string>
-  <string name="do_not_ask">不再询问</string>
+  <string name="do_not_ask">"Don't ask again"</string>
   <string name="dont_import">Not now</string>
   <string name="downloading_space">Downloading…</string>
   <string name="enable">Turn on</string>
@@ -91,13 +90,13 @@ to be able to view them anytime"</string>
   <string name="finger_print_of_use">Use fingerprint</string>
   <string name="fingerprint_removal_failed">"Couldn't delete fingerprint"</string>
   <string name="function_not_support">Not supported on this device</string>
-  <string name="gms_message">双开该应用需要依赖谷歌服务,是否同步双开谷歌服务</string>
-  <string name="gms_open_button">开启</string>
-  <string name="gms_title">双开谷歌服务</string>
+  <string name="gms_message">Creating dual apps requires working with Google services. Create a dual app for Google services?</string>
+  <string name="gms_open_button">Turn on</string>
+  <string name="gms_title">Turn on Google services</string>
   <string name="goToSecondSpacce">Go to Second space</string>
   <string name="go_on_import">Keep importing</string>
-  <string name="gpg_message">双开游戏需要依赖谷歌游戏中心应用,是否同步双开谷歌游戏中心应用</string>
-  <string name="gpg_title">双开谷歌游戏中心</string>
+  <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
+  <string name="gpg_title">Dual app for Google Play Games</string>
   <string name="guide_contact_sub_title_desc">"Contacts added to Second space will be private.
 Messages will only appear in Second space."</string>
   <string name="guide_contact_suc_sub_title_desc">Only private contacts and messages will be shown in Second space</string>
@@ -106,10 +105,6 @@ Messages will only appear in Second space."</string>
   <string name="guide_pwd_detail_title">"Protect your data
 Enter Second space from Lock screen"</string>
   <string name="guide_setting_guide_title">Manage Second space</string>
-  <string name="guide_start_ads_text">由别开生面提供安全技术支持</string>
-  <string name="guide_start_text">手机分身，您的另一部手机</string>
-  <string name="has_created_second_space">"立即切换手机分身,进入另一台手机
-管理财产与隐私数据"</string>
   <string name="hidden_app">Second space</string>
   <string name="imageData">Photos</string>
   <string name="import_application">Import apps</string>
@@ -123,8 +118,6 @@ You can also download them separately."</string>
   <string name="import_photo">Import photos</string>
   <string name="import_photo_desc">View shared items in Second space</string>
   <string name="import_photo_suc">Imported photos</string>
-  <string name="input_space_finger">立刻设置</string>
-  <string name="input_space_password">立刻设置</string>
   <string name="invalid_qr_code">Invalid QR code</string>
   <string name="list_empty_text">Empty</string>
   <string name="loading">Just a sec…</string>
@@ -192,7 +185,7 @@ to enter Second space from Lock screen"</string>
   <string name="scanner_fingerprint_tips_desc">"Select existing fingerprint to enter Second space. You won't be able to use it in First space."</string>
   <string name="scanner_fingerprint_tips_title">Enter Second space using existing fingerprint</string>
   <string name="scanner_second_space_fingerprint">Scan Second space fingerprint</string>
-  <string name="sdcardfs_dialog_message">进入分身前需要在开发者选项中关闭”模拟SD卡优化“</string>
+  <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Developer options before entering Second space.</string>
   <string name="search_input_txt_na">"&lt;font color='#ff0000'&gt;%s&lt;/font&gt;"</string>
   <string name="search_result_text">"Couldn't find any apps"</string>
   <string name="secondSpace">Second space</string>
@@ -206,9 +199,6 @@ to enter Second space from Lock screen"</string>
   <string name="setSecondSpacePasswordGuideDes">Use this password to enter Second space from Lock screen</string>
   <string name="setSpacePasswordGuide">Use different passwords to enter both spaces from Lock screen</string>
   <string name="setSuccess">Passwords set successfully</string>
-  <string name="set_space_finger">设置指纹</string>
-  <string name="set_space_finger_sub_text_suc">专属指纹设置成功</string>
-  <string name="set_space_password">设置密码</string>
   <string name="set_space_pwd_detail">You can enter Second space using the password</string>
   <string name="set_space_pwd_suc">Added Second space password</string>
   <string name="setting_finger_print_sub_title">Make sure the fingerprint is different from the one in First space</string>
@@ -226,17 +216,12 @@ to enter Second space from Lock screen"</string>
   <string name="settings_switch_shortcut_summary">Show the Home screen shortcut in First space</string>
   <string name="settings_switch_shortcut_title">Tap shortcut to switch</string>
   <string name="show_normal_content">"Don't show private items"</string>
-  <string name="show_noti_from_owner">来自主空间的通知</string>
-  <string name="show_noti_quick_switch_icon">快捷切换分身的图标</string>
-  <string name="show_noti_setting">在分身的通知栏中展示</string>
   <string name="show_private_content">Show private items</string>
   <string name="show_private_msg">Show private messages</string>
   <string name="show_private_msg_summary">Show private messages​ in Second space</string>
-  <string name="skip">跳过</string>
   <string name="spaceSetting">Settings</string>
   <string name="space_deleted">This space was deleted</string>
   <string name="space_des_default">Isolated space with encrypted data</string>
-  <string name="space_finger_sub_text">专属指纹,便捷切换</string>
   <string name="space_name_default">Work space</string>
   <string name="startSet">Set</string>
   <string name="startTransfer">Move</string>

@@ -20,7 +20,6 @@
   <string name="account_error_user_birthday">The birthday you entered is invalid</string>
   <string name="account_has_been_set">Change</string>
   <string name="account_limit_update_birthday">"Can't update birthday right now"</string>
-  <string name="account_mibi_center">Mibi center</string>
   <string name="account_mipay_info">Mi Pay</string>
   <string name="account_no_set">None</string>
   <string name="account_none">None</string>
@@ -79,7 +78,7 @@
   <string name="change_phone_number">Change phone number</string>
   <string name="checking_phone_num_availible">Verifying phone…</string>
   <string name="cloud_service">Mi Cloud</string>
-  <string name="completed">All set!</string>
+  <string name="completed">All set</string>
   <string name="confirm_activate_email">Verified</string>
   <string name="confirm_bundled_phone_dialog_title">Confirm associated phone number</string>
   <string name="confirm_delete_app_message">"After deleting this app, you'll have to verify your phone number next time you sign in to your Mi Account in it."</string>
@@ -117,18 +116,19 @@
   <string name="find_device_account_error">"Can't get status due to account error"</string>
   <string name="find_device_activate_account">Activate account</string>
   <string name="find_device_bad_response_error">A server error occurred, wait a minute or two and try again</string>
+  <string name="find_device_display_id">Unlock number: %s</string>
   <string name="find_device_error_password_not_confirmed">"Can't turn off Find device. Enter your Mi Account password again."</string>
   <string name="find_device_error_password_recently_changed">"You've changed your password within last 3 days. Can't turn off Find device now due to security reasons."</string>
   <string name="find_device_interrupted">Action was interrupted, wait a minute or two and try again</string>
   <string name="find_device_io_error">"Can't connect to the network"</string>
   <string name="find_device_locked_account_email" formatted="false">%s, associated email address: %s</string>
   <string name="find_device_locked_account_phone" formatted="false">%s, associated phone number: %s</string>
-  <string name="find_device_message">Device is locked. Message: %1$s. Call %2$s.</string>
+  <string name="find_device_message">The current device is locked, message: %1$s, contact phone: %2$s.</string>
   <string name="find_device_null_credential_error">"Can't get device info, contact Xiaomi customer service"</string>
   <string name="find_device_operation_failed_error">A server error occurred, wait a minute or two and try again</string>
   <string name="find_device_operation_failed_error_unknown">An error occurred, try again later</string>
-  <string name="find_device_owner_phone">Device is locked. Call %1$s.</string>
-  <string name="find_device_prompt_message">Device is locked. Message: %1$s.</string>
+  <string name="find_device_owner_phone">The current device is locked, contact phone: %1$s.</string>
+  <string name="find_device_prompt_message">The current device is locked, message: %1$s.</string>
   <string name="find_device_remote_exception">RPC error</string>
   <string name="find_device_request_error">A server error occurred, wait a minute or two and try again</string>
   <string name="find_device_request_prepare_error">"Can't get status, try again later"</string>
@@ -342,7 +342,7 @@ To activate your account, follow the
   <string name="passport_uplink_slot1_reg">Use SIM 1</string>
   <string name="passport_uplink_slot2_reg">Use SIM 2</string>
   <string name="passport_use_generated_pwd_message">Make sure you remember your password. You can use it to sign in to other Mi services.</string>
-  <string name="passport_use_generated_pwd_title">Remember your password!</string>
+  <string name="passport_use_generated_pwd_title">Remember your password</string>
   <string name="passport_user_agreement">User Agreement</string>
   <string name="passport_user_agreement_p1">Agree to </string>
   <string name="passport_user_agreement_p2">User Agreement</string>
@@ -402,7 +402,6 @@ To activate your account, follow the
   <string name="trusted_browsers">Trusted browsers</string>
   <string name="trusted_browsers_prompt">The browser will no longer be trusted if you delete cookies.</string>
   <string name="turn_off_find_device_failed_title">"Can't turn off Find device"</string>
-  <string name="turning_off_find_device">Turning off Find device…</string>
   <string name="unbind_sns_description">"After you disconnect this account, you won't be able to use your %s Account info to sign to your Mi Account."</string>
   <string name="unlock_help_notice">"Help:
 · If you forgot your password, go to id.mi.com to reset it.

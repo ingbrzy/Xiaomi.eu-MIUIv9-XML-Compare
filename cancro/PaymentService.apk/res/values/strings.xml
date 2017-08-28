@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="mibi_app_name">Mi Credit</string>
-  <string name="mibi_applock_config">"Can't set App lock while using Split screen."</string>
   <string name="mibi_applock_dialog_cancel">Not now</string>
   <string name="mibi_applock_dialog_content">Due to system upgrade, your current pattern lock has been expired. Please set a new pattern lock.</string>
   <string name="mibi_applock_dialog_ok">Set up</string>
@@ -179,9 +178,6 @@ Please contact Xiaomi customer service."</string>
   <string name="mibi_order_pay_back">Confirm</string>
   <string name="mibi_order_pay_type">Payment method</string>
   <string name="mibi_order_pay_type_title">Select payment method</string>
-  <string name="mibi_order_pay_uncertain_button">Got it</string>
-  <string name="mibi_order_pay_uncertain_detail">If the payment is unsuccessful, call %1$s</string>
-  <string name="mibi_order_pay_uncertain_summary">Confirming payment</string>
   <string name="mibi_order_title">Payment</string>
   <string name="mibi_other_denomiantion">Select amount</string>
   <string name="mibi_partner_giftcard_payment_with_append">Apply %1$s</string>
