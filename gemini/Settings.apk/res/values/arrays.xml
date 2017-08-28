@@ -309,16 +309,6 @@
         <item>0</item>
         <item>1</item>
     </string-array>
-    <string-array name="status_bar_show_carrier_entries">
-        <item>Only show in lock screen and notification panel</item>
-        <item>Always show carrier name</item>
-        <item>Never show carrier name</item>
-    </string-array>
-    <string-array name="status_bar_show_carrier_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
     <string-array name="timezone_filters">
         <item>America</item>
         <item>Europe</item>
@@ -486,6 +476,16 @@
     <string-array name="data_usage_data_range">
         <item>Last 30 days</item>
         <item>Set usage cycle...</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_entries">
+        <item>Automatic</item>
+        <item>5 GHz only</item>
+        <item>2.4 GHz only</item>
+    </string-array>
+    <string-array name="wifi_frequency_band_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="usage_stats_display_order_types">
         <item>Usage time</item>
@@ -1237,14 +1237,14 @@
         <item>recent_panel</item>
         <item>show_menu</item>
     </string-array>
-    <string-array name="key_and_gesture_shortcut_action">
-        <item>long_press_home_key</item>
-        <item>long_press_menu_key</item>
-        <item>long_press_back_key</item>
-        <item>key_combination_power_home</item>
-        <item>key_combination_power_menu</item>
-        <item>key_combination_power_back</item>
-        <item>key_none</item>
+    <string-array name="screen_key_long_press_action">
+        <item>None</item>
+        <item>Show recent apps</item>
+        <item>Launch Assistant</item>
+        <item>Launch Google Now</item>
+        <item>Close current app</item>
+        <item>Launch quick search</item>
+        <item>Show menu</item>
     </string-array>
     <string-array name="screen_key_long_press_action_value">
         <item>none</item>
@@ -1681,80 +1681,200 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>2007</item>
     </string-array>
     <string-array name="organized_locales">
+        <item>al</item>
         <item>dz</item>
+        <item>am</item>
         <item>ao</item>
+        <item>ag</item>
+        <item>ar</item>
+        <item>au</item>
+        <item>az</item>
+        <item>bs</item>
         <item>bh</item>
+        <item>bd</item>
+        <item>bb</item>
+        <item>by</item>
+        <item>be</item>
+        <item>bz</item>
+        <item>bo</item>
+        <item>ba</item>
         <item>bw</item>
+        <item>bg</item>
         <item>br</item>
         <item>cm</item>
+        <item>ca</item>
+        <item>cl</item>
+        <item>co</item>
         <item>cd</item>
+        <item>cr</item>
         <item>ci</item>
+        <item>hr</item>
+        <item>cu</item>
+        <item>cz</item>
+        <item>dk</item>
+        <item>dm</item>
+        <item>do</item>
+        <item>ec</item>
         <item>eg</item>
+        <item>sv</item>
         <item>gq</item>
+        <item>ee</item>
         <item>et</item>
+        <item>fk</item>
+        <item>fi</item>
         <item>fr</item>
+        <item>gf</item>
+        <item>ge</item>
+        <item>de</item>
         <item>gh</item>
+        <item>gr</item>
+        <item>gd</item>
+        <item>gt</item>
+        <item>gy</item>
+        <item>ht</item>
+        <item>hn</item>
         <item>hk</item>
+        <item>hu</item>
         <item>in</item>
         <item>id</item>
         <item>ir</item>
+        <item>iq</item>
+        <item>il</item>
+        <item>it</item>
+        <item>jm</item>
+        <item>jp</item>
+        <item>jo</item>
+        <item>kz</item>
         <item>ke</item>
+        <item>kw</item>
+        <item>lv</item>
+        <item>lb</item>
         <item>ls</item>
+        <item>ly</item>
+        <item>li</item>
+        <item>lt</item>
+        <item>lu</item>
+        <item>mo</item>
+        <item>mk</item>
         <item>mw</item>
         <item>my</item>
+        <item>mt</item>
+        <item>mr</item>
+        <item>mu</item>
         <item>mx</item>
+        <item>md</item>
+        <item>me</item>
         <item>ma</item>
         <item>mz</item>
         <item>mm</item>
         <item>na</item>
+        <item>np</item>
+        <item>nl</item>
+        <item>ni</item>
+        <item>ni</item>
         <item>ng</item>
+        <item>kp</item>
+        <item>no</item>
+        <item>om</item>
+        <item>pk</item>
+        <item>ps</item>
+        <item>pa</item>
+        <item>py</item>
+        <item>pe</item>
         <item>ph</item>
+        <item>pl</item>
+        <item>pt</item>
         <item>qa</item>
+        <item>ro</item>
         <item>ru</item>
         <item>rw</item>
+        <item>sa</item>
         <item>sn</item>
+        <item>rs</item>
         <item>sg</item>
+        <item>sk</item>
+        <item>si</item>
+        <item>so</item>
         <item>za</item>
+        <item>gs</item>
         <item>kr</item>
+        <item>es</item>
+        <item>lk</item>
+        <item>kn</item>
+        <item>lc</item>
+        <item>vc</item>
+        <item>sd</item>
+        <item>sr</item>
         <item>sz</item>
+        <item>se</item>
+        <item>ch</item>
+        <item>sy</item>
         <item>tw</item>
         <item>tz</item>
         <item>th</item>
+        <item>tn</item>
         <item>tr</item>
+        <item>tm</item>
+        <item>tt</item>
         <item>ug</item>
         <item>ua</item>
         <item>ae</item>
+        <item>gb</item>
+        <item>us</item>
+        <item>uy</item>
+        <item>uz</item>
+        <item>ve</item>
         <item>vn</item>
+        <item>ye</item>
         <item>zm</item>
         <item>zw</item>
     </string-array>
     <string-array name="broadcast_locales">
-        <item>TW</item>
+        <item>AE</item>
+        <item>AG</item>
         <item>AR</item>
+        <item>BH</item>
         <item>BO</item>
+        <item>BS</item>
+        <item>BB</item>
+        <item>BZ</item>
         <item>BR</item>
         <item>CL</item>
         <item>CO</item>
         <item>CR</item>
         <item>CU</item>
-        <item>DO</item>
         <item>EC</item>
-        <item>SV</item>
-        <item>GQ</item>
+        <item>EG</item>
         <item>GF</item>
+        <item>GD</item>
+        <item>GQ</item>
         <item>GT</item>
         <item>GY</item>
         <item>HT</item>
         <item>HN</item>
+        <item>IN</item>
+        <item>IL</item>
+        <item>IR</item>
         <item>JM</item>
+        <item>JO</item>
+        <item>KR</item>
+        <item>KW</item>
         <item>MX</item>
         <item>NI</item>
+        <item>OM</item>
         <item>PA</item>
         <item>PY</item>
         <item>PE</item>
+        <item>QA</item>
+        <item>SA</item>
+        <item>SR</item>
+        <item>KN</item>
+        <item>LC</item>
+        <item>VC</item>
+        <item>TW</item>
+        <item>TT</item>
         <item>UY</item>
         <item>VE</item>
-        <item>IN</item>
     </string-array>
     <string-array name="ncc_locales">
         <item>TW</item>
@@ -1787,24 +1907,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Left hand style</item>
         <item>Right hand style</item>
     </string-array>
-    <string-array name="wifi_frequency_band_entries">
-        <item>Automatic</item>
-        <item>5 GHz only</item>
-        <item>2.4 GHz only</item>
-    </string-array>
-    <string-array name="wifi_frequency_band_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
         <item>@string/screen_resolution_high_format</item>
         <item>@string/screen_resolution_normal_format</item>
     </string-array>
     <integer-array name="screen_resolution">
-        <item>1440</item>
-        <item>1080</item>
+        <item>3686400</item>
+        <item>2073600</item>
     </integer-array>
     <string-array name="edge_touch_volume_action">
         <item>Click adjust - Double click trigger</item>
@@ -2408,149 +2518,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1</item>
         <item>3</item>
     </string-array>
-    <array name="click_bottom">
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom02</item>
-        <item>@drawable/clickbottom03</item>
-        <item>@drawable/clickbottom04</item>
-        <item>@drawable/clickbottom05</item>
-        <item>@drawable/clickbottom06</item>
-        <item>@drawable/clickbottom07</item>
-        <item>@drawable/clickbottom08</item>
-        <item>@drawable/clickbottom03</item>
-        <item>@drawable/clickbottom02</item>
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom01</item>
-        <item>@drawable/clickbottom01</item>
-    </array>
-    <array name="long_press">
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom02</item>
-        <item>@drawable/longpressbottom03</item>
-        <item>@drawable/longpressbottom04</item>
-        <item>@drawable/longpressbottom05</item>
-        <item>@drawable/longpressbottom06</item>
-        <item>@drawable/longpressbottom07</item>
-        <item>@drawable/longpressbottom08</item>
-        <item>@drawable/longpressbottom08</item>
-        <item>@drawable/longpressbottom08</item>
-        <item>@drawable/longpressbottom08</item>
-        <item>@drawable/longpressbottom08</item>
-        <item>@drawable/longpressbottom09</item>
-        <item>@drawable/longpressbottom10</item>
-        <item>@drawable/longpressbottom11</item>
-        <item>@drawable/longpressbottom04</item>
-        <item>@drawable/longpressbottom03</item>
-        <item>@drawable/longpressbottom02</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-        <item>@drawable/longpressbottom01</item>
-    </array>
-    <array name="power_click">
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick02</item>
-        <item>@drawable/powerclick03</item>
-        <item>@drawable/powerclick04</item>
-        <item>@drawable/powerclick05</item>
-        <item>@drawable/powerclick06</item>
-        <item>@drawable/powerclick07</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-    </array>
-    <array name="power_double_click">
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick02</item>
-        <item>@drawable/powerclick03</item>
-        <item>@drawable/powerclick04</item>
-        <item>@drawable/powerclick05</item>
-        <item>@drawable/powerclick06</item>
-        <item>@drawable/powerclick07</item>
-        <item>@drawable/powerclick02</item>
-        <item>@drawable/powerclick03</item>
-        <item>@drawable/powerclick04</item>
-        <item>@drawable/powerclick05</item>
-        <item>@drawable/powerclick06</item>
-        <item>@drawable/powerclick07</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-        <item>@drawable/powerclick01</item>
-    </array>
-    <array name="three_drop">
-        <item>@drawable/threedrop01</item>
-        <item>@drawable/threedrop01</item>
-        <item>@drawable/threedrop01</item>
-        <item>@drawable/threedrop01</item>
-        <item>@drawable/threedrop01</item>
-        <item>@drawable/threedrop01</item>
-        <item>@drawable/threedrop01</item>
-        <item>@drawable/threedrop01</item>
-        <item>@drawable/threedrop01</item>
-        <item>@drawable/threedrop02</item>
-        <item>@drawable/threedrop03</item>
-        <item>@drawable/threedrop04</item>
-        <item>@drawable/threedrop05</item>
-        <item>@drawable/threedrop06</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-        <item>@drawable/threedrop07</item>
-    </array>
     <string-array name="silent_mode_duration_text">
         <item>Always</item>
         <item>30 minutes</item>

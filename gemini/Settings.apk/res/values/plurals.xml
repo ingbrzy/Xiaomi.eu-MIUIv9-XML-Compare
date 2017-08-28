@@ -155,7 +155,7 @@ For more information about this certificate, contact your admin."</item>
     </plurals>
     <plurals name="auto_startup_count">
         <item quantity="other">%d apps are allowed to autostart</item>
-        <item quantity="one">%d app is allowed to autostart</item>
+        <item quantity="one">%d app are allowed to autostart</item>
     </plurals>
     <plurals name="lockpassword_pin_fixed_length">
         <item quantity="other">PIN must be %d digits</item>
@@ -171,7 +171,7 @@ For more information about this certificate, contact your admin."</item>
     </plurals>
     <plurals name="free_wifi_connected_count">
         <item quantity="other">%1$d people connected</item>
-        <item quantity="one">%1$d person connected</item>
+        <item quantity="one">%1$d people connected</item>
     </plurals>
     <plurals name="show_pho_countdown">
         <item quantity="other">"You're %1$d steps away from entering phone info."</item>

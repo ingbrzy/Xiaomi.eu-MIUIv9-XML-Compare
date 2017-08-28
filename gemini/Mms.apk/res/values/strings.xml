@@ -123,7 +123,7 @@
   <string name="delete_verification_code_sms_message">Delete all one-time passwords?</string>
   <string name="delete_verification_code_sms_title">Clean one-time passwords</string>
   <string name="delete_wild_sims">Delete numbers</string>
-  <string name="delete_wild_sims_confirm">All the messages from selected numbers will be deleted on this phone. You can restore them at i.mi.com.</string>
+  <string name="delete_wild_sims_confirm">All the messages belong to selected numbers will be deleted in this phone. You can restore them in i.mi.com.</string>
   <string name="delete_wild_sims_title">Delete selected numbers</string>
   <string name="delivery_report_activity">Delivery report</string>
   <string name="delivery_toast_body">Message received by %s</string>
@@ -209,7 +209,7 @@
   <string name="hybrid_pull_to_refresh_pull_label">Pull to refresh…</string>
   <string name="hybrid_pull_to_refresh_refreshing_label">Just a sec…</string>
   <string name="hybrid_pull_to_refresh_release_label">Release to refresh…</string>
-  <string name="hybrid_service_unavailiable">Service unavailable</string>
+  <string name="hybrid_service_unavailiable">"Service isn't available"</string>
   <string name="hybrid_try_again">Try again</string>
   <string name="i_know">OK</string>
   <string name="importing_progress_private_message">Importing…</string>
@@ -272,8 +272,8 @@
   <string name="move_up">Move up</string>
   <string name="msg_type_hint_mms">Multimedia message (MMS)</string>
   <string name="msg_type_hint_mms_omit">MMS</string>
-  <string name="msg_type_hint_mx">Mi Msg</string>
-  <string name="msg_type_hint_mx_omit">Mi Message</string>
+  <string name="msg_type_hint_mx">Mi Message</string>
+  <string name="msg_type_hint_mx_omit">Mi Msg</string>
   <string name="msg_type_hint_sms">Text message</string>
   <string name="msg_type_hint_sms_omit">SMS</string>
   <string name="msglist_continue_to_pull_for_more">Pull down to view more</string>
@@ -308,14 +308,14 @@
   <string name="mx_and_voip_enable_popup_msg">"Send messages and make calls to other MIUI devices without incurring charges from your carrier. VoIP is supported by Weihui. View weihui's Privacy Policy."</string>
   <string name="mx_and_voip_enable_popup_msg2">Privacy Policy</string>
   <string name="mx_auto_resend_mms">Send as MMS</string>
-  <string name="mx_auto_resend_mms_summary">"Send multimedia messages as MMS over mobile data connection when you're not connected to Wi-Fi. You will incur regular charges from your carrier."</string>
+  <string name="mx_auto_resend_mms_summary">"Send multimedia messages as MMS over mobile data connection when you're not connected to WLAN. You will incur regular charges from your carrier."</string>
   <string name="mx_auto_resend_sms">Send as SMS</string>
-  <string name="mx_auto_resend_sms_summary">"Send messages as SMS over mobile data connection when you're not connected to Wi-Fi. You will incur regular charges from your carrier."</string>
+  <string name="mx_auto_resend_sms_summary">"Send messages as SMS over mobile data connection when you're not connected to WLAN. You will incur regular charges from your carrier."</string>
   <string name="mx_btn_enable">Activate</string>
   <string name="mx_btn_enable_now">Activate</string>
   <string name="mx_count_dspt">"You've sent %1$d SMS and %2$d MMS for free"</string>
-  <string name="mx_current_status">Mi Message settings</string>
-  <string name="mx_dspt">"Send SMS and MMS messages to other MIUI devices without incurring charges when you're connected to Wi-Fi."</string>
+  <string name="mx_current_status">Settings</string>
+  <string name="mx_dspt">"Send SMS and MMS messages to other MIUI devices without incurring charges when you're connected to WLAN."</string>
   <string name="mx_dspt_listview">Send messages to other MIUI devices without incurring charges</string>
   <string name="mx_dspt_provision">Mi Message lets you send messages to other MIUI users over the internet without incurring charges. An outgoing SMS message may be required to reactivate Mi Message. Your carrier will charge you for this message. Besides, this service needs access to mobile data to work normally.</string>
   <string name="mx_dspt_provision_ex">"Send messages and make calls to other MIUI users over the internet without incurring charges from your carrier. VoIP is supported by Weihui. View Weihui's Privacy Policy."</string>
@@ -336,7 +336,7 @@
   <string name="mx_reactivate">Reactivate Mi Message</string>
   <string name="mx_recommend_msg">Tap to turn Mi Message on</string>
   <string name="mx_stranger_recommend_msg">Tap to block Mi Messages from unknown numbers</string>
-  <string name="mx_type_guide">Send messages to other MIUI devices without incurring charges</string>
+  <string name="mx_type_guide">Mi Message lets you send messages to other MIUI users without incurring charges</string>
   <string name="need_download">Syncing…</string>
   <string name="networking_allow_continue">OK</string>
   <string name="networking_allow_desc">"Smart messages allow you to send free texts and voice, recognize unknown numbers, filter spam, etc. By using this service, you agree to Xiaomi's %1$s and %2$s. You have to turn on Yellow pages and connect to the internet to use this service."</string>
@@ -385,7 +385,7 @@
   <string name="pref_hide_verification_code_summary">Automatically hide one-time passwords in message notifications on secured lock screen</string>
   <string name="pref_messages_to_save">Set number of messages to save</string>
   <string name="pref_mms_settings_title">Multimedia (MMS) messages</string>
-  <string name="pref_msg_trash_bin_title">SMS Trash</string>
+  <string name="pref_msg_trash_bin_title">Recently deleted messages</string>
   <string name="pref_notification_settings_title">Notifications</string>
   <string name="pref_other_title">Additional settings</string>
   <string name="pref_show_blocked_messages_summary">Show blocked SMS in conversations list</string>
@@ -557,6 +557,8 @@
   <string name="slide_show_part">Part %1$d/%2$d</string>
   <string name="slide_up_to_cancel">Slide up to cancel</string>
   <string name="slideshow_activity">Slideshow</string>
+  <string name="sms_card_partner_label">"SMS card partner: "</string>
+  <string name="sms_card_teddy_mobile">Teddy Mobile</string>
   <string name="sms_content">Content:</string>
   <string name="sms_full_body">"Incoming message rejected: There's not enough space on this device."</string>
   <string name="sms_full_title">Text message memory full</string>

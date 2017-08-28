@@ -52,7 +52,6 @@ to be able to view them anytime"</string>
   <string name="createUserFail">"Couldn't create"</string>
   <string name="create_app_icon_failed">"Couldn't create icon"</string>
   <string name="create_app_icon_success">Icon created successfully</string>
-  <string name="create_second_space">Created successfully</string>
   <string name="create_space_loading">Creating Second space…</string>
   <string name="create_work_space">Create Work space</string>
   <string name="creating_app_icon">Creating icon…</string>
@@ -106,10 +105,6 @@ Messages will only appear in Second space."</string>
   <string name="guide_pwd_detail_title">"Protect your data
 Enter Second space from Lock screen"</string>
   <string name="guide_setting_guide_title">Manage Second space</string>
-  <string name="guide_start_ads_text">A completely new level of security</string>
-  <string name="guide_start_text">Two spaces. One device.</string>
-  <string name="has_created_second_space">"Two spaces. One device.
-Manage private and sensitive items separately."</string>
   <string name="hidden_app">Second space</string>
   <string name="imageData">Photos</string>
   <string name="import_application">Import apps</string>
@@ -123,8 +118,6 @@ You can also download them separately."</string>
   <string name="import_photo">Import photos</string>
   <string name="import_photo_desc">View shared items in Second space</string>
   <string name="import_photo_suc">Imported photos</string>
-  <string name="input_space_finger">Set now</string>
-  <string name="input_space_password">Set now</string>
   <string name="invalid_qr_code">Invalid QR code</string>
   <string name="list_empty_text">Empty</string>
   <string name="loading">Just a sec…</string>
@@ -206,9 +199,6 @@ to enter Second space from Lock screen"</string>
   <string name="setSecondSpacePasswordGuideDes">Use this password to enter Second space from Lock screen</string>
   <string name="setSpacePasswordGuide">Use different passwords to enter both spaces from Lock screen</string>
   <string name="setSuccess">Passwords set successfully</string>
-  <string name="set_space_finger">Set fingerprint</string>
-  <string name="set_space_finger_sub_text_suc">Set fingerprint successfully</string>
-  <string name="set_space_password">Set password</string>
   <string name="set_space_pwd_detail">You can enter Second space using the password</string>
   <string name="set_space_pwd_suc">Added Second space password</string>
   <string name="setting_finger_print_sub_title">Make sure the fingerprint is different from the one in First space</string>
@@ -226,17 +216,12 @@ to enter Second space from Lock screen"</string>
   <string name="settings_switch_shortcut_summary">Show the Home screen shortcut in First space</string>
   <string name="settings_switch_shortcut_title">Tap shortcut to switch</string>
   <string name="show_normal_content">"Don't show private items"</string>
-  <string name="show_noti_from_owner">First space notifications</string>
-  <string name="show_noti_quick_switch_icon">Shortcut for switching between spaces</string>
-  <string name="show_noti_setting">Show in Second space Notification shade</string>
   <string name="show_private_content">Show private items</string>
   <string name="show_private_msg">Show private messages</string>
   <string name="show_private_msg_summary">Show private messages​ in Second space</string>
-  <string name="skip">Skip</string>
   <string name="spaceSetting">Settings</string>
   <string name="space_deleted">This space was deleted</string>
   <string name="space_des_default">Isolated space with encrypted data</string>
-  <string name="space_finger_sub_text">Set Second space fingerprint to switch faster</string>
   <string name="space_name_default">Work space</string>
   <string name="startSet">Set</string>
   <string name="startTransfer">Move</string>

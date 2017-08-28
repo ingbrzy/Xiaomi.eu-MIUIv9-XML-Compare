@@ -237,6 +237,7 @@
   <string name="bugreport_in_power">Bug report shortcut</string>
   <string name="bugreport_in_power_summary">Show a button in the power menu for taking a bug report</string>
   <string name="button_convert_fbe">Wipe and convert…</string>
+  <string name="callEnded_pulled">Call transferred to another device.</string>
   <string name="callFailed_QOS_unavailable">Quality of service unavailable</string>
   <string name="callFailed_access_information_discarded">Access information discarded</string>
   <string name="callFailed_bearer_capability_not_authorized">Bearer capability not authorized</string>
@@ -249,6 +250,9 @@
   <string name="callFailed_channel_unacceptable">Channel unacceptable</string>
   <string name="callFailed_conditional_IE_error">Conditional IE error</string>
   <string name="callFailed_congestion">Network busy</string>
+  <string name="callFailed_data_disabled">Call ended because cellular data was disabled.</string>
+  <string name="callFailed_data_limit_reached">Data limit reached. Call ended.</string>
+  <string name="callFailed_data_limit_reached_description">Call ended because the cellular data limit has been reached.</string>
   <string name="callFailed_destination_out_of_order">Destination out of order</string>
   <string name="callFailed_dialToDial">DIAL request modified to DIAL with different number.</string>
   <string name="callFailed_dialToSs">DIAL request modified to SS request.</string>
@@ -269,6 +273,7 @@
   <string name="callFailed_invalid_transaction_identifier">Invalid transaction identifier value</string>
   <string name="callFailed_invalid_transit_NW_selection">Invalid transit network selection</string>
   <string name="callFailed_limitExceeded">ACM limit exceeded</string>
+  <string name="callFailed_maximum_reached">All available lines are in use. To make a call, disconnect one of the calls on this device, or on one of your other devices.</string>
   <string name="callFailed_message_not_compatible_with_protocol_state">Message not compatible with protocol state</string>
   <string name="callFailed_message_type_non_implemented">Message type non-existent or not implemented</string>
   <string name="callFailed_message_type_not_compatible_with_protocol_state">Message type not compatible with protocol state</string>
@@ -460,10 +465,10 @@
   <string name="connected_via_passpoint">Connected via %1$s</string>
   <string name="connected_via_wfa">Connected via Wi‑Fi assistant</string>
   <string name="connection_service_default_label">Built-in connection service</string>
-  <string name="contactAddFailed">"Can't add contact to SIM"</string>
+  <string name="contactAddFailed">"Can't add contact to SIM."</string>
   <string name="contactAddSuccess">Added contact to SIM.</string>
   <string name="contactPhoto">contact photo</string>
-  <string name="contactUpdateFailed">Updated contact on SIM.</string>
+  <string name="contactUpdateFailed">"Couldn't update contact on SIM."</string>
   <string name="contactUpdateSuccess">Updated contact on SIM.</string>
   <string name="contactdeleteFailed">"Can't delete contact from SIM."</string>
   <string name="contactdeleteSuccess">Deleted contact from SIM.</string>
@@ -1022,7 +1027,7 @@ Try again or call customer service for more options."</string>
   <string name="path_auto_answer_pref_title">System apps/Phone/Auto-answer</string>
   <string name="path_auto_retry_mode_title">System apps/Phone/Advanced settings/Auto-retry</string>
   <string name="path_autoip">System apps/Phone/Advanced settings/Auto IP dialing</string>
-  <string name="path_call_background_setting_name">System apps/Phone/Advanced settings/Call Background</string>
+  <string name="path_call_background_setting_name">System apps/Phone/Advanced settings/Call background</string>
   <string name="path_call_forwarding_settings">System apps/Phone/Call forwarding settings</string>
   <string name="path_call_record_auto_title">System apps/Phone/Call recording/Record calls automatically</string>
   <string name="path_call_record_setting">System apps/Phone/Call recording</string>
@@ -1214,7 +1219,6 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="puk_unlocked">Your SIM card has been unblocked. Your phone is unlocking…</string>
   <string name="radio_off_during_emergency_call">Cannot enter airplane mode during an emergency call.</string>
   <string name="radio_off_error">Turn on the radio before viewing these settings.</string>
-  <string name="rcs_not_supported">"Rcs isn't supported"</string>
   <string name="reading_settings">Reading settings…</string>
   <string name="regional_disable">Regional news disabled</string>
   <string name="regional_enable">Regional news enabled</string>
@@ -1533,10 +1537,6 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="tts_status_ok">%1$s is fully supported</string>
   <string name="tts_status_requires_network">%1$s requires network connection</string>
   <string name="tts_status_title">Default language status</string>
-  <string name="tty_mode_entries_full">TTY Full</string>
-  <string name="tty_mode_entries_hco">TTY HCO</string>
-  <string name="tty_mode_entries_off">TTY Off</string>
-  <string name="tty_mode_entries_vco">TTY VCO</string>
   <string name="tty_mode_key">button_tty_mode_key</string>
   <string name="tty_mode_not_allowed_video_call">TTY Mode change is not allowed during a video call</string>
   <string name="tty_mode_option_summary">Set TTY mode</string>

@@ -10,6 +10,9 @@
         <item>@string/incoming_circle_text_answer</item>
         <item>@string/incoming_circle_text_message</item>
     </string-array>
+    <string-array name="jeejen_auto_opendialer_number">
+        <item>13800138000</item>
+    </string-array>
     <string-array name="absent_num">
         <item>ABSENT NUMBER</item>
         <item>ABSENTNUMBER</item>
