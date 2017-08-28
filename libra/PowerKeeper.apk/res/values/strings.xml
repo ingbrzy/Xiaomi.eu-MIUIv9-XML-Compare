@@ -188,7 +188,7 @@ Battery saver will treat important apps selectively."</string>
   <string name="set_lcd_mode">Screen mode</string>
   <string name="settings_safetylegal_activity_loading">Just a sec…</string>
   <string name="show_system_app">Show system apps</string>
-  <string name="sleep_config_enhance_description">predict user sleep time by machine learning, whithin the sleep time, we may clear some background apps, restrict to use NFC, KeyGauard Notification, Sync, Bluetooth, GPS, mobile and wifi data, etc.</string>
+  <string name="sleep_config_enhance_description">predict user sleep time by machine learning, whithin the sleep time, we may clear some background apps, restrict to use NFC, KeyGuard Notification, Sync, Bluetooth, GPS, mobile and wifi data, etc.</string>
   <string name="sleep_config_enhance_title">Sleep saving modes</string>
   <string name="still">Picture</string>
   <string name="sucess">sucess</string>

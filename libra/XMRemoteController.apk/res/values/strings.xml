@@ -1042,8 +1042,8 @@ directly from your Lock screen"</string>
   <string name="screenshot_not_support_video">Screen capture currently not supported</string>
   <string name="screenshoting">Taking screenshot…</string>
   <string name="search">Search</string>
-  <string name="search_device">搜索品牌</string>
-  <string name="search_device_hit">搜索品牌，如首字母、英文全拼等</string>
+  <string name="search_device">Search for brand</string>
+  <string name="search_device_hit">Search for brand, such as the first letter, the English spell and so on</string>
   <string name="search_failed">"Couldn't get results"</string>
   <string name="search_history">Search history</string>
   <string name="search_history_clear">Clear history</string>
