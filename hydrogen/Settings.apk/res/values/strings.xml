@@ -159,6 +159,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="add_auto_startup_application">Add autostart apps</string>
   <string name="add_device_admin">Activate this device administrator</string>
   <string name="add_device_admin_msg">Activate device administrator?</string>
+  <string name="add_facerecoginition_text">Add face data</string>
   <string name="add_fingerprint_done_msg">Now you can unlock this device with your fingerprint.</string>
   <string name="add_fingerprint_done_title">"You're ready to rock!"</string>
   <string name="add_fingerprint_failed_retry_text">"Couldn't add fingerprint, try again"</string>
@@ -398,7 +399,6 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="auto_rule">schedule rule</string>
   <string name="auto_silent">Timing Muted</string>
   <string name="auto_startup_application_manage">Autostart</string>
-  <string name="auto_startup_count">%d apps are allowed to autostart</string>
   <string name="automatic_brightness">Automatic brightness</string>
   <string name="available_size">%s available</string>
   <string name="available_via_passpoint">Available via %1$s</string>
@@ -1294,7 +1294,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_available_memory">Available memory</string>
   <string name="device_battery">Battery</string>
   <string name="device_build_id">Version number</string>
-  <string name="device_complete_parameters">Complete</string>
+  <string name="device_complete_parameters">All specs</string>
   <string name="device_cpu">CPU</string>
   <string name="device_cpu10_info">Deca-core</string>
   <string name="device_cpu2_info">Dual-core</string>
@@ -1580,6 +1580,8 @@ This helps protect data on lost or stolen devices."</string>
   <string name="external_data_size_label">SD card</string>
   <string name="extreme_threats_summary">Receive alerts for extreme threats to life and property</string>
   <string name="extreme_threats_title">Extreme threats</string>
+  <string name="face_unlock_disable">Face unlock is off</string>
+  <string name="face_unlock_enable">Face unlock is on</string>
   <string name="factory_reset_summary">"Erase all data from your phone's internal storage"</string>
   <string name="failed_to_check_find_device_status_content">"Couldn't check find device status. Wait a minute or two and try again."</string>
   <string name="failed_to_check_find_device_status_title">"Couldn't check status"</string>
@@ -1616,6 +1618,7 @@ This helps protect data on lost or stolen devices."</string>
   <string name="fingerprint_enable_keyguard_toggle_title">screen lock</string>
   <string name="fingerprint_enroll_button_add">Add another</string>
   <string name="fingerprint_enroll_button_next">Next</string>
+  <string name="fingerprint_first_open_screen_password_face_tittle">Biometrics（set Lock screen password before using it）</string>
   <string name="fingerprint_first_open_screen_password_tittle">Fingerprint (set Lock screen password before using it)</string>
   <string name="fingerprint_for_keyguard_disabled">Fingerprint has been disabled by security settings.</string>
   <string name="fingerprint_identify_input_password_msg">Enter password</string>
@@ -1630,6 +1633,7 @@ This helps protect data on lost or stolen devices."</string>
   <string name="fingerprint_lock_second">Unlock Second space</string>
   <string name="fingerprint_manage">Manage fingerprints</string>
   <string name="fingerprint_manage_category_title">Manage fingerprints</string>
+  <string name="fingerprint_manage_tittle">Fingerprint</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_recognized">Not recognized</string>
   <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
@@ -1674,6 +1678,10 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="force_allow_on_external_summary">Makes any app eligible to be written to external storage, regardless of manifest values</string>
   <string name="force_hw_ui">Force GPU rendering</string>
   <string name="force_hw_ui_summary">Force use GPU for 2D drawing</string>
+  <string name="force_immersive_compatibility_dont_hide">"Don't hide"</string>
+  <string name="force_immersive_compatibility_hide">Hide</string>
+  <string name="force_immersive_compatibility_hint_message">Some apps might not work properly if you choose to hide soft buttons.</string>
+  <string name="force_immersive_compatibility_hint_title">Compatibility issues</string>
   <string name="force_msaa">Force 4x MSAA</string>
   <string name="force_msaa_summary">Enable 4x MSAA in OpenGL ES 2.0 apps</string>
   <string name="force_resizable_activities">Force activities to be resizable</string>
@@ -1707,7 +1715,6 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="free_wifi_connect_summary">Tap to connect to %1$s.</string>
   <string name="free_wifi_connect_title">WLAN available</string>
   <string name="free_wifi_connected">Connected to free WLAN</string>
-  <string name="free_wifi_connected_count">%1$d people connected</string>
   <string name="free_wifi_connected_time">Duration: %1$s</string>
   <string name="free_wifi_connecting">Connecting…</string>
   <string name="free_wifi_login_again">Sign in again</string>
@@ -2059,22 +2066,21 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="location_agps_def_reset_type">HOT</string>
   <string name="location_agps_def_supl_host">221.176.0.55</string>
   <string name="location_agps_def_supl_port">7275</string>
-  <string name="location_agps_params_settings_title">AGPS settings</string>
+  <string name="location_agps_params_settings_title">A-GPS settings</string>
   <string name="location_agps_pref_apn_title">Preferred APN</string>
   <string name="location_agps_pref_network_title">Prefer network</string>
   <string name="location_agps_pref_reset_type_title">Preferred reset type</string>
   <string name="location_agps_pref_si_title">Preferred mode</string>
   <string name="location_agps_register_network_type">Access network type</string>
-  <string name="location_agps_register_network_type_dialog_summary">Choose a network</string>
-  <string name="location_agps_register_network_type_dialog_title">Choose network</string>
-  <string name="location_agps_register_network_type_summary">Choose network for A-GPS use</string>
+  <string name="location_agps_register_network_type_dialog_title">Use Assisted GPS</string>
+  <string name="location_agps_register_network_type_summary">Choose a network</string>
   <string name="location_agps_reset_type">Reset types</string>
   <string name="location_agps_reset_type_choose_dialog_title">Reset types</string>
   <string name="location_agps_reset_type_summary">Choose preferred reset type</string>
   <string name="location_agps_roaming_help">"Choosing all networks may increase your data usage while roaming. If you go over your plan's data usage limit, your carrier could charge you additional fees."</string>
-  <string name="location_agps_si_mode">AGPS SI mode</string>
-  <string name="location_agps_si_mode_dialog_title">AGPS method</string>
-  <string name="location_agps_si_mode_summary">Choose preferred AGPS method</string>
+  <string name="location_agps_si_mode">A-GPS SI mode</string>
+  <string name="location_agps_si_mode_dialog_title">A-GPS method</string>
+  <string name="location_agps_si_mode_summary">Choose preferred A-GPS method</string>
   <string name="location_agps_supl_server_addr">Server address</string>
   <string name="location_agps_supl_server_port">Server port</string>
   <string name="location_agps_supl_settings">SUPL settings</string>
@@ -2205,7 +2211,6 @@ You can set a new screen lock for both your device and your work profile, but an
   <string name="lockpassword_password_too_short">Password must be at least %d characters</string>
   <string name="lockpassword_pattern_set_toast">Pattern has been set</string>
   <string name="lockpassword_pin_contains_non_digits">PIN can only contain numbers</string>
-  <string name="lockpassword_pin_fixed_length">PIN must be %d digits</string>
   <string name="lockpassword_pin_no_sequential_digits">An ascending, descending or repeated sequence of digits is forbidden</string>
   <string name="lockpassword_pin_recently_used">"Device administrator doesn't allow PIN unlock"</string>
   <string name="lockpassword_pin_set_toast">PIN set</string>
@@ -2277,6 +2282,7 @@ You can set a new screen lock for both your device and your work profile, but an
   <string name="man_add_application">Add autostart apps</string>
   <string name="manage_device_admin">Device administrators</string>
   <string name="manage_device_admin_summary">View or deactivate device administrators</string>
+  <string name="manage_facerecoginition_text">Manage face data</string>
   <string name="manage_fakecell_settings">Protection from fake base stations</string>
   <string name="manage_fingerprint_text">Manage fingerprints</string>
   <string name="manage_mobile_plan_title">Mobile plan</string>
@@ -2712,9 +2718,9 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
   <string name="ok_rules">finish</string>
   <string name="okay">OK</string>
-  <string name="oldman_mode_confirm_title">Reboot phone?</string>
-  <string name="oldman_mode_confirm_will_normal_mode_text">Your phone will reboot to exit Lite mode.</string>
-  <string name="oldman_mode_confirm_will_oldman_mode_text">Your phone will reboot to enter Lite mode.</string>
+  <string name="oldman_mode_confirm_title">Reboot now?</string>
+  <string name="oldman_mode_confirm_will_normal_mode_text">Your device will reboot to exit Lite mode.</string>
+  <string name="oldman_mode_confirm_will_oldman_mode_text">Your device will reboot to enter Lite mode.</string>
   <string name="oldman_mode_enabled_name">Lite mode</string>
   <string name="oldman_mode_entry_name">Lite mode</string>
   <string name="oldman_mode_entry_title">Lite mode</string>
@@ -2967,7 +2973,6 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="print_searching_for_printers">Searching for printers</string>
   <string name="print_service_disabled">Service disabled</string>
   <string name="print_settings">Printing</string>
-  <string name="print_settings_title">Print services</string>
   <string name="printer_info_desc">More information about this printer</string>
   <string name="priority_storage_app_settings">Data will be saved to %1$s</string>
   <string name="priority_storage_settings_summary">"If no SD card is detected, your data will be saved to your device's internal storage automatically"</string>
@@ -3576,7 +3581,7 @@ To use screen pinning:
   <string name="search_status_bar_settings_style">Notifications &amp; toggles layout;toggles;toggle layout;separate toggles;combined;separate;combine</string>
   <string name="search_status_bar_settings_toggle_collapse_after_clicked">Collapse after touch;collapse;hide</string>
   <string name="search_status_bar_settings_toggle_position">Toggle positions;Toggles;toggle;change toggles</string>
-  <string name="search_storage_settings">Cleaner;Clear cache;Cache</string>
+  <string name="search_storage_settings">Storage;Memory</string>
   <string name="search_sync_settings">Sync;Auto;WLAN only</string>
   <string name="search_system_app_settings">System apps</string>
   <string name="search_theme_settings_title">Themes;Theme;Personalization;Personalize</string>
@@ -4339,7 +4344,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="turn_off_keyguard_password_confirm_msg">"Some security features won't work without your password."</string>
   <string name="turn_off_keyguard_password_wait_dialog">Closing password</string>
   <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg">"You won't be able to unlock the device using your fingerprint after you turn off the password."</string>
-  <string name="turn_off_keyguard_password_with_fingerprint_confirm_msg_delete">"After you turn off your Lock screen password, recorded fingerprints will be deleted. You won't be able to unlock the device using your fingerprint."</string>
+  <string name="turn_off_keyguard_password_with_fingerprint_face_confirm_msg">"After you turn off your Lock screen password, recorded fingerprints will be deleted. You won't be able to unlock the device using your fingerprint."</string>
   <string name="turn_off_security_lock">Turn off lock</string>
   <string name="turn_on_keyguard_password">Turn on Lock screen password</string>
   <string name="turn_on_keyguard_password_alert">"Remember your password. If you forget it, you won't be able to restore it."</string>
@@ -4649,7 +4654,6 @@ Tap the plus to add words."</string>
   <string name="virtual_sim_title">Roaming data network</string>
   <string name="virus_scan">Virus scan</string>
   <string name="virus_scan_app_continue">Continue scan</string>
-  <string name="virus_scan_app_find_risk">%d risks found</string>
   <string name="virus_scan_app_finish">Scan complete</string>
   <string name="virus_scan_app_force_stop">Scan paused</string>
   <string name="virus_scan_app_is_stop_scan">Stop scan?</string>
@@ -5099,7 +5103,6 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_share_connect">Connect</string>
   <string name="wifi_share_connected_summary">"You're connected to a public WLAN network that has been shared by another user."</string>
   <string name="wifi_share_connected_title">MIUI shared WLAN</string>
-  <string name="wifi_share_count">Shared %d networks</string>
   <string name="wifi_share_current_network">Current network</string>
   <string name="wifi_share_know">OK</string>
   <string name="wifi_share_list_empty">No shared networks found.</string>
