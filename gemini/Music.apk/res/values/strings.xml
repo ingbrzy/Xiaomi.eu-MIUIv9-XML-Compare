@@ -848,6 +848,8 @@ is mainly provided by Ultimate Inc."</string>
   <string name="toast_download_error_by_not_login">Sign in to Mi Account and try again.</string>
   <string name="toast_download_error_by_vip_required">Get Premium Song Pack to download this song.</string>
   <string name="toast_download_in_process">Download in process</string>
+  <string name="toast_new_playlist_name_no_enter">"key 'Enter' has been deleted'"</string>
+  <string name="toast_new_playlist_name_too_long">Playlist name is too long</string>
   <string name="toast_normal_songs_for_download">Downloading quality set to Standard</string>
   <string name="toast_normal_songs_for_stream">Streaming quality set to Standard</string>
   <string name="toast_stream_normal">Now playing in Standard quality. Get Premium Song Pack to enjoy High quality streaming.</string>

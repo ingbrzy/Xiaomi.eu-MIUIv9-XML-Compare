@@ -604,6 +604,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bluetooth_device_context_pair_connect">Pair &amp; connect</string>
   <string name="bluetooth_device_context_unpair">Unpair</string>
   <string name="bluetooth_device_details">Device settings</string>
+  <string name="bluetooth_device_misc_title">Rarely used bluetooth devices</string>
   <string name="bluetooth_device_name">Name:</string>
   <string name="bluetooth_device_searchable">Discoverable</string>
   <string name="bluetooth_devices">Bluetooth devices</string>
@@ -637,8 +638,6 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bluetooth_enter_passkey_other_device">You may also need to type this passkey on the other device.</string>
   <string name="bluetooth_enter_pin_other_device">You may also need to type this PIN on the other device.</string>
   <string name="bluetooth_error_title"/>
-  <string name="bluetooth_filter_device_display">Display All</string>
-  <string name="bluetooth_filter_device_filter">Typical Only</string>
   <string name="bluetooth_headset_profile_summary_connected">Connected to phone audio</string>
   <string name="bluetooth_headset_profile_summary_use_for">Use for phone audio</string>
   <string name="bluetooth_hid_profile_summary_connected">Connected to input device</string>
@@ -810,6 +809,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bssid_label">BSSID:</string>
   <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
   <string name="bt_hci_snoop_log_summary">Capture all Bluetooth HCI packets in a file</string>
+  <string name="bt_rarely_used_device_title">Rerely used devices (%d)</string>
   <string name="bt_trace_log">Bluetooth trace log</string>
   <string name="bt_trace_log_summary">Bluetooth trace log</string>
   <string name="bugreport_in_power">Bug report shortcut</string>
@@ -939,6 +939,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="clear_failed_dlg_title">Clear data</string>
   <string name="clear_uri_btn_text">Clear access</string>
   <string name="clear_user_data_text">Clear data</string>
+  <string name="close_gesture">Close using gesture</string>
   <string name="close_miui_optimization_title">Turn off MIUI optimization</string>
   <string name="close_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
   <string name="close_sdcard_optimization_title">close emulated sdcard optimization</string>
@@ -1765,6 +1766,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="google_backup_enable">Turn on backups</string>
   <string name="google_backup_section_title">Google backup &amp; reset</string>
   <string name="google_title">Google</string>
+  <string name="got_it">Got it</string>
   <string name="gsm_to_wifi_connect_type_title">GSM to WLAN</string>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
@@ -1835,6 +1837,8 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="help_url_vpn"/>
   <string name="help_url_wifi"/>
   <string name="hidden_ssid_label">Hidden SSID:</string>
+  <string name="hide">Hide</string>
+  <string name="hide_screen_button">Hide screen buttons</string>
   <string name="high_performance_notif_summary">Device may heat up during heavy use.</string>
   <string name="high_performance_notif_title">Performance mode is on</string>
   <string name="high_performance_title">"Looks like you're running a benchmark test. Set power management to \"Performance\" for best results."</string>
@@ -3284,6 +3288,8 @@ This setting affects all users on this phone."</string>
   <string name="saved_wifi_delete">Delete</string>
   <string name="scan_list_label">Scan results:</string>
   <string name="screen">Screen</string>
+  <string name="screen_button">Screen buttons</string>
+  <string name="screen_button_tips">Swipe down to hide screen buttons</string>
   <string name="screen_cells_config_title">Home screen layout</string>
   <string name="screen_color_and_optimize">Colors &amp; contrast</string>
   <string name="screen_color_and_optimize_disabled">"Can't adjust color temperature in Reading mode"</string>

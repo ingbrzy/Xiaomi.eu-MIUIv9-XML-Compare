@@ -164,6 +164,7 @@
   <string name="bugreport_in_power_summary">Show a button in the power menu for taking a bug report</string>
   <string name="button_convert_fbe">Wipe and convert…</string>
   <string name="call_status_dialing">Dialing</string>
+  <string name="call_status_holding">Holding</string>
   <string name="call_status_ringing">Ringing</string>
   <string name="camera_key_action_app_title">Open application</string>
   <string name="camera_key_action_category_title">Use if Camera app is not open</string>
