@@ -515,6 +515,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bluetooth_device_context_pair_connect">Pair &amp; connect</string>
   <string name="bluetooth_device_context_unpair">Unpair</string>
   <string name="bluetooth_device_details">Device settings</string>
+  <string name="bluetooth_device_misc_title">Rarely used bluetooth devices</string>
   <string name="bluetooth_device_name">Name:</string>
   <string name="bluetooth_device_searchable">Discoverable</string>
   <string name="bluetooth_devices">Bluetooth devices</string>
@@ -711,6 +712,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bssid_label">BSSID:</string>
   <string name="bt_hci_snoop_log">Bluetooth HCI snoop log</string>
   <string name="bt_hci_snoop_log_summary">Capture all Bluetooth HCI packets in a file</string>
+  <string name="bt_rarely_used_device_title">Rerely used devices (%d)</string>
   <string name="bt_trace_log">Bluetooth trace log</string>
   <string name="bt_trace_log_summary">Bluetooth trace log</string>
   <string name="bugreport_in_power">Bug report shortcut</string>
