@@ -14,7 +14,7 @@
   <string name="download_done">Successfully downloaded!</string>
   <string name="download_fail">Error while downloading!</string>
   <string name="download_fail_desc">MD5 Sum does not match…</string>
-  <string name="downloading">Downloading…</string>
+  <string name="downloading">Downloading:</string>
   <string name="downloading_desc">Downloading in progress, check status in notification area.</string>
   <string name="install_desc">Device will reboot to recovery and install chosen file: &lt;b&gt;%1$s&lt;/b&gt;"
 Data will not be wiped."</string>
