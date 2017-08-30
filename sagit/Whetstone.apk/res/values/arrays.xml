@@ -9,6 +9,7 @@
         <item>com.miui.whetstone/.net.MiuiDnsService</item>
         <item>com.xiaomi.metok/.MetokClService</item>
         <item>com.miui.sysbase/.MetokClService</item>
+        <item>com.xiaomi.joyose/.smartop.SmartOpService</item>
     </string-array>
     <string-array name="allow_persist_service">
         <item>com.miui.virtualsim</item>
@@ -21,6 +22,7 @@
     </string-array>
     <string-array name="restart_persist_service">
         <item>com.miui.powerkeeper</item>
+        <item>com.xiaomi.joyose</item>
     </string-array>
     <string-array name="notbind_persist_service">
         <item>com.miui.klo.bugreport</item>
