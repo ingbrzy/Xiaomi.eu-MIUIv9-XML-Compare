@@ -962,6 +962,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="test_success_tips_string" formatted="false">成功条件：%s%s</string>
   <string name="test_unfinished">未完成</string>
   <string name="testagain">You can Press key HOME to test again</string>
+  <string name="testcase_name">Name</string>
   <string name="testing">测试中</string>
   <string name="timeout">超时</string>
   <string name="timeout_before_press">超时，需在%ds内按下手指，返回重来。</string>
