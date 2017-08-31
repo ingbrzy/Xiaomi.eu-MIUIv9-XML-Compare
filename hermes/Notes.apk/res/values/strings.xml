@@ -11,7 +11,7 @@
   <string name="alert_message_delete_note">Delete this note?</string>
   <string name="alert_message_edit_anyway">If you edit this note, some of its contents may be lost.</string>
   <string name="alert_message_restore">"Couldn't open this note. Restore it to edit its content."</string>
-  <string name="alert_title_delete">Delete note?</string>
+  <string name="alert_title_delete">Delete note</string>
   <string name="alert_title_edit_anyway">This note contains unsupported contents</string>
   <string name="alert_title_hidden_note">Received a hidden note reminder</string>
   <string name="alert_title_restore">Restore note</string>
