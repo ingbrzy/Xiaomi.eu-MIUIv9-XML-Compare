@@ -1003,10 +1003,12 @@
     <string-array name="wifi_calling_mode_choices">
         <item>WLAN preferred</item>
         <item>Cellular preferred</item>
+        <item>WLAN only</item>
     </string-array>
     <string-array name="wifi_calling_mode_values">
         <item>2</item>
         <item>1</item>
+        <item>0</item>
     </string-array>
     <string-array name="haptic_feedback_level_texts">
         <item>Off</item>
@@ -2469,4 +2471,16 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>1280 x 720</item>
         <item>6.0</item>
     </string-array>
+    <string-array name="wifi_calling_mode_choices_without_wifi_only">
+        <item>WLAN preferred</item>
+        <item>Cellular preferred</item>
+    </string-array>
+    <string-array name="wifi_calling_mode_values_without_wifi_only">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+    <array name="bytes_picker_sizes">
+        <item>@android:string/megabyteShort</item>
+        <item>@android:string/gigabyteShort</item>
+    </array>
 </resources>
