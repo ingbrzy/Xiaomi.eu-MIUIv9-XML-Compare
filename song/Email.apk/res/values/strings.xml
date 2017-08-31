@@ -53,6 +53,9 @@
   <string name="account_settings_notify_summary">Show notification when new email arrives</string>
   <string name="account_settings_param">Account settings</string>
   <string name="account_settings_policies">Security policies</string>
+  <string name="account_settings_preference_add_account">Add a mailbox account</string>
+  <string name="account_settings_preference_head_icon">Head portrait switch</string>
+  <string name="account_settings_preference_notify">Notice</string>
   <string name="account_settings_retry_label">Attempt sync</string>
   <string name="account_settings_retry_summary">Touch to sync account</string>
   <string name="account_settings_ringtone">Notification sound</string>
@@ -66,6 +69,7 @@
   <string name="account_settings_sync_email_summary">Sync email for this account</string>
   <string name="account_settings_unsupported_label">Unsupported policies</string>
   <string name="account_settings_unsupported_summary">None</string>
+  <string name="account_settings_user_usage">Account settings</string>
   <string name="account_settings_using_ringtone">Ringtone</string>
   <string name="account_settings_vibrate_when_label">Vibrate</string>
   <string name="account_setup_account_type_instructions">What type of account is this?</string>
@@ -126,6 +130,7 @@
   <string name="account_setup_incoming_username_label">Username</string>
   <string name="account_setup_incoming_username_label_default_hint">You may include domain</string>
   <string name="account_setup_need_password_verification">Your account has secondary password authentication. Authentication is required.</string>
+  <string name="account_setup_options_actionbar_title">Common settings</string>
   <string name="account_setup_options_mail_check_frequency_10min">Every 10 minutes</string>
   <string name="account_setup_options_mail_check_frequency_12hour">Every 12 hours</string>
   <string name="account_setup_options_mail_check_frequency_1hour">Every hour</string>
@@ -153,6 +158,8 @@
   <string name="account_setup_server_acc_manager_title">Accounts</string>
   <string name="account_setup_username_password_toast">Enter a valid email address and password.</string>
   <string name="account_sync_off">Account sync is off.</string>
+  <string name="account_sync_settings_settings">Synchronize account contacts and calendars</string>
+  <string name="account_sync_settingstip_description">Synchronize settings</string>
   <string name="account_waiting_for_folders_msg">Loading folders…</string>
   <string name="actionbar_large_unread_count">%1$d+ unread</string>
   <string name="activity_folder_selection">Choose folder</string>
@@ -246,7 +253,7 @@
   <string name="bottom_bar_more_share">Share</string>
   <string name="bottom_bar_no_quickreply_toast">No quick reply</string>
   <string name="bytes">%s B</string>
-  <string name="calendar_remind_dialog_title">Reminder</string>
+  <string name="calendar_remind_dialog_title">Remind later</string>
   <string name="calendar_remind_gridview_pick_date">Pick date</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_action">Cancel</string>
@@ -329,10 +336,14 @@
   <string name="contextmenu_sharelink">Share link</string>
   <string name="contextmenu_sms_dot">SMS…</string>
   <string name="conversation_content_provider">Conversation Content Provider</string>
+  <string name="conversation_detail_hide">Hide</string>
+  <string name="conversation_detail_show">Details</string>
   <string name="conversation_folder_moved">Moved to %1$s</string>
   <string name="conversation_item_mark_read">Read</string>
   <string name="conversation_item_mark_unread">Unread</string>
+  <string name="conversation_msg_header_collapsed_sent_to">"Sent to "</string>
   <string name="conversation_photo_welcome_text">Touch a sender image to select that conversation.</string>
+  <string name="conversation_pull_ad_content">Efficient mail Manager</string>
   <string name="conversation_quick_button_approve">OK</string>
   <string name="conversation_quick_button_disapprove">Cancel</string>
   <string name="conversation_quick_button_received">Received</string>
@@ -407,6 +418,7 @@
   <string name="eas_hotmail_email">hotmail.com</string>
   <string name="eas_outlook_email">outlook.com</string>
   <string name="edit_quick_response_dialog">Quick reply</string>
+  <string name="edit_signature">Edit Signature</string>
   <string name="elided_padding_token"> </string>
   <string name="email_address">Email address</string>
   <string name="email_feedback_uri"/>
@@ -564,15 +576,17 @@
   <string name="login139">Sign in with China Mobile</string>
   <string name="login_failed_ticker">%s signin unsuccessful.</string>
   <string name="login_failed_title">"Can't sign in"</string>
+  <string name="login_support_tip_text">Support all common mailbox account login</string>
   <string name="long_press_to_select_tip">Touch &amp; hold to select one conversation, then touch to select more.</string>
   <string name="long_string">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
   <string name="mail">Mail</string>
   <string name="mail_body_turncated">This email is too big to load, only display part of it and please go through all on PC later</string>
-  <string name="mail_description_content">E-mail is a mail client that can manage multiple mailboxes, support sending and receiving, tagging mail, and providing services such as session mode, billing mail, mail sorting and other services. After you uninstall the mail, the mail data will be deleted.</string>
-  <string name="mail_description_title">Email introduction</string>
+  <string name="mail_description_content">E-mail is a mail client that can manage multiple mailboxes, support send and receive mail, provide calendar calendar and contact synchronization. Please confirm that you will abandon the e-mail provided by the relevant features and services, including the exchange server to synchronize contacts and calendar data.</string>
+  <string name="mail_description_title">E-mail introduction</string>
   <string name="mail_header_network_not_available">"You don't have a network connection."</string>
   <string name="mailbox_list_account_selector_combined_view">Combined account</string>
   <string name="mailbox_name_display_ad">Ads</string>
+  <string name="mailbox_name_display_add_account">Add a mailbox account</string>
   <string name="mailbox_name_display_circular">Notifications</string>
   <string name="mailbox_name_display_drafts">Drafts</string>
   <string name="mailbox_name_display_inbox">Inbox</string>
@@ -646,10 +660,10 @@
   <string name="megabytes">%s MB</string>
   <string name="menu_att_mgr">Attachments</string>
   <string name="menu_att_mgr_order_default">Recently viewed</string>
-  <string name="menu_att_mgr_order_mime">Sort by format</string>
-  <string name="menu_att_mgr_order_name">Sort by name</string>
-  <string name="menu_att_mgr_order_rev_date">Sort by date received</string>
-  <string name="menu_att_mgr_order_size">Sort by size</string>
+  <string name="menu_att_mgr_order_mime">format</string>
+  <string name="menu_att_mgr_order_name">name</string>
+  <string name="menu_att_mgr_order_rev_date">Date received</string>
+  <string name="menu_att_mgr_order_size">File size</string>
   <string name="menu_change_folders">Move</string>
   <string name="menu_compose">Compose</string>
   <string name="menu_contact_edit">Edit</string>
@@ -697,6 +711,7 @@
   <string name="network_unavailable">Network not available</string>
   <string name="new_incoming_messages_one">New message from %s. Show.</string>
   <string name="new_messages">%1$d new messages</string>
+  <string name="new_signature_has_saved">New signature has saved</string>
   <string name="next_action">Next</string>
   <string name="no">No</string>
   <string name="no_address_email">noaddressemail@123.com</string>
@@ -953,7 +968,7 @@ to receive reminders about payments and trips"</string>
   <string name="remove_folder">Remove from %1$s</string>
   <string name="remove_star">Unstar</string>
   <string name="reply">Reply</string>
-  <string name="reply_add_bodycontent">Add quick reply text to the message content?</string>
+  <string name="reply_add_bodycontent">Add the reply to the message body?</string>
   <string name="reply_all">Reply all</string>
   <string name="reply_attribution" formatted="false">On %s, %s wrote:</string>
   <string name="reply_subject_label">Re:</string>
@@ -971,9 +986,11 @@ to receive reminders about payments and trips"</string>
   <string name="save_draft_failed">Save draft failed</string>
   <string name="save_power_summary">Set power saving time</string>
   <string name="save_power_title">Battery saver</string>
+  <string name="save_this_new_signature">Save this new signature?</string>
   <string name="saved">Saved,  %s</string>
   <string name="saving">Saving…</string>
   <string name="sdcard_cannot_use">"Can't use SD card"</string>
+  <string name="search_bar_text">Search for mail, sender</string>
   <string name="search_hint">Search mail</string>
   <string name="search_result">"Results "</string>
   <string name="search_tabs_name_all">All</string>
@@ -1082,7 +1099,8 @@ to receive reminders about payments and trips"</string>
   <string name="too_large_to_attach_additional">"File size can't exceed %1$s."</string>
   <string name="too_large_to_attach_multiple">"One or more files weren't attached. Size can't exceed %1$s."</string>
   <string name="too_large_to_attach_single">"Can't attach file larger than %1$s."</string>
-  <string name="topic_merge">Merge themes</string>
+  <string name="topic_merge">Email display</string>
+  <string name="topic_merge_summary">Mode Organized by thread</string>
   <string name="translation_loading">Just a sec…</string>
   <string name="translation_no_result">No results</string>
   <string name="translation_pronunciation_am">AmE</string>
@@ -1109,6 +1127,7 @@ Stop now?"</string>
   <string name="unsent_messages_in_outbox">%1$s unsent in %2$s</string>
   <string name="unzip_file_failed">"Couldn't unzip file"</string>
   <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
+  <string name="update_to_wps_mail">More advanced features, upgrade to WPS-mail</string>
   <string name="updated_at">Refreshed at %1$s</string>
   <string name="upload_log">Upload logs</string>
   <string name="upload_log_failed">"Couldn't send logs"</string>
