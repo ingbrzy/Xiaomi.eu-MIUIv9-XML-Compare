@@ -78,6 +78,7 @@
         <item>cs_CZ</item>
         <item>sr_RS</item>
         <item>hr_HR</item>
+        <item>kk_KZ</item>
         <item>mk_MK</item>
         <item>ru_RU</item>
         <item>uk_UA</item>
@@ -583,6 +584,10 @@
         <item>com.qidian.QDReader</item>
         <item>com.tencent.qqlite</item>
         <item>com.iodkols.onekeylockscreen</item>
+        <item>com.nfyg.hsbb</item>
+        <item>com.coohuaclient</item>
+        <item>im.yixin</item>
+        <item>com.dangdang.buy2</item>
     </string-array>
     <array name="config_crossSpaceNotificationPackageNames" />
     <string-array name="securespaces_extension_accelerometer_userRestrictions">
