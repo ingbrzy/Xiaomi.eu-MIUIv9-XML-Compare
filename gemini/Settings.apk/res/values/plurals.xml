@@ -9,8 +9,8 @@
         <item quantity="one">%d app can show notifications</item>
     </plurals>
     <plurals name="settings_toggle_position_divider_page">
-        <item quantity="other">%1$d toggles placed above bar are active</item>
-        <item quantity="one">%1$d toggle placed above bar are active</item>
+        <item quantity="other">%1$d toggles will appear in the Notification shade</item>
+        <item quantity="one">%1$d toggle will appear in the Notification shade</item>
     </plurals>
     <plurals name="show_dev_countdown">
         <item quantity="other">You are now %1$d steps away from being a developer.</item>
@@ -207,7 +207,7 @@ For more information about this certificate, contact your admin."</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts">
         <item quantity="other">Too many incorrect attempts. Try again in %d seconds.</item>
-        <item quantity="one">Too many incorrect attempt. Try again in %d second.</item>
+        <item quantity="one">Too many incorrect attempts. Try again in %d second.</item>
     </plurals>
     <plurals name="lockpattern_too_many_failed_confirmation_attempts_footer">
         <item quantity="other">Wait for %d seconds and try again.</item>
