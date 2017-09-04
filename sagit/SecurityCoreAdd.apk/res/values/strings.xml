@@ -273,9 +273,12 @@ to enter Second space from Lock screen"</string>
   <string name="tryNow">Try now</string>
   <string name="wating">Just a sec…</string>
   <string name="xpsace_guide_button">Create</string>
+  <string name="xspace_account">双开帐号</string>
   <string name="xspace_chocie">Dual app support</string>
   <string name="xspace_creating">Creating dual app…</string>
-  <string name="xspace_description">Create dual apps to use them separately. Dual apps will have specific Home screen icons.</string>
+  <string name="xspace_description">"双开应用将在桌面生成一个全新的应用副本，两者可同时运行互不影响。
+
+部分应用需要谷歌服务框架支持，双开这部分应用时会同步双开谷歌服务以保障体验。"</string>
   <string name="xspace_guide_des">Use 2 accounts without switching</string>
   <string name="xspace_guide_title">Create Dual app for %s</string>
   <string name="xspace_header">Dual apps</string>
@@ -285,6 +288,7 @@ to enter Second space from Lock screen"</string>
   <string name="xspace_introduce">Recommended</string>
   <string name="xspace_label">Dual apps</string>
   <string name="xspace_loading_msg">Loading apps…</string>
+  <string name="xspace_setting_label">双开设置</string>
   <string name="xspace_uninstall_completed">Dual app uninstalled successfully</string>
   <string name="xspace_uninstall_dialog_content">Uninstalling dual app will remove all app data.</string>
   <string name="xspace_uninstall_dialog_title">Uninstall dual app</string>
