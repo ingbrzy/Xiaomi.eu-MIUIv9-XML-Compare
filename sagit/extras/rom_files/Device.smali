@@ -50,6 +50,8 @@
 
 .field public static final IS_CM_TEST:Z
 
+.field public static final IS_D1:Z
+
 .field public static final IS_D2:Z
 
 .field public static final IS_D3:Z
@@ -566,6 +568,16 @@
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_C8:Z
 
+    const-string/jumbo v0, "rosy"
+
+    sget-object v2, Lmiui/os/Build;->DEVICE:Ljava/lang/String;
+
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    sput-boolean v0, Lcom/android/camera/Device;->IS_D1:Z
+
     const-string/jumbo v0, "tiffany"
 
     sget-object v2, Lmiui/os/Build;->DEVICE:Ljava/lang/String;
@@ -827,6 +839,10 @@
     if-nez v0, :cond_0
 
     sget-boolean v0, Lcom/android/camera/Device;->IS_E7:Z
+
+    if-nez v0, :cond_0
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_D1:Z
 
     :goto_0
     return v0
