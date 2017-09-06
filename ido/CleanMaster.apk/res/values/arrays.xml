@@ -13,7 +13,7 @@
         <item>Size</item>
     </string-array>
     <string-array name="auto_clean_time">
-        <item>Everyday</item>
+        <item>Every day</item>
         <item>Every 3 days</item>
         <item>Every 7 days</item>
         <item>Every 15 days</item>
@@ -25,8 +25,8 @@
         <item>1GB</item>
     </string-array>
     <string-array name="auto_process_mode">
-        <item>Prompt with notification</item>
-        <item>Clean in background</item>
-        <item>Show notification after clean</item>
+        <item>Notify</item>
+        <item>Clear</item>
+        <item>Clear and notify</item>
     </string-array>
 </resources>
