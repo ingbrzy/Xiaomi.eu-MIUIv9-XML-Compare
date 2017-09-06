@@ -7,6 +7,7 @@
   <string name="addBlackList">Block</string>
   <string name="add_attachment">Add attachments</string>
   <string name="add_contact">vCard</string>
+  <string name="add_miui_contact">Mi Card</string>
   <string name="add_music">Add music</string>
   <string name="add_number_to_sender">Add number to %s</string>
   <string name="add_picture">Add picture</string>
@@ -395,8 +396,10 @@
   <string name="pref_show_sms_template_in_summary">Automatically detect one-time passwords in SMS messages</string>
   <string name="pref_show_sms_template_summary">Turn on to use the smart features of Mi Message, such as copying codes, checking balance, etc.</string>
   <string name="pref_smart_messages_settings">Smart messages</string>
+  <string name="pref_sms_storage_title">Storage</string>
   <string name="pref_sms_theme_title">Display</string>
   <string name="pref_summary_allow_si_sl_push">Allow messages to load content from websites</string>
+  <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
   <string name="pref_summary_delete_limit">%1$s messages per conversation</string>
   <string name="pref_summary_delivery_reports">Show delivery status for sent messages</string>
   <string name="pref_summary_delivery_ringtone">Receive sound notifications for delivered messages.</string>
@@ -414,6 +417,7 @@
   <string name="pref_system_title">System</string>
   <string name="pref_title_about_smart_sms">About Smart messages partner</string>
   <string name="pref_title_allow_si_sl_push">Allow WAP push messages (SI/SL)</string>
+  <string name="pref_title_auto_delete">Delete old messages</string>
   <string name="pref_title_card_format">Card share format</string>
   <string name="pref_title_delivery_reports">Delivery status</string>
   <string name="pref_title_fwd_sender_info">Forward sender info</string>
@@ -422,6 +426,8 @@
   <string name="pref_title_mms_auto_retrieval">Download MMS content automatically</string>
   <string name="pref_title_mms_delete">Multimedia message limit</string>
   <string name="pref_title_mms_read_reports">MMS read receipts</string>
+  <string name="pref_title_mms_retrieval_during_international_roaming">Download MMS content when international roaming</string>
+  <string name="pref_title_mms_retrieval_during_national_roaming">Download MMS content when national roaming</string>
   <string name="pref_title_mms_retrieval_during_roaming">Download MMS content when roaming</string>
   <string name="pref_title_mms_validity_period">MMS expiration</string>
   <string name="pref_title_notification_body_enabled">Show messages on lock screen</string>

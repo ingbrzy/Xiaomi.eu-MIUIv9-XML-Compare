@@ -814,6 +814,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bt_rarely_used_device_title">Rerely used devices (%d)</string>
   <string name="bt_trace_log">Bluetooth trace log</string>
   <string name="bt_trace_log_summary">Bluetooth trace log</string>
+  <string name="bug_report_settings">Feedback</string>
   <string name="bugreport_in_power">Bug report shortcut</string>
   <string name="bugreport_in_power_summary">Show a button in the power menu for taking a bug report</string>
   <string name="build_number">Build number</string>
@@ -2745,15 +2746,6 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
   <string name="ok_rules">finish</string>
   <string name="okay">OK</string>
-  <string name="oldman_mode_confirm_title">Reboot now?</string>
-  <string name="oldman_mode_confirm_will_normal_mode_text">Your device will reboot to exit Lite mode.</string>
-  <string name="oldman_mode_confirm_will_oldman_mode_text">Your device will reboot to enter Lite mode.</string>
-  <string name="oldman_mode_enabled_name">Lite mode</string>
-  <string name="oldman_mode_entry_name">Lite mode</string>
-  <string name="oldman_mode_entry_title">Lite mode</string>
-  <string name="oldman_mode_settings_caption">Lite mode settings</string>
-  <string name="oldman_mode_summary">Use simplified Home screen and menus</string>
-  <string name="oldman_mode_summary_cta">Lite mode needs to connect to the internet and read your contacts, messages, and location info to work normally.</string>
   <string name="one_cacrt">one CA certificate</string>
   <string name="one_usercrt">one user certificate</string>
   <string name="one_userkey">one user key</string>
@@ -3524,6 +3516,7 @@ To use screen pinning:
   <string name="search_handy_mode">One handed mode;One-handed mode;Onehanded mode;One hand</string>
   <string name="search_hint">Search settings</string>
   <string name="search_home_key">Home;Home button;Home key</string>
+  <string name="search_input_hint">Search settings</string>
   <string name="search_key_settings_title">Buttons;Keys</string>
   <string name="search_lab_functions_title">Beta features;Lab function</string>
   <string name="search_label">Settings</string>
@@ -3943,6 +3936,7 @@ Possibly incorrect PIN."</string>
   <string name="spellchecker_language">Language</string>
   <string name="spellchecker_quick_settings">Settings</string>
   <string name="spellchecker_security_warning">This spell checker may be able to collect all the text you type, including personal data like passwords and credit card numbers. It comes from the app %1$s. Use this spell checker?</string>
+  <string name="spellchecker_switch_title">Turn on Spell checker</string>
   <string name="spellcheckers_settings_title">Spell checker</string>
   <string name="ssid_label">SSID:</string>
   <string name="ssl_ca_cert_warning">Network may be monitored</string>
@@ -4951,7 +4945,6 @@ WLAN Assistant"</string>
   <string name="wifi_eap_ca_cert">CA certificate</string>
   <string name="wifi_eap_domain">Domain</string>
   <string name="wifi_eap_identity">Identity</string>
-  <string name="wifi_eap_info_reconnect">Authentication failed, please try again!</string>
   <string name="wifi_eap_method">EAP method</string>
   <string name="wifi_eap_sim_simcard">Choose SIM</string>
   <string name="wifi_eap_user_cert">User certificate</string>
@@ -4980,7 +4973,7 @@ WLAN Assistant"</string>
   <string name="wifi_hotspot_message">%1$s requires you to sign in online before you connect to the network.</string>
   <string name="wifi_hotspot_title">Sign in to connect?</string>
   <string name="wifi_in_airplane_mode">In Airplane mode</string>
-  <string name="wifi_info_reconnect">Error password, please try again!</string>
+  <string name="wifi_info_reconnect">Connection failed, please try again!</string>
   <string name="wifi_install_credentials">Install certificates</string>
   <string name="wifi_ip_address">IP address</string>
   <string name="wifi_ip_address_hint">192.168.1.128</string>
