@@ -635,6 +635,7 @@ mod:0-15"</string>
   <string name="radio_info_state_label">"[STATE]  :"</string>
   <string name="radiotest">Radio Test</string>
   <string name="radioteststate">Radio Test State:</string>
+  <string name="radiotips">Tips:You must insert White card,Then press open test Button. You must pull out card then press close test Button.</string>
   <string name="rate">Rate:</string>
   <string name="rateandfreqout">Rate should be from 0 to 11 and Frequency should be from 1 to 13!</string>
   <string name="ratelimit">[0-11]</string>
