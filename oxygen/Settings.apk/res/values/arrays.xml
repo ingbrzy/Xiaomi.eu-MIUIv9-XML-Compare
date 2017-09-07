@@ -310,7 +310,7 @@
         <item>1</item>
     </string-array>
     <string-array name="status_bar_show_carrier_entries">
-        <item>Only show in lock screen and notification panel</item>
+        <item>Only show on the Lock screen and in the Notification shade</item>
         <item>Always show carrier name</item>
         <item>Never show carrier name</item>
     </string-array>
@@ -318,6 +318,21 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="check_importance_entries">
+        <item>Recommend</item>
+        <item>Important</item>
+        <item>UnImportant</item>
+    </string-array>
+    <string-array name="check_importance_values">
+        <item>0</item>
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="check_importance_summary">
+        <item>Intelligent judge, unimportant notifications will appear in a separate folder</item>
+        <item>Notifications will appear directly on the Notification shade</item>
+        <item>All notifications will appear in a separate folder</item>
     </string-array>
     <string-array name="timezone_filters">
         <item>America</item>
@@ -1231,14 +1246,6 @@
         <item>PEAP</item>
         <item>SIM</item>
     </string-array>
-    <string-array name="screen_key_position_action">
-        <item>Menu button on the left, Back button on the right</item>
-        <item>Back button on the left, Menu button on the right</item>
-    </string-array>
-    <string-array name="screen_key_position_action_value">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
     <string-array name="screen_key_press_action">
         <item>Show recent apps tray</item>
         <item>Show menu</item>
@@ -1247,14 +1254,14 @@
         <item>recent_panel</item>
         <item>show_menu</item>
     </string-array>
-    <string-array name="screen_key_long_press_action">
-        <item>None</item>
-        <item>Show recent apps</item>
-        <item>Launch Assistant</item>
-        <item>Launch Google Now</item>
-        <item>Close current app</item>
-        <item>Launch quick search</item>
-        <item>Show menu</item>
+    <string-array name="key_and_gesture_shortcut_action">
+        <item>long_press_home_key</item>
+        <item>long_press_menu_key</item>
+        <item>long_press_back_key</item>
+        <item>key_combination_power_home</item>
+        <item>key_combination_power_menu</item>
+        <item>key_combination_power_back</item>
+        <item>key_none</item>
     </string-array>
     <string-array name="screen_key_long_press_action_value">
         <item>none</item>
@@ -2542,6 +2549,149 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>120</item>
         <item>480</item>
     </string-array>
+    <array name="click_bottom">
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom04</item>
+        <item>@drawable/clickbottom05</item>
+        <item>@drawable/clickbottom06</item>
+        <item>@drawable/clickbottom07</item>
+        <item>@drawable/clickbottom08</item>
+        <item>@drawable/clickbottom03</item>
+        <item>@drawable/clickbottom02</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+        <item>@drawable/clickbottom01</item>
+    </array>
+    <array name="long_press">
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom02</item>
+        <item>@drawable/longpressbottom03</item>
+        <item>@drawable/longpressbottom04</item>
+        <item>@drawable/longpressbottom05</item>
+        <item>@drawable/longpressbottom06</item>
+        <item>@drawable/longpressbottom07</item>
+        <item>@drawable/longpressbottom08</item>
+        <item>@drawable/longpressbottom08</item>
+        <item>@drawable/longpressbottom08</item>
+        <item>@drawable/longpressbottom08</item>
+        <item>@drawable/longpressbottom08</item>
+        <item>@drawable/longpressbottom09</item>
+        <item>@drawable/longpressbottom10</item>
+        <item>@drawable/longpressbottom11</item>
+        <item>@drawable/longpressbottom04</item>
+        <item>@drawable/longpressbottom03</item>
+        <item>@drawable/longpressbottom02</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+        <item>@drawable/longpressbottom01</item>
+    </array>
+    <array name="power_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="power_double_click">
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick02</item>
+        <item>@drawable/powerclick03</item>
+        <item>@drawable/powerclick04</item>
+        <item>@drawable/powerclick05</item>
+        <item>@drawable/powerclick06</item>
+        <item>@drawable/powerclick07</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+        <item>@drawable/powerclick01</item>
+    </array>
+    <array name="three_drop">
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop01</item>
+        <item>@drawable/threedrop02</item>
+        <item>@drawable/threedrop03</item>
+        <item>@drawable/threedrop04</item>
+        <item>@drawable/threedrop05</item>
+        <item>@drawable/threedrop06</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+        <item>@drawable/threedrop07</item>
+    </array>
     <integer-array name="alarm_repeat_type_values">
         <item>1</item>
         <item>3</item>
