@@ -101,9 +101,9 @@ and then create a shot where everyone looks best."</string>
   <string name="portrait_mode_depth_effect_success_hint">Depth effect</string>
   <string name="portrait_mode_lowlight_hint">"It's too dark now"</string>
   <string name="portrait_mode_too_close_hint">Move farther from the object</string>
-  <string name="portrait_mode_too_far_hint">Place subject within 2.5 meters</string>
-  <string name="portrait_mode_use_hint">"Portrait mode helps you blur the background
-with more clear main body and more beautiful portrait"</string>
+  <string name="portrait_mode_too_far_hint">Place object within 2.5 meters</string>
+  <string name="portrait_mode_use_hint">"Portrait mode blurs the background
+and brings out the people in the front."</string>
   <string name="portrait_with_facebeauty_hint">Beautify is now available in Portrait mode</string>
   <string name="pref_advance_settings">Additional settings</string>
   <string name="pref_audio_focus_default">normal</string>
@@ -195,9 +195,9 @@ with more clear main body and more beautiful portrait"</string>
   <string name="pref_camera_contrast_default">5</string>
   <string name="pref_camera_contrast_title">Contrast</string>
   <string name="pref_camera_delay_capture_default">5</string>
-  <string name="pref_camera_delay_capture_entry_10s">10s</string>
-  <string name="pref_camera_delay_capture_entry_3s">3s</string>
-  <string name="pref_camera_delay_capture_entry_5s">5s</string>
+  <string name="pref_camera_delay_capture_entry_10s">10s delay</string>
+  <string name="pref_camera_delay_capture_entry_3s">3s delay</string>
+  <string name="pref_camera_delay_capture_entry_5s">5s delay</string>
   <string name="pref_camera_delay_capture_entry_audio">Audio</string>
   <string name="pref_camera_delay_capture_title">Timer</string>
   <string name="pref_camera_exposuretime_default">0</string>
@@ -235,7 +235,7 @@ with more clear main body and more beautiful portrait"</string>
   <string name="pref_camera_focusmode_title">Focus mode</string>
   <string name="pref_camera_focusmode_value_default">continuous-picture</string>
   <string name="pref_camera_gradienter_title">Straighten</string>
-  <string name="pref_camera_groupshot_mode_title">Group selfies</string>
+  <string name="pref_camera_groupshot_mode_title">Group selfie</string>
   <string name="pref_camera_hand_night_title">HHT</string>
   <string name="pref_camera_hdr_entry_auto">Auto</string>
   <string name="pref_camera_hdr_entry_live">Live</string>
@@ -466,7 +466,7 @@ with more clear main body and more beautiful portrait"</string>
   <string name="pref_front_mirror_entryvalue_on">on</string>
   <string name="pref_front_mirror_label_auto">Auto</string>
   <string name="pref_front_mirror_title">Mirror front camera</string>
-  <string name="pref_groupshot_with_primitive_title">Save original photos as well in Group selfies mode</string>
+  <string name="pref_groupshot_with_primitive_title">Save original photos as well</string>
   <string name="pref_manual_exposure_title">Exposure time</string>
   <string name="pref_mi_front_video_quality_default">6</string>
   <string name="pref_mtk_video_quality_default">10</string>
@@ -546,7 +546,7 @@ with more clear main body and more beautiful portrait"</string>
   <string name="simple_mode_button_text_fast_video">Turn off slow-motion</string>
   <string name="simple_mode_button_text_fisheye">Turn off Fisheye</string>
   <string name="simple_mode_button_text_gradienter">Turn off Straighten</string>
-  <string name="simple_mode_button_text_groupshot">Turn off Group selfies</string>
+  <string name="simple_mode_button_text_groupshot">Turn off Group selfie</string>
   <string name="simple_mode_button_text_hand_night">Turn off HHT</string>
   <string name="simple_mode_button_text_magic_mirror">Turn off Magic mirror</string>
   <string name="simple_mode_button_text_manual">Turn off Manual</string>
