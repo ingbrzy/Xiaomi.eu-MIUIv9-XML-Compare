@@ -15,10 +15,9 @@
     <PreferenceScreen android:title="@string/force_touch" android:key="force_touch_settings">
         <intent android:targetPackage="com.android.settings" android:action="android.intent.action.FORCE_TOUCH_GUIDE" />
     </PreferenceScreen>
-    <Preference android:title="@string/screenshot" android:key="screenshot_settings" android:fragment="com.android.settings.display.ScreenshotFragment" />
+    <Preference android:title="@string/key_settings_title" android:key="key_settings" android:fragment="com.android.settings.KeySettings" />
     <Preference android:title="@string/led_settings" android:key="led_settings" android:fragment="com.android.settings.LedSettings" />
     <Preference android:title="@string/music_headset_settings" android:key="headset_settings" android:fragment="com.android.settings.HeadsetSettings" />
-    <Preference android:title="@string/key_settings_title" android:key="key_settings" android:fragment="com.android.settings.KeySettings" />
     <Preference android:title="@string/handy_mode" android:key="handy_mode_settings" android:fragment="com.android.settings.display.HandyModeFragment" />
     <Preference android:title="@string/accessibility_settings" android:key="accessibility_settings" android:fragment="com.android.settings.accessibility.AccessibilitySettings" />
     <Preference android:title="@string/print_settings" android:key="print_settings" android:fragment="com.android.settings.print.PrintSettingsFragment" />

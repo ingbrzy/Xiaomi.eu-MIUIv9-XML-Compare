@@ -1,6 +1,6 @@
 <resources>
     <string name="weather_type_null">'Brak danych'</string>
-    <string name="weather_type_0">Bezchmurnie</string>
+    <string name="weather_type_0">Pogodnie</string>
     <string name="weather_type_1">Pochmurnie</string>
     <string name="weather_type_2">Zamglenie</string>
     <string name="weather_type_3">Mglisto</string>
