@@ -919,6 +919,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="charge_length_format">%1$s ago</string>
   <string name="charging_sounds_title">Charging sounds</string>
   <string name="check_find_device_status_failure_confirm">OK</string>
+  <string name="check_importance">Check importance</string>
   <string name="check_update">Check for updates</string>
   <string name="checkbox_notification_same_as_incoming_call">Use incoming call volume for notifications</string>
   <string name="checking_decryption">Checking…</string>
@@ -4034,6 +4035,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_wifi_mac_address">WLAN MAC address</string>
   <string name="status_wimax_mac_address">4G MAC address</string>
   <string name="status_write_success">Success!</string>
+  <string name="statusbar_permission_desc">Permissions are only avaiable for important Notifications</string>
   <string name="storage_detail_apps">Apps</string>
   <string name="storage_detail_audio">Audio</string>
   <string name="storage_detail_cached">Cached data</string>
@@ -4386,6 +4388,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="turn_update_keyguard_password_wait_dialog">Modifying password…</string>
   <string name="twohours">1 hours</string>
   <string name="under_keyguard">Screen off</string>
+  <string name="unimportant">UnImportant</string>
   <string name="uninstall_all_users_text">Uninstall for all users</string>
   <string name="uninstall_device_admin">Uninstall app</string>
   <string name="uninstall_dlg_msg">Uninstalling will remove all app data.</string>
