@@ -710,6 +710,7 @@
   <string name="error_connect_timeout_msg">Connect to a different network and try again.</string>
   <string name="error_connect_timeout_tip">Connection timed out.</string>
   <string name="error_decode_tip">"File format isn't supported or files are corrupted."</string>
+  <string name="error_download_tip">"Couldn't download"</string>
   <string name="error_external_sdcard_write_action">Switch storage</string>
   <string name="error_external_sdcard_write_msg">Go to Settings &gt; Storage, switch storage there, and try again.</string>
   <string name="error_external_sdcard_write_tip">"Can't save items to SD card."</string>
@@ -1149,6 +1150,7 @@ Take more photos of your friends!"</string>
   <string name="search_title_album">Album</string>
   <string name="search_title_history">Search history</string>
   <string name="search_title_location">Locations</string>
+  <string name="search_title_more">More</string>
   <string name="search_title_others">All results</string>
   <string name="search_title_people">People</string>
   <string name="search_title_recommend">Recommended</string>

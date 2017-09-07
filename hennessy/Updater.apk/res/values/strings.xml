@@ -11,6 +11,7 @@
   <string name="btn_share">Share</string>
   <string name="btn_yes">Yes</string>
   <string name="check_new_version">Check</string>
+  <string name="chengelog">%1$s</string>
   <string name="dialog_3g_desc">Be aware that using Mobile Data to download ROMs might take significant quota of your packet.</string>
   <string name="dialog_3g_title">Warning!</string>
   <string name="dialog_btn_3g">Continue Anyway</string>
