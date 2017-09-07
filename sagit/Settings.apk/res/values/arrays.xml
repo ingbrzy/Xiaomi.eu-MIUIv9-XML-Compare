@@ -319,6 +319,21 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string-array name="check_importance_entries">
+        <item>Recommend</item>
+        <item>Important</item>
+        <item>UnImportant</item>
+    </string-array>
+    <string-array name="check_importance_values">
+        <item>0</item>
+        <item>1</item>
+        <item>-1</item>
+    </string-array>
+    <string-array name="check_importance_summary">
+        <item>Intelligent judge, unimportant notifications will appear in a separate folder</item>
+        <item>Notifications will appear directly on the Notification shade</item>
+        <item>All notifications will appear in a separate folder</item>
+    </string-array>
     <string-array name="timezone_filters">
         <item>America</item>
         <item>Europe</item>
