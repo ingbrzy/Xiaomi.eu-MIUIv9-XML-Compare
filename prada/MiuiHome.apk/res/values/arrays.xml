@@ -104,7 +104,7 @@
     <string-array name="editing_mode_entries">
         <item>Wallpaper</item>
         <item>Widgets</item>
-        <item>Setting</item>
+        <item>Settings</item>
     </string-array>
     <string-array name="editing_mode_values">
         <item>0</item>
