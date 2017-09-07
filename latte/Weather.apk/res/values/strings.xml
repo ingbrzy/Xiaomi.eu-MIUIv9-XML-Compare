@@ -22,9 +22,9 @@
   <string name="activity_main_update_time">Updated %1$s</string>
   <string name="activity_main_update_time_expire">Data expired</string>
   <string name="activity_main_update_time_right_now">just now</string>
-  <string name="activity_minute_rain_location_fail_msg">Locating failed, default location of map is Beijing</string>
+  <string name="activity_minute_rain_location_fail_msg">"Couldn't find location. Showing Beijing by default."</string>
   <string name="activity_weathermain_locationg">Locating…</string>
-  <string name="activity_weathermain_locationg_error">"Can't locate"</string>
+  <string name="activity_weathermain_locationg_error">"Couldn't find location"</string>
   <string name="add_city">Add</string>
   <string name="ads_extension"/>
   <string name="ads_install_num"/>
@@ -82,7 +82,7 @@
   <string name="common_loading_text">Just a sec…</string>
   <string name="connect_fail">"Couldn't connect to the network, try again"</string>
   <string name="content_desc_activity_main_add_city">Add city</string>
-  <string name="content_desc_activity_main_add_city_manage">City management</string>
+  <string name="content_desc_activity_main_add_city_manage">Manage cities</string>
   <string name="content_desc_activity_main_more_settings">More settings</string>
   <string name="daily_forcast_drawer_on_bottom">Hide</string>
   <string name="daily_forcast_no_stable_direction">Breeze</string>
@@ -163,7 +163,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="international_details_uv_index_title">UV INDEX</string>
   <string name="international_details_wind_connect">%1$s %2$s</string>
   <string name="international_details_wind_title">WIND</string>
-  <string name="it_is_going_to_rain">It is going to rain</string>
+  <string name="it_is_going_to_rain">"It's going to rain"</string>
   <string name="locate_fail_detail_err">"Can't locate device
 Tap the screen to manually add or reposition city"</string>
   <string name="location_tag">Locate</string>
@@ -187,8 +187,8 @@ Tap the screen to manually add or reposition city"</string>
   <string name="more_details">More details</string>
   <string name="network_not_available">"Can't connect to the network"</string>
   <string name="network_unavailable">"Can't connect to the network."</string>
-  <string name="night_not_disturb_settings_summary">Will not receive all weather notices from 23:00 to 07:00 the next day after opening</string>
-  <string name="night_not_disturb_settings_title">Do not disturb at night</string>
+  <string name="night_not_disturb_settings_summary">Silence alerts coming between 23:00 and 07:00</string>
+  <string name="night_not_disturb_settings_title">"Don't disturb at night"</string>
   <string name="no_data">--</string>
   <string name="no_network_btn">Try again</string>
   <string name="no_vote_ratio">Against %1$s%%</string>
@@ -196,7 +196,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="open_browser">Open in browser</string>
   <string name="open_now">Open</string>
   <string name="other">Other</string>
-  <string name="other_warning_settings">Other Warning Settings</string>
+  <string name="other_warning_settings">Other alerts</string>
   <string name="particulate_matter_exceeded">High</string>
   <string name="particulate_matter_not_exceeded">Normal</string>
   <string name="particulate_matter_serious_exceeded">Too high</string>
@@ -207,14 +207,14 @@ Tap the screen to manually add or reposition city"</string>
   <string name="precipitation_degree_two">Light</string>
   <string name="pressure_connect">%1$s mb</string>
   <string name="radar_cloud_image_title">Radar map</string>
-  <string name="rainfall_settings_summary">Rainfall Settings</string>
-  <string name="rainfall_settings_title">Rainfall Warning</string>
+  <string name="rainfall_settings_summary">Rainfall alerts</string>
+  <string name="rainfall_settings_title">Rainfall</string>
   <string name="realtime_aqi_title">Air Quality Index</string>
   <string name="realtime_humidity_title">Relative humidity</string>
   <string name="realtime_temperature_no_data">N/A</string>
   <string name="realtime_wind_default_title">Wind</string>
   <string name="refresh_fail">"Couldn't connect to network"</string>
-  <string name="reminder_from_xiaomi_weather_app">Reminder From Xiaomi Weather APP</string>
+  <string name="reminder_from_xiaomi_weather_app">Mi Weather alert</string>
   <string name="retry">Try again</string>
   <string name="search_weather">Weather</string>
   <string name="search_weather_keywords">Temperature;Weather Forecast;Weather;Air Quality;Pollution Degree;Humidity</string>
@@ -234,7 +234,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="share_weather_desc_alert">%1$s%2$s</string>
   <string name="share_weather_desc_split">,</string>
   <string name="share_weather_save_pic_fail">"Couldn't take screenshot"</string>
-  <string name="some_where_on_earth">A place on Earth</string>
+  <string name="some_where_on_earth">Somewhere on Earth</string>
   <string name="sunrise">Sunrise</string>
   <string name="sunset">Sunset</string>
   <string name="temperature_unit">%1$s°</string>
@@ -260,12 +260,12 @@ Tap the screen to manually add or reposition city"</string>
   <string name="tts_report_weather_desc"/>
   <string name="tts_report_wind"/>
   <string name="twc_logo_title"/>
-  <string name="unit">Unit</string>
+  <string name="unit">Units</string>
   <string name="unit_temperature">Temperature units</string>
   <string name="unit_wind">Wind speed units</string>
-  <string name="update_night_setting_summary_text">Will not update automatically 23:00-07:00 after closed</string>
-  <string name="update_night_setting_title_text">Update Automatically At Night</string>
-  <string name="update_setting_title_text">Update Settings</string>
+  <string name="update_night_setting_summary_text">Update weather info between 23:00 and 07:00</string>
+  <string name="update_night_setting_title_text">Update at night automatically</string>
+  <string name="update_setting_title_text">Update weather info</string>
   <string name="video_dialog_no_play"/>
   <string name="video_dialog_play"/>
   <string name="video_dialog_subtitle"/>
