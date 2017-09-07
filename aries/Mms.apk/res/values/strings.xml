@@ -7,6 +7,7 @@
   <string name="addBlackList">Block</string>
   <string name="add_attachment">Add attachments</string>
   <string name="add_contact">vCard</string>
+  <string name="add_miui_contact">Mi Card</string>
   <string name="add_music">Add music</string>
   <string name="add_number_to_sender">Add number to %s</string>
   <string name="add_picture">Add picture</string>
@@ -163,7 +164,7 @@
   <string name="expire_on">Expires: %s</string>
   <string name="exporting_progress_private_message">Exporting…</string>
   <string name="fail_to_add_attachment">"Couldn't add attachment"</string>
-  <string name="fail_to_view_attachment">attachment is unavailable</string>
+  <string name="fail_to_view_attachment">"Attachment isn't available"</string>
   <string name="failed_to_add_media">"You can't add this %1$s to your message."</string>
   <string name="failed_to_resize_image">Picture not resized.</string>
   <string name="fake_cell_alert_hint">Looks like this message was sent from the phone number which is different from the one displayed. Be cautious of the SMS containing financial requests.</string>
@@ -338,9 +339,9 @@
   <string name="mx_stranger_recommend_msg">Tap to block Mi Messages from unknown numbers</string>
   <string name="mx_type_guide">Mi Message lets you send messages to other MIUI users without incurring charges</string>
   <string name="need_download">Syncing…</string>
-  <string name="networking_allow_continue">OK</string>
-  <string name="networking_allow_desc">"Smart messages allow you to send free texts and voice, recognize unknown numbers, filter spam, etc. By using this service, you agree to Xiaomi's %1$s and %2$s. You have to turn on Yellow pages and connect to the internet to use this service."</string>
-  <string name="networking_allow_desc_without_mx">"Smart messages allow you to recognize unknown numbers, filter spam, etc. By using this service, you agree to Xiaomi's %1$s and %2$s. You have to turn on Yellow pages and connect to the internet to use this service."</string>
+  <string name="networking_allow_continue">Allow</string>
+  <string name="networking_allow_desc">Mi Message needs to connect to the internet to work normally. In order to provide free text and voice services, recognize unknown numbers, filter spam, and enable other features, Mi Message needs to use Yellow pages. Allow Yellow pages to connect to the internet, get your location info, and read your contacts?</string>
+  <string name="networking_allow_desc_without_mx">Mi Message needs to connect to the internet to work normally. In order to recognize unknown numbers, filter spam, and enable other features, Mi Message needs to use Yellow pages. Allow Yellow pages to connect to the internet, get your location info, and read your contacts?</string>
   <string name="networking_allow_title">Attention</string>
   <string name="new_message">Compose</string>
   <string name="new_message_arrived">You have a new message</string>
@@ -395,8 +396,10 @@
   <string name="pref_show_sms_template_in_summary">Automatically detect one-time passwords in SMS messages</string>
   <string name="pref_show_sms_template_summary">Turn on to use the smart features of Mi Message, such as copying codes, checking balance, etc.</string>
   <string name="pref_smart_messages_settings">Smart messages</string>
+  <string name="pref_sms_storage_title">Storage</string>
   <string name="pref_sms_theme_title">Display</string>
   <string name="pref_summary_allow_si_sl_push">Allow messages to load content from websites</string>
+  <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
   <string name="pref_summary_delete_limit">%1$s messages per conversation</string>
   <string name="pref_summary_delivery_reports">Show delivery status for sent messages</string>
   <string name="pref_summary_delivery_ringtone">Receive sound notifications for delivered messages.</string>
@@ -414,6 +417,7 @@
   <string name="pref_system_title">System</string>
   <string name="pref_title_about_smart_sms">About Smart messages partner</string>
   <string name="pref_title_allow_si_sl_push">Allow WAP push messages (SI/SL)</string>
+  <string name="pref_title_auto_delete">Delete old messages</string>
   <string name="pref_title_card_format">Card share format</string>
   <string name="pref_title_delivery_reports">Delivery status</string>
   <string name="pref_title_fwd_sender_info">Forward sender info</string>
@@ -422,6 +426,8 @@
   <string name="pref_title_mms_auto_retrieval">Download MMS content automatically</string>
   <string name="pref_title_mms_delete">Multimedia message limit</string>
   <string name="pref_title_mms_read_reports">MMS read receipts</string>
+  <string name="pref_title_mms_retrieval_during_international_roaming">Download MMS content when international roaming</string>
+  <string name="pref_title_mms_retrieval_during_national_roaming">Download MMS content when national roaming</string>
   <string name="pref_title_mms_retrieval_during_roaming">Download MMS content when roaming</string>
   <string name="pref_title_mms_validity_period">MMS expiration</string>
   <string name="pref_title_notification_body_enabled">Show messages on lock screen</string>

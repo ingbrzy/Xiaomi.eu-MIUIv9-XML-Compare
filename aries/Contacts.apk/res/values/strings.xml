@@ -1118,6 +1118,7 @@ To add a contact to your list of favorites:
   <string name="sim_error_password_error">The password you entered is incorrect</string>
   <string name="sim_error_storage_full">SIM card storage is full</string>
   <string name="sim_error_text_too_long">Name is too long</string>
+  <string name="sim_export_error">SIM not ready, try again later</string>
   <string name="sim_export_loading">Reading SIM card…</string>
   <string name="sim_indexed_contact_not_exist">Position %1$d on SIM card is invalid. Position must be between %2$d and %3$d.</string>
   <string name="sim_no_contact">No contacts on SIM card</string>
@@ -1195,6 +1196,7 @@ To add a contact to your list of favorites:
   <string name="toast_for_saving_nickname">Nickname saved</string>
   <string name="toast_join_with_empty_contact">Type contact name before merging with another</string>
   <string name="toast_making_personal_copy">Creating a personal copy…</string>
+  <string name="toast_start_intent_failed">No app was found to handle</string>
   <string name="toast_text_copied">Text copied</string>
   <string name="today">Today</string>
   <string name="tomorrow">Tomorrow</string>
