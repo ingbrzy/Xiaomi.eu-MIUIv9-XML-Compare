@@ -67,7 +67,7 @@
   <string name="input_password_after_boot_msg">To unlock device, enter your password</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
-  <string name="input_password_handle_sdcard_fs">进入分身前需要在开发者选项中关闭“模拟SD卡优化”</string>
+  <string name="input_password_handle_sdcard_fs">Turn off \"Emulated SD card optimization\" before entering Second space.</string>
   <string name="input_password_hint_text">Enter password</string>
   <string name="input_pattern_hint_text">Draw your unlock pattern</string>
   <string name="input_pin_code">Enter PIN</string>
@@ -117,14 +117,14 @@
   <string name="lockscreen_failed_attempts_now_wiping">You have incorrectly attempted to unlock the phone %d times. The phone will now be reset to factory default.</string>
   <string name="miui_keyguard_ble_unlock_succeed_msg">Unlocked by Bluetooth device</string>
   <string name="open_camera_hint_text">Swipe left to open camera</string>
-  <string name="open_remote_center_hint_text">Swipe right to open mi remote</string>
+  <string name="open_remote_center_hint_text">Swipe right to open Mi Remote</string>
   <string name="phone_locked_foget_password">Forgot password?</string>
   <string name="phone_locked_foget_password_mehod_back">Back</string>
   <string name="phone_locked_foget_password_method">Forgot password?</string>
   <string name="phone_locked_foget_password_method_content">&lt;Data&gt;You have to &amp;lt;font color=#a5220e&amp;gt;erase all data &amp;lt;/font&amp;gt; on your device, including photos and contacts, and then set a new Lock screen password.&lt;/Data&gt;</string>
   <string name="phone_locked_foget_password_method_next">Next</string>
   <string name="phone_locked_foget_password_ok">Got it</string>
-  <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data&gt;Power off your device, press and hold the &amp;lt;font color=#a5220e&amp;gt;Power button &amp;lt;/font&amp;gt; and the &amp;lt;font color=#a5220e&amp;gt;Volume up button &amp;lt;/font&amp;gt;simultaneously until you see ml.&lt;/Data&gt;</string>
+  <string name="phone_locked_forget_password_suggesstion_one_content">&lt;Data&gt;Power off your device, press and hold the &amp;lt;font color=#a5220e&amp;gt;Power button &amp;lt;/font&amp;gt; and the &amp;lt;font color=#a5220e&amp;gt;Volume up button &amp;lt;/font&amp;gt;simultaneously until you see the Mi logo.&lt;/Data&gt;</string>
   <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;Select &amp;lt;font color=#a5220e&amp;gt;\"Wipe &amp;amp;amp; Reset\"&amp;lt;/font&amp;gt; and wait until the device reboots.&lt;/Data&gt;</string>
   <string name="phone_locked_forget_password_suggesstions_title">How to erase data?</string>
   <string name="phone_locked_string">Phone has been locked</string>
