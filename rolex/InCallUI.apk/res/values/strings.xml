@@ -58,7 +58,7 @@
   <string name="can_not_use">"Can't use"</string>
   <string name="cancel">Cancel</string>
   <string name="card_title_answering">Answering call</string>
-  <string name="card_title_answering_fail">"Couldn't answer call, try again."</string>
+  <string name="card_title_answering_time_out">"Couldn't answer call, try again."</string>
   <string name="card_title_call_ended">"Call ended "</string>
   <string name="card_title_conf_call">Conference call</string>
   <string name="card_title_dialing">Dialing</string>
@@ -158,10 +158,6 @@
   <string name="ivr_menu_dialing_msg_no_mute">Go to selected service…[Automatic error correction is enabled]</string>
   <string name="ivr_menu_list_sub_menu_count_format">Tap %s</string>
   <string name="ivr_menu_list_title">Voice menu</string>
-  <string name="jeejen_answer_call_text">Answer call</string>
-  <string name="jeejen_end_call_text">End call</string>
-  <string name="jeejen_reject_call_text">Reject call</string>
-  <string name="jeejen_toggle_dialpad_text">Dialpad</string>
   <string name="keep_wait_call_back">Keep waiting</string>
   <string name="livetalk_dial">Using Top-up package</string>
   <string name="livetalk_hangup">Hang up</string>
