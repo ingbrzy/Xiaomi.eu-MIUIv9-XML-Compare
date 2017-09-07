@@ -407,11 +407,13 @@
   <string name="business_lucky_warning">企业红包</string>
   <string name="button_text_accept">Accept</string>
   <string name="button_text_accept_timer">Accept (%d)</string>
+  <string name="button_text_clear">Clear</string>
   <string name="button_text_delete">Delete</string>
   <string name="button_text_delete_from_virus_white_list">Remove</string>
   <string name="button_text_deny">Deny</string>
   <string name="button_text_disconnect_now">Disconnect</string>
   <string name="button_text_fix_now">Fix</string>
+  <string name="button_text_forbid_now">Forbid</string>
   <string name="button_text_ignore">Ignore</string>
   <string name="button_text_ignore_alert_title">Ignore this alert?</string>
   <string name="button_text_known">OK</string>
@@ -765,6 +767,8 @@
   <string name="hints_handle_item_text_virus">Danger</string>
   <string name="hints_input_roaming_daily_limit">Enter data usage limit</string>
   <string name="hints_loading_text">Loading…</string>
+  <string name="hints_risk_descx_title">Description:</string>
+  <string name="hints_risk_name_title">Risk:</string>
   <string name="hints_scan_danger_result">Risk found, fix now</string>
   <string name="hints_scan_result_no_finish">"Scan isn't finished. Tap to start over."</string>
   <string name="hints_scan_result_phone_safe">Everything looks good</string>
@@ -772,7 +776,9 @@
   <string name="hints_scanning">Scanning…</string>
   <string name="hints_scanning_text">Scanning…</string>
   <string name="hints_virus_apk_list_item_summary">apk</string>
+  <string name="hints_virus_apk_summary">%s (apk)</string>
   <string name="hints_virus_app_list_item_summary">app</string>
+  <string name="hints_virus_app_summary">%s (app)</string>
   <string name="hints_virus_lib_update_default_summary">Last update time unknown</string>
   <string name="hongbao_cancel">取消</string>
   <string name="hongbao_message_slogon">小米手机就是快!</string>
@@ -1056,7 +1062,6 @@ to respond"</string>
   <string name="name">Name</string>
   <string name="net_booster">Network speed boost</string>
   <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
-  <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
   <string name="net_booster_overdue_notification">Network speed boost session is about to end</string>
   <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
   <string name="net_booster_tip">Turn on Network speed boost to make WLAN connection more stable and reduce network delay.</string>
