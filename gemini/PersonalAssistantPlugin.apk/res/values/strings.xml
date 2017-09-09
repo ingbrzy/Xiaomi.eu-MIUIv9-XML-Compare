@@ -306,7 +306,7 @@
   <string name="wx_parent">WeChat</string>
   <string name="wx_paycode">Payment</string>
   <string name="wx_scan">Scanner</string>
-  <string name="wx_timeline">Moments</string>
+  <string name="wx_timeline">Battery</string>
   <string name="xiaomi_search_label">Search</string>
   <string name="year_month_day_all_format_en">MM/dd/yyyy HH:mm:ss</string>
   <string name="year_month_day_format">MM/dd/yyyy</string>
