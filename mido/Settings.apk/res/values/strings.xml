@@ -1944,6 +1944,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="key_gesture_function_preview">Gestures and key preview</string>
   <string name="key_gesture_function_shortcut">Function shortcut</string>
   <string name="key_none">none</string>
+  <string name="key_position_cat">Buttons position</string>
   <string name="key_settings">Key and gesture shortcut</string>
   <string name="key_settings_title">Key and gesture shortcut</string>
   <string name="key_system_control">System control</string>
@@ -3315,6 +3316,7 @@ This setting affects all users on this phone."</string>
   <string name="screen_key_long_press">Long press navigation buttons</string>
   <string name="screen_key_long_press_action">Trigger function</string>
   <string name="screen_key_long_press_timeout">Set long press time</string>
+  <string name="screen_key_position">Navigation buttons</string>
   <string name="screen_key_press">Press navigation buttons</string>
   <string name="screen_key_press_action">Trigger function</string>
   <string name="screen_locking_sounds_title">Screen locking sounds</string>
