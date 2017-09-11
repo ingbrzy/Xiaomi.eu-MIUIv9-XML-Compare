@@ -407,11 +407,13 @@
   <string name="business_lucky_warning">企业红包</string>
   <string name="button_text_accept">Accept</string>
   <string name="button_text_accept_timer">Accept (%d)</string>
+  <string name="button_text_clear">Clear</string>
   <string name="button_text_delete">Delete</string>
   <string name="button_text_delete_from_virus_white_list">Remove</string>
   <string name="button_text_deny">Deny</string>
   <string name="button_text_disconnect_now">Disconnect</string>
   <string name="button_text_fix_now">Fix</string>
+  <string name="button_text_forbid_now">Forbid</string>
   <string name="button_text_ignore">Ignore</string>
   <string name="button_text_ignore_alert_title">Ignore this alert?</string>
   <string name="button_text_known">OK</string>
@@ -765,6 +767,8 @@
   <string name="hints_handle_item_text_virus">Danger</string>
   <string name="hints_input_roaming_daily_limit">Enter data usage limit</string>
   <string name="hints_loading_text">Loading…</string>
+  <string name="hints_risk_descx_title">Description:</string>
+  <string name="hints_risk_name_title">Risk:</string>
   <string name="hints_scan_danger_result">Risk found, fix now</string>
   <string name="hints_scan_result_no_finish">"Scan isn't finished. Tap to start over."</string>
   <string name="hints_scan_result_phone_safe">Everything looks good</string>
@@ -772,7 +776,9 @@
   <string name="hints_scanning">Scanning…</string>
   <string name="hints_scanning_text">Scanning…</string>
   <string name="hints_virus_apk_list_item_summary">apk</string>
+  <string name="hints_virus_apk_summary">%s (apk)</string>
   <string name="hints_virus_app_list_item_summary">app</string>
+  <string name="hints_virus_app_summary">%s (app)</string>
   <string name="hints_virus_lib_update_default_summary">Last update time unknown</string>
   <string name="hongbao_cancel">取消</string>
   <string name="hongbao_message_slogon">小米手机就是快!</string>
@@ -1056,7 +1062,6 @@ to respond"</string>
   <string name="name">Name</string>
   <string name="net_booster">Network speed boost</string>
   <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
-  <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
   <string name="net_booster_overdue_notification">Network speed boost session is about to end</string>
   <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
   <string name="net_booster_tip">Turn on Network speed boost to make WLAN connection more stable and reduce network delay.</string>
@@ -1109,6 +1114,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="network_speed_for_apps_others">Other</string>
   <string name="network_speed_for_apps_title">Connection</string>
   <string name="network_speed_for_apps_total">Connection speed</string>
+  <string name="network_test_speed">Test WLAN speed</string>
   <string name="networkchanged_exception_summary">Network connection has changed. Test again.</string>
   <string name="networkchanged_exception_title">Connection changed</string>
   <string name="never">1 time</string>
@@ -1806,7 +1812,6 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="start_diagnostic_botton">Start</string>
   <string name="start_downloading_app">Starting download: %1$s</string>
   <string name="start_game">Start</string>
-  <string name="start_tc_button">Calibrate</string>
   <string name="still_retain_btn">Keep</string>
   <string name="suggest_app_tolock">Suggestions</string>
   <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
@@ -2068,13 +2073,16 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="traffic_over_purchase_link">"You've reached your mobile plan's data usage limit.&lt;br/&gt;If you go over your plans data usage limit, your carrier may charge you additional fees.&lt;br/&gt;&lt;br/&gt;&lt;font color='#ccffffff'&gt;&lt;U&gt;Tap to top up your balance.&lt;/U&gt;&lt;/font&gt;"</string>
   <string name="traffic_purchase_body">Tap to top up your balance.</string>
   <string name="traffic_setting_fragment_area">Locale</string>
-  <string name="traffic_setting_fragment_area_dual">%s Locale</string>
   <string name="traffic_setting_fragment_brand">Brand</string>
   <string name="traffic_setting_fragment_button1_text">Cancel</string>
   <string name="traffic_setting_fragment_button2_text">Save</string>
+  <string name="traffic_setting_fragment_city">City</string>
+  <string name="traffic_setting_fragment_default">请选择</string>
   <string name="traffic_setting_fragment_find_brand">"&lt;font color='#33b4ff'&gt;&lt;U&gt;Not sure about the carrier?&lt;/U&gt;&lt;/font&gt;"</string>
   <string name="traffic_setting_fragment_loacation_alert_nomore">"Don't show again"</string>
   <string name="traffic_setting_fragment_operator">Carrier</string>
+  <string name="traffic_setting_fragment_operator_setting">运营商设置</string>
+  <string name="traffic_setting_fragment_province">Province</string>
   <string name="traffic_setting_fragment_send_num">Carrier phone number</string>
   <string name="traffic_setting_fragment_send_num_tips">Enter phone number</string>
   <string name="traffic_setting_fragment_sms_content">Message content</string>

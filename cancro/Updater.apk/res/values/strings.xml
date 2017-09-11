@@ -11,10 +11,13 @@
   <string name="btn_share">Share</string>
   <string name="btn_yes">Yes</string>
   <string name="check_new_version">Check</string>
+  <string name="chengelog">%1$s</string>
   <string name="dialog_3g_desc">Be aware that using Mobile Data to download ROMs might take significant quota of your packet.</string>
   <string name="dialog_3g_title">Warning!</string>
   <string name="dialog_btn_3g">Continue Anyway</string>
   <string name="dialog_btn_wifi">Switch to Wi-Fi</string>
+  <string name="dialog_stop_desc">Are you sure to stop a running download? All progress will be lost, you cannot resume. The next attempt to download will start from the beginning.</string>
+  <string name="dialog_stop_title">Stop Download?</string>
   <string name="download_done">Successfully downloaded!</string>
   <string name="download_fail">Error while downloading!</string>
   <string name="download_fail_desc">MD5 Sum does not match…</string>
