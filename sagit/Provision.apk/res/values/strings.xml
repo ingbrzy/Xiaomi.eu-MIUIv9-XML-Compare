@@ -10,8 +10,7 @@
   <string name="congratulation_label">"You're ready to rock!​"</string>
   <string name="congratulation_title">Setup complete</string>
   <string name="content_description_complete">Complete</string>
-  <string name="content_description_language_picker">Select language</string>
-  <string name="content_description_miui_version">MIUI 8</string>
+  <string name="content_description_miui_version">MIUI 9</string>
   <string name="content_description_start">Start</string>
   <string name="desc_extra_fingerprint"/>
   <string name="desc_extra_international_fingerprint"/>
@@ -27,7 +26,10 @@
   <string name="input_method_category">"Choose the default keyboard that you'll use for writing messages, notes, and just about everything else. Note that you can install other third-party keyboards later."</string>
   <string name="input_method_setting">Choose keyboard</string>
   <string name="install_preinstall_app">Loading apps…</string>
+  <string name="item_fingerprint">Fingerprint</string>
+  <string name="item_lock_screen_password">Only the password lock</string>
   <string name="language_picker_other_languages_title">More languages</string>
+  <string name="language_settings">Language settings</string>
   <string name="locale_picker_title">Choose your region</string>
   <string name="miui_privacy_policy_no_network">"You don't have an internet connection. View the Privacy Policy at %s."</string>
   <string name="miui_terms_no_network">"You don't have an internet connection. View the Terms of Service at %s."</string>
@@ -64,7 +66,7 @@ View the selected keyboard's Privacy Policy."</string>
   <string name="terms_of_use_label">"Your privacy is very important to us. Please read our Terms of Service and Privacy Policy to understand what information we collect, how we use it, and what choices are available to you.
 
 You must agree to our Terms of Service and Privacy Policy before you can use MIUI. During the activation, Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen modules, Game Service, MAB and MSA system components, Direct Service, Quick Card, statistic, MiSmartCards, and Mi Account components will connect to the internet and acquire your location."</string>
-  <string name="title_fingerprint">Add your fingerprint</string>
+  <string name="title_fingerprint">Set mobile password</string>
   <string name="two_dimensional_code_scan">QR code scan</string>
   <string name="user_agreement">Terms of Service</string>
   <string name="user_strayed_warning">The page is designed for factory test, Click back button to exit.</string>

@@ -20,6 +20,7 @@
   <string name="account_error_user_birthday">The birthday you entered is invalid</string>
   <string name="account_has_been_set">Change</string>
   <string name="account_limit_update_birthday">"Can't update birthday right now"</string>
+  <string name="account_mibi_center">Mibi center</string>
   <string name="account_mipay_info">Mi Pay</string>
   <string name="account_no_set">None</string>
   <string name="account_none">None</string>
@@ -257,7 +258,6 @@ To activate your account, follow the
   <string name="passport_input_password_hint">Enter password</string>
   <string name="passport_input_phone_hint">Enter phone number</string>
   <string name="passport_input_vcode_hint">Enter verification code</string>
-  <string name="passport_instant_login">Sign in</string>
   <string name="passport_license_host_unreachable">"Can't connect to the network. You can view this page at %s."</string>
   <string name="passport_loading">Loading…</string>
   <string name="passport_login">Sign in</string>
@@ -270,6 +270,7 @@ To activate your account, follow the
   <string name="passport_login_using_other_ways">&lt;u&gt;Other ways to sign in&lt;/u&gt;</string>
   <string name="passport_message_dialog_title">SMS with verifying codes</string>
   <string name="passport_next">Next</string>
+  <string name="passport_no">Nope</string>
   <string name="passport_notification_title">Sign in error for %1$s</string>
   <string name="passport_password_phone_login">Sign in using Mi Account</string>
   <string name="passport_password_req_notice">Password must be 8-16 characters in length and include both numbers and letters (case sensitive).</string>
@@ -285,6 +286,7 @@ To activate your account, follow the
   <string name="passport_quick_login_dialog_title">Verify password</string>
   <string name="passport_quick_login_step2_title">2-step verification</string>
   <string name="passport_quick_login_title">Enter your password</string>
+  <string name="passport_quick_register">Sign up</string>
   <string name="passport_quick_register_notice">&lt;u&gt;"Don't have a Mi Account? Create one."&lt;/u&gt;</string>
   <string name="passport_re_get_verify_code">Get code again</string>
   <string name="passport_re_register">Sign up again</string>
@@ -332,6 +334,7 @@ To activate your account, follow the
   <string name="passport_send_vcode_failed">"Couldn't send code"</string>
   <string name="passport_sending_vcode">Sending code…</string>
   <string name="passport_set">Set</string>
+  <string name="passport_set_password_no_phone_msg">为了保护你的数据安全，请先绑定您的手机</string>
   <string name="passport_setting">Setting up…</string>
   <string name="passport_skip_login">Skip</string>
   <string name="passport_skip_register">Skip sign-up</string>
@@ -366,6 +369,7 @@ To activate your account, follow the
   <string name="passport_wrong_captcha">The code you entered is incorrect</string>
   <string name="passport_wrong_phone_number_format">The format of the phone number you entered is invalid</string>
   <string name="passport_wrong_vcode">The code you entered is incorrect</string>
+  <string name="passport_yes">Yes</string>
   <string name="phone_activated">%s activated</string>
   <string name="photoPickerNotFoundText">No photos available.</string>
   <string name="push_notification_content">Get verification code</string>
