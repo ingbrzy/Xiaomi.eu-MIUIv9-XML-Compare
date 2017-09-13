@@ -2034,7 +2034,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="launch_camera">Launch camera</string>
   <string name="launch_defaults_none">No defaults set</string>
   <string name="launch_defaults_some">Some defaults set</string>
-  <string name="launch_google_search">Launch Google Search</string>
+  <string name="launch_google_search">Launch Google Assistant</string>
   <string name="launch_voice_assistant">Launch Voice assistant</string>
   <string name="launcher_auto_fill_empty_title">Fill empty cells</string>
   <string name="launcher_title">Home screen &amp; Recents</string>
@@ -3565,7 +3565,7 @@ To use screen pinning:
   <string name="search_power_optimize">Battery saver;Save battery</string>
   <string name="search_power_usage_summary_title">Battery &amp; performance;Battery and performance;Battery;performance;Battery saver;Save battery</string>
   <string name="search_pref_edge_handgrip">Edge controls</string>
-  <string name="search_pref_volume_wake_title">Wake with Volume buttons;volume buttons</string>
+  <string name="search_pref_volume_wake_title">Wake with volume buttons;volume buttons</string>
   <string name="search_preferred_network_type_title">Preferred network type;Preferred network;Network type</string>
   <string name="search_privacy_policy">Privacy Policy</string>
   <string name="search_privacy_settings">Backup &amp; reset;Backup and reset;Backup;reset;Back up</string>
