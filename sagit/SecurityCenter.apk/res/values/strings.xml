@@ -71,7 +71,7 @@
   <string name="adjust_traffic_carrier_summary_two_day_before">Updated 2 days ago</string>
   <string name="adjust_traffic_carrier_summary_yesterday">Updated yesterday at %s</string>
   <string name="adjust_traffic_data">Set data usage</string>
-  <string name="after_the_lock_screen">App is locked together with the screen</string>
+  <string name="after_the_lock_screen">Lock apps together with the screen</string>
   <string name="alarm_headsup_bottom">小米手机抢红包就是快</string>
   <string name="alarm_lock_screen_summary">一大波红包雨在路上...</string>
   <string name="alarm_lockscreen_btn">开始抢红包</string>
@@ -229,11 +229,11 @@
   <string name="applock_add_account">Add</string>
   <string name="applock_add_account_info">Add your Mi Account to be able to reset your password in case you forget it.</string>
   <string name="applock_add_account_setting">Account &amp; privacy</string>
-  <string name="applock_bind_account_title">Resetting your password</string>
+  <string name="applock_bind_account_title">Forgot password</string>
   <string name="applock_close_dialog_summary">Apps will no longer be protected and your password will be deleted after you turn off App lock.</string>
   <string name="applock_close_dialog_title">Turn off App lock?</string>
   <string name="applock_exit_account_info">Account will be removed automatically when you sign out</string>
-  <string name="applock_header_text_less_than_half">Too little space for this app. Drag the separator further.</string>
+  <string name="applock_header_text_less_than_half">Too small. Drag a bit further.</string>
   <string name="applock_login_and_add_account">Sign in &amp; add</string>
   <string name="applock_not_add_account">&lt;u&gt;Not now&lt;/u&gt;</string>
   <string name="applock_not_login_account">"You aren't signed in"</string>
@@ -658,7 +658,7 @@
   <string name="exception_titile">An error occurred</string>
   <string name="exit">Exit</string>
   <string name="finger_remind_message">Add your fingerprint first. Tap to open Settings.</string>
-  <string name="fingerprint_identify_msg">Turn on Fingerprint unlock</string>
+  <string name="fingerprint_identify_msg">Turn on fingerprint unlock</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_remind">"Don't ask again"</string>
   <string name="fingerprint_remind_dialog_title">Fingerprint unlock</string>
@@ -669,7 +669,7 @@
   <string name="firewall_activity_lable">Restrict data usage by app</string>
   <string name="firewall_allow_all">Allow all apps to connect using the following method</string>
   <string name="firewall_allow_data">Allow mobile data usage</string>
-  <string name="firewall_allow_network">Allowed</string>
+  <string name="firewall_allow_network">Allow</string>
   <string name="firewall_allow_wlan">Allow using WLAN connection</string>
   <string name="firewall_applist">Apps</string>
   <string name="firewall_fragment_nonesys_listempty">Empty</string>
@@ -732,7 +732,7 @@
   <string name="give_lucky_money">红包大派送</string>
   <string name="go_to">Proceed</string>
   <string name="go_to_setting_fingerprint">Settings</string>
-  <string name="google_base_app_install_choice">\"%s\" requires Google Service Framework apps to work normally, download and install them?</string>
+  <string name="google_base_app_install_choice">\"%s\" requires Google Services Framework to work normally, download and install it?</string>
   <string name="group_have_hongbao">来自“%1$s”%2$d个红包</string>
   <string name="gs_anto_clean_memory_whitelist">Exceptions</string>
   <string name="gs_app_back_self_start">Battery saver</string>
@@ -1907,14 +1907,14 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="tc_diagnostic_upload_success">Thank you for your feedback!</string>
   <string name="tc_sms_report_direction">SMS inquiry code</string>
   <string name="tc_sms_report_do_report">Send</string>
-  <string name="tc_sms_report_get_default">"You won't incur charges for SMS messages used to get your data usage balance from your carrier."</string>
+  <string name="tc_sms_report_get_default">"You won't incur charges for the messages used to get the data usage info from your carrier."</string>
   <string name="tc_sms_report_get_sms">Get SMS</string>
   <string name="tc_sms_report_get_sms2">Get SMS</string>
   <string name="tc_sms_report_get_sms_again">Refresh SMS</string>
   <string name="tc_sms_report_get_sms_bill">Get SMS</string>
   <string name="tc_sms_report_get_sms_calltime">Get SMS</string>
-  <string name="tc_sms_report_get_sms_failure">"Couldn't get data usage SMS format"</string>
-  <string name="tc_sms_report_get_sms_successs">Data usage SMS format updated</string>
+  <string name="tc_sms_report_get_sms_failure">"Couldn't get data usage info"</string>
+  <string name="tc_sms_report_get_sms_successs">Updated data usage info successfully</string>
   <string name="tc_sms_report_get_sms_timeout">Request timed out</string>
   <string name="tc_sms_report_get_success">"Received data usage report SMS from carrier. Make sure it's accurate and submit it to us."</string>
   <string name="tc_sms_report_get_success_notify_body">Make sure the report is accurate and submit it to MIUI.</string>
@@ -1931,7 +1931,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="tc_sms_report_receive_num">Recipient number</string>
   <string name="tc_sms_report_send_num">Carrier phone #</string>
   <string name="tc_sms_report_summary">Help us improve this feature by sending a report when your data usage info is incorrect or fails to update.</string>
-  <string name="tc_sms_report_tips_dialog_message">"Data usage uses a specially formatted SMS to get your latest data usage from your carrier. If this feature isn't working normally, try updating the data usage SMS format. The new updated format will then be uploaded to our servers."</string>
+  <string name="tc_sms_report_tips_dialog_message">"An SMS is sent to to get the latest data usage info from your carrier. If you think the info isn't correct, send us your feedback."</string>
   <string name="tc_sms_report_tips_dialog_title">Data usage SMS</string>
   <string name="tc_sms_report_title">Report data usage bug</string>
   <string name="tc_sms_report_toast_text">Getting info…</string>
@@ -1975,7 +1975,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_consume_power_rank">Battery usage</string>
   <string name="title_data_flow">Control mobile data</string>
   <string name="title_data_flow_monitor">Data usage monitor is on</string>
-  <string name="title_dev_model_off">"Developer's options are off"</string>
+  <string name="title_dev_model_off">Developer options are off</string>
   <string name="title_dev_no">Developer options on</string>
   <string name="title_dev_yes">Developer options off</string>
   <string name="title_device_not_root">"Root access wasn't granted"</string>
@@ -2042,7 +2042,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="traffic_alert_auto_modify_notification_titile">Updated data plan</string>
   <string name="traffic_alert_auto_modify_package_summary">"Automatically adjust data package according to the carrier's info"</string>
   <string name="traffic_config_alert_auto_modify">Update data plan automatically</string>
-  <string name="traffic_config_alert_body">"Your carrier's accounting shows :%s.
+  <string name="traffic_config_alert_body">"Your carrier's plan shows this: %s.
 
 Will you take this?"</string>
   <string name="traffic_config_alert_body_extra">"
@@ -2077,11 +2077,11 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="traffic_setting_fragment_button1_text">Cancel</string>
   <string name="traffic_setting_fragment_button2_text">Save</string>
   <string name="traffic_setting_fragment_city">City</string>
-  <string name="traffic_setting_fragment_default">请选择</string>
+  <string name="traffic_setting_fragment_default">Select</string>
   <string name="traffic_setting_fragment_find_brand">"&lt;font color='#33b4ff'&gt;&lt;U&gt;Not sure about the carrier?&lt;/U&gt;&lt;/font&gt;"</string>
   <string name="traffic_setting_fragment_loacation_alert_nomore">"Don't show again"</string>
   <string name="traffic_setting_fragment_operator">Carrier</string>
-  <string name="traffic_setting_fragment_operator_setting">运营商设置</string>
+  <string name="traffic_setting_fragment_operator_setting">Carrier settings</string>
   <string name="traffic_setting_fragment_province">Province</string>
   <string name="traffic_setting_fragment_send_num">Carrier phone number</string>
   <string name="traffic_setting_fragment_send_num_tips">Enter phone number</string>
@@ -2134,7 +2134,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="use_immediately">Use</string>
   <string name="user_define_title">Add rules</string>
   <string name="virus_ad_icon_text">Ad</string>
-  <string name="virus_auto_update_engine">Auto updates：%s</string>
+  <string name="virus_auto_update_engine">Auto updates: %s</string>
   <string name="virus_scan_process_pre">%</string>
   <string name="virus_update_tips_title">Connect to WLAN</string>
   <string name="virus_wait_network_dialog_message">Updates are big. Connect to WLAN to download them.</string>
@@ -2158,7 +2158,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="wifi_optizition_tip">Turn on WLAN speed boost to make WLAN connection more stable. A small amount of mobile data will be used.</string>
   <string name="wifi_optizition_title">WLAN speed boost</string>
   <string name="wl_no_whitelist">No exceptions.</string>
-  <string name="wlan_booster">WLAN optizition</string>
+  <string name="wlan_booster">WLAN optimization</string>
   <string name="wlan_change_protection_detail">"Don't switch to WLAN automatically when connected to mobile data network"</string>
   <string name="wlan_change_protection_title">Prevent switching networks</string>
   <string name="xunyou_pay_webview">Xunyou services</string>

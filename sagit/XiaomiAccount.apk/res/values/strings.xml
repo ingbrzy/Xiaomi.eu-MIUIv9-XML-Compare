@@ -125,12 +125,12 @@
   <string name="find_device_io_error">"Can't connect to the network"</string>
   <string name="find_device_locked_account_email" formatted="false">%s, associated email address: %s</string>
   <string name="find_device_locked_account_phone" formatted="false">%s, associated phone number: %s</string>
-  <string name="find_device_message">The current device is locked, message: %1$s, contact phone: %2$s.</string>
+  <string name="find_device_message">Device is locked. Message: %1$s. Call %2$s.</string>
   <string name="find_device_null_credential_error">"Can't get device info, contact Xiaomi customer service"</string>
   <string name="find_device_operation_failed_error">A server error occurred, wait a minute or two and try again</string>
   <string name="find_device_operation_failed_error_unknown">An error occurred, try again later</string>
-  <string name="find_device_owner_phone">The current device is locked, contact phone: %1$s.</string>
-  <string name="find_device_prompt_message">The current device is locked, message: %1$s.</string>
+  <string name="find_device_owner_phone">Device is locked. Call %1$s.</string>
+  <string name="find_device_prompt_message">Device is locked. Message: %1$s.</string>
   <string name="find_device_remote_exception">RPC error</string>
   <string name="find_device_request_error">A server error occurred, wait a minute or two and try again</string>
   <string name="find_device_request_prepare_error">"Can't get status, try again later"</string>
@@ -341,8 +341,8 @@ To activate your account, follow the
   <string name="passport_skip_setup_account_msg">You can set up a Mi Account later in Settings.</string>
   <string name="passport_skip_setup_account_title">Skip setup</string>
   <string name="passport_sms_send_success">Sent</string>
-  <string name="passport_sync_account_data">正在同步您的帐号数据</string>
-  <string name="passport_sync_account_data_failed_warning">您的帐号数据有延迟,将只能使用小米ID登录。若使用邮箱/手机登录,请稍等几分钟</string>
+  <string name="passport_sync_account_data">Syncing account info…</string>
+  <string name="passport_sync_account_data_failed_warning">Your account info is being synced now, you can sign in using your Mi Account ID. If you want to sign in using your phone or email, wait until the info is fully synced.</string>
   <string name="passport_title_reg">Create an account</string>
   <string name="passport_trust_device">Add this device to verified devices</string>
   <string name="passport_trying_read_verify_code_sms">Getting verification code…</string>
@@ -356,9 +356,9 @@ To activate your account, follow the
   <string name="passport_user_agreement_p2">User Agreement</string>
   <string name="passport_user_agreement_p3"> and </string>
   <string name="passport_user_agreement_p4">Privacy Policy</string>
-  <string name="passport_user_id_notice">您的小米ID是: %s</string>
+  <string name="passport_user_id_notice">Your Mi Account ID is %s.</string>
   <string name="passport_user_reg_region">Country/Region</string>
-  <string name="passport_user_reg_region_warning">"You Won't be able to change your country/region once the account is created"</string>
+  <string name="passport_user_reg_region_warning">"You won't be able to change your country/region once the account is created."</string>
   <string name="passport_vcode_notification_title">Your sign-in verification is incomplete</string>
   <string name="passport_vcode_prompt_long">Enter verification code</string>
   <string name="passport_vcode_sms_send_prompt">Send verification code to %s</string>
