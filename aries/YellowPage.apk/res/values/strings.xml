@@ -142,7 +142,7 @@ Check your tracking number."</string>
   <string name="express_install_cainiao_ok">Download</string>
   <string name="express_install_cainiao_title">Install Cainiao</string>
   <string name="express_install_delivery_service">Delivery services</string>
-  <string name="express_install_open_locker">One step to open locker</string>
+  <string name="express_install_open_locker">Open locker</string>
   <string name="express_install_order_detail">Checking order details</string>
   <string name="express_install_schedule_delivery">Scheduling delivery</string>
   <string name="express_location_failed">"Couldn't locate you. Enter your address."</string>

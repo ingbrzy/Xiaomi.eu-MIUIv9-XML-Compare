@@ -130,6 +130,7 @@
         <item>com.miui.cloudbackup</item>
         <item>com.google.android.marvin.talkback</item>
         <item>com.android.cts.app.stub</item>
+        <item>com.xiaomi.mimobile.noti</item>
         <item>com.miui.cleanmaster</item>
     </string-array>
     <string-array name="carrier_name">
