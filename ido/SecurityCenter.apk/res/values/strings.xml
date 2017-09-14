@@ -71,7 +71,7 @@
   <string name="adjust_traffic_carrier_summary_two_day_before">Updated 2 days ago</string>
   <string name="adjust_traffic_carrier_summary_yesterday">Updated yesterday at %s</string>
   <string name="adjust_traffic_data">Set data usage</string>
-  <string name="after_the_lock_screen">App is locked together with the screen</string>
+  <string name="after_the_lock_screen">Lock apps together with the screen</string>
   <string name="alarm_headsup_bottom">小米手机抢红包就是快</string>
   <string name="alarm_lock_screen_summary">一大波红包雨在路上...</string>
   <string name="alarm_lockscreen_btn">开始抢红包</string>
@@ -80,7 +80,7 @@
   <string name="anim_gamebooster_text">Just a sec…</string>
   <string name="anti_disturb_msg_detail">Turn off all notifications except for incoming calls</string>
   <string name="anti_disturb_msg_title">DND</string>
-  <string name="antispam_mode_details">details of interception mode</string>
+  <string name="antispam_mode_details">Blocklist details</string>
   <string name="antispam_notificaiton_type_show_all">All numbers</string>
   <string name="antispam_notificaiton_type_show_except_blacklist">Non-blocklist numbers</string>
   <string name="antispam_notificaiton_type_show_none">Never</string>
@@ -229,11 +229,11 @@
   <string name="applock_add_account">Add</string>
   <string name="applock_add_account_info">Add your Mi Account to be able to reset your password in case you forget it.</string>
   <string name="applock_add_account_setting">Account &amp; privacy</string>
-  <string name="applock_bind_account_title">Resetting your password</string>
+  <string name="applock_bind_account_title">Forgot password</string>
   <string name="applock_close_dialog_summary">Apps will no longer be protected and your password will be deleted after you turn off App lock.</string>
   <string name="applock_close_dialog_title">Turn off App lock?</string>
   <string name="applock_exit_account_info">Account will be removed automatically when you sign out</string>
-  <string name="applock_header_text_less_than_half">Too little space for this app. Drag the separator further.</string>
+  <string name="applock_header_text_less_than_half">Too small. Drag a bit further.</string>
   <string name="applock_login_and_add_account">Sign in &amp; add</string>
   <string name="applock_not_add_account">&lt;u&gt;Not now&lt;/u&gt;</string>
   <string name="applock_not_login_account">"You aren't signed in"</string>
@@ -584,15 +584,15 @@
   <string name="dialog_title_stop_virus_scan">Stop security scan</string>
   <string name="disable_air_mode">Turn Airplane mode off first</string>
   <string name="dlg_add_blacklist">Block this number?</string>
-  <string name="dlg_add_blacklist_title">Add to blacklist</string>
+  <string name="dlg_add_blacklist_title">Add to blocklist</string>
   <string name="dlg_add_keyword">Add keywords</string>
   <string name="dlg_antispam_mode_delete_message">"You can't recover rules after they've been deleted."</string>
   <string name="dlg_antispam_mode_delete_title">Delete rules?</string>
   <string name="dlg_antispam_using_mode_delete_message">"Delete the rules you're currently using and switch back to blocklist's default rules?"</string>
   <string name="dlg_antispam_using_mode_international_delete_message">"Delete the rules you're currently using and switch back to blocklist's default rules?"</string>
-  <string name="dlg_black_address_antispam_message">Add this location to blacklist?</string>
-  <string name="dlg_black_antispam_hint">Blacklist</string>
-  <string name="dlg_black_antispam_message">Add this number to blacklist?</string>
+  <string name="dlg_black_address_antispam_message">Add this location to blocklist?</string>
+  <string name="dlg_black_antispam_hint">Blocklist</string>
+  <string name="dlg_black_antispam_message">Add this number to blocklist?</string>
   <string name="dlg_clear_all_call">Clear blocked calls?</string>
   <string name="dlg_clear_all_ok">Clear all</string>
   <string name="dlg_clear_all_sms">Delete blocked messages?</string>
@@ -607,9 +607,9 @@
   <string name="dlg_message_not_open_stranger_identify">To turn this feature on, go to Settings &gt; Phone.</string>
   <string name="dlg_no_block">Unblock this number and restore calls from this number to call history?</string>
   <string name="dlg_no_block_ok">Unblock</string>
-  <string name="dlg_remove_address_blacklist">Remove this location from blacklist?</string>
+  <string name="dlg_remove_address_blacklist">Remove this location from blocklist?</string>
   <string name="dlg_remove_address_whitelist">Remove this location from exceptions?</string>
-  <string name="dlg_remove_blacklist">Remove these numbers from blacklist?</string>
+  <string name="dlg_remove_blacklist">Remove these numbers from blocklist?</string>
   <string name="dlg_remove_blacklist_ing">Removing…</string>
   <string name="dlg_remove_blacklist_title">Remove</string>
   <string name="dlg_remove_ok">Remove</string>
@@ -658,7 +658,7 @@
   <string name="exception_titile">An error occurred</string>
   <string name="exit">Exit</string>
   <string name="finger_remind_message">Add your fingerprint first. Tap to open Settings.</string>
-  <string name="fingerprint_identify_msg">Turn on Fingerprint unlock</string>
+  <string name="fingerprint_identify_msg">Turn on fingerprint unlock</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_remind">"Don't ask again"</string>
   <string name="fingerprint_remind_dialog_title">Fingerprint unlock</string>
@@ -669,7 +669,7 @@
   <string name="firewall_activity_lable">Restrict data usage by app</string>
   <string name="firewall_allow_all">Allow all apps to connect using the following method</string>
   <string name="firewall_allow_data">Allow mobile data usage</string>
-  <string name="firewall_allow_network">Allowed</string>
+  <string name="firewall_allow_network">Allow</string>
   <string name="firewall_allow_wlan">Allow using WLAN connection</string>
   <string name="firewall_applist">Apps</string>
   <string name="firewall_fragment_nonesys_listempty">Empty</string>
@@ -732,7 +732,7 @@
   <string name="give_lucky_money">红包大派送</string>
   <string name="go_to">Proceed</string>
   <string name="go_to_setting_fingerprint">Settings</string>
-  <string name="google_base_app_install_choice">\"%s\" requires Google Service Framework apps to work normally, download and install them?</string>
+  <string name="google_base_app_install_choice">\"%s\" requires Google Services Framework to work normally, download and install it?</string>
   <string name="group_have_hongbao">来自“%1$s”%2$d个红包</string>
   <string name="gs_anto_clean_memory_whitelist">Exceptions</string>
   <string name="gs_app_back_self_start">Battery saver</string>
@@ -788,7 +788,7 @@
   <string name="i_know">Got it</string>
   <string name="im">IM</string>
   <string name="info_and_call">Calls and messaging</string>
-  <string name="info_antispam_close">AntiSpam Off</string>
+  <string name="info_antispam_close">Blocklist is off</string>
   <string name="info_antispam_current_mode">%s</string>
   <string name="info_antispam_phone">Block calls</string>
   <string name="info_antispam_phone_sms">Block calls and SMS</string>
@@ -1775,7 +1775,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_summary_whitelist_numbers">Allow calls and messages from specific numbers and areas</string>
   <string name="st_summary_whitelist_numbers_international">Allow calls and messages from specific numbers</string>
   <string name="st_tab_title">%1$s (SIM %2$d)</string>
-  <string name="st_title_addblacklist">Add to blacklist</string>
+  <string name="st_title_addblacklist">Add to blocklist</string>
   <string name="st_title_addwhitelist">Add to exceptions</string>
   <string name="st_title_adress">Add locations</string>
   <string name="st_title_adress_num">%d selected</string>
@@ -1790,14 +1790,14 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_title_blacklist_numbers">Blocked numbers</string>
   <string name="st_title_call_wait">Call waiting notification</string>
   <string name="st_title_call_wait_setting">Call waiting</string>
-  <string name="st_title_editblacklist">Edit blacklist</string>
+  <string name="st_title_editblacklist">Edit blocklist</string>
   <string name="st_title_editwhitelist">Edit exceptions</string>
   <string name="st_title_keywords_blacklist">Keyword filter</string>
-  <string name="st_title_man_addblacklist">Add number to blacklist</string>
+  <string name="st_title_man_addblacklist">Add number to blocklist</string>
   <string name="st_title_man_addwhitelist">Add phone number to exceptions</string>
-  <string name="st_title_man_editblacklist">Choose an area code to add to blacklist</string>
+  <string name="st_title_man_editblacklist">Choose an area code to add to blocklist</string>
   <string name="st_title_man_editwhitelist">Choose an area code to add to exceptions</string>
-  <string name="st_title_man_head_addblacklist">Add phone number prefix to blacklist</string>
+  <string name="st_title_man_head_addblacklist">Add phone number prefix to blocklist</string>
   <string name="st_title_man_head_addwhitelist">Add phone number prefix to exceptions</string>
   <string name="st_title_markednumber_group">Block reported numbers</string>
   <string name="st_title_mode_choose_group">Blocklist rules</string>
@@ -1859,13 +1859,13 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sys_title_gamebooster_unit_mb">M</string>
   <string name="system_app">System apps</string>
   <string name="system_application">System apps</string>
-  <string name="tab_blacklist">Blacklist</string>
+  <string name="tab_blacklist">Blocklist</string>
   <string name="tab_block_log_unKnowNumber">Private number</string>
   <string name="tab_call">Calls</string>
   <string name="tab_gift">Gifts</string>
   <string name="tab_guide">Guide</string>
   <string name="tab_sms">SMS</string>
-  <string name="tab_title">Blacklist</string>
+  <string name="tab_title">Blocklist</string>
   <string name="tc_diagnostic_all_error_notification_summary">Tap to report an issue</string>
   <string name="tc_diagnostic_all_error_notification_title">"Couldn't complete diagnostics"</string>
   <string name="tc_diagnostic_brand_error_notification_summary">Tap to adjust network type</string>
@@ -1907,14 +1907,14 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="tc_diagnostic_upload_success">Thank you for your feedback!</string>
   <string name="tc_sms_report_direction">SMS inquiry code</string>
   <string name="tc_sms_report_do_report">Send</string>
-  <string name="tc_sms_report_get_default">"You won't incur charges for SMS messages used to get your data usage balance from your carrier."</string>
+  <string name="tc_sms_report_get_default">"You won't incur charges for the messages used to get the data usage info from your carrier."</string>
   <string name="tc_sms_report_get_sms">Get SMS</string>
   <string name="tc_sms_report_get_sms2">Get SMS</string>
   <string name="tc_sms_report_get_sms_again">Refresh SMS</string>
   <string name="tc_sms_report_get_sms_bill">Get SMS</string>
   <string name="tc_sms_report_get_sms_calltime">Get SMS</string>
-  <string name="tc_sms_report_get_sms_failure">"Couldn't get data usage SMS format"</string>
-  <string name="tc_sms_report_get_sms_successs">Data usage SMS format updated</string>
+  <string name="tc_sms_report_get_sms_failure">"Couldn't get data usage info"</string>
+  <string name="tc_sms_report_get_sms_successs">Updated data usage info successfully</string>
   <string name="tc_sms_report_get_sms_timeout">Request timed out</string>
   <string name="tc_sms_report_get_success">"Received data usage report SMS from carrier. Make sure it's accurate and submit it to us."</string>
   <string name="tc_sms_report_get_success_notify_body">Make sure the report is accurate and submit it to MIUI.</string>
@@ -1931,7 +1931,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="tc_sms_report_receive_num">Recipient number</string>
   <string name="tc_sms_report_send_num">Carrier phone #</string>
   <string name="tc_sms_report_summary">Help us improve this feature by sending a report when your data usage info is incorrect or fails to update.</string>
-  <string name="tc_sms_report_tips_dialog_message">"Data usage uses a specially formatted SMS to get your latest data usage from your carrier. If this feature isn't working normally, try updating the data usage SMS format. The new updated format will then be uploaded to our servers."</string>
+  <string name="tc_sms_report_tips_dialog_message">"An SMS is sent to to get the latest data usage info from your carrier. If you think the info isn't correct, send us your feedback."</string>
   <string name="tc_sms_report_tips_dialog_title">Data usage SMS</string>
   <string name="tc_sms_report_title">Report data usage bug</string>
   <string name="tc_sms_report_toast_text">Getting info…</string>
@@ -1975,7 +1975,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_consume_power_rank">Battery usage</string>
   <string name="title_data_flow">Control mobile data</string>
   <string name="title_data_flow_monitor">Data usage monitor is on</string>
-  <string name="title_dev_model_off">"Developer's options are off"</string>
+  <string name="title_dev_model_off">Developer options are off</string>
   <string name="title_dev_no">Developer options on</string>
   <string name="title_dev_yes">Developer options off</string>
   <string name="title_device_not_root">"Root access wasn't granted"</string>
@@ -2042,7 +2042,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="traffic_alert_auto_modify_notification_titile">Updated data plan</string>
   <string name="traffic_alert_auto_modify_package_summary">"Automatically adjust data package according to the carrier's info"</string>
   <string name="traffic_config_alert_auto_modify">Update data plan automatically</string>
-  <string name="traffic_config_alert_body">"Your carrier's accounting shows :%s.
+  <string name="traffic_config_alert_body">"Your carrier's plan shows this: %s.
 
 Will you take this?"</string>
   <string name="traffic_config_alert_body_extra">"
@@ -2077,11 +2077,11 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="traffic_setting_fragment_button1_text">Cancel</string>
   <string name="traffic_setting_fragment_button2_text">Save</string>
   <string name="traffic_setting_fragment_city">City</string>
-  <string name="traffic_setting_fragment_default">请选择</string>
+  <string name="traffic_setting_fragment_default">Select</string>
   <string name="traffic_setting_fragment_find_brand">"&lt;font color='#33b4ff'&gt;&lt;U&gt;Not sure about the carrier?&lt;/U&gt;&lt;/font&gt;"</string>
   <string name="traffic_setting_fragment_loacation_alert_nomore">"Don't show again"</string>
   <string name="traffic_setting_fragment_operator">Carrier</string>
-  <string name="traffic_setting_fragment_operator_setting">运营商设置</string>
+  <string name="traffic_setting_fragment_operator_setting">Carrier settings</string>
   <string name="traffic_setting_fragment_province">Province</string>
   <string name="traffic_setting_fragment_send_num">Carrier phone number</string>
   <string name="traffic_setting_fragment_send_num_tips">Enter phone number</string>
@@ -2134,7 +2134,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="use_immediately">Use</string>
   <string name="user_define_title">Add rules</string>
   <string name="virus_ad_icon_text">Ad</string>
-  <string name="virus_auto_update_engine">Auto updates：%s</string>
+  <string name="virus_auto_update_engine">Auto updates: %s</string>
   <string name="virus_scan_process_pre">%</string>
   <string name="virus_update_tips_title">Connect to WLAN</string>
   <string name="virus_wait_network_dialog_message">Updates are big. Connect to WLAN to download them.</string>
@@ -2158,7 +2158,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="wifi_optizition_tip">Turn on WLAN speed boost to make WLAN connection more stable. A small amount of mobile data will be used.</string>
   <string name="wifi_optizition_title">WLAN speed boost</string>
   <string name="wl_no_whitelist">No exceptions.</string>
-  <string name="wlan_booster">WLAN optizition</string>
+  <string name="wlan_booster">WLAN optimization</string>
   <string name="wlan_change_protection_detail">"Don't switch to WLAN automatically when connected to mobile data network"</string>
   <string name="wlan_change_protection_title">Prevent switching networks</string>
   <string name="xunyou_pay_webview">Xunyou services</string>
