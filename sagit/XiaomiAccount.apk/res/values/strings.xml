@@ -20,7 +20,7 @@
   <string name="account_error_user_birthday">The birthday you entered is invalid</string>
   <string name="account_has_been_set">Change</string>
   <string name="account_limit_update_birthday">"Can't update birthday right now"</string>
-  <string name="account_mibi_center">Mibi center</string>
+  <string name="account_mibi_center">Mi Credits</string>
   <string name="account_mipay_info">Mi Pay</string>
   <string name="account_no_set">None</string>
   <string name="account_none">None</string>
@@ -66,7 +66,7 @@
   <string name="authorize_title">Authorization</string>
   <string name="bind_facebook">Connect your Facebook Account</string>
   <string name="bind_qq">QQ</string>
-  <string name="bind_safe_phone_msg">Add safe phone for next sign in</string>
+  <string name="bind_safe_phone_msg">Add your phone number to be able to sign in to your Mi Account next time.</string>
   <string name="bind_settings">Accounts</string>
   <string name="bind_sina_weibo">Connect Sina Weibo Account</string>
   <string name="bind_sns_description">Sign in with %s</string>
@@ -89,7 +89,7 @@
   <string name="confirm_phone_number_dialog_message">Verification code will be sent to %s.</string>
   <string name="confirm_phone_number_dialog_title">Confirm phone number</string>
   <string name="confirm_unbind">Disconnect this account?</string>
-  <string name="confirm_unbundled_phone_dialog_message">The phone number %1$s is associated with %2$s Mi Account. It will no longer be associated with Mi Account %3$s if you continue. Continue?</string>
+  <string name="confirm_unbundled_phone_dialog_message">The phone number %1$s is associated with Mi Account %2$s. It will no longer be associated with Mi Account %3$s if you continue. Continue?</string>
   <string name="continue_action">Continue</string>
   <string name="current_location_title">Current location</string>
   <string name="delete_action">Delete</string>
@@ -154,7 +154,7 @@
   <string name="logout_account">Sign out</string>
   <string name="logout_failed">"Can't sign out"</string>
   <string name="mi_account_identity_title">Verify your identity</string>
-  <string name="mi_vip_info">查看我的特权</string>
+  <string name="mi_vip_info">View privileges</string>
   <string name="mipay">Pay</string>
   <string name="mipay_balance">Balance</string>
   <string name="mipay_bank_card">Bank card</string>
@@ -210,6 +210,8 @@ To activate your account, follow the
  link we've sent to your inbox."</string>
   <string name="passport_completed">Finish</string>
   <string name="passport_confirm_recycle_account">Yes</string>
+  <string name="passport_confirm_recycle_account_msg">%s &lt;font color=Red&gt;疑似&lt;/font&gt;是运营商回收后再次收买的号码，该号码下已有小米帐号，这个帐号是你的吗？</string>
+  <string name="passport_continue">Continue</string>
   <string name="passport_copy_message_text_success">Copied successfully</string>
   <string name="passport_copy_message_vcode">Copy code</string>
   <string name="passport_delete_account">Sign out</string>
@@ -266,11 +268,13 @@ To activate your account, follow the
   <string name="passport_login_instead_reg_with_email">Use this email</string>
   <string name="passport_login_other_account">Another account</string>
   <string name="passport_login_prompt">One Mi Account. All Mi services.</string>
+  <string name="passport_login_recycle_account_no">Nope</string>
+  <string name="passport_login_recycle_account_yes">Yes</string>
   <string name="passport_login_title">Sign in to your Mi Account</string>
   <string name="passport_login_using_other_ways">&lt;u&gt;Other ways to sign in&lt;/u&gt;</string>
   <string name="passport_message_dialog_title">SMS with verifying codes</string>
   <string name="passport_next">Next</string>
-  <string name="passport_no">Nope</string>
+  <string name="passport_no">No</string>
   <string name="passport_notification_title">Sign in error for %1$s</string>
   <string name="passport_password_phone_login">Sign in using Mi Account</string>
   <string name="passport_password_req_notice">Password must be 8-16 characters in length and include both numbers and letters (case sensitive).</string>
@@ -296,6 +300,8 @@ To activate your account, follow the
   <string name="passport_reg_failed">"Can't set up account"</string>
   <string name="passport_reg_new_account">Create account</string>
   <string name="passport_reg_prompt">"Don't have a Mi Account? Create one for free."</string>
+  <string name="passport_reg_recycle_account_no">Nope</string>
+  <string name="passport_reg_recycle_account_yes">Yes</string>
   <string name="passport_reg_success">Account created</string>
   <string name="passport_reg_success_summary">%1$s has been bound with your account. You can use it to sign in or to reset your password.</string>
   <string name="passport_reg_type_email">Use email address</string>
@@ -334,7 +340,7 @@ To activate your account, follow the
   <string name="passport_send_vcode_failed">"Couldn't send code"</string>
   <string name="passport_sending_vcode">Sending code…</string>
   <string name="passport_set">Set</string>
-  <string name="passport_set_password_no_phone_msg">为了保护你的数据安全，请先绑定您的手机</string>
+  <string name="passport_set_password_no_phone_msg">Add your phone number to protect your account.</string>
   <string name="passport_setting">Setting up…</string>
   <string name="passport_skip_login">Skip</string>
   <string name="passport_skip_register">Skip sign-up</string>
@@ -431,6 +437,6 @@ To activate your account, follow the
   <string name="verify_phone_prompt">Select phone number to verify</string>
   <string name="verify_phone_title">Verify phone number</string>
   <string name="vip_account_settings">VIP Settings</string>
-  <string name="vip_settings_info">我的数据中心</string>
+  <string name="vip_settings_info">VIP settings</string>
   <string name="xiao_mi_vip">Mi VIP</string>
 </resources>
