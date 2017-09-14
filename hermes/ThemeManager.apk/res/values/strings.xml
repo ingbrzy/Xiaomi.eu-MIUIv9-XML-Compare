@@ -130,8 +130,8 @@
   <string name="my_gifts_received">Received</string>
   <string name="no_data">"Can't connect to the network"</string>
   <string name="online_no_network">"Can't connect to the network"</string>
-  <string name="online_precust_dreams">Dreams</string>
-  <string name="online_precust_midnight">Midnight</string>
+  <string name="online_precust_asphalt">Asphalt</string>
+  <string name="online_precust_peach_blossom">Peach blossom</string>
   <string name="online_search_hint">Search for online resources</string>
   <string name="present_local_themes">My resources</string>
   <string name="present_online_themes">Get more themes for free</string>

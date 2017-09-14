@@ -8,7 +8,7 @@
   <string name="account_cache_provider">Account Cache Provider</string>
   <string name="account_duplicate_dlg_message_fmt">"You're already using this username for the account \"%s\"."</string>
   <string name="account_duplicate_dlg_title">Duplicate account</string>
-  <string name="account_failure">Account failure</string>
+  <string name="account_failure">Session expired</string>
   <string name="account_manager_type_exchange">com.android.exchange</string>
   <string name="account_manager_type_imap">com.android.email</string>
   <string name="account_manager_type_legacy_imap">com.android.email</string>
@@ -78,6 +78,7 @@
   <string name="account_setup_autodiscover_dlg_authfail_message">Confirm username, password, and account settings are correct.</string>
   <string name="account_setup_autodiscover_dlg_authfail_title">"Couldn't set up account"</string>
   <string name="account_setup_basics_email_label">Email address</string>
+  <string name="account_setup_basics_login_gmail_without_proxy">Use the current network connection</string>
   <string name="account_setup_basics_manual_setup_action">Manual setup</string>
   <string name="account_setup_basics_password_label">Password</string>
   <string name="account_setup_basics_title">Add account</string>
@@ -231,7 +232,7 @@
   <string name="auto_remind_text">Automatic reminders</string>
   <string name="auto_remind_unbind">Stop</string>
   <string name="auto_sync_off">Auto-sync is off.</string>
-  <string name="automatic_remind_text">remind</string>
+  <string name="automatic_remind_text">Remind automatically</string>
   <string name="bank_card_detail">Credit card details</string>
   <string name="bank_card_list_card_num_fmt">****%s</string>
   <string name="battery_saver">Battery saver</string>
@@ -257,7 +258,7 @@
   <string name="calendar_remind_gridview_pick_date">Pick date</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_action">Cancel</string>
-  <string name="cancel_pop3_attchemt_downloading">Cancellation of any attachment being downloaded is not available to a POP3 type of account.</string>
+  <string name="cancel_pop3_attchemt_downloading">"Can't cancel ongoing downloads for attachments in POP3 accounts"</string>
   <string name="cant_move_or_change_labels">"Can't move items from multiple accounts."</string>
   <string name="cc">Cc</string>
   <string name="cc_attribution">Cc: %1$s&lt;br&gt;</string>
@@ -266,7 +267,7 @@
   <string name="change_folders_selection_dialog_title">Change folders</string>
   <string name="change_sync_settings">Change sync settings</string>
   <string name="changepw_dialog_tips">Re-enter password for %s</string>
-  <string name="changepw_dialog_tips_please_clikc_btn">Please check for %s verification code and login again</string>
+  <string name="changepw_dialog_tips_please_clikc_btn">View the verification code on %s and sign in again.</string>
   <string name="chat_item_msg_people_unit">people</string>
   <string name="chat_item_msg_user_etc">etc.</string>
   <string name="check_setup_data">"    Validating server settings…"</string>
@@ -365,6 +366,7 @@
   <string name="default_pop3">POP3</string>
   <string name="default_setup">DEFAULT SETTINGS</string>
   <string name="default_signature">Sent from my Mi phone</string>
+  <string name="default_signature_2">Sent from my %s</string>
   <string name="del_account_questionnair_hint">"Could you tell us why you're removing this account?"</string>
   <string name="delete">Delete</string>
   <string name="delete_message_flow">Delete message flow</string>
@@ -745,8 +747,13 @@ Try a different inbox."</string>
   <string name="oauth_gmail_login_notify">Enter your Google Account username and password on the following sign-in page.</string>
   <string name="oauth_login_continue">Continue</string>
   <string name="oauth_login_continue_qq">Get a passcode and sign in &gt;</string>
+  <string name="oauth_login_usr_proxy">Proxy login</string>
   <string name="ok">OK</string>
   <string name="okay_action">OK</string>
+  <string name="open_calendar_and_contacts_permission">Please activate calendar and contacts permission in System Settings</string>
+  <string name="open_external_storage_and_calendar_permission">Please activate external storage and calendar permission in System Settings</string>
+  <string name="open_external_storage_and_contacts_and_calendar_permission">Please activate external storage,calendar,contacts permission in System Settings</string>
+  <string name="open_external_storage_and_contacts_permission">Please activate external storage and contacts permission in System Settings</string>
   <string name="outbox_alert_button_no_resend">"Don't send"</string>
   <string name="outbox_alert_button_resend">Resend</string>
   <string name="outbox_alert_certificate_error">"Contact your email system's administrator and update your certificate."</string>
@@ -1071,6 +1078,10 @@ to receive reminders about payments and trips"</string>
   <string name="subject_and_snippet" formatted="false">%s — %s</string>
   <string name="subject_hint">Subject</string>
   <string name="suggestions_authority">com.android.mail.providers.SuggestionsProvider</string>
+  <string name="sync_contacts_fail_per_content">Apply for contact permissions, please click to apply</string>
+  <string name="sync_contacts_fail_per_title">Synchronous contact failed</string>
+  <string name="sync_contacts_fail_permission">Synchronous contact failed, access to mobile phone contacts is not enabled, please open in the phone settings - rights management</string>
+  <string name="sync_contacts_req_per_ignored">Phone contact is not open and can not sync contacts</string>
   <string name="sync_error">"Couldn't sync."</string>
   <string name="sync_error_message">"Your device doesn't have enough storage space to sync."</string>
   <string name="syncing_wait_restart">Click Retry</string>
@@ -1092,7 +1103,7 @@ to receive reminders about payments and trips"</string>
   <string name="to_heading">"To: "</string>
   <string name="toast_bar_fail_synchronization">"Can't connect to the network"</string>
   <string name="toast_bar_insufficient_memory_space">Not enough storage space</string>
-  <string name="toast_bar_invalid_account">You need to sign in again</string>
+  <string name="toast_bar_invalid_account">Session expired, sign in again.</string>
   <string name="toast_bar_no_connection_network">"You don't have an internet connection"</string>
   <string name="toast_bar_open_gmail_synchronization">Tap to use proxy server for Gmail</string>
   <string name="today_text">Today</string>
@@ -1119,8 +1130,8 @@ to receive reminders about payments and trips"</string>
     between the web, your other devices, and your %1$s."</string>
   <string name="turn_auto_sync_on_dialog_confirm_btn">Turn on</string>
   <string name="turn_auto_sync_on_dialog_title">Turn auto-sync on?</string>
-  <string name="unbind_dialog_text">"You won't be able to receive reminders after you stop analyzing.
-Stop now?"</string>
+  <string name="unbind_dialog_text">"The Mail app will no longer analyze your emails after that.
+Remove account?"</string>
   <string name="undo">Undo</string>
   <string name="unknow">Unknown</string>
   <string name="unread_string">conversation unread</string>
