@@ -229,6 +229,7 @@
   <string name="satellite_id">Stallite ID:</string>
   <string name="satellite_num">Number of Stallite:</string>
   <string name="satellite_signal">Stallite signals:</string>
+  <string name="secureboot">secureboot:</string>
   <string name="see_report">Report view</string>
   <string name="sensor_testting">G-sensor Test</string>
   <string name="sim1_is_not_ready">SIM1 Not Ready</string>
