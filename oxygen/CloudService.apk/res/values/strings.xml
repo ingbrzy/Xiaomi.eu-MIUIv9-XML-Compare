@@ -497,12 +497,13 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="sub_sync_item_sms_title_wifi_only">Only use WLAN to sync MMS</string>
   <string name="success_upgraded_space">%s added</string>
   <string name="sync_dspt">Sync</string>
-  <string name="sync_dspt_entrance_provision">"Sync your photos, contacts, call history, and messages across all your devices. Access the things you sync from any browser at %s. "</string>
+  <string name="sync_dspt_entrance_provision">"MiCloud help you to sync photos,contacts and more across devices.You can access the things you sync from any browser at %s. "</string>
   <string name="sync_dspt_entrance_provision_2">Learn more</string>
   <string name="sync_dspt_entrance_provision_confirm_close">"Don't use"</string>
   <string name="sync_dspt_entrance_provision_confirm_content">"MIUI's built-in apps need Mi Cloud to back up your photos, contacts, notes, and more. Mi Cloud is free and ready to use out of the box."</string>
   <string name="sync_dspt_entrance_provision_confirm_open">Use Mi Cloud</string>
   <string name="sync_dspt_entrance_provision_confirm_title">"Don't use Mi Cloud?"</string>
+  <string name="sync_dspt_entrance_provision_network">This app needs to connect to the internet to work normally.Sync data may be connected to the data network and open WLAN.</string>
   <string name="sync_dspt_entrance_provision_skip">Skip this step</string>
   <string name="sync_dspt_provision">"Sync your photos, contacts, notes, and more across all your devices or access them at "</string>
   <string name="sync_dspt_provision2">i.mi.com</string>
