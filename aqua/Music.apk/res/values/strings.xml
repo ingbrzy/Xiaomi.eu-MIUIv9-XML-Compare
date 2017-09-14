@@ -556,6 +556,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="no_scanned_songs">Empty</string>
   <string name="no_song">No songs</string>
   <string name="no_song_downloaded">"Couldn't connect to server"</string>
+  <string name="no_system_cropper_find">"System doesn't have cropper for image"</string>
   <string name="normal_quality">Good</string>
   <string name="not_login">Not signed in</string>
   <string name="not_selected">Choose a song</string>
