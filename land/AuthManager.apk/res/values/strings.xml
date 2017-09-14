@@ -97,6 +97,7 @@
   <string name="permission_group_title_privacy_related">Privacy</string>
   <string name="permission_group_title_settings_related">Settings</string>
   <string name="permission_warning_template">Allow %1$s to %2$s ?</string>
+  <string name="permission_warning_template_ask">Allow %1$s the following permissions？</string>
   <string name="permisson_reject_notice_toast_text2">"doesn't have permission to %1$s."</string>
   <string name="screen_overlay_button">Open settings</string>
   <string name="screen_overlay_message">To change this permission setting, you first have to turn off the screen overlay from Settings &gt; Apps</string>

@@ -109,7 +109,7 @@ Enter Second space from Lock screen"</string>
   <string name="guide_start_ads_text">A completely new level of security</string>
   <string name="guide_start_text">Two spaces. One device.</string>
   <string name="has_created_second_space">"You can open Second space now.
-One device. Two spaces."</string>
+Two spaces. One device."</string>
   <string name="hidden_app">Second space</string>
   <string name="imageData">Photos</string>
   <string name="import_application">Import apps</string>
@@ -293,12 +293,12 @@ to enter Second space from Lock screen"</string>
   <string name="tryNow">Try now</string>
   <string name="wating">Just a sec…</string>
   <string name="xpsace_guide_button">Create</string>
-  <string name="xspace_account">双开帐号</string>
+  <string name="xspace_account">Dual app accounts</string>
   <string name="xspace_chocie">Dual app support</string>
   <string name="xspace_creating">Creating dual app…</string>
-  <string name="xspace_description">"双开应用将在桌面生成一个全新的应用副本，两者可同时运行互不影响。
+  <string name="xspace_description">"Dual apps are app copies which can be used separately with a different account.
 
-部分应用需要谷歌服务框架支持，双开这部分应用时会同步双开谷歌服务以保障体验。"</string>
+Some dual apps require Google Services Framework support. In such cases, dual Google Services Framework is created."</string>
   <string name="xspace_guide_des">Use 2 accounts without switching</string>
   <string name="xspace_guide_title">Create Dual app for %s</string>
   <string name="xspace_header">Dual apps</string>
@@ -308,7 +308,7 @@ to enter Second space from Lock screen"</string>
   <string name="xspace_introduce">Recommended</string>
   <string name="xspace_label">Dual apps</string>
   <string name="xspace_loading_msg">Loading apps…</string>
-  <string name="xspace_setting_label">双开设置</string>
+  <string name="xspace_setting_label">Dual app settings</string>
   <string name="xspace_uninstall_completed">Dual app uninstalled successfully</string>
   <string name="xspace_uninstall_dialog_content">Uninstalling dual app will remove all app data.</string>
   <string name="xspace_uninstall_dialog_title">Uninstall dual app</string>
