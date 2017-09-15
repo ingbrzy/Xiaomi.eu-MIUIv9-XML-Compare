@@ -54,50 +54,6 @@
         <item>@string/pref_video_focusmode_entryvalue_auto</item>
         <item>@string/pref_video_focusmode_entryvalue_continuous</item>
     </string-array>
-    <string-array name="pref_camera_picturesize_entries">
-        <item>@string/pref_camera_picturesize_entry_4208x3120</item>
-        <item>@string/pref_camera_picturesize_entry_4208x2368</item>
-        <item>@string/pref_camera_picturesize_entry_3264x2448</item>
-        <item>@string/pref_camera_picturesize_entry_3200x2400</item>
-        <item>@string/pref_camera_picturesize_entry_3328x1872</item>
-        <item>@string/pref_camera_picturesize_entry_3200x1800</item>
-        <item>@string/pref_camera_picturesize_entry_3264x1840</item>
-        <item>@string/pref_camera_picturesize_entry_3264x1836</item>
-        <item>@string/pref_camera_picturesize_entry_2592x1944</item>
-        <item>@string/pref_camera_picturesize_entry_2048x1536</item>
-        <item>@string/pref_camera_picturesize_entry_1920x1088</item>
-        <item>@string/pref_camera_picturesize_entry_1920x1080</item>
-        <item>@string/pref_camera_picturesize_entry_1600x1200</item>
-        <item>@string/pref_camera_picturesize_entry_1440x1080</item>
-        <item>@string/pref_camera_picturesize_entry_1472x1104</item>
-        <item>@string/pref_camera_picturesize_entry_1280x960</item>
-        <item>@string/pref_camera_picturesize_entry_1472x832</item>
-        <item>@string/pref_camera_picturesize_entry_1440x816</item>
-        <item>@string/pref_camera_picturesize_entry_1280x720</item>
-        <item>@string/pref_camera_picturesize_entry_1024x768</item>
-    </string-array>
-    <string-array name="pref_camera_picturesize_entryvalues">
-        <item>4208x3120</item>
-        <item>4208x2368</item>
-        <item>3264x2448</item>
-        <item>3200x2400</item>
-        <item>3328x1872</item>
-        <item>3200x1800</item>
-        <item>3264x1840</item>
-        <item>3264x1836</item>
-        <item>2592x1944</item>
-        <item>2048x1536</item>
-        <item>1920x1088</item>
-        <item>1920x1080</item>
-        <item>1600x1200</item>
-        <item>1440x1080</item>
-        <item>1472x1104</item>
-        <item>1280x960</item>
-        <item>1472x832</item>
-        <item>1440x816</item>
-        <item>1280x720</item>
-        <item>1024x768</item>
-    </string-array>
     <string-array name="pref_camera_picture_format_entries">
         <item>@string/pref_camera_picture_format_entry_jpeg</item>
         <item>@string/pref_camera_picture_format_entry_raw</item>
