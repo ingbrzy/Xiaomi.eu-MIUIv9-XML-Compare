@@ -114,6 +114,7 @@
         <item>ko_KR</item>
         <item>zh_CN</item>
         <item>zh_TW</item>
+        <item>zh_HK</item>
         <item>ja_JP</item>
     </string-array>
     <string-array name="organized_languages_default">
@@ -276,7 +277,6 @@
         <item>com.qqgame.mic</item>
         <item>com.cmcm.arrowio_cn.mi</item>
         <item>com.tencent.tmgp.tstl</item>
-        <item>com.xm.ddz.xiaomi.mi</item>
         <item>com.nianticlabs.pokemongo</item>
         <item>com.cnvcs.junqi</item>
         <item>com.supercell.hayday</item>
@@ -449,10 +449,8 @@
         <item>com.dianping.v1</item>
         <item>com.tencent.token</item>
         <item>com.sina.news</item>
-        <item>com.suning.mobile.ebuy</item>
         <item>ctrip.android.view</item>
         <item>com.tencent.qqpim</item>
-        <item>com.kingpoint.gmcchh</item>
         <item>com.yixia.videoeditor</item>
         <item>com.meitu.meipaimv</item>
         <item>com.campmobile.snowcamera</item>
@@ -465,8 +463,6 @@
         <item>com.nuomi</item>
         <item>com.sohu.newsclient</item>
         <item>com.youloft.calendar</item>
-        <item>com.chinamworld.main</item>
-        <item>com.icbc</item>
         <item>cmb.pb</item>
         <item>com.chinamworld.bocmbci</item>
         <item>com.mybank.android.phone</item>
@@ -478,7 +474,6 @@
         <item>com.rytong.bankps</item>
         <item>com.pingan.pabank.activity</item>
         <item>com.rytong.app.bankhx</item>
-        <item>com.icbc.im</item>
         <item>com.eastmoney.android.berlin</item>
         <item>com.jd.jrapp</item>
         <item>com.android.dazhihui</item>
@@ -507,9 +502,7 @@
         <item>com.gotokeep.keep</item>
         <item>com.ophone.reader.ui</item>
         <item>com.c2vl.kgamebox</item>
-        <item>com.meitu.meipaimv</item>
         <item>com.cib.cibmb</item>
-        <item>com.qihoo.browser</item>
         <item>com.tencent.qgame</item>
         <item>com.yixia.xiaokaxiu</item>
         <item>com.budejie.www</item>
@@ -518,7 +511,6 @@
         <item>com.alibaba.wireless</item>
         <item>com.ijinshan.kbatterydoctor</item>
         <item>com.tianqi2345</item>
-        <item>cn.jj</item>
         <item>com.wandoujia.phoenix2</item>
         <item>com.jiongji.andriod.card</item>
         <item>com.mianfeia.book</item>
@@ -554,7 +546,6 @@
         <item>com.dewmobile.kuaiya</item>
         <item>com.tencent.qqsports</item>
         <item>com.taobao.trip</item>
-        <item>com.baidu.lbs.waimai</item>
         <item>com.tencent.wework</item>
         <item>com.huati</item>
         <item>com.hupu.games</item>
@@ -563,15 +554,10 @@
         <item>com.ifreetalk.ftalk</item>
         <item>com.jeejen.family.miui</item>
         <item>com.sankuai.meituan.takeoutnew</item>
-        <item>com.xinhang.mobileclient</item>
-        <item>com.qq.ac.android</item>
         <item>com.greenpoint.android.mc10086.activity</item>
-        <item>com.youloft.calendar</item>
         <item>com.huluxia.gametools</item>
         <item>com.sitech.ac</item>
         <item>com.duowan.groundhog.mctools</item>
-        <item>com.yuedong.sport</item>
-        <item>com.sunrise.scmbhc</item>
         <item>com.mycheering.launcher</item>
         <item>com.jx.cmcc.ict.ibelieve</item>
         <item>com.baidu.input_mi</item>
@@ -594,6 +580,178 @@
         <item>com.coohuaclient</item>
         <item>im.yixin</item>
         <item>com.dangdang.buy2</item>
+        <item>com.xiaomi.hm.health</item>
+        <item>com.yitong.mbank.psbc</item>
+        <item>com.tencent.tribe</item>
+        <item>com.sogou.toptennews</item>
+        <item>com.zxly.assist</item>
+        <item>com.shyz.steward</item>
+        <item>com.tencent.tim</item>
+        <item>com.book2345.reader</item>
+        <item>com.nd.android.pandareader</item>
+        <item>com.dw.btime</item>
+        <item>com.sinyee.babybus.talk2kiki</item>
+        <item>com.mewe.wolf</item>
+        <item>cn.ninegame.gamemanager</item>
+        <item>com.netease.mkey</item>
+        <item>com.taobao.movie.android</item>
+        <item>com.wondertek.wirelesscityahyd</item>
+        <item>com.yiche.price</item>
+        <item>com.myzaker.ZAKER_Phone</item>
+        <item>com.sg.sledog</item>
+        <item>com.supercell.clashofclans.mi</item>
+        <item>com.changmi.launcher</item>
+        <item>com.meitu.wheecam</item>
+        <item>com.quark.browser</item>
+        <item>com.qihoo.haosou.subscribe.vertical.book</item>
+        <item>com.douban.frodo</item>
+        <item>com.mampod.ergedd</item>
+        <item>com.csair.mbp</item>
+        <item>com.sinovatech.gxmobile.ui</item>
+        <item>com.calendar.UI</item>
+        <item>com.songheng.eastnews</item>
+        <item>com.fanli.android.apps</item>
+        <item>zz.dela.cmcc.traffic</item>
+        <item>org.getlantern.lantern</item>
+        <item>cn.lt.appstore</item>
+        <item>com.baidu.tieba_mini</item>
+        <item>com.tencent.gallerymanager</item>
+        <item>cn.kuwo.tingshu</item>
+        <item>com.anjuke.android.app</item>
+        <item>com.bmcc.ms.ui</item>
+        <item>com.sdu.didi.gui</item>
+        <item>com.duowan.makefriends</item>
+        <item>com.dmzj.manhua</item>
+        <item>com.sinyee.babybus.restaurant</item>
+        <item>com.steam.renyi</item>
+        <item>com.steam.teacher</item>
+        <item>com.culiukeji.huanletao</item>
+        <item>com.tencent.qqgame</item>
+        <item>com.ludashi.benchmark</item>
+        <item>com.kukool.game.ddz.platform.appstyle.mi</item>
+        <item>com.codoon.gps</item>
+        <item>com.smzdm.client.android</item>
+        <item>com.estrongs.android.pop</item>
+        <item>com.tencent.zebra</item>
+        <item>me.ht.local.hot</item>
+        <item>com.yodo1.rodeo.mi</item>
+        <item>com.autohome.mycar</item>
+        <item>qzyd.speed.nethelper</item>
+        <item>com.miHoYo.bh3.mi</item>
+        <item>com.ants360.yicamera</item>
+        <item>com.remennovel</item>
+        <item>com.lianzainovel</item>
+        <item>cn.ledongli.ldl</item>
+        <item>com.job.android_7.2.2_722</item>
+        <item>com.lj.ljshell</item>
+        <item>com.alensw.PicFolder</item>
+        <item>com.xtc.watch</item>
+        <item>com.tencent.tgclub</item>
+        <item>com.yiche.autoeasy</item>
+        <item>com.ifeng.newvideo</item>
+        <item>com.netease.cartoonreader</item>
+        <item>com.juanpi.ui</item>
+        <item>com.sogou.se.sogouhotspot</item>
+        <item>com.nowcasting.activity</item>
+        <item>com.huaqian</item>
+        <item>com.zhaopin.social</item>
+        <item>com.fingersoft.hcr2.cn.noncmcc.mi</item>
+        <item>caimi.app.android.lottery</item>
+        <item>net.qihoo.launcher.widget.clockweather</item>
+        <item>com.pingan.carowner</item>
+        <item>com.qq.qcloud</item>
+        <item>com.wm.dmall</item>
+        <item>com.outfit7.tomsjetski</item>
+        <item>com.fgol.xiaomi</item>
+        <item>com.sankuai.meituan.dispatch.crowdsource</item>
+        <item>com.gtgj.view</item>
+        <item>com.jingyao.easybike</item>
+        <item>com.playrix.township.chukong.mi</item>
+        <item>com.iqiyi.news</item>
+        <item>com.luojilab.player</item>
+        <item>com.nice.main</item>
+        <item>com.yidian.dk</item>
+        <item>com.jm.android.jumei</item>
+        <item>com.voole.mobilestore</item>
+        <item>com.v.study</item>
+        <item>com.zplay.popstarclassic</item>
+        <item>com.ganji.android.haoche_c</item>
+        <item>com.laifenqi.android.app</item>
+        <item>com.cqmc.client</item>
+        <item>com.coomix.app.bus</item>
+        <item>cc.quanben.novel</item>
+        <item>com.tencent.gamehelper</item>
+        <item>com.homelink.android</item>
+        <item>com.tiqiaa.icontrol</item>
+        <item>com.weico.international</item>
+        <item>com.netease.mobimail</item>
+        <item>com.tencent.tmgp.xxsy</item>
+        <item>com.baidu.flashlight</item>
+        <item>cn.goapk.market</item>
+        <item>com.jjwxc.reader</item>
+        <item>com.zhongcai500</item>
+        <item>com.tencent.gamehelper.speed</item>
+        <item>com.dianxinos.optimizer.channel</item>
+        <item>com.webank.wemoney</item>
+        <item>com.xiaomi.loan</item>
+        <item>com.xiaomi.shop</item>
+        <item>com.xiaomi.channel</item>
+        <item>com.miui.miuibbs</item>
+        <item>com.ule.poststore</item>
+        <item>com.jzyd.coupon</item>
+        <item>com.yangcong345.android.phone</item>
+        <item>com.wuba.huoyun</item>
+        <item>com.aoota.dictationpupil.en</item>
+        <item>ooo.oxo.apps.earth</item>
+        <item>com.pa.health</item>
+        <item>com.jf.yidianwifi</item>
+        <item>com.newcapec.mobile.ncp</item>
+        <item>com.maliujia.six320</item>
+        <item>com.jzzs.ParentsHelper</item>
+        <item>com.hcc.app</item>
+        <item>me.bolo.android.client</item>
+        <item>com.funny.cutie</item>
+        <item>com.iflytek.elpmobile.smartlearning</item>
+        <item>com.liuyang.juniorhelp</item>
+        <item>com.xiaomi.smarthome</item>
+        <item>protect.eye.filterv</item>
+        <item>com.mengmeng.clock</item>
+        <item>us.pinguo.selfie</item>
+        <item>com.lejent.zuoyeshenqi.afanti</item>
+        <item>com.sf.activity</item>
+        <item>com.qsq.paydayloan</item>
+        <item>com.sinyee.babybus.world</item>
+        <item>com.xiaomi.jr</item>
+        <item>com.baidu.duersdk.opensdk</item>
+        <item>com.jtjr99.jiayoubao</item>
+        <item>com.xiaomi.youpin</item>
+        <item>com.gongpingjia</item>
+        <item>com.piaopiao.idphoto</item>
+        <item>com.macropinch.axe</item>
+        <item>com.sinyee.babybus.repair</item>
+        <item>cn.damai</item>
+        <item>com.doumi.jianzhi</item>
+        <item>com.chenai.eyes</item>
+        <item>com.mo9.app.view</item>
+        <item>com.yirendai</item>
+        <item>cn.edu.zjicm.wordsnet_d</item>
+        <item>com.niwodai.universityloan</item>
+        <item>com.v.zy</item>
+        <item>com.netease.mc.mi</item>
+        <item>com.haoxin.ultramanyxcs.mi</item>
+        <item>com.luomo.qitianzs.mi</item>
+        <item>com.zj.tdgfj.mi</item>
+        <item>com.phoneu.goldtoadfish.mi</item>
+        <item>com.playflame.oilhunt2.elm</item>
+        <item>com.invictus.impossiball</item>
+        <item>com.Penarium.app.elm</item>
+        <item>com.daqu.qmbfmt.mi</item>
+        <item>com.hq.Ultramancszzdd.mi</item>
+        <item>com.blyx.zjh.mi</item>
+        <item>com.emagroup.mbzw2.mi</item>
+        <item>com.binarywonders.app.electronia.kyx.m</item>
+        <item>com.telltalegames.minecraft200</item>
+        <item>com.tanyu.cjhwy.mi</item>
     </string-array>
     <array name="config_crossSpaceNotificationPackageNames" />
     <string-array name="securespaces_extension_accelerometer_userRestrictions">
