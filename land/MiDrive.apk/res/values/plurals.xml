@@ -140,4 +140,12 @@
         <item quantity="other">"%1$d files haven't been transferred."</item>
         <item quantity="one">"%1$d files hasn't been transferred."</item>
     </plurals>
+    <plurals name="delete_folders">
+        <item quantity="other">Delete %1$d folders?</item>
+        <item quantity="one">Delete this folder?</item>
+    </plurals>
+    <plurals name="delete_files">
+        <item quantity="other">Delete %1$d files?</item>
+        <item quantity="one">Delete this file?</item>
+    </plurals>
 </resources>
