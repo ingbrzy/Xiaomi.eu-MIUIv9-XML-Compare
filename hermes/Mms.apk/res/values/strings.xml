@@ -108,6 +108,7 @@
   <string name="context_menu_view_contact">View contact</string>
   <string name="context_menu_view_mms">View MMS</string>
   <string name="conversation">Messaging</string>
+  <string name="conversation_listitem_avatar">Avatar</string>
   <string name="conversation_style">bubble</string>
   <string name="converting_to_picture_message">Converting to multimedia message…</string>
   <string name="converting_to_text_message">Converting to text message…</string>
@@ -156,6 +157,7 @@
   <string name="error_state">Inconsistent state</string>
   <string name="error_state_text">The state of threads and recipients is inconsistent. Please capture a bug report and report it via http://go/droidanizer</string>
   <string name="error_timed_msg">Invalid time.</string>
+  <string name="ex_type_guide">Information</string>
   <string name="ex_type_mx">Mi Message</string>
   <string name="ex_type_sms">SMS/MMS</string>
   <string name="exceed_message_size_limitation">Message size limit reached.</string>
@@ -361,6 +363,7 @@
   <string name="notification_multiple_title">New messages</string>
   <string name="number_add_hint">Enter phone number</string>
   <string name="open_audio_record_panel">Open audio record panel</string>
+  <string name="open_edit_sms_panel">Open edit sms panel</string>
   <string name="open_url_with_web">Open this URL in Browser?</string>
   <string name="over_max_mms_size">MMS is too big.</string>
   <string name="overwrite_edited_content">"The content you've edited will be overwritten."</string>
