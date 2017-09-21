@@ -47,6 +47,8 @@
   <string name="operation_delete">Delete</string>
   <string name="operation_send">Send</string>
   <string name="quit_recording">Quit Screen recorder</string>
+  <string name="recording_failure">Last record failed, please restart a screen record</string>
+  <string name="recording_max_size">The record has been stopped and auto saved due to maximum video size. You can start another record is you want to continue recording.</string>
   <string name="resolution">Resolution</string>
   <string name="resolution_summary">Videos with higher resolution look sharper</string>
   <string name="screen_orientation">Orientation</string>
@@ -61,8 +63,10 @@
   <string name="sound_source">Sound source</string>
   <string name="sound_source_summary">System sounds or microphone</string>
   <string name="start">Start</string>
+  <string name="start_recording">Start recording</string>
   <string name="stop_by_second_space">Switching spaces will stop the recording</string>
   <string name="stop_record_while_locking">Lock screen to end</string>
   <string name="stop_record_while_locking_summary">End recording and save video when the screen is locked</string>
+  <string name="stop_recording">Stop recording</string>
   <string name="timer_format">%s</string>
 </resources>

@@ -58,6 +58,7 @@
         <item>com.google.android.marvin.talkback</item>
         <item>com.android.updater</item>
         <item>org.simalliance.openmobileapi.service</item>
+        <item>com.qualcomm.wfd.service</item>
     </string-array>
     <string-array name="deepclean_no_ui_white_list">
         <item>com.miui.powerkeeper</item>
