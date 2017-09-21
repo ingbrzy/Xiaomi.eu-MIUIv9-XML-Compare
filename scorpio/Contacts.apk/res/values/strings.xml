@@ -593,11 +593,6 @@ Reason: \"%s\""</string>
   <string name="list_filter_customize">Customize</string>
   <string name="list_filter_phones">All contacts with phone numbers</string>
   <string name="list_filter_single">Contact</string>
-  <string name="live_talk_switch_on_toast">Turned on Top-up package successfully</string>
-  <string name="livetalk_charge">Top up</string>
-  <string name="livetalk_left">Remaining</string>
-  <string name="livetalk_switch_on">Turn on</string>
-  <string name="livetalk_title">Top-up package</string>
   <string name="loading_accounts">Just a sec…</string>
   <string name="loading_group_members">Just a sec…</string>
   <string name="loading_groups">Just a sec…</string>
