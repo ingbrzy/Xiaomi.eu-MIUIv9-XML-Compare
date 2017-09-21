@@ -21,7 +21,7 @@ Allow this now and in the future?"</string>
   <string name="app_store_installing_message">Installing…</string>
   <string name="app_store_missing_message">"Looks like you haven't installed our official App Store. Install it now?"</string>
   <string name="app_store_missing_title">"App Store isn't installed"</string>
-  <string name="app_version">版本：%1$s</string>
+  <string name="app_version">Version：%1$s</string>
   <string name="auto_startup_dialog_msg">This app can start without your permission.</string>
   <string name="btn_text_full_scan">Full scan</string>
   <string name="btn_text_install_new_version">Latest version</string>
@@ -107,8 +107,13 @@ All existing user data will be saved."</string>
   <string name="miui_installing">Installing…</string>
   <string name="miui_installing2">Installing…</string>
   <string name="miui_message_staging">Staging app...</string>
+  <string name="miui_no_perms">No permissions required</string>
+  <string name="miui_other_relative">Other</string>
+  <string name="miui_permission_manage_title">%s details</string>
+  <string name="miui_privacy_relative">Privacy</string>
   <string name="miui_recommend_clean">Clear app data as well</string>
   <string name="miui_recommend_clean_msg">"App data may contain this app's downloads, files, etc."</string>
+  <string name="miui_security_relative">Security</string>
   <string name="miui_uninstall_application_text">Do you want to uninstall this app?</string>
   <string name="miui_uninstall_success">Uninstalled successfully</string>
   <string name="miui_uninstall_update_text">Replace this app with the factory version? All data will be removed.</string>
