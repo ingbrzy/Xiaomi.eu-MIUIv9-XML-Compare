@@ -57,6 +57,8 @@ Last backed up on %2$s"</string>
   <string name="cloud_storage_is_full">Full</string>
   <string name="cloudservice_new_sync">Sync %s with Mi Cloud</string>
   <string name="cmcc_micloud_dspt">Use Mi Cloud to sync data, locate your device, and share things with friends.</string>
+  <string name="confirm_delete">Delete</string>
+  <string name="confirm_save">Keep</string>
   <string name="connect_network">Connect to WLAN or insert a SIM card</string>
   <string name="connect_wlan">Connect to WLAN</string>
   <string name="contact">Contacts</string>
@@ -468,6 +470,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="search_finddevice_pref_desc">Turn on/off Find Device</string>
   <string name="search_finddevice_pref_key_words">finddevice, find device</string>
   <string name="search_finddevice_pref_path">Mi Account/Mi Cloud/Find device</string>
+  <string name="secret_photo">Hidden photos</string>
   <string name="setting">Settings</string>
   <string name="settings_backup_title">Back up system settings</string>
   <string name="share_cancel">Share canceled</string>
@@ -551,10 +554,11 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="virtual_sim_desc">Turn on Mi SIM to locate device without a SIM card</string>
   <string name="voip_choose_sim">Choose phone number to activate Mi Voice</string>
   <string name="wipe_data_dialog_button_check_sync">Check if synced</string>
-  <string name="wipe_data_dialog_msg">"%s weren't synced and will stay on your phone."</string>
+  <string name="wipe_data_dialog_msg">"Some items (%s) aren't synced. They will be saved on your device and won't be deleted."</string>
   <string name="wipe_data_dialog_msg_and_on">, and some other items</string>
   <string name="wipe_data_dialog_msg_separator">, </string>
-  <string name="wipe_data_dialog_title">"Some items haven't been synced"</string>
+  <string name="wipe_data_dialog_title">"Items aren't synced"</string>
+  <string name="wipe_secret_photo_dialog_title">"Hidden photos aren't synced"</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
   <string name="xiaomi_cloud_service">Mi Cloud</string>
   <string name="xmpp_server_addr"/>
