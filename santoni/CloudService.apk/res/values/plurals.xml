@@ -56,6 +56,10 @@
         <item quantity="other">%d blocklist entries</item>
         <item quantity="one">%d blocklist entry</item>
     </plurals>
+    <plurals name="dirty_secretphoto_count">
+        <item quantity="other">"%d hidden photos aren't synced. Sign out after all items are synced to keep them; otherwise, items will be deleted."</item>
+        <item quantity="one">"%d hidden photo isn't synced. Sign out after all items are synced to keep them; otherwise, items will be deleted."</item>
+    </plurals>
     <plurals name="micloud_main_resume_sync_hour">
         <item quantity="other">Resume sync after %d hours</item>
         <item quantity="one">Resume sync after %d hour</item>
