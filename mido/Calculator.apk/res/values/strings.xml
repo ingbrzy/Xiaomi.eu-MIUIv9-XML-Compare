@@ -49,7 +49,7 @@
   <string name="default_text">我</string>
   <string name="del">DEL</string>
   <string name="deleteDesc">delete</string>
-  <string name="description_content">Besides its basic features, Calculator also works as a multifunctional converter, mortgage, and tax calculator.Make sure you can do without these features before you uninstall the app.</string>
+  <string name="description_content">Besides its basic features, Calculator also works as a multifunctional converter, mortgage, and tax calculator. Make sure you can do without these features before you uninstall the app.</string>
   <string name="description_title">About Calculator</string>
   <string name="devided_by_zero_reminder_message">"Can't divide by zero"</string>
   <string name="digit0">0</string>
@@ -88,7 +88,6 @@
   <string name="fund_loan"/>
   <string name="gay_other_search_result">暂时不支持同性婚姻称呼查询，怎么称呼你决定~</string>
   <string name="gay_search_result">是男是女不重要，是你就好</string>
-  <string name="global_network_confirm_content">"Currency converter calculators need to use your device's network connection to work normally."</string>
   <string name="global_search_key_area_convertion">Area;Area converter;Area conversion</string>
   <string name="global_search_key_calculation">Calculate;Calculator;Unit conversion;Converter;Unit converter</string>
   <string name="global_search_key_date_convertion">Time converter;Time units;Time conversion;Time</string>
