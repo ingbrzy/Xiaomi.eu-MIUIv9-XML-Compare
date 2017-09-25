@@ -446,12 +446,12 @@ Use only the supplied charger."</string>
   <string name="recents_drag_hint_message">Drag items here</string>
   <string name="recents_empty_message">No recent items</string>
   <string name="recents_empty_message_dismissed_all">You removed all items</string>
-  <string name="recents_empty_message_multi_window">Go to Home to open apps</string>
+  <string name="recents_empty_message_multi_window">Open apps from the Home screen</string>
   <string name="recents_exit_multi_window_mode">Exit</string>
   <string name="recents_incompatible_app_message">"This app doesn't support Split screen"</string>
-  <string name="recents_launch_disabled_message">%s is stopped in the Safe mode</string>
+  <string name="recents_launch_disabled_message">"%s can't be launched in the Safe mode"</string>
   <string name="recents_launch_error_message">"Couldn't start %s"</string>
-  <string name="recents_lock_to_app_button_label">Fix screen</string>
+  <string name="recents_lock_to_app_button_label">Pin screen</string>
   <string name="recents_multi_window_mode">Split screen</string>
   <string name="recents_multistack_add_stack_dialog_split_custom">Custom</string>
   <string name="recents_multistack_add_stack_dialog_split_horizontal">Split horizontally</string>

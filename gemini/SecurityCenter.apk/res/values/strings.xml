@@ -319,6 +319,8 @@
   <string name="auto_task_operation_sync">Sync</string>
   <string name="auto_task_operation_vibration">Vibration</string>
   <string name="auto_task_operation_wifi">WLAN</string>
+  <string name="back_app_name">Back App lock</string>
+  <string name="back_modifypassword">Back Change password</string>
   <string name="background_restrict_app_dialog_message">Restricting background network access for this app might make it impossible for the app to work normally, receive messages, download content, etc. Restrict anyway?</string>
   <string name="background_traffic">Background %s</string>
   <string name="backsound_set_hint">Set your away message to %s?</string>

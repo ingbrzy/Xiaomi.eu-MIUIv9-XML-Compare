@@ -551,8 +551,8 @@ Just bring the devices together (typically back to back) and then tap your scree
   <string name="bind_xiaomi_account_dialog_summery">"You're about to add Mi Account %s. If you forget your password, you can use this account to reset it."</string>
   <string name="bind_xiaomi_account_success">Mi Account added successfully</string>
   <string name="biometric_weak_improve_matching_title">Improve face matching</string>
-  <string name="biometric_weak_liveliness_summary">Require eye blink while unlocking</string>
-  <string name="biometric_weak_liveliness_title">Liveness check</string>
+  <string name="biometric_weak_liveliness_summary">Require blinking to unlock</string>
+  <string name="biometric_weak_liveliness_title">Real person check</string>
   <string name="ble_scan_notify_text">To improve location accuracy, system apps and services can still detect Bluetooth devices. You can change this in LINK_BEGINscanning settingsLINK_END.</string>
   <string name="block_list_connected_devices">Connected devices</string>
   <string name="block_list_diaglog_cancle">Cancel</string>
@@ -923,7 +923,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="charge_length_format">%1$s ago</string>
   <string name="charging_sounds_title">Charging sounds</string>
   <string name="check_find_device_status_failure_confirm">OK</string>
-  <string name="check_importance">Check importance</string>
+  <string name="check_importance">Mark as important?</string>
   <string name="check_update">Check for updates</string>
   <string name="checkbox_notification_same_as_incoming_call">Use incoming call volume for notifications</string>
   <string name="checking_decryption">Checking…</string>
@@ -1576,8 +1576,8 @@ This helps protect data on lost or stolen devices."</string>
   <string name="erase_optional">Optional</string>
   <string name="erase_personal_data">All files on the phone</string>
   <string name="erase_personal_data_description">All files and data, including accounts, contacts, photos, and apps</string>
-  <string name="erase_sd_data">Format SD card</string>
-  <string name="erase_sd_data_description">Formatting will erase all files and data on the SD card</string>
+  <string name="erase_sd_data">Format mock SD card</string>
+  <string name="erase_sd_data_description">Formatting will erase all data on the SD card</string>
   <string name="erase_sure">Mandatory</string>
   <string name="error_apn_empty">The APN can’t be empty.</string>
   <string name="error_mcc_not3">MCC field must be 3 digits.</string>
@@ -1631,8 +1631,8 @@ This helps protect data on lost or stolen devices."</string>
   <string name="fingerprint_enable_keyguard_toggle_title">screen lock</string>
   <string name="fingerprint_enroll_button_add">Add another</string>
   <string name="fingerprint_enroll_button_next">Next</string>
-  <string name="fingerprint_first_open_screen_password_face_tittle">Biometrics（set Lock screen password before using it）</string>
-  <string name="fingerprint_first_open_screen_password_tittle">Fingerprint (set Lock screen password before using it)</string>
+  <string name="fingerprint_first_open_screen_password_face_tittle">Face（set Lock screen password first)</string>
+  <string name="fingerprint_first_open_screen_password_tittle">Fingerprint (set Lock screen password first)</string>
   <string name="fingerprint_for_keyguard_disabled">Fingerprint has been disabled by security settings.</string>
   <string name="fingerprint_identify_input_password_msg">Enter password</string>
   <string name="fingerprint_identify_msg">Reading fingerprint…</string>
@@ -3013,7 +3013,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="privacy_factory_reset_dlg_title">Back up your data</string>
   <string name="privacy_file">Files</string>
   <string name="privacy_gallery">Photos</string>
-  <string name="privacy_header_text_less_than_half">Too little space for this app. Drag the separator further.</string>
+  <string name="privacy_header_text_less_than_half">Too small. Drag a bit further.</string>
   <string name="privacy_mms">Messages</string>
   <string name="privacy_mode_dialog_message">Hide messages, notes, photos, settings, and incoming calls?</string>
   <string name="privacy_mode_dialog_title">Guest mode</string>
@@ -3773,15 +3773,12 @@ Note: Your fingerprint may be less secure than a strong pattern or PIN. "&lt;ann
   <string name="settings_toggle_position_divider_list">Toggles placed above bar are active</string>
   <string name="setup_add_fingerprint_failed_retry_text">"Couldn't add fingerprint"</string>
   <string name="setup_choose_unlock_fingerprint_msg">Set screen lock before adding your fingerprint.</string>
-  <string name="setup_choose_unlock_mixed_password_color_normal">&lt;Data&gt;&amp;lt;font color=#000000&amp;gt;Password&amp;lt;/font&amp;gt;&lt;/Data&gt;</string>
-  <string name="setup_choose_unlock_mixed_password_color_pressed">&lt;Data&gt;&amp;lt;font color=#009dff&amp;gt;Password&amp;lt;/font&amp;gt;&lt;/Data&gt;</string>
+  <string name="setup_choose_unlock_mixed_password">Password</string>
   <string name="setup_choose_unlock_mixpassword_title">Set password</string>
-  <string name="setup_choose_unlock_password_color_normal">&lt;Data&gt;&amp;lt;font color=#000000&amp;gt;PIN&amp;lt;/font&amp;gt;&lt;/Data&gt;</string>
-  <string name="setup_choose_unlock_password_color_pressed">&lt;Data&gt;&amp;lt;font color=#009dff&amp;gt;PIN&amp;lt;/font&amp;gt;&lt;/Data&gt;</string>
+  <string name="setup_choose_unlock_password">PIN</string>
   <string name="setup_choose_unlock_password_msg">Enter 4 numbers</string>
   <string name="setup_choose_unlock_password_title">Set PIN</string>
-  <string name="setup_choose_unlock_pattern_color_normal">&lt;Data&gt;&amp;lt;font color=#000000&amp;gt;Pattern&amp;lt;/font&amp;gt;&lt;/Data&gt;</string>
-  <string name="setup_choose_unlock_pattern_color_pressed">&lt;Data&gt;&amp;lt;font color=#009dff&amp;gt;Pattern&amp;lt;/font&amp;gt;&lt;/Data&gt;</string>
+  <string name="setup_choose_unlock_pattern">Pattern</string>
   <string name="setup_choose_unlock_pattern_title">Draw unlock pattern</string>
   <string name="setup_choose_unlock_type_title">Set password</string>
   <string name="setup_fingerprint_enroll_enrolling_skip_message">You’ve chosen to use your fingerprint as one way to unlock your phone. If you skip now, you’ll need to set this up later. Setup takes only a minute or so.</string>
@@ -4056,7 +4053,7 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_wifi_mac_address">Wi‑Fi MAC address</string>
   <string name="status_wimax_mac_address">4G MAC address</string>
   <string name="status_write_success">Success!</string>
-  <string name="statusbar_permission_desc">Permissions are only avaiable for important Notifications</string>
+  <string name="statusbar_permission_desc">The following permissions are only valid for important notifications.</string>
   <string name="storage_detail_apps">Apps</string>
   <string name="storage_detail_audio">Audio</string>
   <string name="storage_detail_cached">Cached data</string>
@@ -4409,7 +4406,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="turn_update_keyguard_password_wait_dialog">Modifying password…</string>
   <string name="twohours">1 hour</string>
   <string name="under_keyguard">Screen off</string>
-  <string name="unimportant">UnImportant</string>
+  <string name="unimportant">Unimportant</string>
   <string name="uninstall_all_users_text">Uninstall for all users</string>
   <string name="uninstall_device_admin">Uninstall app</string>
   <string name="uninstall_dlg_msg">Uninstalling will remove all app data.</string>
@@ -4465,8 +4462,8 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_do_later_title">Not now</string>
   <string name="unlock_set_enter_system">Skip screen lock</string>
   <string name="unlock_set_enter_system_summary">Go directly to Home screen from wake</string>
-  <string name="unlock_set_unlock_biometric_weak_summary">Low security, experimental</string>
-  <string name="unlock_set_unlock_biometric_weak_title">Face Unlock</string>
+  <string name="unlock_set_unlock_biometric_weak_summary">Experimental feature with low security</string>
+  <string name="unlock_set_unlock_biometric_weak_title">Face unlock</string>
   <string name="unlock_set_unlock_disabled_summary">Disabled by administrator, encryption policy, or credential storage</string>
   <string name="unlock_set_unlock_launch_picker_change_summary">Change or disable pattern, PIN, or password security</string>
   <string name="unlock_set_unlock_launch_picker_change_title">Change lock screen</string>
