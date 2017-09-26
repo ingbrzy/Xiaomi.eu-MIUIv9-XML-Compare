@@ -2035,6 +2035,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="launch_defaults_none">No defaults set</string>
   <string name="launch_defaults_some">Some defaults set</string>
   <string name="launch_google_search">Launch Google Assistant</string>
+  <string name="launch_recents">Launch Recents</string>
   <string name="launch_voice_assistant">Launch Voice assistant</string>
   <string name="launcher_auto_fill_empty_title">Fill empty cells</string>
   <string name="launcher_title">Home screen &amp; Recents</string>
