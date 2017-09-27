@@ -40,7 +40,7 @@
   <string name="call_extension_conference_mode">Conference mode</string>
   <string name="call_record_wait_label">Waiting</string>
   <string name="call_recording_deny_permission_msg">"You denied record permission, can't record."</string>
-  <string name="call_recording_error_low_storage">Not enough space on SD card.</string>
+  <string name="call_recording_error_low_storage">Not enough space on storage.</string>
   <string name="call_recording_error_privacy">"Can't record while you're in Guest mode"</string>
   <string name="call_recording_error_sd_access">"Can't access SD card"</string>
   <string name="call_recording_error_sd_unmounted">Stopped recording: SD card unmounted.</string>
@@ -162,7 +162,6 @@
   <string name="livetalk_dial">Using Top-up package</string>
   <string name="livetalk_hangup">Hang up</string>
   <string name="manageConferenceLabel">Manage conference call</string>
-  <string name="miprofile_stranger_card">Unknown</string>
   <string name="modify_call_failure_str">"Modify Call request failed
 "</string>
   <string name="modify_call_option_title">Which type of call?</string>

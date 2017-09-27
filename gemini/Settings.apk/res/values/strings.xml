@@ -1685,7 +1685,7 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="font_size_summary1">"If your system's text is still too small, try "</string>
   <string name="font_size_summary2">Lite mode.</string>
   <string name="forbidden_switch_apn_string">"Selected APN settings don't match current network type"</string>
-  <string name="force_allow_on_external">Force allow apps ro write on external storage</string>
+  <string name="force_allow_on_external">Force allow apps to write on external storage</string>
   <string name="force_allow_on_external_summary">Makes any app eligible to be written to external storage, regardless of manifest values</string>
   <string name="force_hw_ui">Force GPU rendering</string>
   <string name="force_hw_ui_summary">Force use GPU for 2D drawing</string>
@@ -2469,6 +2469,7 @@ There are other users present on this device.
   <string name="miui_allow_music">Media</string>
   <string name="miui_allow_vibrate">Vibrations</string>
   <string name="miui_data_usage_menu_metered">Mobile hotspots</string>
+  <string name="miui_enable_service_title">The service will perform these actions:</string>
   <string name="miui_experience_optimization">Turn on MIUI optimization</string>
   <string name="miui_lab_feature_applied">Applied</string>
   <string name="miui_lab_feature_off">Off</string>
@@ -4290,7 +4291,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
 
 2.If your device has an SD card or USB storage, you can't mount it on your computer when USB tethered. 
 
- "&lt;b&gt;Portable WLAN hotspot &lt;/b&gt;"
+ "&lt;b&gt;Portable WLAN hotspot&lt;/b&gt;" 
  You can turn your Android device into a portable WLAN hotspot, to share your Android device's Internet connection with one or more computers or other devices. 
 
 1.When your device is serving as a WLAN hotspot, you can't use your device's applications to access the Internet via its WLAN connection (but of course you remain connected to the Internet via your mobile data network). 
