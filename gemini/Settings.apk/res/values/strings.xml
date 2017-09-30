@@ -1631,7 +1631,7 @@ This helps protect data on lost or stolen devices."</string>
   <string name="fingerprint_enable_keyguard_toggle_title">screen lock</string>
   <string name="fingerprint_enroll_button_add">Add another</string>
   <string name="fingerprint_enroll_button_next">Next</string>
-  <string name="fingerprint_first_open_screen_password_face_tittle">Face（set Lock screen password first)</string>
+  <string name="fingerprint_first_open_screen_password_face_tittle">Face (set Lock screen password first)</string>
   <string name="fingerprint_first_open_screen_password_tittle">Fingerprint (set Lock screen password first)</string>
   <string name="fingerprint_for_keyguard_disabled">Fingerprint has been disabled by security settings.</string>
   <string name="fingerprint_identify_input_password_msg">Enter password</string>
