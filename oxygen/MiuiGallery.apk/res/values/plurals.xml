@@ -184,4 +184,20 @@
         <item quantity="other">Found %1$d new photos</item>
         <item quantity="one">Found a new photo</item>
     </plurals>
+    <plurals name="search_feedback_done_mark_false_positive">
+        <item quantity="other">Removed %1$d photos from \"%2$s\".</item>
+        <item quantity="one">Removed %1$d photo from \"%2$s\".</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_and_contribute_false_positive">
+        <item quantity="other">Removed %1$d photos from \"%2$s\" and added to the database.</item>
+        <item quantity="one">Removed %1$d photo from \"%2$s\" and added to the database.</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_false_negative">
+        <item quantity="other">Added %1$d photos to \"%2$s\".</item>
+        <item quantity="one">Added %1$d photo to \"%2$s\".</item>
+    </plurals>
+    <plurals name="search_feedback_done_mark_and_contribute_false_negative">
+        <item quantity="other">Added %1$d photos to \"%2$s\" and added to the database.</item>
+        <item quantity="one">Added %1$d photo to \"%2$s\" and added to the database.</item>
+    </plurals>
 </resources>
