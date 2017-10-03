@@ -32,6 +32,9 @@ Data will not be wiped."</string>
   <string name="menu_title_current_version_log">What is new?</string>
   <string name="menu_title_pick_rom_file">Choose update package</string>
   <string name="menu_title_recovery">Reboot to Recovery mode</string>
+  <string name="message">%1$s</string>
+  <string name="message_checkbox">Hide future messages from Xioami.eu team</string>
+  <string name="message_title">NOTE!</string>
   <string name="new_version">New version found!</string>
   <string name="no_info">No info available.</string>
   <string name="no_network">No network access.</string>
