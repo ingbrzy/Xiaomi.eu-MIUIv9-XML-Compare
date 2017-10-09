@@ -139,6 +139,7 @@
   <string name="app_manager_back">Back</string>
   <string name="app_manager_bipartition">Dual apps</string>
   <string name="app_manager_card_permission_title">Permissions</string>
+  <string name="app_manager_clear_cache">Clear cache</string>
   <string name="app_manager_clear_data_dlg_message">All this app’s data will be deleted permanently. This includes all files, settings, accounts, databases, etc.</string>
   <string name="app_manager_clear_data_dlg_title">Delete app data?</string>
   <string name="app_manager_clear_failed_dlg_message">Couldn’t clear data for app.</string>
@@ -148,17 +149,27 @@
   <string name="app_manager_default_open">Open by default</string>
   <string name="app_manager_default_open_summary">You’ve chosen to launch this app by default for some actions.</string>
   <string name="app_manager_default_open_title">Clear defaults</string>
+  <string name="app_manager_defaults_setting">Defaults</string>
   <string name="app_manager_details_electric_title">Battery</string>
   <string name="app_manager_details_storage_title">Storage</string>
-  <string name="app_manager_details_traffic_title">Data usage this month</string>
+  <string name="app_manager_details_traffic_title">Data usage</string>
   <string name="app_manager_disable">"Don't allow"</string>
+  <string name="app_manager_disable_dlg_text">If you disable this app, other apps may no longer function as intended.</string>
+  <string name="app_manager_disable_dlg_title">Disable built-in app?</string>
+  <string name="app_manager_disable_text">Disable</string>
+  <string name="app_manager_disabled">Disabled</string>
   <string name="app_manager_dlg_cancel">Cancel</string>
   <string name="app_manager_dlg_ok">OK</string>
+  <string name="app_manager_enable_text">Enable</string>
+  <string name="app_manager_enabled">Enabled</string>
   <string name="app_manager_factory_reset">Uninstall updates</string>
   <string name="app_manager_factory_reset_dlg_msg">All updates to this Android system app will be uninstalled.</string>
   <string name="app_manager_factory_reset_dlg_title">Uninstall updates?</string>
   <string name="app_manager_force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
   <string name="app_manager_force_stop_dlg_title">Force stop?</string>
+  <string name="app_manager_globel_other_perm_title">Other permissions</string>
+  <string name="app_manager_globel_perm_summary">Manage permissions related to location, storage, phone, messages, and contacts.</string>
+  <string name="app_manager_globel_perm_title">App permissions</string>
   <string name="app_manager_have_not_consume">None</string>
   <string name="app_manager_hide_system_server">Hide system services</string>
   <string name="app_manager_instruction">Instruction</string>
@@ -189,6 +200,17 @@
   <string name="app_manager_reduce_wakepath_dialog">Minimize chain start</string>
   <string name="app_manager_reduce_wakepath_summary">Restricting autostart will minimize chain start. Restrict autostart for %s?</string>
   <string name="app_manager_reject_count_over">Blocked 100000+ times</string>
+  <string name="app_manager_reset_app_preferences">Reset app preferences</string>
+  <string name="app_manager_reset_app_preferences_button">Reset apps</string>
+  <string name="app_manager_reset_app_preferences_desc">"This will reset all preferences for:
+
+ "&lt;li&gt;Disabled apps&lt;/li&gt;"
+ "&lt;li&gt;Disabled app notifications&lt;/li&gt;"
+ "&lt;li&gt;Default applications for actions&lt;/li&gt;"
+ "&lt;li&gt;Background data restrictions for apps&lt;/li&gt;"
+
+ You will not lose any app data."</string>
+  <string name="app_manager_reset_app_preferences_title">Reset app preferences?</string>
   <string name="app_manager_show_all_apps">Show all apps</string>
   <string name="app_manager_show_detail_infos">View all</string>
   <string name="app_manager_sort">Sort by</string>
@@ -202,6 +224,8 @@
   <string name="app_manager_stop_wp_dialog_uninstall">Uninstall</string>
   <string name="app_manager_system_mobile_disable">Turn off data</string>
   <string name="app_manager_title">Manage apps</string>
+  <string name="app_manager_uninstall_protected_dlg_msg">Uninstalling system apps may prevent some MIUI components from working properly. Uninstall anyway?</string>
+  <string name="app_manager_uninstall_protected_dlg_title">Uninstalling system apps</string>
   <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Corresponding dual apps will be removed together with app data.</string>
   <string name="app_manager_uninstall_xspace_app_dlg_msg">Uninstalling dual app will remove all app data.</string>
   <string name="app_manager_uninstall_xspace_app_dlg_title">Uninstall dual app?</string>
@@ -1610,6 +1634,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="save_energy_title">Optimize battery</string>
   <string name="sc_allow_network_dialog_message">This app needs to connect to the internet to work normally.</string>
   <string name="sc_allow_network_dialog_tiltle">"Can't use this feature"</string>
+  <string name="sc_system_risk_fix_info_xspace">The risk cannot be fixed in xspace, please switch to owner space to fix it.</string>
   <string name="scan_installed_games">Checking installed games…</string>
   <string name="scan_status_risk">Risky</string>
   <string name="scan_status_safe">Secure</string>

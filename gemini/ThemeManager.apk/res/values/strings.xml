@@ -39,6 +39,7 @@
   <string name="component_title_wallpaper">Wallpapers</string>
   <string name="current_using_desktop_wallpaper_text">Home screen</string>
   <string name="current_using_lockscreen_wallpaper_text">Lock screen</string>
+  <string name="current_version_incompatible">Incompatibility version</string>
   <string name="deleting">Deleting…</string>
   <string name="description_author">Author</string>
   <string name="description_designer">Designer</string>
@@ -91,6 +92,8 @@
   <string name="gift_use_confirmation_dlg_title">Send this gift?</string>
   <string name="gift_use_fail_dlg_title">Something went wrong</string>
   <string name="gift_used">Sent</string>
+  <string name="hide_free">"Hide free "</string>
+  <string name="hide_incompatible">"Hide incompatible "</string>
   <string name="home_apply_failured">"Can't apply Home screen wallpaper"</string>
   <string name="home_apply_success">Home screen wallpaper applied</string>
   <string name="in_the_end">No more items to show</string>

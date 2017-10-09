@@ -83,6 +83,8 @@ Battery saver will treat important apps selectively."</string>
   <string name="new_group_name">Custom mode</string>
   <string name="no_applications">Empty</string>
   <string name="none">No processes</string>
+  <string name="nonui_mode_config_description">"Don't light up screen for notifications, turn off notification light, fingerprint, and touch controls when your device is in a pocket."</string>
+  <string name="nonui_mode_config_title">Noninteractive mode</string>
   <string name="normal">Default mode</string>
   <string name="operation_create_group">Name</string>
   <string name="operation_create_group_message">Enter new group name</string>
