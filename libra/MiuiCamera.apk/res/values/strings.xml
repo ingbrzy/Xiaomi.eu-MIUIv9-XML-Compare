@@ -285,7 +285,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_flashmode_entry_on">On</string>
   <string name="pref_camera_flashmode_entry_torch">Torch</string>
   <string name="pref_camera_flashmode_title">Flash mode</string>
-  <string name="pref_camera_focus_shoot_summary">触摸对焦成功之后,点击对焦环中间的相机按钮进行拍照</string>
+  <string name="pref_camera_focus_shoot_summary">Tap the screen to focus, and tap again to shoot.</string>
   <string name="pref_camera_focus_shoot_title">Focus &amp; shoot</string>
   <string name="pref_camera_focusmode_entry_auto">Auto</string>
   <string name="pref_camera_focusmode_entry_infinity">Infinity</string>
@@ -444,9 +444,9 @@ and brings out the people in the front."</string>
   <string name="pref_camera_touchafaec_entry_on">On</string>
   <string name="pref_camera_ubifocus_title">Refocus</string>
   <string name="pref_camera_video_duration_entry_10">10 minutes</string>
-  <string name="pref_camera_video_duration_entry_120">No limit</string>
+  <string name="pref_camera_video_duration_entry_120">Unlimited</string>
   <string name="pref_camera_video_duration_entry_30">30 minutes</string>
-  <string name="pref_camera_video_duration_entry_mms">30 seconds(MMS)</string>
+  <string name="pref_camera_video_duration_entry_mms">30 seconds (MMS)</string>
   <string name="pref_camera_video_flashmode_default">off</string>
   <string name="pref_camera_volumekey_function_default">shutter</string>
   <string name="pref_camera_volumekey_function_entry_exposure">Exposure</string>
