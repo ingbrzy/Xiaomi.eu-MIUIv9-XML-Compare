@@ -45,17 +45,17 @@
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Off</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
+        <item>64KB</item>
+        <item>256KB</item>
+        <item>1MB</item>
+        <item>4MB</item>
+        <item>16MB</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Off</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>64KB</item>
+        <item>256KB</item>
+        <item>1MB</item>
     </string-array>
     <string-array name="select_logd_size_values">
         <item>32768</item>
@@ -67,15 +67,15 @@
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Off</item>
-        <item>64K per log buffer</item>
-        <item>256K per log buffer</item>
-        <item>1M per log buffer</item>
-        <item>4M per log buffer</item>
-        <item>16M per log buffer</item>
+        <item>64KB per log buffer</item>
+        <item>256KB per log buffer</item>
+        <item>1MB per log buffer</item>
+        <item>4MB per log buffer</item>
+        <item>16MB per log buffer</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animation off</item>
-        <item>Animation scale .5x</item>
+        <item>Animation scale 0.5x</item>
         <item>Animation scale 1x</item>
         <item>Animation scale 1.5x</item>
         <item>Animation scale 2x</item>
@@ -93,7 +93,7 @@
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animation off</item>
-        <item>Animation scale .5x</item>
+        <item>Animation scale 0.5x</item>
         <item>Animation scale 1x</item>
         <item>Animation scale 1.5x</item>
         <item>Animation scale 2x</item>
@@ -111,7 +111,7 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Animation off</item>
-        <item>Animation scale .5x</item>
+        <item>Animation scale 0.5x</item>
         <item>Animation scale 1x</item>
         <item>Animation scale 1.5x</item>
         <item>Animation scale 2x</item>
@@ -190,7 +190,7 @@
     <string-array name="debug_hw_overdraw_entries">
         <item>Off</item>
         <item>Show overdraw areas</item>
-        <item>Show areas for Deuteranomaly</item>
+        <item>Show areas for deuteranomaly</item>
     </string-array>
     <string-array name="debug_hw_overdraw_values">
         <item>false</item>
@@ -218,7 +218,7 @@
         <item>MTP (Media Transfer Protocol)</item>
         <item>PTP (Picture Transfer Protocol)</item>
         <item>RNDIS (USB Ethernet)</item>
-        <item>Audio Source</item>
+        <item>Audio source</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_configuration_values">
@@ -320,9 +320,9 @@
         <item>2</item>
     </string-array>
     <string-array name="check_importance_entries">
-        <item>Recommend</item>
+        <item>Recommended</item>
         <item>Important</item>
-        <item>UnImportant</item>
+        <item>Unimportant</item>
     </string-array>
     <string-array name="check_importance_values">
         <item>0</item>
@@ -330,9 +330,9 @@
         <item>-1</item>
     </string-array>
     <string-array name="check_importance_summary">
-        <item>Intelligent judge, unimportant notifications will appear in a separate folder</item>
-        <item>Notifications will appear directly on the Notification shade</item>
-        <item>All notifications will appear in a separate folder</item>
+        <item>MIUI will decide which notifications should appear directly</item>
+        <item>Notifications will appear in the Notification shade</item>
+        <item>Notifications will appear in a separate folder</item>
     </string-array>
     <string-array name="timezone_filters">
         <item>America</item>
@@ -1946,6 +1946,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>CO</item>
         <item>CR</item>
         <item>CU</item>
+        <item>DO</item>
         <item>EC</item>
         <item>EG</item>
         <item>GF</item>
@@ -1971,6 +1972,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>QA</item>
         <item>SA</item>
         <item>SR</item>
+        <item>SV</item>
         <item>KN</item>
         <item>LC</item>
         <item>VC</item>
@@ -2020,10 +2022,10 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>921600</item>
     </integer-array>
     <string-array name="edge_touch_volume_action">
-        <item>Click adjust - Double click trigger</item>
-        <item>Slip adjust - Slip trigger</item>
-        <item>Click adjust - Click trigger</item>
-        <item>Click adjust - Long Click trigger</item>
+        <item>Press to adjust - Double press to trigger</item>
+        <item>Slide to adjust - Slide to trigger</item>
+        <item>Press to adjust - Press to trigger</item>
+        <item>Press to adjust - Press &amp; hold to trigger</item>
     </string-array>
     <string-array name="edge_touch_volume_action_value">
         <item>0</item>
