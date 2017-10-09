@@ -804,6 +804,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="navigation_drawer_open">Open navigation drawer</string>
   <string name="need_restart">该设置在下次重启后生效</string>
   <string name="next">Next</string>
+  <string name="nfc_disable_tip">Please turn on the NFC function</string>
   <string name="no_data">--</string>
   <string name="no_hardware">没有检测到指纹模组！</string>
   <string name="no_test_detail_info">无测试详情</string>
