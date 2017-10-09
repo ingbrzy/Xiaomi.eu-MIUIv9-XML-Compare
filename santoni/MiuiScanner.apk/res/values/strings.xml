@@ -179,7 +179,7 @@
   <string name="alisdk_message_952_name">JS_BRIDGE_ANNOTATION_NOT_PRESENT</string>
   <string name="alisdk_message_952_type">E</string>
   <string name="allow_check_website_security">Show website security check notifications</string>
-  <string name="app_description_content">Scanner provide QR code scan, scan to translate, scan to solve questions, business card recognition. Please make sure you already acknowledged function and service provided by this app.</string>
+  <string name="app_description_content">Scanner allows you to scan QR codes, documents, business cards, and more. Make sure you can do without these features before you uninstall the app.</string>
   <string name="app_description_title">About Scanner</string>
   <string name="app_details">App:</string>
   <string name="app_name">Scanner</string>
@@ -232,7 +232,7 @@
   <string name="document_ocr_result_title">Document photo</string>
   <string name="document_ocr_tip_msg">Reading…</string>
   <string name="document_recognize_fail_tip">"Couldn't read document"</string>
-  <string name="document_recognize_null_tip">Document result is empty</string>
+  <string name="document_recognize_null_tip">"Couldn't recofnize document"</string>
   <string name="document_rectify">Adjust</string>
   <string name="document_rectify_tip_msg">Adjusting…</string>
   <string name="document_save_succeed_tip">Document saved to %1$s</string>
@@ -245,7 +245,7 @@
   <string name="error_cannot_connect_camera">"Can't connect to Camera"</string>
   <string name="error_day_limit">Too many attempts within 1 day</string>
   <string name="error_empty_result">"Couldn't find results"</string>
-  <string name="error_get_image">fail to get image</string>
+  <string name="error_get_image">"Couldn't get image"</string>
   <string name="error_hour_limit">Too many attempts within 1 hour</string>
   <string name="error_image_error">"Can't recognize this photo"</string>
   <string name="error_invalid_request">Authentication error</string>

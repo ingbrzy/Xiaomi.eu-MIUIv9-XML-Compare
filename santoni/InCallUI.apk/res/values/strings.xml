@@ -40,7 +40,7 @@
   <string name="call_extension_conference_mode">Conference mode</string>
   <string name="call_record_wait_label">Waiting</string>
   <string name="call_recording_deny_permission_msg">"You denied record permission, can't record."</string>
-  <string name="call_recording_error_low_storage">Not enough space on SD card.</string>
+  <string name="call_recording_error_low_storage">Not enough space on storage.</string>
   <string name="call_recording_error_privacy">"Can't record while you're in Guest mode"</string>
   <string name="call_recording_error_sd_access">"Can't access SD card"</string>
   <string name="call_recording_error_sd_unmounted">Stopped recording: SD card unmounted.</string>
@@ -65,7 +65,7 @@
   <string name="card_title_hanging_up">"Hanging up "</string>
   <string name="card_title_hanging_up_fail">"Couldn't end call, try again."</string>
   <string name="card_title_hanging_up_restart">"Can't end call. Reboot your device."</string>
-  <string name="card_title_hanging_up_weak_signal">Weak mobile network signal. Ending call</string>
+  <string name="card_title_hanging_up_weak_signal">Weak mobile network signal. Ending call…</string>
   <string name="card_title_in_call">In call</string>
   <string name="card_title_in_call_short">In call</string>
   <string name="card_title_in_video">Video </string>
@@ -162,7 +162,6 @@
   <string name="livetalk_dial">Using Top-up package</string>
   <string name="livetalk_hangup">Hang up</string>
   <string name="manageConferenceLabel">Manage conference call</string>
-  <string name="miprofile_stranger_card">Unknown</string>
   <string name="modify_call_failure_str">"Modify Call request failed
 "</string>
   <string name="modify_call_option_title">Which type of call?</string>
@@ -227,7 +226,7 @@
   <string name="picking_participant">Getting contact info…</string>
   <string name="private_num">Private number</string>
   <string name="remind_unlock_message">Your device is locked now. \"%s\" will be available after you unlock your device. Unlock now?</string>
-  <string name="respond_via_sms_custom_message">Write your own...</string>
+  <string name="respond_via_sms_custom_message">Custom SMS</string>
   <string name="select_audio_dialog_title">Select answering mode</string>
   <string name="select_one_sim_title">Can only use SIM %1$d</string>
   <string name="select_sim_hint">"Can't use SIM %2$d, while SIM %1$d is in use."</string>
