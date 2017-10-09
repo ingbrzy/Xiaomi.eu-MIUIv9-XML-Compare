@@ -89,8 +89,8 @@
     <string-array name="action_param_translate">
         <item>None</item>
         <item>Default</item>
-        <item>Picture</item>
-        <item>Movie</item>
+        <item>Images</item>
+        <item>Movies</item>
         <item>Battery saver</item>
         <item>Balance</item>
         <item>Performance</item>
@@ -152,12 +152,12 @@
         <item>Waking device frequently</item>
     </string-array>
     <string-array name="power_checker_recent_group_titles">
-        <item>Kernel WakeLock</item>
-        <item>WakeLock</item>
-        <item>WIFI scan</item>
-        <item>GPS</item>
-        <item>CPU</item>
-        <item>Wake Up</item>
+        <item>Blocking deep sleep mode</item>
+        <item>Blocking sleep mode</item>
+        <item>Searching for WLAN</item>
+        <item>Using GPS</item>
+        <item>Occupying CPU</item>
+        <item>Waking device frequentl</item>
     </string-array>
     <string-array name="power_checker_group_suffix">
         <item></item>
@@ -169,11 +169,11 @@
         <item>unselected</item>
     </string-array>
     <string-array name="thermal_entries">
-        <item>Default warm control mode</item>
-        <item>Performance first mode</item>
+        <item>Default temperature control mode</item>
+        <item>Performance mode</item>
     </string-array>
     <string-array name="thermal_summaries">
-        <item>Current default mode</item>
+        <item>Current temperature control mode</item>
         <item>Current performance mode</item>
     </string-array>
     <array name="read_enable" />
