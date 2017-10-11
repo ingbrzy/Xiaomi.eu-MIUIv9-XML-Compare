@@ -40,7 +40,7 @@
   <string name="call_extension_conference_mode">Conference mode</string>
   <string name="call_record_wait_label">Waiting</string>
   <string name="call_recording_deny_permission_msg">"You denied record permission, can't record."</string>
-  <string name="call_recording_error_low_storage">Not enough space on SD card.</string>
+  <string name="call_recording_error_low_storage">Not enough space on storage.</string>
   <string name="call_recording_error_privacy">"Can't record while you're in Guest mode"</string>
   <string name="call_recording_error_sd_access">"Can't access SD card"</string>
   <string name="call_recording_error_sd_unmounted">Stopped recording: SD card unmounted.</string>
@@ -58,14 +58,14 @@
   <string name="can_not_use">"Can't use"</string>
   <string name="cancel">Cancel</string>
   <string name="card_title_answering">Answering call</string>
-  <string name="card_title_answering_fail">"Couldn't answer call, try again."</string>
+  <string name="card_title_answering_time_out">"Couldn't answer call, try again."</string>
   <string name="card_title_call_ended">"Call ended "</string>
   <string name="card_title_conf_call">Conference call</string>
   <string name="card_title_dialing">Dialing</string>
   <string name="card_title_hanging_up">"Hanging up "</string>
   <string name="card_title_hanging_up_fail">"Couldn't end call, try again."</string>
   <string name="card_title_hanging_up_restart">"Can't end call. Reboot your device."</string>
-  <string name="card_title_hanging_up_weak_signal">Weak mobile network signal. Ending call</string>
+  <string name="card_title_hanging_up_weak_signal">Weak mobile network signal. Ending call…</string>
   <string name="card_title_in_call">In call</string>
   <string name="card_title_in_call_short">In call</string>
   <string name="card_title_in_video">Video </string>
@@ -81,6 +81,7 @@
   <string name="card_title_video_call_paused">Video paused</string>
   <string name="card_title_video_conf_call">Video conference call</string>
   <string name="card_video_hold_swap">Swap</string>
+  <string name="change_to_voice_tips_when_background">The other party has switched to voice call</string>
   <string name="close_camera_failed">"Couldn't turn off camera…"</string>
   <string name="close_camera_requesting">Turning off camera…</string>
   <string name="conference_call_description" formatted="false">%s,%s etc. total %s</string>
@@ -158,15 +159,10 @@
   <string name="ivr_menu_dialing_msg_no_mute">Go to selected service…[Automatic error correction is enabled]</string>
   <string name="ivr_menu_list_sub_menu_count_format">Tap %s</string>
   <string name="ivr_menu_list_title">Voice menu</string>
-  <string name="jeejen_answer_call_text">Answer call</string>
-  <string name="jeejen_end_call_text">End call</string>
-  <string name="jeejen_reject_call_text">Reject call</string>
-  <string name="jeejen_toggle_dialpad_text">Dialpad</string>
   <string name="keep_wait_call_back">Keep waiting</string>
   <string name="livetalk_dial">Using Top-up package</string>
   <string name="livetalk_hangup">Hang up</string>
   <string name="manageConferenceLabel">Manage conference call</string>
-  <string name="miprofile_stranger_card">Unknown</string>
   <string name="modify_call_failure_str">"Modify Call request failed
 "</string>
   <string name="modify_call_option_title">Which type of call?</string>
@@ -231,7 +227,7 @@
   <string name="picking_participant">Getting contact info…</string>
   <string name="private_num">Private number</string>
   <string name="remind_unlock_message">Your device is locked now. \"%s\" will be available after you unlock your device. Unlock now?</string>
-  <string name="respond_via_sms_custom_message">Write your own...</string>
+  <string name="respond_via_sms_custom_message">Custom SMS</string>
   <string name="select_audio_dialog_title">Select answering mode</string>
   <string name="select_one_sim_title">Can only use SIM %1$d</string>
   <string name="select_sim_hint">"Can't use SIM %2$d, while SIM %1$d is in use."</string>

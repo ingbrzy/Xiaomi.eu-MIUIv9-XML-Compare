@@ -210,7 +210,7 @@
   <string name="contactSavedErrorToast">"Couldn't save contact changes"</string>
   <string name="contactSavedToast">Contact saved</string>
   <string name="contact_clear_search_history">Clear history</string>
-  <string name="contact_delete_toast">Deleted contact successfully</string>
+  <string name="contact_delete_toast">Contact deleted</string>
   <string name="contact_detail_action_item_calllog">Call history</string>
   <string name="contact_detail_action_item_nocalllog">No history</string>
   <string name="contact_detail_calllog_call_note_tips">Notes</string>
@@ -453,7 +453,7 @@ To avoid frequent queries, we update balance info once a day."</string>
   <string name="export_to_sim2">Export to SIM card 2</string>
   <string name="export_to_sim_prepare_title">Preparing…</string>
   <string name="export_to_sim_title">Exporting…</string>
-  <string name="export_vcard_description">"Export vCard to phone's internal storage"</string>
+  <string name="export_vcard_description">Export vCard to SD card</string>
   <string name="exporting_contact_failed_message">"The contact data wasn't exported.
 Reason: \"%s\""</string>
   <string name="exporting_contact_failed_title">"Couldn't export"</string>
@@ -473,7 +473,7 @@ Reason: \"%s\""</string>
   <string name="fail_reason_no_exportable_contact">There is no exportable contact.</string>
   <string name="fail_reason_not_supported">"The format isn't supported."</string>
   <string name="fail_reason_too_long_filename">Required filename is too long (\"%s\").</string>
-  <string name="fail_reason_too_many_vcard">Too many vCard files are in the storage.</string>
+  <string name="fail_reason_too_many_vcard">Too many vCard files are on the SD card.</string>
   <string name="fail_reason_unknown">Unknown error.</string>
   <string name="fail_reason_vcard_parse_error">"Couldn't parse vCard for an unexpected reason."</string>
   <string name="favoritesFrequentCalled">Frequently called</string>
@@ -499,7 +499,8 @@ Reason: \"%s\""</string>
   <string name="group_delete_success_toast">Group deleted</string>
   <string name="group_detail_label_placeholder"> </string>
   <string name="group_edit_field_hint_text">Group name</string>
-  <string name="group_member_remove_toast">Removed from group</string>
+  <string name="group_member_remove_fail_toast">Not removed from group</string>
+  <string name="group_member_remove_success_toast">Removed from group</string>
   <string name="group_name">My groups</string>
   <string name="group_name_hint">"Group's name"</string>
   <string name="group_read_only">Not editable on this device.</string>
@@ -532,7 +533,7 @@ Reason: \"%s\""</string>
   <string name="import_all_vcard_string">Import all vCard files</string>
   <string name="import_contact_card_aggregate_suggestion_button">Merge cards</string>
   <string name="import_contact_card_button">Import contact</string>
-  <string name="import_failure_no_vcard_file">No vCard files found in storage.</string>
+  <string name="import_failure_no_vcard_file">No vCard files found on SD card.</string>
   <string name="import_from_onekey_migrate">Import using Mi Mover</string>
   <string name="import_from_other_phone">Import from another phone</string>
   <string name="import_from_sdcard">Import from storage</string>
@@ -551,7 +552,7 @@ Reason: \"%s\""</string>
   <string name="import_to_xiaomi_account_progress_message">Importing…</string>
   <string name="import_to_xiaomi_account_progress_title">Import contacts to Mi Account</string>
   <string name="import_to_xiaomi_account_title">Import to Mi Account</string>
-  <string name="import_vcard_description">"Import contacts from your phone's internal storage"</string>
+  <string name="import_vcard_description">Import contacts from your SD card</string>
   <string name="import_vcard_dialog_message">Import vCard?</string>
   <string name="import_weibo_dialog_title">Import Weibo contacts</string>
   <string name="import_weibo_error_no_matched_contacts">No matching contacts</string>
@@ -593,11 +594,6 @@ Reason: \"%s\""</string>
   <string name="list_filter_customize">Customize</string>
   <string name="list_filter_phones">All contacts with phone numbers</string>
   <string name="list_filter_single">Contact</string>
-  <string name="live_talk_switch_on_toast">Turned on Top-up package successfully</string>
-  <string name="livetalk_charge">Top up</string>
-  <string name="livetalk_left">Remaining</string>
-  <string name="livetalk_switch_on">Turn on</string>
-  <string name="livetalk_title">Top-up package</string>
   <string name="loading_accounts">Just a sec…</string>
   <string name="loading_group_members">Just a sec…</string>
   <string name="loading_groups">Just a sec…</string>
@@ -838,7 +834,7 @@ To add a contact to your list of favorites:
   <string name="no_contacts_dialog_message">"Contacts may be stored on your SIM card. Try importing them from your SIM card to your phone's internal storage and then try again."</string>
   <string name="no_contacts_dialog_title">"Can't find contacts"</string>
   <string name="no_contacts_selected">No contacts selected.</string>
-  <string name="no_sdcard_message">No storage was found.</string>
+  <string name="no_sdcard_message">No SD card was found.</string>
   <string name="non_phone_add_to_contacts">Add to an existing contact</string>
   <string name="non_phone_caption">Phone number</string>
   <string name="non_phone_close">Close</string>
@@ -925,7 +921,7 @@ To add a contact to your list of favorites:
   <string name="postal_region">State</string>
   <string name="postal_street">Street</string>
   <string name="pref_key_photo">Photo</string>
-  <string name="pref_key_photo_word_summary">Automatically assign a picture to contacts without one</string>
+  <string name="pref_key_photo_word_summary">Automatically assign a photo to contacts without one</string>
   <string name="pref_key_photo_word_title">Assign contact photos</string>
   <string name="pref_key_rebuild_t9_index_message">Rebuild index to resolve search issues</string>
   <string name="pref_key_rebuild_t9_index_title">Rebuild index data</string>
@@ -959,8 +955,8 @@ To add a contact to your list of favorites:
   <string name="preference_phone">Phone</string>
   <string name="preference_phone_more_title">Call settings</string>
   <string name="preference_remove_duplicate">Merge duplicate contacts</string>
-  <string name="preference_show_yellowpage_tab_description">Close the YellowPage tab, the YellowPage function will not work properly</string>
-  <string name="preference_show_yellowpage_tab_title">Show the YellowPage entry</string>
+  <string name="preference_show_yellowpage_tab_description">Yellow pages might not work properly when this feature is off.</string>
+  <string name="preference_show_yellowpage_tab_title">Show Yellow pages</string>
   <string name="preference_simple_mode_description">Display photos and other contact info in list view</string>
   <string name="preference_simple_mode_title">Display photos and info</string>
   <string name="preference_smart_group_company_summary">Group by company</string>
@@ -1041,7 +1037,7 @@ To add a contact to your list of favorites:
   <string name="scan_qrcode_card_hint1">Scan the QR code above</string>
   <string name="scan_qrcode_card_hint2"/>
   <string name="scanning_sdcard_failed_message">Reason: \"%s\".</string>
-  <string name="scanning_sdcard_failed_title">"The storage couldn't be scanned"</string>
+  <string name="scanning_sdcard_failed_title">"The SD card couldn't be scanned"</string>
   <string name="searchHint">Search contacts</string>
   <string name="search_batch_delete">Organize;Contacts</string>
   <string name="search_contacts_display">Contacts;Display</string>
@@ -1069,7 +1065,7 @@ To add a contact to your list of favorites:
   <string name="search_simple_mode">Display;info;photos;Contacts</string>
   <string name="search_smart_group_title">Contacts;Display</string>
   <string name="search_wipe_data">Organize;Contacts</string>
-  <string name="searching_vcard_message">Searching for vCard data in storage…</string>
+  <string name="searching_vcard_message">Searching for vCard data on SD card…</string>
   <string name="select_all">Select all</string>
   <string name="select_all_exceed">"Select no more than %1$d, can't select all"</string>
   <string name="select_exceed">Select no more than %1$d</string>
@@ -1086,7 +1082,7 @@ To add a contact to your list of favorites:
   <string name="service_provider_detail">Directory details</string>
   <string name="set_data_package">Set data plan first</string>
   <string name="set_default">Set default</string>
-  <string name="set_photo_failed_msg">"Couldn't assign picture."</string>
+  <string name="set_photo_failed_msg">"Couldn't assign photo"</string>
   <string name="share_error">"This contact can't be shared"</string>
   <string name="share_over_limit">"Can't share over 1000 contacts"</string>
   <string name="share_via">Send using</string>
@@ -1118,6 +1114,7 @@ To add a contact to your list of favorites:
   <string name="sim_error_password_error">The password you entered is incorrect</string>
   <string name="sim_error_storage_full">SIM card storage is full</string>
   <string name="sim_error_text_too_long">Name is too long</string>
+  <string name="sim_export_error">SIM not ready, try again later</string>
   <string name="sim_export_loading">Reading SIM card…</string>
   <string name="sim_indexed_contact_not_exist">Position %1$d on SIM card is invalid. Position must be between %2$d and %3$d.</string>
   <string name="sim_no_contact">No contacts on SIM card</string>
@@ -1173,7 +1170,7 @@ To add a contact to your list of favorites:
   <string name="success_message_import_from_account">Contact imported</string>
   <string name="summary_kind_title">Summary</string>
   <string name="t9_search_empty_create_contact">New contact</string>
-  <string name="t9_search_empty_edit_contact">Add to contact</string>
+  <string name="t9_search_empty_edit_contact">Add to contacts</string>
   <string name="t9_search_empty_send_sms">Send message</string>
   <string name="t9_search_empty_video_call">Video call</string>
   <string name="t9_search_guide_pinyin_title1">Enter numbers to find contacts</string>
@@ -1195,6 +1192,7 @@ To add a contact to your list of favorites:
   <string name="toast_for_saving_nickname">Nickname saved</string>
   <string name="toast_join_with_empty_contact">Type contact name before merging with another</string>
   <string name="toast_making_personal_copy">Creating a personal copy…</string>
+  <string name="toast_start_intent_failed">"Couldn't find apps to handle this action"</string>
   <string name="toast_text_copied">Text copied</string>
   <string name="today">Today</string>
   <string name="tomorrow">Tomorrow</string>
@@ -1205,12 +1203,13 @@ To add a contact to your list of favorites:
   <string name="type_outgoing">Outgoing call</string>
   <string name="type_voicemail">Voicemail</string>
   <string name="unable_get_device_id">Unable to get IMEI</string>
-  <string name="unfold_all">unfold all</string>
+  <string name="unfold_all">Show all</string>
   <string name="unknow_phone_number_call_failed">"Can't call unknown number"</string>
   <string name="unknow_phone_number_mms_failed">"Can't send message to unknown number"</string>
   <string name="unknown">Unknown</string>
   <string name="unknown_contact_name">Unknown contact</string>
-  <string name="unknown_details_new_contact">New contact</string>
+  <string name="unknown_details_add_to_contact">Existing</string>
+  <string name="unknown_details_new_contact">New</string>
   <string name="update_sim_contact_photo_toast">"Can't set profile photos for SIM contacts"</string>
   <string name="upgrade_in_progress">Contact list is being updated.</string>
   <string name="upgrade_out_of_memory">"Contacts are in the process of being upgraded. 

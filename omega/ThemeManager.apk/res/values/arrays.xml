@@ -54,20 +54,6 @@
         <item>SoundRecorderRewind</item>
         <item>LowBattery</item>
     </string-array>
-    <string-array name="wallpaper_settings_precust_cover_name">
-        <item>Entertainment</item>
-        <item>Landscape</item>
-        <item>Starry sky</item>
-        <item>Botany</item>
-        <item>Animal</item>
-    </string-array>
-    <string-array name="wallpaper_settings_precust_cover_uuid">
-        <item>a8320241-9e6c-4ebf-b569-7ccbb12b839e</item>
-        <item>3577e14b-e504-4460-9f12-d15041809dcd</item>
-        <item>0956601e-6402-4b44-b56d-51a3bd695a35</item>
-        <item>1c27c5de-57de-4f3a-9232-25451d24c15c</item>
-        <item>082a203b-9031-4e77-8fed-4371b508a673</item>
-    </string-array>
     <string-array name="disable_package_replacement">
         <item>disable package name</item>
     </string-array>

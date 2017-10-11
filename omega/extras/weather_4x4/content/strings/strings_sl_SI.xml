@@ -1,5 +1,5 @@
 <resources>
-    <string name="date_format">dd.MM. EEEE</string>
+    <string name="date_format">dd. MM. EEEE</string>
     <string name="today">Danes</string>
     <string name="tomorrow">Jutri</string>
     <string name="aqi_pure"/>
@@ -11,7 +11,7 @@
     <string name="aqi_hazardous"/>
     <string name="aqi_break"/>
     <string name="weather_type_null">'Ni podatkov'</string>
-    <string name="weather_type_0">Vedro</string>
+    <string name="weather_type_0">Jasno</string>
     <string name="weather_type_1">Oblačno</string>
     <string name="weather_type_2">Megleno</string>
     <string name="weather_type_3">Megla</string>

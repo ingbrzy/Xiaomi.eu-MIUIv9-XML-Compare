@@ -9,6 +9,7 @@
         <item>com.miui.whetstone/.net.MiuiDnsService</item>
         <item>com.xiaomi.metok/.MetokClService</item>
         <item>com.miui.sysbase/.MetokClService</item>
+        <item>com.xiaomi.joyose/.smartop.SmartOpService</item>
     </string-array>
     <string-array name="allow_persist_service">
         <item>com.miui.virtualsim</item>
@@ -21,6 +22,7 @@
     </string-array>
     <string-array name="restart_persist_service">
         <item>com.miui.powerkeeper</item>
+        <item>com.xiaomi.joyose</item>
     </string-array>
     <string-array name="notbind_persist_service">
         <item>com.miui.klo.bugreport</item>
@@ -56,6 +58,7 @@
         <item>com.google.android.marvin.talkback</item>
         <item>com.android.updater</item>
         <item>org.simalliance.openmobileapi.service</item>
+        <item>com.qualcomm.wfd.service</item>
     </string-array>
     <string-array name="deepclean_no_ui_white_list">
         <item>com.miui.powerkeeper</item>
@@ -200,6 +203,7 @@
     </string-array>
     <string-array name="special_foreground_package">
         <item>com.android.chrome</item>
+        <item>com.yandex.browser</item>
     </string-array>
     <string-array name="aborted_packages">
         <item>com.android.browser</item>
