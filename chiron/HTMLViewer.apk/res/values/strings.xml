@@ -4,7 +4,7 @@
   <string name="app_label">HTML Viewer</string>
   <string name="app_name_which_call">App: %s</string>
   <string name="app_version_which_call">App version: %s</string>
-  <string name="autoconnect">AutoConnect</string>
+  <string name="autoconnect">Connect automatically</string>
   <string name="ime_privacy_policy">Choose keyboard</string>
   <string name="license_host_unreachable">"Couldn't connect to the network. To view this information now,
 go to %s on another connected device."</string>
