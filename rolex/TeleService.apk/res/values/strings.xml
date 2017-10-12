@@ -526,7 +526,7 @@ Switch to the new provider anyway?"</string>
   <string name="gsm_umts_options">GSM/UMTS Options</string>
   <string name="hac_mode_summary">Turn on hearing aid compatibility</string>
   <string name="hac_mode_title">Hearing aids</string>
-  <string name="handon_ringer_summary">"Reduce ringer volume for incoming call when phone is raised. This feature doesn't work when vibration for incoming calls is on."</string>
+  <string name="handon_ringer_summary">Reduce ringer volume for incoming call when phone is raised.</string>
   <string name="handon_ringer_title">Quiet ringer when lifted</string>
   <string name="hintName">Name</string>
   <string name="hintPhonenumber">Phone number</string>
@@ -1271,7 +1271,7 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="tty_mode_not_allowed_video_call">TTY Mode change is not allowed during a video call</string>
   <string name="tty_mode_option_summary">Set TTY mode</string>
   <string name="tty_mode_option_title">TTY mode</string>
-  <string name="turnover_mute_summary">"When phone is rotated horizontally, flip it over to silence ringer. This feature doesn't work when vibration for incoming calls is on."</string>
+  <string name="turnover_mute_summary">When phone is rotated horizontally, flip it over to silence ringer.</string>
   <string name="turnover_mute_title">Flip to silence ringer</string>
   <string name="ui_default_package">com.android.dialer</string>
   <string name="undefined">None</string>
