@@ -167,7 +167,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="add_fingerprint_edge_instruction_title">Move your finger slightly</string>
   <string name="add_fingerprint_failed_retry_text">"Couldn't add fingerprint, try again"</string>
   <string name="add_fingerprint_finished_button_text">Done</string>
-  <string name="add_fingerprint_instruction_msg">Use your fingerprint to unlock your device and complete payments.</string>
+  <string name="add_fingerprint_instruction_msg">Fingerprint sensor is built in the Home button of your device.</string>
   <string name="add_fingerprint_instruction_title">Add your fingerprint</string>
   <string name="add_fingerprint_name_suggest_text">Fingerprint name</string>
   <string name="add_fingerprint_put_finger_edge_msg">Move your finger slightly and put it on the sensor again to add all the different parts of your fingerprint.</string>
@@ -3772,7 +3772,6 @@ Note: Your fingerprint may be less secure than a strong pattern or PIN. "&lt;ann
   <string name="settings_safetylegal_title">Safety information</string>
   <string name="settings_shortcut">Settings shortcut</string>
   <string name="settings_toggle_position_divider_list">Toggles placed above bar are active</string>
-  <string name="setup_add_fingerprint_failed_retry_text">"Couldn't add fingerprint"</string>
   <string name="setup_choose_unlock_fingerprint_msg">Set screen lock before adding your fingerprint.</string>
   <string name="setup_choose_unlock_mixed_password">Password</string>
   <string name="setup_choose_unlock_mixpassword_title">Set password</string>
