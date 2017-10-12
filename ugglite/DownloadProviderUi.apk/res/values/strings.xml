@@ -205,12 +205,16 @@
   <string name="member_cost">Annual</string>
   <string name="menu_all_task_pause">Pause all</string>
   <string name="menu_all_task_start">Start all</string>
+  <string name="menu_back">返回迅雷会员服务</string>
+  <string name="menu_des_more">更多</string>
+  <string name="menu_des_vip">迅雷会员</string>
   <string name="menu_enter_edit_mode">Editor</string>
   <string name="menu_preferences">Downloads settings</string>
   <string name="menu_title_fileexplore">Explorer</string>
   <string name="menu_title_pause_all">Pause all</string>
   <string name="menu_title_resume_all">Start all</string>
   <string name="menu_title_settings">Settings</string>
+  <string name="menu_vip_unbind">解绑</string>
   <string name="mi_money">Mi Credits</string>
   <string name="mi_money_">Mi Credits</string>
   <string name="missing_title">&lt;Unknown&gt;</string>
