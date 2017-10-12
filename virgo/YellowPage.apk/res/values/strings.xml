@@ -421,6 +421,7 @@ Total: RMB %3$s"</string>
   <string name="search_keywords_express">express;shunfeng;shentong;debang;kuaidi;danhao;</string>
   <string name="search_title_express">Query or send express</string>
   <string name="select_package_before_buy">Select package</string>
+  <string name="send_shortcut_already_exists">Home screen already exists</string>
   <string name="send_shortcut_failed">"Couldn't send"</string>
   <string name="send_shortcut_success">Placed on Home screen</string>
   <string name="sending_shortcut">Sending…</string>
