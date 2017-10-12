@@ -336,22 +336,14 @@
     <integer-array name="support_networktypes_gsm_vice">
         <item>1</item>
     </integer-array>
-    <string-array name="region_not_support_volte">
-        <item>HK</item>
-        <item>TW</item>
-        <item>ID</item>
-        <item>PL</item>
-        <item>GR</item>
-        <item>SG</item>
-        <item>SK</item>
-        <item>TH</item>
-        <item>RU</item>
-        <item>MX</item>
-        <item>VN</item>
-        <item>ZA</item>
-        <item>EE</item>
-        <item>LV</item>
-        <item>LT</item>
-        <item>AE</item>
+    <string-array name="region_support_volte">
+        <item>HK;capricorn,gemini,lithium,natrium,sagit,scorpio,chiron</item>
+        <item>CN</item>
+        <item>IN</item>
+        <item>MY</item>
+        <item>KP;capricorn,gemini,lithium,natrium,sagit,scorpio,chiron</item>
+        <item>KH;capricorn,gemini,lithium,natrium,sagit,scorpio,chiron</item>
+        <item>US;scorpio,chiron</item>
+        <item>TW;sagit,chiron</item>
     </string-array>
 </resources>

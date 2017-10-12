@@ -69,6 +69,7 @@
   <string name="battery_low_title">Connect charger</string>
   <string name="battery_profiles">Use battery profiles</string>
   <string name="block_notification_content_text">"%1$s's notifications won't be shown again. You can change this in the Settings."</string>
+  <string name="block_notification_desc">"The app's notifications won't be shown again. You can change this in the Settings."</string>
   <string name="block_notification_text">Hide</string>
   <string name="block_record_notification_text">Hiding notifications from %1$s.</string>
   <string name="block_record_notification_title">Notifications hidden</string>
@@ -238,6 +239,7 @@ Use only the supplied charger."</string>
   <string name="screenshot_long_screenshot">Scroll</string>
   <string name="screenshot_saved_text">Tap to view your screenshot.</string>
   <string name="screenshot_send">Send</string>
+  <string name="search_hint">Search for websites, apps, contacts, videos...</string>
   <string name="settings_custom_notification">Manage notifications</string>
   <string name="settings_toggle_position">Manage toggles</string>
   <string name="settings_toggle_position_divider_list">Toggles above this bar are active</string>
