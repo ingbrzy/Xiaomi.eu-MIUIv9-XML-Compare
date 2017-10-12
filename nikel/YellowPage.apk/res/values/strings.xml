@@ -142,7 +142,7 @@ Check your tracking number."</string>
   <string name="express_install_cainiao_ok">Download</string>
   <string name="express_install_cainiao_title">Install Cainiao</string>
   <string name="express_install_delivery_service">Delivery services</string>
-  <string name="express_install_open_locker">One step to open locker</string>
+  <string name="express_install_open_locker">Open locker</string>
   <string name="express_install_order_detail">Checking order details</string>
   <string name="express_install_schedule_delivery">Scheduling delivery</string>
   <string name="express_location_failed">"Couldn't locate you. Enter your address."</string>
@@ -421,6 +421,7 @@ Total: RMB %3$s"</string>
   <string name="search_keywords_express">express;shunfeng;shentong;debang;kuaidi;danhao;</string>
   <string name="search_title_express">Query or send express</string>
   <string name="select_package_before_buy">Select package</string>
+  <string name="send_shortcut_already_exists">Home screen already exists</string>
   <string name="send_shortcut_failed">"Couldn't send"</string>
   <string name="send_shortcut_success">Placed on Home screen</string>
   <string name="sending_shortcut">Sending…</string>
@@ -444,12 +445,14 @@ Total: RMB %3$s"</string>
   <string name="turn_off_hint_title">Turn off Caller ID?</string>
   <string name="turn_off_phone_event_hint">"You won't be able to see flag info for unknown phone numbers."</string>
   <string name="turn_off_smart_antispam_hint">"You won't be able to see flag info for incoming calls from unknown phone numbers."</string>
+  <string name="turn_on_online_antispam_enable">Turn on</string>
+  <string name="turn_on_online_antispam_summary">Turn on Caller ID to recognize unknown numbers.</string>
+  <string name="turn_on_online_antispam_title">Turn on Caller ID</string>
   <string name="turn_on_phone_event_dialog_title">Update Caller ID database</string>
   <string name="turn_on_phone_event_summary">Allow Yellow pages to receive and upload the service info of the verified service providers.</string>
   <string name="turn_on_phone_event_title">Receive service info</string>
   <string name="turn_on_smart_antispam_hint">Identify calls from unknown numbers</string>
-  <string name="turn_on_smart_antispam_summary_off">Upload and identify unknown phone numbers from call history and text messages</string>
-  <string name="turn_on_smart_antispam_summary_on">Upload and identify unknown phone numbers from call history and text messages</string>
+  <string name="turn_on_smart_antispam_summary">Upload and identify unknown phone numbers from call history and text messages</string>
   <string name="turn_on_smart_antispam_title">Caller ID</string>
   <string name="turn_on_yellowpage_service_title">Use Caller ID</string>
   <string name="uploads_disabled">File uploads are disabled</string>
