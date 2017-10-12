@@ -115,7 +115,7 @@ Note: Triple-tap for magnification works everywhere except the keyboard and navi
   <string name="add_fingerprint_edge_instruction_title">Move your finger slightly</string>
   <string name="add_fingerprint_failed_retry_text">"Couldn't add fingerprint, try again"</string>
   <string name="add_fingerprint_finished_button_text">Done</string>
-  <string name="add_fingerprint_instruction_msg">Use your fingerprint to unlock your device and complete payments.</string>
+  <string name="add_fingerprint_instruction_msg">Fingerprint sensor is built in the Home button of your device.</string>
   <string name="add_fingerprint_instruction_title">Add your fingerprint</string>
   <string name="add_fingerprint_name_suggest_text">Fingerprint name</string>
   <string name="add_fingerprint_put_finger_edge_msg">Move your finger slightly and put it on the sensor again to add all the different parts of your fingerprint.</string>
@@ -3831,6 +3831,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="tethering_help_button_text">Help</string>
   <string name="tethering_settings_not_available">Change tethering settings in First space</string>
   <string name="theme_settings_title">Themes</string>
+  <string name="thememanager_not_found">"Couldn't open Themes. Make sure the app is installed."</string>
   <string name="three_gesture_down">Slide 3 fingers down</string>
   <string name="time_picker_title">Time</string>
   <string name="time_zone_auto_stub">Select Time Zone</string>
