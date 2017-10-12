@@ -23,10 +23,14 @@
   <string name="action_menu_account_not_login_hint">Sign in to sync with Mi Cloud</string>
   <string name="action_menu_bookshelf">Bookshelf</string>
   <string name="action_menu_current_version">Current version</string>
+  <string name="action_menu_request_desktop_site">Request desktop site</string>
+  <string name="action_menu_request_desktop_site_off">Request desktop site/off</string>
+  <string name="action_menu_request_desktop_site_on">Request desktop site/on</string>
   <string name="action_menu_text_add_bookmark">Add bookmark</string>
   <string name="action_menu_text_bandwidth">Data saver</string>
   <string name="action_menu_text_bandwidth_off">Data saver</string>
   <string name="action_menu_text_bandwidth_on">Data saver</string>
+  <string name="action_menu_text_bookmark_add_off">No web page can be added.</string>
   <string name="action_menu_text_bookmark_added">Bookmark added</string>
   <string name="action_menu_text_copy_url">Copy URL</string>
   <string name="action_menu_text_create_qr_code">QR code</string>
@@ -61,6 +65,7 @@
   <string name="add_favorites_to">Add to favorites</string>
   <string name="add_new_bookmark">Add bookmark</string>
   <string name="add_new_quicklink">Add to start page</string>
+  <string name="add_pwa_to_homescreen">Add this web to home screen?</string>
   <string name="add_ql_bm_title">Save</string>
   <string name="add_quicklink_to_popular">Add to start page</string>
   <string name="add_quicklinks">Add</string>
@@ -74,6 +79,7 @@
   <string name="added_to_bookmarks">Added to bookmarks</string>
   <string name="adjust_text_zoom_toast">Changing text zoom may cause some websites to display incorrectly</string>
   <string name="agree">Agree</string>
+  <string name="agree_permissions_request">Agree</string>
   <string name="alert_tips">This site may be a security risk</string>
   <string name="alisdk_message_10000_action">请检查对应名称模块的库文件是否包含在当前开发应用的依赖库里面</string>
   <string name="alisdk_message_10000_message">JS Bridge 载入器未找到名称为 {0} 的模块</string>
@@ -290,6 +296,7 @@
   <string name="browserFrameFormResubmitMessage">"The page you're trying to view contains data that has already been submitted. If you resend the data, previous actions (e.g. searches or purchases) will be repeated."</string>
   <string name="browserFrameNetworkErrorLabel">Connection error</string>
   <string name="cancel">Cancel</string>
+  <string name="cancle_sync_cloud_tabs">Cancel sync</string>
   <string name="cannot_download">Can only download \"http\" or \"https\" URLs</string>
   <string name="choosertitle_sharevia">Share via</string>
   <string name="clear_history">Clear history</string>
@@ -375,6 +382,7 @@
   <string name="contextmenu_manually_block_ad">Label as ad</string>
   <string name="contextmenu_map">Map</string>
   <string name="contextmenu_openlink">Open</string>
+  <string name="contextmenu_openlink_in_browser">Open in Browser</string>
   <string name="contextmenu_openlink_newwindow">Open in new tab</string>
   <string name="contextmenu_openlink_newwindow_background">Open in background tab</string>
   <string name="contextmenu_recognise_qr_code">Scan QR code</string>
@@ -384,7 +392,7 @@
   <string name="contextmenu_share_image">Share image</string>
   <string name="contextmenu_sharelink">Share link</string>
   <string name="contextmenu_view_image">View image</string>
-  <string name="contextmenu_webpage_capture">Save as screenshot</string>
+  <string name="contextmenu_webpage_capture">Screenshot</string>
   <string name="contextmenu_webpage_html">Save as HTML file</string>
   <string name="contextmenu_webpage_snapshot">Save page</string>
   <string name="copy_to_clipboard_failure_message">Failed to copy to the clipboard</string>
@@ -477,6 +485,9 @@ Pages you view won't appear in history."</string>
   <string name="edit_quicklink">Edit</string>
   <string name="empty_app_name">other app</string>
   <string name="empty_bookmark">Empty</string>
+  <string name="empty_cloud_tab_login_hint">No cloud tabs</string>
+  <string name="empty_cloud_tab_logout_hint">"Login mi account
+ tabs opened in other devices will show here"</string>
   <string name="empty_history_hint">History is empty</string>
   <string name="empty_snapshot_hint">Empty</string>
   <string name="enable_geolocation_confirm_message">Turning off location services will affect the recommendations you receive.</string>
@@ -504,6 +515,7 @@ Pages you view won't appear in history."</string>
   <string name="find_on_page_next">Next</string>
   <string name="find_on_page_prev">Back</string>
   <string name="find_previous">Find previous</string>
+  <string name="finish_sync_cloud_tabs">Sync finished</string>
   <string name="firstUsingSearchEngineTips">Switch search engine?</string>
   <string name="fling_on_border_gesture_hint">You can choose the function of this gesture in Settings</string>
   <string name="force_quick_search_title">Search</string>
@@ -538,6 +550,7 @@ Pages you view won't appear in history."</string>
   <string name="homepage_more_sites">More websites</string>
   <string name="homepage_search_hint">Search</string>
   <string name="homepage_top_card_menu">Top</string>
+  <string name="ignore_add_pwa_dialog_today">Not show today</string>
   <string name="in_incognito">"You're incognito! Web pages you view in this tab won't appear in your browser history."</string>
   <string name="in_secureaccess">Browser switched to Safe mode</string>
   <string name="isReplacePage">File already exists, replace?</string>
@@ -747,9 +760,12 @@ Leave this page?"</string>
   <string name="pay_failed_toast">"Couldn't complete payment"</string>
   <string name="pay_success_toast">Paid successfully</string>
   <string name="permission_alert_window">Allow pop-up windows to use this feature</string>
+  <string name="permission_notification">send you notifications</string>
   <string name="permission_unknown">Unknown action</string>
+  <string name="permissions_prompt_message">"%s wants to "</string>
   <string name="popup_window_attempt">Allow this site to open a pop-up window?</string>
   <string name="positive_confirm_message">Turn off anyway</string>
+  <string name="pref_accept_quicklink_push">Start page push</string>
   <string name="pref_accessibility">Accessibility</string>
   <string name="pref_accessibility_title">Accessibility</string>
   <string name="pref_accessibility_url_shortcut_enter_summary">Common letter combinations can be entered in one tap in the address bar</string>
@@ -793,7 +809,7 @@ Leave this page?"</string>
   <string name="pref_extras_reset_default_summary">Restore default settings</string>
   <string name="pref_extras_reset_default_title">Other</string>
   <string name="pref_extras_send_feedback">Send feedback</string>
-  <string name="pref_extras_title">Advanced</string>
+  <string name="pref_extras_title">Advanced setting</string>
   <string name="pref_extras_title_version">Version info</string>
   <string name="pref_file_downlaod_save_is_reset_default_settings">"Save files to Browser's default location"</string>
   <string name="pref_file_downlaod_save_reset_default_settings">Restore default location</string>
@@ -876,12 +892,14 @@ Leave this page?"</string>
   <string name="progress_dialog_setting_wallpaper">Setting wallpaper…</string>
   <string name="pull_to_refresh_pull_label">Pull to refresh</string>
   <string name="pull_to_refresh_release_label">Release to recommend and refresh</string>
+  <string name="pwa_app_name">Web App</string>
   <string name="qr_code_title">QR Code</string>
   <string name="qr_description">Scan QR code</string>
   <string name="quicklink_bookmark_save">Save to</string>
   <string name="quicklink_cannot_save_url">"This URL can't be added."</string>
   <string name="quicklink_folder_text">Top apps</string>
   <string name="quicklink_not_saved">"Couldn't add to start page"</string>
+  <string name="quicklink_push_confirm_message">Turning this feature off will affect start page push.</string>
   <string name="quicklink_saved">Saved to start page</string>
   <string name="quicklink_saved_before">This site has already been added</string>
   <string name="quicklink_user_define_webpage_title">Name</string>
@@ -904,6 +922,7 @@ Leave this page?"</string>
   <string name="readmode_recommend_message">"You've read this book already. :)"</string>
   <string name="readmode_refresh">Refresh</string>
   <string name="readmodelist_bookmarks_to_show">Reading list</string>
+  <string name="refuse_permissions_request">Refuse</string>
   <string name="remember_passwords_confirm_message">Turning this feature off may affect usage.</string>
   <string name="remove_bookmark">Delete bookmark</string>
   <string name="remove_bookmark_group">Delete group</string>
@@ -1016,16 +1035,24 @@ Leave this page?"</string>
   <string name="suggest_access_btn_play">Play</string>
   <string name="suggest_access_btn_view">View</string>
   <string name="suggest_access_item_album_songs">%d songs</string>
+  <string name="suggest_access_item_app_mark">APP</string>
   <string name="suggest_access_item_app_size">%.2fMB</string>
   <string name="suggest_access_item_app_update">Update: %s</string>
+  <string name="suggest_access_item_book_mark">BOOK</string>
+  <string name="suggest_access_item_mina_mark">DIRECT SERVICE</string>
+  <string name="suggest_access_item_music_mark">MUSIC</string>
   <string name="suggest_access_item_singer_albums">%d albums</string>
   <string name="suggest_access_item_singer_pop">%d popular songs</string>
+  <string name="suggest_access_item_site_mark">SITES</string>
+  <string name="suggest_access_item_video_mark">VIDEO</string>
+  <string name="suggest_access_item_website_mark">WEBSITE</string>
   <string name="suggest_access_music">Mi Music</string>
   <string name="suggest_item_delete_text">Delete</string>
   <string name="suggest_open_app_failed">"Couldn't open this app"</string>
   <string name="switchText">YES</string>
   <string name="switch_proxy_dialog_msg">"Network hijacking detected. Use MIUI's built-in Security app or report this to your mobile operator."</string>
   <string name="switch_proxy_dialog_title">Network hijacking</string>
+  <string name="sync_cloud_tabs">Sync</string>
   <string name="tab_hotpage">News feed</string>
   <string name="tab_quicklinks">Start page</string>
   <string name="tab_yellowpage">Links</string>

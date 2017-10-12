@@ -418,14 +418,6 @@
         <item>#ff6d5dc9</item>
         <item>#ff8d4370</item>
     </array>
-    <string-array name="aqi_level_desc">
-        <item>空气优</item>
-        <item>空气良</item>
-        <item>轻度污染</item>
-        <item>中度污染</item>
-        <item>重度污染</item>
-        <item>严重污染</item>
-    </string-array>
     <string-array name="aqi_level_simple_desc">
         <item>优</item>
         <item>良</item>
@@ -477,12 +469,6 @@
         <item>程杰</item>
         <item>宋小宝</item>
         <item>郭德纲</item>
-    </string-array>
-    <string-array name="global_criket_match">
-        <item>IPL</item>
-        <item>International</item>
-        <item>Domestic</item>
-        <item>T20 Leagues</item>
     </string-array>
     <array name="month_today_colors">
         <item>#ff1db3af</item>
