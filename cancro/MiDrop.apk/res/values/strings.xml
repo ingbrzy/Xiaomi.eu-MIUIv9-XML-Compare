@@ -2,6 +2,14 @@
 <resources>
   <string name="Connect">Connect</string>
   <string name="Disconnect">Disconnect</string>
+  <string name="HIPS_Perm_External_Storage">Access and change files on internal storage</string>
+  <string name="HIPS_Perm_Location">Get location info</string>
+  <string name="HIPS_Perm_PhoneID">Get device info</string>
+  <string name="HIPS_Perm_Settings">Modify system settings</string>
+  <string name="HIPS_Perm_WIFI_Connectivity">Change WLAN connectivity</string>
+  <string name="HIPS_Perm_background_start_activity">Start in background</string>
+  <string name="HIPS_Perm_get_accounts">Access accounts on device</string>
+  <string name="HIPS_Perm_get_installed_apps">Get info about installed apps</string>
   <string name="Register">register</string>
   <string name="Start">Start</string>
   <string name="StartScan">StartScan</string>
@@ -19,11 +27,14 @@
   <string name="action_p2pls">P2pLegacyStation</string>
   <string name="action_settings">Settings</string>
   <string name="app_name">Mi Drop</string>
+  <string name="btn_goto_grant">Allow</string>
   <string name="cancel_confirm">Cancel</string>
   <string name="cancel_confirm_title">"Transfer isn't complete, cancel now?"</string>
   <string name="cancel_receive_confirm">Cancel</string>
   <string name="cancel_receive_stop">Keep receiving</string>
   <string name="cancel_stop">Keep sending</string>
+  <string name="description_content">Mi Drop allows you to send and recive files from people nearby. Make sure you can do without Mi Drop before you uninstall the app.</string>
+  <string name="description_title">About Mi Drop</string>
   <string name="file_not_support">"This file type isn't supported."</string>
   <string name="hello_world">Hello world!</string>
   <string name="help">Help</string>
@@ -56,6 +67,8 @@
   <string name="receiver_succeed_ok">OK</string>
   <string name="receiver_succeed_view">View file</string>
   <string name="receiver_transfer_interrupt">"Transfer interrupted, don't turn off WLAN hotspot during the transfer."</string>
+  <string name="request_permission_msg">Mi Drop requires the following permissions: %s. Allow?</string>
+  <string name="request_permission_title">Permissions are required</string>
   <string name="runtime_permission_ungranted">Mi Drop needs permissions in order to work normally.</string>
   <string name="send_file_time_format_m">m:s</string>
   <string name="send_file_time_format_s">s</string>
@@ -76,6 +89,7 @@
   <string name="sender_transfer_interrupt">"Transfer interrupted, don't turn off WLAN during the transfer."</string>
   <string name="sender_wait">Waiting…</string>
   <string name="sender_wait_queue">Waiting…</string>
+  <string name="split_comma">,</string>
   <string name="title_activity_bonjour">BonjourActivity</string>
   <string name="title_activity_intro">IntroActivity</string>
   <string name="title_activity_main">MainActivity</string>
