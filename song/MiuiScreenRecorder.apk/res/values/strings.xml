@@ -14,7 +14,7 @@
   <string name="button_goon_recorder">Resume</string>
   <string name="cancel_edit">Cancel</string>
   <string name="cannot_change_parames">"Couldn't change parameters while recording"</string>
-  <string name="cannot_record">"Couldn't record, please try again later."</string>
+  <string name="cannot_record">"Couldn't record, try again later."</string>
   <string name="date_day"/>
   <string name="date_month">/</string>
   <string name="date_year">/</string>
@@ -22,7 +22,7 @@
   <string name="error_open_file_failed_no_app_found">"Couldn't find an app to open this file"</string>
   <string name="frames">Frame rate</string>
   <string name="frames_summary">Higher frame rates reduce motion blur</string>
-  <string name="frequently_click_toast">Service initializing, please wait a moment</string>
+  <string name="frequently_click_toast">Just a sec…</string>
   <string name="gleam_led_while_recording">Flash notification light while recording</string>
   <string name="hint_back">Back</string>
   <string name="hint_home">Home</string>
@@ -47,6 +47,8 @@
   <string name="operation_delete">Delete</string>
   <string name="operation_send">Send</string>
   <string name="quit_recording">Quit Screen recorder</string>
+  <string name="recording_failure">"Couldn't record, start over"</string>
+  <string name="recording_max_size">"Recording was stopped and saved because the video file reached its size limit. Start recording from where you left off if you haven't finished yet."</string>
   <string name="resolution">Resolution</string>
   <string name="resolution_summary">Videos with higher resolution look sharper</string>
   <string name="screen_orientation">Orientation</string>
@@ -61,8 +63,10 @@
   <string name="sound_source">Sound source</string>
   <string name="sound_source_summary">System sounds or microphone</string>
   <string name="start">Start</string>
+  <string name="start_recording">Start recording</string>
   <string name="stop_by_second_space">Switching spaces will stop the recording</string>
   <string name="stop_record_while_locking">Lock screen to end</string>
   <string name="stop_record_while_locking_summary">End recording and save video when the screen is locked</string>
+  <string name="stop_recording">Stop recording</string>
   <string name="timer_format">%s</string>
 </resources>

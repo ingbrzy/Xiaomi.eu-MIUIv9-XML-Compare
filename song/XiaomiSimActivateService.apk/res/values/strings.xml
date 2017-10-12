@@ -104,16 +104,16 @@ Enter the phone number associated with your new SIM card to reactivate %s"</stri
   <string name="activate_status_desc_wait_for_sms_success">Received activation SMS from server</string>
   <string name="activate_status_title_activating">Activating SIM card…</string>
   <string name="activate_status_title_activating_msim">Activating SIM card %d…</string>
-  <string name="agree">Agree</string>
+  <string name="agree">Allow</string>
   <string name="app_name">Xiaomi SIM Activate Service</string>
   <string name="explain_send_sms_permission_button">Verify</string>
   <string name="explain_send_sms_permission_msg">To turn on %s, Xiaomi Service Framework will send SMS to verify your phone number. You will be charged for the regular SMS by the carrier.</string>
   <string name="explain_send_sms_permission_title">Verify your phone number</string>
-  <string name="phone_get_processing">getting…</string>
-  <string name="phone_get_text">Do you agree %1$s to get your phone number：%2$s</string>
-  <string name="phone_get_title">Agree %1$s to get your phone number</string>
-  <string name="phone_verify_processing">verifying…</string>
-  <string name="phone_verify_text">%1$s will not get your phone number，just verify your phone number is match。</string>
-  <string name="phone_verify_title">Agree %1$s to verify your phone number</string>
+  <string name="phone_get_processing">Getting…</string>
+  <string name="phone_get_text">Allow %1$s to get your phone number (%2$s)?</string>
+  <string name="phone_get_title">Allow %1$s to get your phone number</string>
+  <string name="phone_verify_processing">Verifying…</string>
+  <string name="phone_verify_text">"%1$s won't get your phone number. It will just make sure the number is valid. Agree?"</string>
+  <string name="phone_verify_title">Allow %1$s to verify your phone number</string>
   <string name="sim_unactivated_title">"Your SIM card isn't activated"</string>
 </resources>
