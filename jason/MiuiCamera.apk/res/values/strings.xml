@@ -133,6 +133,7 @@ and then create a shot where everyone looks best."</string>
   <string name="module_name_portrait">Portrait</string>
   <string name="module_name_square">Square</string>
   <string name="module_name_video">Video</string>
+  <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
   <string name="no_storage">Insert SD card before using camera</string>
   <string name="not_enough_space">Internal storage is full</string>
   <string name="object_track_enable_toast">To select an object, simultaneously tap two diagonal points around its border.</string>
@@ -534,7 +535,7 @@ and brings out the people in the front."</string>
   <string name="pref_video_focusmode_entry_continuous">CAF</string>
   <string name="pref_video_focusmode_entryvalue_auto">auto</string>
   <string name="pref_video_focusmode_entryvalue_continuous">continuous-video</string>
-  <string name="pref_video_focusmode_entryvalue_default">@string/pref_video_focusmode_entryvalue_auto</string>
+  <string name="pref_video_focusmode_entryvalue_default">@string/pref_video_focusmode_entryvalue_continuous</string>
   <string name="pref_video_focusmode_title">Focus mode</string>
   <string name="pref_video_quality_default">6</string>
   <string name="pref_video_quality_entry_1080p">FULL HD</string>

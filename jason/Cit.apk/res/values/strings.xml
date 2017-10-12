@@ -89,6 +89,8 @@
   <string name="cit_OTG_plugout_check_title">OTG (removal)</string>
   <string name="cit_OTG_waiting_in">Connect USB OTG device now</string>
   <string name="cit_OTG_waiting_out">Disconnect USB OTG device now</string>
+  <string name="cit_abnormal_reboot_summary">Please wait...Reading stability data on this device.</string>
+  <string name="cit_abnormal_reboot_title">Device Stability Data</string>
   <string name="cit_ac_charger_in">Charging via AC</string>
   <string name="cit_ac_charger_out">AC charger disconnected</string>
   <string name="cit_accdata_sensor_check_summary">Values for X, Y, Z, coordinates should appear below</string>
@@ -265,6 +267,7 @@ Touch the screen to start GPS…"</string>
   <string name="cit_gyroscope_sensor_check_title">Gyroscope</string>
   <string name="cit_hall_down_arrow">↓</string>
   <string name="cit_hall_far">far</string>
+  <string name="cit_hall_miui_test_summary">When a magnet cloase to the green area,screen black,otherwise screen bright screen.</string>
   <string name="cit_hall_near">near</string>
   <string name="cit_hall_test_summary">When a magnet cloase to the green area,the text should turn to near,otherwise the text should be far.</string>
   <string name="cit_hall_test_title">Hall</string>
