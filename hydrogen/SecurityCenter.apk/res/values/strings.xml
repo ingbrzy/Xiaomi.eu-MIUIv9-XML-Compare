@@ -16,7 +16,7 @@
   <string name="ac_summaryOff">Turned off, no password is required to open apps</string>
   <string name="ac_summaryOn">Turned on, password is required to open apps</string>
   <string name="access_control_app_is_launching">App is starting</string>
-  <string name="access_control_failed_need_to_unlock_nofingerprint">Password is required to open apps</string>
+  <string name="access_control_failed_need_to_unlock_nofingerprint">Draw your unlock pattern to use a new fingerprint</string>
   <string name="access_control_fingerprint_not_identified_msg">"Couldn't read fingerprint."</string>
   <string name="access_control_need_password">"%s added successfully
 "</string>
@@ -92,6 +92,7 @@
   <string name="antivirus_choose_engine_title">Definitions</string>
   <string name="antivirus_longtime_no_update">Looks like your virus definitions are old. Regular updates help to get better scanning results. Allow Security to connect to the internet and update virus definitions?</string>
   <string name="antivirus_longtime_no_update1">Looks like your virus definitions are old. Regular updates help to get better scanning results. Update definitions and try again.</string>
+  <string name="antivirus_main_activity_back">Back from security scan</string>
   <string name="antivirus_monitor_btn_text_clean_risk">Delete risky apps</string>
   <string name="antivirus_monitor_btn_text_clean_virus">Delete viruses</string>
   <string name="antivirus_monitor_clean_tips">Deleted items: %s</string>
@@ -138,6 +139,7 @@
   <string name="app_manager_back">Back</string>
   <string name="app_manager_bipartition">Dual apps</string>
   <string name="app_manager_card_permission_title">Permissions</string>
+  <string name="app_manager_clear_cache">Clear cache</string>
   <string name="app_manager_clear_data_dlg_message">All this app’s data will be deleted permanently. This includes all files, settings, accounts, databases, etc.</string>
   <string name="app_manager_clear_data_dlg_title">Delete app data?</string>
   <string name="app_manager_clear_failed_dlg_message">Couldn’t clear data for app.</string>
@@ -147,17 +149,27 @@
   <string name="app_manager_default_open">Open by default</string>
   <string name="app_manager_default_open_summary">You’ve chosen to launch this app by default for some actions.</string>
   <string name="app_manager_default_open_title">Clear defaults</string>
+  <string name="app_manager_defaults_setting">Defaults</string>
   <string name="app_manager_details_electric_title">Battery</string>
   <string name="app_manager_details_storage_title">Storage</string>
-  <string name="app_manager_details_traffic_title">Data usage this month</string>
+  <string name="app_manager_details_traffic_title">Data usage</string>
   <string name="app_manager_disable">"Don't allow"</string>
+  <string name="app_manager_disable_dlg_text">If you disable this app, other apps may no longer function as intended.</string>
+  <string name="app_manager_disable_dlg_title">Disable built-in app?</string>
+  <string name="app_manager_disable_text">Disable</string>
+  <string name="app_manager_disabled">Disabled</string>
   <string name="app_manager_dlg_cancel">Cancel</string>
   <string name="app_manager_dlg_ok">OK</string>
+  <string name="app_manager_enable_text">Enable</string>
+  <string name="app_manager_enabled">Enabled</string>
   <string name="app_manager_factory_reset">Uninstall updates</string>
   <string name="app_manager_factory_reset_dlg_msg">All updates to this Android system app will be uninstalled.</string>
   <string name="app_manager_factory_reset_dlg_title">Uninstall updates?</string>
   <string name="app_manager_force_stop_dlg_text">If you force stop an app, it may misbehave.</string>
   <string name="app_manager_force_stop_dlg_title">Force stop?</string>
+  <string name="app_manager_globel_other_perm_title">Other permissions</string>
+  <string name="app_manager_globel_perm_summary">Manage permissions related to location, storage, phone, messages, and contacts.</string>
+  <string name="app_manager_globel_perm_title">App permissions</string>
   <string name="app_manager_have_not_consume">None</string>
   <string name="app_manager_hide_system_server">Hide system services</string>
   <string name="app_manager_instruction">Instruction</string>
@@ -188,6 +200,17 @@
   <string name="app_manager_reduce_wakepath_dialog">Minimize chain start</string>
   <string name="app_manager_reduce_wakepath_summary">Restricting autostart will minimize chain start. Restrict autostart for %s?</string>
   <string name="app_manager_reject_count_over">Blocked 100000+ times</string>
+  <string name="app_manager_reset_app_preferences">Reset app preferences</string>
+  <string name="app_manager_reset_app_preferences_button">Reset apps</string>
+  <string name="app_manager_reset_app_preferences_desc">"This will reset all preferences for:
+
+ "&lt;li&gt;Disabled apps&lt;/li&gt;"
+ "&lt;li&gt;Disabled app notifications&lt;/li&gt;"
+ "&lt;li&gt;Default applications for actions&lt;/li&gt;"
+ "&lt;li&gt;Background data restrictions for apps&lt;/li&gt;"
+
+ You will not lose any app data."</string>
+  <string name="app_manager_reset_app_preferences_title">Reset app preferences?</string>
   <string name="app_manager_show_all_apps">Show all apps</string>
   <string name="app_manager_show_detail_infos">View all</string>
   <string name="app_manager_sort">Sort by</string>
@@ -201,6 +224,8 @@
   <string name="app_manager_stop_wp_dialog_uninstall">Uninstall</string>
   <string name="app_manager_system_mobile_disable">Turn off data</string>
   <string name="app_manager_title">Manage apps</string>
+  <string name="app_manager_uninstall_protected_dlg_msg">Uninstalling system apps may prevent some MIUI components from working properly. Uninstall anyway?</string>
+  <string name="app_manager_uninstall_protected_dlg_title">Uninstalling system apps</string>
   <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Corresponding dual apps will be removed together with app data.</string>
   <string name="app_manager_uninstall_xspace_app_dlg_msg">Uninstalling dual app will remove all app data.</string>
   <string name="app_manager_uninstall_xspace_app_dlg_title">Uninstall dual app?</string>
@@ -319,6 +344,8 @@
   <string name="auto_task_operation_sync">Sync</string>
   <string name="auto_task_operation_vibration">Vibration</string>
   <string name="auto_task_operation_wifi">WLAN</string>
+  <string name="back_app_name">Go back to App lock</string>
+  <string name="back_modifypassword">Go back to changing password</string>
   <string name="background_restrict_app_dialog_message">Restricting background network access for this app might make it impossible for the app to work normally, receive messages, download content, etc. Restrict anyway?</string>
   <string name="background_traffic">Background %s</string>
   <string name="backsound_set_hint">Set your away message to %s?</string>
@@ -510,13 +537,13 @@
   <string name="convenient_mode">Unlock all apps at once</string>
   <string name="convenient_summary">Enter password once to unlock all apps</string>
   <string name="correction_attention_dialog_message">Adjusting settings now. Wait until the process is finished and try again.</string>
-  <string name="cpu_usage_android_system">Android System</string>
+  <string name="cpu_usage_android_system">Android system</string>
   <string name="cpu_usage_app_bg_restrict_default">Auto (recommended)</string>
   <string name="cpu_usage_app_bg_restrict_default_short">Auto</string>
   <string name="cpu_usage_app_bg_restrict_full">Restrict background activity</string>
   <string name="cpu_usage_app_bg_restrict_no_limit">"Don't restrict"</string>
   <string name="cpu_usage_app_bg_restrict_partly">After %s</string>
-  <string name="cpu_usage_app_bg_restrict_partly_short">After%s</string>
+  <string name="cpu_usage_app_bg_restrict_partly_short">After %s</string>
   <string name="cpu_usage_app_bg_restrict_title">Background settings</string>
   <string name="cpu_usage_app_tip_can_not_restrict_system_app">"Can't restrict system services"</string>
   <string name="cpu_usage_app_uninstalled_toast">This app is uninstalled</string>
@@ -540,6 +567,8 @@
   <string name="daily_limit_network_available_body">Tap to view data usage stats.</string>
   <string name="daily_limit_over_message">"You've exceeded your daily data limit."</string>
   <string name="daily_pkg_traffic">Peak data limit</string>
+  <string name="data_booster_desc">Deactivate other SIM slots to keep the connection stable</string>
+  <string name="data_booster_title">Stabilize data connection</string>
   <string name="data_network_blocked_notification_title">No internet connection</string>
   <string name="data_usage_correction_timeout_title">Data usage sync timed out</string>
   <string name="data_usage_disabled_dialog">"You've reached your plan's data usage limit. If you go over your limit, your carrier may charge you additional fees."</string>
@@ -710,6 +739,7 @@
   <string name="fw_blocked">Blocklist</string>
   <string name="fw_blocked_count">"Blocked "</string>
   <string name="fw_blocked_join">" and "</string>
+  <string name="game_anti_disturb_msg">Game DND</string>
   <string name="game_booster">Game speed booster</string>
   <string name="game_booster_intro">About Game speed booster</string>
   <string name="game_booster_title">Boost</string>
@@ -721,6 +751,7 @@
   <string name="game_net_text2">"Boost the game's connection speed while limiting background download speed to reduce network delay"</string>
   <string name="game_net_title">Optimize connection speed</string>
   <string name="game_setting">Game settings</string>
+  <string name="gamebooster_main_activity_back">Back Game Speed Booster</string>
   <string name="gamebooster_network_dialog_message">Allow Security to connect to the network in order to use all features of the Game speed booster?</string>
   <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
   <string name="gateway_exception_summary">Check your router and try again.</string>
@@ -805,6 +836,7 @@
   <string name="install_sucess">Installed %s successfully</string>
   <string name="install_title">Install via USB</string>
   <string name="installing">Installing</string>
+  <string name="international_Ad">Ad</string>
   <string name="international_roaming_setting">Overseas roaming</string>
   <string name="intro_improve">Boost your gaming experience on a system level</string>
   <string name="intro_skip">Skip</string>
@@ -1087,20 +1119,20 @@ to respond"</string>
   <string name="network_roaming_exception_tips">"Can't use mobile data while roaming to connect to the network."</string>
   <string name="network_route_exception_detail">"There may be a problem with the router you're connected to:
 
- "&lt;b&gt;"1. Public WLAN network issues
-"&lt;/b&gt;"If you're connected to a public WLAN network, the number of users connected to that network may be slowing it down or creating connectivity problems. Switch to another network and try again.
+ "&lt;b&gt;1. Public WLAN network issues&lt;/b&gt;"
+If you're connected to a public WLAN network, the number of users connected to that network may be slowing it down or creating connectivity problems. Switch to another network and try again.
 
- 2."&lt;b&gt;" Internet service provider issues
-M"&lt;/b&gt;"ake sure that your account is in good standing with your Internet service provider.
+ "&lt;b&gt;2. Internet service provider issues&lt;/b&gt;"
+Make sure that your account is in good standing with your Internet service provider.
 
- 3."&lt;b&gt;" Router hardware issues
-T"&lt;/b&gt;"ry rebooting your router or checking the admin settings for your router.
+ "&lt;b&gt;3. Router hardware issues&lt;/b&gt;"
+Try rebooting your router or checking the admin settings for your router.
 
- 4."&lt;b&gt;" Other router issues
-R"&lt;/b&gt;"ead the instructions that came with your router and restore your router to its factory settings.
+ "&lt;b&gt;4. Other router issues&lt;/b&gt;"
+Read the instructions that came with your router and restore your router to its factory settings.
 
- 5."&lt;b&gt;" Make sure your router is connected properly
-T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you suspect there's an issue with the connection in your home, contact your Internet service provider."</string>
+ "&lt;b&gt;5. Make sure your router is connected properly&lt;/b&gt;"
+Try using another Ethernet cable to connect your router. If you suspect there's an issue with the connection in your home, contact your Internet service provider."</string>
   <string name="network_sim_exception_detail">"There may be a problem with your SIM card:
 
 1. Make sure your account is in good standing with your carrier. Try using a friend's SIM card and see if you're able to connect normally.
@@ -1196,7 +1228,7 @@ This activity shortens battery life."</string>
   <string name="om_settings_lock_app">Lock apps</string>
   <string name="om_settings_lock_app_manage">Lock apps</string>
   <string name="om_settings_memocy_occupy_too_large_summary">Notify when cache size is too big</string>
-  <string name="om_settings_memory_clean_lock_screen">Clear cache when screen off</string>
+  <string name="om_settings_memory_clean_lock_screen">Clear cache when device is locked</string>
   <string name="om_settings_memory_occupy_notify">High cache size</string>
   <string name="om_settings_memory_occupy_notify_never">Never</string>
   <string name="om_settings_notify_manage">Notifications</string>
@@ -1603,6 +1635,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="save_energy_title">Optimize battery</string>
   <string name="sc_allow_network_dialog_message">This app needs to connect to the internet to work normally.</string>
   <string name="sc_allow_network_dialog_tiltle">"Can't use this feature"</string>
+  <string name="sc_system_risk_fix_info_xspace">The risk cannot be fixed in xspace, please switch to owner space to fix it.</string>
   <string name="scan_installed_games">Checking installed games…</string>
   <string name="scan_status_risk">Risky</string>
   <string name="scan_status_safe">Secure</string>
@@ -2162,5 +2195,6 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="wlan_change_protection_detail">"Don't switch to WLAN automatically when connected to mobile data network"</string>
   <string name="wlan_change_protection_title">Prevent switching networks</string>
   <string name="xunyou_pay_webview">Xunyou services</string>
+  <string name="xunyou_server_expired">The session expired.</string>
   <string name="zhifubao_not_found">您的应用版本过低或者未安装</string>
 </resources>

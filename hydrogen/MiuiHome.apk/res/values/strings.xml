@@ -96,7 +96,7 @@
   <string name="free_style_edit_bar_select_app">Choose app</string>
   <string name="free_style_edit_bottom_empty_tip">Tap rectangle to edit</string>
   <string name="free_style_edit_drawer">Drawer</string>
-  <string name="free_style_edit_move_tip">Touch &amp; hold to move an item</string>
+  <string name="free_style_edit_move_tip">Press &amp; hold to move an item</string>
   <string name="free_style_edit_tab_free_component">Objects</string>
   <string name="free_style_edit_tab_shortcut">Shortcuts</string>
   <string name="free_style_edit_tab_widget">Widgets</string>
