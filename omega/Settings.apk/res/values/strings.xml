@@ -2137,7 +2137,7 @@ There are other users present on this device.
   <string name="memory_media_usage">Media</string>
   <string name="memory_music_usage">Audio (music, ringtones, podcasts, etc.)</string>
   <string name="memory_performance">Performance</string>
-  <string name="memory_rightvalue">Available: %s</string>
+  <string name="memory_rightvalue">Total: %s</string>
   <string name="memory_settings_title">Memory</string>
   <string name="memory_size">Total space</string>
   <string name="memory_title">Available: %1$s\u0009\u0009Total: %2$s</string>
