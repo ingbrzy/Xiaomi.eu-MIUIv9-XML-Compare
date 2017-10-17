@@ -2826,22 +2826,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>16GB</item>
         <item>Quad-core Max 2.5GHz</item>
     </string-array>
-    <string-array name="standard_configuration_version_description_primary">
-        <item>CPU</item>
-        <item>Battery capacity</item>
-        <item>Rear camera</item>
-        <item>Screen size</item>
-        <item>Resolution</item>
-        <item>Android version</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 835</item>
-        <item>3350mAh(typ)</item>
-        <item>12MP + 12MP</item>
-        <item>5.15 inches</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
-    </string-array>
     <string-array name="privacy_password_function_specfication_keys">
         <item>privacy_mms</item>
         <item>privacy_gallery</item>
