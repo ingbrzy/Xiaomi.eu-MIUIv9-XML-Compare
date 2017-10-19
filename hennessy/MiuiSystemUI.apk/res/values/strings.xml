@@ -101,6 +101,8 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="demo_mode">Demo mode</string>
   <string name="description_direction_left">Swipe left for %s.</string>
   <string name="description_direction_up">Swipe up for %s.</string>
+  <string name="description_image_button_answer">Answer</string>
+  <string name="description_image_button_reject">Decline</string>
   <string name="description_target_search">Search</string>
   <string name="disable_notification_summary">Never show notifications from selected apps</string>
   <string name="disable_notification_title">Hide notifications</string>

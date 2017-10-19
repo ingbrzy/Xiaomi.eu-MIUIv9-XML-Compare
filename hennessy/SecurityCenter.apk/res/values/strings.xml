@@ -724,6 +724,7 @@
   <string name="float_window">桌面悬浮窗</string>
   <string name="float_window_summary">支持快速跳转至摇一摇与咻一咻页面</string>
   <string name="float_window_tips">小米手机就是快！</string>
+  <string name="forbid_autobright_title">Fix screen brightness</string>
   <string name="foreground_traffic">Foreground %s</string>
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
   <string name="forget_password_button_text_normal">Forgot password</string>
@@ -742,7 +743,10 @@
   <string name="game_anti_disturb_msg">Game DND</string>
   <string name="game_booster">Game speed booster</string>
   <string name="game_booster_intro">About Game speed booster</string>
+  <string name="game_booster_jump_webview">Just a sec…</string>
+  <string name="game_booster_tab_top">Top</string>
   <string name="game_booster_title">Boost</string>
+  <string name="game_bootser_tab_settings">Booster settings</string>
   <string name="game_improve_text1">Clear background cache to free up memory for gaming</string>
   <string name="game_improve_text2">Clear background cache to free up memory for gaming and improve CPU performance</string>
   <string name="game_improve_title">Optimize performance</string>
@@ -751,7 +755,9 @@
   <string name="game_net_text2">"Boost the game's connection speed while limiting background download speed to reduce network delay"</string>
   <string name="game_net_title">Optimize connection speed</string>
   <string name="game_setting">Game settings</string>
-  <string name="gamebooster_main_activity_back">Back Game Speed Booster</string>
+  <string name="gamebooster_lowbattery_notification_summary">Charge your device before it turns off.</string>
+  <string name="gamebooster_lowbattery_notification_title">Battery is lower than 5%%</string>
+  <string name="gamebooster_main_activity_back">Back</string>
   <string name="gamebooster_network_dialog_message">Allow Security to connect to the network in order to use all features of the Game speed booster?</string>
   <string name="gamebooster_network_dialog_title">"Some features aren't available"</string>
   <string name="gateway_exception_summary">Check your router and try again.</string>
@@ -769,8 +775,11 @@
   <string name="gs_app_back_self_start">Battery saver</string>
   <string name="gs_auto_clean_memory">Clear cache</string>
   <string name="gs_auto_clean_memory_detail">Clear cache automatically to optimize gaming</string>
+  <string name="gs_call_handsfree">Answer calls hands free</string>
+  <string name="gs_call_handsfree_mute">Silent mode</string>
   <string name="gs_dialog_confirm_close_msg">The shortcut will be removed from your Home screen. Go to Security &gt; Settings to restore it.</string>
   <string name="gs_dialog_confirm_close_title">Turn off</string>
+  <string name="gs_forbid_autosync">Restrict background sync</string>
   <string name="gs_game_disturb_msg">DND</string>
   <string name="gs_game_duration">Time</string>
   <string name="gs_game_net_priority">Connection priority</string>
@@ -855,13 +864,14 @@
   <string name="keywords_auto_restart">Autostart; Permissions;Auto start;Autostart; Manage autostart; MIUI autostart; App autostart; autostart apps;Chain start;chained start;triggered start</string>
   <string name="keywords_buy_flow">data;mobile data;buy data;buy mobile data;topup data;data plan</string>
   <string name="keywords_cleanmaster">Trash;Clear;Speed;Storage;Cache;Clear storage;clear trash;trash;free up;free up storage;free up space;clean;deep clean;cleaner</string>
+  <string name="keywords_gamebooster">Game;speed booster;Glory of the king;Performance mode;DND</string>
   <string name="keywords_networkassistant_1">Data;Traffic</string>
   <string name="keywords_networkassistant_2">Data;Calibrate</string>
   <string name="keywords_networkassistant_4">Connection;Internet;Test</string>
   <string name="keywords_powercenter">Save battery;Heating;Turn on;Turn off;Battery;Draining;Battery;Battery issues;Energy;Draining;Heating;Battery saver;Energy saver;Energy saving;Battery saving</string>
   <string name="keywords_powercenter_powerrank">Battery use</string>
   <string name="keywords_securitycenter">Security;Check;Scan</string>
-  <string name="keywords_securitycenter_settings">Battery usage;Manage autostart;Install via USB;App permissions;Buy mobile data;Blocklist;Data usage;Calibrate data plan;Test network; Save battery;Heating;Turn on;Turn off;Battery;Draining;Battery issues;Energy;Battery saver;Energy saver;Energy saving;Battery saving; Autostart;Permissions;Auto start;MIUI autostart; App autostart; autostart apps;Chain start;chained start;triggered start; USB install;install from computer;ADB install; Location;Access contacts; data;mobile data;buy data;topup data;data plan; Block;Black list;Smart blocklist;Fraud;Sales;Agents;Call blocklist;Message blocklist;Messaging blocklist;SMS blocklist;blacklist;black list;blocklist;block list;fraud;block contact;block contacts; Traffic; Calibrate; Connection;Internet;Test; Battery use</string>
+  <string name="keywords_securitycenter_settings">Battery usage;Manage autostart;Install via USB;App permissions;Buy mobile data;Blocklist;Data usage;Calibrate data plan;Test network; Save battery;Heating;Turn on;Turn off;Battery;Draining;Battery issues;Energy;Battery saver;Energy saver;Energy saving;Battery saving; Autostart;Permissions;Auto start;MIUI autostart; App autostart; autostart apps;Chain start;chained start;triggered start; USB install;install from computer;ADB install; Location;Access contacts; data;mobile data;buy data;topup data;data plan; Block;Black list;Smart blocklist;Fraud;Sales;Agents;Call blocklist;Message blocklist;Messaging blocklist;SMS blocklist;blacklist;black list;blocklist;block list;fraud;block contact;block contacts; Traffic; Calibrate; Connection;Internet;Test; Battery use; Game;speed booster;Glory of the king;Performance mode;DND</string>
   <string name="keywords_usb_install">USB install;install from computer;ADB install</string>
   <string name="kilobyteShort">KB</string>
   <string name="kilobyte_per_second">K/s</string>
@@ -1094,6 +1104,7 @@ to respond"</string>
   <string name="name">Name</string>
   <string name="net_booster">Network speed boost</string>
   <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
+  <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
   <string name="net_booster_overdue_notification">Network speed boost session is about to end</string>
   <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
   <string name="net_booster_tip">Turn on Network speed boost to make WLAN connection more stable and reduce network delay.</string>
@@ -1312,6 +1323,7 @@ This activity shortens battery life."</string>
   <string name="path_auto_restart">System apps/Security/Permissions/Autostart</string>
   <string name="path_buy_flow">System apps/Security/Data usage/Buy mobile data</string>
   <string name="path_cleanmaster">System apps/Security/Cleaner</string>
+  <string name="path_gamebooster">System apps/Security/Game speed booster</string>
   <string name="path_networkassistant_1">System apps/Security/Data usage</string>
   <string name="path_networkassistant_2">System apps/Security/Data usage</string>
   <string name="path_networkassistant_4">System apps/Security/Data usage/Test network</string>
@@ -1583,6 +1595,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="resource_auto_restart">Manage autostart</string>
   <string name="resource_buy_flow">Buy mobile data</string>
   <string name="resource_cleanmaster">Cleaner</string>
+  <string name="resource_gamebooster">Game speed booster</string>
   <string name="resource_networkassistant_1">Data usage</string>
   <string name="resource_networkassistant_2">Calibrate data plan</string>
   <string name="resource_networkassistant_4">Test network</string>
@@ -1985,6 +1998,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="text_day"/>
   <string name="text_error">相关软件版本过低或未安装</string>
   <string name="text_lucky_alarm_before">红包活动即将开始</string>
+  <string name="thermal_tips_message">Playing games in the Performance mode may lead to overheating issues.</string>
+  <string name="thermal_tips_title">Attention</string>
   <string name="third_application">Installed apps</string>
   <string name="three_percent_total_pkg">%s (3%% of monthly data)</string>
   <string name="timeshow_h">%.1fh</string>
@@ -2169,8 +2184,8 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="virus_ad_icon_text">Ad</string>
   <string name="virus_auto_update_engine">Auto updates: %s</string>
   <string name="virus_scan_process_pre">%</string>
-  <string name="virus_update_tips_title">Connect to WLAN</string>
-  <string name="virus_wait_network_dialog_message">Updates are big. Connect to WLAN to download them.</string>
+  <string name="virus_update_tips_title">Warning</string>
+  <string name="virus_wait_network_dialog_message">Your phone is not connected to WLAN now. It will cost metered mobile data usage. Continue ?</string>
   <string name="voltage_symbol">V</string>
   <string name="wakepath_confirm_start_activity">Allow %1$s to open %2$s?</string>
   <string name="warn_function_no_work">&lt;u&gt;来红包时无法正常提醒？&lt;/u&gt;</string>
