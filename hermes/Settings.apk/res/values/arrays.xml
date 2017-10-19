@@ -2614,22 +2614,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>16GB</item>
         <item>Quad-core Max 2.5GHz</item>
     </string-array>
-    <string-array name="standard_configuration_version_description_primary">
-        <item>CPU</item>
-        <item>Battery capacity</item>
-        <item>Rear camera</item>
-        <item>Screen size</item>
-        <item>Resolution</item>
-        <item>Android version</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_secondary">
-        <item>MTK Helio X10</item>
-        <item>3060mAh(typ)</item>
-        <item>13MP</item>
-        <item>5.5 inches</item>
-        <item>1920 x 1080</item>
-        <item>4.4</item>
-    </string-array>
     <string-array name="privacy_password_function_specfication_keys">
         <item>privacy_mms</item>
         <item>privacy_gallery</item>
