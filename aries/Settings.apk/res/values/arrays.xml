@@ -2620,22 +2620,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>16GB</item>
         <item>Quad-core Max 2.5GHz</item>
     </string-array>
-    <string-array name="standard_configuration_version_description_primary">
-        <item>CPU</item>
-        <item>Battery capacity</item>
-        <item>Rear camera</item>
-        <item>Screen size</item>
-        <item>Resolution</item>
-        <item>Android version</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon APQ8064</item>
-        <item>2000mAh(typ)</item>
-        <item>8MP</item>
-        <item>4.3 inches</item>
-        <item>1280 x 720</item>
-        <item>5.0.2</item>
-    </string-array>
     <string-array name="privacy_password_function_specfication_keys">
         <item>privacy_mms</item>
         <item>privacy_gallery</item>

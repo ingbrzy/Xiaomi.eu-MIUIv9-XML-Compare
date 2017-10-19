@@ -1976,7 +1976,7 @@ To clear music, pictures, and other user data, the "&lt;b&gt;USB storage&lt;/b&g
   <string name="memory_media_misc_usage">Misc.</string>
   <string name="memory_media_usage">Media</string>
   <string name="memory_music_usage">Audio (music, ringtones, podcasts, etc.)</string>
-  <string name="memory_rightvalue">Available: %s</string>
+  <string name="memory_rightvalue">Total: %s</string>
   <string name="memory_size">Total space</string>
   <string name="memory_title">Available: %1$s\u0009\u0009Total: %2$s</string>
   <string name="menu_cancel">Discard</string>
@@ -2177,6 +2177,7 @@ Select your operating system:"</string>
   <string name="nfc_quick_toggle_title">NFC</string>
   <string name="nfc_se_route_title">Secure element position</string>
   <string name="no">No</string>
+  <string name="no_account_found">No application supports adding accounts</string>
   <string name="no_all_caps">NO</string>
   <string name="no_application">Nothing</string>
   <string name="no_applications">No apps.</string>
@@ -4325,7 +4326,7 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wrong_pin_code_pukked">Incorrect SIM PIN code you must now contact your carrier to unlock your device.</string>
   <string name="xiaomi_account">Mi Account</string>
   <string name="xiaomi_cloud_service">Mi Cloud</string>
-  <string name="xiaomi_cloud_service_description">Mi Cloud syncs your contacts and photos, backs up your apps and settings, and helps you find your phone using Find device.</string>
+  <string name="xiaomi_cloud_service_description">Mi Cloud syncs contacts, photos, and other items across your devices. \"Find device\" also requires Mi Cloud to work normally.</string>
   <string name="xiaomi_cloud_service_disabled">Off</string>
   <string name="xiaomi_cloud_service_unknown">Unknown</string>
   <string name="xiaomi_money_service">Mi Credit</string>
