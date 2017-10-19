@@ -90,6 +90,7 @@
         <item>com.google.android.marvin.talkback</item>
         <item>com.miui.powerkeeper</item>
         <item>com.miui.virtualsim</item>
+        <item>com.lbe.security.miui</item>
     </string-array>
     <string-array name="sleepstart_white_list">
         <item>com.android.incallui</item>

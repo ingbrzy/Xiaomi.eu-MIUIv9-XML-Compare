@@ -413,12 +413,10 @@
         <item>Largest</item>
     </string-array>
     <string-array name="entryvalues_font_size">
-        <item>small</item>
-        <item>normal</item>
-        <item>medium</item>
-        <item>large</item>
-        <item>huge</item>
-        <item>godzilla</item>
+        <item>0.85</item>
+        <item>1.0</item>
+        <item>1.15</item>
+        <item>1.30</item>
     </string-array>
     <string-array name="wifi_security">
         <item>@string/wifi_security_none</item>
@@ -1521,6 +1519,16 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Email</item>
         <item>Play video</item>
     </string-array>
+    <string-array name="preferred_app_excluded_regions">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>SG</item>
+        <item>MY</item>
+        <item>HK</item>
+        <item>TW</item>
+        <item>UA</item>
+    </string-array>
     <string-array name="permission_risk_privacy">
         <item>android.permission.ACCESS_COARSE_LOCATION</item>
         <item>android.permission.ACCESS_FINE_LOCATION</item>
@@ -1686,6 +1694,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>XL</item>
         <item>XXL</item>
         <item>XXXL</item>
+    </string-array>
+    <string-array name="miui_entryvalues_font_size">
+        <item>small</item>
+        <item>normal</item>
+        <item>medium</item>
+        <item>large</item>
+        <item>huge</item>
+        <item>godzilla</item>
     </string-array>
     <string-array name="max_number_titles">
         <item>6</item>
@@ -2825,22 +2841,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>3.00GB</item>
         <item>32GB</item>
         <item>Quad-core Max 1.8GHz</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_primary">
-        <item>CPU</item>
-        <item>Battery capacity</item>
-        <item>Rear camera</item>
-        <item>Screen size</item>
-        <item>Resolution</item>
-        <item>Android version</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 821</item>
-        <item>4070mAh(typ)</item>
-        <item>22.56MP</item>
-        <item>5.7 inches</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
     </string-array>
     <string-array name="privacy_password_function_specfication_keys">
         <item>privacy_mms</item>
