@@ -2700,20 +2700,4 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>32GB</item>
         <item>Deca-core Max 2.11GHz</item>
     </string-array>
-    <string-array name="standard_configuration_version_description_primary">
-        <item>CPU</item>
-        <item>Battery capacity</item>
-        <item>Rear camera</item>
-        <item>Screen size</item>
-        <item>Resolution</item>
-        <item>Android version</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_secondary">
-        <item>MTK Helio X20</item>
-        <item>4100mAh(typ)</item>
-        <item>13MP</item>
-        <item>5.5 inches</item>
-        <item>1920 x 1080</item>
-        <item>6.0</item>
-    </string-array>
 </resources>
