@@ -2700,22 +2700,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>16GB</item>
         <item>Quad-core Max 2.5GHz</item>
     </string-array>
-    <string-array name="standard_configuration_version_description_primary">
-        <item>CPU</item>
-        <item>Battery capacity</item>
-        <item>Rear camera</item>
-        <item>Screen size</item>
-        <item>Resolution</item>
-        <item>Android version</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_secondary">
-        <item>Snapdragon 801</item>
-        <item>3080mAh(typ)</item>
-        <item>13MP</item>
-        <item>5 inches</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
-    </string-array>
     <string-array name="miracast_policies">
         <item>Shorter delay</item>
         <item>Standard</item>
@@ -2725,21 +2709,5 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>3.00GB</item>
         <item>16GB</item>
         <item>Quad-core Max 2.5GHz</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_primary_mi3">
-        <item>CPU</item>
-        <item>Battery capacity</item>
-        <item>Rear camera</item>
-        <item>Screen size</item>
-        <item>Resolution</item>
-        <item>Android version</item>
-    </string-array>
-    <string-array name="standard_configuration_version_description_secondary_mi3">
-        <item>Snapdragon 800</item>
-        <item>3050mAh(typ)</item>
-        <item>13MP</item>
-        <item>5 inches</item>
-        <item>1920 × 1080</item>
-        <item>6.0.1</item>
     </string-array>
 </resources>
