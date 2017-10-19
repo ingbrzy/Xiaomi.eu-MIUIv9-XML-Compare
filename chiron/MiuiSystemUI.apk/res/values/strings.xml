@@ -235,6 +235,8 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="demo_mode">Demo mode</string>
   <string name="description_direction_left">Swipe left for %s.</string>
   <string name="description_direction_up">Swipe up for %s.</string>
+  <string name="description_image_button_answer">Answer</string>
+  <string name="description_image_button_reject">Decline</string>
   <string name="description_target_search">Search</string>
   <string name="dev_settings_warning_message">These settings are intended for developers only. Enabling these features may make your device and the apps on it misbehave or cause errors.</string>
   <string name="dev_settings_warning_title">Allow development settings?</string>
