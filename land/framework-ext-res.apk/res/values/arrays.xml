@@ -933,6 +933,12 @@
         <item>com.didapinche.booking</item>
         <item>com.pplive.androidphone.sport</item>
         <item>com.icoolme.android.weather</item>
+        <item>com.baidu.finance</item>
+        <item>com.creditwealth.client</item>
+        <item>com.yungames.tioi.lgdsi</item>
+        <item>com.vyou.vcameraclient</item>
+        <item>com.skype.android.qik</item>
+        <item>com.skype.android.access</item>
     </string-array>
     <array name="config_crossSpaceNotificationPackageNames" />
     <string-array name="securespaces_extension_accelerometer_userRestrictions">
