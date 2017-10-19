@@ -413,12 +413,10 @@
         <item>Largest</item>
     </string-array>
     <string-array name="entryvalues_font_size">
-        <item>small</item>
-        <item>normal</item>
-        <item>medium</item>
-        <item>large</item>
-        <item>huge</item>
-        <item>godzilla</item>
+        <item>0.85</item>
+        <item>1.0</item>
+        <item>1.15</item>
+        <item>1.30</item>
     </string-array>
     <string-array name="wifi_security">
         <item>@string/wifi_security_none</item>
@@ -1521,6 +1519,16 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Email</item>
         <item>Play video</item>
     </string-array>
+    <string-array name="preferred_app_excluded_regions">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>SG</item>
+        <item>MY</item>
+        <item>HK</item>
+        <item>TW</item>
+        <item>UA</item>
+    </string-array>
     <string-array name="permission_risk_privacy">
         <item>android.permission.ACCESS_COARSE_LOCATION</item>
         <item>android.permission.ACCESS_FINE_LOCATION</item>
@@ -1686,6 +1694,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>XL</item>
         <item>XXL</item>
         <item>XXXL</item>
+    </string-array>
+    <string-array name="miui_entryvalues_font_size">
+        <item>small</item>
+        <item>normal</item>
+        <item>medium</item>
+        <item>large</item>
+        <item>huge</item>
+        <item>godzilla</item>
     </string-array>
     <string-array name="max_number_titles">
         <item>6</item>
