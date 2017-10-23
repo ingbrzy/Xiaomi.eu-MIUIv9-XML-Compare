@@ -1383,25 +1383,17 @@
 .end method
 
 .method public static isSupportBurstDenoise()Z
-    .locals 1
+    .locals 2
 
-    sget-boolean v0, Lcom/android/camera/Device;->IS_XIAOMI:Z
+    const-string/jumbo v0, "support_camera_burst_shoot_denoise"
 
-    if-nez v0, :cond_0
+    const/4 v1, 0x0
 
-    sget-boolean v0, Lcom/android/camera/Device;->IS_B5:Z
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
-    if-nez v0, :cond_0
+    move-result v0
 
-    sget-boolean v0, Lcom/android/camera/Device;->IS_A13:Z
-
-    :goto_0
     return v0
-
-    :cond_0
-    const/4 v0, 0x1
-
-    goto :goto_0
 .end method
 
 .method public static isSupportFHDHFR()Z

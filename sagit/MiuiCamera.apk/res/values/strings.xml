@@ -120,6 +120,7 @@ and then create a shot where everyone looks best."</string>
   <string name="hibernate_hint">Tap the screen to wake Camera</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
+  <string name="hint_device_water_mark">Device watermark will be added automatically.</string>
   <string name="hint_fast_motion">The video you shoot will be played faster.</string>
   <string name="hint_groupshot">"Camera will take multiple photos
 and then create a shot where everyone looks best."</string>
@@ -136,6 +137,7 @@ and then create a shot where everyone looks best."</string>
   <string name="module_name_portrait">Portrait</string>
   <string name="module_name_square">Square</string>
   <string name="module_name_video">Video</string>
+  <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
   <string name="no_storage">Insert SD card before using camera</string>
   <string name="not_enough_space">Internal storage is full</string>
   <string name="object_track_enable_toast">To select an object, simultaneously tap two diagonal points around its border.</string>
@@ -259,6 +261,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_delay_capture_entry_5s">5s delay</string>
   <string name="pref_camera_delay_capture_entry_audio">Audio</string>
   <string name="pref_camera_delay_capture_title">Timer</string>
+  <string name="pref_camera_device_watermark_title">Device watermark</string>
   <string name="pref_camera_exposuretime_default">0</string>
   <string name="pref_camera_exposuretime_entry_0.5">2s</string>
   <string name="pref_camera_exposuretime_entry_1">1s</string>
