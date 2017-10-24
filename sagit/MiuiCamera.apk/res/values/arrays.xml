@@ -118,10 +118,10 @@
         <item>torch</item>
     </string-array>
     <array name="camera_flashmode_icons">
-        <item>@drawable/ic_flash_button_off</item>
-        <item>@drawable/ic_flash_button_auto</item>
-        <item>@drawable/ic_flash_button_on</item>
-        <item>@drawable/ic_flash_button_torch</item>
+        <item>@drawable/ic_config_flash_off</item>
+        <item>@drawable/ic_config_flash_auto</item>
+        <item>@drawable/ic_config_flash_on</item>
+        <item>@drawable/ic_config_flash_torch</item>
     </array>
     <string-array name="pref_camera_video_flashmode_entries">
         <item>@string/pref_camera_flashmode_entry_on</item>
@@ -132,8 +132,8 @@
         <item>off</item>
     </string-array>
     <array name="video_flashmode_icons">
-        <item>@drawable/ic_flash_button_on</item>
-        <item>@drawable/ic_flash_button_off</item>
+        <item>@drawable/ic_config_flash_on</item>
+        <item>@drawable/ic_config_flash_off</item>
     </array>
     <string-array name="pref_camera_recordlocation_entryvalues">
         <item>on</item>
@@ -167,43 +167,6 @@
         <item>@drawable/bg_white_balance_cloudy</item>
         <item>@drawable/bg_white_balance_manual</item>
     </array>
-    <string-array name="pref_video_whitebalance_entries">
-        <item>@string/pref_camera_whitebalance_entry_auto</item>
-        <item>@string/pref_camera_whitebalance_entry_incandescent</item>
-        <item>@string/pref_camera_whitebalance_entry_daylight</item>
-        <item>@string/pref_camera_whitebalance_entry_fluorescent</item>
-        <item>@string/pref_camera_whitebalance_entry_cloudy</item>
-    </string-array>
-    <string-array name="pref_video_whitebalance_entryvalues">
-        <item>@string/pref_camera_whitebalance_entryvalue_auto</item>
-        <item>@string/pref_camera_whitebalance_entryvalue_incandescent</item>
-        <item>@string/pref_camera_whitebalance_entryvalue_daylight</item>
-        <item>@string/pref_camera_whitebalance_entryvalue_fluorescent</item>
-        <item>@string/pref_camera_whitebalance_entryvalue_cloudy</item>
-    </string-array>
-    <array name="video_whitebalance_icons">
-        <item>@drawable/bg_white_balance_auto</item>
-        <item>@drawable/bg_white_balance_incandescent</item>
-        <item>@drawable/bg_white_balance_sunlight</item>
-        <item>@drawable/bg_white_balance_fluorescent</item>
-        <item>@drawable/bg_white_balance_cloudy</item>
-    </array>
-    <string-array name="pref_camera_coloreffect_entries">
-        <item>@string/pref_camera_coloreffect_entry_none</item>
-        <item>@string/pref_camera_coloreffect_entry_mono</item>
-        <item>@string/pref_camera_coloreffect_entry_sepia</item>
-        <item>@string/pref_camera_coloreffect_entry_negative</item>
-        <item>@string/pref_camera_coloreffect_entry_posterize</item>
-        <item>@string/pref_camera_coloreffect_entry_aqua</item>
-    </string-array>
-    <string-array name="pref_camera_coloreffect_entryvalues">
-        <item>none</item>
-        <item>mono</item>
-        <item>sepia</item>
-        <item>negative</item>
-        <item>posterize</item>
-        <item>aqua</item>
-    </string-array>
     <string-array name="pref_camera_touchafaec_entries">
         <item>@string/pref_camera_touchafaec_entry_on</item>
         <item>@string/pref_camera_touchafaec_entry_off</item>
@@ -407,18 +370,6 @@
         <item>@string/pref_camera_hfr_value_2x</item>
         <item>@string/pref_camera_hfr_value_3x</item>
     </string-array>
-    <string-array name="pref_video_speed_entries">
-        <item>@string/pref_video_speed_entry_normal</item>
-        <item>@string/pref_video_speed_entry_slow</item>
-    </string-array>
-    <string-array name="pref_video_speed_entryvalues">
-        <item>@string/pref_video_speed_value_normal</item>
-        <item>@string/pref_video_speed_value_slow</item>
-    </string-array>
-    <array name="pref_video_speed_largeicons">
-        <item>@drawable/bg_video_speed_normal</item>
-        <item>@drawable/bg_video_speed_slow</item>
-    </array>
     <string-array name="pref_camera_histogram_entryvalues">
         <item>@string/pref_camera_histogram_value_enable</item>
         <item>@string/pref_camera_histogram_value_disable</item>
@@ -463,14 +414,6 @@
         <item>@string/pref_camera_zsl_value_on</item>
         <item>@string/pref_camera_zsl_value_off</item>
     </string-array>
-    <array name="camera_coloreffect_largeIcons">
-        <item>@drawable/ic_camera_coloreffect_none</item>
-        <item>@drawable/ic_camera_coloreffect_mono</item>
-        <item>@drawable/ic_camera_coloreffect_sepia</item>
-        <item>@drawable/ic_camera_coloreffect_negative</item>
-        <item>@drawable/ic_camera_coloreffect_posterize</item>
-        <item>@drawable/ic_camera_coloreffect_aqua</item>
-    </array>
     <string-array name="pref_camera_exposuretime_entries">
         <item>@string/pref_camera_exposuretime_entry_auto</item>
         <item>@string/pref_camera_exposuretime_entry_1000</item>
@@ -484,7 +427,7 @@
         <item>@string/pref_camera_exposuretime_entry_4</item>
         <item>@string/pref_camera_exposuretime_entry_2</item>
         <item>@string/pref_camera_exposuretime_entry_1</item>
-        <item>@string/pref_camera_exposuretime_entry_0.5</item>
+        <item>@string/pref_camera_exposuretime_entry_0_5</item>
         <item>@string/pref_camera_exposuretime_entry_4s</item>
         <item>@string/pref_camera_exposuretime_entry_8s</item>
         <item>@string/pref_camera_exposuretime_entry_16s</item>
@@ -642,10 +585,10 @@
         <item>@string/pref_camera_hdr_entryvalue_live</item>
     </string-array>
     <array name="pref_camera_hdr_icons">
-        <item>@drawable/ic_hdr_off</item>
-        <item>@drawable/ic_hdr_auto</item>
-        <item>@drawable/ic_hdr_normal</item>
-        <item>@drawable/ic_hdr_live</item>
+        <item>@drawable/ic_config_hdr_off</item>
+        <item>@drawable/ic_config_hdr_auto</item>
+        <item>@drawable/ic_config_hdr_normal</item>
+        <item>@drawable/ic_config_hdr_live</item>
     </array>
     <string-array name="pref_simple_hdr_entries">
         <item>@string/pref_simple_hdr_entry_off</item>
@@ -656,8 +599,8 @@
         <item>on</item>
     </string-array>
     <array name="pref_simple_hdr_icons">
-        <item>@drawable/ic_hdr_off</item>
-        <item>@drawable/ic_hdr_normal</item>
+        <item>@drawable/ic_config_hdr_off</item>
+        <item>@drawable/ic_config_hdr_normal</item>
     </array>
     <string-array name="pref_camera_delay_capture_entries">
         <item>@string/pref_camera_delay_capture_entry_audio</item>

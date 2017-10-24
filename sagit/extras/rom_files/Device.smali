@@ -50,8 +50,6 @@
 
 .field public static final IS_CM_TEST:Z
 
-.field public static final IS_D1:Z
-
 .field public static final IS_D2:Z
 
 .field public static final IS_D3:Z
@@ -63,6 +61,8 @@
 .field public static final IS_D6S:Z
 
 .field public static final IS_E7:Z
+
+.field public static final IS_E7S:Z
 
 .field public static final IS_H2XLTE:Z
 
@@ -568,16 +568,6 @@
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_C8:Z
 
-    const-string/jumbo v0, "rosy"
-
-    sget-object v2, Lmiui/os/Build;->DEVICE:Ljava/lang/String;
-
-    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    sput-boolean v0, Lcom/android/camera/Device;->IS_D1:Z
-
     const-string/jumbo v0, "tiffany"
 
     sget-object v2, Lmiui/os/Build;->DEVICE:Ljava/lang/String;
@@ -637,6 +627,16 @@
     move-result v0
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_E7:Z
+
+    const-string/jumbo v0, "whyred"
+
+    sget-object v2, Lmiui/os/Build;->DEVICE:Ljava/lang/String;
+
+    invoke-virtual {v0, v2}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    sput-boolean v0, Lcom/android/camera/Device;->IS_E7S:Z
 
     const-string/jumbo v0, "is_hongmi"
 
@@ -851,7 +851,7 @@
 
     if-nez v0, :cond_0
 
-    sget-boolean v0, Lcom/android/camera/Device;->IS_D1:Z
+    sget-boolean v0, Lcom/android/camera/Device;->IS_E7S:Z
 
     :goto_0
     return v0
@@ -860,6 +860,45 @@
     const/4 v0, 0x1
 
     goto :goto_0
+.end method
+
+.method public static isBackFingerSensor()Z
+    .locals 2
+
+    const/4 v1, 0x0
+
+    invoke-static {}, Lcom/android/camera/Device;->isFrontFingerSensor()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    return v1
+
+    :cond_0
+    invoke-static {}, Lcom/android/camera/Device;->getFpNavEventNameList()Ljava/util/ArrayList;
+
+    move-result-object v0
+
+    if-eqz v0, :cond_1
+
+    invoke-static {}, Lcom/android/camera/Device;->getFpNavEventNameList()Ljava/util/ArrayList;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Ljava/util/ArrayList;->isEmpty()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_2
+
+    :cond_1
+    return v1
+
+    :cond_2
+    const/4 v0, 0x1
+
+    return v0
 .end method
 
 .method public static isCaptureStopFaceDetection()Z
@@ -928,6 +967,20 @@
     const/4 v0, 0x1
 
     :cond_0
+    return v0
+.end method
+
+.method public static isFrontFingerSensor()Z
+    .locals 2
+
+    const-string/jumbo v0, "front_fingerprint_sensor"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
     return v0
 .end method
 
@@ -1055,20 +1108,6 @@
     goto :goto_0
 .end method
 
-.method public static isHFRVideoPauseSupported()Z
-    .locals 2
-
-    const-string/jumbo v0, "support_hfr_video_pause"
-
-    const/4 v1, 0x1
-
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v0
-
-    return v0
-.end method
-
 .method public static isHalDoesCafWhenFlashOn()Z
     .locals 1
 
@@ -1131,6 +1170,24 @@
     move-result v0
 
     return v0
+.end method
+
+.method public static isLegacyFaceBeauty()Z
+    .locals 1
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_C8:Z
+
+    if-eqz v0, :cond_0
+
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    goto :goto_0
 .end method
 
 .method public static isLowPowerQRScan()Z
@@ -1352,6 +1409,24 @@
     return v0
 .end method
 
+.method public static isRGB888EGLPreferred()Z
+    .locals 1
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_H3C:Z
+
+    if-nez v0, :cond_0
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_D3:Z
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    goto :goto_0
+.end method
+
 .method public static isReleaseLaterForGallery()Z
     .locals 1
 
@@ -1368,7 +1443,7 @@
     return v0
 .end method
 
-.method public static isSubthreadFrameListerner()Z
+.method public static isSubThreadFrameListener()Z
     .locals 2
 
     const-string/jumbo v0, "is_camera_preview_with_subthread_looper"
@@ -1400,20 +1475,6 @@
     .locals 1
 
     sget-boolean v0, Lcom/android/camera/Device;->IS_A7:Z
-
-    return v0
-.end method
-
-.method public static isSupportFrontFlash()Z
-    .locals 2
-
-    const-string/jumbo v0, "support_front_flash"
-
-    const/4 v1, 0x0
-
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v0
 
     return v0
 .end method
@@ -1472,32 +1533,6 @@
     move-result v0
 
     return v0
-.end method
-
-.method public static isSupportVideoFrontFlash()Z
-    .locals 2
-
-    invoke-static {}, Lcom/android/camera/Device;->isSupportFrontFlash()Z
-
-    move-result v0
-
-    if-eqz v0, :cond_0
-
-    const-string/jumbo v0, "support_video_front_flash"
-
-    const/4 v1, 0x1
-
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v0
-
-    :goto_0
-    return v0
-
-    :cond_0
-    const/4 v0, 0x0
-
-    goto :goto_0
 .end method
 
 .method public static isSupportedASD()Z
