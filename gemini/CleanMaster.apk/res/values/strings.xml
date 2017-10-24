@@ -93,6 +93,15 @@
   <string name="cached_garbage">Cache</string>
   <string name="call_log">Call Logs</string>
   <string name="cancel">Cancel</string>
+  <string name="cd_back">back</string>
+  <string name="cd_check_box_checked">checked</string>
+  <string name="cd_check_box_middle">partial selection</string>
+  <string name="cd_check_box_unchecked">not checked</string>
+  <string name="cd_list_item_collapse">collapsed</string>
+  <string name="cd_list_item_expanded">expanded</string>
+  <string name="cd_percent">percent</string>
+  <string name="cd_settings">settings</string>
+  <string name="cd_sort_type">sort type</string>
   <string name="clean_content_all">All</string>
   <string name="clean_content_one">1 item</string>
   <string name="clean_content_three">3 items</string>
