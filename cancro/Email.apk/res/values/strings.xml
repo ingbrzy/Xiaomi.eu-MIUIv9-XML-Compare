@@ -80,6 +80,7 @@
   <string name="account_setup_basics_email_label">Enter account ID</string>
   <string name="account_setup_basics_login_gmail_without_proxy">Sign in using current network</string>
   <string name="account_setup_basics_manual_setup_action">Manual setup</string>
+  <string name="account_setup_basics_mi_mail_login_help">mi Mail login successfully, check the SMS, activate the link to send and receive mail Oh!</string>
   <string name="account_setup_basics_password_label">Enter password</string>
   <string name="account_setup_basics_title">Add account</string>
   <string name="account_setup_check_settings_check_incoming_msg">"    Validating server settings…"</string>
@@ -648,6 +649,7 @@
         When:
 %s (recurring)
     "</string>
+  <string name="meeting_responded_failed">Response failure</string>
   <string name="meeting_tentative">"
         Tentative:
 %s "</string>
@@ -1075,7 +1077,7 @@ to receive reminders about payments and trips"</string>
   <string name="special_text_sender_zh">发件人</string>
   <string name="storage">Storage</string>
   <string name="str_select_all">Select all</string>
-  <string name="str_select_none">Deselect</string>
+  <string name="str_select_none">Deselect all</string>
   <string name="subject_and_snippet" formatted="false">%s — %s</string>
   <string name="subject_hint">Subject</string>
   <string name="suggestions_authority">com.android.mail.providers.SuggestionsProvider</string>
