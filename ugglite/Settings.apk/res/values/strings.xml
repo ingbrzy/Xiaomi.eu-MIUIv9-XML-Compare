@@ -2480,6 +2480,7 @@ There are other users present on this device.
   <string name="miui_lab_taplus_desc">Press and hold items to trigger actions</string>
   <string name="miui_lab_taplus_title">Taplus</string>
   <string name="miui_screen_config_title">Home screen settings</string>
+  <string name="miui_updater">Updater</string>
   <string name="mms_breathing_light_color_title">Messages light color</string>
   <string name="mms_breathing_light_freq_title">Messages pulse frequency</string>
   <string name="mms_privacy_password_role_instruction">Your conversations with private contacts will be stored here.</string>
