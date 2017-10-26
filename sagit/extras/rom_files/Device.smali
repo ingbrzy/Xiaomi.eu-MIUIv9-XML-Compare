@@ -1938,6 +1938,10 @@
 
     sget-boolean v0, Lcom/android/camera/Device;->IS_C8:Z
 
+    if-nez v0, :cond_0
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_E7S:Z
+
     :goto_0
     return v0
 
