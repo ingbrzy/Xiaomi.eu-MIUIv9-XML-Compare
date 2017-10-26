@@ -1713,7 +1713,6 @@ Some apps may not work until updated by their developers."</string>
   <string name="location_agps_pref_reset_type_title">Preferred reset type</string>
   <string name="location_agps_pref_si_title">Preferred mode</string>
   <string name="location_agps_register_network_type">Access network type</string>
-  <string name="location_agps_register_network_type_dialog_summary">Choose a network</string>
   <string name="location_agps_register_network_type_dialog_title">Choose network</string>
   <string name="location_agps_register_network_type_summary">Choose network for A-GPS use</string>
   <string name="location_agps_reset_type">Reset types</string>
@@ -2025,6 +2024,7 @@ To clear music, pictures, and other user data, the "&lt;b&gt;SD card&lt;/b&gt; n
   <string name="miui_lab_taplus_title">Taplus</string>
   <string name="miui_screen_config_title">Home screen settings</string>
   <string name="miui_silent_title">Silent mode</string>
+  <string name="miui_updater">Updater</string>
   <string name="mms_breathing_light_color_title">Messages light color</string>
   <string name="mms_breathing_light_freq_title">Messages pulse frequency</string>
   <string name="mms_privacy_password_role_instruction">Your conversations with private contacts will be stored here.</string>
@@ -2975,7 +2975,7 @@ To use screen pinning:
   <string name="search_status_bar_settings_style">Notifications &amp; toggles layout;toggles;toggle layout;separate toggles;combined;separate;combine</string>
   <string name="search_status_bar_settings_toggle_collapse_after_clicked">Collapse after touch;collapse;hide</string>
   <string name="search_status_bar_settings_toggle_position">Toggle positions;Toggles;toggle;change toggles</string>
-  <string name="search_storage_settings">Cleaner;Clear cache;Cache</string>
+  <string name="search_storage_settings">Storage;Memory</string>
   <string name="search_sync_settings">Sync;Auto;WLAN only</string>
   <string name="search_system_app_settings">System apps</string>
   <string name="search_theme_settings_title">Themes;Theme;Personalization;Personalize</string>
