@@ -15,7 +15,7 @@
   <string name="accessibility_setting_button">Additional settings button</string>
   <string name="accessibility_shutter_button">Shutter button</string>
   <string name="accessibility_skin_beautify_button">SkinBeautifyButton</string>
-  <string name="accessibility_stereo_button">Dual camera mode</string>
+  <string name="accessibility_stereo_button">Focus adjustment</string>
   <string name="accessibility_video_capture_button">VideoCaptureButton</string>
   <string name="accessibility_video_module_picker">VideoModulePicker</string>
   <string name="accessibility_video_pause_button">VideoPauseButton</string>
@@ -435,7 +435,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_sound_title">Camera sounds</string>
   <string name="pref_camera_square_mode_title">Square</string>
   <string name="pref_camera_stereo_default">5</string>
-  <string name="pref_camera_stereo_mode_title">Stereo</string>
+  <string name="pref_camera_stereo_mode_title">Focus adjustment</string>
   <string name="pref_camera_tilt_shift_default">circle</string>
   <string name="pref_camera_tilt_shift_entry_circle">Circle</string>
   <string name="pref_camera_tilt_shift_entry_parallel">Parallel</string>
@@ -600,7 +600,7 @@ and brings out the people in the front."</string>
   <string name="simple_mode_button_text_scene">Turn off Scene mode</string>
   <string name="simple_mode_button_text_slow_video">Turn off time-lapse</string>
   <string name="simple_mode_button_text_square">Turn off Square</string>
-  <string name="simple_mode_button_text_stereo_mode">Turn off Stereo</string>
+  <string name="simple_mode_button_text_stereo_mode">Turn off Focus adjustment</string>
   <string name="simple_mode_button_text_tilt_shift">Turn off Tilt-shift</string>
   <string name="simple_mode_button_text_ubifocus">Turn off Refocus</string>
   <string name="snap_cancel">Cancel</string>
