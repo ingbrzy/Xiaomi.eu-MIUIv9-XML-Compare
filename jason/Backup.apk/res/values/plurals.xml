@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="backup_items_sysdata_tailer">
+        <item quantity="other">%d system data files</item>
+        <item quantity="one">%d system data file</item>
+    </plurals>
+    <plurals name="backup_items_app_tailer">
+        <item quantity="other">%d app data files</item>
+        <item quantity="one">%d app data file</item>
+    </plurals>
     <plurals name="data_item_count">
         <item quantity="other">%d items</item>
         <item quantity="one">%d item</item>
@@ -11,5 +19,29 @@
     <plurals name="trans_time_format_hours">
         <item quantity="other">%d hours</item>
         <item quantity="one">%d hour</item>
+    </plurals>
+    <plurals name="select_item_summary">
+        <item quantity="other">%1$s | %2$d items</item>
+        <item quantity="one">%1$s | %2$d item</item>
+    </plurals>
+    <plurals name="select_item_count_unit">
+        <item quantity="other">items</item>
+        <item quantity="one">item</item>
+    </plurals>
+    <plurals name="save_item_saving_summary">
+        <item quantity="other">%d items are restored</item>
+        <item quantity="one">%d item is restored</item>
+    </plurals>
+    <plurals name="save_item_saved_summary">
+        <item quantity="other">%d items are imported and restored</item>
+        <item quantity="one">%d item is imported and restored</item>
+    </plurals>
+    <plurals name="save_item_failed_summary_seg1">
+        <item quantity="other">"%d items imported, "</item>
+        <item quantity="one">"%d item imported, "</item>
+    </plurals>
+    <plurals name="save_item_failed_summary_seg2">
+        <item quantity="other">%d items need to import again</item>
+        <item quantity="one">%d item needs to import again</item>
     </plurals>
 </resources>
