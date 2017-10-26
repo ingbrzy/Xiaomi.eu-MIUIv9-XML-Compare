@@ -89,6 +89,7 @@ to be able to view them anytime"</string>
   <string name="exit_private_space">Switch</string>
   <string name="finger_print_num">Fingerprint %d</string>
   <string name="finger_print_of_use">Use fingerprint</string>
+  <string name="fingerprint_number_upper_limit">Too many unsuccessful unlock attempts</string>
   <string name="fingerprint_removal_failed">"Couldn't delete fingerprint"</string>
   <string name="function_not_support">Not supported on this device</string>
   <string name="gms_message">Creating dual apps requires working with Google services. Create a dual app for Google services?</string>
@@ -194,7 +195,7 @@ to enter Second space from Lock screen"</string>
   <string name="scanner_fingerprint_tips_desc">"Select existing fingerprint to enter Second space. You won't be able to use it in First space."</string>
   <string name="scanner_fingerprint_tips_title">Enter Second space using existing fingerprint</string>
   <string name="scanner_second_space_fingerprint">Scan Second space fingerprint</string>
-  <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Developer options before entering Second space.</string>
+  <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Settings &gt; Additional settings &gt; Developer options before entering Second space.</string>
   <string name="search_input_txt_na">"&lt;font color='#ff0000'&gt;%s&lt;/font&gt;"</string>
   <string name="search_result_text">"Couldn't find any apps"</string>
   <string name="secondSpace">Second space</string>
