@@ -345,5 +345,7 @@
         <item>KH;capricorn,gemini,lithium,natrium,sagit,scorpio,chiron</item>
         <item>US;scorpio,chiron</item>
         <item>TW;sagit,chiron</item>
+        <item>MO;sagit,chiron</item>
+        <item>JP;sagit,chiron</item>
     </string-array>
 </resources>
