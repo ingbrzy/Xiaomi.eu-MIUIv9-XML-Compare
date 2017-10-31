@@ -77,6 +77,7 @@
   <string name="cleanup_power">Deep clean</string>
   <string name="clear">Clear</string>
   <string name="closed">Off</string>
+  <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. If the problem persists, please contact the developer for assistance.</string>
   <string name="commute">Map suggestions</string>
   <string name="commute_open">Show the card for map suggestions</string>
   <string name="commute_setting_brief">Get route and traffic suggestions before you leave.</string>
@@ -166,6 +167,7 @@
   <string name="gmail_compose">Compose</string>
   <string name="gmail_parent">Gmail</string>
   <string name="go_to_school">To and from work or school</string>
+  <string name="google_app_id">1:997019421271:android:e5311186692ac503</string>
   <string name="greeting_open">Turn on daily greetings</string>
   <string name="greeting_setting_brief">Get weather info and reminders about scheduled events, alarms, and birthdays every morning and evening</string>
   <string name="greeting_setting_brief_notice">You can change the city in the Weather app</string>
