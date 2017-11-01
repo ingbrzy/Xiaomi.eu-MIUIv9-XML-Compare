@@ -13,8 +13,10 @@
   <string name="ac_enter_applock">Enter App lock</string>
   <string name="ac_firstUseApplock_subTitle">Use better system-level security tools</string>
   <string name="ac_firstUseApplock_title">Set a password to protect your apps</string>
+  <string name="ac_mask_all_apps">Hide for all apps</string>
   <string name="ac_summaryOff">Turned off, no password is required to open apps</string>
   <string name="ac_summaryOn">Turned on, password is required to open apps</string>
+  <string name="ac_unmask_all_apps">Unhide for all apps</string>
   <string name="access_control_app_is_launching">App is starting</string>
   <string name="access_control_failed_need_to_unlock_nofingerprint">Draw your unlock pattern to use a new fingerprint</string>
   <string name="access_control_fingerprint_not_identified_msg">"Couldn't read fingerprint."</string>
@@ -136,6 +138,8 @@
   <string name="app_manager_app_update">Updates</string>
   <string name="app_manager_app_version_name">Version:</string>
   <string name="app_manager_appupdate_remind">Notify about updates</string>
+  <string name="app_manager_as_dlg_msg">Allowing apps to autostart may require additional RAM and battery resources. Allow anyway?</string>
+  <string name="app_manager_as_dlg_title">Attention</string>
   <string name="app_manager_back">Back</string>
   <string name="app_manager_bipartition">Dual apps</string>
   <string name="app_manager_card_permission_title">Permissions</string>
@@ -145,6 +149,7 @@
   <string name="app_manager_clear_failed_dlg_message">Couldn’t clear data for app.</string>
   <string name="app_manager_clear_failed_dlg_title">Clear data</string>
   <string name="app_manager_copy_pkg_to_clip">Copied to clipboard</string>
+  <string name="app_manager_default_cleared">cleared</string>
   <string name="app_manager_default_close_summary">No defaults set.</string>
   <string name="app_manager_default_open">Open by default</string>
   <string name="app_manager_default_open_summary">You’ve chosen to launch this app by default for some actions.</string>
@@ -170,11 +175,13 @@
   <string name="app_manager_globel_other_perm_title">Other permissions</string>
   <string name="app_manager_globel_perm_summary">Manage permissions related to location, storage, phone, messages, and contacts.</string>
   <string name="app_manager_globel_perm_title">App permissions</string>
+  <string name="app_manager_has_not_data">No data</string>
   <string name="app_manager_have_not_consume">None</string>
   <string name="app_manager_hide_system_server">Hide system services</string>
   <string name="app_manager_instruction">Instruction</string>
   <string name="app_manager_loading_data">Loading data…</string>
   <string name="app_manager_manage_space">Manage space</string>
+  <string name="app_manager_memory">RAM</string>
   <string name="app_manager_menu_clear_data">Clear data</string>
   <string name="app_manager_net_control_title">Restrict data usage</string>
   <string name="app_manager_net_mobile">Data</string>
@@ -1107,6 +1114,7 @@ to respond"</string>
   <string name="monitor_app_more">More</string>
   <string name="monitor_requests_from_pc">Manage installation of the apps via USB</string>
   <string name="more_game">More games</string>
+  <string name="more_lock">More</string>
   <string name="more_setting_summary">支持红包提醒种类、红包闹钟、勿扰时段等功能</string>
   <string name="name">Name</string>
   <string name="net_booster">Network speed boost</string>
@@ -1182,8 +1190,10 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="notification_exit_power_save_mode">Turned off Battery saver</string>
   <string name="notification_exit_power_save_mode_subtitle">Battery %s charged.</string>
   <string name="notification_item">Protect apps with App lock</string>
-  <string name="notification_mask_summary">"Don't show content for notifications on the Lock screen and in the Notification shade"</string>
+  <string name="notification_mask_summary">Hide notification content on the Lock screen and in the Notification shade</string>
   <string name="notification_mask_title">Hide content</string>
+  <string name="notification_masked_item">Hide notifications</string>
+  <string name="notification_masked_subtitle">Hide notifications from apps protected with App lock</string>
   <string name="notification_subtitle">Tap to turn on</string>
   <string name="notification_summary_cmcc_app_check">Touch to view details.</string>
   <string name="notify_daily_data_usage_body">To limit data usage automatically, set up your monthly data plan.</string>
@@ -1865,8 +1875,17 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="start_diagnostic_botton">Start</string>
   <string name="start_downloading_app">Starting download: %1$s</string>
   <string name="start_game">Start</string>
+  <string name="status_bar_network_flow_content">Today: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Remaining: %2$s</string>
+  <string name="status_bar_network_flow_content_not_setting">Today: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;This month: %2$s</string>
+  <string name="status_bar_network_flow_exceed_content">Today: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Plan exceeded: &lt;font color=%2$s&gt;%3$s&lt;/font&gt;</string>
+  <string name="status_bar_network_flow_phone_balance">"   Phone balance:%1$s "</string>
+  <string name="status_bar_network_flow_purchase">"   Purchase &gt;"</string>
+  <string name="status_bar_network_flow_setup_data_plan">"   Setup data plan &gt;"</string>
+  <string name="status_bar_network_flow_today">Today: %1$s</string>
   <string name="still_retain_btn">Keep</string>
   <string name="suggest_app_tolock">Suggestions</string>
+  <string name="suggest_app_tolock_masked">Hidden</string>
+  <string name="suggest_app_tolock_unmasked">Visible notifications</string>
   <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
   <string name="summary_app_lock_disable">Protect your data with App lock</string>
   <string name="summary_auto_update">MIUI will select the most suitable time to download and install updates.</string>
