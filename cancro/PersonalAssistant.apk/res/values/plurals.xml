@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="payment_record_menu_select_num">
-        <item quantity="other">Selected %s items</item>
-        <item quantity="one">Selected %s item</item>
-    </plurals>
-    <plurals name="payment_record_dialog_delete_message">
-        <item quantity="other">Delete %s items from payment?</item>
-        <item quantity="one">Delete %s item from payment?</item>
-    </plurals>
     <plurals name="time_minute_ago">
         <item quantity="other">%d minutes ago</item>
         <item quantity="one">%d minute ago</item>
@@ -35,10 +27,6 @@
     <plurals name="sms_hour_suffix">
         <item quantity="other">In %d hours</item>
         <item quantity="one">In %d hour</item>
-    </plurals>
-    <plurals name="sms_day_suffix">
-        <item quantity="other">In %d days</item>
-        <item quantity="one">In %d day</item>
     </plurals>
     <plurals name="sms_title_hours">
         <item quantity="other">%d hours</item>

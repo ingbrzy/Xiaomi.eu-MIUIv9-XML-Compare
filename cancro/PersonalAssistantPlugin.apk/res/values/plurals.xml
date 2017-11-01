@@ -17,6 +17,10 @@
         <item quantity="other">%d hours ago</item>
         <item quantity="one">%d hour ago</item>
     </plurals>
+    <plurals name="step_km">
+        <item quantity="other">%d km</item>
+        <item quantity="one">%d km</item>
+    </plurals>
     <plurals name="steps">
         <item quantity="other">%d|steps</item>
         <item quantity="zero">%d|step</item>
