@@ -1037,7 +1037,16 @@ Take more photos of your friends!"</string>
   <string name="photo_editor_long_crop">Crop</string>
   <string name="photo_editor_mosaic">Mosaic</string>
   <string name="photo_editor_navigator_cancel">Cancel</string>
+  <string name="photo_editor_navigator_download_network_metered_msg">Downloading %s requires about 4MB of mobile data. Download now?</string>
+  <string name="photo_editor_navigator_download_network_metered_title">Data usage warning</string>
   <string name="photo_editor_navigator_export">Finish</string>
+  <string name="photo_editor_navigator_module_download_failed">"Couldn't download %s"</string>
+  <string name="photo_editor_navigator_module_download_now">Download</string>
+  <string name="photo_editor_navigator_module_download_success">Downloaded successfully</string>
+  <string name="photo_editor_navigator_module_download_wait_wlan">Wait for WLAN</string>
+  <string name="photo_editor_navigator_module_downloading">Downloading %s…</string>
+  <string name="photo_editor_navigator_need_download">Connect to the internet to download %s.</string>
+  <string name="photo_editor_remover">Erase</string>
   <string name="photo_editor_rotate">Rotate</string>
   <string name="photo_editor_saving">Saving…</string>
   <string name="photo_editor_sticker">Sticker</string>
@@ -1107,6 +1116,10 @@ Take more photos of your friends!"</string>
   <string name="remove_from_secret_successful">Removed from hidden album</string>
   <string name="remove_to_album_title">Merge with</string>
   <string name="remove_to_other_album">Merge with a different person</string>
+  <string name="remover_edit_type_free">Objects</string>
+  <string name="remover_edit_type_line">Lines</string>
+  <string name="remover_erase_aera_too_big">The erase area is too big</string>
+  <string name="remover_menu_processing">Processing</string>
   <string name="rename_album">Rename album</string>
   <string name="rename_album_failed">"Couldn't rename"</string>
   <string name="rename_album_succeeded">Renamed successfully</string>
