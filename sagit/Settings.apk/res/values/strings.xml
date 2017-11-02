@@ -177,7 +177,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="add_fingerprint_success_msg">Added successfully</string>
   <string name="add_fingerprint_text">Add fingerprint</string>
   <string name="add_fingerprint_toast_text">Put your finger on the sensor</string>
-  <string name="add_front_fingerprint_instruction_msg">Fingerprint sensor is on the back of your device.</string>
+  <string name="add_front_fingerprint_instruction_msg">Fingerprint sensor is on the Home button of your device.</string>
   <string name="add_new">Add</string>
   <string name="add_rule">Add rules</string>
   <string name="add_virtual_keyboard">Manage keyboards</string>
