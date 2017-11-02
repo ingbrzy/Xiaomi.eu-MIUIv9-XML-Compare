@@ -657,9 +657,6 @@
   <string name="delete_album_msg_format">Delete \"%2$s\" album %1$s %3$s?</string>
   <string name="delete_album_success">Album deleted</string>
   <string name="delete_finish_format">%d deleted</string>
-  <string name="delete_from_album">from \"%s\" album and Mi Cloud</string>
-  <string name="delete_from_album_no_account">from \"%s\" album</string>
-  <string name="delete_from_all_devices">from all devices</string>
   <string name="delete_from_all_devices_and_cloud">from all devices and Mi Cloud</string>
   <string name="delete_from_cloud">Delete items from Mi Cloud</string>
   <string name="delete_from_devices">All synced devices</string>
@@ -824,7 +821,6 @@ Take more photos of your friends!"</string>
   <string name="filter_food_softdrink">Soda</string>
   <string name="filter_food_wholemeal">Grains</string>
   <string name="filter_original">None</string>
-  <string name="filter_people_blackwhite">B&amp;W</string>
   <string name="filter_people_fairytale">Kids</string>
   <string name="filter_people_heart">Emotions</string>
   <string name="filter_people_japanese">Fresh</string>
