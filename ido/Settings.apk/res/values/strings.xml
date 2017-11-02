@@ -114,7 +114,7 @@ Note: Triple-tap for magnification works everywhere except the keyboard and navi
   <string name="add_fingerprint_success_msg">Added successfully</string>
   <string name="add_fingerprint_text">Add fingerprint</string>
   <string name="add_fingerprint_toast_text">Put your finger on the sensor</string>
-  <string name="add_front_fingerprint_instruction_msg">Fingerprint sensor is on the back of your device.</string>
+  <string name="add_front_fingerprint_instruction_msg">Fingerprint sensor is on the Home button of your device.</string>
   <string name="adding_profile_owner_warning">"By proceeding, your User will be managed by your Administrator which may also be able to store associated data, in addition to your personal data.
 
 Your Administrator has the ability to monitor and manage settings, access, apps, and data associated with this User, including network activity and your device's location information."</string>
@@ -2026,7 +2026,7 @@ To clear music, pictures, and other user data, the "&lt;b&gt;USB storage&lt;/b&g
   <string name="miui_lab_taplus_title">Taplus</string>
   <string name="miui_screen_config_title">Home screen settings</string>
   <string name="miui_silent_title">Silent mode</string>
-  <string name="miui_updater">Updater</string>
+  <string name="miui_updater">System update</string>
   <string name="mms_breathing_light_color_title">Messages light color</string>
   <string name="mms_breathing_light_freq_title">Messages pulse frequency</string>
   <string name="mms_privacy_password_role_instruction">Your conversations with private contacts will be stored here.</string>
@@ -2294,7 +2294,6 @@ Select your operating system:"</string>
   <string name="page_layout_page2_small_title">Extra small</string>
   <string name="page_layout_page2_title">Preview</string>
   <string name="page_layout_small_title">Extra small</string>
-  <string name="palm_enabled">Cover screen to turn it off</string>
   <string name="paper_mode_auto_twilight_summary">Switch to Reading mode after sunset automatically</string>
   <string name="paper_mode_auto_twilight_title">"Good night's read"</string>
   <string name="paper_mode_customize_time_summary">Turn on Reading mode for a custom period</string>
@@ -3374,7 +3373,6 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="supl_not_set">&lt;Not set&gt;</string>
   <string name="supplicant_state_label">Supplicant state:</string>
   <string name="sure_sync_now">Sync items now?</string>
-  <string name="suspend_gesture_enabled">Flip phone to turn off screen</string>
   <string name="switch_off_text">Off</string>
   <string name="switch_on_text">On</string>
   <string name="symbols_not_allowed_for_password">"Password can't contain symbols"</string>
