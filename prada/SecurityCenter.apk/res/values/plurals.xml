@@ -206,6 +206,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">"Wait for %d seconds and try again. "</item>
         <item quantity="one">"Wait for %d second and try again. "</item>
     </plurals>
+    <plurals name="number_masked">
+        <item quantity="other">%d apps</item>
+        <item quantity="one">%d app</item>
+    </plurals>
     <plurals name="number_locked">
         <item quantity="other">%d apps locked</item>
         <item quantity="one">%d app locked</item>
@@ -213,6 +217,14 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="number_to_lock">
         <item quantity="other">%d apps not locked</item>
         <item quantity="one">%d app not locked</item>
+    </plurals>
+    <plurals name="number_masked_text">
+        <item quantity="other">%d notifications were hidden</item>
+        <item quantity="one">%d notification was hidden</item>
+    </plurals>
+    <plurals name="number_to_mask_text">
+        <item quantity="other">%d notifications are visible</item>
+        <item quantity="one">%d notification is visible</item>
     </plurals>
     <plurals name="find_applications">
         <item quantity="other">Search among %d apps</item>

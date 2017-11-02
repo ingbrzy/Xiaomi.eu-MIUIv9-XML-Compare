@@ -26,6 +26,7 @@
   <string name="account_none">None</string>
   <string name="account_none_binded_info">None</string>
   <string name="account_none_user_name">None</string>
+  <string name="account_notification_message">xiaomi account identity has expired, please login again !</string>
   <string name="account_protection">Account protection</string>
   <string name="account_protection_off">Off</string>
   <string name="account_protection_on">On</string>
