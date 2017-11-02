@@ -177,7 +177,7 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="add_fingerprint_success_msg">Added successfully</string>
   <string name="add_fingerprint_text">Add fingerprint</string>
   <string name="add_fingerprint_toast_text">Put your finger on the sensor</string>
-  <string name="add_front_fingerprint_instruction_msg">Fingerprint sensor is on the back of your device.</string>
+  <string name="add_front_fingerprint_instruction_msg">Fingerprint sensor is on the Home button of your device.</string>
   <string name="add_new">Add</string>
   <string name="add_rule">Add rules</string>
   <string name="add_virtual_keyboard">Manage keyboards</string>
@@ -1492,7 +1492,6 @@ This setting affects all users on this phone."</string>
   <string name="edge_mode_photo_summary">While in Camera app, tap the edge of your phone to trigger shutter, and tap again to take a photo</string>
   <string name="edge_mode_screenshot">Screenshot</string>
   <string name="edge_mode_screenshot_summary">Double tap both edges to take a screenshot</string>
-  <string name="edge_touch_volume">Adjust volume on the edges</string>
   <string name="edit_rule">Edit rules</string>
   <string name="edit_rules">Edit</string>
   <string name="eighthours">8 hours</string>
@@ -2482,7 +2481,7 @@ There are other users present on this device.
   <string name="miui_lab_taplus_desc">Press and hold items to trigger actions</string>
   <string name="miui_lab_taplus_title">Taplus</string>
   <string name="miui_screen_config_title">Home screen settings</string>
-  <string name="miui_updater">Updater</string>
+  <string name="miui_updater">System update</string>
   <string name="mms_breathing_light_color_title">Messages light color</string>
   <string name="mms_breathing_light_freq_title">Messages pulse frequency</string>
   <string name="mms_privacy_password_role_instruction">Your conversations with private contacts will be stored here.</string>
@@ -2844,7 +2843,6 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="page_layout_page2_small_title">Extra small</string>
   <string name="page_layout_page2_title">Preview</string>
   <string name="page_layout_small_title">XS</string>
-  <string name="palm_enabled">Cover screen to turn it off</string>
   <string name="paper_mode_auto_twilight_summary">Switch to Reading mode after sunset automatically</string>
   <string name="paper_mode_auto_twilight_title">"Good night's read"</string>
   <string name="paper_mode_customize_time_summary">Turn on Reading mode for a custom period</string>
@@ -4211,7 +4209,6 @@ Consider using a faster ^1 for better performance."</string>
   <string name="supl_not_set">&lt;Not set&gt;</string>
   <string name="supplicant_state_label">Supplicant state:</string>
   <string name="sure_sync_now">Sync items now?</string>
-  <string name="suspend_gesture_enabled">Flip phone to turn off screen</string>
   <string name="suw_back_button_label">Back</string>
   <string name="suw_more_button_label">More</string>
   <string name="suw_next_button_label">Next</string>
