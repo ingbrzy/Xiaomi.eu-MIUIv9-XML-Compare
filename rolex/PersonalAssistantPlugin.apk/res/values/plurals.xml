@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$dmin ago</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$dhr ago</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$dd ago</item>
+    </plurals>
+    <plurals name="time_minute_ago">
+        <item quantity="other">%d minutes ago</item>
+        <item quantity="one">%d minute ago</item>
+    </plurals>
+    <plurals name="time_hour_ago">
+        <item quantity="other">%d hours ago</item>
+        <item quantity="one">%d hour ago</item>
+    </plurals>
+    <plurals name="step_km">
+        <item quantity="other">%d km</item>
+        <item quantity="one">%d km</item>
+    </plurals>
+    <plurals name="steps">
+        <item quantity="other">%d|steps</item>
+        <item quantity="zero">%d|step</item>
+        <item quantity="one">%d|step</item>
+    </plurals>
+    <plurals name="assistant_day">
+        <item quantity="other">In %d days</item>
+        <item quantity="one">In %d day</item>
+    </plurals>
+    <plurals name="sms_minute_suffix">
+        <item quantity="other">In %d minutes</item>
+        <item quantity="one">In %d minute</item>
+    </plurals>
+    <plurals name="sms_hour_suffix">
+        <item quantity="other">In %d hours</item>
+        <item quantity="one">In %d hour</item>
+    </plurals>
+</resources>

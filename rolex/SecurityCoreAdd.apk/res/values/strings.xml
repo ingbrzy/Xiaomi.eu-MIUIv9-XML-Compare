@@ -67,6 +67,7 @@ to be able to view them anytime"</string>
   <string name="delete_phone_fingerprint">Delete Second space fingerprint</string>
   <string name="delete_src_file">Delete files</string>
   <string name="delete_src_photo">Delete photos</string>
+  <string name="dialog_title">Attention</string>
   <string name="dir_switch_out_all_photos">Second space Gallery</string>
   <string name="disable">Turn off</string>
   <string name="do_not_ask">"Don't ask again"</string>
@@ -159,6 +160,7 @@ You can also download them separately."</string>
   <string name="openPasswordGuard">Set Second space password</string>
   <string name="openSuccess">Turned on</string>
   <string name="opened">On</string>
+  <string name="optimize_now">Optimize</string>
   <string name="other">Other</string>
   <string name="otherSettings">Other settings</string>
   <string name="passWordGuardSummary">Enter Second space from Lock screen using a password</string>
@@ -195,7 +197,7 @@ to enter Second space from Lock screen"</string>
   <string name="scanner_fingerprint_tips_desc">"Select existing fingerprint to enter Second space. You won't be able to use it in First space."</string>
   <string name="scanner_fingerprint_tips_title">Enter Second space using existing fingerprint</string>
   <string name="scanner_second_space_fingerprint">Scan Second space fingerprint</string>
-  <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Settings &gt; Additional settings &gt; Developer options before entering Second space.</string>
+  <string name="sdcardfs_dialog_message">Your old data may be incompatible with the new file system. Optimize the data before entering Second space and reboot your device.</string>
   <string name="search_input_txt_na">"&lt;font color='#ff0000'&gt;%s&lt;/font&gt;"</string>
   <string name="search_result_text">"Couldn't find any apps"</string>
   <string name="secondSpace">Second space</string>
