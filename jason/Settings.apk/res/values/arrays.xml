@@ -2032,18 +2032,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>3686400</item>
         <item>2073600</item>
     </integer-array>
-    <string-array name="edge_touch_volume_action">
-        <item>Press to adjust - Double press to trigger</item>
-        <item>Slide to adjust - Slide to trigger</item>
-        <item>Press to adjust - Press to trigger</item>
-        <item>Press to adjust - Press &amp; hold to trigger</item>
-    </string-array>
-    <string-array name="edge_touch_volume_action_value">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
     <string-array name="city_name">
         <item>Abidjan</item>
         <item>Accra</item>

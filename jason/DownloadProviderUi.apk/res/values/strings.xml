@@ -69,7 +69,7 @@
   <string name="dialog_insufficient_space_on_external">Cannot finish download. There is not enough space on external storage.</string>
   <string name="dialog_media_not_found">Cannot download. The external media is not available.</string>
   <string name="dialog_msg_disabled_net">%1$s restricted downloads in the current network. Tap Network settings to go to the Security app.</string>
-  <string name="dialog_msg_recommend">"You won't be able to view recommended sources after you turn off. You can choose \"Only use Wi-Fi\" to save mobile data."</string>
+  <string name="dialog_msg_recommend">"You won't be able to view recommended sources after you turn off."</string>
   <string name="dialog_queued_body">This file is queued for future download.</string>
   <string name="dialog_title_disabled_net">Internet access</string>
   <string name="dialog_title_not_available">Download Failed</string>
