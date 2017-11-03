@@ -13,8 +13,10 @@
   <string name="ac_enter_applock">Enter App lock</string>
   <string name="ac_firstUseApplock_subTitle">Use better system-level security tools</string>
   <string name="ac_firstUseApplock_title">Set a password to protect your apps</string>
+  <string name="ac_mask_all_apps">Hide for all apps</string>
   <string name="ac_summaryOff">Turned off, no password is required to open apps</string>
   <string name="ac_summaryOn">Turned on, password is required to open apps</string>
+  <string name="ac_unmask_all_apps">Unhide for all apps</string>
   <string name="access_control_app_is_launching">App is starting</string>
   <string name="access_control_failed_need_to_unlock_nofingerprint">Draw your unlock pattern to use a new fingerprint</string>
   <string name="access_control_fingerprint_not_identified_msg">"Couldn't read fingerprint."</string>
@@ -77,6 +79,7 @@
   <string name="alarm_lockscreen_btn">开始抢红包</string>
   <string name="alarm_setting_title">红包闹钟设置</string>
   <string name="all_address_choose_hint">All numbers in this province</string>
+  <string name="already_close_gamebooster">Gaming speed boost is off</string>
   <string name="anim_gamebooster_text">Just a sec…</string>
   <string name="anti_disturb_msg_detail">Turn off all notifications except for incoming calls</string>
   <string name="anti_disturb_msg_title">DND</string>
@@ -136,6 +139,8 @@
   <string name="app_manager_app_update">Updates</string>
   <string name="app_manager_app_version_name">Version:</string>
   <string name="app_manager_appupdate_remind">Notify about updates</string>
+  <string name="app_manager_as_dlg_msg">Allowing apps to autostart may require additional RAM and battery resources. Allow anyway?</string>
+  <string name="app_manager_as_dlg_title">Attention</string>
   <string name="app_manager_back">Back</string>
   <string name="app_manager_bipartition">Dual apps</string>
   <string name="app_manager_card_permission_title">Permissions</string>
@@ -145,6 +150,7 @@
   <string name="app_manager_clear_failed_dlg_message">Couldn’t clear data for app.</string>
   <string name="app_manager_clear_failed_dlg_title">Clear data</string>
   <string name="app_manager_copy_pkg_to_clip">Copied to clipboard</string>
+  <string name="app_manager_default_cleared">cleared</string>
   <string name="app_manager_default_close_summary">No defaults set.</string>
   <string name="app_manager_default_open">Open by default</string>
   <string name="app_manager_default_open_summary">You’ve chosen to launch this app by default for some actions.</string>
@@ -170,11 +176,13 @@
   <string name="app_manager_globel_other_perm_title">Other permissions</string>
   <string name="app_manager_globel_perm_summary">Manage permissions related to location, storage, phone, messages, and contacts.</string>
   <string name="app_manager_globel_perm_title">App permissions</string>
+  <string name="app_manager_has_not_data">No data</string>
   <string name="app_manager_have_not_consume">None</string>
   <string name="app_manager_hide_system_server">Hide system services</string>
   <string name="app_manager_instruction">Instruction</string>
   <string name="app_manager_loading_data">Loading data…</string>
   <string name="app_manager_manage_space">Manage space</string>
+  <string name="app_manager_memory">RAM</string>
   <string name="app_manager_menu_clear_data">Clear data</string>
   <string name="app_manager_net_control_title">Restrict data usage</string>
   <string name="app_manager_net_mobile">Data</string>
@@ -404,6 +412,7 @@
   <string name="block_message_number">Messages: &lt;font color=#5fab1b&gt;%d&lt;/font&gt;</string>
   <string name="block_phone_number">Calls: &lt;font color=#5fab1b&gt;%d&lt;/font&gt;</string>
   <string name="boost_done">Boosted successfully</string>
+  <string name="boost_stop">Turn off speed boost</string>
   <string name="booster_immediately">Boost</string>
   <string name="booster_suc">Boosted successfully</string>
   <string name="boostering">Boosting speed…</string>
@@ -583,6 +592,8 @@
   <string name="data_usage_warning_body">Tap to view data usage details.</string>
   <string name="data_usage_warning_body_notify">Tap to view details</string>
   <string name="data_usage_warning_title_notify">You went over your data limit</string>
+  <string name="databooster_tips_message">Turn on to restrict all SIM cards except for the data card. Turn this feature off if errors occur in the games of your choice.</string>
+  <string name="databooster_tips_title">Attention</string>
   <string name="declaration_dialog_msg">This feature can help you track your usage, but is not guaranteed to prevent additional charges. For best results, set a conservative limit.</string>
   <string name="deep_clean_disconnect_data_title">Turn off mobile data when device is locked</string>
   <string name="deep_clean_memory_clean_title">Clear cache when device is locked</string>
@@ -724,12 +735,15 @@
   <string name="float_window">桌面悬浮窗</string>
   <string name="float_window_summary">支持快速跳转至摇一摇与咻一咻页面</string>
   <string name="float_window_tips">小米手机就是快！</string>
+  <string name="forbid_autobright_summary">"Screen brightness will stay the same when you're playing games"</string>
   <string name="forbid_autobright_title">Fix screen brightness</string>
   <string name="foreground_traffic">Foreground %s</string>
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
   <string name="forget_password_button_text_normal">Forgot password</string>
   <string name="forget_pattern">&lt;u&gt;Forgot password&lt;/u&gt;</string>
   <string name="free_send_net_booster">Free Network speed boost</string>
+  <string name="free_send_net_booster_busniess">Get a free Xunlei speed boost</string>
+  <string name="free_send_net_booster_busniess_tip">Tap to receive</string>
   <string name="free_send_net_booster_tip">Enjoy smooth gaming with the free Network speed boost.</string>
   <string name="free_time_traffic">Off-peak data limit</string>
   <string name="free_time_traffic_hint">Enter off-peak data limit</string>
@@ -740,8 +754,10 @@
   <string name="fw_blocked">Blocklist</string>
   <string name="fw_blocked_count">"Blocked "</string>
   <string name="fw_blocked_join">" and "</string>
+  <string name="game_ad_recommendation">Everybody is playing</string>
   <string name="game_anti_disturb_msg">Game DND</string>
   <string name="game_booster">Game speed booster</string>
+  <string name="game_booster_close">Game Speed Booster off</string>
   <string name="game_booster_intro">About Game speed booster</string>
   <string name="game_booster_jump_webview">Just a sec…</string>
   <string name="game_booster_tab_top">Top</string>
@@ -959,12 +975,15 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="main_alert_message_no_imsi">No SIM card detected</string>
   <string name="main_alert_message_open_traffic_ctrl">We recommend restricting data usage</string>
   <string name="main_bill_remained">Phone balance</string>
+  <string name="main_button_mi_sim_close">Activate Mi SIM</string>
+  <string name="main_button_mi_sim_open">View details</string>
   <string name="main_button_usage_adjust">Sync mobile data usage</string>
   <string name="main_button_usage_adjust_manual">Set data usage limit</string>
   <string name="main_button_usage_adjusting">Changing…</string>
   <string name="main_button_usage_adjusting_bill">Changing…</string>
   <string name="main_button_usage_package_setting">Set data usage limit</string>
   <string name="main_daily_package">Daily data plan</string>
+  <string name="main_indicator_title">Waiting for activation</string>
   <string name="main_leisure_remained">Off-peak data remaining</string>
   <string name="main_month_total_used">Used this month</string>
   <string name="main_month_used">Data plan</string>
@@ -983,6 +1002,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
 to calibrate"</string>
   <string name="main_tc_wait_result">"Waiting for the carrier
 to respond"</string>
+  <string name="main_tobe_added_desc">Mobile data from ¥0.03/MB</string>
   <string name="main_today_used">Used today</string>
   <string name="main_toolbar_firewall">Restrict data usage</string>
   <string name="main_toolbar_internet_by_mobiledata">Mobile data</string>
@@ -1100,6 +1120,7 @@ to respond"</string>
   <string name="monitor_app_more">More</string>
   <string name="monitor_requests_from_pc">Manage installation of the apps via USB</string>
   <string name="more_game">More games</string>
+  <string name="more_lock">More</string>
   <string name="more_setting_summary">支持红包提醒种类、红包闹钟、勿扰时段等功能</string>
   <string name="name">Name</string>
   <string name="net_booster">Network speed boost</string>
@@ -1175,8 +1196,10 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="notification_exit_power_save_mode">Turned off Battery saver</string>
   <string name="notification_exit_power_save_mode_subtitle">Battery %s charged.</string>
   <string name="notification_item">Protect apps with App lock</string>
-  <string name="notification_mask_summary">"Don't show content for notifications on the Lock screen and in the Notification shade"</string>
+  <string name="notification_mask_summary">Hide notification content on the Lock screen and in the Notification shade</string>
   <string name="notification_mask_title">Hide content</string>
+  <string name="notification_masked_item">Hide notifications</string>
+  <string name="notification_masked_subtitle">Hide notifications from apps protected with App lock</string>
   <string name="notification_subtitle">Tap to turn on</string>
   <string name="notification_summary_cmcc_app_check">Touch to view details.</string>
   <string name="notify_daily_data_usage_body">To limit data usage automatically, set up your monthly data plan.</string>
@@ -1858,8 +1881,17 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="start_diagnostic_botton">Start</string>
   <string name="start_downloading_app">Starting download: %1$s</string>
   <string name="start_game">Start</string>
+  <string name="status_bar_network_flow_content">Today: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Remaining: %2$s</string>
+  <string name="status_bar_network_flow_content_not_setting">Today: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;This month: %2$s</string>
+  <string name="status_bar_network_flow_exceed_content">Today: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Plan exceeded: &lt;font color=%2$s&gt;%3$s&lt;/font&gt;</string>
+  <string name="status_bar_network_flow_phone_balance">"   Phone balance:%1$s "</string>
+  <string name="status_bar_network_flow_purchase">"   Purchase &gt;"</string>
+  <string name="status_bar_network_flow_setup_data_plan">"   Setup data plan &gt;"</string>
+  <string name="status_bar_network_flow_today">Today: %1$s</string>
   <string name="still_retain_btn">Keep</string>
   <string name="suggest_app_tolock">Suggestions</string>
+  <string name="suggest_app_tolock_masked">Hidden</string>
+  <string name="suggest_app_tolock_unmasked">Visible notifications</string>
   <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
   <string name="summary_app_lock_disable">Protect your data with App lock</string>
   <string name="summary_auto_update">MIUI will select the most suitable time to download and install updates.</string>
@@ -2187,6 +2219,8 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="virus_update_tips_title">Warning</string>
   <string name="virus_wait_network_dialog_message">Your phone is not connected to WLAN now. It will cost metered mobile data usage. Continue ?</string>
   <string name="voltage_symbol">V</string>
+  <string name="vpn_disabled_by_user">Designated data connection is off</string>
+  <string name="vpn_unbale_get_phonenum">"Can't get phone numbers using designated data plans"</string>
   <string name="wakepath_confirm_start_activity">Allow %1$s to open %2$s?</string>
   <string name="warn_function_no_work">&lt;u&gt;来红包时无法正常提醒？&lt;/u&gt;</string>
   <string name="weChat_not_found">您的应用版本过低或者未安装</string>
@@ -2209,6 +2243,8 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="wlan_booster">WLAN optimization</string>
   <string name="wlan_change_protection_detail">"Don't switch to WLAN automatically when connected to mobile data network"</string>
   <string name="wlan_change_protection_title">Prevent switching networks</string>
+  <string name="xunyou_net_booster">Network speed boost</string>
+  <string name="xunyou_net_booster_detail">Use Xunyou speed boost services for gaming</string>
   <string name="xunyou_pay_webview">Xunyou services</string>
   <string name="xunyou_server_expired">The session expired.</string>
   <string name="zhifubao_not_found">您的应用版本过低或者未安装</string>
