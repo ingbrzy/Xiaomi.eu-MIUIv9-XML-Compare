@@ -500,6 +500,7 @@
   <string name="convert_to_file_encryption_enabled">Convert…</string>
   <string name="crescendo_ringer_summary">Ringtone volume will gradually grow to the level you set</string>
   <string name="crescendo_ringer_title">Increasing ringtone volume</string>
+  <string name="ct_ut_not_support_close_4glte">UT is not available, please turn off Enhanced 4G LTE Mode in Settings</string>
   <string name="daltonizer_mode_deuteranomaly">Deuteranomaly (red-green)</string>
   <string name="daltonizer_mode_disabled">Disabled</string>
   <string name="daltonizer_mode_monochromacy">Monochromacy</string>
@@ -1593,6 +1594,7 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="username_title">Username</string>
   <string name="ussdRunning">USSD code running…</string>
   <string name="ussd_dialog_sep">----------</string>
+  <string name="ut_not_support">UT is not available</string>
   <string name="verify_apps_over_usb_summary">Check apps installed via ADB/ADT for harmful behavior.</string>
   <string name="verify_apps_over_usb_title">Verify apps over USB</string>
   <string name="vibrate_after_connected_summary">Vibrate when answers</string>
