@@ -60,8 +60,6 @@
         <item>App name</item>
         <item>Usage frequency</item>
         <item>Used storage</item>
-        <item>Data usage</item>
-        <item>Battery usage</item>
         <item>Installation time</item>
     </string-array>
     <string-array name="sort_title">
@@ -69,8 +67,6 @@
         <item>Sort by app name</item>
         <item>Sort by usage frequency</item>
         <item>Sort by used storage</item>
-        <item>Sort by data usage</item>
-        <item>Sort by battery usage</item>
         <item>Sort by Installation time</item>
     </string-array>
     <string-array name="always_enabled_app_list">
