@@ -128,8 +128,6 @@
   <string name="app_install_tips_go_to">Open</string>
   <string name="app_install_tips_install_success">Installed %1$s successfully</string>
   <string name="app_maanger_app_uninstalled_toast">This app is uninstalled</string>
-  <string name="app_manager_advanced_setting">Advanced settings</string>
-  <string name="app_manager_allow">Yes</string>
   <string name="app_manager_app_ifno_version">App version</string>
   <string name="app_manager_app_info_label">App info</string>
   <string name="app_manager_app_info_name">App name</string>
@@ -154,6 +152,7 @@
   <string name="app_manager_copy_pkg_to_clip">Copied to clipboard</string>
   <string name="app_manager_default_cleared">cleared</string>
   <string name="app_manager_default_close_summary">No defaults set.</string>
+  <string name="app_manager_default_open">Open by default</string>
   <string name="app_manager_default_open_summary">You’ve chosen to launch this app by default for some actions.</string>
   <string name="app_manager_default_open_title">Clear defaults</string>
   <string name="app_manager_defaults_setting">Defaults</string>
@@ -165,7 +164,6 @@
   <string name="app_manager_disable_dlg_title">Disable built-in app?</string>
   <string name="app_manager_disable_text">Disable</string>
   <string name="app_manager_disabled">Disabled</string>
-  <string name="app_manager_disabled_by_admin">Disabled by admin</string>
   <string name="app_manager_dlg_cancel">Cancel</string>
   <string name="app_manager_dlg_ok">OK</string>
   <string name="app_manager_enable_text">Enable</string>
@@ -181,7 +179,6 @@
   <string name="app_manager_has_not_data">No data</string>
   <string name="app_manager_have_not_consume">None</string>
   <string name="app_manager_hide_system_server">Hide system services</string>
-  <string name="app_manager_install_other_app">install apps unknown sources</string>
   <string name="app_manager_instruction">Instruction</string>
   <string name="app_manager_loading_data">Loading data…</string>
   <string name="app_manager_manage_space">Manage space</string>
@@ -190,7 +187,6 @@
   <string name="app_manager_net_control_title">Restrict data usage</string>
   <string name="app_manager_net_mobile">Data</string>
   <string name="app_manager_net_wifi">WLAN</string>
-  <string name="app_manager_not_allow">No</string>
   <string name="app_manager_not_record">"Couldn't find apps which require permissions"</string>
   <string name="app_manager_notify_bar">Badges</string>
   <string name="app_manager_notify_floating">Floating notifications</string>
@@ -617,7 +613,6 @@
   <string name="dialog_app_roaming_title">"Overseas roaming isn't enabled for %1$s"</string>
   <string name="dialog_msg_auto_start_declare">Some apps may incorrectly indicate that MIUI has prevented them from starting. Check permissions that have been granted to individual apps in Settings &gt; Apps.</string>
   <string name="dialog_msg_stop_virus_scan">"Stop security scan before it's finished?"</string>
-  <string name="dialog_no_longer_alert">no longer remind</string>
   <string name="dialog_remobe_luckymoney_cancle">使用单发版</string>
   <string name="dialog_remobe_luckymoney_ok">前往开启</string>
   <string name="dialog_remove_luckymoney">当前MIUI版本已支持系统级红包助手，是否卸载单发版，并前往安全中心开启更快更稳定的小米红包助手？</string>
@@ -1671,7 +1666,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="safe_result_item_info_system_scan">Payment monitoring is on</string>
   <string name="safe_result_item_info_system_version">MIUI is up to date</string>
   <string name="safepay_alert_dialog_button_continue">Continue</string>
-  <string name="safepay_alert_dialog_button_fix">Fix</string>
+  <string name="safepay_alert_dialog_button_risk">Fix</string>
   <string name="save_energy_text">"Restrict autostart and sync for apps in the background to get the most out of your device's battery"</string>
   <string name="save_energy_title">Optimize battery</string>
   <string name="sc_allow_network_dialog_message">This app needs to connect to the internet to work normally.</string>
@@ -1743,9 +1738,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sms_stranger_block">Block SMS from strangers</string>
   <string name="sorted_dialog_title">Sort by</string>
   <string name="sp_background_risk_dialog_summary">, check and fix payment issues.</string>
-  <string name="sp_background_risk_dialog_summary_wifi_approve">You are currently using a free public wifi which could be a fishing one. Make sure it is safe before your payment.</string>
   <string name="sp_background_risk_dialog_title">Attention</string>
-  <string name="sp_background_risk_dialog_title_wifi_approve">Free WLAN Alert</string>
   <string name="sp_background_risk_type_messaging">System messaging app has been replaced</string>
   <string name="sp_background_risk_type_root">System has been rooted</string>
   <string name="sp_background_risk_type_sign">Unofficial app is running</string>
