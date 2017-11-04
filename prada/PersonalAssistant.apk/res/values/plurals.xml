@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="payment_record_menu_select_num">
+        <item quantity="other">Selected %s items</item>
+        <item quantity="one">Selected %s item</item>
+    </plurals>
+    <plurals name="payment_record_dialog_delete_message">
+        <item quantity="other">Delete %s items from payment?</item>
+        <item quantity="one">Delete %s item from payment?</item>
+    </plurals>
     <plurals name="time_minute_ago">
         <item quantity="other">%d minutes ago</item>
         <item quantity="one">%d minute ago</item>
@@ -28,6 +36,10 @@
         <item quantity="other">In %d hours</item>
         <item quantity="one">In %d hour</item>
     </plurals>
+    <plurals name="sms_day_suffix">
+        <item quantity="other">In %d days</item>
+        <item quantity="one">In %d day</item>
+    </plurals>
     <plurals name="sms_title_hours">
         <item quantity="other">%d hours</item>
         <item quantity="one">%d hour</item>
@@ -35,5 +47,23 @@
     <plurals name="sms_title_minutes">
         <item quantity="other">%d minutes</item>
         <item quantity="one">%d minute</item>
+    </plurals>
+    <plurals name="mins_ago">
+        <item quantity="other">%1$dmin ago</item>
+    </plurals>
+    <plurals name="hours_ago">
+        <item quantity="other">%1$dhr ago</item>
+    </plurals>
+    <plurals name="days_ago">
+        <item quantity="other">%1$dd ago</item>
+    </plurals>
+    <plurals name="steps">
+        <item quantity="other">%d|steps</item>
+        <item quantity="zero">%d|step</item>
+        <item quantity="one">%d|step</item>
+    </plurals>
+    <plurals name="assistant_day">
+        <item quantity="other">In %d days</item>
+        <item quantity="one">In %d day</item>
     </plurals>
 </resources>
