@@ -1041,7 +1041,7 @@ Take more photos of your friends!"</string>
   <string name="photo_editor_crop_reset">Reset</string>
   <string name="photo_editor_crop_rotation_format">%d°</string>
   <string name="photo_editor_doodle">Doodle</string>
-  <string name="photo_editor_filter">Filter</string>
+  <string name="photo_editor_filter">Filters</string>
   <string name="photo_editor_label">Edit</string>
   <string name="photo_editor_long_crop">Crop</string>
   <string name="photo_editor_miui_beauty">Beautify</string>
@@ -1071,7 +1071,7 @@ Take more photos of your friends!"</string>
   <string name="photo_editor_remover">Erase</string>
   <string name="photo_editor_rotate">Rotate</string>
   <string name="photo_editor_saving">Saving…</string>
-  <string name="photo_editor_sticker">Sticker</string>
+  <string name="photo_editor_sticker">Stickers</string>
   <string name="photo_editor_text">Text</string>
   <string name="photo_editor_transition_image_view">photo_view</string>
   <string name="photo_editor_transition_menu_view">menu_view</string>
