@@ -2169,6 +2169,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="lock_screen_notifications_summary_show">Show all notifications and their contents</string>
   <string name="lock_screen_notifications_summary_show_profile">Show all work notification content</string>
   <string name="lock_screen_notifications_title">On the lock screen</string>
+  <string name="lock_screen_secure_after_timeout_immediately_never">Require password never.</string>
   <string name="lock_screen_secure_after_timeout_immediately_summary">Require password immediately.</string>
   <string name="lock_screen_secure_after_timeout_summary">Require password: %1$s</string>
   <string name="lock_screen_secure_after_timeout_title">Require password</string>
@@ -2766,10 +2767,10 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="open_miui_optimization_title">Turn on MIUI optimization</string>
   <string name="open_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
   <string name="open_personal_assistant_dialog_btn_cancel">Cancel</string>
-  <string name="open_personal_assistant_dialog_btn_confirm">Close</string>
-  <string name="open_personal_assistant_dialog_desc">"You won't be able to use QuickCard and receive its updates. Turn off now?"</string>
-  <string name="open_personal_assistant_dialog_title">Turn off QuickCard</string>
-  <string name="open_personal_assistant_title">Turn on QuickCard</string>
+  <string name="open_personal_assistant_dialog_btn_confirm">Turn off</string>
+  <string name="open_personal_assistant_dialog_desc">"You won't be able to use App vault and receive its updates. Turn off now?"</string>
+  <string name="open_personal_assistant_dialog_title">Turn off App vault</string>
+  <string name="open_personal_assistant_title">Turn on App vault</string>
   <string name="open_sdcard_optimization_title">Turn on mock SD card optimization</string>
   <string name="open_sdcard_optimization_warning_message">Your device will reboot to apply this change.</string>
   <string name="open_wifi_connect_summary">Tap to view details.</string>
@@ -2885,6 +2886,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="phone_language_summary"/>
   <string name="physical_device_title">%1$s - %2$s</string>
   <string name="physical_keyboard_title">Physical keyboard</string>
+  <string name="pick_up_gesture_wakeup_title">Pick up gesture to wake</string>
   <string name="picture_color_mode">Picture color mode</string>
   <string name="picture_color_mode_desc">Use sRGB</string>
   <string name="pin_failed">SIM PIN operation failed!</string>

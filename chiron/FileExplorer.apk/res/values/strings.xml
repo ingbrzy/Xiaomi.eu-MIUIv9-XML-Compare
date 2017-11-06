@@ -185,7 +185,7 @@
   <string name="encrypt_success">Hidden successfully</string>
   <string name="encrypt_success_first_five">"Encrypted and hid file. You can view hidden files by pulling down on the Explorer's start page."</string>
   <string name="encrypting">Encrypting…</string>
-  <string name="error_contains_sharer_path">Unable to encrypt files in folder /MIUI/Gallery/cloud/sharer, move the file to another directory and try again</string>
+  <string name="error_contains_sharer_path">"Can't encrypt files in folder /MIUI/Gallery/cloud/sharer. Move the file to another folder and try again"</string>
   <string name="error_create_dir">"Couldn't create folder"</string>
   <string name="error_create_file">"Couldn't create file"</string>
   <string name="error_delete_failed">"Couldn't delete file"</string>
@@ -202,7 +202,7 @@
   <string name="exo_controls_previous_description">Previous track</string>
   <string name="exo_controls_rewind_description">Rewind</string>
   <string name="exo_controls_stop_description">Stop</string>
-  <string name="extended_storage_file_can_not_open">"Can't open file. Please copy file to internal storage."</string>
+  <string name="extended_storage_file_can_not_open">"Can't open file. Copy the file to internal storage."</string>
   <string name="extract">Extract</string>
   <string name="fail_to_create_folder_unknown">"Can't create folder"</string>
   <string name="favorite_photo">Photos</string>
@@ -220,7 +220,7 @@
   <string name="file_name_invalid">"File names can't contain the following characters: /\\:*?&lt;&gt;"</string>
   <string name="file_not_exist">"File doesn't exist"</string>
   <string name="finish_str">Done</string>
-  <string name="folder_name_empty">Folder name cannot be empty</string>
+  <string name="folder_name_empty">"Folder name can't be empty"</string>
   <string name="folder_name_illegal">Invalid folder name</string>
   <string name="follow_fail">"Couldn't follow, try again later"</string>
   <string name="follow_success_tip">Followed successfully</string>
@@ -304,7 +304,7 @@
   <string name="login_account_bind_wb">Weibo account</string>
   <string name="login_account_bind_wx">Use WeChat</string>
   <string name="login_account_bind_xm">Use Mi Account</string>
-  <string name="login_expired">Login has expired, try login again.</string>
+  <string name="login_expired">Session timed out. Sign in again.</string>
   <string name="login_failed_tip">"Couldn't sign in, try again later"</string>
   <string name="login_success_tip">Signed in successfully</string>
   <string name="make_private">Hide</string>
@@ -353,7 +353,7 @@
   <string name="mtp_device">Media device (MTP)</string>
   <string name="mtp_label">MTP</string>
   <string name="my_follows">My feed</string>
-  <string name="name_empty">You must enter a name.</string>
+  <string name="name_empty">Enter a name</string>
   <string name="need_login">Sign in first</string>
   <string name="need_read_storage_permission">"Explorer requires permission to access device's storage to work as designed."</string>
   <string name="net_error_text">网络错误</string>

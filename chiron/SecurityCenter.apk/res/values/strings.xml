@@ -95,14 +95,14 @@
   <string name="antivirus_choose_engine_title">Definitions</string>
   <string name="antivirus_longtime_no_update">Looks like your virus definitions are old. Regular updates help to get better scanning results. Allow Security to connect to the internet and update virus definitions?</string>
   <string name="antivirus_longtime_no_update1">Looks like your virus definitions are old. Regular updates help to get better scanning results. Update definitions and try again.</string>
-  <string name="antivirus_main_activity_back">Back from security scan</string>
+  <string name="antivirus_main_activity_back">Back</string>
   <string name="antivirus_monitor_btn_text_clean_risk">Delete risky apps</string>
   <string name="antivirus_monitor_btn_text_clean_virus">Delete viruses</string>
   <string name="antivirus_monitor_clean_tips">Deleted items: %s</string>
   <string name="antivirus_monitor_risk_advice">"This app isn't secure, delete it"</string>
   <string name="antivirus_monitor_virus_advice">This app may contain a virus, delete it</string>
   <string name="antivirus_none_engine_dialog_ok">OK</string>
-  <string name="antivirus_not_wlan">You aren’t connected to WLAN. Using mobile data may generate additional fees. Continue anyway?</string>
+  <string name="antivirus_not_wlan">"You aren't connected to WLAN. Using mobile data may generate additional fees. Continue anyway?"</string>
   <string name="antivirus_privacy_dialog_cloudscan">Upload app names and details</string>
   <string name="antivirus_privacy_dialog_cloudscan_description">Upload and scan app names and details using online virus definitions.</string>
   <string name="antivirus_privacy_dialog_ok">OK</string>
@@ -128,6 +128,8 @@
   <string name="app_install_tips_go_to">Open</string>
   <string name="app_install_tips_install_success">Installed %1$s successfully</string>
   <string name="app_maanger_app_uninstalled_toast">This app is uninstalled</string>
+  <string name="app_manager_advanced_setting">Advanced settings</string>
+  <string name="app_manager_allow">Yes</string>
   <string name="app_manager_app_ifno_version">App version</string>
   <string name="app_manager_app_info_label">App info</string>
   <string name="app_manager_app_info_name">App name</string>
@@ -150,9 +152,8 @@
   <string name="app_manager_clear_failed_dlg_message">Couldn’t clear data for app.</string>
   <string name="app_manager_clear_failed_dlg_title">Clear data</string>
   <string name="app_manager_copy_pkg_to_clip">Copied to clipboard</string>
-  <string name="app_manager_default_cleared">cleared</string>
+  <string name="app_manager_default_cleared">Cleared</string>
   <string name="app_manager_default_close_summary">No defaults set.</string>
-  <string name="app_manager_default_open">Open by default</string>
   <string name="app_manager_default_open_summary">You’ve chosen to launch this app by default for some actions.</string>
   <string name="app_manager_default_open_title">Clear defaults</string>
   <string name="app_manager_defaults_setting">Defaults</string>
@@ -160,10 +161,11 @@
   <string name="app_manager_details_storage_title">Storage</string>
   <string name="app_manager_details_traffic_title">Data usage</string>
   <string name="app_manager_disable">"Don't allow"</string>
-  <string name="app_manager_disable_dlg_text">If you disable this app, other apps may no longer function as intended.</string>
-  <string name="app_manager_disable_dlg_title">Disable built-in app?</string>
+  <string name="app_manager_disable_dlg_text">If you disable this app, other apps may not be able to work normally.</string>
+  <string name="app_manager_disable_dlg_title">Disable system app?</string>
   <string name="app_manager_disable_text">Disable</string>
   <string name="app_manager_disabled">Disabled</string>
+  <string name="app_manager_disabled_by_admin">Disabled by admin</string>
   <string name="app_manager_dlg_cancel">Cancel</string>
   <string name="app_manager_dlg_ok">OK</string>
   <string name="app_manager_enable_text">Enable</string>
@@ -179,6 +181,7 @@
   <string name="app_manager_has_not_data">No data</string>
   <string name="app_manager_have_not_consume">None</string>
   <string name="app_manager_hide_system_server">Hide system services</string>
+  <string name="app_manager_install_other_app">Install apps unknown sources</string>
   <string name="app_manager_instruction">Instruction</string>
   <string name="app_manager_loading_data">Loading data…</string>
   <string name="app_manager_manage_space">Manage space</string>
@@ -187,6 +190,7 @@
   <string name="app_manager_net_control_title">Restrict data usage</string>
   <string name="app_manager_net_mobile">Data</string>
   <string name="app_manager_net_wifi">WLAN</string>
+  <string name="app_manager_not_allow">No</string>
   <string name="app_manager_not_record">"Couldn't find apps which require permissions"</string>
   <string name="app_manager_notify_bar">Badges</string>
   <string name="app_manager_notify_floating">Floating notifications</string>
@@ -214,7 +218,7 @@
 
  "&lt;li&gt;Disabled apps&lt;/li&gt;"
  "&lt;li&gt;Disabled app notifications&lt;/li&gt;"
- "&lt;li&gt;Default applications for actions&lt;/li&gt;"
+ "&lt;li&gt;Default apps&lt;/li&gt;"
  "&lt;li&gt;Background data restrictions for apps&lt;/li&gt;"
 
  You will not lose any app data."</string>
@@ -613,6 +617,7 @@
   <string name="dialog_app_roaming_title">"Overseas roaming isn't enabled for %1$s"</string>
   <string name="dialog_msg_auto_start_declare">Some apps may incorrectly indicate that MIUI has prevented them from starting. Check permissions that have been granted to individual apps in Settings &gt; Apps.</string>
   <string name="dialog_msg_stop_virus_scan">"Stop security scan before it's finished?"</string>
+  <string name="dialog_no_longer_alert">"Don't show again"</string>
   <string name="dialog_remobe_luckymoney_cancle">使用单发版</string>
   <string name="dialog_remobe_luckymoney_ok">前往开启</string>
   <string name="dialog_remove_luckymoney">当前MIUI版本已支持系统级红包助手，是否卸载单发版，并前往安全中心开启更快更稳定的小米红包助手？</string>
@@ -1666,12 +1671,12 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="safe_result_item_info_system_scan">Payment monitoring is on</string>
   <string name="safe_result_item_info_system_version">MIUI is up to date</string>
   <string name="safepay_alert_dialog_button_continue">Continue</string>
-  <string name="safepay_alert_dialog_button_risk">Fix</string>
+  <string name="safepay_alert_dialog_button_fix">Fix</string>
   <string name="save_energy_text">"Restrict autostart and sync for apps in the background to get the most out of your device's battery"</string>
   <string name="save_energy_title">Optimize battery</string>
   <string name="sc_allow_network_dialog_message">This app needs to connect to the internet to work normally.</string>
   <string name="sc_allow_network_dialog_tiltle">"Can't use this feature"</string>
-  <string name="sc_system_risk_fix_info_xspace">The risk cannot be fixed in xspace, please switch to owner space to fix it.</string>
+  <string name="sc_system_risk_fix_info_xspace">"Can't solve this in Second space. Try again in First space."</string>
   <string name="scan_installed_games">Checking installed games…</string>
   <string name="scan_status_risk">Risky</string>
   <string name="scan_status_safe">Secure</string>
@@ -1738,7 +1743,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sms_stranger_block">Block SMS from strangers</string>
   <string name="sorted_dialog_title">Sort by</string>
   <string name="sp_background_risk_dialog_summary">, check and fix payment issues.</string>
+  <string name="sp_background_risk_dialog_summary_wifi_approve">You are connected to a public WLAN network which may be unsecure. Make sure your payment is protected before you complete it.</string>
   <string name="sp_background_risk_dialog_title">Attention</string>
+  <string name="sp_background_risk_dialog_title_wifi_approve">Public WLAN alert</string>
   <string name="sp_background_risk_type_messaging">System messaging app has been replaced</string>
   <string name="sp_background_risk_type_root">System has been rooted</string>
   <string name="sp_background_risk_type_sign">Unofficial app is running</string>
@@ -2217,7 +2224,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="virus_auto_update_engine">Auto updates: %s</string>
   <string name="virus_scan_process_pre">%</string>
   <string name="virus_update_tips_title">Warning</string>
-  <string name="virus_wait_network_dialog_message">Your phone is not connected to WLAN now. It will cost metered mobile data usage. Continue ?</string>
+  <string name="virus_wait_network_dialog_message">"Your phone isn't connected to WLAN now. Use mobile data connection?"</string>
   <string name="voltage_symbol">V</string>
   <string name="vpn_disabled_by_user">Designated data connection is off</string>
   <string name="vpn_unbale_get_phonenum">"Can't get phone numbers using designated data plans"</string>
