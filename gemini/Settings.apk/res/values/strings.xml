@@ -1908,7 +1908,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="install_applications_title">Allow all app sources</string>
   <string name="install_no_market_app_summary">Allow installation of apps from sources other than the App Store</string>
   <string name="install_no_market_app_title">Unknown sources</string>
-  <string name="install_preinstall_app">Loading apps…</string>
+  <string name="install_preinstall_app">Switching region…</string>
   <string name="install_text">Install</string>
   <string name="install_unknown_applications">Allow installation of apps from unknown sources</string>
   <string name="install_unknown_applications_title">Lets you install apps from sources other than Google Play</string>
@@ -2169,8 +2169,8 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="lock_screen_notifications_summary_show">Show all notifications and their contents</string>
   <string name="lock_screen_notifications_summary_show_profile">Show all work notification content</string>
   <string name="lock_screen_notifications_title">On the lock screen</string>
-  <string name="lock_screen_secure_after_timeout_immediately_never">Require password never.</string>
-  <string name="lock_screen_secure_after_timeout_immediately_summary">Require password immediately.</string>
+  <string name="lock_screen_secure_after_timeout_immediately_never">Never require password</string>
+  <string name="lock_screen_secure_after_timeout_immediately_summary">Require password immediately</string>
   <string name="lock_screen_secure_after_timeout_summary">Require password: %1$s</string>
   <string name="lock_screen_secure_after_timeout_title">Require password</string>
   <string name="lock_screen_signature_summary">This message will be displayed on the Lock screen</string>
@@ -2942,7 +2942,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="power_wifi">WLAN</string>
   <string name="pre_installed_application">Pre-installed apps</string>
   <string name="pref_button_light">Button lights</string>
-  <string name="pref_button_light_summary">Light up Menu, Home, and Back buttons</string>
+  <string name="pref_button_light_summary">Light up Menu, %1$sand Back buttons</string>
+  <string name="pref_button_light_summary_sub">Home,</string>
   <string name="pref_edge_handgrip">Edge controls</string>
   <string name="pref_operational_key">Navigation buttons</string>
   <string name="pref_title_lang_selection">Language preferences</string>
@@ -4480,11 +4481,11 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_none_title">None</string>
   <string name="unlock_set_unlock_off_summary"/>
   <string name="unlock_set_unlock_off_title">None</string>
-  <string name="unlock_set_unlock_password_summary">Enter four or more letters or numbers to unlock device</string>
+  <string name="unlock_set_unlock_password_summary">Enter 4 or more letters or numbers to unlock device</string>
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
   <string name="unlock_set_unlock_pattern_title">Pattern</string>
-  <string name="unlock_set_unlock_pin_summary">Enter four numbers to unlock device</string>
+  <string name="unlock_set_unlock_pin_summary">Enter 4 numbers to unlock device</string>
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>

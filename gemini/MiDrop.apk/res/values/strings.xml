@@ -33,7 +33,7 @@
   <string name="cancel_receive_confirm">Cancel</string>
   <string name="cancel_receive_stop">Keep receiving</string>
   <string name="cancel_stop">Keep sending</string>
-  <string name="description_content">Mi Drop allows you to send and recive files from people nearby. Make sure you can do without Mi Drop before you uninstall the app.</string>
+  <string name="description_content">Mi Drop allows you to send and receive files from people nearby. Make sure you can do without Mi Drop before you uninstall the app.</string>
   <string name="description_title">About Mi Drop</string>
   <string name="file_not_support">"This file type isn't supported."</string>
   <string name="hello_world">Hello world!</string>
