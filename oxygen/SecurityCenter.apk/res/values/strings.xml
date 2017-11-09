@@ -181,7 +181,7 @@
   <string name="app_manager_has_not_data">No data</string>
   <string name="app_manager_have_not_consume">None</string>
   <string name="app_manager_hide_system_server">Hide system services</string>
-  <string name="app_manager_install_other_app">Install apps unknown sources</string>
+  <string name="app_manager_install_other_app">Install apps from unknown sources</string>
   <string name="app_manager_instruction">Instruction</string>
   <string name="app_manager_loading_data">Loading data…</string>
   <string name="app_manager_manage_space">Manage space</string>
