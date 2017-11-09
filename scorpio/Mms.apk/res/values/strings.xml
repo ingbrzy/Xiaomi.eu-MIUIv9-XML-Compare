@@ -129,6 +129,7 @@
   <string name="delete_wild_sims_title">Delete selected numbers</string>
   <string name="delivery_report_activity">Delivery report</string>
   <string name="delivery_toast_body">Message received by %s</string>
+  <string name="dialog_message_sms_report">"Spam messages and sender's info will be uploaded to MIUI when you report them. They will only be used to improve MIUI's spam filters."</string>
   <string name="disable_notifications_dialog_message">Stop duplicate text message notifications from default Messaging app?</string>
   <string name="disabled">Off</string>
   <string name="discard">Discard</string>
@@ -385,7 +386,7 @@
   <string name="pref_hide_verification_code_summary">Automatically hide one-time passwords in message notifications on secured lock screen</string>
   <string name="pref_messages_to_save">Set number of messages to save</string>
   <string name="pref_mms_settings_title">Multimedia (MMS) messages</string>
-  <string name="pref_msg_trash_bin_title">Recently deleted messages</string>
+  <string name="pref_msg_trash_bin_title">SMS Trash</string>
   <string name="pref_notification_settings_title">Notifications</string>
   <string name="pref_other_title">Additional settings</string>
   <string name="pref_show_blocked_messages_summary">Show blocked SMS in conversations list</string>
@@ -398,6 +399,7 @@
   <string name="pref_sms_storage_title">Storage</string>
   <string name="pref_sms_theme_title">Display</string>
   <string name="pref_summary_allow_si_sl_push">Allow messages to load content from websites</string>
+  <string name="pref_summary_allow_upload_message_info">"Spam messages and sender's info will be uploaded to MIUI when you report them."</string>
   <string name="pref_summary_auto_delete">Delete old messages as limits are reached</string>
   <string name="pref_summary_delete_limit">%1$s messages per conversation</string>
   <string name="pref_summary_delivery_reports">Show delivery status for sent messages</string>
@@ -415,6 +417,7 @@
   <string name="pref_system_title">System</string>
   <string name="pref_title_about_smart_sms">About Smart messages partner</string>
   <string name="pref_title_allow_si_sl_push">Allow WAP push messages (SI/SL)</string>
+  <string name="pref_title_allow_upload_message_info">Upload spam messages</string>
   <string name="pref_title_auto_delete">Delete old messages</string>
   <string name="pref_title_card_format">Card share format</string>
   <string name="pref_title_delivery_reports">Delivery status</string>
@@ -568,6 +571,7 @@
   <string name="sms_full_title">Text message memory full</string>
   <string name="sms_rejected_body">An incoming text message was rejected.</string>
   <string name="sms_rejected_title">Text message rejected</string>
+  <string name="sms_report">Report spam messages</string>
   <string name="sms_report_dialog_content">"Couldn't send report, try again."</string>
   <string name="sms_report_dialog_retry">Try again</string>
   <string name="sms_report_dialog_title">Try again</string>
