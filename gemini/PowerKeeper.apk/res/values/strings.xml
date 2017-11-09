@@ -63,8 +63,8 @@ Battery saver will treat important apps selectively."</string>
   <string name="hints_loading_text">Just a sec…</string>
   <string name="important_warning">Attention</string>
   <string name="invalid_size_value">"Couldn't get package size."</string>
-  <string name="lasttime_applist_cloud">App list updated:</string>
-  <string name="lasttime_feature_cloud">Feautures updated:</string>
+  <string name="lasttime_applist_cloud">Updated apps:</string>
+  <string name="lasttime_feature_cloud">Updated features:</string>
   <string name="location_disable_description">Apps in the background can only access location services for a brief period of time while continuous access is restricted</string>
   <string name="location_disable_title">Restrict</string>
   <string name="location_enable_description">Apps can use location services in the background</string>
@@ -83,8 +83,8 @@ Battery saver will treat important apps selectively."</string>
   <string name="new_group_name">Custom mode</string>
   <string name="no_applications">Empty</string>
   <string name="none">No processes</string>
-  <string name="nonui_mode_config_description">"Don't light up screen for notifications, turn off notification light, fingerprint, and touch controls when your device is in a pocket."</string>
-  <string name="nonui_mode_config_title">Noninteractive mode</string>
+  <string name="nonui_mode_config_description">"Don't light up screen for notifications, turn off LED light, fingerprint sensor, and touch controls to save battery when MIUI detects you aren't using your device."</string>
+  <string name="nonui_mode_config_title">Non-interactive mode</string>
   <string name="normal">Default mode</string>
   <string name="operation_create_group">Name</string>
   <string name="operation_create_group_message">Enter new group name</string>
@@ -196,7 +196,7 @@ Battery saver will treat important apps selectively."</string>
   <string name="sucess">Done</string>
   <string name="ui">Standard</string>
   <string name="update_profile_failture_not_connect_wifi">"Couldn't update. Connect to WLAN and try again."</string>
-  <string name="update_profile_sucess">Updated form server sucessfully</string>
+  <string name="update_profile_sucess">Updated from server sucessfully</string>
   <string name="user_define_mode">Name</string>
   <string name="vip_feedback">VIP feedback</string>
   <string name="vip_feedback_enable">Turn on VIP feedback</string>
