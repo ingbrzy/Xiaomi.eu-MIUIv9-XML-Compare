@@ -13,8 +13,10 @@
   <string name="ac_enter_applock">Enter App lock</string>
   <string name="ac_firstUseApplock_subTitle">Use better system-level security tools</string>
   <string name="ac_firstUseApplock_title">Set a password to protect your apps</string>
+  <string name="ac_mask_all_apps">Hide for all apps</string>
   <string name="ac_summaryOff">Turned off, no password is required to open apps</string>
   <string name="ac_summaryOn">Turned on, password is required to open apps</string>
+  <string name="ac_unmask_all_apps">Unhide for all apps</string>
   <string name="access_control_app_is_launching">App is starting</string>
   <string name="access_control_failed_need_to_unlock_nofingerprint">Draw your unlock pattern to use a new fingerprint</string>
   <string name="access_control_fingerprint_not_identified_msg">"Couldn't read fingerprint."</string>
@@ -77,6 +79,7 @@
   <string name="alarm_lockscreen_btn">开始抢红包</string>
   <string name="alarm_setting_title">红包闹钟设置</string>
   <string name="all_address_choose_hint">All numbers in this province</string>
+  <string name="already_close_gamebooster">Gaming speed boost is off</string>
   <string name="anim_gamebooster_text">Just a sec…</string>
   <string name="anti_disturb_msg_detail">Turn off all notifications except for incoming calls</string>
   <string name="anti_disturb_msg_title">DND</string>
@@ -92,14 +95,14 @@
   <string name="antivirus_choose_engine_title">Definitions</string>
   <string name="antivirus_longtime_no_update">Looks like your virus definitions are old. Regular updates help to get better scanning results. Allow Security to connect to the internet and update virus definitions?</string>
   <string name="antivirus_longtime_no_update1">Looks like your virus definitions are old. Regular updates help to get better scanning results. Update definitions and try again.</string>
-  <string name="antivirus_main_activity_back">Back from security scan</string>
+  <string name="antivirus_main_activity_back">Back</string>
   <string name="antivirus_monitor_btn_text_clean_risk">Delete risky apps</string>
   <string name="antivirus_monitor_btn_text_clean_virus">Delete viruses</string>
   <string name="antivirus_monitor_clean_tips">Deleted items: %s</string>
   <string name="antivirus_monitor_risk_advice">"This app isn't secure, delete it"</string>
   <string name="antivirus_monitor_virus_advice">This app may contain a virus, delete it</string>
   <string name="antivirus_none_engine_dialog_ok">OK</string>
-  <string name="antivirus_not_wlan">You aren’t connected to WLAN. Using mobile data may generate additional fees. Continue anyway?</string>
+  <string name="antivirus_not_wlan">"You aren't connected to WLAN. Using mobile data may generate additional fees. Continue anyway?"</string>
   <string name="antivirus_privacy_dialog_cloudscan">Upload app names and details</string>
   <string name="antivirus_privacy_dialog_cloudscan_description">Upload and scan app names and details using online virus definitions.</string>
   <string name="antivirus_privacy_dialog_ok">OK</string>
@@ -125,6 +128,8 @@
   <string name="app_install_tips_go_to">Open</string>
   <string name="app_install_tips_install_success">Installed %1$s successfully</string>
   <string name="app_maanger_app_uninstalled_toast">This app is uninstalled</string>
+  <string name="app_manager_advanced_setting">Advanced settings</string>
+  <string name="app_manager_allow">Yes</string>
   <string name="app_manager_app_ifno_version">App version</string>
   <string name="app_manager_app_info_label">App info</string>
   <string name="app_manager_app_info_name">App name</string>
@@ -136,6 +141,8 @@
   <string name="app_manager_app_update">Updates</string>
   <string name="app_manager_app_version_name">Version:</string>
   <string name="app_manager_appupdate_remind">Notify about updates</string>
+  <string name="app_manager_as_dlg_msg">Allowing apps to autostart may require additional RAM and battery resources. Allow anyway?</string>
+  <string name="app_manager_as_dlg_title">Attention</string>
   <string name="app_manager_back">Back</string>
   <string name="app_manager_bipartition">Dual apps</string>
   <string name="app_manager_card_permission_title">Permissions</string>
@@ -145,8 +152,8 @@
   <string name="app_manager_clear_failed_dlg_message">Couldn’t clear data for app.</string>
   <string name="app_manager_clear_failed_dlg_title">Clear data</string>
   <string name="app_manager_copy_pkg_to_clip">Copied to clipboard</string>
+  <string name="app_manager_default_cleared">Cleared</string>
   <string name="app_manager_default_close_summary">No defaults set.</string>
-  <string name="app_manager_default_open">Open by default</string>
   <string name="app_manager_default_open_summary">You’ve chosen to launch this app by default for some actions.</string>
   <string name="app_manager_default_open_title">Clear defaults</string>
   <string name="app_manager_defaults_setting">Defaults</string>
@@ -154,10 +161,11 @@
   <string name="app_manager_details_storage_title">Storage</string>
   <string name="app_manager_details_traffic_title">Data usage</string>
   <string name="app_manager_disable">"Don't allow"</string>
-  <string name="app_manager_disable_dlg_text">If you disable this app, other apps may no longer function as intended.</string>
-  <string name="app_manager_disable_dlg_title">Disable built-in app?</string>
+  <string name="app_manager_disable_dlg_text">If you disable this app, other apps may not be able to work normally.</string>
+  <string name="app_manager_disable_dlg_title">Disable system app?</string>
   <string name="app_manager_disable_text">Disable</string>
   <string name="app_manager_disabled">Disabled</string>
+  <string name="app_manager_disabled_by_admin">Disabled by admin</string>
   <string name="app_manager_dlg_cancel">Cancel</string>
   <string name="app_manager_dlg_ok">OK</string>
   <string name="app_manager_enable_text">Enable</string>
@@ -170,15 +178,19 @@
   <string name="app_manager_globel_other_perm_title">Other permissions</string>
   <string name="app_manager_globel_perm_summary">Manage permissions related to location, storage, phone, messages, and contacts.</string>
   <string name="app_manager_globel_perm_title">App permissions</string>
+  <string name="app_manager_has_not_data">No data</string>
   <string name="app_manager_have_not_consume">None</string>
   <string name="app_manager_hide_system_server">Hide system services</string>
+  <string name="app_manager_install_other_app">Install apps from unknown sources</string>
   <string name="app_manager_instruction">Instruction</string>
   <string name="app_manager_loading_data">Loading data…</string>
   <string name="app_manager_manage_space">Manage space</string>
+  <string name="app_manager_memory">RAM</string>
   <string name="app_manager_menu_clear_data">Clear data</string>
   <string name="app_manager_net_control_title">Restrict data usage</string>
   <string name="app_manager_net_mobile">Data</string>
   <string name="app_manager_net_wifi">WLAN</string>
+  <string name="app_manager_not_allow">No</string>
   <string name="app_manager_not_record">"Couldn't find apps which require permissions"</string>
   <string name="app_manager_notify_bar">Badges</string>
   <string name="app_manager_notify_floating">Floating notifications</string>
@@ -206,7 +218,7 @@
 
  "&lt;li&gt;Disabled apps&lt;/li&gt;"
  "&lt;li&gt;Disabled app notifications&lt;/li&gt;"
- "&lt;li&gt;Default applications for actions&lt;/li&gt;"
+ "&lt;li&gt;Default apps&lt;/li&gt;"
  "&lt;li&gt;Background data restrictions for apps&lt;/li&gt;"
 
  You will not lose any app data."</string>
@@ -404,6 +416,7 @@
   <string name="block_message_number">Messages: &lt;font color=#5fab1b&gt;%d&lt;/font&gt;</string>
   <string name="block_phone_number">Calls: &lt;font color=#5fab1b&gt;%d&lt;/font&gt;</string>
   <string name="boost_done">Boosted successfully</string>
+  <string name="boost_stop">Turn off speed boost</string>
   <string name="booster_immediately">Boost</string>
   <string name="booster_suc">Boosted successfully</string>
   <string name="boostering">Boosting speed…</string>
@@ -517,7 +530,7 @@
   <string name="close">Close</string>
   <string name="close_callwait">Off</string>
   <string name="close_lucky_money_dialog_ok">确认关闭</string>
-  <string name="close_lucky_money_dialog_summary">确定关闭红包助手？关闭后，将无法收到微信、QQ红包提醒，可能导致您错失红包哟。如您想关闭悬浮窗，可在下方进行设置。</string>
+  <string name="close_lucky_money_dialog_summary">确定关闭红包助手？关闭后将无法收到红包助手为您发来的红包特别提醒，可能会导致您错过红包。如您想关闭悬浮窗，可在更多设置进行关闭。</string>
   <string name="close_lucky_money_dialog_title">关闭红包助手</string>
   <string name="cmcc_app_check_dialog_message">Restart your device to complete repair.</string>
   <string name="cmcc_app_check_dialog_negative">Later</string>
@@ -583,6 +596,8 @@
   <string name="data_usage_warning_body">Tap to view data usage details.</string>
   <string name="data_usage_warning_body_notify">Tap to view details</string>
   <string name="data_usage_warning_title_notify">You went over your data limit</string>
+  <string name="databooster_tips_message">Turn on to restrict all SIM cards except for the data card. Turn this feature off if errors occur in the games of your choice.</string>
+  <string name="databooster_tips_title">Attention</string>
   <string name="declaration_dialog_msg">This feature can help you track your usage, but is not guaranteed to prevent additional charges. For best results, set a conservative limit.</string>
   <string name="deep_clean_disconnect_data_title">Turn off mobile data when device is locked</string>
   <string name="deep_clean_memory_clean_title">Clear cache when device is locked</string>
@@ -602,6 +617,7 @@
   <string name="dialog_app_roaming_title">"Overseas roaming isn't enabled for %1$s"</string>
   <string name="dialog_msg_auto_start_declare">Some apps may incorrectly indicate that MIUI has prevented them from starting. Check permissions that have been granted to individual apps in Settings &gt; Apps.</string>
   <string name="dialog_msg_stop_virus_scan">"Stop security scan before it's finished?"</string>
+  <string name="dialog_no_longer_alert">"Don't show again"</string>
   <string name="dialog_remobe_luckymoney_cancle">使用单发版</string>
   <string name="dialog_remobe_luckymoney_ok">前往开启</string>
   <string name="dialog_remove_luckymoney">当前MIUI版本已支持系统级红包助手，是否卸载单发版，并前往安全中心开启更快更稳定的小米红包助手？</string>
@@ -686,6 +702,14 @@
   <string name="exception_notify_message">"Couldn't calculate data stats due to an error. Reboot to restore."</string>
   <string name="exception_titile">An error occurred</string>
   <string name="exit">Exit</string>
+  <string name="fast_open">速抢模式</string>
+  <string name="fast_open_dialog_message">开启速抢模式后，当您收到红包时，系统将自动打开抢红包页面，抢红包更快更方便。</string>
+  <string name="fast_open_dialog_message_summary">注意：建议关闭导航类、视频类、游戏类应用的速抢模式，以免影响应用的正常操作。手机锁屏状态下不会进行红包速抢。</string>
+  <string name="fast_open_dialog_ok">开启</string>
+  <string name="fast_open_list_not_open_title">禁止在%s个应用中速抢</string>
+  <string name="fast_open_list_open_title">允许在%s个应用中速抢</string>
+  <string name="fast_open_noti_summary">%s给你发来一个红包</string>
+  <string name="fast_open_summary">开启速抢模式后，收到红包新消息将打断当前使用应用切换到抢红包窗口。</string>
   <string name="finger_remind_message">Add your fingerprint first. Tap to open Settings.</string>
   <string name="fingerprint_identify_msg">Turn on fingerprint unlock</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
@@ -724,6 +748,7 @@
   <string name="float_window">桌面悬浮窗</string>
   <string name="float_window_summary">支持快速跳转至摇一摇与咻一咻页面</string>
   <string name="float_window_tips">小米手机就是快！</string>
+  <string name="forbid_autobright_summary">"Screen brightness will stay the same when you're playing games"</string>
   <string name="forbid_autobright_title">Fix screen brightness</string>
   <string name="foreground_traffic">Foreground %s</string>
   <string name="forget_password_button_text">&lt;u&gt;Forgot password&lt;/u&gt;</string>
@@ -745,6 +770,7 @@
   <string name="game_ad_recommendation">Everybody is playing</string>
   <string name="game_anti_disturb_msg">Game DND</string>
   <string name="game_booster">Game speed booster</string>
+  <string name="game_booster_close">Game Speed Booster off</string>
   <string name="game_booster_intro">About Game speed booster</string>
   <string name="game_booster_jump_webview">Just a sec…</string>
   <string name="game_booster_tab_top">Top</string>
@@ -953,10 +979,15 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="lucky_assistant_description">"小米官方出品
 微信/QQ/米聊抢红包神器
 不支持提醒被屏蔽的群，以及开启电脑登录免打扰功能的软件"</string>
-  <string name="lucky_max_chat_title">发来红包最多的群是</string>
+  <string name="lucky_max_chat_title">来自QQ</string>
   <string name="lucky_money_group_summary">个人发送的红包不需抢，建议您仅提醒群红包，以免提醒次数过多。</string>
+  <string name="lucky_my_luckymoney">我的红包战绩</string>
+  <string name="lucky_sound_mode_gold">金币</string>
+  <string name="lucky_sound_mode_lucky">红包来了</string>
+  <string name="lucky_sound_mode_no">静音</string>
   <string name="lucky_sound_warn">红包声音提醒</string>
-  <string name="lucky_warning_count_title">发来红包最多的人是</string>
+  <string name="lucky_str_yuan">%s元</string>
+  <string name="lucky_warning_count_title">来自微信</string>
   <string name="main_activity_content_summary_root">Root access</string>
   <string name="main_activity_content_summary_update">System update</string>
   <string name="main_alert_message_no_imsi">No SIM card detected</string>
@@ -1107,7 +1138,8 @@ to respond"</string>
   <string name="monitor_app_more">More</string>
   <string name="monitor_requests_from_pc">Manage installation of the apps via USB</string>
   <string name="more_game">More games</string>
-  <string name="more_setting_summary">支持红包提醒种类、红包闹钟、勿扰时段等功能</string>
+  <string name="more_lock">More</string>
+  <string name="more_setting_summary">支持红包提醒种类、桌面悬浮窗、勿扰时段等功能</string>
   <string name="name">Name</string>
   <string name="net_booster">Network speed boost</string>
   <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
@@ -1182,8 +1214,10 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="notification_exit_power_save_mode">Turned off Battery saver</string>
   <string name="notification_exit_power_save_mode_subtitle">Battery %s charged.</string>
   <string name="notification_item">Protect apps with App lock</string>
-  <string name="notification_mask_summary">"Don't show content for notifications on the Lock screen and in the Notification shade"</string>
+  <string name="notification_mask_summary">Hide notification content on the Lock screen and in the Notification shade</string>
   <string name="notification_mask_title">Hide content</string>
+  <string name="notification_masked_item">Hide notifications</string>
+  <string name="notification_masked_subtitle">Hide notifications from apps protected with App lock</string>
   <string name="notification_subtitle">Tap to turn on</string>
   <string name="notification_summary_cmcc_app_check">Touch to view details.</string>
   <string name="notify_daily_data_usage_body">To limit data usage automatically, set up your monthly data plan.</string>
@@ -1196,7 +1230,7 @@ T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you susp
   <string name="notify_weekly_traffic_body">To limit data usage automatically, set up your monthly data plan.</string>
   <string name="notify_weekly_traffic_title">Used %s this week</string>
   <string name="notify_weekly_traffic_title_for_slotnum">%1$s used %2$s this week</string>
-  <string name="number_of_lucky_money">已为您提醒红包总量</string>
+  <string name="number_of_lucky_money">已为您提醒红包总数</string>
   <string name="ok">OK</string>
   <string name="ok_button">OK</string>
   <string name="old_sdk_deny_warning">"The app isn't compatible with the latest Android permission requirements. Denied permissions may affect the way this app works."</string>
@@ -1259,10 +1293,13 @@ This activity shortens battery life."</string>
   <string name="open_callwait">On</string>
   <string name="open_dnd_mode">勿扰模式</string>
   <string name="open_dnd_mode_summary">勿扰时间段内，红包提醒与红包闹钟免打扰</string>
+  <string name="open_fast_open_mode">开启速抢模式</string>
+  <string name="open_fast_open_mode_summary">开启速抢模式，当收到红包时，系统将自动打开抢红包页面。</string>
   <string name="open_game">Open</string>
   <string name="open_lucky">开启小米红包助手</string>
   <string name="open_now">Allow app to use mobile data</string>
   <string name="open_right_now">立刻抢红包</string>
+  <string name="open_right_now_short">立刻抢</string>
   <string name="operator_diagnostic">Carrier diagnostics</string>
   <string name="operator_mi_sim">Mi SIM</string>
   <string name="operator_name_cmcc">China Mobile</string>
@@ -1650,12 +1687,12 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="safe_result_item_info_system_scan">Payment monitoring is on</string>
   <string name="safe_result_item_info_system_version">MIUI is up to date</string>
   <string name="safepay_alert_dialog_button_continue">Continue</string>
-  <string name="safepay_alert_dialog_button_risk">Fix</string>
+  <string name="safepay_alert_dialog_button_fix">Fix</string>
   <string name="save_energy_text">"Restrict autostart and sync for apps in the background to get the most out of your device's battery"</string>
   <string name="save_energy_title">Optimize battery</string>
   <string name="sc_allow_network_dialog_message">This app needs to connect to the internet to work normally.</string>
   <string name="sc_allow_network_dialog_tiltle">"Can't use this feature"</string>
-  <string name="sc_system_risk_fix_info_xspace">The risk cannot be fixed in xspace, please switch to owner space to fix it.</string>
+  <string name="sc_system_risk_fix_info_xspace">"Can't solve this in Second space. Try again in First space."</string>
   <string name="scan_installed_games">Checking installed games…</string>
   <string name="scan_status_risk">Risky</string>
   <string name="scan_status_safe">Secure</string>
@@ -1722,7 +1759,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sms_stranger_block">Block SMS from strangers</string>
   <string name="sorted_dialog_title">Sort by</string>
   <string name="sp_background_risk_dialog_summary">, check and fix payment issues.</string>
+  <string name="sp_background_risk_dialog_summary_wifi_approve">You are connected to a public WLAN network which may be unsecure. Make sure your payment is protected before you complete it.</string>
   <string name="sp_background_risk_dialog_title">Attention</string>
+  <string name="sp_background_risk_dialog_title_wifi_approve">Public WLAN alert</string>
   <string name="sp_background_risk_type_messaging">System messaging app has been replaced</string>
   <string name="sp_background_risk_type_root">System has been rooted</string>
   <string name="sp_background_risk_type_sign">Unofficial app is running</string>
@@ -1865,8 +1904,17 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="start_diagnostic_botton">Start</string>
   <string name="start_downloading_app">Starting download: %1$s</string>
   <string name="start_game">Start</string>
+  <string name="status_bar_network_flow_content">Today: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Remaining: %2$s</string>
+  <string name="status_bar_network_flow_content_not_setting">Today: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;This month: %2$s</string>
+  <string name="status_bar_network_flow_exceed_content">Today: %1$s&amp;nbsp;&amp;nbsp;&amp;nbsp;Plan exceeded: &lt;font color=%2$s&gt;%3$s&lt;/font&gt;</string>
+  <string name="status_bar_network_flow_phone_balance">"   Phone balance:%1$s "</string>
+  <string name="status_bar_network_flow_purchase">"   Purchase &gt;"</string>
+  <string name="status_bar_network_flow_setup_data_plan">"   Setup data plan &gt;"</string>
+  <string name="status_bar_network_flow_today">Today: %1$s</string>
   <string name="still_retain_btn">Keep</string>
   <string name="suggest_app_tolock">Suggestions</string>
+  <string name="suggest_app_tolock_masked">Hidden</string>
+  <string name="suggest_app_tolock_unmasked">Visible notifications</string>
   <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
   <string name="summary_app_lock_disable">Protect your data with App lock</string>
   <string name="summary_auto_update">MIUI will select the most suitable time to download and install updates.</string>
@@ -2192,7 +2240,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="virus_auto_update_engine">Auto updates: %s</string>
   <string name="virus_scan_process_pre">%</string>
   <string name="virus_update_tips_title">Warning</string>
-  <string name="virus_wait_network_dialog_message">Your phone is not connected to WLAN now. It will cost metered mobile data usage. Continue ?</string>
+  <string name="virus_wait_network_dialog_message">"Your phone isn't connected to WLAN now. Use mobile data connection?"</string>
   <string name="voltage_symbol">V</string>
   <string name="vpn_disabled_by_user">Designated data connection is off</string>
   <string name="vpn_unbale_get_phonenum">"Can't get phone numbers using designated data plans"</string>
@@ -2218,6 +2266,8 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="wlan_booster">WLAN optimization</string>
   <string name="wlan_change_protection_detail">"Don't switch to WLAN automatically when connected to mobile data network"</string>
   <string name="wlan_change_protection_title">Prevent switching networks</string>
+  <string name="xunyou_net_booster">Network speed boost</string>
+  <string name="xunyou_net_booster_detail">Use Xunyou speed boost services for gaming</string>
   <string name="xunyou_pay_webview">Xunyou services</string>
   <string name="xunyou_server_expired">The session expired.</string>
   <string name="zhifubao_not_found">您的应用版本过低或者未安装</string>

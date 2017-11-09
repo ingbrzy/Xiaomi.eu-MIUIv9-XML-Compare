@@ -57,20 +57,20 @@
   <string name="camera_summary">Camera settings (not including photos)</string>
   <string name="cancel">Cancel</string>
   <string name="cancel_backup">Stop</string>
-  <string name="cancel_moving_dialog_message">Are you sure to stop importing?</string>
+  <string name="cancel_moving_dialog_message">Stop importing now?</string>
   <string name="cancel_moving_dialog_title">Stop importing</string>
   <string name="cancel_restore">Stop</string>
   <string name="click_to_view">Tap to view</string>
-  <string name="close_twice_auth_btn">Close to two-factor authentication</string>
+  <string name="close_twice_auth_btn">Turn off two-factor authentication</string>
   <string name="close_twice_auth_note">"Note:
-After creating a new security question and confirming your date of birth, the dual authentication function will be turned off. If you do not see the option to turn off dual authentication on the Apple ID account page, you can not turn it off."</string>
-  <string name="close_twice_auth_operation">"Computer-side access:
+After creating a new security question and confirming your date of birth, your Apple ID two-factor authentication will be turned off. If you don't see the option to turn off two-factor authentication on the Apple ID account page, you can't turn it off."</string>
+  <string name="close_twice_auth_operation">"URL:
 https://appleid.apple.com/#!&amp;page=signin to close"</string>
-  <string name="close_twice_auth_step_1">1. login Apple ID account page</string>
-  <string name="close_twice_auth_step_2">2. In the Security section, click Edit</string>
-  <string name="close_twice_auth_step_3">3. Click Turn off dual / two-step authorication. Click again to confirm</string>
-  <string name="close_twice_auth_steps">Close two factor authorication, as follow steps:</string>
-  <string name="close_twice_auth_tutor">Close appleID two factor authorication</string>
+  <string name="close_twice_auth_step_1">1. Open any web browser on any computer and go to appleid.apple.com.</string>
+  <string name="close_twice_auth_step_2">2. Sign in to the Apple ID you want to disable two factor authentication for, go to the \"Security\" section of account settings and choose \"Edit\".</string>
+  <string name="close_twice_auth_step_3">3. Click \"Turn Off Two-Factor Authentication\". Click again to confirm.</string>
+  <string name="close_twice_auth_steps">Follow these steps to turn off two-factor authentication for Apple ID:</string>
+  <string name="close_twice_auth_tutor">Turn off Apple ID two-factor authentication</string>
   <string name="cloud_app_name">Mi Cloud backup</string>
   <string name="cloud_backup_hint">To access your backups, sign in now</string>
   <string name="cloud_backup_login">Sign in to your Mi Account</string>
@@ -86,8 +86,8 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="comma_seperator">", "</string>
   <string name="compute_backup_info">Getting backup info…</string>
   <string name="compute_delete_contact_info">Getting info…</string>
-  <string name="connect_wifi">Connect WLAN</string>
-  <string name="connect_wifi_tip">Network is disconnected. Importing data from iCloud needs WLAN.</string>
+  <string name="connect_wifi">Connect to WLAN</string>
+  <string name="connect_wifi_tip">"Couldn't connect to the network. Connect to WLAN to import items from iCloud."</string>
   <string name="contact_title">Contacts</string>
   <string name="current_account">Hi %s</string>
   <string name="current_pad_location">Pad</string>
@@ -95,7 +95,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="current_sim">Current SIM card</string>
   <string name="custom_progress">%d items</string>
   <string name="data_item_desc">Data</string>
-  <string name="data_no_enough_space_message">"There's not enough space on your device's internal memory."</string>
+  <string name="data_no_enough_space_message">"There's not enough storage space on your device."</string>
   <string name="date_format">HH:mm:ss MM-dd-yyyy</string>
   <string name="delete">Delete</string>
   <string name="delete_backup_process">Deleting…</string>
@@ -108,14 +108,14 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="disable_encrypt_title">Turn encryption off</string>
   <string name="enable_encrypt">Turn on encryption</string>
   <string name="enable_encrypt_description">Encrypt</string>
-  <string name="enable_encrypt_fail">Encryption failed</string>
+  <string name="enable_encrypt_fail">Encryption error</string>
   <string name="enable_encrypt_indicator">Touch to encrypt</string>
   <string name="enable_encrypt_ok">OK</string>
   <string name="enable_encrypt_summery1">Sign in with your Mi Account to access encrypted backups.</string>
   <string name="enable_encrypt_summery2">"Your backups will be encrypted automatically. You'll need to sign in to your Mi Account to access them."</string>
   <string name="enable_encrypt_title">Encrypt backups</string>
   <string name="enable_encrypt_xiaomi_account">This backup was created by %1$s. To restore, delete the current account and sign in as %2$s.</string>
-  <string name="err_authentication_failed">Authentication failed</string>
+  <string name="err_authentication_failed">"Couldn't authenticate"</string>
   <string name="err_bakfile_broken">"Can't use this backup."</string>
   <string name="err_filesystem_mount">"Can't access router storage"</string>
   <string name="err_low_storage">Not enough space</string>
@@ -138,35 +138,35 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="guarded_mode_dialog_backup_message">"Backups aren't allowed in Guest mode."</string>
   <string name="guarded_mode_dialog_title">"You're in Guest mode"</string>
   <string name="guarded_mode_dialog_transfer_message">"Can't use Mi Mover in Guest mode."</string>
-  <string name="hsa_code_null">Verification code cannot be empty</string>
+  <string name="hsa_code_null">"Verification code can't be empty"</string>
   <string name="hsa_input_hint">Enter verification code</string>
-  <string name="hsa_input_tip">Your iCloud ID enables two-factor authentication. Please enter verification code.</string>
+  <string name="hsa_input_tip">Your Apple ID uses two-factor authentication. Enter verification code.</string>
   <string name="hsa_send_again">Send again</string>
-  <string name="hsa_send_again_countdown">Send again(%ds)</string>
-  <string name="hsa_send_failed">Failed to send verification code. Please retry later.</string>
+  <string name="hsa_send_again_countdown">Send again (%ds)</string>
+  <string name="hsa_send_failed">"Couldn't send verification code. Wait a minute or two and try again."</string>
   <string name="hsa_sending">Sending…</string>
-  <string name="hsa_tip_message">"1.A message containing verification code will be sended to the phone bounded to iCloud
-2.Turn off two-factor authentication if failing to verify."</string>
-  <string name="hsa_tip_message_shutdown_hsa">how to turn off two-factor authentication</string>
-  <string name="hsa_tip_message_with_device">"1.A message containing verification code has been sended to the phone %s bounded to iCloud
-2.Turn off two-factor authentication if failing to verify."</string>
+  <string name="hsa_tip_message">"1. A message with the verification code has been sent to the device associated with your Apple ID.
+2. Turn off two-factor authentication if the verification code doesn't work."</string>
+  <string name="hsa_tip_message_shutdown_hsa">How to turn off two-factor authentication</string>
+  <string name="hsa_tip_message_with_device">"1. A message with the verification code has been sent to %s associated with your Apple ID.
+2. Turn off two-factor authentication if the verification code doesn't work."</string>
   <string name="hsa_tip_title">Tips:</string>
   <string name="hsa_title">Two-factor authentication</string>
   <string name="hsa_verify_failed">Two-factor authentication failed</string>
   <string name="hsa_verify_failed_message">Two-factor authentication failed. You can retry or turn off two-factor authentication.</string>
-  <string name="hsa_verify_retry">Retry</string>
+  <string name="hsa_verify_retry">Try again</string>
   <string name="hsa_verify_shutdown">Turn off</string>
-  <string name="icloud_backup_tip">Login iCloud id of old Apple device</string>
-  <string name="icloud_how_to_backup_tip_steps">"1.Enter Settings in you iOS device, and then choose iCloud.
-2.Turn on Contacts.
-3.Select Photos and turn on iCloud Photo Library."</string>
-  <string name="icloud_how_to_backup_tip_summary">To import data from iOS, you need to upload data in old devices to iCloud.</string>
+  <string name="icloud_backup_tip">Sign in to the iCloud account of your old iOS device</string>
+  <string name="icloud_how_to_backup_tip_steps">"1. Open Settings on your iOS device, and select iCloud.
+2. Toggle the switch for Contacts.
+3.Select Photos and toggle the switch for iCloud Photo Library."</string>
+  <string name="icloud_how_to_backup_tip_summary">To import data from iOS, you must create an iCloud backup.</string>
   <string name="icloud_how_to_backup_tip_title">Tips:</string>
-  <string name="icloud_login_title">Login iCloud</string>
-  <string name="icloud_need_sync">"To import data from iOS
-you need to upload data in old devices to iCloud"</string>
-  <string name="icloud_need_wifi_message">WLAN is not conneced currently. To import data from iCloud, WLAN is needed to login and download data.</string>
-  <string name="icloud_need_wifi_title">WLAN needed</string>
+  <string name="icloud_login_title">Sign in to iCloud</string>
+  <string name="icloud_need_sync">"To import data from iOS,
+you should create an iCloud backup first."</string>
+  <string name="icloud_need_wifi_message">"You aren't connected to WLAN now. To import data from iCloud, connect to WLAN."</string>
+  <string name="icloud_need_wifi_title">Connect to WLAN</string>
   <string name="import_again">Import again</string>
   <string name="import_data_from_icloud">Import data from iCloud</string>
   <string name="import_from_xiaomi_account_hint1">"1.\u0009Download the Mi Talk app and sign in.
@@ -176,7 +176,7 @@ you need to upload data in old devices to iCloud"</string>
   <string name="import_from_xiaomi_account_hint2">If you already have a backup, touch Next.</string>
   <string name="import_from_xiaomi_account_hint_title">Use Mi Talk to back up your contacts across devices.</string>
   <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
-  <string name="import_tip_summary">Because of compatibility, contacts and photos are supported only. You need to upload data in old devices to iCloud first.</string>
+  <string name="import_tip_summary">Due to compatibility issues, you can only transfer contacts and photos from iOS devices. Make sure you create an iCloud backup before starting the transfer.</string>
   <string name="import_tip_title">Tips:</string>
   <string name="loading_data">Loading data</string>
   <string name="local_app_name">Backup</string>
@@ -192,9 +192,9 @@ you need to upload data in old devices to iCloud"</string>
   <string name="local_select_sysdata">System</string>
   <string name="local_select_userapp">Apps</string>
   <string name="local_select_video">Videos</string>
-  <string name="login">Login</string>
-  <string name="login_failed">Failed to login. Please retry.</string>
-  <string name="logining">logining…</string>
+  <string name="login">Sign in</string>
+  <string name="login_failed">"Couldn't sign in. Try again."</string>
+  <string name="logining">Signing in…</string>
   <string name="miliao_account_guide">Use your Mi Account to sign in to Mi Cloud, MIUI Theme Store, and other Mi services, from anywhere.</string>
   <string name="miliao_account_login">Sign in with Mi Talk</string>
   <string name="mms_title">Multimedia messaging</string>
@@ -202,7 +202,7 @@ you need to upload data in old devices to iCloud"</string>
   <string name="multi_user_mode_backup_message">"Can't use Backup in Multi-user mode. Turn off Multi-user mode to continue."</string>
   <string name="multi_user_mode_dialog_message">"Can't use Mi Mover in Multi-user mode. Turn off Multi-user mode to continue."</string>
   <string name="multi_user_mode_dialog_title">"You're in Multi-user mode"</string>
-  <string name="name_password_not_consistent">User name or password is wrong</string>
+  <string name="name_password_not_consistent">Username or password is wrong</string>
   <string name="never">Never</string>
   <string name="new_backup">Back up</string>
   <string name="no_encrypt_password">No password</string>
@@ -215,11 +215,11 @@ you need to upload data in old devices to iCloud"</string>
   <string name="notif_icloud_canceled_summary">Canceled</string>
   <string name="notif_icloud_canceling_summary">Canceling…</string>
   <string name="notif_icloud_import_title">Import data from iCloud</string>
-  <string name="notif_icloud_loaded_summary">Waiting to download data</string>
+  <string name="notif_icloud_loaded_summary">Waiting…</string>
   <string name="notif_icloud_loading_summary">Loading data…</string>
-  <string name="notif_icloud_logining">Logining iCloud id of old Apple device…</string>
-  <string name="notif_icloud_need_wifi_summary">Wait for WLAN</string>
-  <string name="notif_icloud_saved_summary">Importing finished</string>
+  <string name="notif_icloud_logining">Signing in to iCloud on the old iOS device…</string>
+  <string name="notif_icloud_need_wifi_summary">Waiting for WLAN</string>
+  <string name="notif_icloud_saved_summary">Imported successfully</string>
   <string name="notif_icloud_saving_summary">Restoring data…</string>
   <string name="notif_restore_complete_title">Restored successfully</string>
   <string name="notif_restore_content">Restoring user data</string>
@@ -232,11 +232,11 @@ you need to upload data in old devices to iCloud"</string>
   <string name="notif_trans_sending_failed">"Couldn't send data"</string>
   <string name="notif_trans_wait_for_reconnecting">Connection was interrupted. Connect again.</string>
   <string name="page_loading">Just a sec…</string>
-  <string name="password">password</string>
-  <string name="password_null">Password cannot be empty</string>
+  <string name="password">Password</string>
+  <string name="password_null">"Password can't be empty"</string>
   <string name="pause">Pause</string>
-  <string name="platform_chooser_item_android">Import from Android</string>
-  <string name="platform_chooser_item_ios">Import from Apple device</string>
+  <string name="platform_chooser_item_android">Import from an Android device</string>
+  <string name="platform_chooser_item_ios">Import from an iOS device</string>
   <string name="platform_chooser_title">Choose old device</string>
   <string name="progress_backup_hint">Backing up…</string>
   <string name="progress_restore_hint">Restoring…</string>
@@ -261,16 +261,16 @@ you need to upload data in old devices to iCloud"</string>
   <string name="restore_progress">Restoring…</string>
   <string name="restore_report">Restore details</string>
   <string name="restore_telephony_hit">Restoring will restart the Phone app.</string>
-  <string name="retry">Retry</string>
+  <string name="retry">Try again</string>
   <string name="reverse_all">Clear all</string>
   <string name="router_backup_hint">Keep your device powered on</string>
-  <string name="save_finish_with_failing_items">"Importing is interrupted. Some data has been imported
-The data left needs to import again"</string>
-  <string name="saving_data">"Importing data from iCloud
-Please don't turn off or switch WLAN"</string>
-  <string name="saving_data_no_time">Restoring data</string>
-  <string name="saving_data_space_low">"No enough space
-Please release at least %s"</string>
+  <string name="save_finish_with_failing_items">"Transfer was interrupted.
+The data which wasn't imported must be imported again."</string>
+  <string name="saving_data">"Importing data from iCloud…
+Don't turn off WLAN"</string>
+  <string name="saving_data_no_time">Restoring data…</string>
+  <string name="saving_data_space_low">"Not enough storage space.
+Free up at least %s."</string>
   <string name="sc_bad_request">Invalid request</string>
   <string name="sc_internal_server_error">Internal server error</string>
   <string name="sc_network_unavailable">Check your connection and try again.</string>
@@ -289,10 +289,10 @@ Please release at least %s"</string>
   <string name="select_backup_item">Choose items</string>
   <string name="select_empty">Select items to import</string>
   <string name="select_item_contacts">Contacts</string>
-  <string name="select_item_empty_summary">No contents</string>
+  <string name="select_item_empty_summary">No items</string>
   <string name="select_item_photos">Photos</string>
   <string name="select_item_summary_loading">Loading data…</string>
-  <string name="select_item_summary_wait">Wait to load data</string>
+  <string name="select_item_summary_wait">Waiting…</string>
   <string name="select_storage_location">Choose backup location</string>
   <string name="service_stoped">Service stopped</string>
   <string name="settings_summary">Phone and messaging settings</string>
@@ -363,10 +363,10 @@ Please release at least %s"</string>
   <string name="trans_device_auto_reconnecting">Device disconnected. Reconnecting automatically…</string>
   <string name="trans_device_disconnected">Connection was interrupted</string>
   <string name="trans_device_wait_for_reconnecting">Connection was interrupted. Connect again to continue.</string>
-  <string name="trans_disconnected_tips_message">Remote device is disconnected. Please reconnect by hand. You can cancel current task if needed.</string>
-  <string name="trans_disconnected_tips_title">Remote device is disconnected</string>
+  <string name="trans_disconnected_tips_message">Remote device disconnected. Connect again manually or cancel the transfer.</string>
+  <string name="trans_disconnected_tips_title">Remote device disconnected</string>
   <string name="trans_generate_qr_code_failed">"Couldn't create QR code"</string>
-  <string name="trans_intro_desc_1">"On Xiaomi device, connect to WLAN. Tap \"I'm a recipient\", and then select \"Apple device\". Login iCloud and import data."</string>
+  <string name="trans_intro_desc_1">"On a Mi phone, connect to WLAN and tap \"I'm a recipient\". Select your iOS device, sign in to iCloud, and import data."</string>
   <string name="trans_intro_desc_3">Cancel the transfer, exit Mi Mover, and start over. Duplicate files will be overwritten during the new transfer.</string>
   <string name="trans_intro_desc_4">"Mi Mover uses WLAN to transfer files. That's why you can't connect to the internet using WLAN on either device during a transfer. You can still use mobile data, though. However, some newer devices (for example, Mi 6) would still be able to connect to the internet using WLAN during transfers."</string>
   <string name="trans_intro_desc_5">Storage space on old devices is used for creating transfer packages. Make sure you have at least 500MB - 1GB of available storage on your old phone before you start a transfer.</string>
@@ -379,8 +379,8 @@ Please release at least %s"</string>
   <string name="trans_intro_desc_new">"Tap \"I'm a recipient\". A QR code will be generated."</string>
   <string name="trans_intro_desc_old">"Tap \"I'm a sender\". Scan the QR code on the new phone, wait until Mi Mover figures out which files to send, and tap \"Send\"."</string>
   <string name="trans_intro_desc_private">"Mi Mover can't access photos in the hidden album because they are encrypted. You can restore these photos from Mi Cloud on a new device."</string>
-  <string name="trans_intro_question_1">1. How do I use Mi Mover to move data from Apple device?</string>
-  <string name="trans_intro_question_2">2. How do I use Mi Mover to move data from Android device?</string>
+  <string name="trans_intro_question_1">1. How do I use Mi Mover to move data from an iOS device?</string>
+  <string name="trans_intro_question_2">2. How do I use Mi Mover to move data from an Android device?</string>
   <string name="trans_intro_question_3">3. What should I do if Mi Mover got stuck on a certain step?</string>
   <string name="trans_intro_question_4">"4. Why can't I use WLAN during transfers?"</string>
   <string name="trans_intro_question_5">"5. Why does Mi Mover tell me there isn't enough storage space on my old phone?"</string>
@@ -431,7 +431,7 @@ Keep devices close to each other."</string>
   <string name="trans_receiving_completed">Received successfully</string>
   <string name="trans_restoring">Restoring…</string>
   <string name="trans_restoring_no_items">Syncing items</string>
-  <string name="trans_retry">Retry</string>
+  <string name="trans_retry">Try again</string>
   <string name="trans_scan_invalid_qrcode">QR code invalid</string>
   <string name="trans_scan_qr_code_tips">Scan QR code using new device</string>
   <string name="trans_security_tips_message">"Some apps don't support Mi Mover."</string>
@@ -464,12 +464,12 @@ Waiting for the transfer…"</string>
   <string name="trans_waiting_ensurance">"Make sure the old device is on
 and Mi Mover is on"</string>
   <string name="trans_waiting_for_sender">Waiting for the old device to connect…</string>
-  <string name="trans_wlan_tips_message">"Please don't turn off or switch WLAN while transfering data. Otherwise the mover may fail."</string>
-  <string name="trans_wlan_tips_title">"Please don't turn off or switch WLAN"</string>
+  <string name="trans_wlan_tips_message">"Don't turn off Wi-fi or switch to other WLAN networks during the transfer. Otherwise, Mi Mover won't be able to transfer data."</string>
+  <string name="trans_wlan_tips_title">"Don't turn off WLAN"</string>
   <string name="unit_byte">B</string>
   <string name="unknown_hint">Unknown</string>
   <string name="user_name">Apple ID or email</string>
-  <string name="user_name_null">User name cannot be empty</string>
+  <string name="user_name_null">"Username can't be empty"</string>
   <string name="user_notice_declaration_ignore">"Don't show again"</string>
   <string name="user_notice_message">Some features require internet connection to work normally.</string>
   <string name="user_notice_title">Attention</string>
