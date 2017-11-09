@@ -6,7 +6,7 @@
   <string name="about_settings">About phone</string>
   <string name="about_settings_summary">View legal info, status, software version</string>
   <string name="ac_enable_summary">Set a password for individual apps</string>
-  <string name="ac_enable_title">App Lock</string>
+  <string name="ac_enable_title">App lock</string>
   <string name="ac_privacy_mode_sum">Require a password to turn Guest mode off</string>
   <string name="ac_privacy_mode_title">Password</string>
   <string name="ac_set_apps_title">Choose apps to lock</string>
@@ -18,7 +18,7 @@
   <string name="access_control_need_password">"%s has been protected
 "</string>
   <string name="access_control_need_to_unlock">Password required:</string>
-  <string name="access_control_no_back_footer">Touch [icon] to exit</string>
+  <string name="access_control_no_back_footer">Tap [icon] to exit</string>
   <string name="access_control_password_title">Password</string>
   <string name="access_control_recording_intro_header">Draw an unlock pattern:</string>
   <string name="access_control_reset_by_account">Sign in to your Mi Account to reset password</string>
@@ -734,7 +734,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="button_text_next_step">Next</string>
   <string name="button_text_next_step_timer">Next step (%d)</string>
   <string name="button_text_ok">OK</string>
-  <string name="button_text_ok_timer">OK(%d)</string>
+  <string name="button_text_ok_timer">OK (%d)</string>
   <string name="button_text_reboot_now">Reboot</string>
   <string name="button_text_reject">Reject</string>
   <string name="cache_header_label">Cache</string>
@@ -1124,7 +1124,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_admin_status">This administrator is active and allows the app %1$s to perform the following operations:</string>
   <string name="device_admin_title">Device administration</string>
   <string name="device_admin_warning">Activating this administrator will allow the app %1$s to perform the following operations:</string>
-  <string name="device_available_memory">Available memory</string>
+  <string name="device_available_memory">Available storage</string>
   <string name="device_battery">Battery</string>
   <string name="device_build_id">Version number</string>
   <string name="device_complete_parameters">All specs</string>
@@ -1141,7 +1141,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_info_label">Device info</string>
   <string name="device_info_not_available">Not available</string>
   <string name="device_info_settings">Phone status</string>
-  <string name="device_internal_memory">Internal memory</string>
+  <string name="device_internal_memory">Internal storage</string>
   <string name="device_memory">RAM</string>
   <string name="device_miui_more">View more</string>
   <string name="device_miui_version">MIUI version</string>
@@ -1161,7 +1161,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="device_status">Status</string>
   <string name="device_status_activity_title">Status</string>
   <string name="device_status_summary">Phone number, signal, etc.</string>
-  <string name="device_total_memory">Total memory</string>
+  <string name="device_total_memory">Total storage</string>
   <string name="dial_application_title">Dial</string>
   <string name="dial_pad_tones_title">Dial pad tones</string>
   <string name="dialog_content_login">Sign in to your Mi Account to update?</string>
@@ -1685,7 +1685,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="install_applications_title">Allow all app sources</string>
   <string name="install_no_market_app_summary">Allow installation of apps from sources other than the App Store</string>
   <string name="install_no_market_app_title">Unknown sources</string>
-  <string name="install_preinstall_app">Loading apps…</string>
+  <string name="install_preinstall_app">Switching region…</string>
   <string name="install_text">Install</string>
   <string name="install_unknown_applications">Allow installation of apps from unknown sources</string>
   <string name="install_unknown_applications_title">Lets you install apps from sources other than Google Play</string>
@@ -1919,7 +1919,8 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="lock_screen_notifications_summary_hide">Show all notifications but hide contents</string>
   <string name="lock_screen_notifications_summary_show">Show all notifications and their contents</string>
   <string name="lock_screen_notifications_title">When device is locked</string>
-  <string name="lock_screen_secure_after_timeout_immediately_summary">Require password immediately.</string>
+  <string name="lock_screen_secure_after_timeout_immediately_never">Never require password</string>
+  <string name="lock_screen_secure_after_timeout_immediately_summary">Require password immediately</string>
   <string name="lock_screen_secure_after_timeout_summary">Require password: %1$s</string>
   <string name="lock_screen_secure_after_timeout_title">Require password</string>
   <string name="lock_screen_signature_summary">This message will be displayed on the Lock screen</string>
@@ -2353,7 +2354,7 @@ Select your operating system:"</string>
   <string name="night_mode_title">Theme</string>
   <string name="night_mode_yes">Dark</string>
   <string name="no">No</string>
-  <string name="no_account_found">No application supports adding accounts</string>
+  <string name="no_account_found">"Couldn't find apps which can add accounts"</string>
   <string name="no_application">Nothing</string>
   <string name="no_applications">No apps.</string>
   <string name="no_battery_summary">No battery use since last full charge</string>
@@ -2422,10 +2423,10 @@ Select your operating system:"</string>
   <string name="open_miui_optimization_title">Turn on MIUI optimization</string>
   <string name="open_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
   <string name="open_personal_assistant_dialog_btn_cancel">Cancel</string>
-  <string name="open_personal_assistant_dialog_btn_confirm">Close</string>
-  <string name="open_personal_assistant_dialog_desc">"You won't be able to use QuickCard and receive its updates. Turn off now?"</string>
-  <string name="open_personal_assistant_dialog_title">Turn off QuickCard</string>
-  <string name="open_personal_assistant_title">Turn on QuickCard</string>
+  <string name="open_personal_assistant_dialog_btn_confirm">Turn off</string>
+  <string name="open_personal_assistant_dialog_desc">"You won't be able to use App vault and receive its updates. Turn off now?"</string>
+  <string name="open_personal_assistant_dialog_title">Turn off App vault</string>
+  <string name="open_personal_assistant_title">Turn on App vault</string>
   <string name="open_wifi_connect_summary">Tap to view details.</string>
   <string name="open_wifi_connect_title">Connected to %1$s</string>
   <string name="opening_paragraph_delete_profile_unknown_company">This work profile is managed by:</string>
@@ -2585,7 +2586,8 @@ Select your operating system:"</string>
   <string name="power_wifi">WLAN</string>
   <string name="ppp_number">ppp_number</string>
   <string name="pref_button_light">Button lights</string>
-  <string name="pref_button_light_summary">Light up Menu, Home, and Back buttons</string>
+  <string name="pref_button_light_summary">Light up Menu, %1$sand Back buttons</string>
+  <string name="pref_button_light_summary_sub">Home,</string>
   <string name="pref_edge_handgrip">Edge controls</string>
   <string name="pref_operational_key">Navigation buttons</string>
   <string name="pref_volume_launch_camera_summary">Press Volume down twice to launch Camera</string>
@@ -3060,7 +3062,7 @@ To use screen pinning:
   <string name="se_route_uicc">Secure element on SIM card</string>
   <string name="se_wallet_ese">Mi Pay and NFC transport card</string>
   <string name="se_wallet_hce">Use HCE Wallet</string>
-  <string name="search_about_settings">About phone;Model number;Android version;MIUI version;CPU;RAM;Internal memory;Baseband version;Kernel version;Build number</string>
+  <string name="search_about_settings">About phone;Model number;Android version;MIUI version;CPU;RAM;Internal memory;Memory;Storage;Internal storage;Baseband version;Kernel version;Build number</string>
   <string name="search_accelerometer_title">Auto rotate screen;Rotate screen;Orientation;Portrait;Landscape</string>
   <string name="search_access_control">Privacy settings;Security Privacy;Guest;Guest mode</string>
   <string name="search_accessibility_captioning_title">Captions</string>
@@ -3340,7 +3342,7 @@ To use screen pinning:
   <string name="settings_backup">Back up settings</string>
   <string name="settings_backup_summary">Back up my settings</string>
   <string name="settings_button">Settings</string>
-  <string name="settings_forbidden_message">This setting is disabled</string>
+  <string name="settings_forbidden_message">This setting is restricted</string>
   <string name="settings_label">Settings</string>
   <string name="settings_label_launcher">Settings</string>
   <string name="settings_license_activity_loading">Loading…</string>
@@ -3992,11 +3994,11 @@ Your saved fingerprints will also be removed from this device and you won't be a
   <string name="unlock_set_unlock_none_title">None</string>
   <string name="unlock_set_unlock_off_summary"/>
   <string name="unlock_set_unlock_off_title">None</string>
-  <string name="unlock_set_unlock_password_summary">Enter four or more letters or numbers to unlock device</string>
+  <string name="unlock_set_unlock_password_summary">Enter 4 or more letters or numbers to unlock device</string>
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
   <string name="unlock_set_unlock_pattern_title">Pattern</string>
-  <string name="unlock_set_unlock_pin_summary">Enter four numbers to unlock device</string>
+  <string name="unlock_set_unlock_pin_summary">Enter 4 numbers to unlock device</string>
   <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>

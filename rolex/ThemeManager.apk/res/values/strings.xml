@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="account_info">Me</string>
+  <string name="account_info">My account</string>
   <string name="account_name_not_login">Sign in</string>
   <string name="account_unactivated">Account not activated</string>
   <string name="ad_app_download_start">Starting download…</string>
@@ -39,7 +39,7 @@
   <string name="component_title_wallpaper">Wallpapers</string>
   <string name="current_using_desktop_wallpaper_text">Home screen</string>
   <string name="current_using_lockscreen_wallpaper_text">Lock screen</string>
-  <string name="current_version_incompatible">Incompatibility version</string>
+  <string name="current_version_incompatible">This theme is incompatible</string>
   <string name="deleting">Deleting…</string>
   <string name="description_author">Author</string>
   <string name="description_designer">Designer</string>
@@ -93,8 +93,8 @@
   <string name="gift_use_confirmation_dlg_title">Send this gift?</string>
   <string name="gift_use_fail_dlg_title">Something went wrong</string>
   <string name="gift_used">Sent</string>
-  <string name="hide_free">"Hide free "</string>
-  <string name="hide_incompatible">"Hide incompatible "</string>
+  <string name="hide_free">Hide free themes</string>
+  <string name="hide_incompatible">Hide incompatible themes</string>
   <string name="home_apply_failured">"Can't apply Home screen wallpaper"</string>
   <string name="home_apply_success">Home screen wallpaper applied</string>
   <string name="in_the_end">No more items to show</string>
@@ -150,8 +150,8 @@
   <string name="online_precust_scenery">Scenery</string>
   <string name="online_precust_tiny">Tiny</string>
   <string name="online_search_hint">Search for online resources</string>
-  <string name="present_local_themes">My theme resources</string>
-  <string name="present_official_themes">Official Selection</string>
+  <string name="present_local_themes">My themes</string>
+  <string name="present_official_themes">Our picks</string>
   <string name="present_online_themes">Get more online themes</string>
   <string name="provision_default_theme_title">Default</string>
   <string name="provision_loading_tips">Just a sec…</string>
@@ -161,7 +161,7 @@
   <string name="purchased_list_current">Optimized themes</string>
   <string name="purchased_list_legacy">Legacy themes</string>
   <string name="recently_used">Recently used</string>
-  <string name="region_not_support">Sorry,Themes is not supported in your area.</string>
+  <string name="region_not_support">"Themes aren't supported in your region."</string>
   <string name="reload">Try again</string>
   <string name="resource_account_abnormal_state">Account error. Wait a minute or two and try again.</string>
   <string name="resource_account_fail_to_add">"Can't add account"</string>
