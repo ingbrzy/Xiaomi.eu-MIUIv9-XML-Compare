@@ -2158,7 +2158,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Phnom Penh</item>
         <item>Pyongyang</item>
         <item>Qatar</item>
-        <item>Rangoon</item>
+        <item>Yangon</item>
         <item>Riyadh</item>
         <item>Seoul</item>
         <item>Shanghai</item>
@@ -2828,7 +2828,7 @@ Note: Only for Ubuntu 8.04!"</item>
     <string-array name="standard_configuration_version">
         <item>3.00GB</item>
         <item>16GB</item>
-        <item>Quad-core Max2.5GHz</item>
+        <item>Quad-core Max 2.5GHz</item>
     </string-array>
     <string-array name="privacy_password_function_specfication_keys">
         <item>privacy_mms</item>
