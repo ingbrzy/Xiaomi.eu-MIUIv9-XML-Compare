@@ -128,7 +128,7 @@
   <string name="call_record_add_numbers">Add numbers</string>
   <string name="call_record_auto_always">All numbers</string>
   <string name="call_record_auto_scenario_title">Record calls from</string>
-  <string name="call_record_auto_summary">"Recordings will be saved to the folder MIUI/sound_recorder/call_rec on your device's internal memory"</string>
+  <string name="call_record_auto_summary">"Recordings will be saved to the folder MIUI/sound_recorder/call_rec on your device's internal storage"</string>
   <string name="call_record_auto_title">Record calls automatically</string>
   <string name="call_record_auto_unknown_number">Unknown numbers</string>
   <string name="call_record_auto_whitelist">Custom list</string>
