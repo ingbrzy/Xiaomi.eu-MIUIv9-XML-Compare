@@ -24,7 +24,7 @@
   <string name="delete_dialog_message">Delete recording?</string>
   <string name="deleting_message">Deleting…</string>
   <string name="details">Details</string>
-  <string name="dialog_content_storage_full">"Recording stopped because there's not enough space left on your device's internal memory."</string>
+  <string name="dialog_content_storage_full">"Recording stopped because there's not enough storage space left on your device."</string>
   <string name="dialog_title_storage_full">Not enough space</string>
   <string name="duration_format_hour">%sh</string>
   <string name="duration_format_minute">%sm</string>
