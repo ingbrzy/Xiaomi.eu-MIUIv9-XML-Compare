@@ -101,6 +101,11 @@
         <item>Data Usage</item>
         <item>Phone balance</item>
     </string-array>
+    <string-array name="luckymoney_sound">
+        <item>静音</item>
+        <item>金币</item>
+        <item>红包来了</item>
+    </string-array>
     <string-array name="st_antispam_mode_defined">
         <item>@string/st_antispam_mode_smart</item>
         <item>@string/st_antispam_mode_blacklist</item>
