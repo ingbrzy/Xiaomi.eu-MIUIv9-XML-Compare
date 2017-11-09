@@ -67,7 +67,7 @@
         <item>Sort by app name</item>
         <item>Sort by usage frequency</item>
         <item>Sort by used storage</item>
-        <item>Sort by Installation time</item>
+        <item>Sort by installation time</item>
     </string-array>
     <string-array name="always_enabled_app_list">
         <item>com.android.providers.applications</item>
@@ -100,6 +100,11 @@
     <string-array name="sms_report_type">
         <item>Data Usage</item>
         <item>Phone balance</item>
+    </string-array>
+    <string-array name="luckymoney_sound">
+        <item>静音</item>
+        <item>金币</item>
+        <item>红包来了</item>
     </string-array>
     <string-array name="st_antispam_mode_defined">
         <item>@string/st_antispam_mode_smart</item>
