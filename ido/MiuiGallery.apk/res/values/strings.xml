@@ -1041,7 +1041,7 @@ Take more photos of your friends!"</string>
   <string name="photo_editor_crop_reset">Reset</string>
   <string name="photo_editor_crop_rotation_format">%d°</string>
   <string name="photo_editor_doodle">Doodle</string>
-  <string name="photo_editor_filter">Filter</string>
+  <string name="photo_editor_filter">Filters</string>
   <string name="photo_editor_label">Edit</string>
   <string name="photo_editor_long_crop">Crop</string>
   <string name="photo_editor_miui_beauty">Beautify</string>
@@ -1071,7 +1071,7 @@ Take more photos of your friends!"</string>
   <string name="photo_editor_remover">Erase</string>
   <string name="photo_editor_rotate">Rotate</string>
   <string name="photo_editor_saving">Saving…</string>
-  <string name="photo_editor_sticker">Sticker</string>
+  <string name="photo_editor_sticker">Stickers</string>
   <string name="photo_editor_text">Text</string>
   <string name="photo_editor_transition_image_view">photo_view</string>
   <string name="photo_editor_transition_menu_view">menu_view</string>
@@ -1348,7 +1348,7 @@ Take more photos of your friends!"</string>
   <string name="too_many_recipients">"Can't add more than %2$s recipients (You've currently added %1$s)."</string>
   <string name="trash_bin">Trash bin</string>
   <string name="trash_bin_summary">Browse backed up photos which were deleted recently</string>
-  <string name="try_again_later">try again later.</string>
+  <string name="try_again_later">Try again later.</string>
   <string name="try_to_send">Send</string>
   <string name="turn_off_and_move">Turn off and move</string>
   <string name="turn_on_and_remove">Turn on and move</string>

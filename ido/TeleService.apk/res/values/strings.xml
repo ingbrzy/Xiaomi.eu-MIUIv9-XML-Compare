@@ -34,8 +34,8 @@
   <string name="antispam_notification_title">Unknown number</string>
   <string name="antispam_setting">Blocklist</string>
   <string name="apn_settings">Access Point Names</string>
-  <string name="atr_disable">Area Traffic Reports disabled</string>
-  <string name="atr_enable">Area Traffic Reports enabled</string>
+  <string name="atr_disable">Area traffic reports disabled</string>
+  <string name="atr_enable">Area traffic reports enabled</string>
   <string name="audio_mode_bluetooth">Bluetooth</string>
   <string name="audio_mode_earpiece">Handset earpiece</string>
   <string name="audio_mode_speaker">Speaker</string>
@@ -61,7 +61,7 @@
   <string name="auto_record_yellowpage">Directory</string>
   <string name="auto_redial_pref_summary">Redial automatically if the line is busy</string>
   <string name="auto_redial_pref_title">Redial automatically</string>
-  <string name="auto_retry_mode_summary">Turn on Auto-retry mode</string>
+  <string name="auto_retry_mode_summary">Retry automatically</string>
   <string name="auto_retry_mode_title">Auto-retry</string>
   <string name="autoip">Auto IP dialing</string>
   <string name="autoip_add_zero_prefix">Add 0 prefix for mobile</string>
@@ -90,7 +90,7 @@
   <string name="bad_pin2_old">The old PIN2 you entered is incorrect.</string>
   <string name="bad_puk">The PUK you entered is incorrect.</string>
   <string name="bad_puk2">The PUK2 you entered is incorrect.</string>
-  <string name="bf_news_settings">Business and Financial News</string>
+  <string name="bf_news_settings">Business and financial News</string>
   <string name="callFailed_cb_enabled">"You can't make outgoing calls while call barring is on."</string>
   <string name="callFailed_congestion">Network busy</string>
   <string name="callFailed_dialToDial">DIAL request modified to DIAL with different number.</string>
@@ -100,7 +100,7 @@
   <string name="callFailed_dsac_restricted_emergency">Emergency calls are restricted by access control.</string>
   <string name="callFailed_dsac_restricted_normal">Normal calls are restricted by access control.</string>
   <string name="callFailed_fdn_only">Outgoing calls are restricted by FDN.</string>
-  <string name="callFailed_incoming_cb_enabled">Incoming calls are barred.</string>
+  <string name="callFailed_incoming_cb_enabled">Party has barred all incoming calls.</string>
   <string name="callFailed_invalid_credentials">Incorrect username or password</string>
   <string name="callFailed_limitExceeded">ACM limit exceeded</string>
   <string name="callFailed_noSignal">No signal</string>
@@ -128,7 +128,7 @@
   <string name="call_record_add_numbers">Add numbers</string>
   <string name="call_record_auto_always">All numbers</string>
   <string name="call_record_auto_scenario_title">Record calls from</string>
-  <string name="call_record_auto_summary">"Recordings will be saved to the folder MIUI/sound_recorder/call_rec on your device's internal memory"</string>
+  <string name="call_record_auto_summary">"Recordings will be saved to the folder MIUI/sound_recorder/call_rec on your device's internal storage"</string>
   <string name="call_record_auto_title">Record calls automatically</string>
   <string name="call_record_auto_unknown_number">Unknown numbers</string>
   <string name="call_record_auto_whitelist">Custom list</string>
@@ -176,7 +176,7 @@
   <string name="card_title_call_ended">Call ended</string>
   <string name="card_title_callconnectedect">Call connected ECT</string>
   <string name="card_title_callconnectingect">Call connecting ECT</string>
-  <string name="card_title_calliswaiting">On hold</string>
+  <string name="card_title_calliswaiting">Call waiting</string>
   <string name="card_title_callonhold">Put on hold</string>
   <string name="card_title_callonhold_released">Call released</string>
   <string name="card_title_callretrieved">Call retrieved</string>
@@ -186,7 +186,7 @@
   <string name="card_title_cugcall">CUG call</string>
   <string name="card_title_deflectedcall">Deflected call</string>
   <string name="card_title_dialing">Dialing</string>
-  <string name="card_title_forwardcheckreceived">Forwarded call received</string>
+  <string name="card_title_forwardcheckreceived">Forwarded call checked &amp; received</string>
   <string name="card_title_forwarded_MTcall">Forwarded incoming call</string>
   <string name="card_title_hanging_up">Hanging up</string>
   <string name="card_title_in_call">In call</string>
@@ -203,7 +203,7 @@
   <string name="carrier_settings"/>
   <string name="carrier_settings_menu"/>
   <string name="carrier_settings_title">Carrier settings</string>
-  <string name="cb_sms_settings">Cell Broadcast SMS settings</string>
+  <string name="cb_sms_settings">Cell broadcast SMS settings</string>
   <string name="cdma_activate_device">Activate device</string>
   <string name="cdma_alert_message">"If you select another card as your default for mobile data, you won't be able to use your China Telecom UIM card (except in roaming)."</string>
   <string name="cdma_alert_title">UIM card must be default</string>
@@ -211,17 +211,17 @@
   <string name="cdma_display_precise_call_state_summary">Confirm that your network provider supports this function</string>
   <string name="cdma_display_precise_call_state_title">Display call status</string>
   <string name="cdma_lte_data_service">Set up data service</string>
-  <string name="cdma_options">CDMA Options</string>
+  <string name="cdma_options">CDMA options</string>
   <string name="cdma_subscription_dialogtitle">subscription</string>
   <string name="cdma_subscription_summary">Change between RUIM/SIM and NV</string>
   <string name="cdma_subscription_title">CDMA subscription</string>
   <string name="cdma_system_select_dialogtitle">System select</string>
   <string name="cdma_system_select_summary">Change the CDMA roaming mode</string>
   <string name="cdma_system_select_title">System select</string>
-  <string name="cell_bc_sms_disable">Cell Broadcast SMS disabled</string>
-  <string name="cell_bc_sms_enable">Cell Broadcast SMS enabled</string>
+  <string name="cell_bc_sms_disable">Cell broadcast SMS is off</string>
+  <string name="cell_bc_sms_enable">Cell broadcast SMS is on</string>
   <string name="cell_broadcast_settings">Emergency broadcasts</string>
-  <string name="cell_broadcast_sms">Cell Broadcast SMS</string>
+  <string name="cell_broadcast_sms">Cell broadcast SMS</string>
   <string name="cellular_only">Only mobile data</string>
   <string name="cellular_preferred">Prefer mobile data</string>
   <string name="cfb_title">Forward when busy</string>
@@ -308,7 +308,7 @@
   <string name="description_voicemail_button">voicemail</string>
   <string name="dial">Dial</string>
   <string name="dial_emergency_empty_error">Call not sent. Dial an emergency number!</string>
-  <string name="dial_emergency_error">Call not sent. %s is not an emergency number!</string>
+  <string name="dial_emergency_error">"Can't call. %s isn't an emergency number."</string>
   <string name="dial_pad_autocomplete">Dial pad autocomplete</string>
   <string name="dial_related_setting_catory">Dialer</string>
   <string name="dialerKeyboardHintText">Use keyboard to dial</string>
@@ -381,8 +381,8 @@
   <string name="editContact">Edit</string>
   <string name="edit_fdn_contact">Edit fixed dialing number</string>
   <string name="emergencyDialerIconLabel">Emergency dialer</string>
-  <string name="emergency_broadcast_disable">Emergency Broadcast disabled</string>
-  <string name="emergency_broadcast_enable">Emergency Broadcast enabled</string>
+  <string name="emergency_broadcast_disable">Emergency broadcast is off</string>
+  <string name="emergency_broadcast_enable">Emergency broadcast is on</string>
   <string name="emergency_call_area_code_edit_dialog_button">Call</string>
   <string name="emergency_call_area_code_edit_dialog_hint">Enter area code</string>
   <string name="emergency_enable_radio_dialog_message">Turning on radio…</string>
@@ -395,24 +395,24 @@
   <string name="enable_antispam_strange_title">Mute first ring</string>
   <string name="enable_disable_administrative">Administrative</string>
   <string name="enable_disable_advertisements">Advertisements</string>
-  <string name="enable_disable_atr">Area Traffic Reports</string>
-  <string name="enable_disable_cell_bc_sms">Cell Broadcast SMS</string>
-  <string name="enable_disable_emergency_broadcast">Emergency Broadcast</string>
-  <string name="enable_disable_eo">Employment Opportunities</string>
+  <string name="enable_disable_atr">Area traffic reports</string>
+  <string name="enable_disable_cell_bc_sms">Cell broadcast SMS</string>
+  <string name="enable_disable_emergency_broadcast">Emergency broadcast</string>
+  <string name="enable_disable_eo">Employment opportunities</string>
   <string name="enable_disable_international">International</string>
-  <string name="enable_disable_lafs">Local Airport Flight Schedules</string>
+  <string name="enable_disable_lafs">Local airport flight schedules</string>
   <string name="enable_disable_local">Local</string>
-  <string name="enable_disable_local_weather">Local Weather</string>
+  <string name="enable_disable_local_weather">Local weather</string>
   <string name="enable_disable_lodgings">Lodgings</string>
   <string name="enable_disable_maintenance">Maintenance</string>
-  <string name="enable_disable_mhh">Medical, Health, and Hospital</string>
+  <string name="enable_disable_mhh">Medical, health, and hospitals</string>
   <string name="enable_disable_multi_category">Multi-category</string>
   <string name="enable_disable_national">National</string>
   <string name="enable_disable_regional">Regional</string>
   <string name="enable_disable_restaurants">Restaurants</string>
-  <string name="enable_disable_retail_directory">Retail Directory</string>
-  <string name="enable_disable_stock_quotes">Stock Quotes</string>
-  <string name="enable_disable_technology_news">Technology News</string>
+  <string name="enable_disable_retail_directory">Retail directory</string>
+  <string name="enable_disable_stock_quotes">Stock quotes</string>
+  <string name="enable_disable_technology_news">Technology news</string>
   <string name="enable_fdn">Enable FDN</string>
   <string name="enable_fdn_ok">Disable FDN</string>
   <string name="enable_in_progress">Please wait…</string>
@@ -429,16 +429,16 @@
   <string name="enhanced_4g_lte_mode_off_failed">"Couldn't turn off VoLTE."</string>
   <string name="enhanced_4g_lte_mode_on_failed">"Couldn't turn on VoLTE."</string>
   <string name="enhanced_4g_lte_mode_summary">Use LTE services to improve voice and other communications (recommended)</string>
-  <string name="enhanced_4g_lte_mode_title">Enhanced 4G LTE Mode</string>
+  <string name="enhanced_4g_lte_mode_title">Enhanced 4G LTE mode</string>
   <string name="enterName">Enter Name:</string>
   <string name="enterNumber">Enter Phone Number:</string>
   <string name="enter_callbarring_password">Enter call barring password (4 digits)</string>
-  <string name="enter_input" formatted="false">USSD message must be between %d and %d characters. Please try again.</string>
+  <string name="enter_input" formatted="false">USSD message must be between %d and %d characters. Try again.</string>
   <string name="enter_pin2_text">PIN2</string>
   <string name="enter_pin_text">SIM PIN:</string>
-  <string name="entertainment_news_settings">Entertainment News</string>
-  <string name="eo_disable">Employment Opportunities disabled</string>
-  <string name="eo_enable">Employment Opportunities enabled</string>
+  <string name="entertainment_news_settings">Entertainment news</string>
+  <string name="eo_disable">Employment opportunities disabled</string>
+  <string name="eo_enable">Employment opportunities enabled</string>
   <string name="error_updating_title">Call settings error</string>
   <string name="exception_error">Network or SIM card error.</string>
   <string name="exportAllcontatsFailed">"Couldn't export all contacts to SIM"</string>
@@ -470,7 +470,7 @@
 Contact your carrier if this problem persists."</string>
   <string name="fw_get_in_vm_failed">"Couldn't retrieve and save current forwarding number settings.
 Switch to the new provider anyway?"</string>
-  <string name="general_news_settings">General News</string>
+  <string name="general_news_settings">General news</string>
   <string name="general_setting">Settings</string>
   <string name="get_pin2">Enter PIN2</string>
   <string name="get_smsc_address_error">"Can't connect to the network."</string>
@@ -480,7 +480,7 @@ Switch to the new provider anyway?"</string>
   <string name="got_it">OK</string>
   <string name="gsm_umts_network_preferences_dialogtitle">Network Mode</string>
   <string name="gsm_umts_network_preferences_title">Network Mode</string>
-  <string name="gsm_umts_options">GSM/UMTS Options</string>
+  <string name="gsm_umts_options">GSM/UMTS options</string>
   <string name="hac_mode_summary">Turn on hearing aid compatibility</string>
   <string name="hac_mode_title">Hearing aids</string>
   <string name="handon_ringer_summary">Reduce ringer volume for incoming call when phone is raised.</string>
@@ -504,15 +504,15 @@ Switch to the new provider anyway?"</string>
   <string name="incall_error_emergency_only">Not registered on network.</string>
   <string name="incall_error_missing_voicemail_number">Voicemail number unknown.</string>
   <string name="incall_error_no_phone_number_supplied">Call not sent, no valid number entered.</string>
-  <string name="incall_error_out_of_service">Mobile network not available.</string>
-  <string name="incall_error_power_off">To place a call, first turn off Airplane mode.</string>
+  <string name="incall_error_out_of_service">"Mobile network isn't available."</string>
+  <string name="incall_error_power_off">Turn off Airplane mode to make a call.</string>
   <string name="incall_error_supp_service_conference">Unable to conference calls.</string>
-  <string name="incall_error_supp_service_hangup">Unable to end call.</string>
-  <string name="incall_error_supp_service_reject">Unable to reject call.</string>
-  <string name="incall_error_supp_service_separate">Unable to separate call.</string>
-  <string name="incall_error_supp_service_switch">Unable to switch calls.</string>
-  <string name="incall_error_supp_service_transfer">Unable to transfer call.</string>
-  <string name="incall_error_supp_service_unknown">Unsupported service.</string>
+  <string name="incall_error_supp_service_hangup">"Can't release call."</string>
+  <string name="incall_error_supp_service_reject">"Can't reject call."</string>
+  <string name="incall_error_supp_service_separate">"Can't separate call."</string>
+  <string name="incall_error_supp_service_switch">"Can't switch calls."</string>
+  <string name="incall_error_supp_service_transfer">"Can't transfer."</string>
+  <string name="incall_error_supp_service_unknown">"Service isn't supported"</string>
   <string name="incall_status_dialed_mmi">Starting MMI sequence…</string>
   <string name="incoming_video_show_pref_summary">To view profile videos for incoming calls, turn on contact cards</string>
   <string name="incoming_video_show_pref_title">Profile video</string>
@@ -576,8 +576,8 @@ Switch to the new provider anyway?"</string>
   <string name="lable_enable">On</string>
   <string name="lable_incoming_calls_except">Incoming calls while roaming</string>
   <string name="lable_network_not_supported">"Network isn't supported"</string>
-  <string name="lafs_disable">Local Airport Flight Schedules disabled</string>
-  <string name="lafs_enable">Local Airport Flight Schedules enabled</string>
+  <string name="lafs_disable">Local airport flight schedules disabled</string>
+  <string name="lafs_enable">Local airport flight schedules enabled</string>
   <string name="list_language_dtitle">Languages</string>
   <string name="list_language_summary">Select the news language</string>
   <string name="list_language_title">Language</string>
@@ -585,8 +585,8 @@ Switch to the new provider anyway?"</string>
   <string name="load_networks_progress">Searching…</string>
   <string name="local_disable">Local news disabled</string>
   <string name="local_enable">Local news enabled</string>
-  <string name="local_weather_disable">Local Weather disabled</string>
-  <string name="local_weather_enable">Local Weather enabled</string>
+  <string name="local_weather_disable">Local weather disabled</string>
+  <string name="local_weather_enable">Local weather enabled</string>
   <string name="lodgings_disable">Lodgings disabled</string>
   <string name="lodgings_enable">Lodgings enabled</string>
   <string name="lte_checkbox_text">Set mobile data to the selected SIM card once default 4G/3G SIM card is changed</string>
@@ -601,9 +601,9 @@ Switch to the new provider anyway?"</string>
   <string name="maintenance_enable">Maintenance enabled</string>
   <string name="manageConferenceLabel">Manage conference call</string>
   <string name="manage_fdn_list">FDN list</string>
-  <string name="managed_roaming_dialog_content">Network with Limited Service found. Do you want to initiate a Network Search?</string>
-  <string name="managed_roaming_title">Managed Roaming</string>
-  <string name="managed_roaming_title_sub">Managed Roaming (SUB%d)</string>
+  <string name="managed_roaming_dialog_content">Network with limited service found. View available networks?</string>
+  <string name="managed_roaming_title">Managed roaming</string>
+  <string name="managed_roaming_title_sub">Managed roaming (SUB%d)</string>
   <string name="menu_add">Add contact</string>
   <string name="menu_delete">Delete contact</string>
   <string name="menu_edit">Edit contact</string>
@@ -611,12 +611,12 @@ Switch to the new provider anyway?"</string>
   <string name="messageCFNRc">Number when unreachable</string>
   <string name="messageCFNRy">Number when unanswered</string>
   <string name="messageCFU">Always use this number</string>
-  <string name="mhh_disable">Medical, Health, and Hospital disabled</string>
-  <string name="mhh_enable">Medical, Health, and Hospital enabled</string>
+  <string name="mhh_disable">Medical, health, and hospitals disabled</string>
+  <string name="mhh_enable">Medical, health, and hospitals enabled</string>
   <string name="mi_sim_settings_summary">Use mobile data without a SIM card</string>
   <string name="mi_sim_settings_title">Mi SIM</string>
   <string name="mismatchPin">"The PINs you entered don't match. Try again."</string>
-  <string name="mismatchPin2">"The PIN2 you entered don't match. Try again."</string>
+  <string name="mismatchPin2">"The PIN2s you entered don't match. Try again."</string>
   <string name="mismatch_password">"The passwords you entered don't match"</string>
   <string name="mismatch_pin">"PINs don't match."</string>
   <string name="mismatch_pin2">"PIN2s don't match. Try again."</string>
@@ -633,7 +633,7 @@ Switch to the new provider anyway?"</string>
   <string name="mobile_data">"Mobile data: "</string>
   <string name="mobile_data_off">Off</string>
   <string name="mobile_data_on">On</string>
-  <string name="mobile_network_settings_not_available">Mobile network settings are not available for this user</string>
+  <string name="mobile_network_settings_not_available">"Mobile network settings aren't available for this user"</string>
   <string name="mobile_networks">Mobile network settings</string>
   <string name="msim_apn_not_set">Not set</string>
   <string name="msim_default_setting">Default settings</string>
@@ -695,7 +695,7 @@ Switch to the new provider anyway?"</string>
   <string name="network_settings_information">Turn off mobile data?</string>
   <string name="network_settings_next">Next</string>
   <string name="network_settings_query_failed_message">"Couldn't search for mobile networks."</string>
-  <string name="network_settings_sel_sub">SUBS Settings</string>
+  <string name="network_settings_sel_sub">SUBS settings</string>
   <string name="network_settings_select_automatic_hint">"Can't register on the network you selected.
 Using preferred network instead."</string>
   <string name="network_settings_title">Mobile networks</string>
@@ -768,7 +768,7 @@ Using preferred network instead."</string>
   <string name="ota_hfa_activation_dialog_message">"The phone is activating your mobile data service.
 
 This can take up to 5 minutes."</string>
-  <string name="ota_hfa_activation_title">Activating...</string>
+  <string name="ota_hfa_activation_title">Activating…</string>
   <string name="ota_listen">Follow the spoken instructions until you hear that activation is complete.</string>
   <string name="ota_next">Next</string>
   <string name="ota_progress">Wait while your phone is being programmed.</string>
@@ -849,9 +849,9 @@ Try again or call customer service for more options."</string>
   <string name="phone_accounts_make_calls_with">Make calls with</string>
   <string name="phone_accounts_make_sip_calls_with">Make SIP calls with</string>
   <string name="phone_accounts_selection_header">Phone accounts</string>
-  <string name="phone_entered_ecm_text">Entered Emergency Callback Mode</string>
+  <string name="phone_entered_ecm_text">Entered Emergency callback mode</string>
   <string name="phone_in_ecm_call_notification_text">Data connection disabled</string>
-  <string name="phone_in_ecm_notification_title">Emergency Callback Mode</string>
+  <string name="phone_in_ecm_notification_title">Emergency callback mode</string>
   <string name="phone_number_hint_text">Phone number</string>
   <string name="pin2_attempts">"
 There are %d remaining attempts."</string>
@@ -876,7 +876,7 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="port">Port</string>
   <string name="port_title">Port number</string>
   <string name="preference_auto_ip_summary_disable">Off</string>
-  <string name="preference_category_ringtone">Ringtone &amp; Vibrate</string>
+  <string name="preference_category_ringtone">Ringtone &amp; vibration</string>
   <string name="preference_data_usage_summary">Set your data plan to control the usage of mobile data</string>
   <string name="preference_data_usage_title">Set data plan</string>
   <string name="preference_dial_pad_touch_tone_default">Default</string>
@@ -952,18 +952,18 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_type_td_scdma">GSM/TD-SCDMA</string>
   <string name="preferred_network_type_title">Preferred network type</string>
   <string name="private_num">Private number</string>
-  <string name="progress_dialog_exiting_ecm">Exiting Emergency Callback mode</string>
+  <string name="progress_dialog_exiting_ecm">Exiting emergency callback mode</string>
   <string name="proxy_address">ProxyAddress</string>
   <string name="proxy_address_title">Outbound proxy address</string>
   <string name="pstn_connection_service_label">Built-in SIM cards</string>
   <string name="pstn_phone">Cell phone call</string>
-  <string name="puk2_blocked">PUK2 is permanently blocked.</string>
+  <string name="puk2_blocked">PUK 2 is permanently blocked.</string>
   <string name="puk2_label">Enter PUK2 code</string>
-  <string name="puk2_requested">Password incorrect, SIM is locked. PUK2 requested.</string>
+  <string name="puk2_requested">Password is incorrect. SIM is locked. Enter PUK 2.</string>
   <string name="puk_label">Enter PUK code</string>
   <string name="puk_lock_warning">"
 Your SIM card will be locked after another unsuccessful attempt."</string>
-  <string name="puk_requested">Password is incorrect. Blocked PIN and requested PUK.</string>
+  <string name="puk_requested">Password incorrect. PIN now blocked. PUK requested.</string>
   <string name="puk_unlock_failed">PUK unlock unsuccessful.</string>
   <string name="puk_unlock_success">PUK unlock successful.</string>
   <string name="puk_unlocked">Your SIM card has been unblocked. Your phone is unlocking…</string>
@@ -1021,8 +1021,8 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="response_error">Unexpected response from network.</string>
   <string name="restaurants_disable">Restaurants disabled</string>
   <string name="restaurants_enable">Restaurants enabled</string>
-  <string name="retail_directory_disable">Retail Directory disabled</string>
-  <string name="retail_directory_enable">Retail Directory enabled</string>
+  <string name="retail_directory_disable">Retail directory disabled</string>
+  <string name="retail_directory_enable">Retail directory enabled</string>
   <string name="retry_btn">Retry</string>
   <string name="reverting_settings">Reverting settings…</string>
   <string name="rhrpd_unlock_failed">RUIM Hrpd unlock request unsuccessful.</string>
@@ -1098,7 +1098,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="set_smsc_address_timeout">Connection timed out</string>
   <string name="set_smsc_address_title">Short Message service center (SMSC)</string>
   <string name="settings_label">Network settings</string>
-  <string name="simContacts_airplaneMode">To import contacts from the SIM card, first turn off Airplane mode.</string>
+  <string name="simContacts_airplaneMode">Turn off Airplane mode to import contacts from the SIM card.</string>
   <string name="simContacts_empty">No contacts on your SIM card.</string>
   <string name="simContacts_emptyLoading">Reading from SIM card…</string>
   <string name="simContacts_title">Manage SIM card contacts</string>
@@ -1147,12 +1147,12 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="slot">Slot</string>
   <string name="sp_unlock_failed">SIM Service Provider unlock request unsuccessful.</string>
   <string name="sp_unlock_success">SIM Service Provider unlock successful.</string>
-  <string name="sports_news_settings">Sports News</string>
+  <string name="sports_news_settings">Sports news</string>
   <string name="stk_cc_ss_to_dial_error">SS request modified to DIAL request.</string>
   <string name="stk_cc_ss_to_ss_error">SS request modified to new SS request.</string>
   <string name="stk_cc_ss_to_ussd_error">SS request modified to USSD request.</string>
-  <string name="stock_quotes_disable">Stock Quotes disabled</string>
-  <string name="stock_quotes_enable">Stock Quotes enabled</string>
+  <string name="stock_quotes_disable">Stock quotes disabled</string>
+  <string name="stock_quotes_enable">Stock quotes enabled</string>
   <string name="sum_carrier_select">Choose a network operator</string>
   <string name="sum_cdma_call_settings">Additional CDMA only call settings</string>
   <string name="sum_cfb_disabled">Off</string>
@@ -1184,8 +1184,8 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="t9_indexing_method_title">T9 search input</string>
   <string name="t9_indexing_method_zhuyin">Zhuyin</string>
   <string name="t9_indexing_rebuilding_message">Rebuilding T9 indexes…</string>
-  <string name="technology_news_disable">Technology News disabled</string>
-  <string name="technology_news_enable">Technology News enabled</string>
+  <string name="technology_news_disable">Technology news disabled</string>
+  <string name="technology_news_enable">Technology news enabled</string>
   <string name="telephony_setting">Phone</string>
   <string name="telocation_auto_country_code">Add country code</string>
   <string name="telocation_auto_country_code_summary">Automatically add country code before dialing contacts</string>
@@ -1222,7 +1222,7 @@ Data rate reduced to %2$d Kb/s"</string>
   <string name="throttle_data_usage">Data usage</string>
   <string name="throttle_data_usage_subtext">%1$s (%2$d٪) of %3$s period maximum</string>
   <string name="throttle_help">Learn more</string>
-  <string name="throttle_help_subtext">"More information about your carrier's cellular network data use policy"</string>
+  <string name="throttle_help_subtext">"More information about your carrier's mobile data usage policy"</string>
   <string name="throttle_rate">Data rate policy</string>
   <string name="throttle_rate_subtext">Data rate reduced to %1$d Kb/s if data use limit is exceeded</string>
   <string name="throttle_status_subtext">"%1$s (%2$d٪) of %3$s period maximum
