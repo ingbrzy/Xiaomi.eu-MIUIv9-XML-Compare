@@ -23,14 +23,14 @@
   <string name="action_menu_account_not_login_hint">Sign in to sync with Mi Cloud</string>
   <string name="action_menu_bookshelf">Bookshelf</string>
   <string name="action_menu_current_version">Current version</string>
-  <string name="action_menu_request_desktop_site">Request desktop site</string>
-  <string name="action_menu_request_desktop_site_off">Request desktop site/off</string>
-  <string name="action_menu_request_desktop_site_on">Request desktop site/on</string>
+  <string name="action_menu_request_desktop_site">Website access</string>
+  <string name="action_menu_request_desktop_site_off">Website access is off</string>
+  <string name="action_menu_request_desktop_site_on">Website access is on</string>
   <string name="action_menu_text_add_bookmark">Add bookmark</string>
   <string name="action_menu_text_bandwidth">Data saver</string>
   <string name="action_menu_text_bandwidth_off">Data saver</string>
   <string name="action_menu_text_bandwidth_on">Data saver</string>
-  <string name="action_menu_text_bookmark_add_off">No web page can be added.</string>
+  <string name="action_menu_text_bookmark_add_off">"Couldn't add website"</string>
   <string name="action_menu_text_bookmark_added">Bookmark added</string>
   <string name="action_menu_text_copy_url">Copy URL</string>
   <string name="action_menu_text_create_qr_code">QR code</string>
@@ -65,7 +65,7 @@
   <string name="add_favorites_to">Add to favorites</string>
   <string name="add_new_bookmark">Add bookmark</string>
   <string name="add_new_quicklink">Add to start page</string>
-  <string name="add_pwa_to_homescreen">Add this web to home screen?</string>
+  <string name="add_pwa_to_homescreen">Add a Home screen shorcut?</string>
   <string name="add_ql_bm_title">Save</string>
   <string name="add_quicklink_to_popular">Add to start page</string>
   <string name="add_quicklinks">Add</string>
@@ -79,7 +79,7 @@
   <string name="added_to_bookmarks">Added to bookmarks</string>
   <string name="adjust_text_zoom_toast">Changing text zoom may cause some websites to display incorrectly</string>
   <string name="agree">Agree</string>
-  <string name="agree_permissions_request">Agree</string>
+  <string name="agree_permissions_request">Allow</string>
   <string name="alert_tips">This site may be a security risk</string>
   <string name="alisdk_message_10000_action">请检查对应名称模块的库文件是否包含在当前开发应用的依赖库里面</string>
   <string name="alisdk_message_10000_message">JS Bridge 载入器未找到名称为 {0} 的模块</string>
@@ -312,8 +312,8 @@
   <string name="close_all_tab_alert_title">Close all tabs</string>
   <string name="close_cloud_tab_tip">Close cloud tabs on %s?</string>
   <string name="cloud_loading_tips">Pull down to sync</string>
-  <string name="cloud_no_new_data_toast">"Everything's up to date"</string>
-  <string name="cloud_sync_closed_toast">"Can't update because sync is off"</string>
+  <string name="cloud_no_new_data_toast">Everything is up to date</string>
+  <string name="cloud_sync_closed_toast">Turn on sync to update</string>
   <string name="cloud_sync_failed_toast">"Couldn't update"</string>
   <string name="cloud_tab">Cloud tabs</string>
   <string name="cloud_time_tips">Last sync</string>
@@ -486,8 +486,8 @@ Pages you view won't appear in history."</string>
   <string name="empty_app_name">other app</string>
   <string name="empty_bookmark">Empty</string>
   <string name="empty_cloud_tab_login_hint">No cloud tabs</string>
-  <string name="empty_cloud_tab_logout_hint">"Login mi account
- tabs opened in other devices will show here"</string>
+  <string name="empty_cloud_tab_logout_hint">"Sign in to your Mi Account
+to view open tabs from other devices."</string>
   <string name="empty_history_hint">History is empty</string>
   <string name="empty_snapshot_hint">Empty</string>
   <string name="enable_geolocation_confirm_message">Turning off location services will affect the recommendations you receive.</string>
@@ -515,7 +515,7 @@ Pages you view won't appear in history."</string>
   <string name="find_on_page_next">Next</string>
   <string name="find_on_page_prev">Back</string>
   <string name="find_previous">Find previous</string>
-  <string name="finish_sync_cloud_tabs">Sync finished</string>
+  <string name="finish_sync_cloud_tabs">Synced successfully</string>
   <string name="firstUsingSearchEngineTips">Switch search engine?</string>
   <string name="fling_on_border_gesture_hint">You can choose the function of this gesture in Settings</string>
   <string name="force_quick_search_title">Search</string>
@@ -527,7 +527,7 @@ Pages you view won't appear in history."</string>
   <string name="geolocation_permissions_prompt_remember">Remember preference</string>
   <string name="geolocation_permissions_prompt_share">Share location</string>
   <string name="geolocation_permissions_prompt_toast_allowed">This site can access your location info. You can change this in Settings.</string>
-  <string name="geolocation_permissions_prompt_toast_disallowed">This site cannot access your location</string>
+  <string name="geolocation_permissions_prompt_toast_disallowed">"This site can't access your location"</string>
   <string name="geolocation_settings_page_dialog_cancel_button">Cancel</string>
   <string name="geolocation_settings_page_dialog_message">Clear location access for this website?</string>
   <string name="geolocation_settings_page_dialog_ok_button">OK</string>
@@ -550,7 +550,7 @@ Pages you view won't appear in history."</string>
   <string name="homepage_more_sites">More websites</string>
   <string name="homepage_search_hint">Search</string>
   <string name="homepage_top_card_menu">Top</string>
-  <string name="ignore_add_pwa_dialog_today">Not show today</string>
+  <string name="ignore_add_pwa_dialog_today">"Don't show today"</string>
   <string name="in_incognito">"You're incognito! Web pages you view in this tab won't appear in your browser history."</string>
   <string name="in_secureaccess">Browser switched to Safe mode</string>
   <string name="isReplacePage">File already exists, replace?</string>
@@ -737,7 +737,7 @@ Leave this page?"</string>
   <string name="no_space_alert_clean">Free up space</string>
   <string name="no_space_alert_text">Not enough storage space</string>
   <string name="no_space_alert_title">Download paused</string>
-  <string name="no_space_clean_failed">Could not free up space on your device​</string>
+  <string name="no_space_clean_failed">"Couldn't free up space on your device​"</string>
   <string name="not_allowed_open">"Can't use Browser in OOB flow"</string>
   <string name="not_remind_again">Remember my choice</string>
   <string name="notif_install_successful">Download complete</string>
@@ -760,12 +760,12 @@ Leave this page?"</string>
   <string name="pay_failed_toast">"Couldn't complete payment"</string>
   <string name="pay_success_toast">Paid successfully</string>
   <string name="permission_alert_window">Allow pop-up windows to use this feature</string>
-  <string name="permission_notification">send you notifications</string>
+  <string name="permission_notification">send notifications.</string>
   <string name="permission_unknown">Unknown action</string>
-  <string name="permissions_prompt_message">"%s wants to "</string>
+  <string name="permissions_prompt_message">%s wants to</string>
   <string name="popup_window_attempt">Allow this site to open a pop-up window?</string>
   <string name="positive_confirm_message">Turn off anyway</string>
-  <string name="pref_accept_quicklink_push">Start page push</string>
+  <string name="pref_accept_quicklink_push">News feed</string>
   <string name="pref_accessibility">Accessibility</string>
   <string name="pref_accessibility_title">Accessibility</string>
   <string name="pref_accessibility_url_shortcut_enter_summary">Common letter combinations can be entered in one tap in the address bar</string>
@@ -809,7 +809,7 @@ Leave this page?"</string>
   <string name="pref_extras_reset_default_summary">Restore default settings</string>
   <string name="pref_extras_reset_default_title">Other</string>
   <string name="pref_extras_send_feedback">Send feedback</string>
-  <string name="pref_extras_title">Advanced setting</string>
+  <string name="pref_extras_title">Additional settings</string>
   <string name="pref_extras_title_version">Version info</string>
   <string name="pref_file_downlaod_save_is_reset_default_settings">"Save files to Browser's default location"</string>
   <string name="pref_file_downlaod_save_reset_default_settings">Restore default location</string>
@@ -892,14 +892,14 @@ Leave this page?"</string>
   <string name="progress_dialog_setting_wallpaper">Setting wallpaper…</string>
   <string name="pull_to_refresh_pull_label">Pull to refresh</string>
   <string name="pull_to_refresh_release_label">Release to recommend and refresh</string>
-  <string name="pwa_app_name">Web App</string>
+  <string name="pwa_app_name">Web apps</string>
   <string name="qr_code_title">QR Code</string>
   <string name="qr_description">Scan QR code</string>
   <string name="quicklink_bookmark_save">Save to</string>
   <string name="quicklink_cannot_save_url">"This URL can't be added."</string>
   <string name="quicklink_folder_text">Top apps</string>
   <string name="quicklink_not_saved">"Couldn't add to start page"</string>
-  <string name="quicklink_push_confirm_message">Turning this feature off will affect start page push.</string>
+  <string name="quicklink_push_confirm_message">"Your feed won't receive updates after you turn this feature off. Turn off now?"</string>
   <string name="quicklink_saved">Saved to start page</string>
   <string name="quicklink_saved_before">This site has already been added</string>
   <string name="quicklink_user_define_webpage_title">Name</string>
@@ -922,7 +922,7 @@ Leave this page?"</string>
   <string name="readmode_recommend_message">"You've read this book already. :)"</string>
   <string name="readmode_refresh">Refresh</string>
   <string name="readmodelist_bookmarks_to_show">Reading list</string>
-  <string name="refuse_permissions_request">Refuse</string>
+  <string name="refuse_permissions_request">Restrict</string>
   <string name="remember_passwords_confirm_message">Turning this feature off may affect usage.</string>
   <string name="remove_bookmark">Delete bookmark</string>
   <string name="remove_bookmark_group">Delete group</string>
@@ -1008,7 +1008,7 @@ Leave this page?"</string>
   <string name="skip_current_version">Skip this version</string>
   <string name="snapshot">Local</string>
   <string name="snapshot_failed">"Couldn't save page"</string>
-  <string name="snapshot_successed">Open Bookmarks/History-&gt;LOCAL to view page</string>
+  <string name="snapshot_successed">Open Bookmarks &amp; History -&gt; LOCAL to view page</string>
   <string name="ssl_bad_clock_date_settings">Set date</string>
   <string name="ssl_bad_clock_warning" formatted="false">"A private connection to %s1 can't be established because your device's date and time (%s2) are incorrect."</string>
   <string name="ssl_certificate">Security certificate</string>
@@ -1104,7 +1104,7 @@ Leave this page?"</string>
   <string name="version_check_button_no_network">"Can't connect to the network"</string>
   <string name="version_check_button_resume_download">Resume download</string>
   <string name="version_check_button_update">Update</string>
-  <string name="version_check_failed">Failed to check updates</string>
+  <string name="version_check_failed">"Couldn't check for updates"</string>
   <string name="version_dialog_buttion_ok">OK</string>
   <string name="version_dialog_buttion_update">Update</string>
   <string name="version_update_file_download_toast">Downloading</string>
@@ -1170,7 +1170,7 @@ Leave this page?"</string>
   <string name="voice_title">Say your command…</string>
   <string name="voice_title_distinguish">Processing…</string>
   <string name="voice_title_listening">Listening…</string>
-  <string name="voice_title_please">Begin speaking…</string>
+  <string name="voice_title_please">Start speaking…</string>
   <string name="voice_title_speech_again">"Couldn't understand you"</string>
   <string name="weather_location_confirm_message">Turning this feature off may affect usage.</string>
   <string name="webpage_title">Bookmarks &amp; History</string>
