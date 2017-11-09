@@ -1,10 +1,10 @@
 <resources>
-    <string name="weather_type_null">Δεν υπάρχουν δεδομένα</string>
+    <string name="weather_type_null">'Δεν υπάρχουν δεδομένα'</string>
     <string name="weather_type_0">Καθαρός</string>
     <string name="weather_type_1">Νεφελώδης</string>
     <string name="weather_type_2">Ομιχλώδης</string>
     <string name="weather_type_3">Ομιχλώδης</string>
-    <string name="weather_type_4">Ισχυρή καταιγίδα</string>
+    <string name="weather_type_4">Έντονη νεροποντή</string>
     <string name="weather_type_5">Νεροποντή</string>
     <string name="weather_type_6">Πολύ ισχυρή βροχόπτωση</string>
     <string name="weather_type_7">Καταιγίδα</string>
@@ -15,7 +15,7 @@
     <string name="weather_type_12">Χιονόνερο</string>
     <string name="weather_type_13">Χιονοθύελλα</string>
     <string name="weather_type_14">Νιφάδες χιονιού</string>
-    <string name="weather_type_15">Βαριά χιονόπτωση</string>
+    <string name="weather_type_15">Ισχυρή χιονόπτωση</string>
     <string name="weather_type_16">Χιονόπτωση</string>
     <string name="weather_type_17">Ελαφρά χιονόπτωση</string>
     <string name="weather_type_18">Ισχυρή αμμοθύελλα</string>
