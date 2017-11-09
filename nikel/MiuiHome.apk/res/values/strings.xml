@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="action_add_to_workspace">Add to workspace</string>
+  <string name="action_add_to_workspace">Add to Work space</string>
   <string name="activity_not_found">"App isn't installed on your device"</string>
   <string name="add_screen">Add screen</string>
   <string name="app_already_exist">App already exists</string>
@@ -26,7 +26,7 @@
   <string name="application_name">System launcher</string>
   <string name="apply">Set</string>
   <string name="apply_action">Set</string>
-  <string name="apply_as_lock_screen">Set as lock screen</string>
+  <string name="apply_as_lock_screen">Set as Lock screen</string>
   <string name="apply_as_wallpaper">Set as Home screen</string>
   <string name="apply_both">Set both</string>
   <string name="aqi_quality_index_dangerous">Dangerous</string>
@@ -39,7 +39,7 @@
   <string name="buffering">Buffering…</string>
   <string name="cancel_action">Cancel</string>
   <string name="cancel_btn_label">Cancel</string>
-  <string name="cant_edit_lock_screen">"Can't edit lock screen style."</string>
+  <string name="cant_edit_lock_screen">"Can't edit Lock screen style."</string>
   <string name="cant_remove_folder">"Can't remove folder"</string>
   <string name="cant_remove_retained_app">"Couldn't remove this app"</string>
   <string name="cant_remove_system_app">"Can't remove system app"</string>
@@ -51,7 +51,7 @@
   <string name="confirm_btn_label">OK</string>
   <string name="confirm_uninstall_dialog_contain_xspace_app_msg">Dual apps will be uninstalled together with these ones.</string>
   <string name="confirm_uninstall_dialog_has_xspace_app_msg">Dual app will be uninstalled together with this one.</string>
-  <string name="confirm_uninstall_dialog_title">Corresponding dual apps will be removed.</string>
+  <string name="confirm_uninstall_dialog_title">Dual apps will be uninstalled</string>
   <string name="current_preview">Preview</string>
   <string name="current_wallpaper">Current</string>
   <string name="custom_wallpaper_picker">Browse</string>
@@ -156,8 +156,8 @@
   <string name="loading_wallpaper">Just a sec…</string>
   <string name="local_wallpaper">Downloaded</string>
   <string name="lock_screen">Lock screen</string>
-  <string name="lock_screen_failed_message">"Can't set lock screen wallpaper"</string>
-  <string name="lock_screen_success_message">Applied to lock screen</string>
+  <string name="lock_screen_failed_message">"Can't set Lock screen wallpaper"</string>
+  <string name="lock_screen_success_message">Applied to Lock screen</string>
   <string name="lock_screen_wallpaper">Lock screen wallpaper</string>
   <string name="menu_add">Add</string>
   <string name="menu_auto_fill">Fill empty cells</string>
