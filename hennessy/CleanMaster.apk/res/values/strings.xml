@@ -161,9 +161,9 @@
   <string name="dialog_msg_add_white_list_error">"Can't add this file to exceptions"</string>
   <string name="dialog_msg_backup_and_uninstall_apps">Backup and uninstall the selected apps?</string>
   <string name="dialog_msg_check_all">Confirm to select %1$s that contains %2$d items</string>
-  <string name="dialog_msg_esc_cleanmaster">Stop the ongoing clean up scan?</string>
+  <string name="dialog_msg_esc_cleanmaster">Stop scanning and exit Cleaner?</string>
   <string name="dialog_msg_load_cleanup_engine_error">Cleaner engine has been corrupted.</string>
-  <string name="dialog_msg_stop_scan">Stop the ongoing clean up scan?</string>
+  <string name="dialog_msg_stop_scan">Stop scanning now?</string>
   <string name="dialog_msg_uninstall_apps">Uninstall these apps?</string>
   <string name="dialog_msg_uninstall_apps_xspace">Uninstall these apps including their Dual apps?</string>
   <string name="dialog_ok_add_white_list_error">Got it</string>
@@ -191,7 +191,7 @@
   <string name="empty_title_residual">No residuals found</string>
   <string name="empty_title_video">No videos to delete​</string>
   <string name="engine_cm">Clean Master</string>
-  <string name="engine_init">Initializing...</string>
+  <string name="engine_init">Initializing…</string>
   <string name="engine_tm">Tencent</string>
   <string name="file">Files</string>
   <string name="file_not_found">File not found</string>
