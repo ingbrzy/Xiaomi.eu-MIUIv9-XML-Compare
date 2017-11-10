@@ -105,7 +105,14 @@
   <string name="dlg_no_earphone">The earphone is used as antenna of FM Radio.Do you want to continue wihtout earphone?</string>
   <string name="enrol_notice">please input your finger on the fingerprint sensor...</string>
   <string name="exist">exist</string>
+  <string name="finger_key_notice">Generate the key,please wait...</string>
+  <string name="finger_notice">Please touch your finger on the fingerprint sensor...</string>
   <string name="fingerprint">Finger Print</string>
+  <string name="fingerprint_checkboardtest">Check Board:</string>
+  <string name="fingerprint_enrol">Enrol:</string>
+  <string name="fingerprint_enrolnum">Enrol Num:</string>
+  <string name="fingerprint_identify">Identify:</string>
+  <string name="fingerprint_selftest">Self Test:</string>
   <string name="fixed_freq">1037</string>
   <string name="flashlight">Flashlight</string>
   <string name="flashlight_not_exist">The Flashlight does not exist,no tests</string>
