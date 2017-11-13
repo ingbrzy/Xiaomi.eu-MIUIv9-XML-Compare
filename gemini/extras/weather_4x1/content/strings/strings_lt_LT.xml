@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_type_null">'No data'</string>
     <string name="weather_type_0">Giedra</string>
     <string name="weather_type_1">Debesuota</string>
     <string name="weather_type_2">Miglota</string>
     <string name="weather_type_3">Rūkas</string>
     <string name="weather_type_4">Trumpalaikis lietus</string>
-    <string name="weather_type_5">Lietus</string>
+    <string name="weather_type_5">Lietinga audra</string>
     <string name="weather_type_6">Labai stiprus lietus</string>
-    <string name="weather_type_7">Audra</string>
+    <string name="weather_type_7">Audra su žaibais</string>
     <string name="weather_type_8">Liūtis</string>
     <string name="weather_type_9">Stiprus lietus</string>
     <string name="weather_type_10">Lietus</string>

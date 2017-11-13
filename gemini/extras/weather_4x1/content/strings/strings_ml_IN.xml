@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_type_null">'No data'</string>
     <string name="weather_type_0">തെളിഞ്ഞത്</string>
     <string name="weather_type_1">മേഘാവൃതമായ</string>
     <string name="weather_type_2">തെളിച്ചമില്ലാത്ത</string>

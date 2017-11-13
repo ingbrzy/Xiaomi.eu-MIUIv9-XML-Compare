@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<strings>
-    <string name="date_time" value="d MMMM, EEEE"/>
-    <string name="date_time_12" value="d MMMM, EEEE"/>
-    <string name="desc_date_format" value="d MMMM, EEEE"/>
-    <string name="desc_date_format_12" value="d MMMM, EEEE"/>
+  <strings>
+    <string name="date_time" value="EEE, dd MMMM"></string>
+    <string name="date_time_12" value="EEE, dd MMMM"></string>
+    <string name="desc_date_format" value="EEEE, MMM dd"></string>
+    <string name="desc_date_format_12" value="EEEE, MMM dd"></string>
+    <string name="desc_time" value="'current time' + #hour12+' '+ifelse(#minute,#minute,'oclock')+', double tap to enter clock app'"></string>
 </strings>
