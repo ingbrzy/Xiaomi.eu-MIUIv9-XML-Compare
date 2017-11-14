@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="weather_type_null">'No data'</string>
+    <string name="weather_type_null">'Nenhum dado'</string>
     <string name="weather_type_0">Limpo</string>
     <string name="weather_type_1">Nublado</string>
     <string name="weather_type_2">Nublado</string>

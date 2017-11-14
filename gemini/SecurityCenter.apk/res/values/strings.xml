@@ -1921,7 +1921,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="summary_cleaner_cloudscan">Upload and compare folder names with online definitions</string>
   <string name="summary_cloud_account">Get the most out of your Mi device</string>
   <string name="summary_cloud_service">Sync your photos, contacts, and more across all your devices</string>
-  <string name="summary_cloud_space_almost_full">Get more storage space</string>
+  <string name="summary_cloud_space_almost_full">Get storage</string>
   <string name="summary_cloud_space_full">Get more storage space and access to more features</string>
   <string name="summary_cmcc_app_check">"Some apps couldn't be verified"</string>
   <string name="summary_consume_power">Heating issues found, they can affect battery life span</string>

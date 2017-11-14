@@ -11,7 +11,7 @@
     <string name="aqi_dangerous">\'AQI \'+#weather_aqilevel</string>
     <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
     <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
-    <string name="weather_type_null">'No data'</string>
+    <string name="weather_type_null">'کوئی ڈیٹا نہیں ہے'</string>
     <string name="weather_type_0">صاف</string>
     <string name="weather_type_1">ابرآلود</string>
     <string name="weather_type_2">دھندلا</string>

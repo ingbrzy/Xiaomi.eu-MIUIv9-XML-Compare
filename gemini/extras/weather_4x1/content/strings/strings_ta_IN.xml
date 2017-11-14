@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="weather_type_null">'No data'</string>
+    <string name="weather_type_null">'தரவு இல்லை'</string>
     <string name="weather_type_0">தெளிவான</string>
     <string name="weather_type_1">மேக மூட்டம்</string>
     <string name="weather_type_2">தெளிவற்றது</string>

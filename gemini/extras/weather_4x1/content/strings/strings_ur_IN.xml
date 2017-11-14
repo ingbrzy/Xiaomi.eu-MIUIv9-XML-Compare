@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="weather_type_null">'No data'</string>
+    <string name="weather_type_null">'کوئی ڈیٹا نہیں ہے'</string>
     <string name="weather_type_0">صاف</string>
     <string name="weather_type_1">ابرآلود</string>
     <string name="weather_type_2">دھندلا</string>
