@@ -115,6 +115,8 @@
         <item>com.miui.wmsvc</item>
         <item>com.android.updater</item>
         <item>com.miui.klo.bugreport</item>
+        <item>com.android.calendar</item>
+        <item>com.android.providers.calendar</item>
     </string-array>
     <string-array name="sleepclean_normal_kill_list">
         <item>com.xiaomi.hm.health</item>
@@ -129,6 +131,7 @@
     </string-array>
     <string-array name="disable_autostart_list">
         <item>com.android.incallui</item>
+        <item>com.android.statementservice</item>
     </string-array>
     <string-array name="light_sleep_process_list">
         <item>com.tencent.mm/com.tencent.mm:push</item>

@@ -401,7 +401,7 @@ Use a different account."</string>
   <string name="micloud_title_full_dspt">"You've reached your storage limit"</string>
   <string name="micloud_unlogin_for_time_summary"/>
   <string name="micloud_unlogin_for_time_title">Mi Cloud</string>
-  <string name="micloud_upgrade_member">Get more storage space</string>
+  <string name="micloud_upgrade_member">Get storage</string>
   <string name="micloud_upgrade_space">Get storage</string>
   <string name="micloud_user_space_title">Storage space</string>
   <string name="micloud_user_space_usage">Storage space</string>
