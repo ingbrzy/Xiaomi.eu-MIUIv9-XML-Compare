@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings> 
+    <string name="date_time" value="EEEE d MMM"/>
+    <string name="date_time_12" value="EEEE d MMM"/>
+    <string name="desc_date_format" value="EEEE, dd MMM"/>
+    <string name="desc_date_format_12" value="EEEE, dd MMM"/>
+    <string name="desc_time" value="'τρέχουσα ώρα' + #hour12+' '+ifelse(#minute,#minute,'oclock')+', διπλό πάτημα για το άνοιγμα της εφαρμογής'"/>
+</strings>
