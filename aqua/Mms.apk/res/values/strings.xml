@@ -386,7 +386,7 @@
   <string name="pref_hide_verification_code_summary">Automatically hide one-time passwords in message notifications on secured lock screen</string>
   <string name="pref_messages_to_save">Set number of messages to save</string>
   <string name="pref_mms_settings_title">Multimedia (MMS) messages</string>
-  <string name="pref_msg_trash_bin_title">SMS Trash</string>
+  <string name="pref_msg_trash_bin_title">Deleted messages</string>
   <string name="pref_notification_settings_title">Notifications</string>
   <string name="pref_other_title">Additional settings</string>
   <string name="pref_show_blocked_messages_summary">Show blocked SMS in conversations list</string>
