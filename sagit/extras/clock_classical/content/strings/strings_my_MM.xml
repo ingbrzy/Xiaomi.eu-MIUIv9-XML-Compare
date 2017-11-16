@@ -4,5 +4,5 @@
     <string name="date_time_12">EEE, dd MMMM</string>
     <string name="desc_date_format">EEEE, dd MMM</string>
     <string name="desc_date_format_12">EEEE, dd MMM</string>
-    <string name="desc_time">'လက်ရှိအချိန်\' +#နာရီ ၁၂\' \'+ifelse(#မိနစ်၊#မိနစ်၊နာရီ\')+၊ နာရီအက်ပ်သို့ ဝင်ရန် နှစ်ချက်ထိနှိပ်ပါ'</string>
+    <string name="desc_time">'လက်ရှိအချိန်\' + #hour12+\' \'+ifelse(#minute,#minute,\'oclock\')+\', နာရီအက်ပ်သို့ ဝင်ရန် နှစ်ချက်ထိနှိပ်ပါ'</string>
 </resources>
