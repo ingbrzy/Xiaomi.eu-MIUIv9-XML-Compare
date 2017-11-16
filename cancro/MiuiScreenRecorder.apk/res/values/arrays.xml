@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="screenrecorder_settings_resolution">
-        <item>1080p</item>
-        <item>720p</item>
-        <item>480p</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_resolution_values">
-        <item>1080</item>
-        <item>720</item>
-        <item>480</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_resolution_c9_values">
-        <item>1080</item>
-        <item>960</item>
-        <item>720</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_resolution_full_values">
-        <item>1920*1080</item>
-        <item>1280*720</item>
-        <item>800*480</item>
-    </string-array>
-    <string-array name="screenrecorder_settings_resolution_c9_full_values">
-        <item>1440*1080</item>
-        <item>1280*960</item>
-        <item>960*720</item>
-    </string-array>
     <string-array name="screenrecorder_settings_bit_rate">
         <item>200Mbps</item>
         <item>100Mbps</item>
@@ -68,6 +43,31 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="screenrecorder_settings_resolution">
+        <item>1080p</item>
+        <item>720p</item>
+        <item>480p</item>
+    </string-array>
+    <string-array name="screenrecorder_settings_resolution_c9_full_values">
+        <item>1440*1080</item>
+        <item>1280*960</item>
+        <item>960*720</item>
+    </string-array>
+    <string-array name="screenrecorder_settings_resolution_c9_values">
+        <item>1080</item>
+        <item>960</item>
+        <item>720</item>
+    </string-array>
+    <string-array name="screenrecorder_settings_resolution_full_values">
+        <item>1920*1080</item>
+        <item>1280*720</item>
+        <item>800*480</item>
+    </string-array>
+    <string-array name="screenrecorder_settings_resolution_values">
+        <item>1080</item>
+        <item>720</item>
+        <item>480</item>
     </string-array>
     <string-array name="screenrecorder_settings_sound">
         <item>Mute</item>

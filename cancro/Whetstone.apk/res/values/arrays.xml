@@ -89,6 +89,7 @@
         <item>com.android.systemui</item>
         <item>com.miui.miwallpaper</item>
         <item>com.android.mms</item>
+        <item>com.android.bluetooth</item>
         <item>com.miui.home</item>
         <item>com.miui.touchassistant</item>
         <item>com.google.android.marvin.talkback</item>
@@ -117,6 +118,7 @@
         <item>com.miui.klo.bugreport</item>
         <item>com.android.calendar</item>
         <item>com.android.providers.calendar</item>
+        <item>com.android.providers.downloads</item>
     </string-array>
     <string-array name="sleepclean_normal_kill_list">
         <item>com.xiaomi.hm.health</item>
@@ -153,11 +155,11 @@
         <item>com.miui.voip</item>
         <item>com.xiaomi.upnp</item>
         <item>com.xiaomi.miplay</item>
-        <item>com.miui.virtualsim</item>
     </string-array>
     <array name="promotelevel_middle" />
     <string-array name="promotelevel_high">
         <item>com.miui.touchassistant</item>
+        <item>com.miui.virtualsim</item>
     </string-array>
     <string-array name="deepclean_lock_screen_white_list">
         <item>com.miui.home</item>
