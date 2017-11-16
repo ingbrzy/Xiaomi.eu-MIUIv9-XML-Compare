@@ -2586,8 +2586,8 @@ Select your operating system:"</string>
   <string name="power_wifi">WLAN</string>
   <string name="ppp_number">ppp_number</string>
   <string name="pref_button_light">Button lights</string>
-  <string name="pref_button_light_summary">Light up Menu, %1$sand Back buttons</string>
-  <string name="pref_button_light_summary_sub">Home,</string>
+  <string name="pref_button_light_summary">Light up Menu, %1$s, and Back buttons</string>
+  <string name="pref_button_light_summary_sub">Home</string>
   <string name="pref_edge_handgrip">Edge controls</string>
   <string name="pref_operational_key">Navigation buttons</string>
   <string name="pref_volume_launch_camera_summary">Press Volume down twice to launch Camera</string>
