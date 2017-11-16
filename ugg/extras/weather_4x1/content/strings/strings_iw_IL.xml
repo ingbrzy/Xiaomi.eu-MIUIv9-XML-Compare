@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_type_null">'אין נתונים'</string>
     <string name="weather_type_0">בהיר</string>
     <string name="weather_type_1">מעונן</string>
     <string name="weather_type_2">אביך</string>

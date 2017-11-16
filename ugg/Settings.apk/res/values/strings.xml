@@ -2940,8 +2940,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="power_wifi">WLAN</string>
   <string name="pre_installed_application">Pre-installed apps</string>
   <string name="pref_button_light">Button lights</string>
-  <string name="pref_button_light_summary">Light up Menu, %1$sand Back buttons</string>
-  <string name="pref_button_light_summary_sub">Home,</string>
+  <string name="pref_button_light_summary">Light up Menu, %1$s, and Back buttons</string>
+  <string name="pref_button_light_summary_sub">Home</string>
   <string name="pref_edge_handgrip">Edge controls</string>
   <string name="pref_operational_key">Navigation buttons</string>
   <string name="pref_title_lang_selection">Language preferences</string>
