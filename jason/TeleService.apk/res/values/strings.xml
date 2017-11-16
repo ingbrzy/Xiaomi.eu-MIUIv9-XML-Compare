@@ -1604,7 +1604,7 @@ Contact your carrier if this problem persists."</string>
   <string name="vm_change_pin_old_pin">Old PIN</string>
   <string name="vm_change_pin_progress_message">Just a sec…</string>
   <string name="vm_changed">Voicemail number changed.</string>
-  <string name="voice_number_setting_primary_user_only">Voiceimail can only be changed by the primary user.</string>
+  <string name="voice_number_setting_primary_user_only">Voicemail can only be changed by the primary user.</string>
   <string name="voice_privacy">Voice privacy</string>
   <string name="voice_privacy_summary">Enable enhanced privacy mode</string>
   <string name="voice_report_incoming_call">Calling</string>
