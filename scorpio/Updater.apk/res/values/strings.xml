@@ -26,14 +26,14 @@
   <string name="download_fail_desc">MD5 Sum does not match…</string>
   <string name="downloading">Downloading:</string>
   <string name="downloading_desc">Downloading in progress, check status in notification area.</string>
-  <string name="install_desc">Device will reboot to recovery and install chosen file: &lt;b&gt;%1$s&lt;/b&gt;"
+  <string name="install_desc">Device will reboot to recovery and install chosen file:&lt;b&gt; %1$s&lt;/b&gt;"
 Data will not be wiped."</string>
   <string name="install_title">Are you sure to continue?</string>
   <string name="menu_title_current_version_log">What is new?</string>
   <string name="menu_title_pick_rom_file">Choose update package</string>
   <string name="menu_title_recovery">Reboot to Recovery mode</string>
   <string name="message">%1$s</string>
-  <string name="message_checkbox">Hide future messages from Xioami.eu team</string>
+  <string name="message_checkbox">Hide future messages from Xiaomi.eu team</string>
   <string name="message_title">NOTE!</string>
   <string name="new_version">New version found!</string>
   <string name="no_info">No info available.</string>
