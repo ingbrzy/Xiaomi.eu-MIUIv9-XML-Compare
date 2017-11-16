@@ -46,8 +46,8 @@
   <string name="account_settings_login_dialog_reason_fmt" formatted="false">"Couldn't sign in to %s. The server said: %s"</string>
   <string name="account_settings_login_dialog_title">"Couldn't sign in"</string>
   <string name="account_settings_mail_check_frequency_dialog_title">You need to refresh Mail manually to sync your emails</string>
-  <string name="account_settings_mail_check_frequency_dialog_title_eas">When you change to manual, you need to manually refresh to synchronize messages and calendar</string>
-  <string name="account_settings_mail_check_frequency_label">Frequency</string>
+  <string name="account_settings_mail_check_frequency_dialog_title_eas">"You'll have to sync Mail manually to be able to sync messages and calendar events."</string>
+  <string name="account_settings_mail_check_frequency_label">Sync frequency</string>
   <string name="account_settings_mibill_resolve_label">Manage bills automatically</string>
   <string name="account_settings_name_label">Nickname</string>
   <string name="account_settings_notifications">Notifications</string>
@@ -86,8 +86,8 @@
   <string name="account_setup_basics_mi_mail_login_help">You may need to verify your account via SMS to receive emails</string>
   <string name="account_setup_basics_password_label">Enter password</string>
   <string name="account_setup_basics_title">Add account</string>
-  <string name="account_setup_check_settings_check_incoming_msg">"    Validating server settings…"</string>
-  <string name="account_setup_check_settings_check_outgoing_msg">"    Validating smtp settings…"</string>
+  <string name="account_setup_check_settings_check_incoming_msg">Validating server settings…</string>
+  <string name="account_setup_check_settings_check_outgoing_msg">Validating smtp settings…</string>
   <string name="account_setup_check_settings_retr_info_msg">"    Retrieving account information…"</string>
   <string name="account_setup_correct_address_tips">Enter email address</string>
   <string name="account_setup_creating_account_msg">"    Creating account…"</string>
@@ -237,7 +237,7 @@
   <string name="auto_remind_unbind">Stop</string>
   <string name="auto_sync_off">Auto-sync is off.</string>
   <string name="automatic_remind_text">Remind automatically</string>
-  <string name="back">back</string>
+  <string name="back">Back</string>
   <string name="bank_card_detail">Credit card details</string>
   <string name="bank_card_list_card_num_fmt">****%s</string>
   <string name="battery_saver">Battery saver</string>
@@ -438,7 +438,7 @@
   <string name="email_sina">Sina Mail</string>
   <string name="email_suggestions_authority">com.android.email.provider</string>
   <string name="eml_attachment_provider">com.android.email.provider.eml.attachment</string>
-  <string name="eml_parse_message">Slow resolving eml files, please wait…</string>
+  <string name="eml_parse_message">Opening EML file…</string>
   <string name="empty_account_tip">"Couldn't find account"</string>
   <string name="empty_email_tip">"Can't send blank message"</string>
   <string name="empty_spam">Empty Spam</string>
@@ -458,7 +458,7 @@
   <string name="expand_recipient_details">Expand recipient details</string>
   <string name="fail_get_email_message">Get message failed.</string>
   <string name="failed">"Couldn't load image"</string>
-  <string name="failed_parse_eml_file">Email resolution failed, please try again</string>
+  <string name="failed_parse_eml_file">"Couldn't open EML file, try again."</string>
   <string name="failed_read_phone_state_permission">"Allow access to device's status"</string>
   <string name="failed_read_write_calendar_permission">Allow access to Calendar</string>
   <string name="failed_read_write_contacts_permission">Allow access to Contacts</string>
@@ -556,7 +556,7 @@
   <string name="help_config">Self configuration</string>
   <string name="hide_atts_remaining">Hide %1$d attachments</string>
   <string name="hide_elided">▼ Hide quoted text</string>
-  <string name="hide_password">hide password</string>
+  <string name="hide_password">Hide password</string>
   <string name="hierarchical_folder_parent_top">%1$s∕%2$s∕</string>
   <string name="hierarchical_folder_parent_top_ellip">%1$s∕…∕%2$s∕</string>
   <string name="hierarchical_folder_top">%1$s∕</string>
@@ -719,7 +719,7 @@
   <string name="move_to_selection_dialog_title">Move to another folder</string>
   <string name="multiple_new_message_notification_item">&lt;b&gt;%1$s&lt;/b&gt;"   %2$s"</string>
   <string name="mute">Mute</string>
-  <string name="navigation_menu">navigation menu</string>
+  <string name="navigation_menu">Navigation menu</string>
   <string name="network_error">No connection</string>
   <string name="network_invaild">"Can't connect to the network"</string>
   <string name="network_not_available">"Can't connect to the network"</string>
@@ -1031,6 +1031,7 @@ to receive reminders about payments and trips"</string>
   <string name="security_unsupported_ticker_fmt">"Account \"%s\" can't be synced due to security requirements."</string>
   <string name="select_attachment_type">Choose attachment from</string>
   <string name="select_no_file">No attachments selected</string>
+  <string name="select_path">Select path</string>
   <string name="send">Send</string>
   <string name="send_failed">"Message wasn't sent."</string>
   <string name="send_feed_back">Send feedback</string>
@@ -1065,7 +1066,7 @@ to receive reminders about payments and trips"</string>
   <string name="shortcut_name_title">Name folder shortcut</string>
   <string name="show_elided">▶ Show quoted text</string>
   <string name="show_images">Download and show pictures</string>
-  <string name="show_password">show password</string>
+  <string name="show_password">Show password</string>
   <string name="signature">"
 
 
@@ -1198,7 +1199,7 @@ Touch "&lt;b&gt;Sync Now&lt;/b&gt; to sync mail once, or &lt;b&gt;Change Sync Se
   <string name="wipe_account_fail_title">"Couldn't delete personal info"</string>
   <string name="wrong_password">The password you entered is incorrect</string>
   <string name="yes">Yes</string>
-  <string name="you_are_in_mobile_network">Send log using mobile data connection? If you go over your plan’s data limit, your carrier could charge you additional fees.</string>
+  <string name="you_are_in_mobile_network">Use mobile data to upload logs?</string>
   <string name="youfuli">Promotion</string>
   <string name="zip_viewer_no_file">No files.</string>
 </resources>
