@@ -216,7 +216,7 @@ To activate your account, follow the
   <string name="passport_copy_message_text_success">Copied successfully</string>
   <string name="passport_copy_message_vcode">Copy code</string>
   <string name="passport_delete_account">Sign out</string>
-  <string name="passport_downlink_reg">Create account using phone number</string>
+  <string name="passport_downlink_reg">Phone number</string>
   <string name="passport_email">Email address</string>
   <string name="passport_email_or_id_hint_text">Email address or Mi Account ID</string>
   <string name="passport_email_reg_success_summary">%1$s has been bound with your account. You can use it to sign in or to reset your password.</string>

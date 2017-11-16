@@ -241,7 +241,7 @@ Use only the supplied charger."</string>
   <string name="screenshot_long_screenshot">Scroll</string>
   <string name="screenshot_saved_text">Tap to view your screenshot.</string>
   <string name="screenshot_send">Send</string>
-  <string name="search_hint">Search for websites, apps, contacts, videos...</string>
+  <string name="search_hint">Search for websites, apps, contacts, and videos</string>
   <string name="settings_custom_notification">Manage notifications</string>
   <string name="settings_toggle_position">Manage toggles</string>
   <string name="settings_toggle_position_divider_list">Toggles above this bar are active</string>

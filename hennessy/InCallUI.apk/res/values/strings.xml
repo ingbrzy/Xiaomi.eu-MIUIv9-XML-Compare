@@ -204,7 +204,7 @@
   <string name="onscreen_add_call_text">Add call</string>
   <string name="onscreen_audio_mode_bluetooth">Bluetooth</string>
   <string name="onscreen_audio_mode_conference">Conference</string>
-  <string name="onscreen_audio_mode_handset">Hands-free</string>
+  <string name="onscreen_audio_mode_handset">Earpiece</string>
   <string name="onscreen_audio_mode_headset">Headphones</string>
   <string name="onscreen_audio_mode_speaker">Speaker</string>
   <string name="onscreen_audio_switch_mode">Switch audio</string>
