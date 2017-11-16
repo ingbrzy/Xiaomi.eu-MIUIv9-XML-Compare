@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_type_null">'بدون داده'</string>
     <string name="weather_type_0">صاف</string>
     <string name="weather_type_1">ابری</string>
     <string name="weather_type_2">غبارآلود</string>
