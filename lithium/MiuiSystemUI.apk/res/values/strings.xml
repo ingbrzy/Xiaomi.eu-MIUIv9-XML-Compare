@@ -497,7 +497,7 @@ Use only the supplied charger."</string>
   <string name="screenshot_saving_ticker">Saving screenshot…</string>
   <string name="screenshot_saving_title">Saving screenshot…</string>
   <string name="screenshot_send">Send</string>
-  <string name="search_hint">Search for websites, apps, contacts, videos...</string>
+  <string name="search_hint">Search for websites, apps, contacts, and videos</string>
   <string name="select_application">Select application</string>
   <string name="select_logd_size_dialog_title">Select size for log buffers</string>
   <string name="select_logd_size_title">Log buffer sizes</string>
