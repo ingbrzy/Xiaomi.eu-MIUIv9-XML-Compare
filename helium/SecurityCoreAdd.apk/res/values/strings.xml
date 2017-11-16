@@ -177,6 +177,8 @@ Otherwise you may not be able to enter Second space from Lock screen."</string>
   <string name="public_app">Both spaces</string>
   <string name="removeSuccess">Deleted successfully</string>
   <string name="remove_second_space_msg">All Second space app data will be lost after you delete Second space. Delete Second space now?</string>
+  <string name="remove_user_click_message">"*If you don't have any important items in Second space, %s"</string>
+  <string name="remove_user_click_message_action">you can delete Second space and reboot your device now.</string>
   <string name="removingSpace">Deleting…</string>
   <string name="repeat_scanner_fingerprint">Add again</string>
   <string name="reset_passwd_success">Password was reset successfully</string>
@@ -197,7 +199,14 @@ to enter Second space from Lock screen"</string>
   <string name="scanner_fingerprint_tips_desc">"Select existing fingerprint to enter Second space. You won't be able to use it in First space."</string>
   <string name="scanner_fingerprint_tips_title">Enter Second space using existing fingerprint</string>
   <string name="scanner_second_space_fingerprint">Scan Second space fingerprint</string>
-  <string name="sdcardfs_dialog_message">Your old data may be incompatible with the new file system. Optimize the data before entering Second space and reboot your device.</string>
+  <string name="sdcardfs_dialog_message">MIUI 9 has a new file system. Old data might be incompatible with it. To solve this issue, follow the steps to install an update. Your device will reboot twice during this update.</string>
+  <string name="sdcardfs_dialog_title">Important update</string>
+  <string name="sdcradfs_dialog_in_owner_message">"MIUI 9 has a new file system. Old data might be incompatible with it. To update, move items from Second space, reboot your device, and create Second space again.
+If you don't update, dual apps might not work properly as well."</string>
+  <string name="sdcradfs_dialog_in_owner_title">Second space</string>
+  <string name="sdcradfs_dialog_in_sec_message">"To update, you should delete your Second space, and then create it again. Move the data from Second space to First space, and reboot your device to complete the update.
+If you don't update, dual apps might not work properly as well."</string>
+  <string name="sdcradfs_dialog_in_sec_title">Important update</string>
   <string name="search_input_txt_na">"&lt;font color='#ff0000'&gt;%s&lt;/font&gt;"</string>
   <string name="search_result_text">"Couldn't find any apps"</string>
   <string name="secondSpace">Second space</string>
@@ -242,6 +251,7 @@ to enter Second space from Lock screen"</string>
   <string name="show_private_msg_summary">Show private messages​ in Second space</string>
   <string name="skip">Skip</string>
   <string name="spaceSetting">Settings</string>
+  <string name="space_created_success">Created Second space successfully</string>
   <string name="space_deleted">This space was deleted</string>
   <string name="space_des_default">Isolated space with encrypted data</string>
   <string name="space_finger_sub_text">Set Second space fingerprint to switch faster</string>
