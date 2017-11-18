@@ -789,6 +789,8 @@
   <string name="payment_clear_records_failed">"Couldn't clear payment history"</string>
   <string name="payment_clear_records_success">Cleared payment history</string>
   <string name="payment_date_time_picker_dialog_title">Set date and time</string>
+  <string name="payment_dialog_notice_ok">我知道了</string>
+  <string name="payment_dialog_notice_title">使用须知</string>
   <string name="payment_method_alipay">Alipay</string>
   <string name="payment_method_bank">Debit card</string>
   <string name="payment_method_cash">Cash</string>

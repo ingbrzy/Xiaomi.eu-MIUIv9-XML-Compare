@@ -220,6 +220,14 @@
   <string name="paycode_parent">Alipay</string>
   <string name="paycode_sdk_parent">Shortcut payment</string>
   <string name="payment_card_title">My payments</string>
+  <string name="payment_dialog_chooser_cancel">取消</string>
+  <string name="payment_dialog_chooser_message_footer">注：系统获取到的所有消费支出明细记录都将加密存储在手机本地，不会上传、云同步或提供给第三方。</string>
+  <string name="payment_dialog_chooser_message_header">选择需要系统帮助你聚合的支出信息来源</string>
+  <string name="payment_dialog_chooser_ok">确认开启</string>
+  <string name="payment_dialog_chooser_title">我的支出</string>
+  <string name="payment_dialog_chooser_toast">需至少勾选一个支出信息来源</string>
+  <string name="payment_dialog_notice_ok">我知道了</string>
+  <string name="payment_dialog_notice_title">使用须知</string>
   <string name="payment_guide_hint">Collect payment info from Messaging and other apps.</string>
   <string name="payment_guide_hint_link">Security &amp; privacy</string>
   <string name="payment_privacy_dialog_cancel">退出</string>
@@ -232,6 +240,7 @@
   <string name="payment_total_month_desc">This month</string>
   <string name="payment_total_today_desc">Today</string>
   <string name="payment_unit_cny">CNY</string>
+  <string name="payment_user_notice_bar_text">我的支出卡片使用须知</string>
   <string name="personalAssistant_mainpage">Home page</string>
   <string name="personalAssistant_path">com.miui.home.launcher.assistant</string>
   <string name="plan">Scheduled</string>
