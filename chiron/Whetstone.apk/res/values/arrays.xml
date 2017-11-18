@@ -155,11 +155,11 @@
         <item>com.miui.voip</item>
         <item>com.xiaomi.upnp</item>
         <item>com.xiaomi.miplay</item>
+        <item>com.miui.virtualsim</item>
     </string-array>
     <array name="promotelevel_middle" />
     <string-array name="promotelevel_high">
         <item>com.miui.touchassistant</item>
-        <item>com.miui.virtualsim</item>
     </string-array>
     <string-array name="deepclean_lock_screen_white_list">
         <item>com.miui.home</item>
