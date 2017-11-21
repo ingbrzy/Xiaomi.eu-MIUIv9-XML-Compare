@@ -209,7 +209,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="precipitation_degree_two">Light</string>
   <string name="pressure_connect">%1$s mb</string>
   <string name="pull_fresh_updated">Updated successfully</string>
-  <string name="pull_fresh_updating">Updating</string>
+  <string name="pull_fresh_updating">Updating…</string>
   <string name="radar_cloud_image_title">Radar map</string>
   <string name="rainfall_settings_summary">Rainfall alerts</string>
   <string name="rainfall_settings_title">Rainfall</string>
@@ -274,7 +274,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="update_night_setting_title_text">Update at night automatically</string>
   <string name="update_setting_title_text">Update weather info</string>
   <string name="updated_a_moment_ago">Updated a moment ago</string>
-  <string name="updating">Updating..</string>
+  <string name="updating">Updating…</string>
   <string name="video_dialog_no_play"/>
   <string name="video_dialog_play"/>
   <string name="video_dialog_subtitle"/>

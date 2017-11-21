@@ -18,6 +18,6 @@
     <string-array name="choose_ask_type">
         <item>Always ask</item>
         <item>Default app</item>
-        <item>Secondary app</item>
+        <item>Dual app</item>
     </string-array>
 </resources>
