@@ -910,7 +910,7 @@
   <string name="last_check_canceled">Previous scan was canceled</string>
   <string name="later">稍后处理</string>
   <string name="left_precent">60%</string>
-  <string name="legal_workday">Holiday</string>
+  <string name="legal_workday">Legal workdays</string>
   <string name="legal_workday_invalidate">Mon-Fri (holiday info expired)</string>
   <string name="legal_workday_invalidate_message">Tap to update public holiday info.</string>
   <string name="legal_workday_message">(Skip holidays)</string>
