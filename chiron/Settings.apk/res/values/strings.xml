@@ -1646,6 +1646,7 @@ This helps protect data on lost or stolen devices."</string>
   <string name="fingerprint_manage_tittle">Fingerprint</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_recognized">Not recognized</string>
+  <string name="fingerprint_payment">Fingerprint payments</string>
   <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
   <string name="fingerprint_unlock_set_unlock_password">Fingerprint + Password</string>
   <string name="fingerprint_unlock_set_unlock_pattern">Fingerprint + Pattern</string>
