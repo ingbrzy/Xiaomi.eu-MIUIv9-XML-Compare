@@ -852,6 +852,7 @@ Take more photos of your friends!"</string>
 %s
  to work normally, tap \"Set\" to go to Permissions."</string>
   <string name="grant_permission_title">Allow access</string>
+  <string name="grant_permission_unlock_and_set">Unlock and set</string>
   <string name="has_invalid_recipient">Invalid recipients: %1$s</string>
   <string name="have_known">Got it</string>
   <string name="hidden_album_display_name">Hidden album</string>
@@ -1180,10 +1181,12 @@ Take more photos of your friends!"</string>
   <string name="search_feedback_false_positive_title">Looks like these are \"%s\"</string>
   <string name="search_feedback_likely_check_title">Check</string>
   <string name="search_feedback_likely_title">Looks like these photos may have \"%s\"</string>
-  <string name="search_feedback_task_finish_title">Tap to receive reward!</string>
-  <string name="search_feedback_task_progress">%1$d/%2$d</string>
+  <string name="search_feedback_task_complete">All missions are completed</string>
+  <string name="search_feedback_task_progress">Missions %1$d/%2$d</string>
   <string name="search_feedback_task_request_award_failed">"Couldn't receive reward. Try again later.​"</string>
   <string name="search_feedback_task_requesting_award">Receiving reward​…</string>
+  <string name="search_feedback_user_notice">"I've read and agreed to %s."</string>
+  <string name="search_feedback_user_policy">MIUI Gallery AI Algorithm Program Privacy Policy</string>
   <string name="search_hint">Search images​</string>
   <string name="search_image_result_title">Search results</string>
   <string name="search_login_now">Sign in</string>
@@ -1338,6 +1341,7 @@ Take more photos of your friends!"</string>
   <string name="tip_not_download">Not on device. Will be downloaded from Mi Cloud while playing.</string>
   <string name="tip_screenshot_package_info">App name:</string>
   <string name="title_set_name">Enter name</string>
+  <string name="title_tip">Hint</string>
   <string name="title_warn">Warning</string>
   <string name="to_count">%d total</string>
   <string name="to_enable_gallery_sync_dialog_message">Turn on sync for Gallery first</string>
