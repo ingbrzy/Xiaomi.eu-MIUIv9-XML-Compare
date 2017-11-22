@@ -58,9 +58,9 @@
         <item quantity="other">%1$dd ago</item>
     </plurals>
     <plurals name="steps">
-        <item quantity="other">%d|steps</item>
-        <item quantity="zero">%d|step</item>
-        <item quantity="one">%d|step</item>
+        <item quantity="other">%d steps</item>
+        <item quantity="zero">%d steps</item>
+        <item quantity="one">%d step</item>
     </plurals>
     <plurals name="assistant_day">
         <item quantity="other">In %d days</item>
