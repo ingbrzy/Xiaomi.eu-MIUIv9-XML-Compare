@@ -1209,8 +1209,8 @@ Check your tracking number."</string>
   <string name="payment_method_credit">Credit card</string>
   <string name="payment_method_other">Other</string>
   <string name="payment_method_wechat">WeChat</string>
-  <string name="payment_month_next">后一月</string>
-  <string name="payment_month_prev">前一月</string>
+  <string name="payment_month_next">Next month</string>
+  <string name="payment_month_prev">Previous month</string>
   <string name="payment_pref_basic_category_title">General settings</string>
   <string name="payment_pref_clear_records_title">Clear payment history</string>
   <string name="payment_pref_enabled_summary">Record all payments automatically</string>
@@ -1219,8 +1219,8 @@ Check your tracking number."</string>
   <string name="payment_pref_privacy_category_title">Privacy</string>
   <string name="payment_pref_privacy_security_summary">Use MIUI Privacy protection password to hide your account details</string>
   <string name="payment_pref_privacy_security_title">Password</string>
-  <string name="payment_pref_report_category_title">上报失败信息</string>
-  <string name="payment_pref_report_failed_record_title">上报记账失败的页面</string>
+  <string name="payment_pref_report_category_title">Report</string>
+  <string name="payment_pref_report_failed_record_title">Report unprocessed bills</string>
   <string name="payment_pref_source_alipay_summary">Get payment info from Alipay</string>
   <string name="payment_pref_source_alipay_title">Alipay</string>
   <string name="payment_pref_source_category_title">Payment info source</string>
@@ -1242,10 +1242,10 @@ Check your tracking number."</string>
   <string name="payment_record_new_lable">Add history record</string>
   <string name="payment_record_recent_title">Recent payments</string>
   <string name="payment_record_show_more">View more</string>
-  <string name="payment_report_failed_record_dialog_cancel">取消</string>
-  <string name="payment_report_failed_record_dialog_message">"为帮助我们提升记账的成功率，您可以将失败页面的信息主动上报给我们。
-"&lt;b&gt;&amp;#19978;&amp;#25253;&amp;#30340;&amp;#20449;&amp;#24687;&amp;#20165;&amp;#29992;&amp;#20110;&amp;#35299;&amp;#20915;&amp;#35760;&amp;#36134;&amp;#22833;&amp;#36133;&amp;#38382;&amp;#39064;&amp;#12290;&lt;/b&gt;</string>
-  <string name="payment_report_failed_record_dialog_ok">上报</string>
+  <string name="payment_report_failed_record_dialog_cancel">Cancel</string>
+  <string name="payment_report_failed_record_dialog_message">"Report unprocessed bills to help us make payment calculation more precise.
+"&lt;b&gt;The items you share will only be used to improve App vault.&lt;/b&gt;</string>
+  <string name="payment_report_failed_record_dialog_ok">Report</string>
   <string name="payment_setting">setting</string>
   <string name="payment_total_month_desc">This month</string>
   <string name="payment_total_today_desc">Today</string>

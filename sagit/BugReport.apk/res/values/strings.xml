@@ -292,6 +292,7 @@
   <string name="toast_feedbackservice_in_submit">Handling previous feedback…</string>
   <string name="toast_fill_brackets">Your report is missing some info</string>
   <string name="toast_log_not_exists">"The required log was deleted or doesn't exist"</string>
+  <string name="toast_log_too_large">"Can't upload. The file is too big."</string>
   <string name="toast_module_required">Select item</string>
   <string name="toast_network_unavailable">"Couldn't send. Can't connect to the network."</string>
   <string name="toast_pending_log_collection">Still getting logs…</string>
