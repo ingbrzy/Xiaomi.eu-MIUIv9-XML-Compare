@@ -16,7 +16,7 @@
   <string name="alter_message_switch_mode_message">When you switch modes, your previous settings will no longer apply to this app.</string>
   <string name="app_invisible_title">Invisible apps</string>
   <string name="app_list_title">Choose apps</string>
-  <string name="app_name">Battery saver</string>
+  <string name="app_name">Battery and Performance</string>
   <string name="background">App is running in background</string>
   <string name="base_info">Base info</string>
   <string name="cloud_addr_info">Cloud info</string>
