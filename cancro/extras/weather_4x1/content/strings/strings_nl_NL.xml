@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="weather_type_null">'Geen data'</string>
     <string name="weather_type_0">Helder</string>
     <string name="weather_type_1">Bewolkt</string>
     <string name="weather_type_2">Nevelig</string>
