@@ -35,6 +35,7 @@
   <string name="action_menu_text_copy_url">Copy URL</string>
   <string name="action_menu_text_create_qr_code">QR code</string>
   <string name="action_menu_text_download">Manage downloads</string>
+  <string name="action_menu_text_drop">Exit menu</string>
   <string name="action_menu_text_exit">Exit</string>
   <string name="action_menu_text_find_in_page">Find on page</string>
   <string name="action_menu_text_fullscreen">Full screen</string>
@@ -272,6 +273,7 @@
   <string name="bookmark_cannot_save_url">"This URL can't be bookmarked."</string>
   <string name="bookmark_folder_needs_title">Enter a group name</string>
   <string name="bookmark_group_lable">Group</string>
+  <string name="bookmark_move_to">Move to</string>
   <string name="bookmark_needs_title">Bookmark must have a name</string>
   <string name="bookmark_needs_url">Bookmark must contain a URL</string>
   <string name="bookmark_not_saved">"Couldn't save bookmark"</string>
@@ -298,6 +300,8 @@
   <string name="cancel">Cancel</string>
   <string name="cancle_sync_cloud_tabs">Cancel sync</string>
   <string name="cannot_download">Can only download \"http\" or \"https\" URLs</string>
+  <string name="check_security_tip_privacy_policy">Privacy Policy</string>
+  <string name="check_security_tip_user_agreement">User Agreement</string>
   <string name="choosertitle_sharevia">Share via</string>
   <string name="clear_history">Clear history</string>
   <string name="clear_most_visited">Recent history</string>
@@ -402,8 +406,6 @@
   <string name="current_version_pc">Desktop</string>
   <string name="current_version_phone">Phone</string>
   <string name="custom_head_card_text">Always believe that something wonderful is about to happen</string>
-  <string name="custom_head_card_text_incognito">"You're incognito!
-Pages you view won't appear in history."</string>
   <string name="data_traffic_prompt_change">Using your mobile data connection to watch videos will increase your data usage. If you go over your plan’s data usage limit, your carrier could charge you additional fees.</string>
   <string name="data_traffic_prompt_message">Using your mobile data connection to browse videos will increase your data usage. If you go over your plan’s data usage limit, your carrier could charge you additional fees.</string>
   <string name="data_traffic_prompt_message_short">Using mobile data to stream video may cause you to go over your plans data usage limit.</string>
@@ -415,6 +417,7 @@ Pages you view won't appear in history."</string>
   <string name="date_time_picker_dialog_title">Set date and time</string>
   <string name="delete">Delete</string>
   <string name="delete_bookmark">Delete</string>
+  <string name="delete_bookmark_action_warning">Delete bookmarks?</string>
   <string name="delete_bookmark_group_warning">Delete \"%s\"? All bookmarks in this group will be deleted.</string>
   <string name="delete_bookmark_warning">Delete bookmark \"%s\"?</string>
   <string name="delete_download">Delete</string>
@@ -534,6 +537,7 @@ to view open tabs from other devices."</string>
   <string name="geolocation_settings_page_summary_allowed">This site can access your location</string>
   <string name="geolocation_settings_page_summary_not_allowed">"This site can't access your location"</string>
   <string name="geolocation_settings_page_title">Clear location access</string>
+  <string name="go_back_descirption">Go back</string>
   <string name="go_supermarket_button">Go</string>
   <string name="go_supermarket_title">More apps, faster speed, and less data usage in App Store</string>
   <string name="gold_medals">Gold medals</string>
@@ -551,7 +555,6 @@ to view open tabs from other devices."</string>
   <string name="homepage_search_hint">Search</string>
   <string name="homepage_top_card_menu">Top</string>
   <string name="ignore_add_pwa_dialog_today">"Don't show today"</string>
-  <string name="in_incognito">"You're incognito! Web pages you view in this tab won't appear in your browser history."</string>
   <string name="in_secureaccess">Browser switched to Safe mode</string>
   <string name="isReplacePage">File already exists, replace?</string>
   <string name="is_first_history_item">This is the first page in Browser history</string>
@@ -722,9 +725,14 @@ Leave this page?"</string>
   <string name="more_option">More options</string>
   <string name="nav_bottom_bar_back">Back</string>
   <string name="nav_bottom_bar_close_all">Close all</string>
+  <string name="nav_bottom_bar_close_description">Close</string>
   <string name="nav_bottom_bar_new_tab">New tab</string>
   <string name="nav_screen_container_tab_incognito">Incognito tab</string>
   <string name="nav_screen_container_tab_normal">Regular tab</string>
+  <string name="nav_screen_incognito_message">"Your browsing and search history won't be saved in Incognito mode.
+Remember that the files you download and the bookmarks you add will still be saved."</string>
+  <string name="nav_screen_incognito_time">After %s seconds will automatically create a new page</string>
+  <string name="nav_screen_incognito_title">Incognito mode</string>
   <string name="navigationbar_rightbutton_actiontext_cancle">Cancel</string>
   <string name="navigationbar_rightbutton_actiontext_go">Go</string>
   <string name="navigationbar_rightbutton_actiontext_search">Search</string>
@@ -996,19 +1004,26 @@ Leave this page?"</string>
   <string name="send_comment_title">Comment</string>
   <string name="senddesktop">Home screen</string>
   <string name="sendstartpage">Start page</string>
+  <string name="sequence_bookmark_description">Change the bookmark sequence</string>
   <string name="share_by_yidianzixun">【一点资讯】</string>
   <string name="share_image_text">Look what I shared! @MIUI</string>
   <string name="share_page_text">Look what I shared: %1$s @MIUI| %2$s</string>
-  <string name="show_check_security_url_check_tip_dialog_description">Browser needs to connect to the internet to work normally. To improve security and receive more relevant recommendations, allow Browser to get the URLs of the websites you visit and access your location info.</string>
-  <string name="show_check_security_url_check_tip_dialog_description_international">Browser needs to connect to the internet to work normally. To receive more relevant recommendations, allow Browser to get the URLs of the websites you visit and access your location info.</string>
-  <string name="show_security_tip_dialog_title">Terms of Service</string>
-  <string name="show_weather_location_getter_tip_dialog_description">Browser needs to connect to the internet to work normally. To improve security, receive more relevant recommendations and weather info, allow Browser to get the URLs of the websites you visit and access your location info.</string>
+  <string name="show_check_security_url_check_tip_dialog_description">"We will collect and use your personal data if you choose to use our services.
+Here's the data that we'll collect:
+1. Secure URLs: We'll collect the URLs of the websites you visit while using our services.
+2. Location data: We'll access your location info.
+That's how we use the data we collect:
+1. Security: We use your data when we protect your device from fraud and viruses,as well as for storage and backup reasons.
+2. Content: Your data helps us provide relevant localized news content.
+Browser needs to connect to the internet to work normally. You must agree to our %2$s and %1$s to be able to use Browser.​"</string>
+  <string name="show_security_tip_dialog_title">Privacy Policy</string>
   <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
   <string name="skip_button_label">Skip</string>
   <string name="skip_current_version">Skip this version</string>
   <string name="snapshot">Local</string>
   <string name="snapshot_failed">"Couldn't save page"</string>
   <string name="snapshot_successed">Open Bookmarks &amp; History -&gt; LOCAL to view page</string>
+  <string name="soft_toast_see_view">View</string>
   <string name="ssl_bad_clock_date_settings">Set date</string>
   <string name="ssl_bad_clock_warning" formatted="false">"A private connection to %s1 can't be established because your device's date and time (%s2) are incorrect."</string>
   <string name="ssl_certificate">Security certificate</string>
@@ -1038,14 +1053,14 @@ Leave this page?"</string>
   <string name="suggest_access_item_app_mark">APP</string>
   <string name="suggest_access_item_app_size">%.2fMB</string>
   <string name="suggest_access_item_app_update">Update: %s</string>
-  <string name="suggest_access_item_book_mark">BOOK</string>
-  <string name="suggest_access_item_mina_mark">DIRECT SERVICE</string>
+  <string name="suggest_access_item_book_mark">BOOKS</string>
+  <string name="suggest_access_item_mina_mark">INSTANT APPS</string>
   <string name="suggest_access_item_music_mark">MUSIC</string>
   <string name="suggest_access_item_singer_albums">%d albums</string>
   <string name="suggest_access_item_singer_pop">%d popular songs</string>
   <string name="suggest_access_item_site_mark">SITES</string>
-  <string name="suggest_access_item_video_mark">VIDEO</string>
-  <string name="suggest_access_item_website_mark">WEBSITE</string>
+  <string name="suggest_access_item_video_mark">VIDEOS</string>
+  <string name="suggest_access_item_yellow_mark">YELLOW PAGES</string>
   <string name="suggest_access_music">Mi Music</string>
   <string name="suggest_item_delete_text">Delete</string>
   <string name="suggest_open_app_failed">"Couldn't open this app"</string>
@@ -1070,6 +1085,8 @@ Leave this page?"</string>
   <string name="title_bar_loading">Loading…</string>
   <string name="too_many_windows_dialog_message">"Browser can't open a new tab until you close another tab"</string>
   <string name="too_many_windows_dialog_title">"Can't open more tabs"</string>
+  <string name="transfer_prompt_0">Play video</string>
+  <string name="transfer_restart">Restart</string>
   <string name="unSwitchText">NO</string>
   <string name="undo">Undo</string>
   <string name="unknown_title">Unknown</string>
@@ -1112,9 +1129,10 @@ Leave this page?"</string>
   <string name="video_activity_name">Favorites</string>
   <string name="video_buffering_percent">"Buffering "</string>
   <string name="video_buffering_percent_string">"Buffering "</string>
-  <string name="video_collect_cancel">Unfavorite</string>
+  <string name="video_collect_cancel">Remove from favorites</string>
   <string name="video_collect_success">Added to favorites</string>
-  <string name="video_download_complete">Download complete.</string>
+  <string name="video_doenload_complete">Downloaded video successfully</string>
+  <string name="video_download_complete">Downloaded successfully</string>
   <string name="video_download_empty">No videos</string>
   <string name="video_download_error">Error</string>
   <string name="video_download_error_http_gone">"Couldn't find file"</string>
@@ -1124,9 +1142,9 @@ Leave this page?"</string>
   <string name="video_download_finding_address">Getting download URL</string>
   <string name="video_download_pause">Paused</string>
   <string name="video_download_start">Downloading…</string>
-  <string name="video_download_success">Complete</string>
-  <string name="video_download_unknown_name">Unknown Name</string>
-  <string name="video_download_unknown_size">Size unknown</string>
+  <string name="video_download_success">Downloaded successfully</string>
+  <string name="video_download_unknown_name">Unknown name</string>
+  <string name="video_download_unknown_size">Unknown size</string>
   <string name="video_download_unsupport">Not supported</string>
   <string name="video_download_wait_for_wifi">Waiting for Wi-Fi</string>
   <string name="video_downloaded_group">Downloaded</string>
@@ -1150,6 +1168,7 @@ Leave this page?"</string>
   <string name="video_push_multi_message">%1$d updates available.</string>
   <string name="video_push_multi_title">Update available</string>
   <string name="video_push_single_message">Tap to update to %1$d.</string>
+  <string name="video_service_notification_title">Playing pop-up video</string>
   <string name="video_subtitle_last_message1">Less than 1 minute remaining</string>
   <string name="video_subtitle_prefix1">Watched</string>
   <string name="video_subtitle_prefix2">"Watched "</string>
