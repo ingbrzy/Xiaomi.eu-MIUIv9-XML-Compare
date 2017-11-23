@@ -762,6 +762,10 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="close_gesture">Close using gesture</string>
   <string name="close_miui_optimization_title">Turn off MIUI optimization</string>
   <string name="close_miui_optimization_warning_message">Your device will reboot to apply this change. Note: turning this feature off will bring major changes to layouts and other elements of the UI.</string>
+  <string name="cloud_backup_section_title">Mi Cloud backup</string>
+  <string name="cloud_backup_settings_section_title">Backup settings</string>
+  <string name="cloud_restore_section_summary">Restore apps, Home screen layout, and system settings</string>
+  <string name="cloud_restore_section_title">Restore from Mi Cloud</string>
   <string name="cmcc_hardware_version">Hardware version</string>
   <string name="color_black">Black</string>
   <string name="color_blue">Blue</string>
@@ -1188,19 +1192,6 @@ This setting affects all users on this phone."</string>
   <string name="downloading_description">Downloading…</string>
   <string name="doze_summary">Wake screen when device picked up or notifications arrive</string>
   <string name="doze_title">Ambient display</string>
-  <string name="drive_mode">Car mode</string>
-  <string name="drive_mode_auto_reply">Quick response</string>
-  <string name="drive_mode_auto_sms_reply_content">"Driving now... I'll call you later"</string>
-  <string name="drive_mode_auto_sms_reply_content_title">Quick response</string>
-  <string name="drive_mode_calling_auto_sms_reply">Reply to calls</string>
-  <string name="drive_mode_invert_stop_report">Turn phone over to silence</string>
-  <string name="drive_mode_only_contact_reply">Only reply to Contacts</string>
-  <string name="drive_mode_phone_report">Incoming call info</string>
-  <string name="drive_mode_settings">Car mode settings</string>
-  <string name="drive_mode_sms_auto_sms_reply">Reply to SMS</string>
-  <string name="drive_mode_sms_report">Messages</string>
-  <string name="drive_mode_title">Car mode</string>
-  <string name="drive_mode_voice_report">Text-to-speech output</string>
   <string name="dtmf_tone_enable_title">Dial pad touch tones</string>
   <string name="edge_mode_back">Go back</string>
   <string name="edge_mode_back_summary">Double tap the edge of your phone to go back</string>
@@ -1225,7 +1216,6 @@ This setting affects all users on this phone."</string>
   <string name="enable_adb_summary_charging">Device is in Charging mode, USB debugging is disabled</string>
   <string name="enable_compatibility">Scale app</string>
   <string name="enable_data_string">Enable data connection</string>
-  <string name="enable_drive_mode">Car mode</string>
   <string name="enable_mobile_data_when_opening_hotspot">Turn on mobile data connection too?</string>
   <string name="enable_opengl_traces_title">Enable OpenGL traces</string>
   <string name="enable_quick_setting">Show in Quick Settings</string>
@@ -1347,6 +1337,7 @@ Some apps may not work until updated by their developers."</string>
   <string name="fingerprint_manage">Manage fingerprints</string>
   <string name="fingerprint_manage_tittle">Fingerprint</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
+  <string name="fingerprint_payment">Fingerprint payments</string>
   <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
   <string name="finish_application">Force stop</string>
   <string name="finish_button_label">Finish</string>
@@ -3411,7 +3402,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="tether_and_hotspot_title">Tethering and hotspot</string>
   <string name="tether_devices_management_title">Manage devices</string>
   <string name="tether_devices_max_number">Limit of connected devices</string>
-  <string name="tether_settings_disabled">Personal hotspot is off</string>
+  <string name="tether_settings_disabled">Portable hotspot is off</string>
   <string name="tether_settings_title_all">Tethering &amp; portable hotspot</string>
   <string name="tether_settings_title_bluetooth">Bluetooth tethering</string>
   <string name="tether_settings_title_usb">USB tethering</string>
@@ -4230,7 +4221,7 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_tether_enabled_subtext">Portable hotspot %1$s active</string>
   <string name="wifi_tether_failed_subtext">Portable hotspot error</string>
   <string name="wifi_tether_setting_title">Settings</string>
-  <string name="wifi_tether_settings_title">Personal hotspot</string>
+  <string name="wifi_tether_settings_title">Portable hotspot</string>
   <string name="wifi_tether_starting">Turning hotspot on…</string>
   <string name="wifi_tether_stopping">Turning off hotspot…</string>
   <string name="wifi_type_approval"/>
