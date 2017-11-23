@@ -94,10 +94,10 @@
   <string name="keyguard_charging_info_tip_text4">"Don't use your device actively while it's charging to avoid overheating."</string>
   <string name="keyguard_charging_info_tip_text5">Batteries charge longer when they get hotter than usual.</string>
   <string name="keyguard_charging_info_tip_text6">Turn the screen off and put your device away to cool it off.</string>
-  <string name="keyguard_left_bankcard">Mi Pay</string>
-  <string name="keyguard_left_buscard">Transport card</string>
-  <string name="keyguard_left_remotecentral">Mi Remote</string>
-  <string name="keyguard_left_smarthome">Mi Home</string>
+  <string name="keyguard_left_bankcard">Calculator</string>
+  <string name="keyguard_left_buscard">Notes</string>
+  <string name="keyguard_left_remotecentral">Calendar</string>
+  <string name="keyguard_left_smarthome">Contacts</string>
   <string name="keyguard_quick_charging_info_click_to_detail">Quick charging. Tap to view details.</string>
   <string name="keyguard_quickly_charging_info_charging_text">Quick charging…</string>
   <string name="keyguard_torch_cover_text">To keep torch on, hold the Power button</string>
