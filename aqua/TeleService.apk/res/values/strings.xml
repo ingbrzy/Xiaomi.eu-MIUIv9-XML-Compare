@@ -1520,7 +1520,7 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="tty_mode_not_allowed_video_call">TTY Mode change is not allowed during a video call</string>
   <string name="tty_mode_option_summary">Set TTY mode</string>
   <string name="tty_mode_option_title">TTY mode</string>
-  <string name="turnover_mute_summary">When phone is rotated horizontally, flip it over to silence ringer.</string>
+  <string name="turnover_mute_summary">When phone is on a horizontal surface with screen facing up, flip it over to silence ringer.</string>
   <string name="turnover_mute_title">Flip to silence ringer</string>
   <string name="ui_default_package">com.android.dialer</string>
   <string name="undefined">None</string>
