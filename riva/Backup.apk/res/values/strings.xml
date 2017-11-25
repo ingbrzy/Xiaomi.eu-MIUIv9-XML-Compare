@@ -124,6 +124,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="err_unknown">Unknown error</string>
   <string name="err_version_too_old">Backup file is too old.</string>
   <string name="err_version_unsupported">"Backup version isn't supported."</string>
+  <string name="error_permissions">"This app doesn't have the permissions required for it to access Calendar. Go to Settings and check permissions to continue."</string>
   <string name="every_day">Every day</string>
   <string name="exchange_account">Switch accounts</string>
   <string name="fail">Failed</string>
@@ -158,8 +159,8 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="hsa_verify_shutdown">Turn off</string>
   <string name="icloud_backup_tip">Sign in to the iCloud account of your old iOS device</string>
   <string name="icloud_how_to_backup_tip_steps">"1. Open Settings on your iOS device, and select iCloud.
-2. Toggle the switch for Contacts.
-3.Select Photos and toggle the switch for iCloud Photo Library."</string>
+2. Toggle the switches for contacts and other items.
+3. Select Photos and toggle the switch for iCloud Photo Library."</string>
   <string name="icloud_how_to_backup_tip_summary">To import data from iOS, you must create an iCloud backup.</string>
   <string name="icloud_how_to_backup_tip_title">Tips:</string>
   <string name="icloud_login_title">Sign in to iCloud</string>
@@ -176,7 +177,7 @@ you should create an iCloud backup first."</string>
   <string name="import_from_xiaomi_account_hint2">If you already have a backup, touch Next.</string>
   <string name="import_from_xiaomi_account_hint_title">Use Mi Talk to back up your contacts across devices.</string>
   <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
-  <string name="import_tip_summary">Due to compatibility issues, you can only transfer contacts and photos from iOS devices. Make sure you create an iCloud backup before starting the transfer.</string>
+  <string name="import_tip_summary">Due to compatibility issues, you can only transfer partial data from iOS devices. Make sure you create an iCloud backup before starting the transfer.</string>
   <string name="import_tip_title">Tips:</string>
   <string name="loading_data">Loading data</string>
   <string name="local_app_name">Backup</string>
@@ -288,8 +289,10 @@ Free up at least %s."</string>
   <string name="select_all">Select all</string>
   <string name="select_backup_item">Choose items</string>
   <string name="select_empty">Select items to import</string>
+  <string name="select_item_calendar">Calendar</string>
   <string name="select_item_contacts">Contacts</string>
-  <string name="select_item_empty_summary">No items</string>
+  <string name="select_item_empty_summary">No contents</string>
+  <string name="select_item_notes">Notes</string>
   <string name="select_item_photos">Photos</string>
   <string name="select_item_summary_loading">Loading data…</string>
   <string name="select_item_summary_wait">Waiting…</string>

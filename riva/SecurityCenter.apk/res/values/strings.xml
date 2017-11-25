@@ -357,6 +357,7 @@
   <string name="auto_task_operation_vibration">Vibration</string>
   <string name="auto_task_operation_wifi">WLAN</string>
   <string name="back_app_name">Go back to App lock</string>
+  <string name="back_description_securitycenter">Back</string>
   <string name="back_modifypassword">Go back to changing password</string>
   <string name="background_restrict_app_dialog_message">Restricting background network access for this app might make it impossible for the app to work normally, receive messages, download content, etc. Restrict anyway?</string>
   <string name="background_traffic">Background %s</string>
@@ -909,7 +910,7 @@
   <string name="last_check_canceled">Previous scan was canceled</string>
   <string name="later">稍后处理</string>
   <string name="left_precent">60%</string>
-  <string name="legal_workday">Holiday</string>
+  <string name="legal_workday">Legal workdays</string>
   <string name="legal_workday_invalidate">Mon-Fri (holiday info expired)</string>
   <string name="legal_workday_invalidate_message">Tap to update public holiday info.</string>
   <string name="legal_workday_message">(Skip holidays)</string>
