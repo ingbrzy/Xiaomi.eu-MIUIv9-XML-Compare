@@ -16,7 +16,7 @@
   <string name="alter_message_switch_mode_message">When you switch modes, your previous settings will no longer apply to this app.</string>
   <string name="app_invisible_title">Invisible apps</string>
   <string name="app_list_title">Choose apps</string>
-  <string name="app_name">Battery saver</string>
+  <string name="app_name">Battery and Performance</string>
   <string name="background">App is running in background</string>
   <string name="base_info">Base info</string>
   <string name="cloud_addr_info">Cloud info</string>
@@ -88,6 +88,8 @@ Battery saver will treat important apps selectively."</string>
   <string name="normal">Default mode</string>
   <string name="operation_create_group">Name</string>
   <string name="operation_create_group_message">Enter new group name</string>
+  <string name="performance_category">Performance</string>
+  <string name="power_center">Power</string>
   <string name="power_checker_background_cpu_multi_apps_title">%1$s runs abnormally</string>
   <string name="power_checker_background_cpu_title">%1$s runs abnormally</string>
   <string name="power_checker_background_gps_multi_apps_title">%1$s gets location info frequently</string>
@@ -164,8 +166,9 @@ Battery saver will treat important apps selectively."</string>
   <string name="power_event_view_event_title">Triggers</string>
   <string name="power_hide_mode_app_list_summary">Saving power in the background</string>
   <string name="power_hide_mode_summary">"Save battery by restricting individual apps' background processes, WLAN and mobile data connections, and GPS"</string>
-  <string name="power_hide_mode_title">"Manage apps' battery usage"</string>
+  <string name="power_hide_mode_title">Battery &amp; performance</string>
   <string name="power_keeper">Battery saver</string>
+  <string name="power_mode">Power settings</string>
   <string name="power_mode_cpu_state_high">Performance</string>
   <string name="power_mode_cpu_state_high_desc">Prioritize performance over battery life</string>
   <string name="power_mode_cpu_state_low">Battery saving</string>
@@ -176,6 +179,7 @@ Battery saver will treat important apps selectively."</string>
   <string name="power_mode_view_event_title">Events</string>
   <string name="power_mode_view_user_define_title">New event</string>
   <string name="power_optimize_activity_profile_file_error">Battery saver error</string>
+  <string name="power_usage">Power usage</string>
   <string name="ragment_sys_listempty">No system apps</string>
   <string name="reading">Reading mode</string>
   <string name="scenario_policies_summary">Apply different power saving strategies for different scenes.</string>
