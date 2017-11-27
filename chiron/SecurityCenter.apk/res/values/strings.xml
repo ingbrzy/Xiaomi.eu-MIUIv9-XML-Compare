@@ -473,6 +473,7 @@
   <string name="call_contact_block">Block calls from contacts</string>
   <string name="call_delete_hint">Delete all blocked calls from this number?</string>
   <string name="call_delete_title">Delete call history</string>
+  <string name="call_oversea_block">Block calls from abroad</string>
   <string name="call_prefix">Prefix blocklist</string>
   <string name="call_private">Block calls from hidden numbers</string>
   <string name="call_stranger_block">Block calls from strangers</string>
@@ -768,6 +769,8 @@
   <string name="fw_blocked">Blocklist</string>
   <string name="fw_blocked_count">"Blocked "</string>
   <string name="fw_blocked_join">" and "</string>
+  <string name="fw_oversea">Block calls from abroad</string>
+  <string name="fw_oversea_content">Block incoming calls from foreign phone numbers</string>
   <string name="game_ad_recommendation">Everybody is playing</string>
   <string name="game_anti_disturb_msg">Game DND</string>
   <string name="game_booster">Game speed booster</string>
@@ -1170,20 +1173,20 @@ to respond"</string>
   <string name="network_roaming_exception_tips">"Can't use mobile data while roaming to connect to the network."</string>
   <string name="network_route_exception_detail">"There may be a problem with the router you're connected to:
 
- "&lt;b&gt;1. Public WLAN network issues&lt;/b&gt;"
-If you're connected to a public WLAN network, the number of users connected to that network may be slowing it down or creating connectivity problems. Switch to another network and try again.
+ "&lt;b&gt;"1. Public WLAN network issues
+"&lt;/b&gt;"If you're connected to a public WLAN network, the number of users connected to that network may be slowing it down or creating connectivity problems. Switch to another network and try again.
 
- "&lt;b&gt;2. Internet service provider issues&lt;/b&gt;"
-Make sure that your account is in good standing with your Internet service provider.
+ 2."&lt;b&gt;" Internet service provider issues
+M"&lt;/b&gt;"ake sure that your account is in good standing with your Internet service provider.
 
- "&lt;b&gt;3. Router hardware issues&lt;/b&gt;"
-Try rebooting your router or checking the admin settings for your router.
+ 3."&lt;b&gt;" Router hardware issues
+T"&lt;/b&gt;"ry rebooting your router or checking the admin settings for your router.
 
- "&lt;b&gt;4. Other router issues&lt;/b&gt;"
-Read the instructions that came with your router and restore your router to its factory settings.
+ 4."&lt;b&gt;" Other router issues
+R"&lt;/b&gt;"ead the instructions that came with your router and restore your router to its factory settings.
 
- "&lt;b&gt;5. Make sure your router is connected properly&lt;/b&gt;"
-Try using another Ethernet cable to connect your router. If you suspect there's an issue with the connection in your home, contact your Internet service provider."</string>
+ 5."&lt;b&gt;" Make sure your router is connected properly
+T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you suspect there's an issue with the connection in your home, contact your Internet service provider."</string>
   <string name="network_sim_exception_detail">"There may be a problem with your SIM card:
 
 1. Make sure your account is in good standing with your carrier. Try using a friend's SIM card and see if you're able to connect normally.
@@ -1832,6 +1835,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_call_backsound_group">Blocklist sound</string>
   <string name="st_call_intercept_contacts">Block calls from contacts</string>
   <string name="st_call_intercept_forwarding">Block forwarded calls</string>
+  <string name="st_call_intercept_oversea">Block calls from abroad</string>
   <string name="st_call_intercept_reported">Block calls from reported numbers</string>
   <string name="st_call_intercept_stranger">Block calls from strangers</string>
   <string name="st_call_intercept_unknown">Block calls from hidden numbers</string>
@@ -1840,6 +1844,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_call_stranger_group">Block calls from strangers</string>
   <string name="st_confirm_dialog_btn_open">Open</string>
   <string name="st_confirm_dialog_summary_contact_call">All calls from contacts will be blocked.</string>
+  <string name="st_confirm_dialog_summary_oversea_call">Turn on to block all incoming calls from foreign phone numbers.</string>
   <string name="st_confirm_dialog_summary_stranger_call">All calls from strangers will be blocked.</string>
   <string name="st_filter_keywords_setting_summary1">Messages from unknown numbers that contain the words in this list will be blocked.</string>
   <string name="st_filter_keywords_setting_summary2">"

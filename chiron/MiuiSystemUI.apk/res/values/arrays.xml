@@ -43,19 +43,131 @@
         <item>Use HDCP checking for DRM content only</item>
         <item>Always use HDCP checking</item>
     </string-array>
+    <string-array name="bluetooth_avrcp_versions">
+        <item>AVRCP 1.4 (Default)</item>
+        <item>AVRCP 1.5</item>
+        <item>AVRCP 1.6</item>
+    </string-array>
+    <string-array name="bluetooth_avrcp_version_values">
+        <item>avrcp14</item>
+        <item>avrcp15</item>
+        <item>avrcp16</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_titles">
+        <item>Use System Selection (Default)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>aptX</item>
+        <item>aptX HD</item>
+        <item>LDAC</item>
+        <item>Enable Optional Codecs</item>
+        <item>Disable Optional Codecs</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_values">
+        <item>1000000</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>SBC</item>
+        <item>AAC</item>
+        <item>aptX</item>
+        <item>aptX HD</item>
+        <item>LDAC</item>
+        <item>Enable Optional Codecs</item>
+        <item>Disable Optional Codecs</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
+        <item>Use System Selection (Default)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>44.1 kHz</item>
+        <item>48.0 kHz</item>
+        <item>88.2 kHz</item>
+        <item>96.0 kHz</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
+        <item>Use System Selection (Default)</item>
+        <item>16 bits/sample</item>
+        <item>24 bits/sample</item>
+        <item>32 bits/sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>16 bits/sample</item>
+        <item>24 bits/sample</item>
+        <item>32 bits/sample</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
+        <item>Use System Selection (Default)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
+        <item>Use System Selection (Default)</item>
+        <item>Mono</item>
+        <item>Stereo</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
+        <item>Optimized for Audio Quality (990kbps/909kbps)</item>
+        <item>Balanced Audio And Connection Quality (660kbps/606kbps)</item>
+        <item>Optimized for Connection Quality (330kbps/303kbps)</item>
+        <item>Best Effort (Adaptive Bit Rate)</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_values">
+        <item>1000</item>
+        <item>1001</item>
+        <item>1002</item>
+        <item>1003</item>
+    </string-array>
+    <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
+        <item>Optimized for Audio Quality</item>
+        <item>Balanced Audio And Connection Quality</item>
+        <item>Optimized for Connection Quality</item>
+        <item>Best Effort (Adaptive Bit Rate)</item>
+    </string-array>
     <string-array name="select_logd_size_titles">
         <item>Off</item>
-        <item>64KB</item>
-        <item>256KB</item>
-        <item>1MB</item>
-        <item>4MB</item>
-        <item>16MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
+        <item>4M</item>
+        <item>16M</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Off</item>
-        <item>64KB</item>
-        <item>256KB</item>
-        <item>1MB</item>
+        <item>64K</item>
+        <item>256K</item>
+        <item>1M</item>
     </string-array>
     <string-array name="select_logd_size_values">
         <item>32768</item>
@@ -67,15 +179,33 @@
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Off</item>
-        <item>64KB per log buffer</item>
-        <item>256KB per log buffer</item>
-        <item>1MB per log buffer</item>
-        <item>4MB per log buffer</item>
-        <item>16MB per log buffer</item>
+        <item>64K per log buffer</item>
+        <item>256K per log buffer</item>
+        <item>1M per log buffer</item>
+        <item>4M per log buffer</item>
+        <item>16M per log buffer</item>
+    </string-array>
+    <string-array name="select_logpersist_values">
+        <item></item>
+        <item>all</item>
+        <item>default,security,kernel</item>
+        <item>kernel</item>
+    </string-array>
+    <string-array name="select_logpersist_titles">
+        <item>Off</item>
+        <item>All</item>
+        <item>All but radio</item>
+        <item>kernel only</item>
+    </string-array>
+    <string-array name="select_logpersist_summaries">
+        <item>Off</item>
+        <item>All log buffers</item>
+        <item>All but radio log buffers</item>
+        <item>kernel log buffer only</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animation off</item>
-        <item>Animation scale 0.5x</item>
+        <item>Animation scale .5x</item>
         <item>Animation scale 1x</item>
         <item>Animation scale 1.5x</item>
         <item>Animation scale 2x</item>
@@ -93,7 +223,7 @@
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animation off</item>
-        <item>Animation scale 0.5x</item>
+        <item>Animation scale .5x</item>
         <item>Animation scale 1x</item>
         <item>Animation scale 1.5x</item>
         <item>Animation scale 2x</item>
@@ -111,7 +241,7 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Animation off</item>
-        <item>Animation scale 0.5x</item>
+        <item>Animation scale .5x</item>
         <item>Animation scale 1x</item>
         <item>Animation scale 1.5x</item>
         <item>Animation scale 2x</item>
@@ -190,12 +320,20 @@
     <string-array name="debug_hw_overdraw_entries">
         <item>Off</item>
         <item>Show overdraw areas</item>
-        <item>Show areas for deuteranomaly</item>
+        <item>Show areas for Deuteranomaly</item>
     </string-array>
     <string-array name="debug_hw_overdraw_values">
         <item>false</item>
         <item>show</item>
         <item>show_deuteranomaly</item>
+    </string-array>
+    <string-array name="debug_hw_renderer_entries">
+        <item>OpenGL (Default)</item>
+        <item>OpenGL (Skia)</item>
+    </string-array>
+    <string-array name="debug_hw_renderer_values">
+        <item>opengl</item>
+        <item>skiagl</item>
     </string-array>
     <string-array name="app_process_limit_entries">
         <item>Standard limit</item>
@@ -218,7 +356,7 @@
         <item>MTP (Media Transfer Protocol)</item>
         <item>PTP (Picture Transfer Protocol)</item>
         <item>RNDIS (USB Ethernet)</item>
-        <item>Audio source</item>
+        <item>Audio Source</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_configuration_values">
@@ -247,6 +385,56 @@
         <item>0</item>
         <item>-1</item>
         <item>7</item>
+    </integer-array>
+    <integer-array name="batterymeter_color_levels">
+        <item>15</item>
+        <item>100</item>
+    </integer-array>
+    <array name="batterymeter_color_values">
+        <item>?android:colorError</item>
+        <item>@android:color/white</item>
+    </array>
+    <integer-array name="batterymeter_bolt_points">
+        <item>73</item>
+        <item>0</item>
+        <item>392</item>
+        <item>0</item>
+        <item>201</item>
+        <item>259</item>
+        <item>442</item>
+        <item>259</item>
+        <item>4</item>
+        <item>703</item>
+        <item>157</item>
+        <item>334</item>
+        <item>0</item>
+        <item>334</item>
+    </integer-array>
+    <integer-array name="batterymeter_plus_points">
+        <item>3</item>
+        <item>0</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>3</item>
+        <item>8</item>
+        <item>3</item>
+        <item>8</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>5</item>
+        <item>8</item>
+        <item>3</item>
+        <item>8</item>
+        <item>3</item>
+        <item>5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>0</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
     </integer-array>
     <string-array name="tts_rate_entries">
         <item>Very slow</item>
@@ -382,7 +570,6 @@
         <item>com.miui.gallery</item>
         <item>com.miui.player</item>
         <item>com.android.fileexplorer</item>
-        <item>com.mi.android.globalFileexplorer</item>
         <item>com.miui.securitycenter</item>
         <item>com.miui.cloudappbackup</item>
         <item>com.miui.fmradio</item>
@@ -436,7 +623,6 @@
         <item>com.xiaomi.mimobile.noti</item>
         <item>com.miui.cleanmaster</item>
         <item>com.xiaomi.midrop</item>
-        <item>com.android.cellbroadcastreceiver</item>
     </string-array>
     <string-array name="carrier_name">
         <item>SmarToneVodafone</item>
