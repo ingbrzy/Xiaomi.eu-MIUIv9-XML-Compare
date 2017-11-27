@@ -399,16 +399,16 @@
   <string name="contextmenu_webpage_capture">Screenshot</string>
   <string name="contextmenu_webpage_html">Save as HTML file</string>
   <string name="contextmenu_webpage_snapshot">Save page</string>
-  <string name="copy_to_clipboard_failure_message">Failed to copy to the clipboard</string>
+  <string name="copy_to_clipboard_failure_message">"Couldn't copy to clipboard."</string>
   <string name="copy_url">Copy URL</string>
   <string name="create_qr_code">QR code</string>
   <string name="current_version_pad">Pad</string>
   <string name="current_version_pc">Desktop</string>
   <string name="current_version_phone">Phone</string>
   <string name="custom_head_card_text">Always believe that something wonderful is about to happen</string>
-  <string name="data_traffic_prompt_change">Using your mobile data connection to watch videos will increase your data usage. If you go over your plan’s data usage limit, your carrier could charge you additional fees.</string>
-  <string name="data_traffic_prompt_message">Using your mobile data connection to browse videos will increase your data usage. If you go over your plan’s data usage limit, your carrier could charge you additional fees.</string>
-  <string name="data_traffic_prompt_message_short">Using mobile data to stream video may cause you to go over your plans data usage limit.</string>
+  <string name="data_traffic_prompt_change">"Using your mobile data connection to watch videos will increase your data usage. If you go over your plan's data usage limit, your carrier could charge you additional fees."</string>
+  <string name="data_traffic_prompt_message">"Using your mobile data connection to browse videos will increase your data usage. If you go over your plan's data usage limit, your carrier could charge you additional fees."</string>
+  <string name="data_traffic_prompt_message_short">"Using mobile data to stream video may cause you to go over your plan's data usage limit."</string>
   <string name="data_traffic_prompt_title">Data usage warning</string>
   <string name="date_picker_dialog_clear">Clear</string>
   <string name="date_picker_dialog_other_button_label">Other</string>
@@ -453,7 +453,7 @@
   <string name="download_default_path_txt">Remember this choice</string>
   <string name="download_dialog_default_path_invalid">"The download location you've selected is invalid. Saving to default location…"</string>
   <string name="download_dialog_file_length_hint_txt">"File size: "</string>
-  <string name="download_dialog_file_length_lessthan1kb">less than 1K</string>
+  <string name="download_dialog_file_length_lessthan1kb">Less than 1KB</string>
   <string name="download_dialog_file_length_nolength_error_txt">"Couldn't download"</string>
   <string name="download_dialog_file_length_nolength_txt">Just a sec…</string>
   <string name="download_failed">"Couldn't complete download"</string>
@@ -486,7 +486,7 @@
   <string name="edit">Edit</string>
   <string name="edit_bookmark">Edit bookmark</string>
   <string name="edit_quicklink">Edit</string>
-  <string name="empty_app_name">other app</string>
+  <string name="empty_app_name">Another app</string>
   <string name="empty_bookmark">Empty</string>
   <string name="empty_cloud_tab_login_hint">No cloud tabs</string>
   <string name="empty_cloud_tab_logout_hint">"Sign in to your Mi Account
@@ -579,7 +579,7 @@ Leave this page?"</string>
   <string name="loading_tips">Pull down to refresh</string>
   <string name="local_bookmarks">Mi</string>
   <string name="login_failed_toast">"Couldn't sign in, refresh and try again"</string>
-  <string name="low_memory_error">Unable to complete previous operation due to low memory</string>
+  <string name="low_memory_error">"Couldn't complete previous operation due to low memory."</string>
   <string name="low_memory_toast">"Can't use Browser due to low memory"</string>
   <string name="max_tabs_warning">"Can't open more tabs"</string>
   <string name="maximum_input_alert">"Can't enter more than 2048 characters"</string>
@@ -593,9 +593,9 @@ Leave this page?"</string>
   <string name="media_error_timeout">Network connection timed out</string>
   <string name="media_error_video_not_exist">"Video doesn't exist"</string>
   <string name="media_player_error_button">OK</string>
-  <string name="media_player_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to this device.</string>
-  <string name="media_player_error_text_unknown">Sorry, this video cannot be played.</string>
-  <string name="media_player_error_title">Cannot play video</string>
+  <string name="media_player_error_text_invalid_progressive_playback">"This video isn't valid for streaming to this device."</string>
+  <string name="media_player_error_text_unknown">"Can't play this video."</string>
+  <string name="media_player_error_title">"Can't play video"</string>
   <string name="media_player_loading_video">Loading video</string>
   <string name="menu_addtodesk">Add to Home screen</string>
   <string name="menu_exit_nightmode">Exit</string>
@@ -754,7 +754,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="open_app_confirm_message">Allow this page to open %s?</string>
   <string name="open_file_explorer_failed">"Can't open File Explorer"</string>
   <string name="open_voice_permission">Allow the mic to connect to the internet</string>
-  <string name="opening_file_error">Failed to open selected file</string>
+  <string name="opening_file_error">"Couldn't open selected file"</string>
   <string name="page_info">Page info</string>
   <string name="page_info_address">Address:</string>
   <string name="page_info_view">View page info</string>
@@ -892,9 +892,9 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="pref_video_preload_value_never">NEVER</string>
   <string name="pref_video_preload_value_wifi_only">WIFI_ONLY</string>
   <string name="pref_volume_key_action">Scroll using volume buttons</string>
-  <string name="private_browsing_warning">This functionality is not supported in this version of Android.</string>
-  <string name="profiler_error_toast">Failed to start profiler</string>
-  <string name="profiler_no_storage_toast">"Can't start profiler because external storage is not ready"</string>
+  <string name="private_browsing_warning">"This functionality isn't supported in this version of Android."</string>
+  <string name="profiler_error_toast">"Couldn't start profiler."</string>
+  <string name="profiler_no_storage_toast">"Can't start profiler because external storage isn't ready."</string>
   <string name="profiler_started_toast">Profiler started</string>
   <string name="profiler_stopped_toast">Profiler finished. Results are in %1$s.</string>
   <string name="progress_dialog_setting_wallpaper">Setting wallpaper…</string>
@@ -1194,6 +1194,6 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="weather_location_confirm_message">Turning this feature off may affect usage.</string>
   <string name="webpage_title">Bookmarks &amp; History</string>
   <string name="webview_find_on_page">Find on page</string>
-  <string name="webviewchromium_private_browsing_warning">This functionality is not supported in this version of Android.</string>
+  <string name="webviewchromium_private_browsing_warning">"This functionality isn't supported in this version of Android."</string>
   <string name="week_picker_dialog_title">Set week</string>
 </resources>
