@@ -1874,6 +1874,9 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="incoming_call_breathing_light_color_title">Calls light color</string>
   <string name="incoming_call_breathing_light_freq_title">Calls pulse frequency</string>
   <string name="incoming_call_volume_title">Ringtone</string>
+  <string name="infinity_display_settings">Full screen display</string>
+  <string name="infinity_display_slogan">Continued growth in unexplored technology</string>
+  <string name="infinity_display_title">Full screen display</string>
   <string name="information_dialog_button_text">Got it</string>
   <string name="input_method">Keyboard</string>
   <string name="input_method_selector">Input method selector</string>
@@ -2484,6 +2487,7 @@ There are other users present on this device.
   <string name="mock_location_app_set">Mock location app: %1$s</string>
   <string name="mode_disable">Off</string>
   <string name="mode_enable">On</string>
+  <string name="model_name">Model name</string>
   <string name="model_number">Model number</string>
   <string name="modify_instruction_password_settings">Set password</string>
   <string name="modify_privacy_password">Change password</string>
@@ -2547,6 +2551,7 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_piston_color">Color Edition</string>
   <string name="music_dirac_mode_piston_standard">Standard Edition</string>
   <string name="music_dirac_mode_piston_youth">Youth Edition</string>
+  <string name="music_dirac_mode_reduction_noise">Reduce Noise TypeC</string>
   <string name="music_dolby_mode_movie">Video</string>
   <string name="music_dolby_mode_music">Music</string>
   <string name="music_dolby_mode_off">Off</string>
@@ -3970,7 +3975,6 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_key_position_custom">Change button positions</string>
   <string name="status_bar_notification_info_overflow">999+</string>
   <string name="status_bar_screen_button_force_immersive_desc">Swipe up from the bottom of the screen to show soft buttons</string>
-  <string name="status_bar_screen_button_key">Screen buttons</string>
   <string name="status_bar_screen_button_key_force_immersive">Hide soft buttons</string>
   <string name="status_bar_screen_key_back">Back button</string>
   <string name="status_bar_screen_key_home">Home button</string>

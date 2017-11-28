@@ -7,7 +7,7 @@
     <dimen name="notification_content_picture_margin">56.0dip</dimen>
     <dimen name="notification_content_plus_picture_margin_end">72.0dip</dimen>
     <dimen name="notification_action_list_height">50.0dip</dimen>
-    <dimen name="notification_content_margin_top">39.0dip</dimen>
+    <dimen name="notification_content_margin_top">34.0dip</dimen>
     <dimen name="notification_content_margin_bottom">14.0dip</dimen>
     <dimen name="notification_header_background_height">27.0dip</dimen>
     <dimen name="media_notification_expanded_image_max_size">86.0dip</dimen>

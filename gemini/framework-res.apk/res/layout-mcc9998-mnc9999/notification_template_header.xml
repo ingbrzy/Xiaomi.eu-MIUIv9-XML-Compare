@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NotificationHeaderView android:orientation="horizontal" android:id="@id/notification_header" android:background="@drawable/notification_bg_round" android:paddingTop="6.299988dip" android:paddingBottom="7.299988dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="27.0dip" android:paddingStart="9.0dip" android:paddingEnd="16.0dip"
+<NotificationHeaderView android:orientation="horizontal" android:id="@id/notification_header" android:background="@drawable/notification_bg_round" android:paddingTop="5.299988dip" android:paddingBottom="5.299988dip" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="27.0dip" android:paddingStart="9.0dip" android:paddingEnd="16.0dip"
   xmlns:android="http://schemas.android.com/apk/res/android">
     <com.android.internal.widget.CachingIconView android:id="@id/icon" android:layout_width="16.299988dip" android:layout_height="16.299988dip" android:layout_marginEnd="6.299988dip" />
     <TextView android:textAppearance="@style/TextAppearance.Material.Notification.Info" android:textSize="12.0dip" android:id="@id/app_name_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_marginEnd="2.0dip" />
