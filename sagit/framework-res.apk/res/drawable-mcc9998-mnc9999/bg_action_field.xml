@@ -5,12 +5,12 @@
         <shape android:shape="rectangle">
             <solid android:color="#fffdfdfd" />
             <size android:height="@dimen/notification_action_list_height" />
-            <corners android:bottomLeftRadius="5.0dip" android:bottomRightRadius="5.0dip" />
+            <corners android:bottomLeftRadius="@dimen/notification_radius" android:bottomRightRadius="@dimen/notification_radius" />
         </shape>
     </item>
     <item android:gravity="center|top" android:start="18.0dip" android:end="18.0dip">
         <shape android:shape="rectangle">
-            <size android:height="0.5dip" />
+            <size android:height="0.30000007dip" />
             <solid android:color="#ffe4e4e4" />
         </shape>
     </item>

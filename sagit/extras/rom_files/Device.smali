@@ -1440,6 +1440,41 @@
     return v0
 .end method
 
+.method public static isSupportFrontFlash()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_front_flash"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static isSupportFrontHhtEnhance()Z
+    .locals 2
+
+    const/4 v0, 0x0
+
+    invoke-static {}, Lcom/android/camera/Device;->isSupportFrontFlash()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    const-string/jumbo v1, "support_front_hht_enhance"
+
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :cond_0
+    return v0
+.end method
+
 .method public static isSupportFullSizeEffect()Z
     .locals 2
 
@@ -1497,24 +1532,49 @@
 .end method
 
 .method public static isSupportedASD()Z
-    .locals 3
+    .locals 1
 
-    const/4 v1, 0x0
+    const/4 v0, 0x0
 
-    const-string/jumbo v2, "camera_supported_asd"
-
-    invoke-static {v2, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+    invoke-static {v0}, Lcom/android/camera/Device;->isSupportedASD(Z)Z
 
     move-result v0
 
-    and-int/lit8 v2, v0, 0xf
+    return v0
+.end method
 
-    if-eqz v2, :cond_0
+.method public static isSupportedASD(Z)Z
+    .locals 3
+
+    const/4 v2, 0x0
+
+    if-eqz p0, :cond_0
+
+    const-string/jumbo v1, "camera_supported_front_asd"
+
+    :goto_0
+    invoke-static {v1, v2}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+
+    move-result v0
+
+    and-int/lit8 v1, v0, 0xf
+
+    if-eqz v1, :cond_1
 
     const/4 v1, 0x1
 
-    :cond_0
+    :goto_1
     return v1
+
+    :cond_0
+    const-string/jumbo v1, "camera_supported_asd"
+
+    goto :goto_0
+
+    :cond_1
+    move v1, v2
+
+    goto :goto_1
 .end method
 
 .method public static isSupportedAoHDR()Z
@@ -1532,87 +1592,187 @@
 .end method
 
 .method public static isSupportedAsdFlash()Z
-    .locals 3
+    .locals 1
 
-    const/4 v1, 0x0
+    const/4 v0, 0x0
 
-    const-string/jumbo v2, "camera_supported_asd"
-
-    invoke-static {v2, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+    invoke-static {v0}, Lcom/android/camera/Device;->isSupportedAsdFlash(Z)Z
 
     move-result v0
 
-    and-int/lit8 v2, v0, 0x1
+    return v0
+.end method
 
-    if-eqz v2, :cond_0
+.method public static isSupportedAsdFlash(Z)Z
+    .locals 3
+
+    const/4 v2, 0x0
+
+    if-eqz p0, :cond_0
+
+    const-string/jumbo v1, "camera_supported_front_asd"
+
+    :goto_0
+    invoke-static {v1, v2}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+
+    move-result v0
+
+    and-int/lit8 v1, v0, 0x1
+
+    if-eqz v1, :cond_1
 
     const/4 v1, 0x1
 
-    :cond_0
+    :goto_1
     return v1
+
+    :cond_0
+    const-string/jumbo v1, "camera_supported_asd"
+
+    goto :goto_0
+
+    :cond_1
+    move v1, v2
+
+    goto :goto_1
 .end method
 
 .method public static isSupportedAsdHdr()Z
-    .locals 3
+    .locals 1
 
-    const/4 v1, 0x0
+    const/4 v0, 0x0
 
-    const-string/jumbo v2, "camera_supported_asd"
-
-    invoke-static {v2, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+    invoke-static {v0}, Lcom/android/camera/Device;->isSupportedAsdHdr(Z)Z
 
     move-result v0
 
-    and-int/lit8 v2, v0, 0x2
+    return v0
+.end method
 
-    if-eqz v2, :cond_0
+.method public static isSupportedAsdHdr(Z)Z
+    .locals 3
+
+    const/4 v2, 0x0
+
+    if-eqz p0, :cond_0
+
+    const-string/jumbo v1, "camera_supported_front_asd"
+
+    :goto_0
+    invoke-static {v1, v2}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+
+    move-result v0
+
+    and-int/lit8 v1, v0, 0x2
+
+    if-eqz v1, :cond_1
 
     const/4 v1, 0x1
 
-    :cond_0
+    :goto_1
     return v1
+
+    :cond_0
+    const-string/jumbo v1, "camera_supported_asd"
+
+    goto :goto_0
+
+    :cond_1
+    move v1, v2
+
+    goto :goto_1
 .end method
 
 .method public static isSupportedAsdMotion()Z
-    .locals 3
+    .locals 1
 
-    const/4 v1, 0x0
+    const/4 v0, 0x0
 
-    const-string/jumbo v2, "camera_supported_asd"
-
-    invoke-static {v2, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+    invoke-static {v0}, Lcom/android/camera/Device;->isSupportedAsdMotion(Z)Z
 
     move-result v0
 
-    and-int/lit8 v2, v0, 0x4
+    return v0
+.end method
 
-    if-eqz v2, :cond_0
+.method public static isSupportedAsdMotion(Z)Z
+    .locals 3
+
+    const/4 v2, 0x0
+
+    if-eqz p0, :cond_0
+
+    const-string/jumbo v1, "camera_supported_front_asd"
+
+    :goto_0
+    invoke-static {v1, v2}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+
+    move-result v0
+
+    and-int/lit8 v1, v0, 0x4
+
+    if-eqz v1, :cond_1
 
     const/4 v1, 0x1
 
-    :cond_0
+    :goto_1
     return v1
+
+    :cond_0
+    const-string/jumbo v1, "camera_supported_asd"
+
+    goto :goto_0
+
+    :cond_1
+    move v1, v2
+
+    goto :goto_1
 .end method
 
 .method public static isSupportedAsdNight()Z
-    .locals 3
+    .locals 1
 
-    const/4 v1, 0x0
+    const/4 v0, 0x0
 
-    const-string/jumbo v2, "camera_supported_asd"
-
-    invoke-static {v2, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+    invoke-static {v0}, Lcom/android/camera/Device;->isSupportedAsdNight(Z)Z
 
     move-result v0
 
-    and-int/lit8 v2, v0, 0x8
+    return v0
+.end method
 
-    if-eqz v2, :cond_0
+.method public static isSupportedAsdNight(Z)Z
+    .locals 3
+
+    const/4 v2, 0x0
+
+    if-eqz p0, :cond_0
+
+    const-string/jumbo v1, "camera_supported_front_asd"
+
+    :goto_0
+    invoke-static {v1, v2}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+
+    move-result v0
+
+    and-int/lit8 v1, v0, 0x8
+
+    if-eqz v1, :cond_1
 
     const/4 v1, 0x1
 
-    :cond_0
+    :goto_1
     return v1
+
+    :cond_0
+    const-string/jumbo v1, "camera_supported_asd"
+
+    goto :goto_0
+
+    :cond_1
+    move v1, v2
+
+    goto :goto_1
 .end method
 
 .method public static isSupportedAudioFocus()Z
@@ -1965,7 +2125,7 @@
 
     if-eqz v1, :cond_0
 
-    invoke-static {}, Lcom/android/camera/Device;->isSupportedAsdNight()Z
+    invoke-static {v0}, Lcom/android/camera/Device;->isSupportedAsdNight(Z)Z
 
     move-result v0
 

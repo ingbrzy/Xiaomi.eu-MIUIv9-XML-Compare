@@ -7,6 +7,7 @@
   <string name="accessibility_effect_mode_button">Effect button</string>
   <string name="accessibility_flash_mode_button">FlashButton</string>
   <string name="accessibility_hdr">HDR switch button</string>
+  <string name="accessibility_intent_done_apply">Done</string>
   <string name="accessibility_mode_dismiss_button">Close Mode Selection button</string>
   <string name="accessibility_peak">Focus peak button</string>
   <string name="accessibility_portrait_button">Portrait mode</string>
