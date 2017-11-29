@@ -2,7 +2,6 @@
 <resources>
   <string name="antispam_local_marked">Local marked</string>
   <string name="antispam_marked_count">Reported by %1$d MIUI users</string>
-  <string name="antispam_marked_title">%1$s</string>
   <string name="antispam_notification_title">Unknown number</string>
   <string name="antispam_provider">Identified by %s</string>
   <string name="areacode_set_default">Set as default</string>
