@@ -29,6 +29,7 @@ this feature will be added to Second space automatically."</string>
   <string name="closeSecondSpace">Delete Second space</string>
   <string name="closeSecondSpaceSummary">Delete Second space together with its data</string>
   <string name="closeSuccess">Turned off</string>
+  <string name="close_second_space">Deleted Second space</string>
   <string name="close_second_space_success">Deleted Second space</string>
   <string name="closed">Off</string>
   <string name="complete_setting">Finish</string>
@@ -129,6 +130,7 @@ You can also download them separately."</string>
   <string name="input_space_password">Set now</string>
   <string name="invalid_qr_code">Invalid QR code</string>
   <string name="list_empty_text">Empty</string>
+  <string name="list_empty_text_xspace">Install WeChat/QQ/Weibo, create dual apps, and try again.</string>
   <string name="loading">Just a sec…</string>
   <string name="loading_apps">Loading apps…</string>
   <string name="loading_space">Just a sec…</string>
@@ -175,6 +177,7 @@ Otherwise you may not be able to enter Second space from Lock screen."</string>
   <string name="private_sms_show_title">Private messages are shown in Second space</string>
   <string name="private_space_setting">Manage</string>
   <string name="public_app">Both spaces</string>
+  <string name="qq_send">Send to QQ friends/devices</string>
   <string name="removeSuccess">Deleted successfully</string>
   <string name="remove_second_space_msg">All Second space app data will be lost after you delete Second space. Delete Second space now?</string>
   <string name="remove_user_click_message">"*If you don't have any important items in Second space, %s"</string>
@@ -264,7 +267,7 @@ If you don't update, dual apps might not work properly as well."</string>
 to enter Second space from Lock screen"</string>
   <string name="start_setting_guide_desc_title">There are a few things to set up</string>
   <string name="summary_switch_apps_settings">Select apps used in the current space</string>
-  <string name="support_desc">Security services provided by Graphite</string>
+  <string name="support_desc">Security services provided by Spaces Mobile</string>
   <string name="sure_to_use">Confirm</string>
   <string name="switchDataSummary">Move items between spaces</string>
   <string name="switch_apps_settings">App settings</string>
@@ -305,10 +308,17 @@ to enter Second space from Lock screen"</string>
   <string name="transferMessage">Messages from Second space will be moved to First space</string>
   <string name="tryNow">Try now</string>
   <string name="wating">Just a sec…</string>
+  <string name="weibo_send">Send to Weibo</string>
+  <string name="weixin_pay">WeChat Pay</string>
+  <string name="weixin_share">Share to Moments</string>
   <string name="xpsace_guide_button">Create</string>
   <string name="xspace_account">Dual app accounts</string>
   <string name="xspace_chocie">Dual app support</string>
   <string name="xspace_creating">Creating dual app…</string>
+  <string name="xspace_default_app_summary">Set default app for payments, sharing, favorites, and more.</string>
+  <string name="xspace_default_app_title">Default app</string>
+  <string name="xspace_default_setting_dialog_title">Default</string>
+  <string name="xspace_default_setting_label">Default app</string>
   <string name="xspace_description">"Dual apps are app copies which can be used separately with a different account.
 
 Some dual apps require Google Services Framework support. In such cases, dual Google Services Framework is created."</string>
@@ -321,9 +331,12 @@ Some dual apps require Google Services Framework support. In such cases, dual Go
   <string name="xspace_introduce">Recommended</string>
   <string name="xspace_label">Dual apps</string>
   <string name="xspace_loading_msg">Loading apps…</string>
+  <string name="xspace_qq_title">QQ</string>
   <string name="xspace_setting_label">Dual app settings</string>
   <string name="xspace_uninstall_completed">Dual app uninstalled successfully</string>
   <string name="xspace_uninstall_dialog_content">Uninstalling dual app will remove all app data.</string>
   <string name="xspace_uninstall_dialog_title">Uninstall dual app</string>
   <string name="xspace_uninstalling">Uninstalling…</string>
+  <string name="xspace_weibo_title">Weibo</string>
+  <string name="xspace_weixin_title">WeChat</string>
 </resources>
