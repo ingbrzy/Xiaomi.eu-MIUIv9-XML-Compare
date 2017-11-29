@@ -774,6 +774,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bluetooth_unlock_turned_on">On</string>
   <string name="bluetooth_untether_blank">%1$s will be untethered.</string>
   <string name="bluetooth_visibility_timeout">Visibility timeout</string>
+  <string name="bluetooth_wake">Wake with Bluetooth audio</string>
   <string name="bootloader">Fastboot mode</string>
   <string name="bootloader_apply_step_1">Turn on Fastboot mode?</string>
   <string name="bootloader_apply_step_2">When your device is in Fastboot mode and connected to the computer,</string>
@@ -3761,6 +3762,8 @@ Note: Your fingerprint may be less secure than a strong pattern or PIN. "&lt;ann
   <string name="settings_license_activity_unavailable">There is a problem loading the licenses.</string>
   <string name="settings_manual_activity_title">Manual</string>
   <string name="settings_manual_activity_unavailable">There is a problem loading the manual.</string>
+  <string name="settings_notify_need_backup">Back up your settings to Mi Cloud to access them after you switch phones.</string>
+  <string name="settings_notify_phone_recycled">Your phone number has been recycled. Tap to add a different phone number.</string>
   <string name="settings_package">com.android.settings</string>
   <string name="settings_safetylegal_activity_loading">Loading…</string>
   <string name="settings_safetylegal_activity_title">Safety information</string>
@@ -3954,6 +3957,7 @@ Possibly incorrect PIN."</string>
   <string name="spellchecker_security_warning">This spell checker may be able to collect all the text you type, including personal data like passwords and credit card numbers. It comes from the app %1$s. Use this spell checker?</string>
   <string name="spellchecker_switch_title">Turn on Spell checker</string>
   <string name="spellcheckers_settings_title">Spell checker</string>
+  <string name="split_screen">Enter split screen</string>
   <string name="ssid_label">SSID:</string>
   <string name="ssl_ca_cert_warning">Network may be monitored</string>
   <string name="ssl_ca_cert_warning_message">"A third party is capable of monitoring your network activity, including emails, apps, and secure websites.
@@ -4192,6 +4196,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="suggested_lock_settings_title">Screen lock</string>
   <string name="suggestion_additional_fingerprints">Add another fingerprint</string>
   <string name="suggestion_additional_fingerprints_summary">Unlock with a different fingerprint</string>
+  <string name="suggestion_for_phone_recycled">Add a different phone number</string>
   <string name="suggestion_remove">Remove</string>
   <string name="suggestions_title">Suggestions (%1$d)</string>
   <string name="sum_carrier_select">Choose a network operator</string>
@@ -4247,6 +4252,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_backup_section_title">Backup</string>
   <string name="system_default_app">(System default)</string>
   <string name="system_package">System updates can’t be installed on external media.</string>
+  <string name="system_shortcut_wake">Wake with button shortcuts</string>
   <string name="system_storage">System storage</string>
   <string name="system_ui_settings">Show SystemUI Tuner</string>
   <string name="system_update_settings_list_item_summary"/>
@@ -4726,6 +4732,7 @@ Tap the plus to add words."</string>
   <string name="vision_settings_description">You can customize this device to fit your needs. These accessibility features can be changed later in Settings.</string>
   <string name="vision_settings_title">Vision Settings</string>
   <string name="voice_category">Speech</string>
+  <string name="voice_helper_title">Voice assistant</string>
   <string name="voice_input_output_settings">Voice input &amp; output</string>
   <string name="voice_input_output_settings_title">Voice input &amp; output settings</string>
   <string name="voice_input_settings">Voice input settings</string>
