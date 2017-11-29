@@ -15,9 +15,4 @@
         <item>App data will be lost after apps are moved to the current space.</item>
         <item>Apps are used in both spaces.</item>
     </string-array>
-    <string-array name="choose_ask_type">
-        <item>Always ask</item>
-        <item>Default app</item>
-        <item>Dual app</item>
-    </string-array>
 </resources>

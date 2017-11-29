@@ -39,10 +39,6 @@
         <item>com.mi.AutoTest</item>
         <item>com.miui.packageinstaller</item>
         <item>com.xiaomi.account</item>
-        <item>com.whatsapp</item>
-        <item>com.facebook.orca</item>
-        <item>com.bbm</item>
-        <item>jp.naver.line.android</item>
     </string-array>
     <array name="boot_msg_text" />
     <array name="config_virtualKeyUpPattern" />
@@ -1134,10 +1130,6 @@
         <item>com.citrusjoy.garfieldchef.mi</item>
     </string-array>
     <array name="config_crossSpaceNotificationPackageNames" />
-    <string-array name="config_sysBrightnessFileArray">
-        <item>/sys/class/leds/lcd-backlight/brightness</item>
-        <item>/sys/class/backlight/panel0-backlight/brightness</item>
-    </string-array>
     <string-array name="securespaces_extension_accelerometer_userRestrictions">
         <item>ss_no_accelerometer_access,1</item>
     </string-array>

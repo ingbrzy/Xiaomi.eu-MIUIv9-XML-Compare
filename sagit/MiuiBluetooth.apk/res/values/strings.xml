@@ -10,7 +10,6 @@
   <string name="ble_profile_2">ble_profile_mi_key</string>
   <string name="bluetooth_connected">Paired</string>
   <string name="bluetooth_connecting">Pairing…</string>
-  <string name="bluetooth_device_context_unpair">Unpair</string>
   <string name="bluetooth_disconnected">Unpaired</string>
   <string name="bluetooth_disconnecting">Unpairing…</string>
   <string name="bluetooth_preference_connected_devices">Paired devices</string>

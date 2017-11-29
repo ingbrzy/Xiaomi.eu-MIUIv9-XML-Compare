@@ -3,5 +3,4 @@
   <string name="config_forceVoiceInteractionServicePackage">com.google.android.googlequicksearchbox</string>
   <string name="config_geocoderProviderPackageName">com.google.android.gms</string>
   <string name="config_networkLocationProviderPackageName">com.google.android.gms</string>
-  <string name="notification_header_divider_line">|</string>
 </resources>
