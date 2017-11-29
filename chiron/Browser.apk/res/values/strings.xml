@@ -320,6 +320,7 @@
   <string name="cloud_sync_closed_toast">Turn on sync to update</string>
   <string name="cloud_sync_failed_toast">"Couldn't update"</string>
   <string name="cloud_tab">Cloud tabs</string>
+  <string name="cloud_tabs_sync_off">Sync off</string>
   <string name="cloud_time_tips">Last sync</string>
   <string name="cloud_up_to_loading_tips">Release to sync</string>
   <string name="color_picker_button_black">Black</string>
@@ -647,42 +648,38 @@ Leave this page?"</string>
   <string name="miuichromium_error_page_network_hijack">"Current network isn't safe"</string>
   <string name="miuichromium_error_page_network_off">Turn on Wi-Fi or mobile data</string>
   <string name="miuichromium_error_page_no_network">"Can't connect to network"</string>
-  <string name="miuichromium_error_page_problem_access_denied">Access to %s0 was denied</string>
-  <string name="miuichromium_error_page_problem_cache_miss">"The cached version of this page can't be loaded"</string>
-  <string name="miuichromium_error_page_problem_cannot_open_page">"The page can't be opened"</string>
-  <string name="miuichromium_error_page_problem_cannot_reach_site">"The site can't be reached"</string>
-  <string name="miuichromium_error_page_problem_connection_interrupted">Connection was interrupted</string>
-  <string name="miuichromium_error_page_problem_file_not_found">"Couldn't find file"</string>
-  <string name="miuichromium_error_page_problem_gateway_timed_out">It took too long for %s0 to respond</string>
-  <string name="miuichromium_error_page_problem_network_access_denied">Network access is restricted</string>
-  <string name="miuichromium_error_page_problem_no_internet_connection">"Couldn't connect to the Internet"</string>
-  <string name="miuichromium_error_page_problem_page_moved">This page on %s0 might have been moved or deleted</string>
-  <string name="miuichromium_error_page_problem_page_not_found">"Couldn't find this page on %s0"</string>
-  <string name="miuichromium_error_page_problem_page_not_working">"This page isn't working"</string>
-  <string name="miuichromium_error_page_problem_security_error">"This site can't provide a secure connection"</string>
-  <string name="miuichromium_error_page_problem_server_fault">%s0 is currently unable to handle this request</string>
-  <string name="miuichromium_error_page_reason_bad_client_cert">" because %s0 didn't accept your certificate"</string>
-  <string name="miuichromium_error_page_reason_bad_server_cert">". %s0 doesn't adhere to security standards"</string>
-  <string name="miuichromium_error_page_reason_blocked_by_response">. Access is blocked by %s0</string>
-  <string name="miuichromium_error_page_reason_connection_closed">. %s0 interrupted connection</string>
-  <string name="miuichromium_error_page_reason_connection_refused">. %s0 refused to connect</string>
-  <string name="miuichromium_error_page_reason_connection_reset">. Connection was reset</string>
-  <string name="miuichromium_error_page_reason_device_slept">" when your device went to sleep"</string>
-  <string name="miuichromium_error_page_reason_empty_response">" because %s0 didn't send any data"</string>
-  <string name="miuichromium_error_page_reason_invalid_address">. IP address or port number is invalid</string>
-  <string name="miuichromium_error_page_reason_invalid_response">" because %s0 sent an invalid response"</string>
-  <string name="miuichromium_error_page_reason_invalid_url">" because the URL is invalid"</string>
-  <string name="miuichromium_error_page_reason_moved_or_deleted">. It might have been moved or deleted</string>
-  <string name="miuichromium_error_page_reason_name_collision">. This site on the intranet has the same URL as an external website</string>
-  <string name="miuichromium_error_page_reason_name_not_resolved">". Couldn't find DNS address for %s0"</string>
-  <string name="miuichromium_error_page_reason_network_changed">" due to a network change"</string>
-  <string name="miuichromium_error_page_reason_proxy_error">. Something is wrong with the proxy server, or proxy address is incorrect</string>
-  <string name="miuichromium_error_page_reason_site_unreachable">. %s0 is currently unreachable</string>
-  <string name="miuichromium_error_page_reason_timed_out">". %s0 doesn't respond for too long"</string>
-  <string name="miuichromium_error_page_reason_too_many_redirects">" because %s0 redirected you too many times"</string>
-  <string name="miuichromium_error_page_reason_unsafe_port">. %s0 is using an unsafe port number</string>
-  <string name="miuichromium_error_page_reason_unsafe_redirect">. %s0 is redirecting you in an unsafe way</string>
-  <string name="miuichromium_error_page_reason_unsupported_protocol">. %s0 uses an unsupported protocol</string>
+  <string name="miuichromium_error_page_problem_access_denied">Access to %s0 was denied.</string>
+  <string name="miuichromium_error_page_problem_cache_miss">"The cached version of this page can't be loaded."</string>
+  <string name="miuichromium_error_page_problem_cannot_open_page">"The page can't be opened."</string>
+  <string name="miuichromium_error_page_problem_cannot_open_page_reason_blocked_by_response">"The page can't be opened. Access is blocked by %s0."</string>
+  <string name="miuichromium_error_page_problem_cannot_open_page_reason_connection_closed">"The page can't be opened. %s0 interrupted connection."</string>
+  <string name="miuichromium_error_page_problem_cannot_open_page_reason_connection_refused">"The page can't be opened. %s0 refused to connect."</string>
+  <string name="miuichromium_error_page_problem_cannot_open_page_reason_connection_reset">"The page can't be opened. Connection was reset."</string>
+  <string name="miuichromium_error_page_problem_cannot_open_page_reason_invalid_url">"The page can't be opened because the URL is invalid."</string>
+  <string name="miuichromium_error_page_problem_cannot_open_page_reason_site_unreachable">"The page can't be opened. %s0 is currently unreachable."</string>
+  <string name="miuichromium_error_page_problem_cannot_open_page_reason_unsafe_redirect">"The page can't be opened. %s0 is redirecting you in an unsafe way."</string>
+  <string name="miuichromium_error_page_problem_cannot_reach_site_reason_name_collision">"The site can't be reached. This site on the intranet has the same URL as an external website."</string>
+  <string name="miuichromium_error_page_problem_cannot_reach_site_reason_name_not_resolved">"The site can't be reached. Couldn't find DNS address for %s0."</string>
+  <string name="miuichromium_error_page_problem_cannot_reach_site_reason_reason_invalid_address">"The site can't be reached. IP address or port number is invalid."</string>
+  <string name="miuichromium_error_page_problem_cannot_reach_site_reason_timed_out">"The site can't be reached. %s0 doesn't respond for too long."</string>
+  <string name="miuichromium_error_page_problem_cannot_reach_site_reason_unsafe_port">"The site can't be reached. %s0 is using an unsafe port number."</string>
+  <string name="miuichromium_error_page_problem_connection_interrupted_reason_device_slept">Connection was interrupted when your device went to sleep.</string>
+  <string name="miuichromium_error_page_problem_connection_interrupted_reason_network_changed">Connection was interrupted due to a network change.</string>
+  <string name="miuichromium_error_page_problem_file_not_found_reason_moved_or_deleted">"Couldn't find file. It might have been moved or deleted."</string>
+  <string name="miuichromium_error_page_problem_gateway_timed_out">It took too long for %s0 to respond.</string>
+  <string name="miuichromium_error_page_problem_network_access_denied">Network access is restricted.</string>
+  <string name="miuichromium_error_page_problem_no_internet_connection_reason_proxy_error">"Couldn't connect to the Internet. Something is wrong with the proxy server, or proxy address is incorrect."</string>
+  <string name="miuichromium_error_page_problem_page_moved">This page on %s0 might have been moved or deleted.</string>
+  <string name="miuichromium_error_page_problem_page_not_found">"Couldn't find this page on %s0."</string>
+  <string name="miuichromium_error_page_problem_page_not_working_reason_connection_closed">"This page isn't working. %s0 interrupted connection."</string>
+  <string name="miuichromium_error_page_problem_page_not_working_reason_empty_response">"This page isn't working because %s0 didn't send any data."</string>
+  <string name="miuichromium_error_page_problem_page_not_working_reason_invalid_response">"This page isn't working because %s0 sent an invalid response."</string>
+  <string name="miuichromium_error_page_problem_page_not_working_reason_too_many_redirects">"This page isn't working because %s0 redirected you too many times."</string>
+  <string name="miuichromium_error_page_problem_security_error_reason_bad_client_cert">"This site can't provide a secure connection because %s0 didn't accept your certificate."</string>
+  <string name="miuichromium_error_page_problem_security_error_reason_bad_server_cert">"This site can't provide a secure connection %s0 doesn't adhere to security standards."</string>
+  <string name="miuichromium_error_page_problem_security_error_reason_invalid_response">"This site can't provide a secure connection because %s0 sent an invalid response."</string>
+  <string name="miuichromium_error_page_problem_security_error_reason_unsupported_protocol">"This site can't provide a secure connection %s0 uses an unsupported protocol."</string>
+  <string name="miuichromium_error_page_problem_server_fault">%s0 is currently unable to handle this request.</string>
   <string name="miuichromium_error_page_reload">Refresh</string>
   <string name="miuichromium_error_page_safe_network">Safe mode</string>
   <string name="miuichromium_error_page_server_error">Too many devices are trying to connect</string>
@@ -699,7 +696,7 @@ Leave this page?"</string>
   <string name="miuichromium_error_page_suggestion_contact_admin">Contact your system administrator.</string>
   <string name="miuichromium_error_page_suggestion_correct_url">"Check the address you've entered and try again using the correct URL."</string>
   <string name="miuichromium_error_page_suggestion_grant_permission">Reload after granting Browser permission to access the internet.</string>
-  <string name="miuichromium_error_page_suggestion_title">. Try this:</string>
+  <string name="miuichromium_error_page_suggestion_title">Try this:</string>
   <string name="miuichromium_error_page_title">An error occurred</string>
   <string name="miuichromium_error_page_unknown_error">Oops, something went wrong</string>
   <string name="miuichromium_error_page_wlan">Turn on Wi-Fi</string>
@@ -731,7 +728,6 @@ Leave this page?"</string>
   <string name="nav_screen_container_tab_normal">Regular tab</string>
   <string name="nav_screen_incognito_message">"Your browsing and search history won't be saved in Incognito mode.
 Remember that the files you download and the bookmarks you add will still be saved."</string>
-  <string name="nav_screen_incognito_time">After %s seconds will automatically create a new page</string>
   <string name="nav_screen_incognito_title">Incognito mode</string>
   <string name="navigationbar_rightbutton_actiontext_cancle">Cancel</string>
   <string name="navigationbar_rightbutton_actiontext_go">Go</string>
@@ -1004,7 +1000,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="send_comment_title">Comment</string>
   <string name="senddesktop">Home screen</string>
   <string name="sendstartpage">Start page</string>
-  <string name="sequence_bookmark_description">Change the bookmark sequence</string>
+  <string name="sequence_bookmark_description">Press and hold to rearrange bookmarks</string>
   <string name="share_by_yidianzixun">【一点资讯】</string>
   <string name="share_image_text">Look what I shared! @MIUI</string>
   <string name="share_page_text">Look what I shared: %1$s @MIUI| %2$s</string>
@@ -1013,7 +1009,7 @@ Here's the data that we'll collect:
 1. Secure URLs: We'll collect the URLs of the websites you visit while using our services.
 2. Location data: We'll access your location info.
 That's how we use the data we collect:
-1. Security: We use your data when we protect your device from fraud and viruses,as well as for storage and backup reasons.
+1. Security: We use your data when we protect your device from fraud and viruses, as well as for storage and backup reasons.
 2. Content: Your data helps us provide relevant localized news content.
 Browser needs to connect to the internet to work normally. You must agree to our %2$s and %1$s to be able to use Browser.​"</string>
   <string name="show_security_tip_dialog_title">Privacy Policy</string>

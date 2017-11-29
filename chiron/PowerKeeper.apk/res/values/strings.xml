@@ -195,6 +195,7 @@ Battery saver will treat important apps selectively."</string>
   <string name="settings_safetylegal_activity_loading">Just a sec…</string>
   <string name="show_system_app">Show system apps</string>
   <string name="sleep_config_enhance_description">"Whenever MIUI detects that you're sleeping, it will close background apps, restrict NFC, Bluetooth, GPS, mobile data and WLAN usage, and won't light up screen for notifications."</string>
+  <string name="sleep_config_enhance_description_non_nfc">"Whenever MIUI detects that you're sleeping, it will close background apps, restrict Bluetooth, GPS, mobile data and WLAN usage, and won't light up screen for notifications."</string>
   <string name="sleep_config_enhance_title">Sleep mode</string>
   <string name="still">Picture</string>
   <string name="sucess">Done</string>

@@ -2756,6 +2756,7 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_piston_color">Color Edition</string>
   <string name="music_dirac_mode_piston_standard">Standard Edition</string>
   <string name="music_dirac_mode_piston_youth">Youth Edition</string>
+  <string name="music_dirac_mode_reduction_noise">Reduce Noise TypeC</string>
   <string name="music_dolby_mode_movie">Video</string>
   <string name="music_dolby_mode_music">Music</string>
   <string name="music_dolby_mode_off">Off</string>
@@ -4261,6 +4262,7 @@ Possibly incorrect PIN."</string>
   <string name="spellchecker_security_warning">This spell checker may be able to collect all the text you type, including personal data like passwords and credit card numbers. It comes from the app %1$s. Use this spell checker?</string>
   <string name="spellchecker_switch_title">Turn on Spell checker</string>
   <string name="spellcheckers_settings_title">Spell checker</string>
+  <string name="split_screen">Enter split screen</string>
   <string name="ssid_label">SSID:</string>
   <string name="ssl_ca_cert_warning">Network may be monitored</string>
   <string name="ssl_ca_cert_warning_message">"A third party is capable of monitoring your network activity, including emails, apps, and secure websites.

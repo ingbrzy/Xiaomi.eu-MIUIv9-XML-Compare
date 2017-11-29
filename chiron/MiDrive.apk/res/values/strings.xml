@@ -28,6 +28,10 @@
   <string name="downloading">Downloading</string>
   <string name="downloading_in_3g">Downloading on 3G…</string>
   <string name="downloading_in_wifi">Downloading…</string>
+  <string name="drive_low_memory_description_content">Mobile phone storage space is insufficient, please go to the phone garbage clean up to release more storage space?</string>
+  <string name="drive_low_memory_description_title">Low memory Warning</string>
+  <string name="drive_low_memory_description_toast">Mobile phone storage space is insufficient, please clean up after the use of MiDrive</string>
+  <string name="drive_low_memory_positive_content">Clean Up</string>
   <string name="empty_file_download">"Empty files aren't supported."</string>
   <string name="empty_file_upload">"Empty files aren't supported."</string>
   <string name="fileSizeSuffix">%1$s %2$s</string>
@@ -111,6 +115,7 @@
   <string name="sd_invalid">Your SD card is corrupted.</string>
   <string name="send_to_midrive_failed">"This file type isn't supported."</string>
   <string name="slashes">/</string>
+  <string name="source_file_missing">File is missing.</string>
   <string name="space_full">Not enough cloud space.</string>
   <string name="start_use_xiaomi_account">Start using Mi Drive</string>
   <string name="system_alert">Internet connection</string>
