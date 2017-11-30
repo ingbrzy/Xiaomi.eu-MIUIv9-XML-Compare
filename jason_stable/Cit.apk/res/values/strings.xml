@@ -62,8 +62,8 @@
   <string name="avg_diff_val">差值均值:</string>
   <string name="back_info">确定要离开该界面？</string>
   <string name="bad_pixel_num">全局坏点数:</string>
-  <string name="bad_point_touch_sensor">通过平头橡胶头按压指纹模组</string>
-  <string name="badpoint_category">坏点测试</string>
+  <string name="bad_point_touch_sensor">Fingerprint module is pressed by flat rubber head</string>
+  <string name="badpoint_category">Bad pixels test</string>
   <string name="baterry_percent">"Amount Of Battery Charge: "</string>
   <string name="baterry_temperature">"Battery Temperature: "</string>
   <string name="battery_info">Charging battery related information</string>
@@ -939,9 +939,9 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="test_again">再测一次</string>
   <string name="test_algo">情景测试</string>
   <string name="test_app_version">测试工具版本:</string>
-  <string name="test_auto">自动测试</string>
-  <string name="test_bad_point">坏点测试</string>
-  <string name="test_bad_point_title">坏点测试:</string>
+  <string name="test_auto">auto test</string>
+  <string name="test_bad_point">Bad pixels test</string>
+  <string name="test_bad_point_title">Bad pixels test:</string>
   <string name="test_bio_assay">活体整机测试</string>
   <string name="test_bio_assay_finger_touch">光信号差（手指接触）:</string>
   <string name="test_bio_assay_no_finger_touch">光信号差（手指未接触）:</string>
@@ -953,7 +953,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="test_case_status"/>
   <string name="test_cases">Test Cases</string>
   <string name="test_detail">测试详情</string>
-  <string name="test_failed">失败</string>
+  <string name="test_failed">Fail</string>
   <string name="test_far_play">FAR测试</string>
   <string name="test_finished">完成</string>
   <string name="test_frr_database">FRR测试数据统计</string>
@@ -968,13 +968,13 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="test_hbd_calibraion_avg">调光后均值(R)</string>
   <string name="test_hbd_calibraion_electricity">电流值(I)</string>
   <string name="test_hbd_feature">心率整机测试</string>
-  <string name="test_interrupt_pin">Interrupt pin测试</string>
+  <string name="test_interrupt_pin">Interrupt pin test</string>
   <string name="test_interrupt_pin_title">Interrupt pin测试:</string>
   <string name="test_performance">速度测试</string>
-  <string name="test_pixel_open">Pixel开路测试</string>
+  <string name="test_pixel_open">Pixel open circuit test</string>
   <string name="test_rawdata_saturated">Rawdata饱和测试</string>
   <string name="test_report_make">测试报告</string>
-  <string name="test_reset_pin">Reset pin测试</string>
+  <string name="test_reset_pin">Reset pin test</string>
   <string name="test_reset_pin_title">Reset pin测试:</string>
   <string name="test_result">TEST RESULT</string>
   <string name="test_sensor">Pixel开短路测试</string>
@@ -984,7 +984,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="test_sensor_fine_title">模组异常检测:</string>
   <string name="test_sensor_result">测试结果:</string>
   <string name="test_sensor_title">Pixel开短路测试:</string>
-  <string name="test_spi">SPI测试</string>
+  <string name="test_spi">SPI test</string>
   <string name="test_spi_chip_id">Chip ID:</string>
   <string name="test_spi_fw">固件版本号:</string>
   <string name="test_spi_performance">SPI性能测试</string>
@@ -992,8 +992,8 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="test_spi_performance_get_mode">读芯片模式耗时(1Byte):</string>
   <string name="test_spi_performance_get_rawdata">采集rawdata耗时(%dBytes):</string>
   <string name="test_spi_performance_title">SPI性能测试:</string>
-  <string name="test_spi_title">SPI测试:</string>
-  <string name="test_succeed">成功</string>
+  <string name="test_spi_title">SPI test:</string>
+  <string name="test_succeed">Success</string>
   <string name="test_success_tips" formatted="false">成功条件: %s%d</string>
   <string name="test_success_tips_float" formatted="false">成功条件: %s%s</string>
   <string name="test_success_tips_multi_case" formatted="false">成功条件: %s%s or %s</string>
@@ -1003,7 +1003,7 @@ After you place \"music.mp3\" in the SD card's directory, tap the display to pla
   <string name="testagain">You can Press key HOME to test again</string>
   <string name="testcase_name">Name</string>
   <string name="testing">AutoTest Running...</string>
-  <string name="timeout">超时</string>
+  <string name="timeout">Time out</string>
   <string name="timeout_before_press">超时，需在%ds内按下手指，返回重来。</string>
   <string name="titile_frr_far_record_setting">录入设置</string>
   <string name="titile_frr_far_test_setting">测试设置</string>
