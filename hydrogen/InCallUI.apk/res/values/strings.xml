@@ -1,9 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="accept_modify_call_request_prompt">Accept modify call request?</string>
   <string name="antispam_local_marked">Local marked</string>
   <string name="antispam_marked_count">Reported by %1$d MIUI users</string>
-  <string name="antispam_marked_title">%1$s</string>
   <string name="antispam_notification_title">Unknown number</string>
   <string name="antispam_provider">Identified by %s</string>
   <string name="areacode_set_default">Set as default</string>
@@ -30,7 +28,6 @@
   <string name="callFailed_timedOut">No response from server</string>
   <string name="callFailed_unobtainable_number">Invalid number</string>
   <string name="callFailed_userBusy">Line busy</string>
-  <string name="callUnanswered_forwarded">Forwarded unanswered call</string>
   <string name="call_button_conference_manager_text">Conference manager</string>
   <string name="call_button_dialer_text">Keyboard</string>
   <string name="call_button_mute_text">Mute</string>
@@ -53,7 +50,6 @@
   <string name="call_recording_notification_title_error">"Couldn't record call"</string>
   <string name="call_title_redialing_with_times">Redialed %d times</string>
   <string name="caller_manage_header">Conference call %s</string>
-  <string name="calling_via_template">Calling using %s</string>
   <string name="can_not_call_oneself">"Can't call this number"</string>
   <string name="can_not_use">"Can't use"</string>
   <string name="cancel">Cancel</string>
@@ -69,7 +65,6 @@
   <string name="card_title_in_call">In call</string>
   <string name="card_title_in_call_short">In call</string>
   <string name="card_title_in_video">Video </string>
-  <string name="card_title_incoming_call">Incoming call</string>
   <string name="card_title_incoming_conference_call">Incoming conference call</string>
   <string name="card_title_on_hold">"On hold "</string>
   <string name="card_title_threeway_call">Three-way call</string>
@@ -88,7 +83,6 @@
   <string name="conference_call_number">%s people</string>
   <string name="conference_call_single_description" formatted="false">%s etc. total %s</string>
   <string name="conference_caller_info_name">"%1$s's conference call"</string>
-  <string name="conference_caller_name_me">Me</string>
   <string name="conference_callers_exceeded">"Can't add more people"</string>
   <string name="contacts_icon_label">Contacts</string>
   <string name="default_area_code_setting">Default area code</string>
@@ -115,7 +109,6 @@
   <string name="description_target_answer">Answer</string>
   <string name="dialog_activate_livetalk">Verify number</string>
   <string name="dialog_call_ordinary_telephone">Regular call</string>
-  <string name="dialog_purchase">Top up</string>
   <string name="dialpad_abc">ABC</string>
   <string name="dialpad_def">DEF</string>
   <string name="dialpad_eight">8</string>
@@ -155,32 +148,15 @@
   <string name="incoming_circle_text_message_p">Slide up</string>
   <string name="incoming_circle_text_reject">Release</string>
   <string name="incoming_circle_text_reject_p">Slide up</string>
-  <string name="ivr_menu_dialing_msg">Forwarding…</string>
-  <string name="ivr_menu_dialing_msg_no_mute">Go to selected service…[Automatic error correction is enabled]</string>
-  <string name="ivr_menu_list_sub_menu_count_format">Tap %s</string>
-  <string name="ivr_menu_list_title">Voice menu</string>
   <string name="keep_wait_call_back">Keep waiting</string>
   <string name="livetalk_dial">Using Top-up package</string>
   <string name="livetalk_hangup">Hang up</string>
   <string name="manageConferenceLabel">Manage conference call</string>
-  <string name="modify_call_failure_str">"Modify Call request failed
-"</string>
-  <string name="modify_call_option_title">Which type of call?</string>
-  <string name="modify_call_option_voice">Voice Only</string>
-  <string name="modify_call_option_vt">VT</string>
-  <string name="modify_call_option_vt_rx">Video receive</string>
-  <string name="modify_call_option_vt_tx">Video transmit</string>
-  <string name="modify_call_prompt_no">No</string>
-  <string name="modify_call_prompt_yes">Yes</string>
   <string name="msim_select_default_time_left">(%d s)</string>
   <string name="network_error_message">Current network is unstable. Switching to regular call for which you might be charged by the carrier.</string>
   <string name="network_error_title">Unstable network</string>
-  <string name="no_balance_message">Insufficient funds on your Top-up package balance. You can still make a regular call for which youll be charged by the carrier.</string>
-  <string name="no_balance_title">Insufficient funds</string>
   <string name="no_call_back_message">Its taking too long to connect. Switching to regular call for which you might be charged by the carrier.</string>
   <string name="no_call_back_title">Attention</string>
-  <string name="non_ivr_menu_collapse_menu">Collapse menu</string>
-  <string name="non_ivr_menu_view_menu">View menu</string>
   <string name="not_activate_sim_card_content">Verify your phone number to start using Top-up package. You can still make a regular call for which youll be charged by the carrier.</string>
   <string name="not_activate_sim_card_content_title">Phone number isnt verified</string>
   <string name="not_activate_sim_card_content_with_operator">Verify SIM %1$s (%2$s) to make a call using Top-up package. You can still make a regular call for which youll be charged by the carrier.</string>
@@ -207,7 +183,6 @@
   <string name="onscreen_audio_mode_handset">Earpiece</string>
   <string name="onscreen_audio_mode_headset">Headphones</string>
   <string name="onscreen_audio_mode_speaker">Speaker</string>
-  <string name="onscreen_audio_switch_mode">Switch audio</string>
   <string name="onscreen_call_record">Record</string>
   <string name="onscreen_change_to_video">Video call</string>
   <string name="onscreen_change_to_voice">Voice call</string>
@@ -240,9 +215,7 @@
   <string name="unlock_phone">Unlock device</string>
   <string name="upgrade_vt_prompt">Switch to video call?</string>
   <string name="user_locked_prompt">Unlock device to access contacts.</string>
-  <string name="video_call_not_allowed_if_tty_enabled">Turn off TTY mode first</string>
   <string name="video_conference_caller_info_name">"%1$s's video conference call"</string>
-  <string name="video_switch_to_voice_call_prompt">Switch to voice call</string>
   <string name="voicemail">Voicemail</string>
   <string name="wait_prompt_str">"Send the following tones?
 "</string>
