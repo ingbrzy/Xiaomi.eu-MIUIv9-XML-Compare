@@ -13,6 +13,7 @@
   <string name="clear_records">Delete synced recordings</string>
   <string name="cloud_record_open">Sync recordings</string>
   <string name="cloud_record_tip">Sync recordings with Mi Cloud.</string>
+  <string name="cloud_service_state_open_reminder">Turn on sync with Mi Cloud to sync recording files.</string>
   <string name="cloud_status_full_dialog_cancel">Not now</string>
   <string name="cloud_status_full_dialog_msg">"Your cloud storage is full, can't sync recordings. Upgrade your account to get more storage space."</string>
   <string name="cloud_status_full_dialog_ok">Upgrade</string>
