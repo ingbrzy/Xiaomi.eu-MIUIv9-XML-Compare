@@ -4,5 +4,5 @@
     <string name="date_time_12">MMMM, EEE dd</string>
     <string name="desc_date_format">MMM, EEEE dd</string>
     <string name="desc_date_format_12">MMM, EEEE dd</string>
-    <string name="desc_time">'current time\' + #hour12+\' \'+ifelse(#minute,#minute,\'oclock\')+\', double tap to enter clock app'</string>
+    <string name="desc_time">'praegune aeg’ + #tund12+’ifelse(#minut,#minut,’kell’)+’, topelttokse kellarakendusse sisenemiseks'</string>
 </resources>
