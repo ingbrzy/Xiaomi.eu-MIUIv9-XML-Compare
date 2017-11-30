@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="thumbnail_height">192.0dip</dimen>
+    <dimen name="thumbnail_width">192.0dip</dimen>
+    <dimen name="notification_content_margin_start">16.0dip</dimen>
+    <dimen name="notification_content_margin_end">16.0dip</dimen>
+    <dimen name="notification_content_picture_margin">56.0dip</dimen>
+    <dimen name="notification_content_plus_picture_margin_end">72.0dip</dimen>
+    <dimen name="notification_action_list_height">50.0dip</dimen>
+    <dimen name="notification_content_margin_top">34.0dip</dimen>
+    <dimen name="notification_content_margin_bottom">14.0dip</dimen>
+    <dimen name="notification_header_background_height">27.0dip</dimen>
+    <dimen name="media_notification_expanded_image_max_size">86.0dip</dimen>
+    <dimen name="notification_text_size">12.0sp</dimen>
+    <dimen name="notification_title_text_size">14.0sp</dimen>
+    <dimen name="notification_content_sub_margin_top">5.0dip</dimen>
+    <dimen name="notification_children_container_top_padding">-7.0dip</dimen>
+    <dimen name="notification_radius">5.0dip</dimen>
+</resources>

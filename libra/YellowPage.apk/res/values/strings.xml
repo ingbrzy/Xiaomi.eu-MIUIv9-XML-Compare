@@ -121,6 +121,7 @@
   <string name="mark_number_feedback_success">Flag info sent successfully</string>
   <string name="mark_number_marked_maintitle">Change flag info</string>
   <string name="mark_number_marked_subtitle">%s (current flag)</string>
+  <string name="mark_number_notification_title">Report suspicious number</string>
   <string name="mark_number_remove">Remove flag info</string>
   <string name="mark_title_null_hint">Enter flag info</string>
   <string name="menu_add_black_list">Add to blocklist</string>
