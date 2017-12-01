@@ -357,6 +357,7 @@
   <string name="auto_task_operation_vibration">Vibration</string>
   <string name="auto_task_operation_wifi">WLAN</string>
   <string name="back_app_name">Go back to App lock</string>
+  <string name="back_description_securitycenter">Back</string>
   <string name="back_modifypassword">Go back to changing password</string>
   <string name="background_restrict_app_dialog_message">Restricting background network access for this app might make it impossible for the app to work normally, receive messages, download content, etc. Restrict anyway?</string>
   <string name="background_traffic">Background %s</string>
@@ -472,6 +473,7 @@
   <string name="call_contact_block">Block calls from contacts</string>
   <string name="call_delete_hint">Delete all blocked calls from this number?</string>
   <string name="call_delete_title">Delete call history</string>
+  <string name="call_oversea_block">Block calls from abroad</string>
   <string name="call_prefix">Prefix blocklist</string>
   <string name="call_private">Block calls from hidden numbers</string>
   <string name="call_stranger_block">Block calls from strangers</string>
@@ -767,6 +769,8 @@
   <string name="fw_blocked">Blocklist</string>
   <string name="fw_blocked_count">"Blocked "</string>
   <string name="fw_blocked_join">" and "</string>
+  <string name="fw_oversea">Block calls from abroad</string>
+  <string name="fw_oversea_content">Block incoming calls from foreign phone numbers</string>
   <string name="game_ad_recommendation">Everybody is playing</string>
   <string name="game_anti_disturb_msg">Game DND</string>
   <string name="game_booster">Game speed booster</string>
@@ -909,7 +913,7 @@
   <string name="last_check_canceled">Previous scan was canceled</string>
   <string name="later">稍后处理</string>
   <string name="left_precent">60%</string>
-  <string name="legal_workday">Holiday</string>
+  <string name="legal_workday">Legal workdays</string>
   <string name="legal_workday_invalidate">Mon-Fri (holiday info expired)</string>
   <string name="legal_workday_invalidate_message">Tap to update public holiday info.</string>
   <string name="legal_workday_message">(Skip holidays)</string>
@@ -1831,6 +1835,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_call_backsound_group">Blocklist sound</string>
   <string name="st_call_intercept_contacts">Block calls from contacts</string>
   <string name="st_call_intercept_forwarding">Block forwarded calls</string>
+  <string name="st_call_intercept_oversea">Block calls from abroad</string>
   <string name="st_call_intercept_reported">Block calls from reported numbers</string>
   <string name="st_call_intercept_stranger">Block calls from strangers</string>
   <string name="st_call_intercept_unknown">Block calls from hidden numbers</string>
@@ -1839,6 +1844,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_call_stranger_group">Block calls from strangers</string>
   <string name="st_confirm_dialog_btn_open">Open</string>
   <string name="st_confirm_dialog_summary_contact_call">All calls from contacts will be blocked.</string>
+  <string name="st_confirm_dialog_summary_oversea_call">Turn on to block all incoming calls from foreign phone numbers.</string>
   <string name="st_confirm_dialog_summary_stranger_call">All calls from strangers will be blocked.</string>
   <string name="st_filter_keywords_setting_summary1">Messages from unknown numbers that contain the words in this list will be blocked.</string>
   <string name="st_filter_keywords_setting_summary2">"

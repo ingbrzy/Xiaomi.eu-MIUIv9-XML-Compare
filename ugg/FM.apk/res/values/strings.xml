@@ -21,6 +21,7 @@
   <string name="label_recording">Recording: %s</string>
   <string name="menu_exit">Exit</string>
   <string name="menu_headset">Switch to headset</string>
+  <string name="menu_label">Menu</string>
   <string name="menu_new_station">Add</string>
   <string name="menu_record_list">Recordings</string>
   <string name="menu_record_start">Start recording</string>
