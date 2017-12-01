@@ -579,6 +579,7 @@
   <string name="sms_report_success">Sent report successfully</string>
   <string name="snippet_audio">[Audio]</string>
   <string name="snippet_picture">[Image]</string>
+  <string name="snippet_timed">[Timed]</string>
   <string name="sp_category_all">All service messages</string>
   <string name="sp_category_bank">Bank notification messages</string>
   <string name="sp_category_title_prefix">%s</string>

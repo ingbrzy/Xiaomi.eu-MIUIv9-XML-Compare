@@ -888,6 +888,7 @@ Switch to the new provider anyway?"</string>
   <string name="missed_call_notify_times_summary">reminders are separated by 5 minute intervals</string>
   <string name="missed_call_notify_times_title">Missed call reminders</string>
   <string name="missed_call_notify_twice">2 times</string>
+  <string name="miui_notification_network_selection_text" formatted="false">SIM %s Selected network (%s) unavailable</string>
   <string name="mmiCancelled">MMI code canceled</string>
   <string name="mmiStarted">MMI code started</string>
   <string name="mobile_data_always_on">Cellular data always active</string>
@@ -1040,6 +1041,7 @@ After pressing “Activate”, listen to the instructions provided to activate y
 You may need to find an area with better coverage (near a window, or outside). 
 
 Try again or call customer service for more options."</string>
+  <string name="other_available_phone_accounts">Other available accounts</string>
   <string name="other_settings">Other call settings</string>
   <string name="other_settings_category">Other</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
@@ -1090,6 +1092,7 @@ Try again or call customer service for more options."</string>
   <string name="payphone">Payphone</string>
   <string name="phoneAppLabel">Phone Services</string>
   <string name="phoneIconLabel">Phone</string>
+  <string name="phone_account_settings">Calling accounts</string>
   <string name="phone_accounts">Calling accounts</string>
   <string name="phone_accounts_add_sip_account">Add SIP account</string>
   <string name="phone_accounts_all_calling_accounts">All calling accounts</string>
@@ -1225,6 +1228,7 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="preferred_network_type_pref_entries_only_3g">3G only</string>
   <string name="preferred_network_type_td_scdma">GSM/TD-SCDMA</string>
   <string name="preferred_network_type_title">Preferred network type</string>
+  <string name="preferred_phone_account">Preferred calling account</string>
   <string name="private_num">Private number</string>
   <string name="process_kernel_label">Android OS</string>
   <string name="progress_dialog_exiting_ecm">Exiting Emergency Callback mode</string>
@@ -1267,7 +1271,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="registration_status_server_unreachable">Account registration unsuccessful: Check the server name.</string>
   <string name="registration_status_still_trying">Still trying…</string>
   <string name="reject_via_sms">Quick responses</string>
-  <string name="reject_via_sms_summary">Edit pre-written text messages</string>
+  <string name="reject_via_sms_summary">Show buttons for ending call and sending SMS</string>
   <string name="reject_via_sms_title">Quick responses</string>
   <string name="remaining_length_format">%1$s left</string>
   <string name="remove">Remove</string>
@@ -1392,6 +1396,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="simContacts_emptyLoading">Reading from SIM card…</string>
   <string name="simContacts_title">Select contacts to import</string>
   <string name="simFdnContacts_empty">No fixed dialing contacts.</string>
+  <string name="sim_accounts">SIM accounts</string>
   <string name="sim_card_num">SIM %s</string>
   <string name="sim_contact_name">Name</string>
   <string name="sim_contact_number">Number</string>
@@ -1641,6 +1646,7 @@ Contact your carrier if this problem persists."</string>
   <string name="volte_provision_text">VoLTE calls provide better quality than regular calls. Send SMS to activate?</string>
   <string name="volte_provision_title">Activate VoLTE calls</string>
   <string name="volte_switch_not_support_summary">"VoLTE calls aren't supported for the mobile data SIM card."</string>
+  <string name="volte_switch_not_support_summary2">"VoLTE calls aren't supported by the carrier."</string>
   <string name="volte_switch_summary">Use VoLTE to improve voice and video call quality</string>
   <string name="volte_switch_title">VoLTE enabled</string>
   <string name="vpn_settings_not_available">VPN settings are not available for this user</string>
