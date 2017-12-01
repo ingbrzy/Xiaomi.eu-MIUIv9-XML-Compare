@@ -377,8 +377,8 @@
   <string name="no_network">"Couldn't connect to network, try again later"</string>
   <string name="no_network_btn">Try again</string>
   <string name="notification_summary_after_auto_cleanup">Cleaned %s.</string>
-  <string name="notification_summary_of_garbage_cleanup">Your trash is over %s.</string>
-  <string name="notification_title_of_garbage_cleanup">Trash size</string>
+  <string name="notification_summary_of_garbage_cleanup">Tap to free up space.</string>
+  <string name="notification_title_of_garbage_cleanup">%s of trash files</string>
   <string name="notify_when">Get a notification when trash size reaches 100MB</string>
   <string name="ok">OK</string>
   <string name="open">Turn on</string>
@@ -545,7 +545,7 @@
   <string name="total_clean">Total cleaned: %s</string>
   <string name="total_clean_text">Clear</string>
   <string name="update_date_format">MM/dd/yyyy</string>
-  <string name="virus_scan">Virus scan</string>
+  <string name="virus_scan">Security scan</string>
   <string name="vungle_ad_name">Vungle广告</string>
   <string name="wechat_cache_files">WeChat cache</string>
   <string name="wechat_chat_clean_done">Everything looks good</string>
