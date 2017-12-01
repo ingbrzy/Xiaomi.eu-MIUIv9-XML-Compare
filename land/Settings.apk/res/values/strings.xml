@@ -677,6 +677,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bluetooth_unlock_turned_on">On</string>
   <string name="bluetooth_untether_blank">%1$s will be untethered.</string>
   <string name="bluetooth_visibility_timeout">Visibility timeout</string>
+  <string name="bluetooth_wake">Wake with Bluetooth audio</string>
   <string name="bootloader">Fastboot mode</string>
   <string name="bootloader_apply_step_1">Turn on Fastboot mode?</string>
   <string name="bootloader_apply_step_2">When your device is in Fastboot mode and connected to the computer,</string>
@@ -2261,6 +2262,7 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_piston_color">Color Edition</string>
   <string name="music_dirac_mode_piston_standard">Standard Edition</string>
   <string name="music_dirac_mode_piston_youth">Youth Edition</string>
+  <string name="music_dirac_mode_reduction_noise">Reduce Noise TypeC</string>
   <string name="music_dolby_mode_movie">Video</string>
   <string name="music_dolby_mode_music">Music</string>
   <string name="music_dolby_mode_off">Off</string>
@@ -3341,6 +3343,8 @@ To use screen pinning:
   <string name="settings_license_activity_loading">Loading…</string>
   <string name="settings_license_activity_title">Open source licenses</string>
   <string name="settings_license_activity_unavailable">There is a problem loading the licenses.</string>
+  <string name="settings_notify_need_backup">Back up your settings to Mi Cloud to access them after you switch phones.</string>
+  <string name="settings_notify_phone_recycled">Your phone number has been recycled. Tap to add a different phone number.</string>
   <string name="settings_package">com.android.settings</string>
   <string name="settings_safetylegal_activity_loading">Loading…</string>
   <string name="settings_safetylegal_activity_title">Safety information</string>
@@ -3745,6 +3749,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="storageuse_settings_title">Storage use</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
+  <string name="suggestion_for_phone_recycled">Add a different phone number</string>
   <string name="sum_carrier_select">Choose a network operator</string>
   <string name="summary_divider_text">", "</string>
   <string name="summary_font_size">%1$s</string>
@@ -3798,6 +3803,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_apps_updater">System apps updater</string>
   <string name="system_backup_section_title">Backup</string>
   <string name="system_package">System updates can’t be installed on external media.</string>
+  <string name="system_shortcut_wake">Wake with button shortcuts</string>
   <string name="system_storage">System storage</string>
   <string name="system_ui_settings">Show SystemUI Tuner</string>
   <string name="system_update_settings_list_item_summary"/>
@@ -4220,6 +4226,7 @@ Tap the plus to add words."</string>
   <string name="virus_scanner_title">Virus scanner</string>
   <string name="virus_scanner_update_lib">Update definitions</string>
   <string name="voice_category">Speech</string>
+  <string name="voice_helper_title">Voice assistant</string>
   <string name="voice_input_output_settings">Voice input &amp; output</string>
   <string name="voice_input_output_settings_title">Voice input &amp; output settings</string>
   <string name="voice_input_settings">Voice input settings</string>
