@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_time">EEE, MMMM dd</string>
-    <string name="date_time_12">EEE, MMMM dd</string>
+    <string name="date_time">EEE, dd MMMM</string>
+    <string name="date_time_12">EEE, dd MMMM</string>
     <string name="desc_date_format">dd MMM, EEEE</string>
     <string name="desc_date_format_12">dd MMM, EEEE</string>
     <string name="desc_time">'masa semasa\' + #hour12+\' \'+ifelse(#minute,#minute,\'oclock\')+\', klik berganda untuk masuk apl jam'</string>

@@ -774,6 +774,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bluetooth_unlock_turned_on">On</string>
   <string name="bluetooth_untether_blank">%1$s will be untethered.</string>
   <string name="bluetooth_visibility_timeout">Visibility timeout</string>
+  <string name="bluetooth_wake">Wake with Bluetooth audio</string>
   <string name="bootloader">Fastboot mode</string>
   <string name="bootloader_apply_step_1">Turn on Fastboot mode?</string>
   <string name="bootloader_apply_step_2">When your device is in Fastboot mode and connected to the computer,</string>
@@ -1465,19 +1466,6 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="doze_title">Ambient display</string>
   <string name="draw_overlay">Draw over other apps</string>
   <string name="draw_overlay_title">Apps that can draw over other apps</string>
-  <string name="drive_mode">Car mode</string>
-  <string name="drive_mode_auto_reply">Quick response</string>
-  <string name="drive_mode_auto_sms_reply_content">"Driving now... I'll call you later"</string>
-  <string name="drive_mode_auto_sms_reply_content_title">Quick response</string>
-  <string name="drive_mode_calling_auto_sms_reply">Reply to calls</string>
-  <string name="drive_mode_invert_stop_report">Turn phone over to silence</string>
-  <string name="drive_mode_only_contact_reply">Only reply to Contacts</string>
-  <string name="drive_mode_phone_report">Incoming call info</string>
-  <string name="drive_mode_settings">Car mode settings</string>
-  <string name="drive_mode_sms_auto_sms_reply">Reply to SMS</string>
-  <string name="drive_mode_sms_report">Messages</string>
-  <string name="drive_mode_title">Car mode</string>
-  <string name="drive_mode_voice_report">Text-to-speech output</string>
   <string name="dtmf_tone_enable_title">Dial pad tones</string>
   <string name="edge_mode_back">Go back</string>
   <string name="edge_mode_back_summary">Double tap the edge of your phone to go back</string>
@@ -1504,7 +1492,6 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="enable_adb">USB debugging</string>
   <string name="enable_adb_summary">Debug mode when USB is connected</string>
   <string name="enable_compatibility">Scale app</string>
-  <string name="enable_drive_mode">Car mode</string>
   <string name="enable_freeform_support">Enable freeform windows</string>
   <string name="enable_freeform_support_summary">Enable support for experimental freeform windows.</string>
   <string name="enable_mobile_data_when_opening_hotspot">Turn on mobile data connection too?</string>
@@ -1644,6 +1631,7 @@ This helps protect data on lost or stolen devices."</string>
   <string name="fingerprint_manage_tittle">Fingerprint</string>
   <string name="fingerprint_not_identified_msg">"Couldn't read fingerprint. Enter your password"</string>
   <string name="fingerprint_not_recognized">Not recognized</string>
+  <string name="fingerprint_payment">Fingerprint payments</string>
   <string name="fingerprint_removal_failed">"Couldn't remove fingerprint, try again later"</string>
   <string name="fingerprint_unlock_set_unlock_password">Fingerprint + Password</string>
   <string name="fingerprint_unlock_set_unlock_pattern">Fingerprint + Pattern</string>
@@ -1885,6 +1873,9 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="incoming_call_breathing_light_color_title">Calls light color</string>
   <string name="incoming_call_breathing_light_freq_title">Calls pulse frequency</string>
   <string name="incoming_call_volume_title">Ringtone</string>
+  <string name="infinity_display_settings">Full screen display</string>
+  <string name="infinity_display_slogan">Continued growth in unexplored technology</string>
+  <string name="infinity_display_title">Full screen display</string>
   <string name="information_dialog_button_text">Got it</string>
   <string name="input_method">Keyboard</string>
   <string name="input_method_selector">Input method selector</string>
@@ -2495,6 +2486,7 @@ There are other users present on this device.
   <string name="mock_location_app_set">Mock location app: %1$s</string>
   <string name="mode_disable">Off</string>
   <string name="mode_enable">On</string>
+  <string name="model_name">Model name</string>
   <string name="model_number">Model number</string>
   <string name="modify_instruction_password_settings">Set password</string>
   <string name="modify_privacy_password">Change password</string>
@@ -2558,6 +2550,7 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_piston_color">Color Edition</string>
   <string name="music_dirac_mode_piston_standard">Standard Edition</string>
   <string name="music_dirac_mode_piston_youth">Youth Edition</string>
+  <string name="music_dirac_mode_reduction_noise">Reduce Noise TypeC</string>
   <string name="music_dolby_mode_movie">Video</string>
   <string name="music_dolby_mode_music">Music</string>
   <string name="music_dolby_mode_off">Off</string>
@@ -3768,6 +3761,8 @@ Note: Your fingerprint may be less secure than a strong pattern or PIN. "&lt;ann
   <string name="settings_license_activity_unavailable">There is a problem loading the licenses.</string>
   <string name="settings_manual_activity_title">Manual</string>
   <string name="settings_manual_activity_unavailable">There is a problem loading the manual.</string>
+  <string name="settings_notify_need_backup">Back up your settings to Mi Cloud to access them after you switch phones.</string>
+  <string name="settings_notify_phone_recycled">Your phone number has been recycled. Tap to add a different phone number.</string>
   <string name="settings_package">com.android.settings</string>
   <string name="settings_safetylegal_activity_loading">Loading…</string>
   <string name="settings_safetylegal_activity_title">Safety information</string>
@@ -3961,6 +3956,7 @@ Possibly incorrect PIN."</string>
   <string name="spellchecker_security_warning">This spell checker may be able to collect all the text you type, including personal data like passwords and credit card numbers. It comes from the app %1$s. Use this spell checker?</string>
   <string name="spellchecker_switch_title">Turn on Spell checker</string>
   <string name="spellcheckers_settings_title">Spell checker</string>
+  <string name="split_screen">Enter split screen</string>
   <string name="ssid_label">SSID:</string>
   <string name="ssl_ca_cert_warning">Network may be monitored</string>
   <string name="ssl_ca_cert_warning_message">"A third party is capable of monitoring your network activity, including emails, apps, and secure websites.
@@ -3982,7 +3978,6 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_key_position_custom">Change button positions</string>
   <string name="status_bar_notification_info_overflow">999+</string>
   <string name="status_bar_screen_button_force_immersive_desc">Swipe up from the bottom of the screen to show soft buttons</string>
-  <string name="status_bar_screen_button_key">Screen buttons</string>
   <string name="status_bar_screen_button_key_force_immersive">Hide soft buttons</string>
   <string name="status_bar_screen_key_back">Back button</string>
   <string name="status_bar_screen_key_home">Home button</string>
@@ -4200,6 +4195,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="suggested_lock_settings_title">Screen lock</string>
   <string name="suggestion_additional_fingerprints">Add another fingerprint</string>
   <string name="suggestion_additional_fingerprints_summary">Unlock with a different fingerprint</string>
+  <string name="suggestion_for_phone_recycled">Add a different phone number</string>
   <string name="suggestion_remove">Remove</string>
   <string name="suggestions_title">Suggestions (%1$d)</string>
   <string name="sum_carrier_select">Choose a network operator</string>
@@ -4255,6 +4251,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="system_backup_section_title">Backup</string>
   <string name="system_default_app">(System default)</string>
   <string name="system_package">System updates can’t be installed on external media.</string>
+  <string name="system_shortcut_wake">Wake with button shortcuts</string>
   <string name="system_storage">System storage</string>
   <string name="system_ui_settings">Show SystemUI Tuner</string>
   <string name="system_update_settings_list_item_summary"/>
@@ -4272,7 +4269,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="tether_and_hotspot_title">Tethering &amp; portable hotspot</string>
   <string name="tether_devices_management_title">Manage devices</string>
   <string name="tether_devices_max_number">Limit of connected devices</string>
-  <string name="tether_settings_disabled">Personal hotspot is off</string>
+  <string name="tether_settings_disabled">Portable hotspot is off</string>
   <string name="tether_settings_disabled_on_data_saver">Can’t tether or use portable hotspots while Data Saver is on</string>
   <string name="tether_settings_launch_title">Mobile HotSpot</string>
   <string name="tether_settings_title_all">Tethering &amp; portable hotspot</string>
@@ -4734,6 +4731,7 @@ Tap the plus to add words."</string>
   <string name="vision_settings_description">You can customize this device to fit your needs. These accessibility features can be changed later in Settings.</string>
   <string name="vision_settings_title">Vision Settings</string>
   <string name="voice_category">Speech</string>
+  <string name="voice_helper_title">Voice assistant</string>
   <string name="voice_input_output_settings">Voice input &amp; output</string>
   <string name="voice_input_output_settings_title">Voice input &amp; output settings</string>
   <string name="voice_input_settings">Voice input settings</string>
@@ -5203,7 +5201,7 @@ Tap "&lt;b&gt;Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_tether_failed_subtext">Portable hotspot error</string>
   <string name="wifi_tether_first_use_message">Set up Mobile HotSpot at the First Use</string>
   <string name="wifi_tether_setting_title">Settings</string>
-  <string name="wifi_tether_settings_title">Personal hotspot</string>
+  <string name="wifi_tether_settings_title">Portable hotspot</string>
   <string name="wifi_tether_starting">Turning hotspot on…</string>
   <string name="wifi_tether_stopping">Turning off hotspot…</string>
   <string name="wifi_type_approval"/>

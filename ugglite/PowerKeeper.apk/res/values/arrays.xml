@@ -176,6 +176,10 @@
         <item>Current temperature control mode</item>
         <item>Current performance mode</item>
     </string-array>
+    <string-array name="power_mode_entries">
+        <item>Performance</item>
+        <item>Balanced</item>
+    </string-array>
     <array name="read_enable" />
     <string-array name="read_disable">
         <item>com.chaozh.iReaderFree</item>
