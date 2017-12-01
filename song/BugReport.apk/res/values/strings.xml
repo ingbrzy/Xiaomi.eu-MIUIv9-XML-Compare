@@ -56,6 +56,7 @@
   <string name="feedback_bug_status_change_notification_desc">%1$s issue \"%2$s\"</string>
   <string name="feedback_choose_module">Select item</string>
   <string name="feedback_choose_module_hint">Required</string>
+  <string name="feedback_choose_reproductivity">Reproductivity</string>
   <string name="feedback_choose_third_app_name">Select app name</string>
   <string name="feedback_collect_log_failed">"Couldn't get logs"</string>
   <string name="feedback_contact_info_hint">Phone number/Email</string>
@@ -113,6 +114,7 @@
   <string name="feedback_third_packagename_hint">Which third party app causes problems?</string>
   <string name="feedback_title">Title</string>
   <string name="feedback_title_hint">Describe the issue briefly</string>
+  <string name="feedback_title_reproductivity">Select reproductivity</string>
   <string name="feedback_tracking">Track issues</string>
   <string name="feedback_version_label">Version</string>
   <string name="feesback_list">Reports</string>
