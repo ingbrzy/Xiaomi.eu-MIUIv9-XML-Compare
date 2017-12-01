@@ -15,6 +15,7 @@
   <string name="account_error_longer_user_name">"Name can't exceed 20 characters"</string>
   <string name="account_error_shorter_user_name">Name must be longer than 2 characters</string>
   <string name="account_error_user_birthday">The birthday you entered is invalid</string>
+  <string name="account_global_region">Overseas</string>
   <string name="account_has_been_set">Change</string>
   <string name="account_limit_update_birthday">"Can't update birthday right now"</string>
   <string name="account_mibi_center">Mi Credits</string>
@@ -306,7 +307,7 @@ To activate your account, follow the
   <string name="passport_reg_recycle_account_yes">Yes</string>
   <string name="passport_reg_success">Account created</string>
   <string name="passport_reg_success_summary">%1$s has been bound with your account. You can use it to sign in or to reset your password.</string>
-  <string name="passport_reg_type_email">Use email address</string>
+  <string name="passport_reg_type_email">Email address</string>
   <string name="passport_reg_using_other_phone">&lt;u&gt;Use alternate phone number&lt;/u&gt;</string>
   <string name="passport_reg_using_other_phone_number_prompt">"Create a new account using "</string>
   <string name="passport_reg_using_phone_number_prompt">Create account using phone number</string>

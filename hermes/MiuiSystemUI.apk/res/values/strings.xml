@@ -214,8 +214,8 @@ Use only the supplied charger."</string>
   <string name="notification_otg_unknow_in">OTG device connected</string>
   <string name="notification_otg_unknow_out">OTG device disconnected</string>
   <string name="notification_template_text">" has a notification. Tap to view."</string>
-  <string name="oldman_airplane_mode_text">airplane</string>
-  <string name="oldman_incall_text">incall</string>
+  <string name="oldman_airplane_mode_text">Airplane</string>
+  <string name="oldman_incall_text">Back to call</string>
   <string name="oldman_status_bar_time_format_12">h:mm</string>
   <string name="oldman_status_bar_time_format_24">HH:mm</string>
   <string name="quick_settings_bluetooth_detail_empty_text">No paired devices available</string>
