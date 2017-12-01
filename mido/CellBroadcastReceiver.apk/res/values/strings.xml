@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="add_channel">Add Channel</string>
+  <string name="alert_message">Alert Message</string>
   <string name="alert_reminder_interval_summary"/>
   <string name="alert_reminder_interval_title">Alert reminder</string>
   <string name="alert_sound_duration_summary"/>
@@ -78,6 +79,7 @@
   <string name="delivery_time_heading">Received:</string>
   <string name="disable">Disable</string>
   <string name="done_text">Done</string>
+  <string name="emergency_alert">Emergency Alert</string>
   <string name="emergency_alert_settings_title">Emergency alert settings</string>
   <string name="enable">Enable</string>
   <string name="enable_alert_speech_summary">Use text-to-speech to speak emergency alert messages</string>
@@ -122,6 +124,7 @@
   <string name="pws_other_message_identifiers">Emergency alert</string>
   <string name="reading_settings">Reading settings</string>
   <string name="receive_broad_cast">Receive Cell BroadCast SMS</string>
+  <string name="required_monthly_test">Required Monthly Test</string>
   <string name="show_cmas_opt_out_summary">Show an opt-out dialog after displaying the first CMAS alert (other than Presidential Alert).</string>
   <string name="show_cmas_opt_out_title">Show opt-out dialog</string>
   <string name="sms_cb_settings">Cell Broadcast settings</string>
