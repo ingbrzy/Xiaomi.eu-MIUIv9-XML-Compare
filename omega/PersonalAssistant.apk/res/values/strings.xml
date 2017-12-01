@@ -1153,8 +1153,8 @@ Check your tracking number."</string>
   <string name="not_install_c3">Download</string>
   <string name="not_install_c4">No thanks</string>
   <string name="not_installed">Not installed</string>
-  <string name="note_name">Create a note</string>
-  <string name="note_parent">A brief note</string>
+  <string name="note_name">Create</string>
+  <string name="note_parent">Notes</string>
   <string name="notification_content_fail_not_support">"Couldn't get payment info, add the record manually."</string>
   <string name="notification_content_fail_stay_longer">Stay on the payment page for at least 1 second</string>
   <string name="notification_content_success">%2$s CNY payment in %1$s</string>
