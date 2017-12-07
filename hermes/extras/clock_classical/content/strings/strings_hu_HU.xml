@@ -4,5 +4,5 @@
     <string name="date_time_12">MMMM dd., EEE</string>
     <string name="desc_date_format">MMM dd., EEEE</string>
     <string name="desc_date_format_12">MMM dd., EEEE</string>
-    <string name="desc_time">'jelenlegi idő\' + #hour12+\' \'+ifelse(#minute,#minute,\'oclock\')+\', érintse meg kétszer az óra megnyitásához'</string>
+    <string name="desc_time">'jelenlegi idő\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', érintse meg kétszer az óra megnyitásához'</string>
 </resources>
