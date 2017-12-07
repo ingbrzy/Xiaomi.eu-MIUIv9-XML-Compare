@@ -65,7 +65,7 @@
   <string name="class_0_message_activity">Class 0 message</string>
   <string name="close">Close</string>
   <string name="cloud_recommend_msg">Tap to sync messages with Mi Cloud.</string>
-  <string name="cloud_state_disabled">Sync with Mi Cloud is off</string>
+  <string name="cloud_state_disabled">Turn on sync with Mi Cloud to sync messages</string>
   <string name="cloud_state_sync_finished">Synced with Mi Cloud</string>
   <string name="cloud_state_syncing">Syncing with Mi Cloud…</string>
   <string name="cmcc_key">43a489fcb42b4372b10f0586fe6dbf88</string>
