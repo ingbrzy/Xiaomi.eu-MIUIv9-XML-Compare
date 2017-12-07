@@ -18,6 +18,8 @@
   <string name="date_day"/>
   <string name="date_month">/</string>
   <string name="date_year">/</string>
+  <string name="description_content">Screen recording provides system-level recording capabilities. This action means that you will discard the screen recording feature. Confirm Continue.</string>
+  <string name="description_title">About Screen Recorder</string>
   <string name="deselect_all">Deselect all</string>
   <string name="error_open_file_failed_no_app_found">"Couldn't find an app to open this file"</string>
   <string name="frames">Frame rate</string>

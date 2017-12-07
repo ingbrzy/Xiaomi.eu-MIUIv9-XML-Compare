@@ -16,6 +16,10 @@
         <item quantity="other">%1$d of %2$d</item>
         <item quantity="one">1 match</item>
     </plurals>
+    <plurals name="nav_screen_incognito_time">
+        <item quantity="other">After %d seconds will automatically create a new page</item>
+        <item quantity="one">After %d second will automatically create a new page</item>
+    </plurals>
     <plurals name="transfer_prompt">
         <item quantity="other">Play video in %1$d seconds</item>
         <item quantity="one">Play video in %1$d second</item>
@@ -43,9 +47,5 @@
     <plurals name="video_subtitle_last_message">
         <item quantity="other">%d minutes remaining</item>
         <item quantity="one">%d minute remaining</item>
-    </plurals>
-    <plurals name="nav_screen_incognito_time">
-        <item quantity="other">After %d seconds will automatically create a new page</item>
-        <item quantity="one">After %d second will automatically create a new page</item>
     </plurals>
 </resources>
