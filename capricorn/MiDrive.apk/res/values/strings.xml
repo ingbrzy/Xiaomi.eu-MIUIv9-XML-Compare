@@ -21,7 +21,6 @@
   <string name="create_new_folder_failed">"Couldn't create folder."</string>
   <string name="delete_failed">"Can't delete"</string>
   <string name="delete_failed_retry">"Can't delete, wait %1$s and try again"</string>
-  <string name="delete_file">Delete this file?</string>
   <string name="delete_success">File deleted</string>
   <string name="download_current_progress">%1$d%%</string>
   <string name="download_failed">"Couldn't download"</string>

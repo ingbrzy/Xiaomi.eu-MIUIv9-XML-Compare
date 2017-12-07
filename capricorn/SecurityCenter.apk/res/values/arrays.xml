@@ -61,6 +61,7 @@
         <item>Usage frequency</item>
         <item>Used storage</item>
         <item>Installation time</item>
+        <item>You can uninstall these apps</item>
     </string-array>
     <string-array name="sort_title">
         <item>Sort by status</item>
@@ -68,6 +69,7 @@
         <item>Sort by usage frequency</item>
         <item>Sort by used storage</item>
         <item>Sort by installation time</item>
+        <item>Show apps that can be uninstalled first</item>
     </string-array>
     <string-array name="always_enabled_app_list">
         <item>com.android.providers.applications</item>
