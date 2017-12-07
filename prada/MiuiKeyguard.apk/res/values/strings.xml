@@ -103,6 +103,7 @@
   <string name="keyguard_torch_cover_text">To keep torch on, hold the Power button</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
+  <string name="lock_screen_no_sim_card">No SIM card</string>
   <string name="lock_wallpaper_enter">Enter</string>
   <string name="lock_wallpaper_learn_more">More</string>
   <string name="lockscreen_access_pattern_cell_added">Cell added</string>
