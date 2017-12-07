@@ -15,6 +15,7 @@
   <string name="account_error_longer_user_name">"Name can't exceed 20 characters"</string>
   <string name="account_error_shorter_user_name">Name must be longer than 2 characters</string>
   <string name="account_error_user_birthday">The birthday you entered is invalid</string>
+  <string name="account_error_user_name">The name you entered is invalid</string>
   <string name="account_global_region">Overseas</string>
   <string name="account_has_been_set">Change</string>
   <string name="account_limit_update_birthday">"Can't update birthday right now"</string>
@@ -24,7 +25,7 @@
   <string name="account_none">None</string>
   <string name="account_none_binded_info">None</string>
   <string name="account_none_user_name">None</string>
-  <string name="account_notification_message">Session expired. Sign in again.</string>
+  <string name="account_notification_message">&gt;Session expired. Sign in again.</string>
   <string name="account_protection">Account protection</string>
   <string name="account_protection_off">Off</string>
   <string name="account_protection_on">On</string>
@@ -213,7 +214,7 @@ To activate your account, follow the
  link we've sent to your inbox."</string>
   <string name="passport_completed">Finish</string>
   <string name="passport_confirm_recycle_account">Yes</string>
-  <string name="passport_confirm_recycle_account_msg">%s &lt;font color=Red&gt;疑似&lt;/font&gt;是运营商回收后再次收买的号码，该号码下已有小米帐号，这个帐号是你的吗？</string>
+  <string name="passport_confirm_recycle_account_msg">"&lt;font color=Red&gt;Looks like&lt;/font&gt; the number %s has been recycled by your carrier, and there's a Mi Account associated with it. Is this account yours?"</string>
   <string name="passport_continue">Continue</string>
   <string name="passport_copy_message_text_success">Copied successfully</string>
   <string name="passport_copy_message_vcode">Copy code</string>
@@ -251,6 +252,10 @@ To activate your account, follow the
   <string name="passport_forget_password">&lt;u&gt;Forgot password&lt;/u&gt;</string>
   <string name="passport_forget_password_no_underline">Forgot password</string>
   <string name="passport_get_back_pwd">Retrieve account password</string>
+  <string name="passport_get_innetdate_agree">Check</string>
+  <string name="passport_get_innetdate_disagree">No</string>
+  <string name="passport_get_innetdate_msg">&lt;font color=Red&gt;Looks like&lt;/font&gt; the number %s has been recycled by your carrier. Check when the number went online?</string>
+  <string name="passport_get_innetdate_title">Check when the number went online</string>
   <string name="passport_get_verify_code">Get code</string>
   <string name="passport_getting_activator_phone">Getting SIM info…</string>
   <string name="passport_getting_verify_code">Getting</string>
@@ -271,7 +276,7 @@ To activate your account, follow the
   <string name="passport_login_instead_reg_with_email">Use this email</string>
   <string name="passport_login_other_account">Another account</string>
   <string name="passport_login_prompt">One Mi Account. All Mi services.</string>
-  <string name="passport_login_recycle_account_no">Nope</string>
+  <string name="passport_login_recycle_account_no">No</string>
   <string name="passport_login_recycle_account_yes">Yes</string>
   <string name="passport_login_title">Sign in to your Mi Account</string>
   <string name="passport_login_using_other_ways">&lt;u&gt;Other ways to sign in&lt;/u&gt;</string>
@@ -303,7 +308,7 @@ To activate your account, follow the
   <string name="passport_reg_failed">"Can't set up account"</string>
   <string name="passport_reg_new_account">Create account</string>
   <string name="passport_reg_prompt">"Don't have a Mi Account? Create one for free."</string>
-  <string name="passport_reg_recycle_account_no">Nope</string>
+  <string name="passport_reg_recycle_account_no">No</string>
   <string name="passport_reg_recycle_account_yes">Yes</string>
   <string name="passport_reg_success">Account created</string>
   <string name="passport_reg_success_summary">%1$s has been bound with your account. You can use it to sign in or to reset your password.</string>
@@ -387,6 +392,8 @@ To activate your account, follow the
   <string name="push_notify_dialog_message">"An unknown device is used to sign in to your Mi Account. Enter this verification code on the device. If that wasn't you, change your Mi Account password right away. Don't disclose the verification code to other people."</string>
   <string name="push_notify_dialog_title">Account verification</string>
   <string name="qq">QQ</string>
+  <string name="recycle_phone_notification_msg">Looks like your phone number has been recycled. Tap to update.</string>
+  <string name="recycle_phone_notification_title">Mi Account security risk</string>
   <string name="remove_device_success_notice">If you remove this device from your trusted devices, you may need to go the verification process again when you sign in.​</string>
   <string name="remove_trust_btn">Remove from trusted devices</string>
   <string name="remove_trust_notice">Remove from trusted devices and sign out</string>
@@ -420,6 +427,8 @@ To activate your account, follow the
   <string name="service_error">Service error</string>
   <string name="set_success">Changed successfully</string>
   <string name="sign_in">Signing in</string>
+  <string name="sim_changed_notification_msg">Tap to update your recovery phone and keep your account more secure.</string>
+  <string name="sim_changed_notification_title">Changed phone number?</string>
   <string name="sina_weibo">Sina Weibo</string>
   <string name="sms_send_success">Sent</string>
   <string name="sns_access_token_expired_warning">Account sign-in has expired. Sign in again to reconnect this account.</string>

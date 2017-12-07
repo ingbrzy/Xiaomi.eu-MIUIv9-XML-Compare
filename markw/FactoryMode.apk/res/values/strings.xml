@@ -283,7 +283,9 @@
   <string name="touchpanel_test_str">Please Click the button</string>
   <string name="unknown">unknown</string>
   <string name="version_Info">Version Info</string>
+  <string name="vibrator_istestting">Vibrator testing.</string>
   <string name="vibrator_stop">Vibrator stop</string>
+  <string name="vibrator_test_retry">Vibrator auto-test fail. Please test manually again!</string>
   <string name="vibrator_testting">Vibrator testing,Press The Stop Button when you want to stop.</string>
   <string name="vibrator_testting_1">Vibrator Test</string>
   <string name="wifiDisabled">WLAN card is unavailable</string>
