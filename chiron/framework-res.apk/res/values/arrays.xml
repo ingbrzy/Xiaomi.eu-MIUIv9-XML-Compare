@@ -1186,6 +1186,7 @@
     <array name="carrier_properties" />
     <integer-array name="config_manualBrightnessRemapIn">
         <item>1</item>
+        <item>15</item>
         <item>30</item>
         <item>60</item>
         <item>128</item>
@@ -1194,6 +1195,7 @@
     </integer-array>
     <integer-array name="config_manualBrightnessRemapOut">
         <item>1</item>
+        <item>2</item>
         <item>8</item>
         <item>20</item>
         <item>60</item>
