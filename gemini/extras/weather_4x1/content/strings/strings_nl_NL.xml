@@ -16,14 +16,14 @@
     <string name="weather_type_12">Ijzel</string>
     <string name="weather_type_13">Sneeuwstorm</string>
     <string name="weather_type_14">Flarden van sneeuw</string>
-    <string name="weather_type_15">Hevig sneeuwen</string>
-    <string name="weather_type_16">Sneeuwen</string>
-    <string name="weather_type_17">Licht sneeuwen</string>
+    <string name="weather_type_15">Hevige sneeuwbui</string>
+    <string name="weather_type_16">Sneeuw</string>
+    <string name="weather_type_17">Lichte sneeuwbui</string>
     <string name="weather_type_18">Hevige zandstorm</string>
     <string name="weather_type_19">Zandstorm</string>
-    <string name="weather_type_20">Lichte zanstorm</string>
+    <string name="weather_type_20">Lichte zandstorm</string>
     <string name="weather_type_21">Zandstorm</string>
-    <string name="weather_type_22">Hazeagel</string>
+    <string name="weather_type_22">Hagel</string>
     <string name="weather_type_23">Zwevend stof</string>
     <string name="weather_type_24">Nevel</string>
 </resources>
