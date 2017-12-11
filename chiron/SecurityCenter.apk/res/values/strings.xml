@@ -734,8 +734,7 @@
   <string name="firewall_applist">Apps</string>
   <string name="firewall_fragment_nonesys_listempty">Empty</string>
   <string name="firewall_fragment_sys_listempty">Empty</string>
-  <string name="firewall_fragment_tab_title_nonsys">Installed</string>
-  <string name="firewall_fragment_tab_title_sys">System</string>
+  <string name="firewall_mobile">Mobile data</string>
   <string name="firewall_mobile_dialog_message">"The installed app won't be able to connect to the internet using mobile data when this switch is off."</string>
   <string name="firewall_network_allow">Allowed %1$s to use %2$s connection</string>
   <string name="firewall_network_restrict_notify_message">Tap to change settings.</string>
@@ -747,9 +746,9 @@
   <string name="firewall_restrict_data">Restrict mobile data usage</string>
   <string name="firewall_restrict_notify_title">"%s can't use network"</string>
   <string name="firewall_restrict_wlan">Restrict using WLAN connection</string>
-  <string name="firewall_rule_group_title_mobile">Mobile</string>
   <string name="firewall_rule_group_title_roaming">Overseas roaming</string>
-  <string name="firewall_rule_group_title_wifi">WLAN</string>
+  <string name="firewall_system_title">Data usage for system apps</string>
+  <string name="firewall_wifi">WLAN</string>
   <string name="firewall_wifi_dialog_message">"The installed app won't be able to connect to the internet using WLAN when this switch is off.​"</string>
   <string name="five_percent_total_pkg">%s (5%% of monthly data)</string>
   <string name="float_window">桌面悬浮窗</string>
@@ -1152,7 +1151,6 @@ to respond"</string>
   <string name="name">Name</string>
   <string name="net_booster">Network speed boost</string>
   <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
-  <string name="net_booster_expire_notification_tip">%d d remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</string>
   <string name="net_booster_overdue_notification">Network speed boost session is about to end</string>
   <string name="net_booster_overdue_notification_tip">Network speed boost session will end soon. Renew the session?</string>
   <string name="net_booster_tip">Turn on Network speed boost to make WLAN connection more stable and reduce network delay.</string>
@@ -1517,8 +1515,8 @@ This activity shortens battery life."</string>
   <string name="pref_key_half_year_package_start">Starting date</string>
   <string name="pref_key_half_year_package_switch">Half-year data package</string>
   <string name="pref_key_half_year_package_value">Package size</string>
-  <string name="pref_key_new_installed_app_firewall_mobile">pref_key_new_installed_app_firewall_mobile</string>
-  <string name="pref_key_new_installed_app_firewall_wifi">pref_key_new_installed_app_firewall_wifi</string>
+  <string name="pref_key_tethering_setting">One-time data limit</string>
+  <string name="pref_key_tethering_title">One-time data limit</string>
   <string name="pref_manual_adjust">Set data usage stats manually</string>
   <string name="pref_mi_sim_settings">Mi SIM Settings</string>
   <string name="pref_more_settings">Additional settings</string>
@@ -2051,6 +2049,14 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="tc_sms_report_upload_success">"Data usage report SMS submitted. We'll get right on it!"</string>
   <string name="tc_sms_report_upload_when_net">Thank you for the feedback!</string>
   <string name="ten_percent_total_pkg">%s (10%% of monthly data)</string>
+  <string name="tether_custom_dialog_title">Mobile data limit</string>
+  <string name="tether_limit_dialog_title">Mobile data limit</string>
+  <string name="tether_limit_value_custom">Custom</string>
+  <string name="tether_over_limit_dialog_cancle_btn">Reset hotspot</string>
+  <string name="tether_over_limit_dialog_message">You reached portable hotspot data limit.</string>
+  <string name="tether_over_limit_dialog_title">Data usage warning</string>
+  <string name="tether_over_limit_warning_notify_message">Turn off portable hotspot.</string>
+  <string name="tether_over_limit_warning_notify_title">Reached hotspot data limit</string>
   <string name="text_alarm_after">"今年的红包活动已全部结束
 期待与您来年重聚"</string>
   <string name="text_alarm_before">"今年的红包活动即将开始

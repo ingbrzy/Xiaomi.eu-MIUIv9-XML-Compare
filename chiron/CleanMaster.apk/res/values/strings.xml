@@ -452,6 +452,7 @@
   <string name="qq_cache_files">QQ cache</string>
   <string name="qq_clean">QQ cleaner</string>
   <string name="qq_clean_exit_confirm_msg">Stop scanning and exit now?</string>
+  <string name="qq_clean_finish_summary">Deleted selected files successfully</string>
   <string name="qq_data_type_cache">QQ cache</string>
   <string name="qq_data_type_cache_desc">"You'll be able to restore these files after you connect to the internet."</string>
   <string name="qq_data_type_chat">Chat history</string>
@@ -544,11 +545,11 @@
   <string name="toast_uninstall_success">Uninstall complete</string>
   <string name="total_clean">Total cleaned: %s</string>
   <string name="total_clean_text">Clear</string>
+  <string name="unlike">No thanks</string>
   <string name="update_date_format">MM/dd/yyyy</string>
   <string name="virus_scan">Security scan</string>
   <string name="vungle_ad_name">Vungle广告</string>
   <string name="wechat_cache_files">WeChat cache</string>
-  <string name="wechat_chat_clean_done">Everything looks good</string>
   <string name="wechat_chat_data_type_cache">WeChat cache</string>
   <string name="wechat_chat_data_type_cache_desc">"You'll be able to restore these files after you connect to the internet."</string>
   <string name="wechat_chat_data_type_chat">Chat history</string>
@@ -559,8 +560,11 @@
   <string name="wechat_chat_data_type_other">Other</string>
   <string name="wechat_chat_data_type_other_desc">Be careful, you might not be able to restore these files after you delete them.</string>
   <string name="wechat_clean">WeChat cleaner</string>
+  <string name="wechat_clean_canceled_empty_summary">"Cleanup wasn't finished, start over."</string>
   <string name="wechat_clean_exit_confirm">Exit?</string>
   <string name="wechat_clean_exit_confirm_msg">Stop scanning and exit now?</string>
+  <string name="wechat_clean_finish_empty_summary">Everything looks good</string>
+  <string name="wechat_clean_finish_summary">Deleted selected files successfully</string>
   <string name="wechat_clean_stop_confirm">Stop scanning?</string>
   <string name="wechat_clean_stop_confirm_msg">Stop scanning now?</string>
   <string name="wechat_content_bad_pic_file">The file is corrupted</string>
@@ -569,11 +573,16 @@
   <string name="wechat_copy_video_failed_dialog_title">"Couldn't export"</string>
   <string name="wechat_copying_video">Exporting…</string>
   <string name="wechat_copying_video_dialog_checkbox">Delete files after exporting</string>
-  <string name="wechat_copying_video_dialog_msg">Files will be saved to this folder: /DCIM/WeChat</string>
+  <string name="wechat_copying_video_dialog_msg">Files will be saved to this folder: %s</string>
   <string name="wechat_copying_video_dialog_title">Export to Gallery</string>
   <string name="wechat_copying_video_empty">No videos to export</string>
   <string name="wechat_copying_video_success">Exported successfully</string>
+  <string name="wechat_qq_celan_tab_file">File</string>
+  <string name="wechat_qq_celan_tab_image">Image</string>
+  <string name="wechat_qq_celan_tab_video">Video</string>
+  <string name="wechat_qq_celan_tab_voice">Voice</string>
   <string name="wechat_qq_chat_files">Chat history</string>
+  <string name="wechat_qq_deep_clean_button_text">Deep clean</string>
   <string name="wechat_qq_normal_files">Trash</string>
   <string name="white_list_ad_header">Obsolete files: %d</string>
   <string name="white_list_apk_header">Install packages: %d</string>
@@ -581,6 +590,15 @@
   <string name="white_list_large_file_header">Big files and videos: %d</string>
   <string name="white_list_residual_header">Residuals: %d</string>
   <string name="white_list_title">Exceptions</string>
+  <string name="wq_deep_clean_filter_all">All</string>
+  <string name="wq_deep_clean_filter_month_ago">A month ago</string>
+  <string name="wq_deep_clean_filter_three_month_ago">Three months ago</string>
+  <string name="wq_deep_clean_filter_week_ago">A week ago</string>
+  <string name="wq_deep_clean_filter_years_ago">Half year ago</string>
+  <string name="wqfile_group_chat_file">Other file</string>
+  <string name="wqfile_group_chat_pic">Chat image</string>
+  <string name="wqfile_group_chat_video">Chat video</string>
+  <string name="wqfile_group_chat_voice">Chat voice</string>
   <string name="year_month_day_format">MMM dd, yyyy</string>
   <string name="yesterday">Yesterday</string>
 </resources>

@@ -621,6 +621,8 @@
   <string name="dtmf_tone_entries_normal">Normal</string>
   <string name="dtmf_tones_summary">Set the length of DTMF tones</string>
   <string name="dtmf_tones_title">DTMF tones</string>
+  <string name="dual_4g_switch_summary">Allow 4G connectivity for both SIM slots.</string>
+  <string name="dual_4g_switch_title">Dual 4G</string>
   <string name="duration_disable_summary">Display duration is OFF</string>
   <string name="duration_enable_summary">Display duration is ON</string>
   <string name="ecm_exit_dialog">EcmExitDialog</string>
@@ -661,6 +663,7 @@
   <string name="enable_disable_retail_directory">Retail directory</string>
   <string name="enable_disable_stock_quotes">Stock quotes</string>
   <string name="enable_disable_technology_news">Technology news</string>
+  <string name="enable_dual_4g_prompt_when_turn_on_volte">VoLTE requires 4G connectivity for both SIM slots. Switch to Dual 4G now?</string>
   <string name="enable_fdn">Enable FDN</string>
   <string name="enable_fdn_ok">Disable FDN</string>
   <string name="enable_freeform_support">Enable freeform windows</string>
@@ -1575,6 +1578,8 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="tty_mode_not_allowed_video_call">"TTY Mode change isn't allowed during a video call"</string>
   <string name="tty_mode_option_summary">Set TTY mode</string>
   <string name="tty_mode_option_title">TTY mode</string>
+  <string name="turn_off_dual_4g_failed">"Couldn't turn off Dual 4G."</string>
+  <string name="turn_on_dual_4g_failed">"Couldn't turn on Dual 4G."</string>
   <string name="turnover_mute_summary">When phone is on a horizontal surface with screen facing up, flip it over to silence ringer.</string>
   <string name="turnover_mute_title">Flip to silence ringer</string>
   <string name="ui_default_package">com.android.dialer</string>
