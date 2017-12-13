@@ -1521,6 +1521,16 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Email</item>
         <item>Play video</item>
     </string-array>
+    <string-array name="preferred_app_excluded_regions">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>SG</item>
+        <item>MY</item>
+        <item>HK</item>
+        <item>TW</item>
+        <item>UA</item>
+    </string-array>
     <string-array name="permission_risk_privacy">
         <item>android.permission.ACCESS_COARSE_LOCATION</item>
         <item>android.permission.ACCESS_FINE_LOCATION</item>
