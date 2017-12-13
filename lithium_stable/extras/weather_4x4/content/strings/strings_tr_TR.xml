@@ -1,17 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="date_format">d MMMM EEEE</string>
     <string name="today">Bugün</string>
     <string name="tomorrow">Yarın</string>
-    <string name="aqi_pure">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_good">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_moderate">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_pollution">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_unhealthy">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_dangerous">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_hazardous">'AQI '+#weather_aqilevel</string>
-    <string name="aqi_break">'AQI '+#weather_aqilevel</string>
     <string name="weather_type_null">'Verisiz'</string>
-	<string name="weather_type_0">Açık</string>
+    <string name="weather_type_0">Açık</string>
     <string name="weather_type_1">Bulutlu</string>
     <string name="weather_type_2">Kapalı</string>
     <string name="weather_type_3">Sisli</string>
