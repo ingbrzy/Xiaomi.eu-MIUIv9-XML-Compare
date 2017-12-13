@@ -1148,6 +1148,7 @@ to respond"</string>
   <string name="more_game">More games</string>
   <string name="more_lock">More</string>
   <string name="more_setting_summary">支持红包提醒种类、桌面悬浮窗、勿扰时段等功能</string>
+  <string name="more_settings">More</string>
   <string name="name">Name</string>
   <string name="net_booster">Network speed boost</string>
   <string name="net_booster_expire_notification">Network speed boost session is about to end</string>
