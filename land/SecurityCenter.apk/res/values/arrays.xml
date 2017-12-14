@@ -108,6 +108,10 @@
         <item>金币</item>
         <item>红包来了</item>
     </string-array>
+    <string-array name="tether_limit_warn_type">
+        <item>Turn off and notify</item>
+        <item>Only notify</item>
+    </string-array>
     <string-array name="st_antispam_mode_defined">
         <item>@string/st_antispam_mode_smart</item>
         <item>@string/st_antispam_mode_blacklist</item>
@@ -210,6 +214,7 @@
         <item>com.android.keyguard</item>
         <item>com.android.keychain</item>
         <item>com.miui.systemAdSolution</item>
+        <item>com.miui.msa.global</item>
         <item>com.miui.securitycore</item>
         <item>com.miui.personalassistant</item>
         <item>com.android.updater</item>
