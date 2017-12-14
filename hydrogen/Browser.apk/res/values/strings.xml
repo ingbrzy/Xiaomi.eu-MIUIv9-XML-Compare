@@ -51,6 +51,9 @@
   <string name="action_menu_toolbox">Tools</string>
   <string name="action_menu_useful_page">Add shortcut</string>
   <string name="action_menu_useful_page_added">Added to start page</string>
+  <string name="action_menu_user_center">User center</string>
+  <string name="action_modify_bookmark">Modify bookmark</string>
+  <string name="action_put_in_search_box">Put %s in the search box</string>
   <string name="actionbar_share">Share</string>
   <string name="actionbar_textselection_title">Text selection</string>
   <string name="actionbar_web_search">Web search</string>
@@ -676,15 +679,15 @@ Leave this page?"</string>
   <string name="miuichromium_error_page_problem_page_not_working_reason_invalid_response">"This page isn't working because %s0 sent an invalid response."</string>
   <string name="miuichromium_error_page_problem_page_not_working_reason_too_many_redirects">"This page isn't working because %s0 redirected you too many times."</string>
   <string name="miuichromium_error_page_problem_security_error_reason_bad_client_cert">"This site can't provide a secure connection because %s0 didn't accept your certificate."</string>
-  <string name="miuichromium_error_page_problem_security_error_reason_bad_server_cert">"This site can't provide a secure connection %s0 doesn't adhere to security standards."</string>
+  <string name="miuichromium_error_page_problem_security_error_reason_bad_server_cert">"This site can't provide a secure connection because %s0 doesn't adhere to security standards."</string>
   <string name="miuichromium_error_page_problem_security_error_reason_invalid_response">"This site can't provide a secure connection because %s0 sent an invalid response."</string>
-  <string name="miuichromium_error_page_problem_security_error_reason_unsupported_protocol">"This site can't provide a secure connection %s0 uses an unsupported protocol."</string>
+  <string name="miuichromium_error_page_problem_security_error_reason_unsupported_protocol">"This site can't provide a secure connection because %s0 uses an unsupported protocol."</string>
   <string name="miuichromium_error_page_problem_server_fault">%s0 is currently unable to handle this request.</string>
   <string name="miuichromium_error_page_reload">Refresh</string>
   <string name="miuichromium_error_page_safe_network">Safe mode</string>
   <string name="miuichromium_error_page_server_error">Too many devices are trying to connect</string>
   <string name="miuichromium_error_page_suggestion_check_app_proxy">Check the settings of the proxy apps installed on your device.</string>
-  <string name="miuichromium_error_page_suggestion_check_connetion">Check your Internet connection.</string>
+  <string name="miuichromium_error_page_suggestion_check_connetion">Check your internet connection.</string>
   <string name="miuichromium_error_page_suggestion_check_mobile_proxy" formatted="false">(Mobile data) Reset your %s1APN settings%s2.</string>
   <string name="miuichromium_error_page_suggestion_check_url">"Check the URL you've entered."</string>
   <string name="miuichromium_error_page_suggestion_check_wifi_proxy" formatted="false">(Wi-Fi) Check your %s1proxy settings%s2.</string>
@@ -692,7 +695,7 @@ Leave this page?"</string>
   <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies" formatted="false">Clear cache and cookies (%s1Settings%s2 - Clear data, your account info may be lost).</string>
   <string name="miuichromium_error_page_suggestion_clear_cache_and_cookies_no_invoke">Clear cache and cookies (your account info may be lost).</string>
   <string name="miuichromium_error_page_suggestion_clear_cache_no_invoke">Clear cache.</string>
-  <string name="miuichromium_error_page_suggestion_connect_and_retry">Reload after connecting to the internet</string>
+  <string name="miuichromium_error_page_suggestion_connect_and_retry">Reload after connecting to the internet.</string>
   <string name="miuichromium_error_page_suggestion_contact_admin">Contact your system administrator.</string>
   <string name="miuichromium_error_page_suggestion_correct_url">"Check the address you've entered and try again using the correct URL."</string>
   <string name="miuichromium_error_page_suggestion_grant_permission">Reload after granting Browser permission to access the internet.</string>
@@ -751,7 +754,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="open_app_confirm_message">Allow this page to open %s?</string>
   <string name="open_file_explorer_failed">"Can't open File Explorer"</string>
   <string name="open_voice_permission">Allow the mic to connect to the internet</string>
-  <string name="opening_file_error">"Couldn't open selected file"</string>
+  <string name="opening_file_error">"Couldn't open selected file."</string>
   <string name="page_info">Page info</string>
   <string name="page_info_address">Address:</string>
   <string name="page_info_view">View page info</string>
