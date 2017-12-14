@@ -180,7 +180,7 @@
   <string name="cloud_antispam_marked">Flagged</string>
   <string name="cloud_antispam_title">Caller ID</string>
   <string name="cloud_recommend_msg">Tap to sync contacts with Mi Cloud.</string>
-  <string name="cloud_state_disabled">Sync with Mi Cloud is off</string>
+  <string name="cloud_state_disabled">To turn on Mi cloud</string>
   <string name="cloud_state_loading">Just a sec…</string>
   <string name="cloud_state_sync_finished">Synced with Mi Cloud</string>
   <string name="cloud_state_syncing">Synced with Mi Cloud</string>
