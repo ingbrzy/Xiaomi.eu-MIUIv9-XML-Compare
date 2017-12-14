@@ -7,6 +7,8 @@
   <string name="custom_lock_wallpaper_enter">Enter</string>
   <string name="default_lockscreen_unlock_hint_text">Swipe up to unlock</string>
   <string name="delete">Delete</string>
+  <string name="do_disclosure_generic">This device is managed by your organization</string>
+  <string name="do_disclosure_with_name">This device is managed by %s</string>
   <string name="emergency_call_string">Emergency</string>
   <string name="face_data_input_camera_fail">"Couldn't load camera"</string>
   <string name="face_data_input_camera_ok">Loading camera…</string>
