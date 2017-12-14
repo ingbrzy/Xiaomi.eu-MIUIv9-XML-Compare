@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="action_add_to_workspace">Add to Work space</string>
+  <string name="action_add_to_workspace">Add to workspace</string>
   <string name="activity_not_found">"App isn't installed on your device"</string>
   <string name="add_screen">Add screen</string>
   <string name="app_already_exist">App already exists</string>
@@ -74,6 +74,11 @@
   <string name="durationformatshort">%2$2d:%5$02d</string>
   <string name="durationformatshort_padding_with_0">%2$02d:%5$02d</string>
   <string name="edit_folder_title">Edit folder name</string>
+  <string name="edit_mode_group">Group</string>
+  <string name="edit_mode_group_error_full">Not enough space</string>
+  <string name="edit_mode_group_error_in_folder">Close the folder before grouping icons</string>
+  <string name="edit_mode_group_error_one_folder">"Can't duplicate a folder with selected icons"</string>
+  <string name="edit_mode_uninstall">Uninstall</string>
   <string name="editing_add_widget_tips">Edit widgets</string>
   <string name="editing_mode_enter_tip_text">Pinch to edit Home screen</string>
   <string name="editing_mode_title_empty">0 selected</string>
@@ -159,6 +164,8 @@
   <string name="lock_screen_failed_message">"Can't set Lock screen wallpaper"</string>
   <string name="lock_screen_success_message">Applied to Lock screen</string>
   <string name="lock_screen_wallpaper">Lock screen wallpaper</string>
+  <string name="memory_clear_nothing_result">Nothing to clear in cache</string>
+  <string name="memory_clear_result">%1$sB cleared</string>
   <string name="menu_add">Add</string>
   <string name="menu_auto_fill">Fill empty cells</string>
   <string name="menu_back_desktop">Back to Home screen</string>
