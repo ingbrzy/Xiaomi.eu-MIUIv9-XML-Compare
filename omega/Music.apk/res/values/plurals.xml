@@ -96,7 +96,7 @@
         <item quantity="one">%d follower</item>
     </plurals>
     <plurals name="songs_count">
-        <item quantity="other">%dsongs</item>
+        <item quantity="other">%d songs</item>
         <item quantity="one">%d song</item>
     </plurals>
     <plurals name="Nunbackup_audios">
@@ -130,11 +130,11 @@
         <item quantity="one">Skipped %d song. Turn on online services in the settings to listen to it.</item>
     </plurals>
     <plurals name="Nrecognize_switch_off_alert_message">
-        <item quantity="other">Has shutdown optimize album and lyric. Do you want to revert optimized info, album and lyric of %d songs?</item>
-        <item quantity="one">Has shutdown optimize album and lyric. Do you want to revert optimized info, album and lyric of %d song?</item>
+        <item quantity="other">You chose not to find album covers and lyrics for local songs automatically. Delete info for %d songs?</item>
+        <item quantity="one">You chose not to find album covers and lyrics for local songs automatically. Delete info for %d song?</item>
     </plurals>
     <plurals name="Nassociate_songs">
-        <item quantity="other">Matching album and lyric (%1$d/%2$d songs)</item>
-        <item quantity="one">Matching album and lyric (%1$d/%2$d song)</item>
+        <item quantity="other">Searching for album covers and lyrics (%1$d/%2$d)</item>
+        <item quantity="one">Searching for album covers and lyrics (%1$d/%2$d)</item>
     </plurals>
 </resources>
