@@ -124,6 +124,7 @@
   <string name="from">from %1$s</string>
   <string name="goon_feedback_main">Continue</string>
   <string name="hint_feedback_main">Describe the issue</string>
+  <string name="issue_search">Search</string>
   <string name="loading_apps">Loading list…</string>
   <string name="login_system_failed">"Couldn't sign in, try again"</string>
   <string name="logo_title">Feedback</string>
