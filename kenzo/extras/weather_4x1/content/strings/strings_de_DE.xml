@@ -1,7 +1,7 @@
 <resources>
     <string name="weather_type_0">Klar</string>
     <string name="weather_type_1">Bewölkt</string>
-    <string name="weather_type_2">Benebelt</string>
+    <string name="weather_type_2">Diesig</string>
     <string name="weather_type_3">Neblig</string>
     <string name="weather_type_4">Regenschauer</string>
     <string name="weather_type_5">Regensturm</string>
@@ -22,6 +22,6 @@
     <string name="weather_type_20">Leichter Standsturm</string>
     <string name="weather_type_21">Sandsturm</string>
     <string name="weather_type_22">Hagel</string>
-    <string name="weather_type_23">Herumfliegender Staub</string>
-    <string name="weather_type_24">Betrübt</string>
+    <string name="weather_type_23">Feinstaub</string>
+    <string name="weather_type_24">Dunst</string>
 </resources>
