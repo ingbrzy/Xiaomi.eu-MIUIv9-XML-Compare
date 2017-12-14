@@ -186,7 +186,7 @@
   <string name="oauth_title">Sign in with Mi Account</string>
   <string name="other_devices_title">Other devices</string>
   <string name="passport_access_denied">Access denied</string>
-  <string name="passport_account_hint_text">Email address, phone number or Mi Account ID</string>
+  <string name="passport_account_hint_text">Email/Phone number/Mi Account ID</string>
   <string name="passport_account_identity_title">Verify your identity</string>
   <string name="passport_account_label">Mi Account</string>
   <string name="passport_account_name">Account: %1$s</string>
@@ -221,7 +221,7 @@ To activate your account, follow the
   <string name="passport_delete_account">Sign out</string>
   <string name="passport_downlink_reg">Phone number</string>
   <string name="passport_email">Email address</string>
-  <string name="passport_email_or_id_hint_text">Email address or Mi Account ID</string>
+  <string name="passport_email_or_id_hint_text">Email/Mi Account ID</string>
   <string name="passport_email_reg_success_summary">%1$s has been bound with your account. You can use it to sign in or to reset your password.</string>
   <string name="passport_error_auth_fail">Session expired, sign in again later</string>
   <string name="passport_error_device_id">"Can't get device id"</string>
