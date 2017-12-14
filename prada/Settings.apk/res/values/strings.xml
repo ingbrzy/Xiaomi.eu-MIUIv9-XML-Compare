@@ -2260,7 +2260,7 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_piston_color">Color Edition</string>
   <string name="music_dirac_mode_piston_standard">Standard Edition</string>
   <string name="music_dirac_mode_piston_youth">Youth Edition</string>
-  <string name="music_dirac_mode_reduction_noise">Reduce Noise TypeC</string>
+  <string name="music_dirac_mode_reduction_noise">Reduce noise (USB-C)</string>
   <string name="music_dolby_mode_movie">Video</string>
   <string name="music_dolby_mode_music">Music</string>
   <string name="music_dolby_mode_off">Off</string>
@@ -3815,6 +3815,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="testing_usage_stats">Usage statistics</string>
   <string name="testing_wifi_info">WLAN information</string>
   <string name="tether_and_hotspot_title">Tethering &amp; portable hotspot</string>
+  <string name="tether_data_usage_limit">One-time data limit</string>
+  <string name="tether_data_usage_limit_summary">Data limit will be applied next time your hotspot is on</string>
   <string name="tether_devices_management_title">Manage devices</string>
   <string name="tether_devices_max_number">Limit of connected devices</string>
   <string name="tether_settings_disabled">Portable hotspot is off</string>
@@ -3965,12 +3967,16 @@ Your saved fingerprints will also be removed from this device and you won't be a
   <string name="unlock_disable_frp_warning_content_pin_fingerprint">"Device protection features will not work without your PIN.
 
 Your saved fingerprints will also be removed from this device and you won't be able to unlock your phone, authorize purchases, or sign in to apps with them."</string>
+  <string name="unlock_disable_frp_warning_content_profile">"Profile protection features will not work without your password.
+
+ You won't be able to unlock your profile, authorize purchases, or sign in to apps with them."</string>
   <string name="unlock_disable_frp_warning_content_unknown">Device protection features will not work without your screen lock.</string>
   <string name="unlock_disable_frp_warning_content_unknown_fingerprint">"Device protection features will not work without your screen lock.
 
 Your saved fingerprints will also be removed from this device and you won't be able to unlock your phone, authorize purchases, or sign in to apps with them."</string>
   <string name="unlock_disable_frp_warning_ok">Yes, remove</string>
   <string name="unlock_disable_frp_warning_title">Remove device protection?</string>
+  <string name="unlock_disable_frp_warning_title_profile">Remove profile protection?</string>
   <string name="unlock_disable_lock_pin_summary">Turn off PIN</string>
   <string name="unlock_disable_lock_title">Turn off screen lock</string>
   <string name="unlock_set_enter_system">Skip screen lock</string>
@@ -3991,6 +3997,7 @@ Your saved fingerprints will also be removed from this device and you won't be a
   <string name="unlock_set_unlock_none_title">None</string>
   <string name="unlock_set_unlock_off_summary"/>
   <string name="unlock_set_unlock_off_title">None</string>
+  <string name="unlock_set_unlock_password_none">None</string>
   <string name="unlock_set_unlock_password_summary">Enter 4 or more letters or numbers to unlock device</string>
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
