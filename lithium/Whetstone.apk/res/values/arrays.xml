@@ -98,6 +98,7 @@
         <item>com.lbe.security.miui</item>
         <item>com.miui.wmsvc</item>
         <item>com.android.updater</item>
+        <item>com.xiaomi.metoknlp</item>
     </string-array>
     <string-array name="sleepstart_white_list">
         <item>com.android.incallui</item>
@@ -119,6 +120,7 @@
         <item>com.android.calendar</item>
         <item>com.android.providers.calendar</item>
         <item>com.android.providers.downloads</item>
+        <item>com.miui.guardprovider</item>
     </string-array>
     <string-array name="sleepclean_normal_kill_list">
         <item>com.xiaomi.hm.health</item>
