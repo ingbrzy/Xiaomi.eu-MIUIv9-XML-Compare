@@ -373,8 +373,8 @@
   <string name="theme_apply_audio_dialog_item_alarm">Alarm</string>
   <string name="theme_apply_audio_dialog_item_notification">Notification</string>
   <string name="theme_apply_audio_dialog_item_ringtone">Ringtone</string>
-  <string name="theme_apply_failured">"Can't apply Lock screen wallpaper"</string>
-  <string name="theme_apply_success">Lock screen applied</string>
+  <string name="theme_apply_failured">"Couldn't apply"</string>
+  <string name="theme_apply_success">Applied successfully</string>
   <string name="theme_applying">Applying…</string>
   <string name="theme_batch_update_all">Update all</string>
   <string name="theme_batch_update_dlg_content">Update %1$s and %2$d other themes now?</string>

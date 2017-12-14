@@ -2552,7 +2552,7 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_piston_color">Color Edition</string>
   <string name="music_dirac_mode_piston_standard">Standard Edition</string>
   <string name="music_dirac_mode_piston_youth">Youth Edition</string>
-  <string name="music_dirac_mode_reduction_noise">Reduce Noise TypeC</string>
+  <string name="music_dirac_mode_reduction_noise">Reduce noise (USB-C)</string>
   <string name="music_dolby_mode_movie">Video</string>
   <string name="music_dolby_mode_music">Music</string>
   <string name="music_dolby_mode_off">Off</string>
@@ -4448,6 +4448,9 @@ Your saved fingerprints will also be removed from this device and you won't be a
 
 Your saved fingerprints will also be removed from this profile and you won't be able to unlock your profile, authorize purchases, or sign in to apps with them."</string>
   <string name="unlock_disable_frp_warning_content_pin_profile">Profile protection features will not work without your PIN.</string>
+  <string name="unlock_disable_frp_warning_content_profile">"Profile protection features will not work without your password.
+
+ You won't be able to unlock your profile, authorize purchases, or sign in to apps with them."</string>
   <string name="unlock_disable_frp_warning_content_unknown">Device protection features will not work without your screen lock.</string>
   <string name="unlock_disable_frp_warning_content_unknown_fingerprint">"Device protection features will not work without your screen lock.
 
@@ -4481,6 +4484,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_none_title">None</string>
   <string name="unlock_set_unlock_off_summary"/>
   <string name="unlock_set_unlock_off_title">None</string>
+  <string name="unlock_set_unlock_password_none">None</string>
   <string name="unlock_set_unlock_password_summary">Enter 4 or more letters or numbers to unlock device</string>
   <string name="unlock_set_unlock_password_title">Password</string>
   <string name="unlock_set_unlock_pattern_summary">Draw a simple pattern with your finger to unlock device</string>
