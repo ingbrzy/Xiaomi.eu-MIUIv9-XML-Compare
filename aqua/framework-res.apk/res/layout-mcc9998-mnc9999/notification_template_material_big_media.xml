@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.android.internal.widget.MediaNotificationView android:id="@id/status_bar_latest_event_content" android:tag="bigMediaNarrow" android:layout_width="fill_parent" android:layout_height="wrap_content"
   xmlns:android="http://schemas.android.com/apk/res/android">
-    <include android:layout_gravity="start" android:layout_width="fill_parent" android:layout_height="32.0dip" layout="@layout/notification_template_header" />
+    <include layout="@layout/notification_template_header" />
     <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
         <LinearLayout android:orientation="vertical" android:id="@id/notification_main_column" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/notification_content_margin_top" android:layout_marginBottom="@dimen/notification_content_margin_bottom" android:minHeight="@dimen/notification_min_content_height" android:layout_marginStart="@dimen/notification_content_margin_start" android:layout_marginEnd="@dimen/notification_content_margin_end">
             <include layout="@layout/notification_template_part_line1" />
