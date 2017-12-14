@@ -419,6 +419,8 @@
   <string name="dtmf_tone_entries_normal">Normal</string>
   <string name="dtmf_tones_summary">Set the length of DTMF tones</string>
   <string name="dtmf_tones_title">DTMF tones</string>
+  <string name="dual_4g_switch_summary">Allow 4G connectivity for both SIM slots.</string>
+  <string name="dual_4g_switch_title">Dual 4G</string>
   <string name="dual_mic_summary">Suppress your background noise during calls</string>
   <string name="dual_mic_title">Noise Reduction</string>
   <string name="ecc_contact_added">Emergency number added.</string>
@@ -466,6 +468,7 @@
   <string name="enable_disable_retail_directory">Retail Directory</string>
   <string name="enable_disable_stock_quotes">Stock Quotes</string>
   <string name="enable_disable_technology_news">Technology News</string>
+  <string name="enable_dual_4g_prompt_when_turn_on_volte">VoLTE requires 4G connectivity for both SIM slots. Switch to Dual 4G now?</string>
   <string name="enable_fdn">Enable FDN</string>
   <string name="enable_fdn_ok">Disable FDN</string>
   <string name="enable_in_progress">Setting PIN…</string>
@@ -675,7 +678,9 @@ Switch to the new provider anyway?"</string>
   <string name="missed_call_notify_times_summary">reminders are separated by 5 minute intervals</string>
   <string name="missed_call_notify_times_title">Missed call reminders</string>
   <string name="missed_call_notify_twice">2 times</string>
-  <string name="miui_notification_network_selection_text" formatted="false">SIM %s Selected network (%s) unavailable</string>
+  <string name="miui_network_selection_reset_text">Reset</string>
+  <string name="miui_notification_network_selection_title">SIM no service</string>
+  <string name="miui_notification_network_selection_title_by_sim">SIM %s no service</string>
   <string name="mmiCancelled">MMI code canceled</string>
   <string name="mmiStarted">MMI code started</string>
   <string name="mobile_network_settings_not_available">Cellular network settings are not available for this user</string>
@@ -1226,6 +1231,8 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="tty_mode_not_allowed_video_call">TTY Mode change is not allowed during a video call</string>
   <string name="tty_mode_option_summary">Set TTY mode</string>
   <string name="tty_mode_option_title">TTY mode</string>
+  <string name="turn_off_dual_4g_failed">"Couldn't turn off Dual 4G."</string>
+  <string name="turn_on_dual_4g_failed">"Couldn't turn on Dual 4G."</string>
   <string name="turnover_mute_summary">When phone is on a horizontal surface with screen facing up, flip it over to silence ringer.</string>
   <string name="turnover_mute_title">Flip to silence ringer</string>
   <string name="ui_default_package">com.android.dialer</string>
