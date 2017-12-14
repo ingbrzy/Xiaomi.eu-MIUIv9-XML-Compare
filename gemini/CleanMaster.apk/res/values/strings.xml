@@ -577,10 +577,10 @@
   <string name="wechat_copying_video_dialog_title">Export to Gallery</string>
   <string name="wechat_copying_video_empty">No videos to export</string>
   <string name="wechat_copying_video_success">Exported successfully</string>
-  <string name="wechat_qq_celan_tab_file">File</string>
-  <string name="wechat_qq_celan_tab_image">Image</string>
-  <string name="wechat_qq_celan_tab_video">Video</string>
-  <string name="wechat_qq_celan_tab_voice">Voice</string>
+  <string name="wechat_qq_celan_tab_file">Files</string>
+  <string name="wechat_qq_celan_tab_image">Images</string>
+  <string name="wechat_qq_celan_tab_video">Videos</string>
+  <string name="wechat_qq_celan_tab_voice">Voice messages</string>
   <string name="wechat_qq_chat_files">Chat history</string>
   <string name="wechat_qq_deep_clean_button_text">Deep clean</string>
   <string name="wechat_qq_normal_files">Trash</string>
@@ -591,14 +591,14 @@
   <string name="white_list_residual_header">Residuals: %d</string>
   <string name="white_list_title">Exceptions</string>
   <string name="wq_deep_clean_filter_all">All</string>
-  <string name="wq_deep_clean_filter_month_ago">A month ago</string>
-  <string name="wq_deep_clean_filter_three_month_ago">Three months ago</string>
-  <string name="wq_deep_clean_filter_week_ago">A week ago</string>
-  <string name="wq_deep_clean_filter_years_ago">Half year ago</string>
-  <string name="wqfile_group_chat_file">Other file</string>
-  <string name="wqfile_group_chat_pic">Chat image</string>
-  <string name="wqfile_group_chat_video">Chat video</string>
-  <string name="wqfile_group_chat_voice">Chat voice</string>
+  <string name="wq_deep_clean_filter_month_ago">1 month ago</string>
+  <string name="wq_deep_clean_filter_three_month_ago">3 months ago</string>
+  <string name="wq_deep_clean_filter_week_ago">1 week ago</string>
+  <string name="wq_deep_clean_filter_years_ago">6 months ago</string>
+  <string name="wqfile_group_chat_file">Files sent in messengers</string>
+  <string name="wqfile_group_chat_pic">Images from messengers</string>
+  <string name="wqfile_group_chat_video">Videos from messengers</string>
+  <string name="wqfile_group_chat_voice">Voice messages</string>
   <string name="year_month_day_format">MMM dd, yyyy</string>
   <string name="yesterday">Yesterday</string>
 </resources>
