@@ -31,3 +31,5 @@ Thumbs.db
 *.log
 *.sql
 *.sqlite
+
+unknown/
