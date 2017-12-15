@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="config_forceVoiceInteractionServicePackage">com.google.android.googlequicksearchbox</string>
+  <string name="notification_header_divider_line">|</string>
+</resources>
