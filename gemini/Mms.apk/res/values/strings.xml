@@ -75,7 +75,7 @@
   <string name="confirm_delete_SIM_message">Delete this SIM message?</string>
   <string name="confirm_delete_all_SIM_messages">Delete all SIM messages?</string>
   <string name="confirm_delete_all_conversations">Delete all conversations?</string>
-  <string name="confirm_delete_conversation">Delete this entire thread?</string>
+  <string name="confirm_delete_conversation">Delete this conversation?</string>
   <string name="confirm_delete_group_message">Delete group messages?</string>
   <string name="confirm_delete_locked_message">Delete this locked message?</string>
   <string name="confirm_delete_message">Delete this message?</string>

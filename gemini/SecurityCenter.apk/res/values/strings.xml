@@ -127,7 +127,6 @@
   <string name="app_install_intercept">Block installation</string>
   <string name="app_install_tips_go_to">Open</string>
   <string name="app_install_tips_install_success">Installed %1$s successfully</string>
-  <string name="app_maanger_app_uninstalled_toast">This app is uninstalled</string>
   <string name="app_manager_advanced_setting">Advanced settings</string>
   <string name="app_manager_allow">Yes</string>
   <string name="app_manager_app_ifno_version">App version</string>
@@ -188,8 +187,6 @@
   <string name="app_manager_have_not_consume">None</string>
   <string name="app_manager_hide_system_server">Hide system services</string>
   <string name="app_manager_install_other_app">Install apps from unknown sources</string>
-  <string name="app_manager_instruction">Instruction</string>
-  <string name="app_manager_loading_data">Loading data…</string>
   <string name="app_manager_manage_space">Manage space</string>
   <string name="app_manager_memory">RAM</string>
   <string name="app_manager_menu_clear_data">Clear data</string>
@@ -212,10 +209,6 @@
   <string name="app_manager_powerkeeper_no_restrict">No restrictions</string>
   <string name="app_manager_powerkeeper_restrict_bg">Restrict background apps</string>
   <string name="app_manager_pref_ads">Recommendations</string>
-  <string name="app_manager_rebide_wakepath">Restrict</string>
-  <string name="app_manager_reduce_wakepath_dialog">Minimize chain start</string>
-  <string name="app_manager_reduce_wakepath_summary">Restricting autostart will minimize chain start. Restrict autostart for %s?</string>
-  <string name="app_manager_reject_count_over">Blocked 100000+ times</string>
   <string name="app_manager_reset_app_preferences">Reset app preferences</string>
   <string name="app_manager_reset_app_preferences_button">Reset apps</string>
   <string name="app_manager_reset_app_preferences_desc">"This will reset all preferences for:
@@ -230,13 +223,6 @@
   <string name="app_manager_show_all_apps">Show all apps</string>
   <string name="app_manager_show_detail_infos">View all</string>
   <string name="app_manager_start_by">Started by %s</string>
-  <string name="app_manager_start_count_over">100000+ times</string>
-  <string name="app_manager_stop_wakepath_dialog_summary">Uninstall %s to restrict chain start?</string>
-  <string name="app_manager_stop_wakepath_dialog_title">Restrict chain start</string>
-  <string name="app_manager_stop_wakepath_dlg_msg_with_xspace_app">Uninstalling this app will restrict chain start. Related Dual apps will be uninstalled as well. Uninstall %s?</string>
-  <string name="app_manager_stop_wakepath_success">Restricted successfully</string>
-  <string name="app_manager_stop_wp_dialog_cancel">Cancel</string>
-  <string name="app_manager_stop_wp_dialog_uninstall">Uninstall</string>
   <string name="app_manager_support_uninstall">You can uninstall these apps</string>
   <string name="app_manager_system_mobile_disable">Turn off data</string>
   <string name="app_manager_title">Manage apps</string>
@@ -247,10 +233,6 @@
   <string name="app_manager_uninstall_xspace_app_dlg_msg">Uninstalling dual app will remove all app data.</string>
   <string name="app_manager_uninstall_xspace_app_dlg_title">Uninstall dual app?</string>
   <string name="app_manager_unstall_application">Uninstall</string>
-  <string name="app_manager_wake_path_card_title">Chain start history (2 days)</string>
-  <string name="app_manager_wakepath_dialog_buttontext">Got it</string>
-  <string name="app_manager_wakepath_dialog_summary">Chain start happens when one app starts another app in the background. It can drain battery and lower the system performance. MIUI would normally block chain start.</string>
-  <string name="app_manager_wakepath_dialog_title">About chain start</string>
   <string name="app_managere_not_have_app">Empty</string>
   <string name="app_manger_des_separator">", "</string>
   <string name="app_mobile">Mobile</string>
