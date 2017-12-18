@@ -71,7 +71,7 @@ Last backed up on %2$s"</string>
   <string name="enable_cloud_service_notification">You need to activate Mi Cloud</string>
   <string name="enable_find_device_error">"Can't turn on Find device. %1$s"</string>
   <string name="enable_find_device_success">Find device is on.</string>
-  <string name="enable_micloud">Sign in to use Mi Cloud</string>
+  <string name="enable_micloud">Use Mi Cloud</string>
   <string name="enable_sync">Sync</string>
   <string name="enable_sync_dspt">"Don't sync"</string>
   <string name="error_data_in_transfer">Sync will finish in %s hours.</string>
@@ -553,7 +553,6 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="sync_sub_dspt">An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message.</string>
   <string name="sync_sub_dspt_provision">Sync photos, contacts, music, apps, and more across all your devices</string>
   <string name="sync_sub_int_dspt">An outgoing international SMS message may be required to activate this service. Your carrier will charge you for this message.</string>
-  <string name="title_back">Back</string>
   <string name="title_reg">Create Mi Account</string>
   <string name="total_space_upgraded_to">Total space:%s</string>
   <string name="trying_to_connect_to_network">Connecting to the network…</string>
@@ -584,6 +583,5 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="wipe_secret_photo_dialog_title">"Hidden photos aren't synced"</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
   <string name="xiaomi_cloud_service">Mi Cloud</string>
-  <string name="xiaomi_cloud_service_subtitle">All important items in one place</string>
   <string name="xmpp_server_addr"/>
 </resources>

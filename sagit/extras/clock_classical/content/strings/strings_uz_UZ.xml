@@ -4,5 +4,5 @@
     <string name="date_time_12">dd MMMM, EEE</string>
     <string name="desc_date_format">dd MMMM, EEEE</string>
     <string name="desc_date_format_12">dd MMMM, EEEE</string>
-    <string name="desc_time">'hozirgi vaqt\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', soat ilovasiga kirish uchun ikki marta bosing'</string>
+    <string name="desc_time">'hozirgi vaqt\' + #hour12+\' \'+ifelse(#minute,#minute,\'oclock\')+\', soat ilovasiga kirish uchun ikki marta bosing'</string>
 </resources>

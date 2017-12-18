@@ -10,10 +10,9 @@
   <string name="accessibility_sync_cal">Sync calendar</string>
   <string name="account_and_calendar">Accounts</string>
   <string name="accounts">Accounts &amp; sync</string>
-  <string name="acct_not_synced">"This account isn't being synced. Your calendar may not be up-to-date."</string>
+  <string name="acct_not_synced">"This account isn't being synced so your calendars may not be up-to-date."</string>
   <string name="acessibility_selected_marker_description">Selected event</string>
-  <string name="action_bar_more_menu_view_description">More</string>
-  <string name="action_bar_return">Return</string>
+  <string name="action_bar_more_menu_view_description">more</string>
   <string name="action_text_card_manager">Channel</string>
   <string name="action_text_today">Today</string>
   <string name="ad_card_connecting">连接中</string>
@@ -94,10 +93,10 @@
   <string name="countdown_today">Today</string>
   <string name="create_an_account_desc">"Calendar works better with a Mi Account.
 
-• Access it from any web browser.
-• Back up your events securely."</string>
+• Access it from any web browser
+• Back up your events securely"</string>
   <string name="creating_event">Event created</string>
-  <string name="creating_event_with_guest">Sending invitations…</string>
+  <string name="creating_event_with_guest">Invitations will be sent</string>
   <string name="credit">信用卡</string>
   <string name="credit_card_date_label">还款日：</string>
   <string name="credit_card_number_label">卡号：</string>
@@ -112,7 +111,6 @@
   <string name="date_calculate_days">Enter the number of days</string>
   <string name="date_calculate_description">Learn what date it is before or after a certain day</string>
   <string name="date_calculate_direction">Direction</string>
-  <string name="date_calculate_direction_content_description">Direction, current is %1s</string>
   <string name="date_calculate_result">Result</string>
   <string name="date_calculate_tab">Calculate date</string>
   <string name="date_calculate_today">0 days</string>
@@ -147,7 +145,7 @@
   <string name="edit_date_calculate_days_backward_error_hint">"Can't calculate forwards"</string>
   <string name="edit_date_calculate_days_empty_hint">Enter the number of days</string>
   <string name="edit_date_calculate_days_forward_error_hint">"Can't calculate backwards"</string>
-  <string name="edit_event_all_day_label">All day</string>
+  <string name="edit_event_all_day_label">All Day</string>
   <string name="edit_event_anniversary_name_empty_hint">Enter event name</string>
   <string name="edit_event_anniversary_name_hint">Event</string>
   <string name="edit_event_birthday_import_from_contact">Import birthday from contacts</string>
@@ -180,10 +178,10 @@
   <string name="electricity_detail_title">电费缴费</string>
   <string name="electricity_event_delete_successfully">电费缴费事件删除成功</string>
   <string name="email_guests_label">Email guests</string>
-  <string name="email_install_hint">Mail has been uninstalled. Install Mail again to restore calendar accounts or add a new one.</string>
+  <string name="email_install_hint">Email has been uninstalled. By reinstalling it, you can restore calendar account data or add new account.</string>
   <string name="email_picker_label">Email with</string>
   <string name="email_subject_prefix">"Re: "</string>
-  <string name="empty_event">"Can't create empty events"</string>
+  <string name="empty_event">Empty event not created</string>
   <string name="english_premium_league">English premier league</string>
   <string name="event_account">Account</string>
   <string name="event_action_delete">Delete</string>
@@ -284,11 +282,11 @@
   <string name="insert_event_dialog_title">Attention</string>
   <string name="insert_event_toast_add_failed">"Couldn't add"</string>
   <string name="insert_event_toast_add_success">Event created</string>
-  <string name="install_email_app">Install Mail</string>
-  <string name="install_email_finished">Installed successfully</string>
+  <string name="install_email_app">Install email</string>
+  <string name="install_email_finished">Email Installed</string>
   <string name="install_weather_app_error">应用加载失败.</string>
   <string name="install_weather_app_loading">加载中...</string>
-  <string name="installing_email">Installing…</string>
+  <string name="installing_email">Installing...</string>
   <string name="item_num_selected">%1$d selected</string>
   <string name="joke_card_click_toast">长按可复制笑话</string>
   <string name="joke_card_icon_text">%1$s人笑过</string>
@@ -378,7 +376,7 @@
   <string name="movie_event_delete_successfully">电影票事件删除成功</string>
   <string name="movie_event_title">电影：</string>
   <string name="network_not_available">"Can't connect to the network"</string>
-  <string name="new_event_description">New</string>
+  <string name="new_event_description">new</string>
   <string name="new_event_dialog_label">New event</string>
   <string name="new_event_dialog_option">New event</string>
   <string name="no_contact_birthday_hint">No birthdays to import</string>
@@ -387,9 +385,9 @@
 Check network settings and try again."</string>
   <string name="no_network_btn">Try again</string>
   <string name="no_title_label">(No title)</string>
-  <string name="no_visiable_calendar_message">You need to add a calendar account. Tap Add account to continue.</string>
-  <string name="no_visiable_calendar_select_account">Add account</string>
-  <string name="no_visiable_calendar_title">Add account</string>
+  <string name="no_visiable_calendar_message">You need to select a calendar account. Tap Select account to continue.</string>
+  <string name="no_visiable_calendar_select_account">Select account</string>
+  <string name="no_visiable_calendar_title">Select a calendar account</string>
   <string name="not_synced">not synced</string>
   <string name="olympic_rank">排名</string>
   <string name="olympic_total">总数</string>
@@ -492,7 +490,7 @@ Check network settings and try again."</string>
   <string name="response_yes">Yes</string>
   <string name="rest_day_indication">: )</string>
   <string name="saving_event">Event saved</string>
-  <string name="saving_event_with_guest">Sending updates…</string>
+  <string name="saving_event_with_guest">Updates will be sent</string>
   <string name="search">Search</string>
   <string name="search_calendar">"Date;Solar Terms;Lunar;Almanac;Fortune;Agenda;Meeting;Reminder;Vacation;Holiday;Birthday;2016;2017;Spring Festival;New Year's Day;International Labour Day;Mid-Autumn Festival"</string>
   <string name="search_calendar_edit_event">Meeting;Reminder;Agenda</string>
@@ -577,7 +575,6 @@ You can also add reminders so you don't miss anything important."</string>
   <string name="swipe_up_guide_hint_text">上滑发现更多</string>
   <string name="synced">synced</string>
   <string name="taishen">胎神</string>
-  <string name="talk_back_read_date">The current date is %1$s,%2$s,</string>
   <string name="template_announce_item_index">Event %1$s of %2$s.</string>
   <string name="template_week_num">Week %1$s</string>
   <string name="text_day">日</string>

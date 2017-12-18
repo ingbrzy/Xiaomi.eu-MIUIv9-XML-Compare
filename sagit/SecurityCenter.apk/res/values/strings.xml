@@ -145,18 +145,13 @@
   <string name="app_manager_as_dlg_title">Attention</string>
   <string name="app_manager_back">Back</string>
   <string name="app_manager_bipartition">Dual apps</string>
-  <string name="app_manager_cache_size">Cache</string>
   <string name="app_manager_card_permission_title">Permissions</string>
-  <string name="app_manager_clear_all_data">Clear all data</string>
   <string name="app_manager_clear_cache">Clear cache</string>
-  <string name="app_manager_clear_data_dlg_message">All app data, including files, settings, accounts, databases, and cache will be permanently deleted.</string>
-  <string name="app_manager_clear_data_dlg_title">Delete all data?</string>
-  <string name="app_manager_clear_dlg_title">Clear data</string>
+  <string name="app_manager_clear_data_dlg_message">All this app’s data will be deleted permanently. This includes all files, settings, accounts, databases, etc.</string>
+  <string name="app_manager_clear_data_dlg_title">Delete app data?</string>
   <string name="app_manager_clear_failed_dlg_message">Couldn’t clear data for app.</string>
-  <string name="app_manager_code_size">App size</string>
-  <string name="app_manager_comuting_size">Computing…</string>
+  <string name="app_manager_clear_failed_dlg_title">Clear data</string>
   <string name="app_manager_copy_pkg_to_clip">Copied to clipboard</string>
-  <string name="app_manager_data_size">User data</string>
   <string name="app_manager_default_cleared">Cleared</string>
   <string name="app_manager_default_close_summary">No defaults set.</string>
   <string name="app_manager_default_open_summary">You’ve chosen to launch this app by default for some actions.</string>
@@ -172,7 +167,6 @@
   <string name="app_manager_disabled">Disabled</string>
   <string name="app_manager_disabled_by_admin">Disabled by admin</string>
   <string name="app_manager_dlg_cancel">Cancel</string>
-  <string name="app_manager_dlg_clear_cache_title">Clear cache?</string>
   <string name="app_manager_dlg_ok">OK</string>
   <string name="app_manager_enable_text">Enable</string>
   <string name="app_manager_enabled">Enabled</string>
@@ -197,14 +191,16 @@
   <string name="app_manager_net_mobile">Data</string>
   <string name="app_manager_net_wifi">WLAN</string>
   <string name="app_manager_not_allow">No</string>
-  <string name="app_manager_not_support_uninstall">"Can't uninstall this apps"</string>
+  <string name="app_manager_not_record">"Couldn't find apps which require permissions"</string>
   <string name="app_manager_notify_bar">Badges</string>
   <string name="app_manager_notify_floating">Floating notifications</string>
   <string name="app_manager_notify_keyguard">Lock screen</string>
   <string name="app_manager_perm">Permissions</string>
   <string name="app_manager_permission_manager_title">Permissions</string>
   <string name="app_manager_permission_notify_title">Notifications</string>
+  <string name="app_manager_permission_power_saving_summary">MIUI Battery saver</string>
   <string name="app_manager_permission_power_saving_title">Battery saver</string>
+  <string name="app_manager_permission_startself_summary">Apps which start automatically occupy RAM and drain battery faster</string>
   <string name="app_manager_permission_startself_title">Autostart</string>
   <string name="app_manager_permission_summary_reject">Restrict all</string>
   <string name="app_manager_powerkeeper_miui_auto">MIUI Battery saver</string>
@@ -229,6 +225,7 @@
   <string name="app_manager_reset_app_preferences_title">Reset app preferences?</string>
   <string name="app_manager_show_all_apps">Show all apps</string>
   <string name="app_manager_show_detail_infos">View all</string>
+  <string name="app_manager_sort">Sort by</string>
   <string name="app_manager_start_by">Started by %s</string>
   <string name="app_manager_start_count_over">100000+ times</string>
   <string name="app_manager_stop_wakepath_dialog_summary">Uninstall %s to restrict chain start?</string>
@@ -237,10 +234,8 @@
   <string name="app_manager_stop_wakepath_success">Restricted successfully</string>
   <string name="app_manager_stop_wp_dialog_cancel">Cancel</string>
   <string name="app_manager_stop_wp_dialog_uninstall">Uninstall</string>
-  <string name="app_manager_support_uninstall">You can uninstall these apps</string>
   <string name="app_manager_system_mobile_disable">Turn off data</string>
   <string name="app_manager_title">Manage apps</string>
-  <string name="app_manager_total_size">Total</string>
   <string name="app_manager_uninstall_protected_dlg_msg">Uninstalling system apps may prevent some MIUI components from working properly. Uninstall anyway?</string>
   <string name="app_manager_uninstall_protected_dlg_title">Uninstalling system apps</string>
   <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Corresponding dual apps will be removed together with app data.</string>
@@ -362,7 +357,6 @@
   <string name="auto_task_operation_vibration">Vibration</string>
   <string name="auto_task_operation_wifi">WLAN</string>
   <string name="back_app_name">Go back to App lock</string>
-  <string name="back_description_securitycenter">Back</string>
   <string name="back_modifypassword">Go back to changing password</string>
   <string name="background_restrict_app_dialog_message">Restricting background network access for this app might make it impossible for the app to work normally, receive messages, download content, etc. Restrict anyway?</string>
   <string name="background_traffic">Background %s</string>
@@ -478,7 +472,6 @@
   <string name="call_contact_block">Block calls from contacts</string>
   <string name="call_delete_hint">Delete all blocked calls from this number?</string>
   <string name="call_delete_title">Delete call history</string>
-  <string name="call_oversea_block">Block calls from abroad</string>
   <string name="call_prefix">Prefix blocklist</string>
   <string name="call_private">Block calls from hidden numbers</string>
   <string name="call_stranger_block">Block calls from strangers</string>
@@ -774,8 +767,6 @@
   <string name="fw_blocked">Blocklist</string>
   <string name="fw_blocked_count">"Blocked "</string>
   <string name="fw_blocked_join">" and "</string>
-  <string name="fw_oversea">Block calls from abroad</string>
-  <string name="fw_oversea_content">Block incoming calls from foreign phone numbers</string>
   <string name="game_ad_recommendation">Everybody is playing</string>
   <string name="game_anti_disturb_msg">Game DND</string>
   <string name="game_booster">Game speed booster</string>
@@ -918,7 +909,7 @@
   <string name="last_check_canceled">Previous scan was canceled</string>
   <string name="later">稍后处理</string>
   <string name="left_precent">60%</string>
-  <string name="legal_workday">Legal workdays</string>
+  <string name="legal_workday">Holiday</string>
   <string name="legal_workday_invalidate">Mon-Fri (holiday info expired)</string>
   <string name="legal_workday_invalidate_message">Tap to update public holiday info.</string>
   <string name="legal_workday_message">(Skip holidays)</string>
@@ -1178,20 +1169,20 @@ to respond"</string>
   <string name="network_roaming_exception_tips">"Can't use mobile data while roaming to connect to the network."</string>
   <string name="network_route_exception_detail">"There may be a problem with the router you're connected to:
 
- "&lt;b&gt;1. Public WLAN network issues&lt;/b&gt;"
-If you're connected to a public WLAN network, the number of users connected to that network may be slowing it down or creating connectivity problems. Switch to another network and try again.
+ "&lt;b&gt;"1. Public WLAN network issues
+"&lt;/b&gt;"If you're connected to a public WLAN network, the number of users connected to that network may be slowing it down or creating connectivity problems. Switch to another network and try again.
 
- "&lt;b&gt;2. Internet service provider issues&lt;/b&gt;"
-Make sure that your account is in good standing with your Internet service provider.
+ 2."&lt;b&gt;" Internet service provider issues
+M"&lt;/b&gt;"ake sure that your account is in good standing with your Internet service provider.
 
- "&lt;b&gt;3. Router hardware issues&lt;/b&gt;"
-Try rebooting your router or checking the admin settings for your router.
+ 3."&lt;b&gt;" Router hardware issues
+T"&lt;/b&gt;"ry rebooting your router or checking the admin settings for your router.
 
- "&lt;b&gt;4. Other router issues&lt;/b&gt;"
-Read the instructions that came with your router and restore your router to its factory settings.
+ 4."&lt;b&gt;" Other router issues
+R"&lt;/b&gt;"ead the instructions that came with your router and restore your router to its factory settings.
 
- "&lt;b&gt;5. Make sure your router is connected properly&lt;/b&gt;"
-Try using another Ethernet cable to connect your router. If you suspect there's an issue with the connection in your home, contact your Internet service provider."</string>
+ 5."&lt;b&gt;" Make sure your router is connected properly
+T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you suspect there's an issue with the connection in your home, contact your Internet service provider."</string>
   <string name="network_sim_exception_detail">"There may be a problem with your SIM card:
 
 1. Make sure your account is in good standing with your carrier. Try using a friend's SIM card and see if you're able to connect normally.
@@ -1840,7 +1831,6 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_call_backsound_group">Blocklist sound</string>
   <string name="st_call_intercept_contacts">Block calls from contacts</string>
   <string name="st_call_intercept_forwarding">Block forwarded calls</string>
-  <string name="st_call_intercept_oversea">Block calls from abroad</string>
   <string name="st_call_intercept_reported">Block calls from reported numbers</string>
   <string name="st_call_intercept_stranger">Block calls from strangers</string>
   <string name="st_call_intercept_unknown">Block calls from hidden numbers</string>
@@ -1849,7 +1839,6 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_call_stranger_group">Block calls from strangers</string>
   <string name="st_confirm_dialog_btn_open">Open</string>
   <string name="st_confirm_dialog_summary_contact_call">All calls from contacts will be blocked.</string>
-  <string name="st_confirm_dialog_summary_oversea_call">Turn on to block all incoming calls from foreign phone numbers.</string>
   <string name="st_confirm_dialog_summary_stranger_call">All calls from strangers will be blocked.</string>
   <string name="st_filter_keywords_setting_summary1">Messages from unknown numbers that contain the words in this list will be blocked.</string>
   <string name="st_filter_keywords_setting_summary2">"

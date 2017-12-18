@@ -12,14 +12,6 @@
         <item quantity="other">%d items</item>
         <item quantity="one">%d item</item>
     </plurals>
-    <plurals name="total_num">
-        <item quantity="other">%d items,</item>
-        <item quantity="one">%d item,</item>
-    </plurals>
-    <plurals name="custom_progress">
-        <item quantity="other">%d items</item>
-        <item quantity="one">%d item</item>
-    </plurals>
     <plurals name="trans_time_format_minute">
         <item quantity="other">%d minutes</item>
         <item quantity="one">%d minute</item>

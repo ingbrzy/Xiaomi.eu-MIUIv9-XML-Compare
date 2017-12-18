@@ -5,9 +5,12 @@
   <string name="access_token_invalid_warning">Weibo Account is invalid</string>
   <string name="account">Account</string>
   <string name="account_bind_devices">Devices</string>
+  <string name="account_bind_new_phone">Add new phone</string>
+  <string name="account_bind_phone_notice">Use this phone number to sign in to your account, reset your password, or change security settings.</string>
   <string name="account_bind_secure_email_title">Add email</string>
   <string name="account_bind_secure_phone_title">Add phone number</string>
   <string name="account_bind_settings">Accounts</string>
+  <string name="account_binded_phone">Phone %d</string>
   <string name="account_crop_user_avatar">Crop photo</string>
   <string name="account_empty_user_name">Enter your Mi Account username</string>
   <string name="account_error_all_space_user_name">"Name can't contain only space characters"</string>
@@ -15,8 +18,6 @@
   <string name="account_error_longer_user_name">"Name can't exceed 20 characters"</string>
   <string name="account_error_shorter_user_name">Name must be longer than 2 characters</string>
   <string name="account_error_user_birthday">The birthday you entered is invalid</string>
-  <string name="account_error_user_name">The name you entered is invalid</string>
-  <string name="account_global_region">Overseas</string>
   <string name="account_has_been_set">Change</string>
   <string name="account_limit_update_birthday">"Can't update birthday right now"</string>
   <string name="account_mibi_center">Mi Credits</string>
@@ -25,7 +26,7 @@
   <string name="account_none">None</string>
   <string name="account_none_binded_info">None</string>
   <string name="account_none_user_name">None</string>
-  <string name="account_notification_message">&gt;Session expired. Sign in again.</string>
+  <string name="account_notification_message">Session expired. Sign in again.</string>
   <string name="account_protection">Account protection</string>
   <string name="account_protection_off">Off</string>
   <string name="account_protection_on">On</string>
@@ -58,8 +59,6 @@
   <string name="account_user_using_qq_avatar">Use QQ profile photo</string>
   <string name="account_user_using_weibo_avatar">Use Sina Weibo profile photo</string>
   <string name="account_xiaomi_service">Services</string>
-  <string name="action_add_phone">Add phone number</string>
-  <string name="action_update_phone">Change phone number</string>
   <string name="activate_email_notice">Make sure to activate your account within 24 hours</string>
   <string name="activity_not_found_notice">"Can't find the app"</string>
   <string name="add_account">Connect account</string>
@@ -80,6 +79,7 @@
   <string name="change_email_address">Change email address</string>
   <string name="change_password">Change password</string>
   <string name="change_phone_number">Change phone number</string>
+  <string name="checking_phone_num_availible">Verifying phone…</string>
   <string name="cloud_service">Mi Cloud</string>
   <string name="completed">All set</string>
   <string name="confirm_activate_email">Verified</string>
@@ -137,12 +137,10 @@
   <string name="find_device_request_prepare_error">"Can't get status, try again later"</string>
   <string name="find_device_unknown_error">"Can't get device status, wait a minute or two and try again"</string>
   <string name="first_login_time">First sign in attempt: %s</string>
-  <string name="get_back_pwd">Resetting password</string>
   <string name="get_device_list_failed">"Can't get devices"</string>
   <string name="get_phone_bind_exceed_limit">"You can associate up to 3 Mi Accounts with a phone number. Can't add new accounts."</string>
   <string name="get_phone_verifycode_exceed_limit">Too many verification codes have been sent to this number. Wait 24 hours and try again.</string>
   <string name="guest_account_label">Mi Guest Account</string>
-  <string name="identity">Identification</string>
   <string name="input_email_address_notice">"We'll use this email to verify your account"</string>
   <string name="io_error_title">Confirm your network</string>
   <string name="just_a_second">Just a sec…</string>
@@ -172,7 +170,6 @@
   <string name="my_device_title">Current device</string>
   <string name="no_network_btn">Refresh</string>
   <string name="no_network_title">"Can't connect to the network."</string>
-  <string name="no_phone">No phone number</string>
   <string name="no_response_retry">No response, try again.</string>
   <string name="no_sim_card_or_unactivated">"SIM card isn't installed or activated"</string>
   <string name="nobind">Not connected</string>
@@ -214,7 +211,7 @@ To activate your account, follow the
  link we've sent to your inbox."</string>
   <string name="passport_completed">Finish</string>
   <string name="passport_confirm_recycle_account">Yes</string>
-  <string name="passport_confirm_recycle_account_msg">"&lt;font color=Red&gt;Looks like&lt;/font&gt; the number %s has been recycled by your carrier, and there's a Mi Account associated with it. Is this account yours?"</string>
+  <string name="passport_confirm_recycle_account_msg">%s &lt;font color=Red&gt;疑似&lt;/font&gt;是运营商回收后再次收买的号码，该号码下已有小米帐号，这个帐号是你的吗？</string>
   <string name="passport_continue">Continue</string>
   <string name="passport_copy_message_text_success">Copied successfully</string>
   <string name="passport_copy_message_vcode">Copy code</string>
@@ -252,10 +249,6 @@ To activate your account, follow the
   <string name="passport_forget_password">&lt;u&gt;Forgot password&lt;/u&gt;</string>
   <string name="passport_forget_password_no_underline">Forgot password</string>
   <string name="passport_get_back_pwd">Retrieve account password</string>
-  <string name="passport_get_innetdate_agree">Check</string>
-  <string name="passport_get_innetdate_disagree">No</string>
-  <string name="passport_get_innetdate_msg">&lt;font color=Red&gt;Looks like&lt;/font&gt; the number %s has been recycled by your carrier. Check when the number went online?</string>
-  <string name="passport_get_innetdate_title">Check when the number went online</string>
   <string name="passport_get_verify_code">Get code</string>
   <string name="passport_getting_activator_phone">Getting SIM info…</string>
   <string name="passport_getting_verify_code">Getting</string>
@@ -276,7 +269,7 @@ To activate your account, follow the
   <string name="passport_login_instead_reg_with_email">Use this email</string>
   <string name="passport_login_other_account">Another account</string>
   <string name="passport_login_prompt">One Mi Account. All Mi services.</string>
-  <string name="passport_login_recycle_account_no">No</string>
+  <string name="passport_login_recycle_account_no">Nope</string>
   <string name="passport_login_recycle_account_yes">Yes</string>
   <string name="passport_login_title">Sign in to your Mi Account</string>
   <string name="passport_login_using_other_ways">&lt;u&gt;Other ways to sign in&lt;/u&gt;</string>
@@ -308,11 +301,11 @@ To activate your account, follow the
   <string name="passport_reg_failed">"Can't set up account"</string>
   <string name="passport_reg_new_account">Create account</string>
   <string name="passport_reg_prompt">"Don't have a Mi Account? Create one for free."</string>
-  <string name="passport_reg_recycle_account_no">No</string>
+  <string name="passport_reg_recycle_account_no">Nope</string>
   <string name="passport_reg_recycle_account_yes">Yes</string>
   <string name="passport_reg_success">Account created</string>
   <string name="passport_reg_success_summary">%1$s has been bound with your account. You can use it to sign in or to reset your password.</string>
-  <string name="passport_reg_type_email">Email address</string>
+  <string name="passport_reg_type_email">Use email address</string>
   <string name="passport_reg_using_other_phone">&lt;u&gt;Use alternate phone number&lt;/u&gt;</string>
   <string name="passport_reg_using_other_phone_number_prompt">"Create a new account using "</string>
   <string name="passport_reg_using_phone_number_prompt">Create account using phone number</string>
@@ -385,15 +378,12 @@ To activate your account, follow the
   <string name="passport_wrong_vcode">The code you entered is incorrect</string>
   <string name="passport_yes">Yes</string>
   <string name="phone_activated">%s activated</string>
-  <string name="phone_num_use_for">Phone number is used for:</string>
   <string name="photoPickerNotFoundText">No photos available.</string>
   <string name="push_notification_content">Get verification code</string>
   <string name="push_notification_title">You signed in to your Mi Account on an unknown device</string>
   <string name="push_notify_dialog_message">"An unknown device is used to sign in to your Mi Account. Enter this verification code on the device. If that wasn't you, change your Mi Account password right away. Don't disclose the verification code to other people."</string>
   <string name="push_notify_dialog_title">Account verification</string>
   <string name="qq">QQ</string>
-  <string name="recycle_phone_notification_msg">Looks like your phone number has been recycled. Tap to update.</string>
-  <string name="recycle_phone_notification_title">Mi Account security risk</string>
   <string name="remove_device_success_notice">If you remove this device from your trusted devices, you may need to go the verification process again when you sign in.​</string>
   <string name="remove_trust_btn">Remove from trusted devices</string>
   <string name="remove_trust_notice">Remove from trusted devices and sign out</string>
@@ -425,10 +415,6 @@ To activate your account, follow the
   <string name="select_location_title">Select your location</string>
   <string name="send_email_activate_message">Verification email sent</string>
   <string name="service_error">Service error</string>
-  <string name="set_success">Changed successfully</string>
-  <string name="sign_in">Signing in</string>
-  <string name="sim_changed_notification_msg">Tap to update your recovery phone and keep your account more secure.</string>
-  <string name="sim_changed_notification_title">Changed phone number?</string>
   <string name="sina_weibo">Sina Weibo</string>
   <string name="sms_send_success">Sent</string>
   <string name="sns_access_token_expired_warning">Account sign-in has expired. Sign in again to reconnect this account.</string>
@@ -444,7 +430,6 @@ To activate your account, follow the
   <string name="update_contacts">Update contacts</string>
   <string name="update_email_address_dialog_message">You need to verify your identity before you can update email.</string>
   <string name="update_email_address_dialog_title">Update Email</string>
-  <string name="update_phone_notice">Change security settings</string>
   <string name="update_phone_number_notice_message">You need to verify your identity before you can update phone number.</string>
   <string name="updated_nothing">Updated</string>
   <string name="user_avatar_update_title">Change profile photo</string>

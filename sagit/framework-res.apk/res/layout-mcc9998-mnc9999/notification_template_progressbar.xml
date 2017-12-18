@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ProgressBar android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="2.0dip" android:indeterminateOnly="false" android:progressDrawable="@drawable/notification_progress_bar" style="@android:style/Widget.ProgressBar.Horizontal"
-  xmlns:android="http://schemas.android.com/apk/res/android" />

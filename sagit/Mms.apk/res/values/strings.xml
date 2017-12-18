@@ -65,7 +65,7 @@
   <string name="class_0_message_activity">Class 0 message</string>
   <string name="close">Close</string>
   <string name="cloud_recommend_msg">Tap to sync messages with Mi Cloud.</string>
-  <string name="cloud_state_disabled">Turn on sync with Mi Cloud to sync messages</string>
+  <string name="cloud_state_disabled">Sync with Mi Cloud is off</string>
   <string name="cloud_state_sync_finished">Synced with Mi Cloud</string>
   <string name="cloud_state_syncing">Syncing with Mi Cloud…</string>
   <string name="cmcc_key">43a489fcb42b4372b10f0586fe6dbf88</string>
@@ -579,7 +579,6 @@
   <string name="sms_report_success">Sent report successfully</string>
   <string name="snippet_audio">[Audio]</string>
   <string name="snippet_picture">[Image]</string>
-  <string name="snippet_timed">[Timed]</string>
   <string name="sp_category_all">All service messages</string>
   <string name="sp_category_bank">Bank notification messages</string>
   <string name="sp_category_title_prefix">%s</string>

@@ -93,8 +93,8 @@
   <string name="gift_use_confirmation_dlg_title">Send this gift?</string>
   <string name="gift_use_fail_dlg_title">Something went wrong</string>
   <string name="gift_used">Sent</string>
-  <string name="hide_free">Hide free %1$s</string>
-  <string name="hide_incompatible">Hide incompatible %1$s</string>
+  <string name="hide_free">Hide free themes</string>
+  <string name="hide_incompatible">Hide incompatible themes</string>
   <string name="home_apply_failured">"Can't apply Home screen wallpaper"</string>
   <string name="home_apply_success">Home screen wallpaper applied</string>
   <string name="in_the_end">No more items to show</string>

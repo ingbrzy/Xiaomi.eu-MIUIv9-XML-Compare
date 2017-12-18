@@ -4,5 +4,5 @@
     <string name="date_time_12">EEEE, dd \'de\' MMMM</string>
     <string name="desc_date_format">EEEE, dd \'de\' MMMM</string>
     <string name="desc_date_format_12">EEEE, dd \'de\' MMMM</string>
-    <string name="desc_time">'hora atual \' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', toque duas vezes para abrir o app relógio'</string>
+    <string name="desc_time">'hora atual \' + #hour12+\' \'+ifelse(#minute,#minute,\'oclock\')+\', toque duas vezes para abrir o app relógio'</string>
 </resources>
