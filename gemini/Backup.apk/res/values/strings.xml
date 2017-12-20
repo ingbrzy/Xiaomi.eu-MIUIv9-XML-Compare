@@ -467,8 +467,8 @@ Keep devices close to each other."</string>
 Select files again or clear %s of storage on the new device"</string>
   <string name="trans_select_data_tips">"Select items to transfer
 Similar files on the new device will be overwritten"</string>
-  <string name="trans_select_data_too_large">"数据量过大，会导致换机时间较长
-建议只迁移对自己重要的数据"</string>
+  <string name="trans_select_data_too_large">"You selected too many items to transfer.
+Select only important items to make the transfer faster."</string>
   <string name="trans_select_device_receive">Select one device to receive data.</string>
   <string name="trans_select_device_send">Select one device to transfer data.</string>
   <string name="trans_sender">"I'm a sender"</string>
