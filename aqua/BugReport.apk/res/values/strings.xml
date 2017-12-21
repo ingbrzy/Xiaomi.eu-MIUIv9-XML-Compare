@@ -266,7 +266,7 @@
   <string name="section_description">Description</string>
   <string name="section_err_type">Bug type</string>
   <string name="section_screenshot">Screenshot</string>
-  <string name="select_system_app_tag">Select tags</string>
+  <string name="select_system_app_tag">Select an issue</string>
   <string name="submit_dialog_cancel">Cancel</string>
   <string name="submit_dialog_confirm">Send</string>
   <string name="submit_dialog_content">"Your feedback, along with attachments and logs, will be sent to MIUI's servers. It may contain personal info and your location data."</string>

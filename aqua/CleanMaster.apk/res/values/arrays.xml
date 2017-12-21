@@ -58,6 +58,7 @@
         <item>/DCIM/.thumbnails</item>
         <item>/Android/data/com.miui.cleanmaster/cache</item>
         <item>tencent/MicroMsg</item>
+        <item>/Android/data/com.tencent.KiHan</item>
     </string-array>
     <string-array name="hide_packages">
         <item>com.tencent.mm</item>
