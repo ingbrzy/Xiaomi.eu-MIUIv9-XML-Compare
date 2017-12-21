@@ -263,10 +263,6 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">%d times</item>
         <item quantity="one">%d time</item>
     </plurals>
-    <plurals name="app_manager_reject_count">
-        <item quantity="other">Blocked %d times</item>
-        <item quantity="one">Blocked %d time</item>
-    </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Used %d days ago</item>
         <item quantity="one">Used %d day ago</item>
