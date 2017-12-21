@@ -127,7 +127,6 @@
   <string name="app_install_intercept">Block installation</string>
   <string name="app_install_tips_go_to">Open</string>
   <string name="app_install_tips_install_success">Installed %1$s successfully</string>
-  <string name="app_maanger_app_uninstalled_toast">This app is uninstalled</string>
   <string name="app_manager_advanced_setting">Advanced settings</string>
   <string name="app_manager_allow">Yes</string>
   <string name="app_manager_app_ifno_version">App version</string>
@@ -188,8 +187,6 @@
   <string name="app_manager_have_not_consume">None</string>
   <string name="app_manager_hide_system_server">Hide system services</string>
   <string name="app_manager_install_other_app">Install apps from unknown sources</string>
-  <string name="app_manager_instruction">Instruction</string>
-  <string name="app_manager_loading_data">Loading data…</string>
   <string name="app_manager_manage_space">Manage space</string>
   <string name="app_manager_memory">RAM</string>
   <string name="app_manager_menu_clear_data">Clear data</string>
@@ -212,10 +209,6 @@
   <string name="app_manager_powerkeeper_no_restrict">No restrictions</string>
   <string name="app_manager_powerkeeper_restrict_bg">Restrict background apps</string>
   <string name="app_manager_pref_ads">Recommendations</string>
-  <string name="app_manager_rebide_wakepath">Restrict</string>
-  <string name="app_manager_reduce_wakepath_dialog">Minimize chain start</string>
-  <string name="app_manager_reduce_wakepath_summary">Restricting autostart will minimize chain start. Restrict autostart for %s?</string>
-  <string name="app_manager_reject_count_over">Blocked 100000+ times</string>
   <string name="app_manager_reset_app_preferences">Reset app preferences</string>
   <string name="app_manager_reset_app_preferences_button">Reset apps</string>
   <string name="app_manager_reset_app_preferences_desc">"This will reset all preferences for:
@@ -230,13 +223,6 @@
   <string name="app_manager_show_all_apps">Show all apps</string>
   <string name="app_manager_show_detail_infos">View all</string>
   <string name="app_manager_start_by">Started by %s</string>
-  <string name="app_manager_start_count_over">100000+ times</string>
-  <string name="app_manager_stop_wakepath_dialog_summary">Uninstall %s to restrict chain start?</string>
-  <string name="app_manager_stop_wakepath_dialog_title">Restrict chain start</string>
-  <string name="app_manager_stop_wakepath_dlg_msg_with_xspace_app">Uninstalling this app will restrict chain start. Related Dual apps will be uninstalled as well. Uninstall %s?</string>
-  <string name="app_manager_stop_wakepath_success">Restricted successfully</string>
-  <string name="app_manager_stop_wp_dialog_cancel">Cancel</string>
-  <string name="app_manager_stop_wp_dialog_uninstall">Uninstall</string>
   <string name="app_manager_support_uninstall">You can uninstall these apps</string>
   <string name="app_manager_system_mobile_disable">Turn off data</string>
   <string name="app_manager_title">Manage apps</string>
@@ -247,10 +233,6 @@
   <string name="app_manager_uninstall_xspace_app_dlg_msg">Uninstalling dual app will remove all app data.</string>
   <string name="app_manager_uninstall_xspace_app_dlg_title">Uninstall dual app?</string>
   <string name="app_manager_unstall_application">Uninstall</string>
-  <string name="app_manager_wake_path_card_title">Chain start history (2 days)</string>
-  <string name="app_manager_wakepath_dialog_buttontext">Got it</string>
-  <string name="app_manager_wakepath_dialog_summary">Chain start happens when one app starts another app in the background. It can drain battery and lower the system performance. MIUI would normally block chain start.</string>
-  <string name="app_manager_wakepath_dialog_title">About chain start</string>
   <string name="app_managere_not_have_app">Empty</string>
   <string name="app_manger_des_separator">", "</string>
   <string name="app_mobile">Mobile</string>
@@ -657,7 +639,8 @@
   <string name="dlg_import_whitelist">Adding…</string>
   <string name="dlg_keyword_ok">Save</string>
   <string name="dlg_message_not_open_stranger_identify">To turn this feature on, go to Settings &gt; Phone.</string>
-  <string name="dlg_no_block">Unblock this number and restore calls from this number to call history?</string>
+  <string name="dlg_no_block">"Unblock this number and restore calls from this number to call history?
+(The number will be added to call whitelist)"</string>
   <string name="dlg_no_block_ok">Unblock</string>
   <string name="dlg_remove_address_blacklist">Remove this location from blocklist?</string>
   <string name="dlg_remove_address_whitelist">Remove this location from exceptions?</string>
@@ -1853,6 +1836,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_filter_keywords_setting_summary1">Messages from unknown numbers that contain the words in this list will be blocked.</string>
   <string name="st_filter_keywords_setting_summary2">"
 (Use a comma to separate multiple keywords)"</string>
+  <string name="st_filter_keywords_setting_summary3">Messages from unknown numbers that contain the words in this list will be allowed in.</string>
   <string name="st_group_list_management">Manage blocklist</string>
   <string name="st_hint_add_head_number">Enter prefix</string>
   <string name="st_hint_add_phonenumber">Enter phone number</string>
@@ -1861,7 +1845,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_message_phone_AntiSpam">Block calls</string>
   <string name="st_message_phonepass">Allow calls</string>
   <string name="st_msg_intercept_contacts">Block SMS from contacts</string>
-  <string name="st_msg_keyword_group">Keyword blocklist</string>
+  <string name="st_msg_keyword_black">Keyword Blocklist</string>
+  <string name="st_msg_keyword_group">Keywords</string>
+  <string name="st_msg_keyword_white">Keyword Exceptions</string>
   <string name="st_msg_other_group">Other</string>
   <string name="st_msg_settings">SMS blocklist</string>
   <string name="st_msg_stranger_group">Block SMS from strangers</string>
@@ -1894,7 +1880,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_title_call_wait_setting">Call waiting</string>
   <string name="st_title_editblacklist">Edit blocklist</string>
   <string name="st_title_editwhitelist">Edit exceptions</string>
-  <string name="st_title_keywords_blacklist">Keyword filter</string>
+  <string name="st_title_keywords_blacklist">Keyword blacklist</string>
+  <string name="st_title_keywords_whitelist">Keyword whitelist</string>
   <string name="st_title_man_addblacklist">Add number to blocklist</string>
   <string name="st_title_man_addwhitelist">Add phone number to exceptions</string>
   <string name="st_title_man_editblacklist">Choose an area code to add to blocklist</string>
@@ -2260,8 +2247,6 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="virus_update_tips_title">Warning</string>
   <string name="virus_wait_network_dialog_message">"Your phone isn't connected to WLAN now. Use mobile data connection?"</string>
   <string name="voltage_symbol">V</string>
-  <string name="vpn_disabled_by_user">Designated data connection is off</string>
-  <string name="vpn_unbale_get_phonenum">"Can't get phone numbers using designated data plans"</string>
   <string name="wakepath_confirm_start_activity">Allow %1$s to open %2$s?</string>
   <string name="warn_function_no_work">&lt;u&gt;来红包时无法正常提醒？&lt;/u&gt;</string>
   <string name="weChat_not_found">您的应用版本过低或者未安装</string>

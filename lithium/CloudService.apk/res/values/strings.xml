@@ -172,7 +172,7 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="micloud_battery_low_notification_message">Connect charger to sync</string>
   <string name="micloud_battery_low_notification_title">Low battery</string>
   <string name="micloud_buy_member">Buy Mi Cloud membership</string>
-  <string name="micloud_buy_member_safe">Buy Mi Cloud membership</string>
+  <string name="micloud_buy_member_safe">Extend MiCloud Storage</string>
   <string name="micloud_check_sim_notify_text">"Look's like you've changed SIM cards. Sign in
 to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_check_sim_notify_title">Reactivate Mi Cloud</string>
@@ -279,6 +279,8 @@ to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_find_device_verify_progress">Reactivating Find device…</string>
   <string name="micloud_first_login_summary"/>
   <string name="micloud_first_login_title"/>
+  <string name="micloud_footer_international_url">mi.com/micloud</string>
+  <string name="micloud_footer_normal_url">i.mi.com</string>
   <string name="micloud_full_influence_dspt">"All your photos, video, notes, and apps will remain backed up in the cloud. 
 
 This way, if you lose or damage your device, your data will still be safe. 
@@ -298,6 +300,11 @@ To fix this, you can either clean out some old files to make room for new ones, 
   <string name="micloud_main_error_activated_fail">Activate your SIM card.</string>
   <string name="micloud_main_error_network_disallowed">Make sure you allowed access to the internet.</string>
   <string name="micloud_main_error_permission_limit">Allow Mi Cloud to access storage.</string>
+  <string name="micloud_main_head_menu_cloud_backup">Cloud Backup</string>
+  <string name="micloud_main_head_menu_recycle_bin_summary">ReBackup Contacts,Photos</string>
+  <string name="micloud_main_head_menu_recycle_bin_title">Recycle Bin</string>
+  <string name="micloud_main_head_menu_state_close">Closed</string>
+  <string name="micloud_main_head_menu_state_open">Opened</string>
   <string name="micloud_main_last_sync_time">Last synced %s</string>
   <string name="micloud_main_master_sync_on">Sync on</string>
   <string name="micloud_main_memory_low_message">"To sync, delete some items you've stored in the cloud."</string>
@@ -346,6 +353,7 @@ Use a different account."</string>
   <string name="micloud_main_wait_wlan_charge">Connect to WLAN and fully charge your device to resume sync.</string>
   <string name="micloud_main_wait_wlan_charge_sleep">Connect to WLAN, turn off screen, and fully charge your device to resume sync.</string>
   <string name="micloud_main_wlan_sync_data_count">Items waiting to sync: %d</string>
+  <string name="micloud_manage_space_data">manage micloud data</string>
   <string name="micloud_member">Mi Cloud membership</string>
   <string name="micloud_member_advantage">Get more storage space.</string>
   <string name="micloud_member_buy_content" formatted="false">"Valid until %s-%s-%s
@@ -577,10 +585,10 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="virtual_sim_desc">Turn on Mi SIM to locate device without a SIM card</string>
   <string name="voip_choose_sim">Choose phone number to activate Mi Voice</string>
   <string name="wipe_data_dialog_button_check_sync">Check if synced</string>
-  <string name="wipe_data_dialog_msg">"Some items (%s) aren't synced. They will be saved on your device and won't be deleted."</string>
+  <string name="wipe_data_dialog_msg">"%s weren't synced and will stay on your phone."</string>
   <string name="wipe_data_dialog_msg_and_on">, and some other items</string>
   <string name="wipe_data_dialog_msg_separator">, </string>
-  <string name="wipe_data_dialog_title">"Items aren't synced"</string>
+  <string name="wipe_data_dialog_title">"Some items haven't been synced"</string>
   <string name="wipe_secret_photo_dialog_title">"Hidden photos aren't synced"</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
   <string name="xiaomi_cloud_service">Mi Cloud</string>
