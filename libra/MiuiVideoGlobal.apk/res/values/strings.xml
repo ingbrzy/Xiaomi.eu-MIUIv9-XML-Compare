@@ -30,6 +30,8 @@
   <string name="audio_track">Audio track</string>
   <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
   <string name="character_counter_pattern">%1$d / %2$d</string>
+  <string name="com_permission_desc">"Mi Video can't access videos on your device. Allow access in the Settings."</string>
+  <string name="com_permission_title">Permissions required</string>
   <string name="do_not_show_this_again">"Don't show again"</string>
   <string name="lp_advance_sound">Sound enhancement</string>
   <string name="lp_brightness">Brightness</string>
