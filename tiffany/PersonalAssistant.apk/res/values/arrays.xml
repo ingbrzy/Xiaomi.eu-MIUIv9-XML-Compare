@@ -41,11 +41,11 @@
     <string-array name="express_status_all">
         <item>On the way</item>
         <item>Dispatching</item>
-        <item>Delivered</item>
+        <item>Sent</item>
         <item>Unknown</item>
         <item>Recevied</item>
         <item>Rejected</item>
-        <item>Return</item>
+        <item>Returned</item>
         <item>Unknown</item>
     </string-array>
     <string-array name="express_status_detail">
