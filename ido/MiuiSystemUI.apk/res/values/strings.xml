@@ -33,7 +33,6 @@
   <string name="accessibility_desc_reconfirm_block">Hide now?</string>
   <string name="accessibility_desc_select_block_notification">Select notifications to hide</string>
   <string name="accessibility_desc_uncheck_block_notification">"Deselect %1$s's notifications"</string>
-  <string name="accessibility_desc_weather_temperature">Weather %1s degrees</string>
   <string name="accessibility_home">Home</string>
   <string name="accessibility_ime_switch_button">Switch input method button.</string>
   <string name="accessibility_managed_profile">Work profile</string>
