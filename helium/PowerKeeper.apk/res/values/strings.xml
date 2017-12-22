@@ -16,7 +16,7 @@
   <string name="alter_message_switch_mode_message">When you switch modes, your previous settings will no longer apply to this app.</string>
   <string name="app_invisible_title">Invisible apps</string>
   <string name="app_list_title">Choose apps</string>
-  <string name="app_name">Battery and Performance</string>
+  <string name="app_name">Battery and performance</string>
   <string name="background">App is running in background</string>
   <string name="base_info">Base info</string>
   <string name="cloud_addr_info">Cloud info</string>
@@ -46,7 +46,7 @@ Battery saver will treat important apps selectively."</string>
   <string name="enable_hide_mode">Turn on Battery saver</string>
   <string name="error_filename_too_long">The filename you entered is too long.</string>
   <string name="extreme_power_config_mode_category">Extreme mode</string>
-  <string name="extreme_power_config_mode_desc">Switch to extreme mode to turn off sync, Bluetooth, GPS, NFC, double tapping, button lights, waking Lock screen for notifications,as well as notification lights. MIUI will focus on saving battery.</string>
+  <string name="extreme_power_config_mode_desc">Switch to extreme mode to turn off sync, Bluetooth, GPS, NFC, double tapping, button lights, waking Lock screen for notifications, as well as notification lights. MIUI will focus on saving battery.</string>
   <string name="extreme_power_config_mode_title">Extreme mode</string>
   <string name="failure">Failed</string>
   <string name="foreground_change">App is running in foreground</string>
