@@ -8,6 +8,7 @@
     <item type="array" name="android_config_mobile_hotspot_provision_app">@android:array/config_mobile_hotspot_provision_app</item>
     <item type="array" name="android_common_nicknames">@android:array/common_nicknames</item>
     <string-array name="float_notification_whitelist">
+        <item>com.miui.yellowpage</item>
         <item>com.android.cellbroadcastreceiver</item>
         <item>com.google.android.talk</item>
         <item>com.tencent.mm</item>
