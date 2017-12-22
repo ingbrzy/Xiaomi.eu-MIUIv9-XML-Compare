@@ -43,7 +43,6 @@
   <string name="accessibility_desc_reconfirm_block">Hide now?</string>
   <string name="accessibility_desc_select_block_notification">Select notifications to hide</string>
   <string name="accessibility_desc_uncheck_block_notification">"Deselect %1$s's notifications"</string>
-  <string name="accessibility_desc_weather_temperature">Weather %1s degrees</string>
   <string name="accessibility_desc_work_lock">Work lock screen</string>
   <string name="accessibility_display_daltonizer_preference_subtitle">This feature is experimental and may affect performance.</string>
   <string name="accessibility_display_daltonizer_preference_title">Color correction</string>
