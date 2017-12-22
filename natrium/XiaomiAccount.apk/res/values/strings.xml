@@ -213,6 +213,7 @@
 To activate your account, follow the 
  link we've sent to your inbox."</string>
   <string name="passport_completed">Finish</string>
+  <string name="passport_confirm_login">Continue</string>
   <string name="passport_confirm_recycle_account">Yes</string>
   <string name="passport_confirm_recycle_account_msg">"&lt;font color=Red&gt;Looks like&lt;/font&gt; the number %s has been recycled by your carrier, and there's a Mi Account associated with it. Is this account yours?"</string>
   <string name="passport_continue">Continue</string>
