@@ -335,6 +335,7 @@ Your Administrator has the ability to monitor and manage settings, access, apps,
   <string name="average_used">Average used (%)</string>
   <string name="avoid_ui">Touch block</string>
   <string name="awake">Device awake time</string>
+  <string name="back_button">Back</string>
   <string name="back_key">Back</string>
   <string name="background_data">Background data</string>
   <string name="background_data_dialog_message">Disabling background data extends battery life and lowers data use. Some apps may still use the background data connection.</string>
