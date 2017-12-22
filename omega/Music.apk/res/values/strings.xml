@@ -452,7 +452,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="ktv_playlist">KTV playlist</string>
   <string name="latest_song">Play history (%d)</string>
   <string name="like">Like</string>
-  <string name="list_detail_title">Details</string>
   <string name="list_item_play_FM_radio">Touch to play FM radio</string>
   <string name="list_item_play_all_tracks">Play all</string>
   <string name="load_shuffle">Loading…</string>
@@ -845,10 +844,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="tab_album_list">Albums</string>
   <string name="tab_artist">Artists</string>
   <string name="tab_artist_list">Artists</string>
-  <string name="tab_chinese">Chinese</string>
-  <string name="tab_europa_america">Western</string>
   <string name="tab_folder">Folders</string>
-  <string name="tab_japanese_korean">J-Pop/K-Pop</string>
   <string name="tab_local_folder_list">Folders</string>
   <string name="tab_local_track_list">Songs</string>
   <string name="tab_track">Songs</string>
