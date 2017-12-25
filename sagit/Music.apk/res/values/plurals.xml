@@ -95,6 +95,10 @@
         <item quantity="other">%d followers</item>
         <item quantity="one">%d follower</item>
     </plurals>
+    <plurals name="songs_count">
+        <item quantity="other">%d songs</item>
+        <item quantity="one">%d song</item>
+    </plurals>
     <plurals name="Nunbackup_audios">
         <item quantity="other">"%1$d songs haven't been backed up (%2$.1fMB)"</item>
         <item quantity="one">"%1$d song hasn't been backed up (%2$.1fMB)"</item>
@@ -124,5 +128,13 @@
     <plurals name="skipped_online_songs_tips">
         <item quantity="other">Skipped %d songs. Turn on online services in the settings to listen to them.</item>
         <item quantity="one">Skipped %d song. Turn on online services in the settings to listen to it.</item>
+    </plurals>
+    <plurals name="Nrecognize_switch_off_alert_message">
+        <item quantity="other">You chose not to find album covers and lyrics for local songs automatically. Delete info for %d songs?</item>
+        <item quantity="one">You chose not to find album covers and lyrics for local songs automatically. Delete info for %d song?</item>
+    </plurals>
+    <plurals name="Nassociate_songs">
+        <item quantity="other">Searching for album covers and lyrics (%1$d/%2$d)</item>
+        <item quantity="one">Searching for album covers and lyrics (%1$d/%2$d)</item>
     </plurals>
 </resources>

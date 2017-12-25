@@ -95,6 +95,10 @@
         <item>5</item>
         <item>10</item>
     </string-array>
+    <string-array name="ap_identify">
+        <item>default</item>
+        <item>iPhone</item>
+    </string-array>
     <string-array name="apn_auth_entries">
         <item>None</item>
         <item>PAP</item>
@@ -1449,6 +1453,16 @@
         <item>opengl</item>
         <item>skiagl</item>
     </string-array>
+    <string-array name="default_not_chrome_regions">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>SG</item>
+        <item>MY</item>
+        <item>HK</item>
+        <item>TW</item>
+        <item>UA</item>
+    </string-array>
     <string-array name="dndm_auto_time_trun_on_off">
         <item>@string/dndm_auto_time_turn_on</item>
         <item>@string/dndm_auto_time_turn_off</item>
@@ -2526,8 +2540,8 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>0</item>
     </string-array>
     <string-array name="status_bar_show_carrier_entries">
-        <item>Only show on the Lock screen and in the Notification shade</item>
-        <item>Always show carrier name</item>
+        <item>Only show in lock screen</item>
+        <item>Only show in status bar</item>
         <item>Never show carrier name</item>
     </string-array>
     <string-array name="status_bar_show_carrier_values">
@@ -2752,6 +2766,10 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>IPSec VPN with certificates and Xauth authentication</item>
         <item>IPSec VPN with certificates and hybrid authentication</item>
     </string-array>
+    <string-array name="wapi_psk_type">
+        <item>@string/wapi_psk_type_ascii</item>
+        <item>@string/wapi_psk_type_hex</item>
+    </string-array>
     <string-array name="wfd_status">
         <item>Starting session…</item>
         <item>Session started</item>
@@ -2908,6 +2926,8 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>@string/wifi_security_wep</item>
         <item>@string/wifi_security_psk_generic</item>
         <item>@string/wifi_security_eap</item>
+        <item>@string/wifi_security_wapi_psk</item>
+        <item>@string/wifi_security_wapi_cert</item>
     </string-array>
     <string-array name="wifi_security_no_eap">
         <item>@string/wifi_security_none</item>

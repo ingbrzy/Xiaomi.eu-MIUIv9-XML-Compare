@@ -3,9 +3,10 @@
   <string name="action_cancel">Cancel</string>
   <string name="action_submit">Send</string>
   <string name="announcement">Attention</string>
-  <string name="app_empty">"You haven't downloaded any apps."</string>
+  <string name="app_empty">"Couldn't find apps."</string>
   <string name="app_label">Feedback</string>
   <string name="app_name">Feedback</string>
+  <string name="app_search">Search apps</string>
   <string name="btn_send">Send</string>
   <string name="bugreport_dialog_not_show_again">"Don't show again"</string>
   <string name="bugreport_dialog_submit_content">Your feedback may contain personal info and location data.</string>
@@ -56,12 +57,15 @@
   <string name="feedback_bug_status_change_notification_desc">%1$s issue \"%2$s\"</string>
   <string name="feedback_choose_module">Select item</string>
   <string name="feedback_choose_module_hint">Required</string>
+  <string name="feedback_choose_reproductivity">Reproductivity</string>
+  <string name="feedback_choose_third_app_name">Select app name</string>
   <string name="feedback_collect_log_failed">"Couldn't get logs"</string>
   <string name="feedback_contact_info_hint">Phone number/Email</string>
   <string name="feedback_continue">Continue with feedback</string>
   <string name="feedback_delete_images">Delete images</string>
   <string name="feedback_description">Description</string>
   <string name="feedback_description_bugreport_hint">In some cases (…) my phone misbehaves (…).</string>
+  <string name="feedback_description_hint">"Describe the issue you've encountered"</string>
   <string name="feedback_description_label">Description</string>
   <string name="feedback_description_suggest_hint">"I'd like you to add a new feature () because I need ()."</string>
   <string name="feedback_detail_tile">Progress</string>
@@ -94,6 +98,7 @@
   <string name="feedback_status_recorded">Received feedback</string>
   <string name="feedback_status_replyed">Replied</string>
   <string name="feedback_status_reresolved">Resolved</string>
+  <string name="feedback_status_submit_attachment">Submitted attachment successfully</string>
   <string name="feedback_status_supplement">Describe your issue in details</string>
   <string name="feedback_status_supplement_more">Add a comment</string>
   <string name="feedback_submit_failed_notification_desc">View details</string>
@@ -110,6 +115,7 @@
   <string name="feedback_third_packagename_hint">Which third party app causes problems?</string>
   <string name="feedback_title">Title</string>
   <string name="feedback_title_hint">Describe the issue briefly</string>
+  <string name="feedback_title_reproductivity">Select reproductivity</string>
   <string name="feedback_tracking">Track issues</string>
   <string name="feedback_version_label">Version</string>
   <string name="feesback_list">Reports</string>
@@ -118,6 +124,7 @@
   <string name="from">from %1$s</string>
   <string name="goon_feedback_main">Continue</string>
   <string name="hint_feedback_main">Describe the issue</string>
+  <string name="issue_search">Search</string>
   <string name="loading_apps">Loading list…</string>
   <string name="login_system_failed">"Couldn't sign in, try again"</string>
   <string name="logo_title">Feedback</string>
@@ -259,6 +266,7 @@
   <string name="section_description">Description</string>
   <string name="section_err_type">Bug type</string>
   <string name="section_screenshot">Screenshot</string>
+  <string name="select_system_app_tag">Select an issue</string>
   <string name="submit_dialog_cancel">Cancel</string>
   <string name="submit_dialog_confirm">Send</string>
   <string name="submit_dialog_content">"Your feedback, along with attachments and logs, will be sent to MIUI's servers. It may contain personal info and your location data."</string>
@@ -288,6 +296,7 @@
   <string name="toast_feedbackservice_in_submit">Handling previous feedback…</string>
   <string name="toast_fill_brackets">Your report is missing some info</string>
   <string name="toast_log_not_exists">"The required log was deleted or doesn't exist"</string>
+  <string name="toast_log_too_large">"Can't upload. The file is too big."</string>
   <string name="toast_module_required">Select item</string>
   <string name="toast_network_unavailable">"Couldn't send. Can't connect to the network."</string>
   <string name="toast_pending_log_collection">Still getting logs…</string>

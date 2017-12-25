@@ -65,7 +65,7 @@
   <string name="class_0_message_activity">Class 0 message</string>
   <string name="close">Close</string>
   <string name="cloud_recommend_msg">Tap to sync messages with Mi Cloud.</string>
-  <string name="cloud_state_disabled">Sync with Mi Cloud is off</string>
+  <string name="cloud_state_disabled">Turn on sync with Mi Cloud to sync messages</string>
   <string name="cloud_state_sync_finished">Synced with Mi Cloud</string>
   <string name="cloud_state_syncing">Syncing with Mi Cloud…</string>
   <string name="cmcc_key">43a489fcb42b4372b10f0586fe6dbf88</string>
@@ -75,7 +75,7 @@
   <string name="confirm_delete_SIM_message">Delete this SIM message?</string>
   <string name="confirm_delete_all_SIM_messages">Delete all SIM messages?</string>
   <string name="confirm_delete_all_conversations">Delete all conversations?</string>
-  <string name="confirm_delete_conversation">Delete this entire thread?</string>
+  <string name="confirm_delete_conversation">Delete this conversation?</string>
   <string name="confirm_delete_group_message">Delete group messages?</string>
   <string name="confirm_delete_locked_message">Delete this locked message?</string>
   <string name="confirm_delete_message">Delete this message?</string>
@@ -86,7 +86,8 @@
   <string name="confirm_export_dialog_description">Previous conversations with this contact will no longer be hidden.</string>
   <string name="confirm_export_dialog_title">Remove from private contacts</string>
   <string name="confirm_no_block_positive">Unblock</string>
-  <string name="confirm_no_block_title">Unblock this number and restore all messages sent from this number?</string>
+  <string name="confirm_no_block_title">"Unblock this number and restore all messages sent from this number? 
+(The number will be added to message whitelist)"</string>
   <string name="confirm_rate_limit">A large number of multimedia messages are being sent.</string>
   <string name="confirm_restore_all_title">Restore all messages sent from this number?</string>
   <string name="confirm_restore_checkbox">Restore blocked messages</string>
@@ -579,6 +580,7 @@
   <string name="sms_report_success">Sent report successfully</string>
   <string name="snippet_audio">[Audio]</string>
   <string name="snippet_picture">[Image]</string>
+  <string name="snippet_timed">[Timed]</string>
   <string name="sp_category_all">All service messages</string>
   <string name="sp_category_bank">Bank notification messages</string>
   <string name="sp_category_title_prefix">%s</string>

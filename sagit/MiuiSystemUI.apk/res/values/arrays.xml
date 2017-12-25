@@ -570,6 +570,7 @@
         <item>com.miui.gallery</item>
         <item>com.miui.player</item>
         <item>com.android.fileexplorer</item>
+        <item>com.mi.android.globalFileexplorer</item>
         <item>com.miui.securitycenter</item>
         <item>com.miui.cloudappbackup</item>
         <item>com.miui.fmradio</item>
@@ -604,6 +605,7 @@
         <item>com.xiaomi.payment</item>
         <item>com.xiaomi.vip</item>
         <item>com.miui.systemAdSolution</item>
+        <item>com.miui.msa.global</item>
         <item>com.miui.analytics</item>
         <item>com.xiaomi.adecom</item>
         <item>com.miui.voip</item>
@@ -623,6 +625,7 @@
         <item>com.xiaomi.mimobile.noti</item>
         <item>com.miui.cleanmaster</item>
         <item>com.xiaomi.midrop</item>
+        <item>com.android.cellbroadcastreceiver</item>
     </string-array>
     <string-array name="carrier_name">
         <item>SmarToneVodafone</item>

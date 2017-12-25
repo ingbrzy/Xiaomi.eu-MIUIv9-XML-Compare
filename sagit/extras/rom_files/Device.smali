@@ -58,6 +58,8 @@
 
 .field public static final IS_D6S:Z
 
+.field public static final IS_E4:Z
+
 .field public static final IS_E7:Z
 
 .field public static final IS_E7S:Z
@@ -675,6 +677,16 @@
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_A13:Z
 
+    const-string/jumbo v0, "nitrogen"
+
+    sget-object v1, Lmiui/os/Build;->DEVICE:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    sput-boolean v0, Lcom/android/camera/Device;->IS_E4:Z
+
     sget-boolean v0, Lmiui/os/Build;->IS_STABLE_VERSION:Z
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_STABLE:Z
@@ -976,17 +988,36 @@
 .end method
 
 .method public static isFrontRemosicSensor()Z
-    .locals 2
+    .locals 3
 
-    const-string/jumbo v0, "is_front_remosic_sensor"
+    sget-boolean v1, Lcom/android/camera/Device;->IS_E7S:Z
 
-    const/4 v1, 0x0
+    if-eqz v1, :cond_0
 
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+    const-string/jumbo v1, "ro.boot.hwc"
 
-    move-result v0
+    invoke-static {v1}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
 
-    return v0
+    move-result-object v0
+
+    const-string/jumbo v1, "India"
+
+    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    return v1
+
+    :cond_0
+    const-string/jumbo v1, "is_front_remosic_sensor"
+
+    const/4 v2, 0x0
+
+    invoke-static {v1, v2}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v1
+
+    return v1
 .end method
 
 .method public static isFrontVideoQualityShouldBe1080P()Z
@@ -1494,6 +1525,34 @@
     .locals 2
 
     const-string/jumbo v0, "support_camera_groupshot"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static isSupportPSensorPocketMode()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_psensor_pocket_mode"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static isSupportParallelProcess()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_parallel_process"
 
     const/4 v1, 0x0
 
