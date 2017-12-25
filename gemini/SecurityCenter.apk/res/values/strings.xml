@@ -23,6 +23,7 @@
   <string name="access_control_need_password">"%s added successfully
 "</string>
   <string name="access_control_need_to_unlock_nofingerprint">Enter App lock password</string>
+  <string name="accessibility_gameboosterservice_description"/>
   <string name="accessibility_service_description"/>
   <string name="action_button_text_100">Optimize</string>
   <string name="action_button_text_60">Fix</string>
@@ -279,6 +280,8 @@
   <string name="apps_list_header_title_sms_access">Restrict access to verification codes</string>
   <string name="auto_atsk_condition_battery_level_text_down">When battery reaches %s</string>
   <string name="auto_atsk_condition_battery_level_text_up">When battery is charged to %s</string>
+  <string name="auto_back_booster">Stop boosting</string>
+  <string name="auto_booster_suc">Boosted successfully</string>
   <string name="auto_clean_close">Automatic cleanups are off</string>
   <string name="auto_handle_title">GENERAL</string>
   <string name="auto_import_games">Put all your games in one place</string>
@@ -565,7 +568,7 @@
   <string name="current_network_state_not_need_diagnose">Internet connection is normal.</string>
   <string name="customize_limit_pkg">%s (custom)</string>
   <string name="customizer_mode_user_define_name">My rules</string>
-  <string name="daily_limit_and_lock_screen">Data limit &amp; notifications</string>
+  <string name="daily_limit_and_lock_screen">Data usage warning</string>
   <string name="daily_limit_network_available_body">Tap to view data usage stats.</string>
   <string name="daily_limit_over_message">"You've exceeded your daily data limit."</string>
   <string name="daily_pkg_traffic">Peak data limit</string>
@@ -783,6 +786,9 @@
   <string name="gateway_exception_summary">Check your router and try again.</string>
   <string name="gateway_exception_summary2">"Can't connect to the server"</string>
   <string name="gateway_exception_title">Test router</string>
+  <string name="gb_description_image_button_answer">Answer</string>
+  <string name="gb_description_image_button_reject">Decline</string>
+  <string name="gb_description_image_button_video_answer">Video call</string>
   <string name="ge">个</string>
   <string name="get_sys_info">Getting info…</string>
   <string name="gigabyteShort">GB</string>
@@ -795,6 +801,9 @@
   <string name="gs_app_back_self_start">Battery saver</string>
   <string name="gs_auto_clean_memory">Clear cache</string>
   <string name="gs_auto_clean_memory_detail">Clear cache automatically to optimize gaming</string>
+  <string name="gs_autobooster">Boost automatically</string>
+  <string name="gs_autobooster_detail">Boost speed for selected games automatically</string>
+  <string name="gs_autobooster_dialog_message">"If you're using Xunyou speed boost, open games on the designated page."</string>
   <string name="gs_call_handsfree">Answer calls hands free</string>
   <string name="gs_call_handsfree_mute">Silent mode</string>
   <string name="gs_dialog_confirm_close_msg">The shortcut will be removed from your Home screen. Go to Security &gt; Settings to restore it.</string>
@@ -1505,12 +1514,12 @@ This activity shortens battery life."</string>
   <string name="pref_mi_sim_settings">Mi SIM Settings</string>
   <string name="pref_more_settings">Additional settings</string>
   <string name="pref_new_installed_preconfig_title">"New apps' default settings"</string>
-  <string name="pref_normal_traffic_limit">When daily data plan is used up</string>
+  <string name="pref_normal_traffic_limit">When data plan is used up</string>
   <string name="pref_open_adjust_traffic">Update data usage every day using stats from your carrier</string>
   <string name="pref_operator_not_set">"Carrier isn't set"</string>
   <string name="pref_operator_setting">%1$s%2$s</string>
   <string name="pref_over_traffic_limit">When you go over your data plan</string>
-  <string name="pref_package_traffic_settings">Mobile data limit</string>
+  <string name="pref_package_traffic_settings">Data plan</string>
   <string name="pref_pkg_begin_date">Usage reset date</string>
   <string name="pref_roaming_daily_limit_setting">Set daily data limit while roaming</string>
   <string name="pref_roaming_daily_limit_setting_cat_title">Daily data limit</string>
