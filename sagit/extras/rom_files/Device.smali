@@ -58,8 +58,6 @@
 
 .field public static final IS_D6S:Z
 
-.field public static final IS_E4:Z
-
 .field public static final IS_E7:Z
 
 .field public static final IS_E7S:Z
@@ -176,7 +174,7 @@
 
     move-result v0
 
-    if-eqz v0, :cond_1
+    if-eqz v0, :cond_2
 
     sget-object v0, Lmiui/os/Build;->MODEL:Ljava/lang/String;
 
@@ -191,7 +189,7 @@
 
     sget-boolean v0, Lcom/android/camera/Device;->IS_MI3W:Z
 
-    if-nez v0, :cond_2
+    if-nez v0, :cond_3
 
     sget-boolean v0, Lcom/android/camera/Device;->IS_MI3TD:Z
 
@@ -200,17 +198,14 @@
 
     sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWO:Z
 
-    if-eqz v0, :cond_3
+    if-eqz v0, :cond_0
 
     sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWO_A:Z
 
-    xor-int/lit8 v0, v0, 0x1
+    if-eqz v0, :cond_4
 
-    if-eqz v0, :cond_3
-
-    sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWO_S:Z
-
-    xor-int/lit8 v0, v0, 0x1
+    :cond_0
+    move v0, v1
 
     :goto_2
     sput-boolean v0, Lcom/android/camera/Device;->IS_HM:Z
@@ -221,7 +216,7 @@
 
     sget-boolean v0, Lcom/android/camera/Device;->IS_HM:Z
 
-    if-nez v0, :cond_4
+    if-nez v0, :cond_5
 
     sget-boolean v0, Lcom/android/camera/Device;->IS_HM2S:Z
 
@@ -302,7 +297,7 @@
 
     sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWOX:Z
 
-    if-nez v0, :cond_0
+    if-nez v0, :cond_1
 
     const-string/jumbo v0, "HM2014816"
 
@@ -312,7 +307,7 @@
 
     move-result v2
 
-    :cond_0
+    :cond_1
     sput-boolean v2, Lcom/android/camera/Device;->IS_H2XLTE:Z
 
     sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWOX_LC:Z
@@ -677,16 +672,6 @@
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_A13:Z
 
-    const-string/jumbo v0, "nitrogen"
-
-    sget-object v1, Lmiui/os/Build;->DEVICE:Ljava/lang/String;
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    sput-boolean v0, Lcom/android/camera/Device;->IS_E4:Z
-
     sget-boolean v0, Lmiui/os/Build;->IS_STABLE_VERSION:Z
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_STABLE:Z
@@ -697,22 +682,26 @@
 
     return-void
 
-    :cond_1
+    :cond_2
     move v0, v1
 
     goto/16 :goto_0
 
-    :cond_2
+    :cond_3
     move v0, v2
 
     goto/16 :goto_1
 
-    :cond_3
-    move v0, v1
+    :cond_4
+    sget-boolean v0, Lmiui/os/Build;->IS_HONGMI_TWO_S:Z
+
+    if-nez v0, :cond_0
+
+    move v0, v2
 
     goto/16 :goto_2
 
-    :cond_4
+    :cond_5
     move v0, v2
 
     goto/16 :goto_3
@@ -878,16 +867,15 @@
 
     move-result v0
 
-    xor-int/lit8 v0, v0, 0x1
-
-    if-eqz v0, :cond_1
-
-    const/4 v0, 0x1
-
-    return v0
+    if-eqz v0, :cond_2
 
     :cond_1
     return v1
+
+    :cond_2
+    const/4 v0, 0x1
+
+    return v0
 .end method
 
 .method public static isCaptureStopFaceDetection()Z
@@ -988,36 +976,17 @@
 .end method
 
 .method public static isFrontRemosicSensor()Z
-    .locals 3
+    .locals 2
 
-    sget-boolean v1, Lcom/android/camera/Device;->IS_E7S:Z
+    const-string/jumbo v0, "is_front_remosic_sensor"
 
-    if-eqz v1, :cond_0
+    const/4 v1, 0x0
 
-    const-string/jumbo v1, "ro.boot.hwc"
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
-    invoke-static {v1}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+    move-result v0
 
-    move-result-object v0
-
-    const-string/jumbo v1, "India"
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    return v1
-
-    :cond_0
-    const-string/jumbo v1, "is_front_remosic_sensor"
-
-    const/4 v2, 0x0
-
-    invoke-static {v1, v2}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v1
-
-    return v1
+    return v0
 .end method
 
 .method public static isFrontVideoQualityShouldBe1080P()Z
@@ -1073,14 +1042,17 @@
 
     invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
-    move-result v0
+    move-result v1
 
-    xor-int/lit8 v0, v0, 0x1
+    if-eqz v1, :cond_0
+
+    :goto_0
+    return v0
 
     :cond_0
-    xor-int/lit8 v0, v0, 0x1
+    const/4 v0, 0x0
 
-    return v0
+    goto :goto_0
 .end method
 
 .method public static isHDRFreeze()Z
@@ -1100,26 +1072,27 @@
 .method public static isHFRVideoCaptureSupported()Z
     .locals 2
 
-    const-string/jumbo v0, "is_hrf_video_capture_support"
+    const/4 v0, 0x0
 
-    const/4 v1, 0x0
+    const-string/jumbo v1, "is_hrf_video_capture_support"
 
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
-    move-result v0
+    move-result v1
 
-    if-nez v0, :cond_0
+    if-nez v1, :cond_0
 
     invoke-static {}, Lcom/android/camera/Device;->isMTKPlatform()Z
 
-    move-result v0
+    move-result v1
 
-    :goto_0
-    xor-int/lit8 v0, v0, 0x1
-
-    return v0
+    if-eqz v1, :cond_1
 
     :cond_0
+    :goto_0
+    return v0
+
+    :cond_1
     const/4 v0, 0x1
 
     goto :goto_0
@@ -1302,14 +1275,17 @@
 
     invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
-    move-result v0
+    move-result v1
 
-    xor-int/lit8 v0, v0, 0x1
+    if-eqz v1, :cond_0
+
+    :goto_0
+    return v0
 
     :cond_0
-    xor-int/lit8 v0, v0, 0x1
+    const/4 v0, 0x0
 
-    return v0
+    goto :goto_0
 .end method
 
 .method public static isNvPlatform()Z
@@ -1355,17 +1331,23 @@
 .method public static isPanoUsePreviewFrame()Z
     .locals 2
 
-    const-string/jumbo v0, "support_full_size_panorama"
+    const/4 v0, 0x0
 
-    const/4 v1, 0x0
+    const-string/jumbo v1, "support_full_size_panorama"
 
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
-    move-result v0
+    move-result v1
 
-    xor-int/lit8 v0, v0, 0x1
+    if-eqz v1, :cond_0
 
+    :goto_0
     return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    goto :goto_0
 .end method
 
 .method public static isQcomPlatform()Z
@@ -1525,34 +1507,6 @@
     .locals 2
 
     const-string/jumbo v0, "support_camera_groupshot"
-
-    const/4 v1, 0x0
-
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public static isSupportPSensorPocketMode()Z
-    .locals 2
-
-    const-string/jumbo v0, "support_psensor_pocket_mode"
-
-    const/4 v1, 0x1
-
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public static isSupportParallelProcess()Z
-    .locals 2
-
-    const-string/jumbo v0, "support_parallel_process"
 
     const/4 v1, 0x0
 
@@ -1852,17 +1806,23 @@
 .method public static isSupportedDynamicEffectPopup()Z
     .locals 2
 
-    const-string/jumbo v0, "is_camera_use_still_effect_image"
+    const/4 v0, 0x0
 
-    const/4 v1, 0x0
+    const-string/jumbo v1, "is_camera_use_still_effect_image"
 
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
-    move-result v0
+    move-result v1
 
-    xor-int/lit8 v0, v0, 0x1
+    if-eqz v1, :cond_0
 
+    :goto_0
     return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    goto :goto_0
 .end method
 
 .method public static isSupportedEdgeTouch()Z
@@ -2280,12 +2240,15 @@
 
     sget-boolean v0, Lcom/android/camera/Device;->IS_HONGMI:Z
 
-    :goto_0
-    xor-int/lit8 v0, v0, 0x1
-
-    return v0
+    if-eqz v0, :cond_1
 
     :cond_0
+    const/4 v0, 0x0
+
+    :goto_0
+    return v0
+
+    :cond_1
     const/4 v0, 0x1
 
     goto :goto_0
@@ -2362,32 +2325,38 @@
 
     invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
-    move-result v0
+    move-result v1
 
-    xor-int/lit8 v0, v0, 0x1
-
-    :cond_0
-    xor-int/lit8 v0, v0, 0x1
-
-    return v0
-.end method
-
-.method public static shouldRestartPreviewAfterZslSwitch()Z
-    .locals 1
-
-    sget-boolean v0, Lcom/android/camera/Device;->IS_MI2:Z
-
-    if-eqz v0, :cond_0
-
-    sget-boolean v0, Lcom/android/camera/Device;->IS_MI2A:Z
-
-    xor-int/lit8 v0, v0, 0x1
+    if-eqz v1, :cond_0
 
     :goto_0
     return v0
 
     :cond_0
     const/4 v0, 0x0
+
+    goto :goto_0
+.end method
+
+.method public static shouldRestartPreviewAfterZslSwitch()Z
+    .locals 2
+
+    const/4 v0, 0x0
+
+    sget-boolean v1, Lcom/android/camera/Device;->IS_MI2:Z
+
+    if-eqz v1, :cond_0
+
+    sget-boolean v1, Lcom/android/camera/Device;->IS_MI2A:Z
+
+    if-eqz v1, :cond_1
+
+    :cond_0
+    :goto_0
+    return v0
+
+    :cond_1
+    const/4 v0, 0x1
 
     goto :goto_0
 .end method
