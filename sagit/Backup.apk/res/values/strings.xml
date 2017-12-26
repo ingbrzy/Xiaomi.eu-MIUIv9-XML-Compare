@@ -5,6 +5,16 @@
   <string name="account_contact_backup_info">Google Account, Mi Account, and Contacts data</string>
   <string name="account_login">Sign in</string>
   <string name="account_summary">Backup Google Account, Mi Account, and other user data</string>
+  <string name="alert_button_agree_and_continue">Allow</string>
+  <string name="alert_button_deny">Decline</string>
+  <string name="alert_message_backup_to_miasist">Mi PC Suite is requesting permission to create a backup on a computer. Allow?</string>
+  <string name="alert_message_restore_from_miasist">Mi PC Suite is requesting permission to restore items on your phone. Allow?</string>
+  <string name="alert_miasist_occupy_backup">Backing up items using Mi PC Suite… Wait until the backup is complete and try again.</string>
+  <string name="alert_miasist_occupy_restore">Restoring items using Mi PC Suite… Wait until the items are restored and try again.</string>
+  <string name="alert_phone_occupy_backup">"Can't use Mi PC Suite now. Complete backing up or restoring items on your phone and try again."</string>
+  <string name="alert_second_space_not_support_miasist">"Can't use Mi PC Suite in Second space. Switch to First space."</string>
+  <string name="alert_title_backup_to_miasist">Back up items using Mi PC Suite?</string>
+  <string name="alert_title_restore_from_miasist">Restore items on your phone?</string>
   <string name="already_enable_encrypt">Encryption is already on</string>
   <string name="app_name">Backup</string>
   <string name="apps_and_data_item_desc">Apps and data</string>
@@ -180,7 +190,7 @@ you should create an iCloud backup first."</string>
   <string name="import_from_xiaomi_account_hint_title">Use Mi Talk to back up your contacts across devices.</string>
   <string name="import_tip_message">@string/icloud_how_to_backup_tip_steps</string>
   <string name="import_tip_summary">Due to compatibility issues, you can only transfer partial data from iOS devices. Make sure you create an iCloud backup before starting the transfer.</string>
-  <string name="import_tip_title">Tips:</string>
+  <string name="list_footer_tip_title">Tips:</string>
   <string name="loading_data">Loading data</string>
   <string name="local_app_name">Backup</string>
   <string name="local_backup_window_title">Local backup data</string>
@@ -215,6 +225,9 @@ you should create an iCloud backup first."</string>
   <string name="notif_backup_complete_title">Backed up successfully</string>
   <string name="notif_backup_content">Backing up user data</string>
   <string name="notif_backup_title">Back up data</string>
+  <string name="notif_calculating_app">Caculating %1$s (%2$s)…</string>
+  <string name="notif_connect_miasist">Connected to Mi PC Suite</string>
+  <string name="notif_disconnect_miasist">Not connected to Mi PC Suite</string>
   <string name="notif_icloud_canceled_summary">Canceled</string>
   <string name="notif_icloud_canceling_summary">Canceling…</string>
   <string name="notif_icloud_import_title">Import data from iCloud</string>
@@ -224,9 +237,12 @@ you should create an iCloud backup first."</string>
   <string name="notif_icloud_need_wifi_summary">Waiting for WLAN</string>
   <string name="notif_icloud_saved_summary">Imported successfully</string>
   <string name="notif_icloud_saving_summary">Restoring data…</string>
+  <string name="notif_parse_select_descript_error">"Couldn't sync the list of backed up items."</string>
+  <string name="notif_receiving_transingsd">Receiving %1$s (%2$s)…</string>
   <string name="notif_restore_complete_title">Restored successfully</string>
   <string name="notif_restore_content">Restoring user data</string>
   <string name="notif_restore_title">Restore data</string>
+  <string name="notif_sending_transingsd">Sending %1$s (%2$s)…</string>
   <string name="notif_trans_auto_reconnecting_content">You can cancel current task if needed.</string>
   <string name="notif_trans_auto_reconnecting_title">Connection was interrupted. Reconnecting automatically…</string>
   <string name="notif_trans_receiving_completed">Data received successfully</string>
@@ -361,10 +377,30 @@ Free up at least %s."</string>
   <string name="trans_connect_failed_toast">"Couldn't connect"</string>
   <string name="trans_connecting_toast">Connecting…</string>
   <string name="trans_connection_failed">Connection was interrupted</string>
+  <string name="trans_detail_app_apk_list_title">Installed apps</string>
+  <string name="trans_detail_app_apk_page_title">Select apps</string>
+  <string name="trans_detail_app_data_list_title">App data</string>
+  <string name="trans_detail_app_data_page_title">Select app data</string>
+  <string name="trans_detail_app_data_useless_tip">You can restore these from the app, no need to transfer.</string>
+  <string name="trans_detail_audio_video_doc_list_title">Audio, video, and files</string>
+  <string name="trans_detail_audio_video_doc_page_title">Select audio, video, and files</string>
   <string name="trans_detail_category_account">Accounts and contacts</string>
+  <string name="trans_detail_category_audio_video_doc">Audio, video, and files</string>
   <string name="trans_detail_category_files">Files</string>
-  <string name="trans_detail_category_sysdata">System data</string>
+  <string name="trans_detail_category_sysdata">System data (including messages, contacts, and call history)</string>
+  <string name="trans_detail_category_user_app_data">App data</string>
   <string name="trans_detail_category_userdata">Apps</string>
+  <string name="trans_detail_category_wechat_qq">WeChat and QQ data (including chat history)</string>
+  <string name="trans_detail_item_app_data_selected_tip">Selected corresponding apps as well.</string>
+  <string name="trans_detail_item_app_data_too_large_tip">Looks like the item is too big to transfer.</string>
+  <string name="trans_detail_list_footer">Note: You can choose to transfer apps separately. However, if you select app data, corresponding apps will be transfered as well.</string>
+  <string name="trans_detail_page_tip">The more items you select the longer the transfer will last.</string>
+  <string name="trans_detail_qq_data">QQ data (including chat history)</string>
+  <string name="trans_detail_sys_data_list_title">System apps</string>
+  <string name="trans_detail_sys_data_page_title">Select system apps</string>
+  <string name="trans_detail_wechat_data">WeChat data (including chat history)</string>
+  <string name="trans_detail_wechat_qq_list_title">WeChat and QQ</string>
+  <string name="trans_detail_wechat_qq_page_title">Select WeChat, QQ, and app data</string>
   <string name="trans_device_auto_reconnecting">Device disconnected. Reconnecting automatically…</string>
   <string name="trans_device_disconnected">Connection was interrupted</string>
   <string name="trans_device_wait_for_reconnecting">Connection was interrupted. Connect again to continue.</string>
@@ -417,6 +453,7 @@ Tap [I'm a recipient] to create a QR code"</string>
 Then tap \"Connect again\" to create a QR code."</string>
   <string name="trans_operate_reconnect_old_tips">"Wait until the old phone shows \"Connection was interrupted\".
 Then tap \"Connect again\" to scan the QR code."</string>
+  <string name="trans_pausing">Pausing…</string>
   <string name="trans_please_waiting">Just a sec…</string>
   <string name="trans_progress_subdescript_br_receiver">Restoring %1$s, %2$s completed</string>
   <string name="trans_progress_subdescript_br_sender">Backing up %1$s, %2$s completed</string>
@@ -446,6 +483,8 @@ Keep devices close to each other."</string>
 Select files again or clear %s of storage on the new device"</string>
   <string name="trans_select_data_tips">"Select items to transfer
 Similar files on the new device will be overwritten"</string>
+  <string name="trans_select_data_too_large">"You selected too many items to transfer.
+Select only important items to make the transfer faster."</string>
   <string name="trans_select_device_receive">Select one device to receive data.</string>
   <string name="trans_select_device_send">Select one device to transfer data.</string>
   <string name="trans_sender">"I'm a sender"</string>
