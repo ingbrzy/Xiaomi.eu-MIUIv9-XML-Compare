@@ -307,8 +307,13 @@ Sample Rate"</string>
   <string name="callFailed_data_limit_reached_description">Call ended because the cellular data limit has been reached.</string>
   <string name="callFailed_destination_out_of_order">Destination out of order</string>
   <string name="callFailed_dialToDial">DIAL request modified to DIAL with different number.</string>
+  <string name="callFailed_dialToDialVideo">DIAL request modified to Video DIAL.</string>
   <string name="callFailed_dialToSs">DIAL request modified to SS request.</string>
   <string name="callFailed_dialToUssd">DIAL request modified to USSD request.</string>
+  <string name="callFailed_dialVideoToDial">Video DIAL request modified to DIAL.</string>
+  <string name="callFailed_dialVideoToDialVideo">Video DIAL request modified to Video DIAL with different number.</string>
+  <string name="callFailed_dialVideoToSs">Video DIAL request modified to SS request.</string>
+  <string name="callFailed_dialVideoToUssd">Video DIAL request modified to USSD request.</string>
   <string name="callFailed_dsac_restricted">Calls restricted by access control.</string>
   <string name="callFailed_dsac_restricted_emergency">Emergency calls restricted by access control.</string>
   <string name="callFailed_dsac_restricted_normal">Normal calls restricted by access control.</string>

@@ -2792,6 +2792,7 @@ Select your operating system:"</string>
   <string name="music_title_dolby_control">Dolby Digital Plus</string>
   <string name="music_unsupport_effect_summary">"USB headsets aren't supported"</string>
   <string name="musicfx_title">Music effects</string>
+  <string name="mute_music_stream">Mute music stream</string>
   <string name="mvno_match_data">MVNO value</string>
   <string name="mvno_type">MVNO type</string>
   <string name="my_device">My device</string>
@@ -4653,6 +4654,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="testing_usage_stats">Usage statistics</string>
   <string name="testing_wifi_info">WLAN information</string>
   <string name="tether_and_hotspot_title">Tethering &amp; portable hotspot</string>
+  <string name="tether_data_usage_limit">One-time data limit</string>
+  <string name="tether_data_usage_limit_summary">Data limit will be applied next time your hotspot is on</string>
   <string name="tether_devices_management_title">Manage devices</string>
   <string name="tether_devices_max_number">Limit of connected devices</string>
   <string name="tether_settings_disabled">Portable hotspot is off</string>
