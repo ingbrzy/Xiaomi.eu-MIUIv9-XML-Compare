@@ -376,6 +376,7 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="install_other_apps">Install unknown apps</string>
   <string name="invalid_charger">"USB charging isn't supported.
 Use only the supplied charger."</string>
+  <string name="ir_mcc">432</string>
   <string name="keep_screen_on">Stay awake</string>
   <string name="keep_screen_on_summary">Screen will never sleep while charging</string>
   <string name="keyboard_key_back">Back</string>
@@ -462,6 +463,7 @@ Use only the supplied charger."</string>
   <string name="mock_location_app_not_set">No mock location app set</string>
   <string name="mock_location_app_set">Mock location app: %1$s</string>
   <string name="mount_storage">Yes</string>
+  <string name="mx_mcc">334</string>
   <string name="nav_guide_cancel">Ignore</string>
   <string name="nav_guide_message">Use gestures to hide/show soft buttons.</string>
   <string name="nav_guide_ok">Set up</string>
@@ -499,13 +501,12 @@ Use only the supplied charger."</string>
   <string name="notification_otg_unknow_in">OTG device connected</string>
   <string name="notification_otg_unknow_out">OTG device disconnected</string>
   <string name="notification_template_text">" has a notification. Tap to view."</string>
+  <string name="np_mcc">429</string>
   <string name="oem_preferred_feedback_reporter"/>
   <string name="oem_unlock_enable">OEM unlocking</string>
   <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
   <string name="oldman_airplane_mode_text">Airplane</string>
   <string name="oldman_incall_text">Back to call</string>
-  <string name="oldman_status_bar_time_format_12">h:mm</string>
-  <string name="oldman_status_bar_time_format_24">HH:mm</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="picture_color_mode">Picture color mode</string>
   <string name="picture_color_mode_desc">Use sRGB</string>
