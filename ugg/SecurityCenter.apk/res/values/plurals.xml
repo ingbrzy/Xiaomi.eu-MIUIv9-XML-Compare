@@ -32,6 +32,14 @@
         <item quantity="other">%d apps</item>
         <item quantity="one">%d app</item>
     </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d apps can connect to the network in the background</item>
+        <item quantity="one">%d app can connect to the network in the background</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">"%d apps can't connect to the network in the background"</item>
+        <item quantity="one">"%d app can't connect to the network in the background"</item>
+    </plurals>
     <plurals name="daily_sim_over_limit_notify_title">
         <item quantity="other">"You've already used %s daily data limits."</item>
         <item quantity="one">"You've already used %s daily data limit."</item>
@@ -59,6 +67,10 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="hints_roaming_found_app_count_title">
         <item quantity="other">%d apps found</item>
         <item quantity="one">%d app found</item>
+    </plurals>
+    <plurals name="network_restrict_count">
+        <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
+        <item quantity="one">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> app"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
         <item quantity="other">"%d apps don't work properly and drain battery"</item>
@@ -262,10 +274,6 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="app_manager_start_count">
         <item quantity="other">%d times</item>
         <item quantity="one">%d time</item>
-    </plurals>
-    <plurals name="app_manager_reject_count">
-        <item quantity="other">Blocked %d times</item>
-        <item quantity="one">Blocked %d time</item>
     </plurals>
     <plurals name="app_usage_day">
         <item quantity="other">Used %d days ago</item>
