@@ -371,6 +371,9 @@ and brings out the people in the front."</string>
   <string name="pref_camera_picture_format_entry_raw">Raw</string>
   <string name="pref_camera_picture_format_value_jpeg">jpeg</string>
   <string name="pref_camera_picture_format_value_raw">raw</string>
+  <string name="pref_camera_picturesize_entry_16_9">16:9</string>
+  <string name="pref_camera_picturesize_entry_18_9">18:9</string>
+  <string name="pref_camera_picturesize_entry_4_3">4:3</string>
   <string name="pref_camera_picturesize_entry_fullscreen">Full screen 16:9</string>
   <string name="pref_camera_picturesize_entry_standard">Standard 4:3</string>
   <string name="pref_camera_picturesize_entry_widescreen">@string/pref_camera_picturesize_entry_fullscreen</string>
@@ -500,6 +503,7 @@ and brings out the people in the front."</string>
   <string name="pref_face_beauty_medium">i:2</string>
   <string name="pref_face_beauty_title">Beautify</string>
   <string name="pref_fingerprint_capture_title">Fingerprint shutter</string>
+  <string name="pref_front_camera_flashmode_entry_torch">On</string>
   <string name="pref_front_mirror_default">auto</string>
   <string name="pref_front_mirror_entry_auto">When face is detected</string>
   <string name="pref_front_mirror_entry_off">Off</string>
