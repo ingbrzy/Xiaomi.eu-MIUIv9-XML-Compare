@@ -760,6 +760,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="clear_failed_dlg_title">Clear data</string>
   <string name="clear_user_data_text">Clear data</string>
   <string name="close_app">Close current app</string>
+  <string name="close_demo_mode">Cancel</string>
   <string name="close_dialog">OK</string>
   <string name="close_gesture">Close using gesture</string>
   <string name="close_miui_optimization_title">Turn off MIUI optimization</string>
@@ -2209,6 +2210,8 @@ Select your operating system:"</string>
   <string name="online_resource_entry">Online resources</string>
   <string name="only_one_home_message">Home settings will be hidden until you install another home application.</string>
   <string name="onscreen_keyboard_settings_summary">Onscreen keyboard settings</string>
+  <string name="open_demo_mode">Open</string>
+  <string name="open_demo_mode_warning_message">When Demo mode is on, the clock in the status bar will stop, battery and signal icons will be displayed as full. You can turn Demo mode off or reboot the device to change this.</string>
   <string name="open_miui_optimization_title">Turn on MIUI optimization</string>
   <string name="open_miui_optimization_warning_message">Your device will reboot to apply this change</string>
   <string name="open_personal_assistant_dialog_btn_cancel">Cancel</string>
