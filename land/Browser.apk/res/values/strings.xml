@@ -752,6 +752,8 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="ok">OK</string>
   <string name="older">Older</string>
   <string name="open_app_confirm_message">Allow this page to open %s?</string>
+  <string name="open_cloud_sync">Open cloud sync</string>
+  <string name="open_cloud_sync_desc">Bookmark added. Turn on cloud sync and bookmarks added on other devices will be synced to this machine. Sign in and open it, now?</string>
   <string name="open_file_explorer_failed">"Can't open File Explorer"</string>
   <string name="open_voice_permission">Allow the mic to connect to the internet</string>
   <string name="opening_file_error">"Couldn't open selected file."</string>
@@ -1017,6 +1019,7 @@ That's how we use the data we collect:
 2. Content: Your data helps us provide relevant localized news content.
 Browser needs to connect to the internet to work normally. You must agree to our %2$s and %1$s to be able to use Browser.​"</string>
   <string name="show_security_tip_dialog_title">Privacy Policy</string>
+  <string name="sign_and_open">Sin and open</string>
   <string name="sign_in_to" formatted="false">Sign in to %s1 \"%s2\"</string>
   <string name="skip_button_label">Skip</string>
   <string name="skip_current_version">Skip this version</string>
@@ -1067,6 +1070,8 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="switchText">YES</string>
   <string name="switch_proxy_dialog_msg">"Network hijacking detected. Use MIUI's built-in Security app or report this to your mobile operator."</string>
   <string name="switch_proxy_dialog_title">Network hijacking</string>
+  <string name="sync_and_backup_bookmark">Synchronize and backup bookmarks</string>
+  <string name="sync_and_backup_history">Synchronize and backup histories</string>
   <string name="sync_cloud_tabs">Sync</string>
   <string name="tab_hotpage">News feed</string>
   <string name="tab_quicklinks">Start page</string>
@@ -1076,6 +1081,7 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="tae_sdk_login_qr_icon_taobao"></string>
   <string name="tae_sdk_qr_login_icon_password"></string>
   <string name="tae_sdk_qr_login_icon_scan"></string>
+  <string name="temp_refuse">Refuse</string>
   <string name="time_picker_dialog_am">AM</string>
   <string name="time_picker_dialog_hour_minute_separator">:</string>
   <string name="time_picker_dialog_minute_second_separator">:</string>
