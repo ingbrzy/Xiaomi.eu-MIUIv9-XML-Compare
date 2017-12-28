@@ -479,9 +479,6 @@
         <item>313</item>
         <item>316</item>
     </string-array>
-    <string-array name="mx_mcc">
-        <item>334</item>
-    </string-array>
     <string-array name="aqi_title_prefix">
         <item>AQI %1$s</item>
         <item>AQI %1$s</item>
