@@ -202,6 +202,7 @@
   <string name="chooseUsbActivity">Select an app for the USB device</string>
   <string name="choose_profile">Choose profile</string>
   <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
+  <string name="click_expand">Tap to expand</string>
   <string name="click_to_return_multi_window">Tap to return to Split screen</string>
   <string name="config_systemUIFactoryComponent">com.android.systemui.SystemUIFactory</string>
   <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
@@ -316,6 +317,19 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="force_resizable_activities_summary">Make all activities resizable for multi-window, regardless of manifest values.</string>
   <string name="force_rtl_layout_all_locales">Force RTL layout direction</string>
   <string name="force_rtl_layout_all_locales_summary">Force screen layout direction to RTL for all locales</string>
+  <string name="fs_gesture_back_home_summary">Slide from bottom quickly</string>
+  <string name="fs_gesture_back_ready_title">How to go back last page?</string>
+  <string name="fs_gesture_final_over">Finish</string>
+  <string name="fs_gesture_final_restart">Study again</string>
+  <string name="fs_gesture_final_summary">You can set in [Settings-Full screen]</string>
+  <string name="fs_gesture_final_title">Finish studying</string>
+  <string name="fs_gesture_finish">Nice!</string>
+  <string name="fs_gesture_left_back_ready_summary">Swipe left from screen</string>
+  <string name="fs_gesture_right_back_ready_summary">Swipe right from screen</string>
+  <string name="fs_gesture_skip">Back</string>
+  <string name="fs_gesture_switch_recents_summary">Slide from bottom and wait a second</string>
+  <string name="fsg_demo_back">Back</string>
+  <string name="fsg_demo_go_on">Go on</string>
   <string name="gps_notification_found_text">Location set by GPS</string>
   <string name="gps_notification_searching_text">Searching for GPS</string>
   <string name="hdcp_checking_dialog_title">Set HDCP checking behavior</string>
@@ -323,6 +337,9 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="help_feedback_label">Help &amp; feedback</string>
   <string name="home">Settings Home</string>
   <string name="hour_minute_time_format">HH:mm</string>
+  <string name="how_to_back_home">How to back to home</string>
+  <string name="how_to_switch_recents">How to switch to recents</string>
+  <string name="how_to_use_fsg">How to use full-screen gesture?</string>
   <string name="immediately_destroy_activities">Don’t keep activities</string>
   <string name="immediately_destroy_activities_summary">End every activity as soon as the user leaves it</string>
   <string name="important_desc">All important notifications will appear directly on the Notification shade.</string>
@@ -331,6 +348,7 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="inactive_apps_title">Inactive apps</string>
   <string name="invalid_charger">"USB charging isn't supported.
 Use only the supplied charger."</string>
+  <string name="ir_mcc">432</string>
   <string name="keep_screen_on">Stay awake</string>
   <string name="keep_screen_on_summary">Screen will never sleep while charging</string>
   <string name="keyboard_key_back">Back</string>
@@ -418,6 +436,7 @@ Use only the supplied charger."</string>
   <string name="mock_location_app_not_set">No mock location app set</string>
   <string name="mock_location_app_set">Mock location app: %1$s</string>
   <string name="mount_storage">Yes</string>
+  <string name="mx_mcc">334</string>
   <string name="nav_guide_cancel">Ignore</string>
   <string name="nav_guide_message">Use gestures to hide/show soft buttons.</string>
   <string name="nav_guide_ok">Set up</string>
@@ -428,6 +447,8 @@ Use only the supplied charger."</string>
   <string name="no_notification_tips">No notifications.</string>
   <string name="no_weather_description">Get weather info &gt;</string>
   <string name="not_support_multi_window">"Current app doesn't support Split screen"</string>
+  <string name="notification_group_overflow_indicator">+%s</string>
+  <string name="notification_group_title_text">%1$s(%2$s)</string>
   <string name="notification_header_title">Notifications</string>
   <string name="notification_hidden_text">You have a new message</string>
   <string name="notification_low_battery_action_btn">Turn on</string>
@@ -453,13 +474,12 @@ Use only the supplied charger."</string>
   <string name="notification_otg_unknow_in">OTG device connected</string>
   <string name="notification_otg_unknow_out">OTG device disconnected</string>
   <string name="notification_template_text">" has a notification. Tap to view."</string>
+  <string name="np_mcc">429</string>
   <string name="oem_preferred_feedback_reporter"/>
   <string name="oem_unlock_enable">OEM unlocking</string>
   <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
   <string name="oldman_airplane_mode_text">Airplane</string>
   <string name="oldman_incall_text">Back to call</string>
-  <string name="oldman_status_bar_time_format_12">h:mm</string>
-  <string name="oldman_status_bar_time_format_24">HH:mm</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="picture_color_mode">Picture color mode</string>
   <string name="picture_color_mode_desc">Use sRGB</string>
@@ -544,6 +564,7 @@ Use only the supplied charger."</string>
   <string name="screenshot_dlg_delete_button">Delete</string>
   <string name="screenshot_edit">Edit</string>
   <string name="screenshot_failed_text">"Can't take screenshot due to limited storage space, or the app doesn't allow it."</string>
+  <string name="screenshot_feedback_txt">Feedback</string>
   <string name="screenshot_insert_failed">"Couldn't load the screenshot. Take a new one or view the image in Gallery."</string>
   <string name="screenshot_long_screenshot">Scroll</string>
   <string name="screenshot_saved_text">Tap to view your screenshot.</string>
@@ -552,6 +573,7 @@ Use only the supplied charger."</string>
   <string name="screenshot_saving_ticker">Saving screenshot…</string>
   <string name="screenshot_saving_title">Saving screenshot…</string>
   <string name="screenshot_send">Send</string>
+  <string name="screenshot_toalbum_txt">Preview</string>
   <string name="search_hint">Search for websites, apps, contacts, and videos</string>
   <string name="select_application">Select application</string>
   <string name="select_logd_size_dialog_title">Select size for log buffers</string>
