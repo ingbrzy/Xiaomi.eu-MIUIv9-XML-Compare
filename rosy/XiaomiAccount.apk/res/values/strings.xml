@@ -356,6 +356,7 @@ To activate your account, follow the
   <string name="passport_skip_setup_account_msg">You can set up a Mi Account later in Settings.</string>
   <string name="passport_skip_setup_account_title">Skip setup</string>
   <string name="passport_sms_send_success">Sent</string>
+  <string name="passport_sms_verification_code_login">SMS verification code login</string>
   <string name="passport_sync_account_data">Syncing account info…</string>
   <string name="passport_sync_account_data_failed_warning">Your account info is being synced now, you can sign in using your Mi Account ID. If you want to sign in using your phone or email, wait until the info is fully synced.</string>
   <string name="passport_title_reg">Create an account</string>
