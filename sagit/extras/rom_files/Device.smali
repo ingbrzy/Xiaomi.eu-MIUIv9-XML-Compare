@@ -60,6 +60,8 @@
 
 .field public static final IS_E4:Z
 
+.field public static final IS_E6:Z
+
 .field public static final IS_E7:Z
 
 .field public static final IS_E7S:Z
@@ -686,6 +688,16 @@
     move-result v0
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_E4:Z
+
+    const-string/jumbo v0, "ysl"
+
+    sget-object v1, Lmiui/os/Build;->DEVICE:Ljava/lang/String;
+
+    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v0
+
+    sput-boolean v0, Lcom/android/camera/Device;->IS_E6:Z
 
     sget-boolean v0, Lmiui/os/Build;->IS_STABLE_VERSION:Z
 
