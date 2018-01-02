@@ -1470,6 +1470,34 @@
     return v0
 .end method
 
+.method public static isSupportFakeThumbnail()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_fake_thumbnail"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static isSupportFrontBokeh()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_front_bokeh"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static isSupportFrontFlash()Z
     .locals 2
 
@@ -1484,24 +1512,31 @@
     return v0
 .end method
 
-.method public static isSupportFrontHhtEnhance()Z
+.method public static isSupportFrontHDR()Z
     .locals 2
 
-    const/4 v0, 0x0
+    const-string/jumbo v0, "support_front_hdr"
 
-    invoke-static {}, Lcom/android/camera/Device;->isSupportFrontFlash()Z
+    const/4 v1, 0x0
 
-    move-result v1
-
-    if-eqz v1, :cond_0
-
-    const-string/jumbo v1, "support_front_hht_enhance"
-
-    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v0
 
-    :cond_0
+    return v0
+.end method
+
+.method public static isSupportFrontHHT()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_front_hht"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
     return v0
 .end method
 
