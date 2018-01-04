@@ -14,7 +14,6 @@
   <string name="backup_finished_notification_content">Backed up Home screen apps, system settings, etc.</string>
   <string name="backup_now">Back up now</string>
   <string name="backup_size">Size: %s</string>
-  <string name="backup_size_summary">Size: %1$s</string>
   <string name="backup_success">Backed up successfully</string>
   <string name="backup_successfully">Backed up successfully</string>
   <string name="backup_to_cloud">Back up app</string>
@@ -53,8 +52,6 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="cloud_back_up_frequence_choice_title">Backup schedule</string>
   <string name="cloud_back_up_frequence_long">Every 7 days</string>
   <string name="cloud_back_up_frequence_short">Every day</string>
-  <string name="cloud_back_up_interval_long">7 days</string>
-  <string name="cloud_back_up_interval_short">day</string>
   <string name="cloud_back_up_no_network_warn">"Can't connect to WLAN"</string>
   <string name="cloud_back_up_ok_btn">OK</string>
   <string name="cloud_back_up_opening">Just a sec…</string>
@@ -63,10 +60,9 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="cloud_back_up_share_activity_title">Upgrade Mi Account</string>
   <string name="cloud_back_up_task">Backing up…</string>
   <string name="cloud_backup">Mi Cloud backups</string>
+  <string name="cloud_backup_derail_size_summary">Size: %s</string>
   <string name="cloud_backup_detail_frequence">Backup schedule</string>
-  <string name="cloud_backup_detail_frequence_day">Back up every %1$s</string>
   <string name="cloud_backup_detail_manage">Manage backups</string>
-  <string name="cloud_backup_detail_manage_summary">%1$s backups, size:%2$s</string>
   <string name="cloud_backup_detail_state">Automatic backups</string>
   <string name="cloud_backup_detail_state_summary">Create Mi Cloud backups automatically when connected to WLAN.</string>
   <string name="cloud_backup_detail_time">Last backup: %1$s</string>
@@ -92,7 +88,7 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="desktop_installing">Installing</string>
   <string name="desktop_wait_wifi">Waiting</string>
   <string name="desktop_waiting">Waiting</string>
-  <string name="device_corrupt">Mi Phone (Data corrupt)</string>
+  <string name="device_corrupt">Mi Phone (Data is corrupted)</string>
   <string name="device_delete_prompt">Delete backup of %s?</string>
   <string name="device_xiaomi">Mi Phone</string>
   <string name="dialog_cancel_backup_cancel">Cancel</string>
@@ -127,8 +123,8 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="open_wifi_description">Connect to a WLAN network to restore app</string>
   <string name="open_wifi_setting">WLAN settings</string>
   <string name="process_whole_recovery">Restoring \"%s\"</string>
-  <string name="provision_error_connect_msg">You can test the network and try again. The backup function will not be available without a valid network.</string>
-  <string name="provision_error_connect_title">Can not connect</string>
+  <string name="provision_error_connect_msg">"Test network and try again. Backups aren't available when your device is offline."</string>
+  <string name="provision_error_connect_title">"Can't connect"</string>
   <string name="query_restore_description">Restore Home screen apps and settings using this backup. This will overwrite app data for duplicate apps already installed on this device. Apps not included in the backup will be moved to the last Home screen.</string>
   <string name="query_restore_summary">Found a Mi Cloud backup for this device. Restore Home screen apps and settings or use it as a new device and erase previous Mi Cloud backups?</string>
   <string name="recover_from_micloud">Restore from Mi Cloud backup</string>
@@ -154,7 +150,7 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="retry">Retry</string>
   <string name="self_phone">This phone</string>
   <string name="settings_backup">System settings</string>
-  <string name="size_unknown">Size unknown</string>
+  <string name="size_unknown">Unknown size</string>
   <string name="start_backup_to_micloud">Back up apps to Mi Cloud</string>
   <string name="start_recover">Restore %s</string>
   <string name="success_open_cloudbackup">Turned on backups for Home screen apps</string>
