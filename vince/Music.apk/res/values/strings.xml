@@ -84,10 +84,10 @@
   <string name="audio_recognition_setting_summary">Find album covers and lyrics for local songs automatically</string>
   <string name="audio_recognition_setting_title">Find album covers and lyrics</string>
   <string name="auth_activity_title">Xunlei Account</string>
-  <string name="auto_download_in_wifi">Download favorite songs using WLAN</string>
+  <string name="auto_download_in_wifi">Download favorite songs using Wi-Fi</string>
   <string name="auto_payment">Automatic renewal</string>
   <string name="auto_payment_date">Next payment: %s</string>
-  <string name="auto_restart_under_wifi">File will be downloaded when the device is connected to WLAN</string>
+  <string name="auto_restart_under_wifi">File will be downloaded when the device is connected to Wi-Fi</string>
   <string name="auto_upgrade">Update automatically</string>
   <string name="avail_services">Available</string>
   <string name="available_playlist_name_format">New playlist %d</string>
@@ -130,7 +130,7 @@
   <string name="cloud_settings">Sync settings</string>
   <string name="cloud_state_cloud_space_full">Not enough Mi Cloud storage, paused backup</string>
   <string name="cloud_state_low_power">Connect charger to resume backup</string>
-  <string name="cloud_state_network_data">"Couldn't find WLAN networks, paused backup"</string>
+  <string name="cloud_state_network_data">"Couldn't find Wi-Fi networks, paused backup"</string>
   <string name="cloud_state_network_unavailable">"Couldn't connect to the network, paused backup"</string>
   <string name="cloud_state_storage_full">Not enough phone storage, paused backup</string>
   <string name="cloud_welcome_message">Back up songs</string>
@@ -187,8 +187,8 @@ is mainly provided by Ultimate Inc."</string>
   <string name="dialog_file_missing_body">"Couldn't find the downloaded file."</string>
   <string name="dialog_file_missing_title">"Can't open file"</string>
   <string name="dialog_hint_music_error">No songs found.</string>
-  <string name="dialog_insufficient_space_on_cache">"Can't finish download. Not enough space on the internal storage."</string>
-  <string name="dialog_insufficient_space_on_external">"Can't finish download. Not enough space on the SD card."</string>
+  <string name="dialog_insufficient_space_on_cache">Not enough space on internal storage</string>
+  <string name="dialog_insufficient_space_on_external">Not enough space on external storage</string>
   <string name="dialog_media_not_found">"Can't download. SD card isn't available."</string>
   <string name="dialog_not_show_again">"Don't show again"</string>
   <string name="dialog_queued_body">This file is queued for future download.</string>
@@ -229,9 +229,9 @@ is mainly provided by Ultimate Inc."</string>
   <string name="download_auto_after_favorite_summary">Automatically download songs you favorite</string>
   <string name="download_auto_after_favorite_title">Download favorites</string>
   <string name="download_auto_cancel">Download favorites is off</string>
-  <string name="download_auto_message">"Songs that you favorite will be downloaded automatically when you're connected to WLAN. You can change this in Settings."</string>
-  <string name="download_auto_when_all_network">Use mobile network and WLAN</string>
-  <string name="download_auto_when_free_network">Use WLAN only</string>
+  <string name="download_auto_message">"Songs that you favorite will be downloaded automatically when you're connected to Wi-Fi. You can change this in Settings."</string>
+  <string name="download_auto_when_all_network">Use mobile network and Wi-Fi</string>
+  <string name="download_auto_when_free_network">Use Wi-Fi only</string>
   <string name="download_auto_when_free_network_summary">Additional settings for songs that you favorite</string>
   <string name="download_cloud_error_not_auth">Sign in to Mi Account and try again.</string>
   <string name="download_cloud_error_retryable">Mi Cloud server error, try again later.</string>
@@ -243,7 +243,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="download_confirm_button_text">Install</string>
   <string name="download_confirm_text">Mi Music will download and install %s</string>
   <string name="download_done_btn">Downloaded</string>
-  <string name="download_error">Failed</string>
+  <string name="download_error">Unsuccessful</string>
   <string name="download_error_insufficient_space">Not enough space</string>
   <string name="download_fail_to_fetch_info">"Couldn't download, try again"</string>
   <string name="download_filesize_unknown">Unknown</string>
@@ -257,7 +257,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="download_manage">Downloads</string>
   <string name="download_manage_item_complete">COMPLETE</string>
   <string name="download_method">Download</string>
-  <string name="download_no_application_title">"Can't open the file"</string>
+  <string name="download_no_application_title">"Can't open file"</string>
   <string name="download_paused">Download paused</string>
   <string name="download_paused_in_power_save_mode">Downloads are paused when Battery saver is on</string>
   <string name="download_pending">Download pending</string>
@@ -283,7 +283,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="download_traffic_dialog_msg_beyond">"You've already exceeded your mobile data limit by %s. Use mobile data to download songs?"</string>
   <string name="download_traffic_dialog_msg_serious">You have only %s of mobile data left. Use mobile data to download songs?</string>
   <string name="download_traffic_dialog_msg_without_data">"You're using mobile data to download songs. Download anyway?"</string>
-  <string name="download_traffic_dialog_negative_button">Wait for WLAN</string>
+  <string name="download_traffic_dialog_negative_button">Wait for Wi-Fi</string>
   <string name="download_traffic_dialog_position_button">Download</string>
   <string name="download_traffic_dialog_position_button_serious">Still download</string>
   <string name="download_traffic_dialog_title">Data usage warning</string>
@@ -600,7 +600,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="notification_download_failed">"Couldn't download"</string>
   <string name="notification_download_failed_more">"Couldn't download %1$d songs"</string>
   <string name="notification_download_success_more">%1$d downloaded</string>
-  <string name="notification_need_wifi_for_size">Download size requires WLAN.</string>
+  <string name="notification_need_wifi_for_size">Download size requires Wi-Fi.</string>
   <string name="notification_play_summary">View current and next song, display lyrics on Home screen</string>
   <string name="notification_play_title">Notification shade widget</string>
   <string name="notification_recommend_summary">Learn about new music trends and app promotions</string>
@@ -675,9 +675,9 @@ is mainly provided by Ultimate Inc."</string>
   <string name="please_select_song">Choose a song first</string>
   <string name="power_save_mode_dialog_msg">Battery saver is on. Start downloading now?</string>
   <string name="pref_download_settings_title">Download size limit</string>
-  <string name="pref_summary_any_bytes_popup">Always wait for WLAN connection to download files</string>
+  <string name="pref_summary_any_bytes_popup">Always wait for Wi-Fi connection to download files</string>
   <string name="pref_summary_enable_max_bytes_popup">Show popup notification when using mobile data to download files</string>
-  <string name="pref_summary_max_bytes_limit_format">Wait for WLAN if file size exceeds %s</string>
+  <string name="pref_summary_max_bytes_limit_format">Wait for Wi-Fi if file size exceeds %s</string>
   <string name="pref_summary_no_limit_popup">Unlimited</string>
   <string name="pref_title_enable_max_bytes_popup">Show data usage prompt</string>
   <string name="preferences_title">Settings</string>
@@ -838,7 +838,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="stream_quality">Streaming quality</string>
   <string name="streamloadingtext">Connecting to %s</string>
   <string name="suggest_text">People who liked this also liked</string>
-  <string name="sync_only_in_wifi">Only sync using WLAN</string>
+  <string name="sync_only_in_wifi">Only sync using Wi-Fi</string>
   <string name="sync_only_in_wifi_summary">Sync your music across all your devices with Mi Cloud. Using your mobile data connection to sync music will increase your data usage. If you go over your plan’s data limit, your carrier could charge you additional fees.</string>
   <string name="tab_album">Albums</string>
   <string name="tab_album_list">Albums</string>
@@ -940,12 +940,12 @@ is mainly provided by Ultimate Inc."</string>
   <string name="vip_tomorrow_auto_renew_message">Your Music subscription will be renewed automatically tomorrow evening. Make sure you have enough Mi Credits in your account to complete this payment.</string>
   <string name="vip_tomorrow_renew_message">"You won't be able to stream high quality audio, but some songs will be available in regular quality."</string>
   <string name="warning_tip_cancel">Download</string>
-  <string name="warning_tip_content">"You're no longer connected to WLAN. Using your mobile data connection to complete this download will increase your data usage. If you go over your plan’s data limit, your carrier could charge you additional fees."</string>
+  <string name="warning_tip_content">"You're no longer connected to Wi-Fi. Using your mobile data connection to complete this download will increase your data usage. If you go over your plan’s data limit, your carrier could charge you additional fees."</string>
   <string name="warning_tip_ok">Pause</string>
   <string name="warning_tip_title">Data usage warning</string>
   <string name="welcome_to_new_music">Welcome to the new version of Mi Music</string>
-  <string name="wifi_required_body" formatted="false">"You should use WLAN to complete this %s download. 
+  <string name="wifi_required_body" formatted="false">"You should use Wi-Fi to complete this %s download. 
 
-Tap %s to start this download the next time you're connected to a WLAN network."</string>
-  <string name="wifi_required_title">You should connect to WLAN to download this file</string>
+Tap %s to start this download the next time you're connected to a Wi-Fi network."</string>
+  <string name="wifi_required_title">You should connect to Wi-Fi to download this file</string>
 </resources>
