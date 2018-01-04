@@ -389,7 +389,7 @@
   <string name="cta_desc">"It's ideal for shortcuts, info, and your favorite features"</string>
   <string name="cta_dialog_negative">Exit</string>
   <string name="cta_dialog_positive">Agree</string>
-  <string name="cta_dialog_text_all">To use App vault, you should read and agree with %1$s\"User Agreement\" %2$s and %3$s \"Privacy Policy\" %4$s. The service also requires internet connection and access to the location services. Agree?</string>
+  <string name="cta_dialog_text_all">To use App vault, you should read and agree with %1$s\"User Agreement\" %2$s and %3$s \"Privacy Policy\" %4$s. The service also requires internet connection and access to the location services. The content catcher used by some services also requires internet connection. Agree?</string>
   <string name="cta_dialog_title">Terms and Conditions</string>
   <string name="cta_negative">Close</string>
   <string name="cta_positive">Details</string>
