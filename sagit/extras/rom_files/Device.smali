@@ -757,6 +757,27 @@
     return v0
 .end method
 
+.method public static enhanceBeautyWithHHT()Z
+    .locals 2
+
+    const/4 v0, 0x0
+
+    invoke-static {}, Lcom/android/camera/Device;->isSupportFrontHHT()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    const-string/jumbo v1, "enhance_beauty_with_hht"
+
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :cond_0
+    return v0
+.end method
+
 .method public static getBurstShootCount()I
     .locals 2
 
@@ -1179,6 +1200,33 @@
     return v0
 .end method
 
+.method public static isIndiaBeautyFilter()Z
+    .locals 2
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_E7S:Z
+
+    if-eqz v0, :cond_0
+
+    const-string/jumbo v0, "India"
+
+    const-string/jumbo v1, "ro.boot.hwc"
+
+    invoke-static {v1}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v1
+
+    invoke-static {v0, v1}, Landroid/text/TextUtils;->equals(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Z
+
+    move-result v0
+
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    return v0
+.end method
+
 .method public static isLCPlatform()Z
     .locals 2
 
@@ -1434,6 +1482,20 @@
     const-string/jumbo v0, "is_camera_preview_with_subthread_looper"
 
     const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static isSupportAutoMirror()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_auto_mirror"
+
+    const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 

@@ -24,6 +24,7 @@
   <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_makeup">Advanced</string>
+  <string name="bokeh_use_hint">Depth effect</string>
   <string name="burst_shoot_exit_button_text">Turn off Burst shoot</string>
   <string name="button_fisheye_camera_title">Fisheye</string>
   <string name="button_front_camera_title">Make a selfie</string>
