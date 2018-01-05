@@ -108,8 +108,6 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="find_device_pref_alert_positive">OK</string>
   <string name="find_device_pref_alert_title">Remember your Mi Account ID and password</string>
   <string name="find_device_pref_initializing">Initializing…</string>
-  <string name="find_device_reading_status">Loading status…</string>
-  <string name="find_device_reading_status_failure">"Couldn't load status."</string>
   <string name="find_device_send_sms_alert">If you switch SIM cards, another SMS may be sent automatically to reactivate this feature.</string>
   <string name="find_device_service_summary">Visit i.mi.com to locate your device and lock it remotely</string>
   <string name="find_device_service_summary_international">Visit i.mi.com to locate your device and lock it remotely</string>
@@ -143,9 +141,9 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="ks_key_status">ks_key_status</string>
   <string name="ks_key_udpate_time">ks_key_udpate_time</string>
   <string name="ks_key_version">ks_key_version</string>
-  <string name="ks_name_alipay">Alipay</string>
+  <string name="ks_name_alipay">IFAA</string>
   <string name="ks_name_fido">FIDO</string>
-  <string name="ks_name_soter">WeChat</string>
+  <string name="ks_name_soter">Soter</string>
   <string name="ks_status_available">Available</string>
   <string name="ks_status_unavailable">Not available</string>
   <string name="ks_update_certificate">Certificate</string>
@@ -305,6 +303,7 @@ To fix this, you can either clean out some old files to make room for new ones, 
   <string name="micloud_main_head_menu_recycle_bin_title">Recycle Bin</string>
   <string name="micloud_main_head_menu_state_close">Closed</string>
   <string name="micloud_main_head_menu_state_open">Opened</string>
+  <string name="micloud_main_head_menu_state_unavailable">Unavailable</string>
   <string name="micloud_main_last_sync_time">Last synced %s</string>
   <string name="micloud_main_master_sync_on">Sync on</string>
   <string name="micloud_main_memory_low_message">"To sync, delete some items you've stored in the cloud."</string>
@@ -489,6 +488,8 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="pref_title_sync_contacts_title">Sync contacts</string>
   <string name="pref_title_sync_display_photo_on_wifi_only">Only use WLAN to sync photos</string>
   <string name="privacy_policy">Privacy Policy</string>
+  <string name="reading_status">Loading status…</string>
+  <string name="reading_status_failure">"Couldn't load status."</string>
   <string name="recommend_open_all_sync">Sync all items</string>
   <string name="remind_later">Not now</string>
   <string name="restoreSync">Sync now</string>

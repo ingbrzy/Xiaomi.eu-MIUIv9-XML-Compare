@@ -9,4 +9,10 @@
         <item>US</item>
         <item>TR</item>
     </string-array>
+    <integer-array name="config_input_face_unlock">
+        <item>-10</item>
+        <item>10</item>
+        <item>15</item>
+        <item>25</item>
+    </integer-array>
 </resources>

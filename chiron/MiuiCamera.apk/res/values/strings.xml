@@ -24,6 +24,7 @@
   <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_makeup">Advanced</string>
+  <string name="bokeh_use_hint">Depth effect</string>
   <string name="burst_shoot_exit_button_text">Turn off Burst shoot</string>
   <string name="button_fisheye_camera_title">Fisheye</string>
   <string name="button_front_camera_title">Make a selfie</string>
@@ -227,6 +228,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_beautify_entryvalue_high">3</string>
   <string name="pref_camera_beautify_entryvalue_low">1</string>
   <string name="pref_camera_beautify_entryvalue_normal">2</string>
+  <string name="pref_camera_bokeh_title">Portrait</string>
   <string name="pref_camera_coloreffect_default">none</string>
   <string name="pref_camera_coloreffect_entry_aqua"/>
   <string name="pref_camera_coloreffect_entry_big_face">Spread</string>
@@ -296,6 +298,8 @@ and brings out the people in the front."</string>
   <string name="pref_camera_focusmode_entry_normal">Standard</string>
   <string name="pref_camera_focusmode_title">Focus mode</string>
   <string name="pref_camera_focusmode_value_default">continuous-picture</string>
+  <string name="pref_camera_front_bokeh_entry_off">Off</string>
+  <string name="pref_camera_front_bokeh_entry_on">On</string>
   <string name="pref_camera_gradienter_title">Straighten</string>
   <string name="pref_camera_groupshot_mode_title">Group selfie</string>
   <string name="pref_camera_hand_night_title">HHT</string>
@@ -372,9 +376,9 @@ and brings out the people in the front."</string>
   <string name="pref_camera_picture_format_entry_raw">Raw</string>
   <string name="pref_camera_picture_format_value_jpeg">jpeg</string>
   <string name="pref_camera_picture_format_value_raw">raw</string>
-  <string name="pref_camera_picturesize_entry_fullscreen">18:9</string>
-  <string name="pref_camera_picturesize_entry_standard">4:3</string>
-  <string name="pref_camera_picturesize_entry_widescreen">16:9</string>
+  <string name="pref_camera_picturesize_entry_16_9">16:9</string>
+  <string name="pref_camera_picturesize_entry_18_9">18:9</string>
+  <string name="pref_camera_picturesize_entry_4_3">4:3</string>
   <string name="pref_camera_picturesize_title_simple_mode">Camera frame</string>
   <string name="pref_camera_portrait_mode_entry_off">Portrait mode is off</string>
   <string name="pref_camera_portrait_mode_entry_on">Portrait mode is on</string>
@@ -624,6 +628,7 @@ and brings out the people in the front."</string>
   <string name="user_notice_title">Terms and Conditions</string>
   <string name="video_camera_label">Camcorder</string>
   <string name="video_effect_entry_blackwhite">B&amp;W</string>
+  <string name="video_effect_entry_bygone">Bygone</string>
   <string name="video_effect_entry_film">Film</string>
   <string name="video_effect_entry_forest">Grove</string>
   <string name="video_effect_entry_holiday">Reflections</string>

@@ -18,11 +18,12 @@
   <string name="ac_summaryOn">Turned on, password is required to open apps</string>
   <string name="ac_unmask_all_apps">Unhide for all apps</string>
   <string name="access_control_app_is_launching">App is starting</string>
-  <string name="access_control_failed_need_to_unlock_nofingerprint">Draw your unlock pattern to use a new fingerprint</string>
+  <string name="access_control_failed_need_to_unlock_nofingerprint">Enter password before unlocking with a new fingerprint</string>
   <string name="access_control_fingerprint_not_identified_msg">"Couldn't read fingerprint."</string>
   <string name="access_control_need_password">"%s added successfully
 "</string>
   <string name="access_control_need_to_unlock_nofingerprint">Enter App lock password</string>
+  <string name="accessibility_gameboosterservice_description"/>
   <string name="accessibility_service_description"/>
   <string name="action_button_text_100">Optimize</string>
   <string name="action_button_text_60">Fix</string>
@@ -120,6 +121,7 @@
   <string name="antivirus_update_btn_update">Update</string>
   <string name="apn_exception_summary">"Test carrier's Access Point Name configurations"</string>
   <string name="apn_exception_title">Check APN configurations</string>
+  <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content. Restrict anyway?</string>
   <string name="app_check_no_issue">Looks like there are no battery issues. Cool!</string>
   <string name="app_detail">Details</string>
   <string name="app_error_tip_for_launcher">"Your device's hardware components or Android system version may cause compatibility issues and make some apps misbehave, freeze, or be force stopped. If you encounter such issues, share your feedback with the app developers."</string>
@@ -198,6 +200,7 @@
   <string name="app_manager_notify_bar">Badges</string>
   <string name="app_manager_notify_floating">Floating notifications</string>
   <string name="app_manager_notify_keyguard">Lock screen</string>
+  <string name="app_manager_open_show_all_apps_immediate">Show all results</string>
   <string name="app_manager_perm">Permissions</string>
   <string name="app_manager_permission_manager_title">Permissions</string>
   <string name="app_manager_permission_notify_title">Notifications</string>
@@ -220,7 +223,9 @@
 
  You will not lose any app data."</string>
   <string name="app_manager_reset_app_preferences_title">Reset app preferences?</string>
+  <string name="app_manager_search_prompt">"Couldn't find results? Try showing results from all apps."</string>
   <string name="app_manager_show_all_apps">Show all apps</string>
+  <string name="app_manager_show_all_apps_opened">Showing results from all apps…</string>
   <string name="app_manager_show_detail_infos">View all</string>
   <string name="app_manager_start_by">Started by %s</string>
   <string name="app_manager_support_uninstall">You can uninstall these apps</string>
@@ -279,6 +284,8 @@
   <string name="apps_list_header_title_sms_access">Restrict access to verification codes</string>
   <string name="auto_atsk_condition_battery_level_text_down">When battery reaches %s</string>
   <string name="auto_atsk_condition_battery_level_text_up">When battery is charged to %s</string>
+  <string name="auto_back_booster">Stop boosting</string>
+  <string name="auto_booster_suc">Boosted successfully</string>
   <string name="auto_clean_close">Automatic cleanups are off</string>
   <string name="auto_handle_title">GENERAL</string>
   <string name="auto_import_games">Put all your games in one place</string>
@@ -346,6 +353,10 @@
   <string name="back_app_name">Go back to App lock</string>
   <string name="back_description_securitycenter">Back</string>
   <string name="back_modifypassword">Go back to changing password</string>
+  <string name="back_sound_data">It requires cellular mobile network, please retry!</string>
+  <string name="back_sound_fail">Failed！By reason of the change of operator interface, you can try to switch current sim card to network card and try again.</string>
+  <string name="back_sound_success">Success!</string>
+  <string name="back_sound_support">"The current network operators doesn't support it！"</string>
   <string name="background_restrict_app_dialog_message">Restricting background network access for this app might make it impossible for the app to work normally, receive messages, download content, etc. Restrict anyway?</string>
   <string name="background_traffic">Background %s</string>
   <string name="backsound_set_hint">Set your away message to %s?</string>
@@ -390,6 +401,7 @@
   <string name="best_warning_dialog_message">"温馨提示：使用小米红包助手后，会提升您抢红包的速度。但如果您手太快，姿势太迅猛，每次都率先抢到红包，&lt;font color='#e56255'&gt;有一定几率会被微信误认为使用了自动抢红包插件&lt;/font&gt;，影响您后面使用红包功能。所以，有时候，高抬贵手略控制节奏，抢红包风味更佳。红包虽好，可不要贪多哟～"</string>
   <string name="best_warning_dialog_message1">"使用小米红包助手后，会提升您抢红包的速度。但如果您手太快，姿势太迅猛，每次都率先抢到红包，&lt;font color='#e56255'&gt;有一定几率会被微信误认为使用了自动抢红包插件&lt;/font&gt;，影响您后面使用红包功能。所以，有时候，高抬贵手略控制节奏，抢红包风味更佳。红包虽好，可不要贪多哟～～"</string>
   <string name="best_warning_dialog_title">温馨提示</string>
+  <string name="bg_network_exception_title">Restricted background connection</string>
   <string name="bind_xiaomi_account_cancel">Cancel</string>
   <string name="bind_xiaomi_account_confirm">Add</string>
   <string name="bind_xiaomi_account_dialog_summery">"You're about to add Mi Account %s. If you forget your password, you can use this account to reset it. Account will be removed automatically if you sign out."</string>
@@ -565,7 +577,7 @@
   <string name="current_network_state_not_need_diagnose">Internet connection is normal.</string>
   <string name="customize_limit_pkg">%s (custom)</string>
   <string name="customizer_mode_user_define_name">My rules</string>
-  <string name="daily_limit_and_lock_screen">Data limit &amp; notifications</string>
+  <string name="daily_limit_and_lock_screen">Data usage warning</string>
   <string name="daily_limit_network_available_body">Tap to view data usage stats.</string>
   <string name="daily_limit_over_message">"You've exceeded your daily data limit."</string>
   <string name="daily_pkg_traffic">Peak data limit</string>
@@ -595,6 +607,7 @@
   <string name="deep_save_ontime_boot_shutdown_summary">Schedule time to turn device on and off</string>
   <string name="delete">Delete</string>
   <string name="delete_from_manual_item_white_list">Remove from exceptions</string>
+  <string name="delete_input">Delete</string>
   <string name="deleted_apps">Deleted apps</string>
   <string name="demo_number">241</string>
   <string name="descx_quick_scan_cancel">Scan canceled</string>
@@ -620,6 +633,7 @@
   <string name="dlg_add_blacklist">Block this number?</string>
   <string name="dlg_add_blacklist_title">Add to blocklist</string>
   <string name="dlg_add_keyword">Add keywords</string>
+  <string name="dlg_add_white">"New calls and messages from the numbers added to exceptions will be shown in call history and Messaging inbox. However, previously blocked items won't appear there. Add selected numbers to exceptions?"</string>
   <string name="dlg_antispam_mode_delete_message">"You can't recover rules after they've been deleted."</string>
   <string name="dlg_antispam_mode_delete_title">Delete rules?</string>
   <string name="dlg_antispam_using_mode_delete_message">"Delete the rules you're currently using and switch back to blocklist's default rules?"</string>
@@ -639,9 +653,12 @@
   <string name="dlg_import_whitelist">Adding…</string>
   <string name="dlg_keyword_ok">Save</string>
   <string name="dlg_message_not_open_stranger_identify">To turn this feature on, go to Settings &gt; Phone.</string>
-  <string name="dlg_no_block">"Unblock this number and restore calls from this number to call history?
-(The number will be added to call whitelist)"</string>
+  <string name="dlg_move_to_white">Add to exceptions</string>
+  <string name="dlg_no_block">"Unblock this phone number ?
+It will be added to exceptions, but previously blocked items won't appear in call history."</string>
   <string name="dlg_no_block_ok">Unblock</string>
+  <string name="dlg_not_block_call">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in call history."</string>
+  <string name="dlg_not_block_sms">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in Messaging inbox."</string>
   <string name="dlg_remove_address_blacklist">Remove this location from blocklist?</string>
   <string name="dlg_remove_address_whitelist">Remove this location from exceptions?</string>
   <string name="dlg_remove_blacklist">Remove these numbers from blocklist?</string>
@@ -783,10 +800,15 @@
   <string name="gateway_exception_summary">Check your router and try again.</string>
   <string name="gateway_exception_summary2">"Can't connect to the server"</string>
   <string name="gateway_exception_title">Test router</string>
+  <string name="gb_description_image_button_answer">Answer</string>
+  <string name="gb_description_image_button_reject">Decline</string>
+  <string name="gb_description_image_button_video_answer">Video call</string>
   <string name="ge">个</string>
   <string name="get_sys_info">Getting info…</string>
   <string name="gigabyteShort">GB</string>
   <string name="give_lucky_money">红包大派送</string>
+  <string name="gmscore_support_remind">Turn this feature on if you experience problems with using Gmail, Google Maps, and other Google apps. It will slightly reduce battery life.</string>
+  <string name="gmscore_support_service">Google Services</string>
   <string name="go_to">Proceed</string>
   <string name="go_to_setting_fingerprint">Settings</string>
   <string name="google_base_app_install_choice">\"%s\" requires Google Services Framework to work normally, download and install it?</string>
@@ -795,6 +817,9 @@
   <string name="gs_app_back_self_start">Battery saver</string>
   <string name="gs_auto_clean_memory">Clear cache</string>
   <string name="gs_auto_clean_memory_detail">Clear cache automatically to optimize gaming</string>
+  <string name="gs_autobooster">Boost automatically</string>
+  <string name="gs_autobooster_detail">Boost speed for selected games automatically</string>
+  <string name="gs_autobooster_dialog_message">"If you're using Xunyou speed boost, open games on the designated page."</string>
   <string name="gs_call_handsfree">Answer calls hands free</string>
   <string name="gs_call_handsfree_mute">Silent mode</string>
   <string name="gs_dialog_confirm_close_msg">The shortcut will be removed from your Home screen. Go to Security &gt; Settings to restore it.</string>
@@ -858,6 +883,7 @@
   <string name="info_unantispam_sms">Allow SMS</string>
   <string name="information_setting">Recommendations</string>
   <string name="input_aviable_traffic">Set data usage limit</string>
+  <string name="input_password_hint_text">Enter password</string>
   <string name="input_traffic_pkg">Enter data usage</string>
   <string name="input_used_hint">Enter data usage</string>
   <string name="input_used_max_hint">Enter data usage (less than %s)</string>
@@ -1123,6 +1149,14 @@ to respond"</string>
   <string name="mi_service_traffic_detail">Framework details</string>
   <string name="mian_page_primary_txt">Overseas roaming</string>
   <string name="miliao_lucky_warning">米聊红包</string>
+  <string name="mixed_need_to_confirm">Enter again to confirm</string>
+  <string name="mixed_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
+  <string name="mixed_password_confirmed_header_continue">Set successfully. Tap \"Next\".</string>
+  <string name="mixed_pattern_entered_header">Set password successfully</string>
+  <string name="mixed_recording_incorrect_too_short">Enter at least %d characters.</string>
+  <string name="mixed_recording_intro_header">Enter at least 4 characters</string>
+  <string name="mixed_retry_button_text">Cancel</string>
+  <string name="mixed_settings_help_how_to_record">How to set password</string>
   <string name="modify_password_mode">&lt;u&gt;Change password type&lt;/u&gt;</string>
   <string name="modifypassword">Change password</string>
   <string name="monitor_app_add">Add</string>
@@ -1160,20 +1194,20 @@ to respond"</string>
   <string name="network_roaming_exception_tips">"Can't use mobile data while roaming to connect to the network."</string>
   <string name="network_route_exception_detail">"There may be a problem with the router you're connected to:
 
- "&lt;b&gt;1. Public WLAN network issues&lt;/b&gt;"
-If you're connected to a public WLAN network, the number of users connected to that network may be slowing it down or creating connectivity problems. Switch to another network and try again.
+ "&lt;b&gt;"1. Public WLAN network issues
+"&lt;/b&gt;"If you're connected to a public WLAN network, the number of users connected to that network may be slowing it down or creating connectivity problems. Switch to another network and try again.
 
- "&lt;b&gt;2. Internet service provider issues&lt;/b&gt;"
-Make sure that your account is in good standing with your Internet service provider.
+ 2."&lt;b&gt;" Internet service provider issues
+M"&lt;/b&gt;"ake sure that your account is in good standing with your Internet service provider.
 
- "&lt;b&gt;3. Router hardware issues&lt;/b&gt;"
-Try rebooting your router or checking the admin settings for your router.
+ 3."&lt;b&gt;" Router hardware issues
+T"&lt;/b&gt;"ry rebooting your router or checking the admin settings for your router.
 
- "&lt;b&gt;4. Other router issues&lt;/b&gt;"
-Read the instructions that came with your router and restore your router to its factory settings.
+ 4."&lt;b&gt;" Other router issues
+R"&lt;/b&gt;"ead the instructions that came with your router and restore your router to its factory settings.
 
- "&lt;b&gt;5. Make sure your router is connected properly&lt;/b&gt;"
-Try using another Ethernet cable to connect your router. If you suspect there's an issue with the connection in your home, contact your Internet service provider."</string>
+ 5."&lt;b&gt;" Make sure your router is connected properly
+T"&lt;/b&gt;"ry using another Ethernet cable to connect your router. If you suspect there's an issue with the connection in your home, contact your Internet service provider."</string>
   <string name="network_sim_exception_detail">"There may be a problem with your SIM card:
 
 1. Make sure your account is in good standing with your carrier. Try using a friend's SIM card and see if you're able to connect normally.
@@ -1222,6 +1256,14 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="notify_weekly_traffic_title">Used %s this week</string>
   <string name="notify_weekly_traffic_title_for_slotnum">%1$s used %2$s this week</string>
   <string name="number_of_lucky_money">已为您提醒红包总数</string>
+  <string name="numeric_need_to_confirm">Enter again to confirm</string>
+  <string name="numeric_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
+  <string name="numeric_password_confirmed_header_continue">Set successfully. Tap \"Next\".</string>
+  <string name="numeric_pattern_entered_header">Set PIN successfully</string>
+  <string name="numeric_recording_incorrect_too_short">Enter at least %d digit.</string>
+  <string name="numeric_recording_intro_header">Enter password</string>
+  <string name="numeric_retry_button_text">Cancel</string>
+  <string name="numeric_settings_help_how_to_record">How to set PIN</string>
   <string name="ok">OK</string>
   <string name="ok_button">OK</string>
   <string name="old_sdk_deny_warning">"The app isn't compatible with the latest Android permission requirements. Denied permissions may affect the way this app works."</string>
@@ -1351,6 +1393,8 @@ This activity shortens battery life."</string>
   <string name="password_promotion_not_login_xiaomi_account_message">Add your Mi Account to be able to reset your password in case you forget it.</string>
   <string name="password_promotion_postbutton_text">Add</string>
   <string name="password_promotion_title">Add Mi Account</string>
+  <string name="password_type">Change password</string>
+  <string name="password_type_underline">&lt;u&gt;Change password&lt;/u&gt;</string>
   <string name="password_xspace_forget_pattern_message">To change your Second space password, you should delete your current Second space and create a new one.</string>
   <string name="path_antispam">System apps/Security/Blocklist</string>
   <string name="path_antivirus">System apps/Security/Virus scan</string>
@@ -1381,8 +1425,7 @@ This activity shortens battery life."</string>
   <string name="permission_action_reject">Deny</string>
   <string name="permission_close_permission_control_dialog_msg">"When permission manager is off, apps won't ask your permission before reading your contacts, viewing your call history, changing system settings, or accessing camera and other device resources."</string>
   <string name="permission_close_permission_control_dialog_title">Turn off?</string>
-  <string name="permission_exception_summary">"Some apps don't have permission to connect to the internet"</string>
-  <string name="permission_exception_title">View network permissions</string>
+  <string name="permission_exception_title">Restricted connection for apps</string>
   <string name="permission_permission_control_closed_desc_dialog_msg">"Apps won't ask your permission before reading your contacts, viewing your call history, changing system settings, or accessing camera and other device resources. You can turn this feature on in Permission settings."</string>
   <string name="permission_permission_control_closed_desc_dialog_title">Permission manager</string>
   <string name="permission_with_SMS_and_MMS">Permissions related to SMS and MMS</string>
@@ -1474,6 +1517,7 @@ This activity shortens battery life."</string>
   <string name="pref_auto_adjust_traffic">Auto adjust data usage stats</string>
   <string name="pref_automatic_adjust">Sync carrier data usage</string>
   <string name="pref_avaible_traffic">Data plan</string>
+  <string name="pref_bg_network_title">Background connection</string>
   <string name="pref_category_daily_package_tile">Daily data plan</string>
   <string name="pref_category_extra_package_tile">Top-up package</string>
   <string name="pref_category_half_year_package_tile">Half-year data package</string>
@@ -1505,12 +1549,12 @@ This activity shortens battery life."</string>
   <string name="pref_mi_sim_settings">Mi SIM Settings</string>
   <string name="pref_more_settings">Additional settings</string>
   <string name="pref_new_installed_preconfig_title">"New apps' default settings"</string>
-  <string name="pref_normal_traffic_limit">When daily data plan is used up</string>
+  <string name="pref_normal_traffic_limit">When data plan is used up</string>
   <string name="pref_open_adjust_traffic">Update data usage every day using stats from your carrier</string>
   <string name="pref_operator_not_set">"Carrier isn't set"</string>
   <string name="pref_operator_setting">%1$s%2$s</string>
   <string name="pref_over_traffic_limit">When you go over your data plan</string>
-  <string name="pref_package_traffic_settings">Mobile data limit</string>
+  <string name="pref_package_traffic_settings">Data plan</string>
   <string name="pref_pkg_begin_date">Usage reset date</string>
   <string name="pref_roaming_daily_limit_setting">Set daily data limit while roaming</string>
   <string name="pref_roaming_daily_limit_setting_cat_title">Daily data limit</string>
@@ -1597,6 +1641,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="quick_optimize_sub_summary_text">Added %s to battery life</string>
   <string name="quick_optimize_suggest_battery_consume_too_fast">The phone is draining battery, fix it</string>
   <string name="quick_optimize_suggest_battery_over_heat">The phone is overheating, fix it</string>
+  <string name="quite_all_string">Cancel</string>
   <string name="random_expression">随机表情</string>
   <string name="reach_daily_limit_value_body">Reduce your mobile data usage.</string>
   <string name="reach_daily_limit_value_title">Daily data limit reached</string>
@@ -1684,6 +1729,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sc_allow_network_dialog_message">This app needs to connect to the internet to work normally.</string>
   <string name="sc_allow_network_dialog_tiltle">"Can't use this feature"</string>
   <string name="sc_system_risk_fix_info_xspace">"Can't solve this in Second space. Try again in First space."</string>
+  <string name="sc_warning_updater_not_found">Updater application not found. Unable to update !</string>
   <string name="scan_installed_games">Checking installed games…</string>
   <string name="scan_status_risk">Risky</string>
   <string name="scan_status_safe">Secure</string>
@@ -1701,6 +1747,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="security_scan_optimizing">Optimizing…</string>
   <string name="see_detail">Details</string>
   <string name="set_applock_password">Set password</string>
+  <string name="set_mixed_password_name">Set password</string>
+  <string name="set_numeric_password_name">Set PIN</string>
+  <string name="set_pattern_password_name">Set pattern</string>
   <string name="setting">Settings</string>
   <string name="setting_alarm_summary">各大平台官方红包活动闹钟提醒</string>
   <string name="setting_privacy_password">Add pattern</string>
@@ -2217,6 +2266,12 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="unlike">No thanks</string>
   <string name="unlock_pattern">&lt;u&gt;Pattern&lt;/u&gt;</string>
   <string name="unlock_pattern_to_bind_fingerprint">Enter password to activate fingerprint</string>
+  <string name="unlock_set_unlock_password_summary">Combine different characters</string>
+  <string name="unlock_set_unlock_password_title">Password</string>
+  <string name="unlock_set_unlock_pattern_summary">Connect at least 4 dots</string>
+  <string name="unlock_set_unlock_pattern_title">Pattern</string>
+  <string name="unlock_set_unlock_pin_summary">Enter 4 digits</string>
+  <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="updating_diagnostic_botton">Analyzing data…</string>
   <string name="usage_sorted_activity_lable">Data usage</string>
   <string name="usage_sorted_empty_text">Empty</string>
@@ -2269,6 +2324,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="wlan_booster">WLAN optimization</string>
   <string name="wlan_change_protection_detail">"Don't switch to WLAN automatically when connected to mobile data network"</string>
   <string name="wlan_change_protection_title">Prevent switching networks</string>
+  <string name="wrong_password">Incorrect password</string>
   <string name="xunyou_net_booster">Network speed boost</string>
   <string name="xunyou_net_booster_detail">Use Xunyou speed boost services for gaming</string>
   <string name="xunyou_pay_webview">Xunyou services</string>
