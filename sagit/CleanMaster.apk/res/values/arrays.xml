@@ -1,27 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string-array name="about_server_list">
-        <item>Production Environment</item>
-        <item>Testing Environment</item>
-    </string-array>
-    <string-array name="auto_clean_size">
-        <item>100MB</item>
-        <item>300MB</item>
-        <item>500MB</item>
-        <item>1GB</item>
-    </string-array>
-    <string-array name="auto_clean_time">
-        <item>Every day</item>
-        <item>Every 3 days</item>
-        <item>Every 7 days</item>
-        <item>Every 15 days</item>
-    </string-array>
-    <string-array name="auto_process_mode">
-        <item>Notify</item>
-        <item>Clear</item>
-        <item>Clear and notify</item>
-    </string-array>
     <string-array name="cache_sort_type">
+        <item>Size</item>
+        <item>Name</item>
+    </string-array>
+    <string-array name="large_file_sort_type">
         <item>Size</item>
         <item>Name</item>
     </string-array>
@@ -29,9 +12,22 @@
         <item>Frequently used</item>
         <item>Size</item>
     </string-array>
-    <string-array name="large_file_sort_type">
-        <item>Size</item>
-        <item>Name</item>
+    <string-array name="auto_clean_time">
+        <item>Every day</item>
+        <item>Every 3 days</item>
+        <item>Every 7 days</item>
+        <item>Every 15 days</item>
+    </string-array>
+    <string-array name="auto_clean_size">
+        <item>100MB</item>
+        <item>300MB</item>
+        <item>500MB</item>
+        <item>1GB</item>
+    </string-array>
+    <string-array name="auto_process_mode">
+        <item>Notify</item>
+        <item>Clear</item>
+        <item>Clear and notify</item>
     </string-array>
     <string-array name="hide_installed_packages">
         <item>com.miui.klo.bugreport</item>
@@ -57,10 +53,6 @@
         <item>com.iflytek.speechcloud</item>
         <item>com.xiaomi.jr.security</item>
     </string-array>
-    <string-array name="hide_packages">
-        <item>com.tencent.mm</item>
-        <item>com.tencent.mobileqq</item>
-    </string-array>
     <string-array name="hide_path">
         <item>/FileExplorer/.safebox</item>
         <item>/DCIM/.thumbnails</item>
@@ -68,8 +60,9 @@
         <item>tencent/MicroMsg</item>
         <item>/Android/data/com.tencent.KiHan</item>
     </string-array>
-    <string-array name="white_list_ad">
-        <item>/MIUI/debug_log</item>
+    <string-array name="hide_packages">
+        <item>com.tencent.mm</item>
+        <item>com.tencent.mobileqq</item>
     </string-array>
     <string-array name="white_list_cache">
         <item>/MIUI/theme/.data</item>
@@ -80,5 +73,8 @@
         <item>/MiMarket/files</item>
         <item>/miliao/cache</item>
         <item>/tencent/blob/mqq</item>
+    </string-array>
+    <string-array name="white_list_ad">
+        <item>/MIUI/debug_log</item>
     </string-array>
 </resources>

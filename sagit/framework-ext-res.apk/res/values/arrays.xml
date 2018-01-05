@@ -26,8 +26,8 @@
         <item>com.android.bluetooth</item>
         <item>com.whatsapp</item>
         <item>com.jeejen.family.miui</item>
-        <item>com.miui.networkassistant</item>
         <item>com.android.server.telecom</item>
+        <item>com.miui.networkassistant</item>
         <item>com.miui.securitycenter</item>
         <item>com.android.cts.verifier</item>
         <item>com.miui.securitycore</item>
@@ -41,39 +41,10 @@
         <item>com.miui.packageinstaller</item>
         <item>com.xiaomi.account</item>
         <item>com.android.htmlviewer</item>
-        <item>com.xiaomi.mipicks</item>
-    </string-array>
-    <string-array name="keyguard_whitelist">
-        <item>com.miui.yellowpage</item>
-        <item>com.google.android.talk</item>
-        <item>com.tencent.mm</item>
-        <item>com.tencent.qq</item>
-        <item>com.tencent.mobileqq</item>
-        <item>com.xiaomi.channel</item>
-        <item>com.android.calendar</item>
-        <item>com.android.phone</item>
-        <item>com.android.mms</item>
-        <item>com.google.android.gm</item>
-        <item>com.android.email</item>
-        <item>android</item>
-        <item>com.android.updater</item>
-        <item>com.android.settings</item>
-        <item>com.android.bluetooth</item>
         <item>com.whatsapp</item>
-        <item>com.jeejen.family.miui</item>
-        <item>com.miui.networkassistant</item>
-        <item>com.android.server.telecom</item>
-        <item>com.miui.securitycenter</item>
-        <item>com.android.cts.verifier</item>
-        <item>com.miui.securitycore</item>
-        <item>com.lbe.security.miui</item>
-        <item>com.bsb.hike</item>
-        <item>com.fihtdc.fqc</item>
-        <item>com.android.soundrecorder</item>
-        <item>com.miui.home</item>
-        <item>com.miui.personalassistant</item>
-        <item>com.mi.AutoTest</item>
-        <item>com.miui.packageinstaller</item>
+        <item>com.facebook.orca</item>
+        <item>com.bbm</item>
+        <item>jp.naver.line.android</item>
     </string-array>
     <array name="boot_msg_text" />
     <array name="config_virtualKeyUpPattern" />
@@ -83,28 +54,52 @@
         <item>none</item>
         <item>show_menu</item>
     </string-array>
+    <string-array name="font_size_scale">
+        <item>0.86</item>
+        <item>1.0</item>
+        <item>1.2</item>
+        <item>1.4</item>
+    </string-array>
     <string-array name="organized_languages_international">
+        <item>az_AZ</item>
         <item>in_ID</item>
         <item>ms_MY</item>
         <item>de_DE</item>
+        <item>et_EE</item>
         <item>en_IN</item>
         <item>en_GB</item>
         <item>en_US</item>
         <item>es_ES</item>
         <item>es_US</item>
         <item>fr_FR</item>
+        <item>ha_NG</item>
         <item>it_IT</item>
+        <item>lv_LV</item>
         <item>lt_LT</item>
         <item>hu_HU</item>
+        <item>uz_UZ</item>
+        <item>pl_PL</item>
         <item>pt_BR</item>
+        <item>pt_PT</item>
         <item>ro_RO</item>
+        <item>sk_SK</item>
+        <item>sl_SI</item>
+        <item>fi_FI</item>
+        <item>sv_SE</item>
         <item>vi_VN</item>
         <item>tr_TR</item>
+        <item>cs_CZ</item>
+        <item>sr_RS</item>
+        <item>hr_HR</item>
+        <item>kk_KZ</item>
         <item>mk_MK</item>
         <item>ru_RU</item>
         <item>uk_UA</item>
-        <item>mr_IN</item>
+        <item>bg_BG</item>
+        <item>el_GR</item>
+        <item>ka_GE</item>
         <item>hi_IN</item>
+        <item>mr_IN</item>
         <item>bn_IN</item>
         <item>gu_IN</item>
         <item>pa_IN</item>
@@ -113,16 +108,29 @@
         <item>te_IN</item>
         <item>kn_IN</item>
         <item>ml_IN</item>
+        <item>ne_IN</item>
+        <item>or_IN</item>
+        <item>ur_IN</item>
+        <item>ur_PK</item>
+        <item>bn_BD</item>
+        <item>ne_NP</item>
         <item>th_TH</item>
         <item>my_MM</item>
+        <item>ar_EG</item>
+        <item>fa_IR</item>
+        <item>iw_IL</item>
         <item>ko_KR</item>
         <item>zh_CN</item>
         <item>zh_TW</item>
+        <item>zh_HK</item>
+        <item>ja_JP</item>
     </string-array>
     <string-array name="organized_languages_default">
         <item>zh_CN</item>
         <item>zh_TW</item>
         <item>en_US</item>
+        <item>bo_CN</item>
+        <item>ug_CN</item>
     </string-array>
     <string-array name="airtel_mcc_mnc">
         <item>40552</item>

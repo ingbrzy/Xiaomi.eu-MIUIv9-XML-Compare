@@ -52,6 +52,14 @@
         <item>10 seconds</item>
         <item>Other</item>
     </string-array>
+    <string-array name="switch_sdk">
+        <item>Mi Message</item>
+        <item>CMCC Smart SMS</item>
+    </string-array>
+    <string-array name="switch_sdk_value">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
     <string-array name="entries_mms_validity_period_value">
         <item>0</item>
         <item>172800</item>
@@ -63,10 +71,6 @@
         <item>720</item>
         <item>1440</item>
         <item>635040</item>
-    </string-array>
-    <string-array name="switch_sdk">
-        <item>Mi Message</item>
-        <item>CMCC Smart SMS</item>
     </string-array>
     <string-array name="contact_values">
         <item>vnd.android.cursor.item/name</item>
@@ -86,9 +90,5 @@
         <item>always</item>
         <item>silent</item>
         <item>never</item>
-    </string-array>
-    <string-array name="switch_sdk_value">
-        <item>0</item>
-        <item>1</item>
     </string-array>
 </resources>

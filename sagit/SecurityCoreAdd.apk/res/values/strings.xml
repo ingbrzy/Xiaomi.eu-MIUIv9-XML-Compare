@@ -29,7 +29,7 @@ this feature will be added to Second space automatically."</string>
   <string name="closeSecondSpace">Delete Second space</string>
   <string name="closeSecondSpaceSummary">Delete Second space together with its data</string>
   <string name="closeSuccess">Turned off</string>
-  <string name="close_second_space">删除手机分身</string>
+  <string name="close_second_space">Deleted Second space</string>
   <string name="close_second_space_success">Deleted Second space</string>
   <string name="closed">Off</string>
   <string name="complete_setting">Finish</string>
@@ -91,7 +91,7 @@ to be able to view them anytime"</string>
   <string name="exit_private_space">Switch</string>
   <string name="finger_print_num">Fingerprint %d</string>
   <string name="finger_print_of_use">Use fingerprint</string>
-  <string name="fingerprint_number_upper_limit">指纹数量已达上限，请使用已有指纹解锁手机分身</string>
+  <string name="fingerprint_number_upper_limit">Too many unsuccessful unlock attempts</string>
   <string name="fingerprint_removal_failed">"Couldn't delete fingerprint"</string>
   <string name="function_not_support">Not supported on this device</string>
   <string name="gms_message">Creating dual apps requires working with Google services. Create a dual app for Google services?</string>

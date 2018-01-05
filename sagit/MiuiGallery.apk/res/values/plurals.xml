@@ -228,36 +228,4 @@
         <item quantity="other">%d items</item>
         <item quantity="one">%d item</item>
     </plurals>
-    <plurals name="add_to_album_failed_with_reason_and_count">
-        <item quantity="other">"%2$d items can't be added to album. %1$s."</item>
-        <item quantity="one">"%2$d item can't be added to album. %1$s."</item>
-    </plurals>
-    <plurals name="add_to_secret_failed_with_reason_and_count">
-        <item quantity="other">"%2$d items can't be added to hidden album. %1$s."</item>
-        <item quantity="one">"%2$d item can't be added to hidden album. %1$s."</item>
-    </plurals>
-    <plurals name="fail_reason_processing_file">
-        <item quantity="other">Processing photos…</item>
-        <item quantity="one">Processing photo…</item>
-    </plurals>
-    <plurals name="remove_from_secret_failed_with_reason_and_count">
-        <item quantity="other">"%2$d items can't be removed from hidden album. %1$s."</item>
-        <item quantity="one">"%2$d item can't be removed from hidden album. %1$s."</item>
-    </plurals>
-    <plurals name="send_processing_files_error">
-        <item quantity="other">"Couldn't share. Still processing %d photos…"</item>
-        <item quantity="one">"Couldn't share. Still processing %d photo…"</item>
-    </plurals>
-    <plurals name="slim_complete_photo_count">
-        <item quantity="other">Optimized %d photos</item>
-        <item quantity="one">Optimized %d photo</item>
-    </plurals>
-    <plurals name="slim_exit_dialog_message">
-        <item quantity="other">"%d photos haven't been optimized. Stop now?"</item>
-        <item quantity="one">"%d photo hasn't been optimized. Stop now?"</item>
-    </plurals>
-    <plurals name="slim_remain_photo_count">
-        <item quantity="other">%d photos left</item>
-        <item quantity="one">%d photo left</item>
-    </plurals>
 </resources>

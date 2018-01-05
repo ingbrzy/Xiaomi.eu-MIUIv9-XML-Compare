@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="NPlaylist_delete_confirm">
+        <item quantity="other">Delete %d playlists?</item>
+        <item quantity="one">Delete %d playlist?</item>
+    </plurals>
     <plurals name="Nalbum_total_songs">
         <item quantity="other">Total %d songs</item>
         <item quantity="zero">Total %d song</item>
@@ -16,10 +20,6 @@
     <plurals name="Nbackup_songs">
         <item quantity="other">Backing up songs, %1$d songs remaining (%2$.1fMB)</item>
         <item quantity="one">Backing up songs, %1$d song remaining (%2$.1fMB)</item>
-    </plurals>
-    <plurals name="Ndownload_fee_alert_message">
-        <item quantity="other">At the request of the copyright owner, %d songs selected do not support free downloads. These songs Have been added to download management for you.</item>
-        <item quantity="one">At the request of the copyright owner, %d song selected does not support free downloads. These songs Have been added to download management for you.</item>
     </plurals>
     <plurals name="Nexpired_remind">
         <item quantity="other">%d days remaining</item>
@@ -117,18 +117,6 @@
         <item quantity="other">%d items selected</item>
         <item quantity="one">%d item selected</item>
     </plurals>
-    <plurals name="notif_title_multiple_downloading">
-        <item quantity="other">Downloading %1$d songs</item>
-        <item quantity="one">Downloading %1$d song</item>
-    </plurals>
-    <plurals name="notification_download_failed_more">
-        <item quantity="other">"Couldn't download %1$d songs"</item>
-        <item quantity="one">"Couldn't download %1$d song"</item>
-    </plurals>
-    <plurals name="notification_download_success_more">
-        <item quantity="other">%1$d downloadeds</item>
-        <item quantity="one">%1$d downloaded</item>
-    </plurals>
     <plurals name="reader_count">
         <item quantity="other">%d followers</item>
         <item quantity="one">%d follower</item>
@@ -148,9 +136,5 @@
     <plurals name="songs_count">
         <item quantity="other">%d songs</item>
         <item quantity="one">%d song</item>
-    </plurals>
-    <plurals name="NPlaylist_delete_confirm">
-        <item quantity="other">Delete %d playlists?</item>
-        <item quantity="one">Delete %d playlist?</item>
     </plurals>
 </resources>

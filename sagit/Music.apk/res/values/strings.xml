@@ -136,8 +136,6 @@
   <string name="cloud_welcome_message">Back up songs</string>
   <string name="cloud_welcome_summary">Back up your songs to Mi Cloud and listen to them on other devices</string>
   <string name="comment_format" formatted="false">%s: %s</string>
-  <string name="comment_input_empty">Empty content</string>
-  <string name="comment_input_hint">Please input your comment</string>
   <string name="confirm">OK</string>
   <string name="confirm_download">Download</string>
   <string name="confirm_to_renew">Renew</string>
@@ -248,7 +246,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="download_error">Unsuccessful</string>
   <string name="download_error_insufficient_space">Not enough space</string>
   <string name="download_fail_to_fetch_info">"Couldn't download, try again"</string>
-  <string name="download_fee_alert_title">Download pay songs</string>
   <string name="download_filesize_unknown">Unknown</string>
   <string name="download_in_process">DOWNLOADING</string>
   <string name="download_info_start_deleted_tasks">Remove downloads</string>
@@ -265,8 +262,9 @@ is mainly provided by Ultimate Inc."</string>
   <string name="download_paused_in_power_save_mode">Downloads are paused when Battery saver is on</string>
   <string name="download_pending">Download pending</string>
   <string name="download_percent">%d%%</string>
+  <string name="download_processing">Downloading…</string>
   <string name="download_quality">Download quality</string>
-  <string name="download_quality_summary">Additional settings for songs that you favorite</string>
+  <string name="download_quality_summary">Additional settings for songs that you download</string>
   <string name="download_queued">Queued</string>
   <string name="download_running">In progress</string>
   <string name="download_running_percent">In progress, %d%%</string>
@@ -594,11 +592,14 @@ is mainly provided by Ultimate Inc."</string>
   <string name="notif_text_engine_off">Xunlei accelerator is off.</string>
   <string name="notif_text_engine_on">Accelerating…</string>
   <string name="notif_title_file_size">%1$d total</string>
+  <string name="notif_title_multiple_downloading">Downloading %1$d songs</string>
   <string name="notif_title_single_downloading">Downloading %1$s</string>
   <string name="notification_des_next_song">Next song: %s</string>
   <string name="notification_des_no_song">Mi Music. New every day.</string>
   <string name="notification_download_complete">Download complete</string>
   <string name="notification_download_failed">"Couldn't download"</string>
+  <string name="notification_download_failed_more">"Couldn't download %1$d songs"</string>
+  <string name="notification_download_success_more">%1$d downloaded</string>
   <string name="notification_need_wifi_for_size">Download size requires Wi-Fi.</string>
   <string name="notification_play_summary">View current and next song, display lyrics on Home screen</string>
   <string name="notification_play_title">Notification shade widget</string>
@@ -646,7 +647,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="paused_queued_for_wifi">Waiting for connection</string>
   <string name="paused_unknown">Paused</string>
   <string name="paused_waiting_for_network">Waiting for connection</string>
-  <string name="paused_waiting_to_pay">Waiting to pay</string>
   <string name="paused_waiting_to_retry">Waiting to retry</string>
   <string name="pay">Pay:</string>
   <string name="pay_now">Current service</string>
@@ -673,7 +673,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="please_download_first">You need to download this song before you can use it as a ringtone</string>
   <string name="please_search_or_select">Search or select a field</string>
   <string name="please_select_song">Choose a song first</string>
-  <string name="post_comment_failed">Comment posted failed</string>
   <string name="power_save_mode_dialog_msg">Battery saver is on. Start downloading now?</string>
   <string name="pref_download_settings_title">Download size limit</string>
   <string name="pref_summary_any_bytes_popup">Always wait for Wi-Fi connection to download files</string>
@@ -769,7 +768,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="select_none">Deselect all</string>
   <string name="select_operation_items">Choose items</string>
   <string name="selected_count">Selected %1$d out of %2$d</string>
-  <string name="send_comment">Comment</string>
   <string name="send_to">Share</string>
   <string name="send_to_title">Send to (%1$s)</string>
   <string name="server_error">Server error. Please try again later</string>
@@ -808,7 +806,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="share_image_error">"Couldn't share image due to a download error"</string>
   <string name="share_text_list">"Playlist from Mi Music: "</string>
   <string name="share_text_song">"Song in Mi Music: "</string>
-  <string name="show_download_manager">To Download Manager</string>
   <string name="show_more">Show %s more</string>
   <string name="shuffle_music">Shuffle playback</string>
   <string name="shuffle_off_notif">Shuffle is off.</string>
@@ -854,15 +851,10 @@ is mainly provided by Ultimate Inc."</string>
   <string name="tab_track_list">Songs</string>
   <string name="take_effect_afater_restart">You need to restart the app for this setting to take effect.</string>
   <string name="talkback_back">Go back</string>
-  <string name="talkback_cloud_setting">Settings</string>
   <string name="talkback_device">Play on other devices</string>
   <string name="talkback_download">Download</string>
   <string name="talkback_favorite">Like this song</string>
-  <string name="talkback_follow">Follow</string>
-  <string name="talkback_followed">Unfollow</string>
-  <string name="talkback_header_search">"Search "</string>
   <string name="talkback_karaoke">Open Karaoke</string>
-  <string name="talkback_like">Like</string>
   <string name="talkback_mode">Loop</string>
   <string name="talkback_mode_repeat_all">Loop mode</string>
   <string name="talkback_mode_repeat_current">Repeat mode</string>
@@ -877,7 +869,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="talkback_radar">Music recognition</string>
   <string name="talkback_search">Search</string>
   <string name="talkback_share">Share</string>
-  <string name="talkback_unlike">Unlike</string>
   <string name="task_already_exist">Task already exists</string>
   <string name="text_separator">|</string>
   <string name="ticket_summary">Buy tickets for shows, concerts, plays, and other events</string>
@@ -893,7 +884,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="title_online_suggest">You might like</string>
   <string name="title_search_history">Search history</string>
   <string name="title_search_hot">Popular</string>
-  <string name="to_be_downloaded">To be downloaded</string>
   <string name="to_mi_pay">Mi Credits</string>
   <string name="toast_download_error_by_count_limit">You have used up your download quota for this month.</string>
   <string name="toast_download_error_by_not_login">Sign in to Mi Account and try again.</string>
