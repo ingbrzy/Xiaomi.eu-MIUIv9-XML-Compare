@@ -7,6 +7,14 @@
     <plurals name="days_ago">
         <item quantity="other">%1$dd ago</item>
     </plurals>
+    <plurals name="express_history_dialog_delete_message">
+        <item quantity="other">Delete %s items from express?</item>
+        <item quantity="one">Delete %s item from express?</item>
+    </plurals>
+    <plurals name="express_history_menu_select_num">
+        <item quantity="other">Selected %s items</item>
+        <item quantity="one">Selected %s item</item>
+    </plurals>
     <plurals name="hours_ago">
         <item quantity="other">%1$dhr ago</item>
     </plurals>

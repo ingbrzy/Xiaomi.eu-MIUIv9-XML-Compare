@@ -219,6 +219,8 @@
   <string name="alipay_risk_process_verify_by_alipay">去手机支付宝验证</string>
   <string name="alipay_scan">Scanner</string>
   <string name="alipay_sdk_minute_refresh">Refresh every minute</string>
+  <string name="alipay_sdk_open_alipay">打开客户端</string>
+  <string name="alipay_sdk_open_extra_money">领取鼓励金</string>
   <string name="alipay_sdk_payed_desc">Original price: %1$s CNY | Saving %2$s CNY</string>
   <string name="alipay_sdk_payed_desc_osfress">%1$s CNY (%2$s)</string>
   <string name="alipay_sdk_payed_finished">Completed payment successfully</string>
@@ -430,7 +432,7 @@
   <string name="didi_not_installed">Install DiDi to use this card</string>
   <string name="didi_other_dest">Other destination</string>
   <string name="didi_price">Fare</string>
-  <string name="didi_price_unit">CNY</string>
+  <string name="didi_price_unit">%sCNY</string>
   <string name="didi_target">Destination     </string>
   <string name="didi_taximeter">Calculate taxi fare</string>
   <string name="didi_trip">Call a taxi</string>
@@ -541,6 +543,7 @@ Check tracking number."</string>
   <string name="express_inquiry_logistics">Select a courier service</string>
   <string name="express_inquiry_logistics_prefix">Courier service: %s</string>
   <string name="express_inquiry_logistics_select_others_indication">Other</string>
+  <string name="express_inquiry_manual">手动查询</string>
   <string name="express_inquiry_no_history">No history</string>
   <string name="express_inquiry_no_result">No results</string>
   <string name="express_inquiry_number_empty">Enter your tracking number.</string>
@@ -625,6 +628,7 @@ Check your tracking number."</string>
   <string name="express_setting_authorized_number_delete">Delete</string>
   <string name="express_setting_authorized_number_description">Privacy statement: Your phone number will only be used for checking delivery order status and details.</string>
   <string name="express_setting_authorized_number_empty">"You haven't verified your phone number yet."</string>
+  <string name="express_setting_authorized_number_limit">最多同时绑定4个手机号码</string>
   <string name="express_setting_brief">Track your express delivery packages</string>
   <string name="express_setting_brief_detail">Track all your packages using your phone number and order info.</string>
   <string name="express_setting_cainiaoguoguo">菜鸟裹裹</string>
@@ -639,12 +643,15 @@ Check your tracking number."</string>
   <string name="express_setting_dialog_delete_title">Delete phone number</string>
   <string name="express_setting_entrance_description">Verify your phone number to check order details.</string>
   <string name="express_setting_number">Phone number</string>
+  <string name="express_setting_number_already_add">手机号码已绑定，请尝试其他号码</string>
   <string name="express_setting_number_invalid">"Make sure you've entered a valid phone number"</string>
   <string name="express_setting_number_save">Verify and save</string>
   <string name="express_setting_number_title">Add phone number</string>
   <string name="express_setting_phone">Allow requesting info using phone number</string>
   <string name="express_setting_request_failed">"Couldn't send request. Error code: %s."</string>
   <string name="express_setting_service_provider">Service provider</string>
+  <string name="express_setting_supported_orders">"现已支持：淘宝、天猫、闲鱼应用中的快递运单；中通，申通，韵达等主流快递公司的快递运单。
+暂不支持：部分非淘宝、天猫、闲鱼商家发货的顺丰快递运单（可手动添加运单号解决）；京东自派送运单。"</string>
   <string name="express_setting_title">Verified phone number</string>
   <string name="express_setting_tracking_disable">Not verified</string>
   <string name="express_setting_verification_code">Code</string>
@@ -874,6 +881,10 @@ Check your tracking number."</string>
   <string name="locations">Frequent places</string>
   <string name="locations_preferences">Addresses</string>
   <string name="login_before_use">You need to sign in first</string>
+  <string name="login_dialog_body">开启小米云同步，重要数据永不丢失，现在登录并开启吗？</string>
+  <string name="login_dialog_negative">暂不</string>
+  <string name="login_dialog_positive">登录并开启</string>
+  <string name="login_dialog_title">开启云同步</string>
   <string name="login_ok">Sign in</string>
   <string name="look_more">View more</string>
   <string name="main_add">Add</string>
@@ -906,12 +917,10 @@ Check your tracking number."</string>
   <string name="map_title_congestion">有道路拥堵</string>
   <string name="map_title_congestion_last">公里拥堵</string>
   <string name="map_title_home">Home</string>
-  <string name="map_title_hours">小时</string>
-  <string name="map_title_middle">需要</string>
-  <string name="map_title_minutes">分钟</string>
   <string name="map_title_office">Work</string>
-  <string name="map_title_prve">到</string>
   <string name="map_title_smooth">整体畅通</string>
+  <string name="map_title_time_hours">需要%1$s小时%2$s分钟</string>
+  <string name="map_title_time_minutes">需要%1$s分钟</string>
   <string name="memory_clear_nothing_result">Nothing to clear in cache</string>
   <string name="memory_clear_result">%1$sB cleared</string>
   <string name="menu_new">Add</string>

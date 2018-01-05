@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="app_name">GlobalNetworkProxy</string>
+  <string name="native_ad_corner">Ad</string>
+  <string name="native_ad_tips">Tap button to view in Google Play</string>
+</resources>

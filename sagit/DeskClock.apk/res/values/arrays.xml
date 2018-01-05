@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="alarm_in_furture">
+        <item>Alarm in less than 1 minute</item>
+        <item>Alarm in %1$s</item>
+        <item>Alarm in %2$s</item>
+        <item>Alarm in %1$s %2$s</item>
+        <item>Alarm in %3$s</item>
+        <item>Alarm in %1$s %3$s</item>
+        <item>Alarm in %2$s %3$s</item>
+        <item>Alarm in %1$s %2$s %3$s</item>
+    </string-array>
+    <string-array name="alarm_repeat_type">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Work days</item>
+        <item>Off days</item>
+        <item>Mon to Fri</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="alarm_repeat_type_no_workdays">
+        <item>Once</item>
+        <item>Daily</item>
+        <item>Mon to Fri</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="alarm_set">
+        <item>Alarm will go off in less than 1 minute.</item>
+        <item>Alarm will go off in %1$s.</item>
+        <item>Alarm will go off in %2$s.</item>
+        <item>Alarm will go off in %1$s and %2$s.</item>
+        <item>Alarm will go off in %3$s.</item>
+        <item>Alarm will go off in %1$s and %3$s.</item>
+        <item>Alarm will go off in %2$s and %3$s.</item>
+        <item>Alarm will go off in %1$s %2$s and %3$s.</item>
+    </string-array>
+    <string-array name="aqi_value">
+        <item>Good</item>
+        <item>Satisfactory</item>
+        <item>Moderately polluted</item>
+        <item>Poor</item>
+        <item>Very poor</item>
+        <item>Severe</item>
+    </string-array>
+    <string-array name="auto_silence_entries">
+        <item>Never</item>
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
     <string-array name="cities_names_miui">
         <item>Abidjan</item>
         <item>Accra</item>
@@ -297,330 +349,72 @@
         <item>Paramaribo</item>
         <item>Quito</item>
     </string-array>
-    <string-array name="timezone_alphabet_table">
-        <item>A</item>
-        <item>B</item>
-        <item>C</item>
-        <item>D</item>
-        <item>E</item>
-        <item>F</item>
-        <item>G</item>
-        <item>H</item>
-        <item>I</item>
-        <item>J</item>
-        <item>K</item>
-        <item>L</item>
-        <item>M</item>
-        <item>N</item>
-        <item>O</item>
-        <item>P</item>
-        <item>Q</item>
-        <item>R</item>
-        <item>S</item>
-        <item>T</item>
-        <item>U</item>
-        <item>V</item>
-        <item>W</item>
-        <item>X</item>
-        <item>Y</item>
-        <item>Z</item>
+    <string-array name="days">
+        <item>Yesterday</item>
+        <item>Today</item>
+        <item>Tomorrow</item>
     </string-array>
-    <string-array name="cities_tz_miui">
-        <item>Africa/Abidjan</item>
-        <item>Africa/Accra</item>
-        <item>Africa/Addis_Ababa</item>
-        <item>Africa/Algiers</item>
-        <item>Africa/Blantyre</item>
-        <item>Africa/Brazzaville</item>
-        <item>Africa/Cairo</item>
-        <item>Africa/Casablanca</item>
-        <item>Africa/Conakry</item>
-        <item>Africa/Dakar</item>
-        <item>Africa/Dar_es_Salaam</item>
-        <item>Africa/Djibouti</item>
-        <item>Africa/Freetown</item>
-        <item>Africa/Gaborone</item>
-        <item>Africa/Harare</item>
-        <item>Africa/Johannesburg</item>
-        <item>Africa/Kampala</item>
-        <item>Africa/Khartoum</item>
-        <item>Africa/Kigali</item>
-        <item>Africa/Kinshasa</item>
-        <item>Africa/Lagos</item>
-        <item>Africa/Maseru</item>
-        <item>Africa/Mogadishu</item>
-        <item>Africa/Nairobi</item>
-        <item>Africa/Sao_Tome</item>
-        <item>Africa/Timbuktu</item>
-        <item>Africa/Tripoli</item>
-        <item>Africa/Tunis</item>
-        <item>America/Anchorage</item>
-        <item>America/Argentina/Mendoza</item>
-        <item>America/Aruba</item>
-        <item>America/Asuncion</item>
-        <item>America/Barbados</item>
-        <item>America/Belize</item>
-        <item>America/Bogota</item>
-        <item>America/Buenos_Aires</item>
-        <item>America/Cancun</item>
-        <item>America/Caracas</item>
-        <item>America/Cayman</item>
-        <item>America/Chicago</item>
-        <item>America/Costa_Rica</item>
-        <item>America/Curacao</item>
-        <item>America/Dawson_Creek</item>
-        <item>America/Denver</item>
-        <item>America/Detroit</item>
-        <item>America/Dominica</item>
-        <item>America/Edmonton</item>
-        <item>America/El_Salvador</item>
-        <item>America/Fortaleza</item>
-        <item>America/Grand_Turk</item>
-        <item>America/Grenada</item>
-        <item>America/Guatemala</item>
-        <item>America/Guyana</item>
-        <item>America/Halifax</item>
-        <item>America/Havana</item>
-        <item>America/Indiana/Indianapolis</item>
-        <item>America/Indiana/Knox</item>
-        <item>America/Indiana/Marengo</item>
-        <item>America/Indiana/Petersburg</item>
-        <item>America/Indiana/Tell_City</item>
-        <item>America/Indiana/Vevay</item>
-        <item>America/Indiana/Vincennes</item>
-        <item>America/Indiana/Winamac</item>
-        <item>America/Jamaica</item>
-        <item>America/La_Paz</item>
-        <item>America/Lima</item>
-        <item>America/Los_Angeles</item>
-        <item>America/Louisville</item>
-        <item>America/Managua</item>
-        <item>America/Martinique</item>
-        <item>America/Metlakatla</item>
-        <item>America/Mexico_City</item>
-        <item>America/Monterrey</item>
-        <item>America/Montevideo</item>
-        <item>America/Montreal</item>
-        <item>America/Nassau</item>
-        <item>America/New_York</item>
-        <item>America/North_Dakota/Beulah</item>
-        <item>America/North_Dakota/Center</item>
-        <item>America/North_Dakota/New_Salem</item>
-        <item>America/Panama</item>
-        <item>America/Phoenix</item>
-        <item>America/Port_of_Spain</item>
-        <item>America/Port-au-Prince</item>
-        <item>America/Puerto_Rico</item>
-        <item>America/Santo_Domingo</item>
-        <item>America/Sao_Paulo</item>
-        <item>America/St_Johns</item>
-        <item>America/St_Kitts</item>
-        <item>America/St_Lucia</item>
-        <item>America/St_Thomas</item>
-        <item>America/Tijuana</item>
-        <item>America/Toronto</item>
-        <item>America/Vancouver</item>
-        <item>America/Winnipeg</item>
-        <item>Antarctica/South_Pole</item>
-        <item>Arctic/Longyearbyen</item>
-        <item>Asia/Almaty</item>
-        <item>Asia/Amman</item>
-        <item>Asia/Anadyr</item>
-        <item>Asia/Aqtau</item>
-        <item>Asia/Baghdad</item>
-        <item>Asia/Bahrain</item>
-        <item>Asia/Baku</item>
-        <item>Asia/Bangkok</item>
-        <item>Asia/Beirut</item>
-        <item>Asia/Calcutta</item>
-        <item>Asia/Damascus</item>
-        <item>Asia/Dhaka</item>
-        <item>Asia/Dubai</item>
-        <item>Asia/Gaza</item>
-        <item>Asia/Hebron</item>
-        <item>Asia/Ho_Chi_Minh</item>
-        <item>Asia/Hong_Kong</item>
-        <item>Asia/Jakarta</item>
-        <item>Asia/Jerusalem</item>
-        <item>Asia/Kabul</item>
-        <item>Asia/Karachi</item>
-        <item>Asia/Kathmandu</item>
-        <item>Asia/Kuala_Lumpur</item>
-        <item>Asia/Kuwait</item>
-        <item>Asia/Macau</item>
-        <item>Asia/Manila</item>
-        <item>Asia/Muscat</item>
-        <item>Asia/Phnom_Penh</item>
-        <item>Asia/Pyongyang</item>
-        <item>Asia/Qatar</item>
-        <item>Asia/Rangoon</item>
-        <item>Asia/Riyadh</item>
-        <item>Asia/Saigon</item>
-        <item>Asia/Seoul</item>
-        <item>Asia/Shanghai</item>
-        <item>Asia/Singapore</item>
-        <item>Asia/Taipei</item>
-        <item>Asia/Tehran</item>
-        <item>Asia/Tel_Aviv</item>
-        <item>Asia/Tokyo</item>
-        <item>Asia/Ulaanbaatar</item>
-        <item>Atlantic/Bermuda</item>
-        <item>Atlantic/Canary</item>
-        <item>Atlantic/Cape_Verde</item>
-        <item>Atlantic/Reykjavik</item>
-        <item>Atlantic/Stanley</item>
-        <item>Australia/Adelaide</item>
-        <item>Australia/Brisbane</item>
-        <item>Australia/Canberra</item>
-        <item>Australia/Darwin</item>
-        <item>Australia/Melbourne</item>
-        <item>Australia/NSW</item>
-        <item>Australia/Perth</item>
-        <item>Australia/Queensland</item>
-        <item>Australia/Sydney</item>
-        <item>Australia/Victoria</item>
-        <item>Canada/Newfoundland</item>
-        <item>Canada/Saskatchewan</item>
-        <item>Chile/EasterIsland</item>
-        <item>Europe/Amsterdam</item>
-        <item>Europe/Andorra</item>
-        <item>Europe/Athens</item>
-        <item>Europe/Belfast</item>
-        <item>Europe/Belgrade</item>
-        <item>Europe/Berlin</item>
-        <item>Europe/Bratislava</item>
-        <item>Europe/Brussels</item>
-        <item>Europe/Bucharest</item>
-        <item>Europe/Budapest</item>
-        <item>Europe/Chisinau</item>
-        <item>Europe/Copenhagen</item>
-        <item>Europe/Dublin</item>
-        <item>Europe/Gibraltar</item>
-        <item>Europe/Helsinki</item>
-        <item>Europe/Isle_of_Man</item>
-        <item>Europe/Istanbul</item>
-        <item>Europe/Lisbon</item>
-        <item>Europe/London</item>
-        <item>Europe/Luxembourg</item>
-        <item>Europe/Madrid</item>
-        <item>Europe/Malta</item>
-        <item>Europe/Minsk</item>
-        <item>Europe/Monaco</item>
-        <item>Europe/Moscow</item>
-        <item>Europe/Oslo</item>
-        <item>Europe/Paris</item>
-        <item>Europe/Prague</item>
-        <item>Europe/Riga</item>
-        <item>Europe/Rome</item>
-        <item>Europe/San_Marino</item>
-        <item>Europe/Sarajevo</item>
-        <item>Europe/Simferopol</item>
-        <item>Europe/Skopje</item>
-        <item>Europe/Sofia</item>
-        <item>Europe/Stockholm</item>
-        <item>Europe/Tallinn</item>
-        <item>Europe/Vatican</item>
-        <item>Europe/Vienna</item>
-        <item>Europe/Vilnius</item>
-        <item>Europe/Warsaw</item>
-        <item>Europe/Zagreb</item>
-        <item>Europe/Zurich</item>
-        <item>Indian/Antananarivo</item>
-        <item>Indian/Maldives</item>
-        <item>Indian/Mauritius</item>
-        <item>Pacific/Auckland</item>
-        <item>Pacific/Fiji</item>
-        <item>Pacific/Guam</item>
-        <item>Pacific/Honolulu</item>
-        <item>Pacific/Kiritimati</item>
-        <item>Pacific/Noumea</item>
-        <item>Pacific/Samoa</item>
-        <item>Pacific/Tahiti</item>
-        <item>America/Antigua</item>
-        <item>America/Chicago</item>
-        <item>America/New_York</item>
-        <item>America/Denver</item>
-        <item>America/New_York</item>
-        <item>America/Chicago</item>
-        <item>America/New_York</item>
-        <item>America/Chicago</item>
-        <item>America/New_York</item>
-        <item>America/Chicago</item>
-        <item>America/New_York</item>
-        <item>America/New_York</item>
-        <item>America/Los_Angeles</item>
-        <item>America/Los_Angeles</item>
-        <item>America/Los_Angeles</item>
-        <item>America/Denver</item>
-        <item>America/Los_Angeles</item>
-        <item>America/Guatemala</item>
-        <item>America/Los_Angeles</item>
-        <item>America/Chicago</item>
-        <item>America/New_York</item>
-        <item>America/Chicago</item>
-        <item>America/Chicago</item>
-        <item>America/New_York</item>
-        <item>America/New_York</item>
-        <item>America/Chicago</item>
-        <item>America/Chicago</item>
-        <item>America/Chicago</item>
-        <item>America/Los_Angeles</item>
-        <item>America/Denver</item>
-        <item>MST</item>
-        <item>America/Los_Angeles</item>
-        <item>America/New_York</item>
-        <item>America/New_York</item>
-        <item>America/Chicago</item>
-        <item>America/New_York</item>
-        <item>America/New_York</item>
-        <item>America/New_York</item>
-        <item>America/Los_Angeles</item>
-        <item>America/Los_Angeles</item>
-        <item>America/Los_Angeles</item>
-        <item>Asia/Riyadh</item>
-        <item>Asia/Shanghai</item>
-        <item>Asia/Kolkata</item>
-        <item>Asia/Kolkata</item>
-        <item>Asia/Tokyo</item>
-        <item>Asia/Karachi</item>
-        <item>Asia/Riyadh</item>
-        <item>Europe/Madrid</item>
-        <item>Europe/Berlin</item>
-        <item>Europe/Rome</item>
-        <item>Europe/Berlin</item>
-        <item>Asia/Bangkok</item>
-        <item>Europe/Istanbul</item>
-        <item>Asia/Kolkata</item>
-        <item>America/Sao_Paulo</item>
-        <item>Africa/Johannesburg</item>
-        <item>Asia/Karachi</item>
-        <item>America/Sao_Paulo</item>
-        <item>America/Detroit</item>
-        <item>America/Denver</item>
-        <item>America/New_York</item>
-        <item>America/Los_Angeles</item>
-        <item>America/Chicago</item>
-        <item>Asia/Shanghai</item>
-        <item>Asia/Kolkata</item>
-        <item>America/New_York</item>
-        <item>America/Sao_Paulo</item>
-        <item>America/Santiago</item>
-        <item>Africa/Monrovia</item>
-        <item>Asia/Colombo</item>
-        <item>America/Chihuahua</item>
-        <item>Asia/Kolkata</item>
-        <item>Europe/London</item>
-        <item>Europe/Bucharest</item>
-        <item>Europe/Moscow</item>
-        <item>Europe/Warsaw</item>
-        <item>Europe/Warsaw</item>
-        <item>Europe/Berlin</item>
-        <item>Europe/Bucharest</item>
-        <item>Asia/Jerusalem</item>
-        <item>America/Puerto Rico</item>
-        <item>America/Tegucigalpa</item>
-        <item>America/Paramaribo</item>
-        <item>America/Panama</item>
+    <string-array name="snooze_duration_entries">
+        <item>1 minute</item>
+        <item>5 minutes</item>
+        <item>10 minutes</item>
+        <item>15 minutes</item>
+        <item>20 minutes</item>
+        <item>25 minutes</item>
+        <item>30 minutes</item>
+    </string-array>
+    <string-array name="snooze_duration_values">
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="volume_button_setting_entries">
+        <item>Do nothing</item>
+        <item>Snooze</item>
+        <item>Dismiss</item>
+    </string-array>
+    <string-array name="volume_button_setting_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="weather_tips_value">
+        <item>Reduce outdoor activities</item>
+        <item>The roads are slippery</item>
+        <item>The weather is stormy, be careful!</item>
+        <item>The air is polluted, wear a mask!</item>
+        <item>Take an umbrella when you go out</item>
+        <item>Be careful on the road</item>
+        <item>Sandstorm is coming, wear a mask!</item>
+        <item>Have a nice day!</item>
+    </string-array>
+    <integer-array name="alarm_repeat_type_no_workdays_values">
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="alarm_repeat_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="auto_silence_values">
+        <item>-1</item>
+        <item>1</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
     </string-array>
     <string-array name="cities_id_miui">
         <item>C1</item>
@@ -919,128 +713,334 @@
         <item>C298</item>
         <item>C299</item>
     </string-array>
+    <string-array name="cities_tz_miui">
+        <item>Africa/Abidjan</item>
+        <item>Africa/Accra</item>
+        <item>Africa/Addis_Ababa</item>
+        <item>Africa/Algiers</item>
+        <item>Africa/Blantyre</item>
+        <item>Africa/Brazzaville</item>
+        <item>Africa/Cairo</item>
+        <item>Africa/Casablanca</item>
+        <item>Africa/Conakry</item>
+        <item>Africa/Dakar</item>
+        <item>Africa/Dar_es_Salaam</item>
+        <item>Africa/Djibouti</item>
+        <item>Africa/Freetown</item>
+        <item>Africa/Gaborone</item>
+        <item>Africa/Harare</item>
+        <item>Africa/Johannesburg</item>
+        <item>Africa/Kampala</item>
+        <item>Africa/Khartoum</item>
+        <item>Africa/Kigali</item>
+        <item>Africa/Kinshasa</item>
+        <item>Africa/Lagos</item>
+        <item>Africa/Maseru</item>
+        <item>Africa/Mogadishu</item>
+        <item>Africa/Nairobi</item>
+        <item>Africa/Sao_Tome</item>
+        <item>Africa/Timbuktu</item>
+        <item>Africa/Tripoli</item>
+        <item>Africa/Tunis</item>
+        <item>America/Anchorage</item>
+        <item>America/Argentina/Mendoza</item>
+        <item>America/Aruba</item>
+        <item>America/Asuncion</item>
+        <item>America/Barbados</item>
+        <item>America/Belize</item>
+        <item>America/Bogota</item>
+        <item>America/Buenos_Aires</item>
+        <item>America/Cancun</item>
+        <item>America/Caracas</item>
+        <item>America/Cayman</item>
+        <item>America/Chicago</item>
+        <item>America/Costa_Rica</item>
+        <item>America/Curacao</item>
+        <item>America/Dawson_Creek</item>
+        <item>America/Denver</item>
+        <item>America/Detroit</item>
+        <item>America/Dominica</item>
+        <item>America/Edmonton</item>
+        <item>America/El_Salvador</item>
+        <item>America/Fortaleza</item>
+        <item>America/Grand_Turk</item>
+        <item>America/Grenada</item>
+        <item>America/Guatemala</item>
+        <item>America/Guyana</item>
+        <item>America/Halifax</item>
+        <item>America/Havana</item>
+        <item>America/Indiana/Indianapolis</item>
+        <item>America/Indiana/Knox</item>
+        <item>America/Indiana/Marengo</item>
+        <item>America/Indiana/Petersburg</item>
+        <item>America/Indiana/Tell_City</item>
+        <item>America/Indiana/Vevay</item>
+        <item>America/Indiana/Vincennes</item>
+        <item>America/Indiana/Winamac</item>
+        <item>America/Jamaica</item>
+        <item>America/La_Paz</item>
+        <item>America/Lima</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Louisville</item>
+        <item>America/Managua</item>
+        <item>America/Martinique</item>
+        <item>America/Metlakatla</item>
+        <item>America/Mexico_City</item>
+        <item>America/Monterrey</item>
+        <item>America/Montevideo</item>
+        <item>America/Montreal</item>
+        <item>America/Nassau</item>
+        <item>America/New_York</item>
+        <item>America/North_Dakota/Beulah</item>
+        <item>America/North_Dakota/Center</item>
+        <item>America/North_Dakota/New_Salem</item>
+        <item>America/Panama</item>
+        <item>America/Phoenix</item>
+        <item>America/Port_of_Spain</item>
+        <item>America/Port-au-Prince</item>
+        <item>America/Puerto_Rico</item>
+        <item>America/Santo_Domingo</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/St_Johns</item>
+        <item>America/St_Kitts</item>
+        <item>America/St_Lucia</item>
+        <item>America/St_Thomas</item>
+        <item>America/Tijuana</item>
+        <item>America/Toronto</item>
+        <item>America/Vancouver</item>
+        <item>America/Winnipeg</item>
+        <item>Antarctica/South_Pole</item>
+        <item>Arctic/Longyearbyen</item>
+        <item>Asia/Almaty</item>
+        <item>Asia/Amman</item>
+        <item>Asia/Anadyr</item>
+        <item>Asia/Aqtau</item>
+        <item>Asia/Baghdad</item>
+        <item>Asia/Bahrain</item>
+        <item>Asia/Baku</item>
+        <item>Asia/Bangkok</item>
+        <item>Asia/Beirut</item>
+        <item>Asia/Calcutta</item>
+        <item>Asia/Damascus</item>
+        <item>Asia/Dhaka</item>
+        <item>Asia/Dubai</item>
+        <item>Asia/Gaza</item>
+        <item>Asia/Hebron</item>
+        <item>Asia/Ho_Chi_Minh</item>
+        <item>Asia/Hong_Kong</item>
+        <item>Asia/Jakarta</item>
+        <item>Asia/Jerusalem</item>
+        <item>Asia/Kabul</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Kathmandu</item>
+        <item>Asia/Kuala_Lumpur</item>
+        <item>Asia/Kuwait</item>
+        <item>Asia/Macau</item>
+        <item>Asia/Manila</item>
+        <item>Asia/Muscat</item>
+        <item>Asia/Phnom_Penh</item>
+        <item>Asia/Pyongyang</item>
+        <item>Asia/Qatar</item>
+        <item>Asia/Rangoon</item>
+        <item>Asia/Riyadh</item>
+        <item>Asia/Saigon</item>
+        <item>Asia/Seoul</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Singapore</item>
+        <item>Asia/Taipei</item>
+        <item>Asia/Tehran</item>
+        <item>Asia/Tel_Aviv</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Ulaanbaatar</item>
+        <item>Atlantic/Bermuda</item>
+        <item>Atlantic/Canary</item>
+        <item>Atlantic/Cape_Verde</item>
+        <item>Atlantic/Reykjavik</item>
+        <item>Atlantic/Stanley</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Canberra</item>
+        <item>Australia/Darwin</item>
+        <item>Australia/Melbourne</item>
+        <item>Australia/NSW</item>
+        <item>Australia/Perth</item>
+        <item>Australia/Queensland</item>
+        <item>Australia/Sydney</item>
+        <item>Australia/Victoria</item>
+        <item>Canada/Newfoundland</item>
+        <item>Canada/Saskatchewan</item>
+        <item>Chile/EasterIsland</item>
+        <item>Europe/Amsterdam</item>
+        <item>Europe/Andorra</item>
+        <item>Europe/Athens</item>
+        <item>Europe/Belfast</item>
+        <item>Europe/Belgrade</item>
+        <item>Europe/Berlin</item>
+        <item>Europe/Bratislava</item>
+        <item>Europe/Brussels</item>
+        <item>Europe/Bucharest</item>
+        <item>Europe/Budapest</item>
+        <item>Europe/Chisinau</item>
+        <item>Europe/Copenhagen</item>
+        <item>Europe/Dublin</item>
+        <item>Europe/Gibraltar</item>
+        <item>Europe/Helsinki</item>
+        <item>Europe/Isle_of_Man</item>
+        <item>Europe/Istanbul</item>
+        <item>Europe/Lisbon</item>
+        <item>Europe/London</item>
+        <item>Europe/Luxembourg</item>
+        <item>Europe/Madrid</item>
+        <item>Europe/Malta</item>
+        <item>Europe/Minsk</item>
+        <item>Europe/Monaco</item>
+        <item>Europe/Moscow</item>
+        <item>Europe/Oslo</item>
+        <item>Europe/Paris</item>
+        <item>Europe/Prague</item>
+        <item>Europe/Riga</item>
+        <item>Europe/Rome</item>
+        <item>Europe/San_Marino</item>
+        <item>Europe/Sarajevo</item>
+        <item>Europe/Simferopol</item>
+        <item>Europe/Skopje</item>
+        <item>Europe/Sofia</item>
+        <item>Europe/Stockholm</item>
+        <item>Europe/Tallinn</item>
+        <item>Europe/Vatican</item>
+        <item>Europe/Vienna</item>
+        <item>Europe/Vilnius</item>
+        <item>Europe/Warsaw</item>
+        <item>Europe/Zagreb</item>
+        <item>Europe/Zurich</item>
+        <item>Indian/Antananarivo</item>
+        <item>Indian/Maldives</item>
+        <item>Indian/Mauritius</item>
+        <item>Pacific/Auckland</item>
+        <item>Pacific/Fiji</item>
+        <item>Pacific/Guam</item>
+        <item>Pacific/Honolulu</item>
+        <item>Pacific/Kiritimati</item>
+        <item>Pacific/Noumea</item>
+        <item>Pacific/Samoa</item>
+        <item>Pacific/Tahiti</item>
+        <item>America/Antigua</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/Denver</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Denver</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Guatemala</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/Chicago</item>
+        <item>America/Chicago</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Denver</item>
+        <item>MST</item>
+        <item>America/Los_Angeles</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Chicago</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/New_York</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Los_Angeles</item>
+        <item>Asia/Riyadh</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Kolkata</item>
+        <item>Asia/Kolkata</item>
+        <item>Asia/Tokyo</item>
+        <item>Asia/Karachi</item>
+        <item>Asia/Riyadh</item>
+        <item>Europe/Madrid</item>
+        <item>Europe/Berlin</item>
+        <item>Europe/Rome</item>
+        <item>Europe/Berlin</item>
+        <item>Asia/Bangkok</item>
+        <item>Europe/Istanbul</item>
+        <item>Asia/Kolkata</item>
+        <item>America/Sao_Paulo</item>
+        <item>Africa/Johannesburg</item>
+        <item>Asia/Karachi</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Detroit</item>
+        <item>America/Denver</item>
+        <item>America/New_York</item>
+        <item>America/Los_Angeles</item>
+        <item>America/Chicago</item>
+        <item>Asia/Shanghai</item>
+        <item>Asia/Kolkata</item>
+        <item>America/New_York</item>
+        <item>America/Sao_Paulo</item>
+        <item>America/Santiago</item>
+        <item>Africa/Monrovia</item>
+        <item>Asia/Colombo</item>
+        <item>America/Chihuahua</item>
+        <item>Asia/Kolkata</item>
+        <item>Europe/London</item>
+        <item>Europe/Bucharest</item>
+        <item>Europe/Moscow</item>
+        <item>Europe/Warsaw</item>
+        <item>Europe/Warsaw</item>
+        <item>Europe/Berlin</item>
+        <item>Europe/Bucharest</item>
+        <item>Asia/Jerusalem</item>
+        <item>America/Puerto Rico</item>
+        <item>America/Tegucigalpa</item>
+        <item>America/Paramaribo</item>
+        <item>America/Panama</item>
+    </string-array>
     <string-array name="stat_volume_button_behaviors">
         <item>无</item>
         <item>稍后再响</item>
         <item>关闭</item>
     </string-array>
-    <string-array name="alarm_in_furture">
-        <item>Alarm in less than 1 minute</item>
-        <item>Alarm in %1$s</item>
-        <item>Alarm in %2$s</item>
-        <item>Alarm in %1$s %2$s</item>
-        <item>Alarm in %3$s</item>
-        <item>Alarm in %1$s %3$s</item>
-        <item>Alarm in %2$s %3$s</item>
-        <item>Alarm in %1$s %2$s %3$s</item>
-    </string-array>
-    <string-array name="days">
-        <item>Yesterday</item>
-        <item>Today</item>
-        <item>Tomorrow</item>
-    </string-array>
-    <string-array name="alarm_repeat_type">
-        <item>Once</item>
-        <item>Daily</item>
-        <item>Work days</item>
-        <item>Off days</item>
-        <item>Mon to Fri</item>
-        <item>Custom</item>
-    </string-array>
-    <string-array name="alarm_repeat_type_no_workdays">
-        <item>Once</item>
-        <item>Daily</item>
-        <item>Mon to Fri</item>
-        <item>Custom</item>
-    </string-array>
-    <string-array name="aqi_value">
-        <item>Good</item>
-        <item>Satisfactory</item>
-        <item>Moderately polluted</item>
-        <item>Poor</item>
-        <item>Very poor</item>
-        <item>Severe</item>
-    </string-array>
-    <string-array name="weather_tips_value">
-        <item>Reduce outdoor activities</item>
-        <item>The roads are slippery</item>
-        <item>The weather is stormy, be careful!</item>
-        <item>The air is polluted, wear a mask!</item>
-        <item>Take an umbrella when you go out</item>
-        <item>Be careful on the road</item>
-        <item>Sandstorm is coming, wear a mask!</item>
-        <item>Have a nice day!</item>
-    </string-array>
-    <integer-array name="alarm_repeat_type_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-    </integer-array>
-    <integer-array name="alarm_repeat_type_no_workdays_values">
-        <item>0</item>
-        <item>1</item>
-        <item>4</item>
-        <item>5</item>
-    </integer-array>
-    <string-array name="alarm_set">
-        <item>Alarm will go off in less than 1 minute.</item>
-        <item>Alarm will go off in %1$s.</item>
-        <item>Alarm will go off in %2$s.</item>
-        <item>Alarm will go off in %1$s and %2$s.</item>
-        <item>Alarm will go off in %3$s.</item>
-        <item>Alarm will go off in %1$s and %3$s.</item>
-        <item>Alarm will go off in %2$s and %3$s.</item>
-        <item>Alarm will go off in %1$s %2$s and %3$s.</item>
-    </string-array>
-    <string-array name="snooze_duration_entries">
-        <item>1 minute</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
-    </string-array>
-    <string-array name="snooze_duration_values">
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
-    <string-array name="auto_silence_entries">
-        <item>Never</item>
-        <item>1 minute</item>
-        <item>5 minutes</item>
-        <item>10 minutes</item>
-        <item>15 minutes</item>
-        <item>20 minutes</item>
-        <item>25 minutes</item>
-        <item>30 minutes</item>
-    </string-array>
-    <string-array name="auto_silence_values">
-        <item>-1</item>
-        <item>1</item>
-        <item>5</item>
-        <item>10</item>
-        <item>15</item>
-        <item>20</item>
-        <item>25</item>
-        <item>30</item>
-    </string-array>
-    <string-array name="volume_button_setting_entries">
-        <item>Do nothing</item>
-        <item>Snooze</item>
-        <item>Dismiss</item>
-    </string-array>
-    <string-array name="volume_button_setting_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
+    <string-array name="timezone_alphabet_table">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+        <item>K</item>
+        <item>L</item>
+        <item>M</item>
+        <item>N</item>
+        <item>O</item>
+        <item>P</item>
+        <item>Q</item>
+        <item>R</item>
+        <item>S</item>
+        <item>T</item>
+        <item>U</item>
+        <item>V</item>
+        <item>W</item>
+        <item>X</item>
+        <item>Y</item>
+        <item>Z</item>
     </string-array>
 </resources>

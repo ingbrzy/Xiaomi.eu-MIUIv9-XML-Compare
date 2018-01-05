@@ -536,10 +536,10 @@ Sample Rate"</string>
   <string name="connected_via_network_scorer_default">Automatically connected via network rating provider</string>
   <string name="connected_via_passpoint">Connected via %1$s</string>
   <string name="connection_service_default_label">Built-in connection service</string>
-  <string name="contactAddFailed">"Can't add contact to SIM."</string>
+  <string name="contactAddFailed">"Can't add contact to SIM"</string>
   <string name="contactAddSuccess">Added contact to SIM.</string>
   <string name="contactPhoto">contact photo</string>
-  <string name="contactUpdateFailed">"Couldn't update contact on SIM."</string>
+  <string name="contactUpdateFailed">Updated contact on SIM.</string>
   <string name="contactUpdateSuccess">Updated contact on SIM.</string>
   <string name="contactdeleteFailed">"Can't delete contact from SIM."</string>
   <string name="contactdeleteSuccess">Deleted contact from SIM.</string>
@@ -1128,7 +1128,7 @@ Try again or call customer service for more options."</string>
   <string name="path_auto_retry_mode_title">System apps/Phone/Advanced settings/Auto-retry</string>
   <string name="path_autoip">System apps/Phone/Advanced settings/Auto IP dialing</string>
   <string name="path_call_advanced_settings_title">System apps/Phone/Advanced settings</string>
-  <string name="path_call_background_setting_name">System apps/Phone/Advanced settings/Call background</string>
+  <string name="path_call_background_setting_name">System apps/Phone/Advanced settings/Call Background</string>
   <string name="path_call_forwarding_settings">System apps/Phone/Call forwarding settings</string>
   <string name="path_call_record_auto_title">System apps/Phone/Call recording/Record calls automatically</string>
   <string name="path_call_record_setting">System apps/Phone/Call recording</string>
@@ -1305,8 +1305,10 @@ Your phone will be locked automatically after another failed attempt"</string>
 Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="puk_requested">Password incorrect. PIN now blocked. PUK requested.</string>
   <string name="puk_unlocked">Your SIM card has been unblocked. Your phone is unlocking…</string>
+  <string name="quick_dial_setting_title">Quick dial</string>
   <string name="radio_off_during_emergency_call">Cannot enter airplane mode during an emergency call.</string>
   <string name="radio_off_error">Turn on the radio before viewing these settings.</string>
+  <string name="rcs_not_supported">"Rcs isn't supported"</string>
   <string name="reading_settings">Reading settings…</string>
   <string name="regional_disable">Regional news disabled</string>
   <string name="regional_enable">Regional news enabled</string>

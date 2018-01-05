@@ -58,6 +58,7 @@
   <string name="app_description_title">About Scanner</string>
   <string name="app_details">App:</string>
   <string name="app_name">Scanner</string>
+  <string name="ar_unsupport_for_kk">"This feature isn't supported in Android 4.4"</string>
   <string name="auth_sdk_message_10003_action"/>
   <string name="auth_sdk_message_10003_message">用户取消登录或登录失败</string>
   <string name="auth_sdk_message_10003_name">USER_CANCEL</string>
@@ -216,7 +217,7 @@
   <string name="language_value_russian">russian</string>
   <string name="language_value_spanish">spanish</string>
   <string name="language_value_swedish">swedish</string>
-  <string name="low_version_tip">MIUI version is too old. Update MIUI to use Scanner.</string>
+  <string name="low_version_tip">Scanner cannot run on current system, please update to the latest MIUI</string>
   <string name="module_title_code">QR code</string>
   <string name="module_title_document">Document</string>
   <string name="module_title_namecard">Business card</string>
@@ -250,6 +251,9 @@
   <string name="preparing_sd">Preparing internal storage…</string>
   <string name="previous">Back</string>
   <string name="qr_code_details">QR code details:</string>
+  <string name="recognition_ar_download_data_msg">Download AR recognition engine. Its size is about 13MB. Use mobile data to download?</string>
+  <string name="recognition_ar_download_msg">Download AR recognition engine. Its size is about 13MB.</string>
+  <string name="recognition_download_title">Please wait a moment</string>
   <string name="recognition_error_download_cancel">Later</string>
   <string name="recognition_error_download_data_msg">Download recognition engine to scan cards. Its size is about 15MB. Use mobile data to download?</string>
   <string name="recognition_error_download_fail">"Couldn't download recognition engine"</string>
