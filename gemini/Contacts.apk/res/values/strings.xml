@@ -399,6 +399,7 @@ Contact cards are turned off"</string>
   <string name="dialer_empty_text_loading">Just a sec…</string>
   <string name="dialer_empty_text_no_call_log">No recent contacts</string>
   <string name="dialer_empty_text_no_search_result">No contacts found</string>
+  <string name="dialer_firewall_entry_name">Blocked call logs</string>
   <string name="dialer_menu_description">Show menus</string>
   <string name="dialer_menu_title">Menu options</string>
   <string name="dialer_returnToInCallScreen">Return to call in progress</string>

@@ -85,6 +85,7 @@
     <string-array name="sleepclean_white_list">
         <item>android</item>
         <item>com.android.systemui</item>
+        <item>com.android.phone</item>
         <item>com.miui.miwallpaper</item>
         <item>com.android.mms</item>
         <item>com.android.bluetooth</item>
@@ -101,6 +102,19 @@
         <item>com.qualcomm.qcrilmsgtunnel</item>
         <item>com.qualcomm.uimremoteclient</item>
         <item>com.qualcomm.wfd.service</item>
+        <item>com.qualcomm.qti.telephonyservice</item>
+        <item>com.qualcomm.qti.services.secureui</item>
+        <item>com.qualcomm.qti.callenhancement</item>
+        <item>com.qualcomm.qti.tetherservice</item>
+        <item>com.qualcomm.location</item>
+        <item>com.qualcomm.qti.GBAHttpAuthentication.auth</item>
+        <item>com.qualcomm.qti.auth.sampleauthenticatorservice</item>
+        <item>com.qualcomm.qti.auth.secureextauthservice</item>
+        <item>com.qualcomm.qti.auth.securesampleauthservice</item>
+        <item>com.qti.qualcomm.datastatusnotification</item>
+        <item>com.qualcomm.embms</item>
+        <item>com.qualcomm.fastdormancy</item>
+        <item>com.qualcomm.shutdownlistner</item>
     </string-array>
     <string-array name="sleepstart_white_list">
         <item>com.android.incallui</item>
@@ -127,6 +141,19 @@
         <item>com.qualcomm.qcrilmsgtunnel</item>
         <item>com.qualcomm.uimremoteclient</item>
         <item>com.qualcomm.wfd.service</item>
+        <item>com.qualcomm.qti.telephonyservice</item>
+        <item>com.qualcomm.qti.services.secureui</item>
+        <item>com.qualcomm.qti.callenhancement</item>
+        <item>com.qualcomm.qti.tetherservice</item>
+        <item>com.qualcomm.location</item>
+        <item>com.qualcomm.qti.GBAHttpAuthentication.auth</item>
+        <item>com.qualcomm.qti.auth.sampleauthenticatorservice</item>
+        <item>com.qualcomm.qti.auth.secureextauthservice</item>
+        <item>com.qualcomm.qti.auth.securesampleauthservice</item>
+        <item>com.qti.qualcomm.datastatusnotification</item>
+        <item>com.qualcomm.embms</item>
+        <item>com.qualcomm.fastdormancy</item>
+        <item>com.qualcomm.shutdownlistner</item>
     </string-array>
     <string-array name="sleepclean_normal_kill_list">
         <item>com.xiaomi.hm.health</item>

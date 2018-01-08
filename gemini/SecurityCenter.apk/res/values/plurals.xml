@@ -114,6 +114,14 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     <plurals name="people_million">
         <item quantity="other">Downloaded by %1$d people</item>
     </plurals>
+    <plurals name="gb_ad_people_play">
+        <item quantity="other">%1$d people are playing</item>
+        <item quantity="one">%1$d person is playing</item>
+    </plurals>
+    <plurals name="gb_ad_ten_thousand_people_play">
+        <item quantity="other">%1$d people are playing</item>
+        <item quantity="one">%1$d person is playing</item>
+    </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d views</item>
         <item quantity="zero">%1$d views</item>
