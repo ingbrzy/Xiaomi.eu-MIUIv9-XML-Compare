@@ -38,6 +38,7 @@
   <string name="cancle">Cancel</string>
   <string name="choose_open_time">"Choose when you'd like to begin"</string>
   <string name="clear_data">Clear</string>
+  <string name="common_google_play_services_unknown_issue">%1$s is having trouble with Google Play services. Please try again.</string>
   <string name="complete_time">Completed:</string>
   <string name="confirm">OK</string>
   <string name="confirm_delete_downloads_message">%d downloads will be deleted.</string>
@@ -47,6 +48,7 @@
   <string name="copy_info">Copied to clipboard. You can share it with friends!</string>
   <string name="creat_task_success">Added to download queue</string>
   <string name="create_task">Create task</string>
+  <string name="default_web_client_id">923211599680-381p8rl6vludtbls72uunluha4jt735f.apps.googleusercontent.com</string>
   <string name="delete">Delete</string>
   <string name="delete_download">Delete</string>
   <string name="delete_downloads_records">Delete downloads</string>
@@ -96,8 +98,8 @@
   <string name="download_list_get_hightspeed_flow_pay_ok">Payment complete.</string>
   <string name="download_list_get_hightspeed_flow_sucess_head">Xunlei trial session created</string>
   <string name="download_list_get_hightspeed_flow_sucess_tail">Enjoy faster download speeds powered by Xunlei</string>
-  <string name="download_list_intoAuth">Verify your Account</string>
-  <string name="download_list_intoAuthAlert">Loading</string>
+  <string name="download_list_intoAuth">Verify your account</string>
+  <string name="download_list_intoAuthAlert">Just a sec…</string>
   <string name="download_list_open_xl_cancel">Cancel</string>
   <string name="download_list_open_xl_message">Xunlei accelerator will help speed up downloads.</string>
   <string name="download_list_open_xl_ok">OK</string>
@@ -154,12 +156,18 @@
   <string name="file_exist_hint">This file already exists</string>
   <string name="file_picker">Choose a location</string>
   <string name="file_size">Size:</string>
+  <string name="firebase_database_url">https://miui-data-statistics.firebaseio.com</string>
   <string name="free_high_speed_channel">Xunlei accelerator (free)</string>
   <string name="free_speedup_exp">Try Xunlei download accelerator for free</string>
+  <string name="gcm_defaultSenderId">923211599680</string>
   <string name="get_account_dialog_msg">Getting account info…</string>
   <string name="get_data_failed">"Couldn't get info, try again later"</string>
   <string name="get_order_dialog_msg">Getting order info…</string>
   <string name="get_order_fail_msg">"Couldn't create order"</string>
+  <string name="google_api_key">AIzaSyDyUxqoPkEH-Tg_dYdQKXbYGkZtHRnNzGw</string>
+  <string name="google_app_id">1:923211599680:android:cdafbff100f2659e</string>
+  <string name="google_crash_reporting_api_key">AIzaSyDyUxqoPkEH-Tg_dYdQKXbYGkZtHRnNzGw</string>
+  <string name="google_storage_bucket">miui-data-statistics.appspot.com</string>
   <string name="goto_global_search">Searching web for \"%1$s\"</string>
   <string name="guess_like">You may also like</string>
   <string name="high_speed_channel">Xunlei accelerator (paid):  </string>
