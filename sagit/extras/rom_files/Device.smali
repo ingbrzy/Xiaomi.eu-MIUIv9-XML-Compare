@@ -778,6 +778,20 @@
     return v0
 .end method
 
+.method public static expandSelectorWhenAutoTrigger()Z
+    .locals 2
+
+    const-string/jumbo v0, "expand_selector_when_auto_trigger"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static getBurstShootCount()I
     .locals 2
 
@@ -1746,18 +1760,6 @@
     return v0
 .end method
 
-.method public static isSupportedAsdFlash()Z
-    .locals 1
-
-    const/4 v0, 0x0
-
-    invoke-static {v0}, Lcom/android/camera/Device;->isSupportedAsdFlash(Z)Z
-
-    move-result v0
-
-    return v0
-.end method
-
 .method public static isSupportedAsdFlash(Z)Z
     .locals 3
 
@@ -2481,6 +2483,20 @@
     return v0
 .end method
 
+.method public static needVideoStabilizationCropped()Z
+    .locals 2
+
+    const-string/jumbo v0, "need_video_stabilization_crop"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static shouldRestartPreviewAfterZslSwitch()Z
     .locals 1
 
@@ -2499,4 +2515,18 @@
     const/4 v0, 0x0
 
     goto :goto_0
+.end method
+
+.method public static supportPictureWaterMark()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_picture_watermark"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
 .end method

@@ -7,6 +7,7 @@
   <string name="announce_for_close_default_preview">close home choosing page</string>
   <string name="announce_for_close_folder">close folder</string>
   <string name="announce_for_close_launcher_menu">close menu</string>
+  <string name="announce_for_delete_gadget_and_widget">Widget</string>
   <string name="announce_for_delete_item">%1$s has been deleted</string>
   <string name="announce_for_drag_enter_delete_zone">dragging items enter delete zone</string>
   <string name="announce_for_drag_enter_folder_grid">drop icon into folder</string>
