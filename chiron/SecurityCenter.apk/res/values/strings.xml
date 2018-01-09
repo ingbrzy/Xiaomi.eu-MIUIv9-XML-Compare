@@ -29,7 +29,8 @@
   <string name="action_button_text_60">Fix</string>
   <string name="action_button_text_60_80">Fix</string>
   <string name="action_button_text_80_100">Optimize</string>
-  <string name="action_source_sms_title">Blocked SMS</string>
+  <string name="action_source_call_title">Blocked Calls</string>
+  <string name="action_source_sms_title">Blocked Messages</string>
   <string name="activity_title_antispam">Blocklist</string>
   <string name="activity_title_antivirus">Security scan</string>
   <string name="activity_title_apps_manager">Apps</string>
@@ -748,6 +749,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="firewall_restrict_wlan">Restrict using WLAN connection</string>
   <string name="firewall_rule_group_title_roaming">Overseas roaming</string>
   <string name="firewall_system_title">Data usage for system apps</string>
+  <string name="firewall_temp_rule_reason">%2$s restricted internet connection for %1$s​</string>
   <string name="firewall_wifi">WLAN</string>
   <string name="firewall_wifi_dialog_message">"The installed app won't be able to connect to the internet using WLAN when this switch is off.​"</string>
   <string name="five_percent_total_pkg">%s (5%% of monthly data)</string>
@@ -800,9 +802,12 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gateway_exception_summary">Check your router and try again.</string>
   <string name="gateway_exception_summary2">"Can't connect to the server"</string>
   <string name="gateway_exception_title">Test router</string>
+  <string name="gb_ad_game_size">MB</string>
+  <string name="gb_cutoff">|</string>
   <string name="gb_description_image_button_answer">Answer</string>
   <string name="gb_description_image_button_reject">Decline</string>
   <string name="gb_description_image_button_video_answer">Video call</string>
+  <string name="gb_new_feature">New feature</string>
   <string name="ge">个</string>
   <string name="get_sys_info">Getting info…</string>
   <string name="gigabyteShort">GB</string>
@@ -1018,7 +1023,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="main_button_usage_adjusting_bill">Changing…</string>
   <string name="main_button_usage_package_setting">Set data usage limit</string>
   <string name="main_daily_package">Daily data plan</string>
-  <string name="main_indicator_title">Waiting for activation</string>
+  <string name="main_indicator_title">Activation</string>
   <string name="main_leisure_remained">Off-peak data remaining</string>
   <string name="main_month_total_used">Used this month</string>
   <string name="main_month_used">Data plan</string>
