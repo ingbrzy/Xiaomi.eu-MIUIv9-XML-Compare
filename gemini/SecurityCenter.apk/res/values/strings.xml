@@ -749,6 +749,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="firewall_restrict_wlan">Restrict using WLAN connection</string>
   <string name="firewall_rule_group_title_roaming">Overseas roaming</string>
   <string name="firewall_system_title">Data usage for system apps</string>
+  <string name="firewall_temp_rule_reason">%2$s restricted internet connection for %1$s​</string>
   <string name="firewall_wifi">WLAN</string>
   <string name="firewall_wifi_dialog_message">"The installed app won't be able to connect to the internet using WLAN when this switch is off.​"</string>
   <string name="five_percent_total_pkg">%s (5%% of monthly data)</string>
@@ -1022,7 +1023,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="main_button_usage_adjusting_bill">Changing…</string>
   <string name="main_button_usage_package_setting">Set data usage limit</string>
   <string name="main_daily_package">Daily data plan</string>
-  <string name="main_indicator_title">Waiting for activation</string>
+  <string name="main_indicator_title">Activation</string>
   <string name="main_leisure_remained">Off-peak data remaining</string>
   <string name="main_month_total_used">Used this month</string>
   <string name="main_month_used">Data plan</string>

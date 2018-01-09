@@ -115,6 +115,9 @@
         <item>com.qualcomm.embms</item>
         <item>com.qualcomm.fastdormancy</item>
         <item>com.qualcomm.shutdownlistner</item>
+        <item>com.android.cellbroadcastreceiver</item>
+        <item>com.android.carrierconfig</item>
+        <item>com.android.server.telecom</item>
     </string-array>
     <string-array name="sleepstart_white_list">
         <item>com.android.incallui</item>
@@ -154,6 +157,9 @@
         <item>com.qualcomm.embms</item>
         <item>com.qualcomm.fastdormancy</item>
         <item>com.qualcomm.shutdownlistner</item>
+        <item>com.android.cellbroadcastreceiver</item>
+        <item>com.android.carrierconfig</item>
+        <item>com.android.server.telecom</item>
     </string-array>
     <string-array name="sleepclean_normal_kill_list">
         <item>com.xiaomi.hm.health</item>
