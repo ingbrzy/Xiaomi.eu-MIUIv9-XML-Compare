@@ -193,8 +193,10 @@
   <string name="app_manager_manage_space">Manage space</string>
   <string name="app_manager_memory">RAM</string>
   <string name="app_manager_menu_clear_data">Clear data</string>
+  <string name="app_manager_mobile_slot1">Mobile data (SIM 1)</string>
+  <string name="app_manager_mobile_slot2">Mobile data (SIM 2)</string>
   <string name="app_manager_net_control_title">Restrict data usage</string>
-  <string name="app_manager_net_mobile">Data</string>
+  <string name="app_manager_net_mobile">Mobile data</string>
   <string name="app_manager_net_wifi">WLAN</string>
   <string name="app_manager_not_allow">No</string>
   <string name="app_manager_not_support_uninstall">"Can't uninstall this apps"</string>

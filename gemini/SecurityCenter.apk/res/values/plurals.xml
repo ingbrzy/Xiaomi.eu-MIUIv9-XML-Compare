@@ -4,6 +4,10 @@
         <item quantity="other">%1$d calls from %2$s and others</item>
         <item quantity="one">%1$d call from %2$s</item>
     </plurals>
+    <plurals name="fw_blocked_count_call_one">
+        <item quantity="other">%1$d calls from %2$s and others</item>
+        <item quantity="one">%1$d call from %2$s</item>
+    </plurals>
     <plurals name="fw_blocked_count_sms">
         <item quantity="other">%d messages</item>
         <item quantity="one">%d message</item>
