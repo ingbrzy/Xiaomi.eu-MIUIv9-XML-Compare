@@ -329,7 +329,7 @@
   <string name="call_record_add_numbers">Add numbers</string>
   <string name="call_record_auto_always">All numbers</string>
   <string name="call_record_auto_scenario_title">Record calls from</string>
-  <string name="call_record_auto_summary">"Recordings will be saved to the folder MIUI/sound_recorder/call_rec on your device's internal memory"</string>
+  <string name="call_record_auto_summary">"Recordings will be saved to the folder MIUI/sound_recorder/call_rec on your device's internal storage"</string>
   <string name="call_record_auto_title">Record calls automatically</string>
   <string name="call_record_auto_unknown_number">Unknown numbers</string>
   <string name="call_record_auto_whitelist">Custom list</string>
@@ -747,7 +747,7 @@ Switch to the new provider anyway?"</string>
   <string name="gsm_umts_options">GSM/UMTS Options</string>
   <string name="hac_mode_summary">Turn on hearing aid compatibility</string>
   <string name="hac_mode_title">Hearing aids</string>
-  <string name="handon_ringer_summary">"Reduce ringer volume for incoming call when phone is raised. This feature doesn't work when vibration for incoming calls is on."</string>
+  <string name="handon_ringer_summary">Reduce ringer volume for incoming call when phone is raised.</string>
   <string name="handon_ringer_title">Quiet ringer when lifted</string>
   <string name="hdcp_checking_dialog_title">Set HDCP checking behavior</string>
   <string name="hdcp_checking_title">HDCP checking</string>
@@ -1054,6 +1054,7 @@ Try again or call customer service for more options."</string>
   <string name="path_auto_answer_pref_title">System apps/Phone/Auto-answer</string>
   <string name="path_auto_retry_mode_title">System apps/Phone/Advanced settings/Auto-retry</string>
   <string name="path_autoip">System apps/Phone/Advanced settings/Auto IP dialing</string>
+  <string name="path_call_advanced_settings_title">System apps/Phone/Advanced settings</string>
   <string name="path_call_background_setting_name">System apps/Phone/Advanced settings/Call background</string>
   <string name="path_call_forwarding_settings">System apps/Phone/Call forwarding settings</string>
   <string name="path_call_record_auto_title">System apps/Phone/Call recording/Record calls automatically</string>
@@ -1575,7 +1576,7 @@ Next period starts in %2$d days (%3$s)"</string>
   <string name="tty_mode_not_allowed_video_call">TTY Mode change is not allowed during a video call</string>
   <string name="tty_mode_option_summary">Set TTY mode</string>
   <string name="tty_mode_option_title">TTY mode</string>
-  <string name="turnover_mute_summary">"When phone is rotated horizontally, flip it over to silence ringer. This feature doesn't work when vibration for incoming calls is on."</string>
+  <string name="turnover_mute_summary">When phone is rotated horizontally, flip it over to silence ringer.</string>
   <string name="turnover_mute_title">Flip to silence ringer</string>
   <string name="ui_default_package">com.android.dialer</string>
   <string name="undefined">None</string>
