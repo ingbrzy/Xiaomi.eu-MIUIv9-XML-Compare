@@ -757,6 +757,20 @@
     return v0
 .end method
 
+.method public static disableVideoStabilizationInSpeedSlowMode()Z
+    .locals 2
+
+    const-string/jumbo v0, "disable_video_stabilization_in_speed_slow_mode"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static enhanceBeautyWithHHT()Z
     .locals 2
 
