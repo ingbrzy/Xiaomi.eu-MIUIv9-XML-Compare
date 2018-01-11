@@ -44,6 +44,10 @@
   <string name="apps_sort_type_title">Sort</string>
   <string name="auto_clean_switch_off">Off</string>
   <string name="auto_clean_switch_on">On</string>
+  <string name="auto_clean_time_every_day">Every day</string>
+  <string name="auto_clean_time_fifteen_day">Every 15 days</string>
+  <string name="auto_clean_time_seven_day">Every 7 days</string>
+  <string name="auto_clean_time_three_day">Every 3 days</string>
   <string name="auto_cleaner_open">Turn on</string>
   <string name="back">Back</string>
   <string name="browser_scan_history_desc">Browser History</string>
