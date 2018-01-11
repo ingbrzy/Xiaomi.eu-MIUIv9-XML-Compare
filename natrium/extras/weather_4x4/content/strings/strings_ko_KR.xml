@@ -11,7 +11,6 @@
     <string name="aqi_dangerous">'AQI '+#weather_aqilevel</string>
     <string name="aqi_hazardous">'AQI '+#weather_aqilevel</string>
     <string name="aqi_break">'AQI '+#weather_aqilevel</string>
-    <string name="desc_time">'현재 시간\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', 시계 앱을 실행하려면 두 번 탭하십시오.'</string>
     <string name="weather_type_null">'정보 없음'</string>
     <string name="weather_type_0">맑음</string>
     <string name="weather_type_1">흐림</string>
@@ -30,7 +29,7 @@
     <string name="weather_type_14">곳에 따라 강설</string>
     <string name="weather_type_15">폭설</string>
     <string name="weather_type_16">강설</string>
-    <string name="weather_type_17">약한 강설</string>
+    <string name="weather_type_17">약한 눈</string>
     <string name="weather_type_18">강한 황사</string>
     <string name="weather_type_19">황사</string>
     <string name="weather_type_20">약한 황사</string>
