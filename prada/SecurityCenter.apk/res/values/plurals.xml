@@ -4,6 +4,10 @@
         <item quantity="other">%1$d calls from %2$s and others</item>
         <item quantity="one">%1$d call from %2$s</item>
     </plurals>
+    <plurals name="fw_blocked_count_call_one">
+        <item quantity="other">%1$d calls from %2$s and others</item>
+        <item quantity="one">%1$d call from %2$s</item>
+    </plurals>
     <plurals name="fw_blocked_count_sms">
         <item quantity="other">%d messages</item>
         <item quantity="one">%d message</item>
@@ -113,6 +117,14 @@ If you turn on mobile data again, your carrier may charge you for additional dat
     </plurals>
     <plurals name="people_million">
         <item quantity="other">Downloaded by %1$d people</item>
+    </plurals>
+    <plurals name="gb_ad_people_play">
+        <item quantity="other">%1$d people are playing</item>
+        <item quantity="one">%1$d person is playing</item>
+    </plurals>
+    <plurals name="gb_ad_ten_thousand_people_play">
+        <item quantity="other">%1$d people are playing</item>
+        <item quantity="one">%1$d person is playing</item>
     </plurals>
     <plurals name="view_num">
         <item quantity="other">%1$d views</item>

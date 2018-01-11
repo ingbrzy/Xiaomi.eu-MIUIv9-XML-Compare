@@ -347,6 +347,7 @@ Contact cards are turned off"</string>
   <string name="description_minus_button">Minus</string>
   <string name="description_plus_button">Plus</string>
   <string name="description_quick_contact_for">Quick contact for %1$s</string>
+  <string name="description_quick_dial_button">Quick dial</string>
   <string name="description_search_button">Search</string>
   <string name="description_send_message">Send message to %1$s</string>
   <string name="description_send_text_message">Send text message to %1$s</string>
@@ -399,6 +400,7 @@ Contact cards are turned off"</string>
   <string name="dialer_empty_text_loading">Just a sec…</string>
   <string name="dialer_empty_text_no_call_log">No recent contacts</string>
   <string name="dialer_empty_text_no_search_result">No contacts found</string>
+  <string name="dialer_firewall_entry_name">Blocked call logs</string>
   <string name="dialer_menu_description">Show menus</string>
   <string name="dialer_menu_title">Menu options</string>
   <string name="dialer_returnToInCallScreen">Return to call in progress</string>
@@ -826,6 +828,7 @@ To add a contact to your list of favorites:
   <string name="path_key_rebuild_t9_index_title">System apps/Contacts/Organize contacts/Rebuild index data</string>
   <string name="path_key_sim_manage">System apps/Contacts/Organize contacts/SIM cards</string>
   <string name="path_preference_contacts_filter">System apps/Contacts/Display preferences/Configure contact lists</string>
+  <string name="path_quick_dial_setting">System apps/Contacts/Quick dial</string>
   <string name="path_remove_duplicate">System apps/Contacts/Organize contacts/Merge duplicate contacts</string>
   <string name="path_share_visible_contacts">System apps/Contacts/Import/Export contacts/Share contacts</string>
   <string name="path_sim_capacity">System apps/Contacts/SIM card storage</string>
@@ -937,6 +940,12 @@ To add a contact to your list of favorites:
   <string name="pull_to_refresh_release_label">Release to refresh</string>
   <string name="qr_card_card">QR code</string>
   <string name="qrcode_card_title">QR code</string>
+  <string name="quick_dial_setting_delete_dialog_message">Delete assigned quick dial number?</string>
+  <string name="quick_dial_setting_delete_dialog_option_delete">Delete</string>
+  <string name="quick_dial_setting_hint">Tap a button to assign or remove a quick dial number. Press and hold the button with an assigned number to dial.</string>
+  <string name="quick_dial_setting_set_dialog_message">Assign a quick dial number to this button?</string>
+  <string name="quick_dial_setting_set_dialog_option_set">Yes</string>
+  <string name="quick_dial_setting_title">Quick dial</string>
   <string name="quickcontact_missing_app">No app was found to handle this action</string>
   <string name="quit_dialog_confirm_message">"You haven't merged any contacts"</string>
   <string name="quit_dialog_confirm_title">Cancel merge contacts</string>
@@ -1005,6 +1014,7 @@ To add a contact to your list of favorites:
   <string name="search_key_rebuild_t9_index_title">Organize;Contacts;t9</string>
   <string name="search_key_sim_manage">Organize;Contacts</string>
   <string name="search_preference_contacts_filter">Contacts;Display</string>
+  <string name="search_quick_dial_setting">Contacts</string>
   <string name="search_remove_duplicate">Organize;Contacts</string>
   <string name="search_results_searching">Searching…</string>
   <string name="search_settings_description">Names of your contacts</string>
@@ -1113,6 +1123,7 @@ To add a contact to your list of favorites:
   <string name="starred_contacts">Favorites</string>
   <string name="status_available">Available</string>
   <string name="status_away">Away</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="status_busy">Busy</string>
   <string name="strequentList">Favorites</string>
   <string name="success_message_import_from_account">Contact imported</string>
