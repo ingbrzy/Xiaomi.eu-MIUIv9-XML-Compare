@@ -23,7 +23,7 @@
   <string name="access_control_need_password">"%s added successfully
 "</string>
   <string name="access_control_need_to_unlock_nofingerprint">Enter App lock password</string>
-  <string name="accessibility_gameboosterservice_description"/>
+  <string name="accessibility_gameboosterservice_description">"Turn on to silence incoming WeChat calls when you're playing games"</string>
   <string name="accessibility_service_description"/>
   <string name="action_button_text_100">Optimize</string>
   <string name="action_button_text_60">Fix</string>
@@ -82,7 +82,6 @@
   <string name="alarm_setting_title">红包闹钟设置</string>
   <string name="all_address_choose_hint">All numbers in this province</string>
   <string name="already_close_gamebooster">Gaming speed boost is off</string>
-  <string name="anim_gamebooster_text">Just a sec…</string>
   <string name="anti_disturb_msg_detail">Turn off all notifications except for incoming calls</string>
   <string name="anti_disturb_msg_title">DND</string>
   <string name="antispam_mode_details">Blocklist details</string>
