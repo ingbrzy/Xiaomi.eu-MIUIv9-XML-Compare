@@ -1265,6 +1265,7 @@ Your phone will be locked automatically after another failed attempt"</string>
 Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="puk_requested">Password incorrect. PIN now blocked. PUK requested.</string>
   <string name="puk_unlocked">Your SIM card has been unblocked. Your phone is unlocking…</string>
+  <string name="quick_dial_setting_title">Quick dial</string>
   <string name="radio_off_during_emergency_call">Cannot enter airplane mode during an emergency call.</string>
   <string name="radio_off_error">Turn on the radio before viewing these settings.</string>
   <string name="reading_settings">Reading settings…</string>
