@@ -64,7 +64,6 @@
   <string name="check_all">Select all</string>
   <string name="class_0_message_activity">Class 0 message</string>
   <string name="close">Close</string>
-  <string name="cloud_recommend_msg">Tap to sync messages with Mi Cloud.</string>
   <string name="cloud_state_disabled">Turn on sync with Mi Cloud to sync messages</string>
   <string name="cloud_state_sync_finished">Synced with Mi Cloud</string>
   <string name="cloud_state_syncing">Syncing with Mi Cloud…</string>
