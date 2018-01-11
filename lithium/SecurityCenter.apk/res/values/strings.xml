@@ -18,18 +18,19 @@
   <string name="ac_summaryOn">Turned on, password is required to open apps</string>
   <string name="ac_unmask_all_apps">Unhide for all apps</string>
   <string name="access_control_app_is_launching">App is starting</string>
-  <string name="access_control_failed_need_to_unlock_nofingerprint">Draw your unlock pattern to use a new fingerprint</string>
+  <string name="access_control_failed_need_to_unlock_nofingerprint">Enter password before unlocking with a new fingerprint</string>
   <string name="access_control_fingerprint_not_identified_msg">"Couldn't read fingerprint."</string>
   <string name="access_control_need_password">"%s added successfully
 "</string>
   <string name="access_control_need_to_unlock_nofingerprint">Enter App lock password</string>
-  <string name="accessibility_gameboosterservice_description"/>
+  <string name="accessibility_gameboosterservice_description">"Turn on to silence incoming WeChat calls when you're playing games"</string>
   <string name="accessibility_service_description"/>
   <string name="action_button_text_100">Optimize</string>
   <string name="action_button_text_60">Fix</string>
   <string name="action_button_text_60_80">Fix</string>
   <string name="action_button_text_80_100">Optimize</string>
-  <string name="action_source_sms_title">Blocked SMS</string>
+  <string name="action_source_call_title">Blocked Calls</string>
+  <string name="action_source_sms_title">Blocked Messages</string>
   <string name="activity_title_antispam">Blocklist</string>
   <string name="activity_title_antivirus">Security scan</string>
   <string name="activity_title_apps_manager">Apps</string>
@@ -81,7 +82,6 @@
   <string name="alarm_setting_title">红包闹钟设置</string>
   <string name="all_address_choose_hint">All numbers in this province</string>
   <string name="already_close_gamebooster">Gaming speed boost is off</string>
-  <string name="anim_gamebooster_text">Just a sec…</string>
   <string name="anti_disturb_msg_detail">Turn off all notifications except for incoming calls</string>
   <string name="anti_disturb_msg_title">DND</string>
   <string name="antispam_mode_details">Blocklist details</string>
@@ -192,8 +192,10 @@
   <string name="app_manager_manage_space">Manage space</string>
   <string name="app_manager_memory">RAM</string>
   <string name="app_manager_menu_clear_data">Clear data</string>
+  <string name="app_manager_mobile_slot1">Mobile data (SIM 1)</string>
+  <string name="app_manager_mobile_slot2">Mobile data (SIM 2)</string>
   <string name="app_manager_net_control_title">Restrict data usage</string>
-  <string name="app_manager_net_mobile">Data</string>
+  <string name="app_manager_net_mobile">Mobile data</string>
   <string name="app_manager_net_wifi">WLAN</string>
   <string name="app_manager_not_allow">No</string>
   <string name="app_manager_not_support_uninstall">"Can't uninstall this apps"</string>
@@ -354,7 +356,7 @@
   <string name="back_description_securitycenter">Back</string>
   <string name="back_modifypassword">Go back to changing password</string>
   <string name="back_sound_data">It requires cellular mobile network, please retry!</string>
-  <string name="back_sound_fail">Failed！</string>
+  <string name="back_sound_fail">Failed！By reason of the change of operator interface, you can try to switch current sim card to network card and try again.</string>
   <string name="back_sound_success">Success!</string>
   <string name="back_sound_support">"The current network operators doesn't support it！"</string>
   <string name="background_restrict_app_dialog_message">Restricting background network access for this app might make it impossible for the app to work normally, receive messages, download content, etc. Restrict anyway?</string>
@@ -607,6 +609,7 @@
   <string name="deep_save_ontime_boot_shutdown_summary">Schedule time to turn device on and off</string>
   <string name="delete">Delete</string>
   <string name="delete_from_manual_item_white_list">Remove from exceptions</string>
+  <string name="delete_input">Delete</string>
   <string name="deleted_apps">Deleted apps</string>
   <string name="demo_number">241</string>
   <string name="descx_quick_scan_cancel">Scan canceled</string>
@@ -747,6 +750,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="firewall_restrict_wlan">Restrict using WLAN connection</string>
   <string name="firewall_rule_group_title_roaming">Overseas roaming</string>
   <string name="firewall_system_title">Data usage for system apps</string>
+  <string name="firewall_temp_rule_reason">%2$s restricted internet connection for %1$s​</string>
   <string name="firewall_wifi">WLAN</string>
   <string name="firewall_wifi_dialog_message">"The installed app won't be able to connect to the internet using WLAN when this switch is off.​"</string>
   <string name="five_percent_total_pkg">%s (5%% of monthly data)</string>
@@ -799,9 +803,12 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gateway_exception_summary">Check your router and try again.</string>
   <string name="gateway_exception_summary2">"Can't connect to the server"</string>
   <string name="gateway_exception_title">Test router</string>
+  <string name="gb_ad_game_size">MB</string>
+  <string name="gb_cutoff">|</string>
   <string name="gb_description_image_button_answer">Answer</string>
   <string name="gb_description_image_button_reject">Decline</string>
   <string name="gb_description_image_button_video_answer">Video call</string>
+  <string name="gb_new_feature">New feature</string>
   <string name="ge">个</string>
   <string name="get_sys_info">Getting info…</string>
   <string name="gigabyteShort">GB</string>
@@ -882,6 +889,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="info_unantispam_sms">Allow SMS</string>
   <string name="information_setting">Recommendations</string>
   <string name="input_aviable_traffic">Set data usage limit</string>
+  <string name="input_password_hint_text">Enter password</string>
   <string name="input_traffic_pkg">Enter data usage</string>
   <string name="input_used_hint">Enter data usage</string>
   <string name="input_used_max_hint">Enter data usage (less than %s)</string>
@@ -1016,7 +1024,7 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="main_button_usage_adjusting_bill">Changing…</string>
   <string name="main_button_usage_package_setting">Set data usage limit</string>
   <string name="main_daily_package">Daily data plan</string>
-  <string name="main_indicator_title">Waiting for activation</string>
+  <string name="main_indicator_title">Activation</string>
   <string name="main_leisure_remained">Off-peak data remaining</string>
   <string name="main_month_total_used">Used this month</string>
   <string name="main_month_used">Data plan</string>
@@ -1147,6 +1155,14 @@ to respond"</string>
   <string name="mi_service_traffic_detail">Framework details</string>
   <string name="mian_page_primary_txt">Overseas roaming</string>
   <string name="miliao_lucky_warning">米聊红包</string>
+  <string name="mixed_need_to_confirm">Enter again to confirm</string>
+  <string name="mixed_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
+  <string name="mixed_password_confirmed_header_continue">Set successfully. Tap \"Next\".</string>
+  <string name="mixed_pattern_entered_header">Set password successfully</string>
+  <string name="mixed_recording_incorrect_too_short">Enter at least %d characters.</string>
+  <string name="mixed_recording_intro_header">Enter at least 4 characters</string>
+  <string name="mixed_retry_button_text">Cancel</string>
+  <string name="mixed_settings_help_how_to_record">How to set password</string>
   <string name="modify_password_mode">&lt;u&gt;Change password type&lt;/u&gt;</string>
   <string name="modifypassword">Change password</string>
   <string name="monitor_app_add">Add</string>
@@ -1246,6 +1262,14 @@ Try using another Ethernet cable to connect your router. If you suspect there's 
   <string name="notify_weekly_traffic_title">Used %s this week</string>
   <string name="notify_weekly_traffic_title_for_slotnum">%1$s used %2$s this week</string>
   <string name="number_of_lucky_money">已为您提醒红包总数</string>
+  <string name="numeric_need_to_confirm">Enter again to confirm</string>
+  <string name="numeric_password_confirmed_header_confirm">Set successfully. Tap to confirm.</string>
+  <string name="numeric_password_confirmed_header_continue">Set successfully. Tap \"Next\".</string>
+  <string name="numeric_pattern_entered_header">Set PIN successfully</string>
+  <string name="numeric_recording_incorrect_too_short">Enter at least %d digit.</string>
+  <string name="numeric_recording_intro_header">Enter password</string>
+  <string name="numeric_retry_button_text">Cancel</string>
+  <string name="numeric_settings_help_how_to_record">How to set PIN</string>
   <string name="ok">OK</string>
   <string name="ok_button">OK</string>
   <string name="old_sdk_deny_warning">"The app isn't compatible with the latest Android permission requirements. Denied permissions may affect the way this app works."</string>
@@ -1375,6 +1399,8 @@ This activity shortens battery life."</string>
   <string name="password_promotion_not_login_xiaomi_account_message">Add your Mi Account to be able to reset your password in case you forget it.</string>
   <string name="password_promotion_postbutton_text">Add</string>
   <string name="password_promotion_title">Add Mi Account</string>
+  <string name="password_type">Change password</string>
+  <string name="password_type_underline">&lt;u&gt;Change password&lt;/u&gt;</string>
   <string name="password_xspace_forget_pattern_message">To change your Second space password, you should delete your current Second space and create a new one.</string>
   <string name="path_antispam">System apps/Security/Blocklist</string>
   <string name="path_antivirus">System apps/Security/Virus scan</string>
@@ -1621,6 +1647,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="quick_optimize_sub_summary_text">Added %s to battery life</string>
   <string name="quick_optimize_suggest_battery_consume_too_fast">The phone is draining battery, fix it</string>
   <string name="quick_optimize_suggest_battery_over_heat">The phone is overheating, fix it</string>
+  <string name="quite_all_string">Cancel</string>
   <string name="random_expression">随机表情</string>
   <string name="reach_daily_limit_value_body">Reduce your mobile data usage.</string>
   <string name="reach_daily_limit_value_title">Daily data limit reached</string>
@@ -1726,6 +1753,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="security_scan_optimizing">Optimizing…</string>
   <string name="see_detail">Details</string>
   <string name="set_applock_password">Set password</string>
+  <string name="set_mixed_password_name">Set password</string>
+  <string name="set_numeric_password_name">Set PIN</string>
+  <string name="set_pattern_password_name">Set pattern</string>
   <string name="setting">Settings</string>
   <string name="setting_alarm_summary">各大平台官方红包活动闹钟提醒</string>
   <string name="setting_privacy_password">Add pattern</string>
@@ -2242,6 +2272,12 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="unlike">No thanks</string>
   <string name="unlock_pattern">&lt;u&gt;Pattern&lt;/u&gt;</string>
   <string name="unlock_pattern_to_bind_fingerprint">Enter password to activate fingerprint</string>
+  <string name="unlock_set_unlock_password_summary">Combine different characters</string>
+  <string name="unlock_set_unlock_password_title">Password</string>
+  <string name="unlock_set_unlock_pattern_summary">Connect at least 4 dots</string>
+  <string name="unlock_set_unlock_pattern_title">Pattern</string>
+  <string name="unlock_set_unlock_pin_summary">Enter 4 digits</string>
+  <string name="unlock_set_unlock_pin_title">PIN</string>
   <string name="updating_diagnostic_botton">Analyzing data…</string>
   <string name="usage_sorted_activity_lable">Data usage</string>
   <string name="usage_sorted_empty_text">Empty</string>
@@ -2294,6 +2330,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="wlan_booster">WLAN optimization</string>
   <string name="wlan_change_protection_detail">"Don't switch to WLAN automatically when connected to mobile data network"</string>
   <string name="wlan_change_protection_title">Prevent switching networks</string>
+  <string name="wrong_password">Incorrect password</string>
   <string name="xunyou_net_booster">Network speed boost</string>
   <string name="xunyou_net_booster_detail">Use Xunyou speed boost services for gaming</string>
   <string name="xunyou_pay_webview">Xunyou services</string>
