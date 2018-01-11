@@ -310,13 +310,16 @@ to enter Second space from Lock screen"</string>
   <string name="wating">Just a sec…</string>
   <string name="weibo_send">Send to Weibo</string>
   <string name="weixin_pay">WeChat Pay</string>
-  <string name="weixin_share">Share to Moments</string>
+  <string name="weixin_share_sign">Sign in and share</string>
   <string name="xpsace_guide_button">Create</string>
   <string name="xspace_account">Dual app accounts</string>
   <string name="xspace_chocie">Dual app support</string>
   <string name="xspace_creating">Creating dual app…</string>
   <string name="xspace_default_app_summary">Set default app for payments, sharing, favorites, and more.</string>
   <string name="xspace_default_app_title">Default app</string>
+  <string name="xspace_default_guide_notification_content">Tap to change</string>
+  <string name="xspace_default_guide_notification_main_title">Using default app</string>
+  <string name="xspace_default_guide_notification_xspace_title">Using dual app</string>
   <string name="xspace_default_setting_dialog_title">Default</string>
   <string name="xspace_default_setting_label">Default app</string>
   <string name="xspace_description">"Dual apps are app copies which can be used separately with a different account.
