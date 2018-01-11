@@ -503,7 +503,6 @@ and brings out the people in the front."</string>
   <string name="pref_face_beauty_medium">i:2</string>
   <string name="pref_face_beauty_title">Beautify</string>
   <string name="pref_fingerprint_capture_title">Fingerprint shutter</string>
-  <string name="pref_front_camera_flashmode_entry_torch">On</string>
   <string name="pref_front_mirror_default">auto</string>
   <string name="pref_front_mirror_entry_auto">When face is detected</string>
   <string name="pref_front_mirror_entry_off">Off</string>
