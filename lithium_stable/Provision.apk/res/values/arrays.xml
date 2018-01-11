@@ -10,7 +10,6 @@
         <item>com.iflytek.inputmethod.oem/.FlyIME</item>
     </string-array>
     <string-array name="organized_locales">
-        <item>ab</item>
         <item>af</item>
         <item>al</item>
         <item>dz</item>
@@ -49,7 +48,6 @@
         <item>cv</item>
         <item>bq</item>
         <item>ky</item>
-        <item>ca</item>
         <item>td</item>
         <item>cl</item>
         <item>co</item>
@@ -66,7 +64,6 @@
         <item>dj</item>
         <item>dm</item>
         <item>do</item>
-        <item>tl</item>
         <item>ec</item>
         <item>eg</item>
         <item>sv</item>
@@ -116,7 +113,6 @@
         <item>kz</item>
         <item>ke</item>
         <item>ki</item>
-        <item>xk</item>
         <item>kw</item>
         <item>kg</item>
         <item>la</item>
@@ -179,6 +175,7 @@
         <item>ru</item>
         <item>rw</item>
         <item>sh</item>
+        <item>kn</item>
         <item>lc</item>
         <item>pm</item>
         <item>vc</item>
@@ -201,9 +198,6 @@
         <item>ss</item>
         <item>es</item>
         <item>lk</item>
-        <item>kn</item>
-        <item>lc</item>
-        <item>vc</item>
         <item>sd</item>
         <item>sr</item>
         <item>sz</item>
@@ -214,6 +208,7 @@
         <item>tj</item>
         <item>tz</item>
         <item>th</item>
+        <item>tl</item>
         <item>tg</item>
         <item>tk</item>
         <item>to</item>

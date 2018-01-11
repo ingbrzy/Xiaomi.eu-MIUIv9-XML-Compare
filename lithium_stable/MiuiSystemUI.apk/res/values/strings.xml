@@ -235,6 +235,8 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="demo_mode">Demo mode</string>
   <string name="description_direction_left">Swipe left for %s.</string>
   <string name="description_direction_up">Swipe up for %s.</string>
+  <string name="description_image_button_answer">Answer</string>
+  <string name="description_image_button_reject">Decline</string>
   <string name="description_target_search">Search</string>
   <string name="dev_settings_warning_message">These settings are intended for developers only. Enabling these features may make your device and the apps on it misbehave or cause errors.</string>
   <string name="dev_settings_warning_title">Allow development settings?</string>
@@ -495,6 +497,7 @@ Use only the supplied charger."</string>
   <string name="screenshot_saving_ticker">Saving screenshot…</string>
   <string name="screenshot_saving_title">Saving screenshot…</string>
   <string name="screenshot_send">Send</string>
+  <string name="search_hint">Search for websites, apps, contacts, and videos</string>
   <string name="select_application">Select application</string>
   <string name="select_logd_size_dialog_title">Select size for log buffers</string>
   <string name="select_logd_size_title">Log buffer sizes</string>
