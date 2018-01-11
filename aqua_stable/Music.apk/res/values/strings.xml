@@ -350,6 +350,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="filter_by_size_min">%dKB</string>
   <string name="filter_by_size_prefix">"Hide files smaller than "</string>
   <string name="filter_by_size_summary">Hide small audio files</string>
+  <string name="filter_size_unit">%dKB</string>
   <string name="find_music">Discover songs</string>
   <string name="follow">Follow</string>
   <string name="followed">Following</string>
@@ -578,6 +579,9 @@ is mainly provided by Ultimate Inc."</string>
   <string name="notification_recommend_title">Important notifications</string>
   <string name="notification_setting">Notification settings</string>
   <string name="notification_title_no_song">"Check out what everyone's listening to!"</string>
+  <string name="nowplaying_circle_style">Play circle style</string>
+  <string name="nowplaying_circle_style_rainbow">Rainbow</string>
+  <string name="nowplaying_circle_style_wave">Wave</string>
   <string name="nowplaying_dialog_title_delete_tracks">Clear current playlist?</string>
   <string name="nowplaying_menu_item_delete">Clear</string>
   <string name="ok">OK</string>
