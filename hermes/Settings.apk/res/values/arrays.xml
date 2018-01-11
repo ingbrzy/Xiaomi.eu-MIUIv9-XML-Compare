@@ -1851,6 +1851,26 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Second space</item>
     </string-array>
     <string-array name="city_name">
+        <item>Midway</item>
+        <item>Regina</item>
+        <item>Manaus</item>
+        <item>Recife</item>
+        <item>Godthab</item>
+        <item>South_Georgia</item>
+        <item>Azores</item>
+        <item>Windhoek</item>
+        <item>Tbilisi</item>
+        <item>Yerevan</item>
+        <item>Oral</item>
+        <item>Yekaterinburg</item>
+        <item>Katmandu</item>
+        <item>Krasnoyarsk</item>
+        <item>Irkutsk</item>
+        <item>Yakutsk</item>
+        <item>Hobart</item>
+        <item>Vladivostok</item>
+        <item>Magadan</item>
+        <item>Majuro</item>
         <item>Abidjan</item>
         <item>Accra</item>
         <item>Addis Ababa</item>
@@ -2142,6 +2162,26 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Quito</item>
     </string-array>
     <string-array name="city_timezone">
+        <item>Pacific/Midway</item>
+        <item>America/Regina</item>
+        <item>America/Manaus</item>
+        <item>America/Recife</item>
+        <item>America/Godthab</item>
+        <item>Atlantic/South_Georgia</item>
+        <item>Atlantic/Azores</item>
+        <item>Africa/Windhoek</item>
+        <item>Asia/Tbilisi</item>
+        <item>Asia/Yerevan</item>
+        <item>Asia/Oral</item>
+        <item>Asia/Yekaterinburg</item>
+        <item>Asia/Katmandu</item>
+        <item>Asia/Krasnoyarsk</item>
+        <item>Asia/Irkutsk</item>
+        <item>Asia/Yakutsk</item>
+        <item>Australia/Hobart</item>
+        <item>Asia/Vladivostok</item>
+        <item>Asia/Magadan</item>
+        <item>Pacific/Majuro</item>
         <item>Africa/Abidjan</item>
         <item>Africa/Accra</item>
         <item>Africa/Addis_Ababa</item>
