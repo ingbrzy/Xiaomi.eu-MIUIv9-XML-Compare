@@ -26,6 +26,7 @@
   <string name="account_none">None</string>
   <string name="account_none_binded_info">None</string>
   <string name="account_none_user_name">None</string>
+  <string name="account_notification_message">Session expired. Sign in again.</string>
   <string name="account_protection">Account protection</string>
   <string name="account_protection_off">Off</string>
   <string name="account_protection_on">On</string>
@@ -59,7 +60,7 @@
   <string name="account_user_using_weibo_avatar">Use Sina Weibo profile photo</string>
   <string name="account_xiaomi_service">Services</string>
   <string name="activate_email_notice">Make sure to activate your account within 24 hours</string>
-  <string name="activity_not_found_notice">"Can't find the application"</string>
+  <string name="activity_not_found_notice">"Can't find the app"</string>
   <string name="add_account">Connect account</string>
   <string name="app_name">Mi Account</string>
   <string name="auth_fail_warning">Session expired, sign in again later</string>
@@ -158,9 +159,9 @@
   <string name="mipay">Pay</string>
   <string name="mipay_balance">Balance</string>
   <string name="mipay_bank_card">Bank card</string>
-  <string name="mipay_identitiy_no">no</string>
+  <string name="mipay_identitiy_no">Not verified</string>
   <string name="mipay_identity">ID verification</string>
-  <string name="mipay_indentity_done">done</string>
+  <string name="mipay_indentity_done">Verified</string>
   <string name="mipay_others">Other</string>
   <string name="mipay_transit_card">Transport card</string>
   <string name="multi_user_not_show_sync_activity_message_1">"Looks like you're using your First space Mi Account."</string>
@@ -169,7 +170,7 @@
   <string name="my_device_title">Current device</string>
   <string name="no_network_btn">Refresh</string>
   <string name="no_network_title">"Can't connect to the network."</string>
-  <string name="no_response_retry">No response, please retry.</string>
+  <string name="no_response_retry">No response, try again.</string>
   <string name="no_sim_card_or_unactivated">"SIM card isn't installed or activated"</string>
   <string name="nobind">Not connected</string>
   <string name="notify_network_restricted_content_bg_network">"Mi Account's internet access is restricted. Tap to allow."</string>
@@ -215,7 +216,7 @@ To activate your account, follow the
   <string name="passport_copy_message_text_success">Copied successfully</string>
   <string name="passport_copy_message_vcode">Copy code</string>
   <string name="passport_delete_account">Sign out</string>
-  <string name="passport_downlink_reg">Create account using phone number</string>
+  <string name="passport_downlink_reg">Phone number</string>
   <string name="passport_email">Email address</string>
   <string name="passport_email_or_id_hint_text">Email address or Mi Account ID</string>
   <string name="passport_email_reg_success_summary">%1$s has been bound with your account. You can use it to sign in or to reset your password.</string>
@@ -417,6 +418,7 @@ To activate your account, follow the
   <string name="sina_weibo">Sina Weibo</string>
   <string name="sms_send_success">Sent</string>
   <string name="sns_access_token_expired_warning">Account sign-in has expired. Sign in again to reconnect this account.</string>
+  <string name="talkback_scan_barcode">Scan QR code</string>
   <string name="trusted_browsers">Trusted browsers</string>
   <string name="trusted_browsers_prompt">The browser will no longer be trusted if you delete cookies.</string>
   <string name="turn_off_find_device_failed_title">"Can't turn off Find device"</string>

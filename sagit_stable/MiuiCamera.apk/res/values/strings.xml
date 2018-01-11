@@ -15,7 +15,7 @@
   <string name="accessibility_setting_button">Additional settings button</string>
   <string name="accessibility_shutter_button">Shutter button</string>
   <string name="accessibility_skin_beautify_button">SkinBeautifyButton</string>
-  <string name="accessibility_stereo_button">Dual camera mode</string>
+  <string name="accessibility_stereo_button">Focus adjustment</string>
   <string name="accessibility_video_capture_button">VideoCaptureButton</string>
   <string name="accessibility_video_module_picker">VideoModulePicker</string>
   <string name="accessibility_video_pause_button">VideoPauseButton</string>
@@ -29,8 +29,9 @@
   <string name="button_normal_video_title">Record video</string>
   <string name="camera_disabled">Camera has been disabled</string>
   <string name="camera_error_title">Camera error</string>
+  <string name="camera_facedetection_sub_option_hint">Experimental option is now available</string>
   <string name="camera_label">Camera</string>
-  <string name="camera_mode_options">Options</string>
+  <string name="camera_mode_options">Modes</string>
   <string name="camera_setting">Camera</string>
   <string name="camera_settings_label">Camera</string>
   <string name="camera_snap_mode_title">Quick snap mode</string>
@@ -76,8 +77,7 @@
   <string name="dual_camera_lens_covered_toast">The lens is covered.</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
   <string name="dual_camera_too_close_toast">The camera is too close to the object.</string>
-  <string name="dual_camera_use_hint">"Portrait mode helps you blur the background.
-The object shouldn't be further than 2 meters."</string>
+  <string name="dual_camera_use_hint">"Make sure the object isn't further than 2 meters."</string>
   <string name="edit_eye_large">Big eyes</string>
   <string name="edit_face_ruddy">Ruddy</string>
   <string name="edit_face_slender">Slender</string>
@@ -86,7 +86,6 @@ The object shouldn't be further than 2 meters."</string>
   <string name="empty">" "</string>
   <string name="error_fail_to_start_audio_capture">"Couldn't start audio capture"</string>
   <string name="face_age_info">Age: %d</string>
-  <string name="face_analyze_info">Age: %2$s (%1$s)</string>
   <string name="face_analyze_info_female">Female</string>
   <string name="face_analyze_info_male">Male</string>
   <string name="face_beauty_advanced">Pro</string>
@@ -115,11 +114,9 @@ The object shouldn't be further than 2 meters."</string>
   <string name="face_beauty_intelligent_level_3">High</string>
   <string name="face_beauty_smart">Smart</string>
   <string name="face_score_info">Score: %.1f</string>
-  <string name="groupshot_mode_use_hint">"Camera will take multiple photos
-and then create a shot where everyone looks best."</string>
-  <string name="hibernate_hint">Tap the screen to wake Camera</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
+  <string name="hint_device_water_mark">Device watermark will be added automatically.</string>
   <string name="hint_fast_motion">The video you shoot will be played faster.</string>
   <string name="hint_groupshot">"Camera will take multiple photos
 and then create a shot where everyone looks best."</string>
@@ -136,6 +133,7 @@ and then create a shot where everyone looks best."</string>
   <string name="module_name_portrait">Portrait</string>
   <string name="module_name_square">Square</string>
   <string name="module_name_video">Video</string>
+  <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
   <string name="no_storage">Insert SD card before using camera</string>
   <string name="not_enough_space">Internal storage is full</string>
   <string name="object_track_enable_toast">To select an object, simultaneously tap two diagonal points around its border.</string>
@@ -146,8 +144,6 @@ and then create a shot where everyone looks best."</string>
   <string name="pano_how_to_use_prompt_start">Tap the arrow to switch direction and begin panning slowly.</string>
   <string name="pano_how_to_use_prompt_to_move">Begin panning slowly</string>
   <string name="path_settings">System apps/Camera/Settings</string>
-  <string name="photos_portrait_type_description">Portrait shots have a depth effect that keeps your subject in focus and blurs out rest of the background.</string>
-  <string name="photos_portrait_type_name">Portrait</string>
   <string name="portait_effect_entry_blackwhite">B&amp;W</string>
   <string name="portait_effect_entry_cool">Mint</string>
   <string name="portait_effect_entry_fairytale">Childhood</string>
@@ -163,7 +159,6 @@ and then create a shot where everyone looks best."</string>
   <string name="portrait_mode_too_far_hint">Place object within 2.5 meters</string>
   <string name="portrait_mode_use_hint">"Portrait mode blurs the background
 and brings out the people in the front."</string>
-  <string name="portrait_with_facebeauty_hint">Beautify is now available in Portrait mode</string>
   <string name="pref_advance_settings">Additional settings</string>
   <string name="pref_audio_focus_default">normal</string>
   <string name="pref_audio_focus_entry_front">Front</string>
@@ -184,7 +179,6 @@ and brings out the people in the front."</string>
   <string name="pref_camera_antibanding_entry_3">Auto</string>
   <string name="pref_camera_antibanding_title">Anti banding</string>
   <string name="pref_camera_asd_night_title">Enhance lowlight photos automatically</string>
-  <string name="pref_camera_asd_popup_title">Notify when flash is needed</string>
   <string name="pref_camera_audio_capture_title">Audio</string>
   <string name="pref_camera_auto_capture_when_stable_summary">To select an object, tap two diagonal points around its border. When the object is stationary, the camera will snap a shot automatically.</string>
   <string name="pref_camera_auto_capture_when_stable_title">Capture selected objects when stationary</string>
@@ -208,6 +202,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_beautify_entry_7">7</string>
   <string name="pref_camera_beautify_entry_8">8</string>
   <string name="pref_camera_beautify_entry_9">9</string>
+  <string name="pref_camera_beautify_entry_auto">Off</string>
   <string name="pref_camera_beautify_entry_close">@string/face_beauty_close</string>
   <string name="pref_camera_beautify_entry_high">High</string>
   <string name="pref_camera_beautify_entry_low">Low</string>
@@ -259,8 +254,9 @@ and brings out the people in the front."</string>
   <string name="pref_camera_delay_capture_entry_5s">5s delay</string>
   <string name="pref_camera_delay_capture_entry_audio">Audio</string>
   <string name="pref_camera_delay_capture_title">Timer</string>
+  <string name="pref_camera_device_watermark_title">Device watermark</string>
   <string name="pref_camera_exposuretime_default">0</string>
-  <string name="pref_camera_exposuretime_entry_0.5">2s</string>
+  <string name="pref_camera_exposuretime_entry_0_5">2s</string>
   <string name="pref_camera_exposuretime_entry_1">1s</string>
   <string name="pref_camera_exposuretime_entry_1000">1/1000s</string>
   <string name="pref_camera_exposuretime_entry_125">1/125s</string>
@@ -278,6 +274,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_exposuretime_entry_8s">8s</string>
   <string name="pref_camera_exposuretime_entry_auto">Auto</string>
   <string name="pref_camera_face_info_watermark_title">Add age stamp on photos</string>
+  <string name="pref_camera_facedetection_auto_hidden_title">Face detection auto hidden</string>
   <string name="pref_camera_facedetection_title">Face detection</string>
   <string name="pref_camera_flashmode_default">auto</string>
   <string name="pref_camera_flashmode_entry_auto">Auto</string>
@@ -285,7 +282,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_flashmode_entry_on">On</string>
   <string name="pref_camera_flashmode_entry_torch">Torch</string>
   <string name="pref_camera_flashmode_title">Flash mode</string>
-  <string name="pref_camera_focus_shoot_summary">Tap the screen to focus, and tap again to shoot.</string>
+  <string name="pref_camera_focus_shoot_summary">Tap to focus, then tap again to take a photo.</string>
   <string name="pref_camera_focus_shoot_title">Focus &amp; shoot</string>
   <string name="pref_camera_focusmode_entry_auto">Auto</string>
   <string name="pref_camera_focusmode_entry_infinity">Infinity</string>
@@ -335,7 +332,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_iso_value_iso3200">ISO3200</string>
   <string name="pref_camera_iso_value_iso400">ISO400</string>
   <string name="pref_camera_iso_value_iso800">ISO800</string>
-  <string name="pref_camera_jpegquality_default">@string/pref_camera_jpegquality_value_normal</string>
+  <string name="pref_camera_jpegquality_default">@string/pref_camera_jpegquality_value_high</string>
   <string name="pref_camera_jpegquality_entry_high">High</string>
   <string name="pref_camera_jpegquality_entry_low">Low</string>
   <string name="pref_camera_jpegquality_entry_normal">Standard</string>
@@ -432,7 +429,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_sound_title">Camera sounds</string>
   <string name="pref_camera_square_mode_title">Square</string>
   <string name="pref_camera_stereo_default">5</string>
-  <string name="pref_camera_stereo_mode_title">Stereo</string>
+  <string name="pref_camera_stereo_mode_title">Focus adjustment</string>
   <string name="pref_camera_tilt_shift_default">circle</string>
   <string name="pref_camera_tilt_shift_entry_circle">Circle</string>
   <string name="pref_camera_tilt_shift_entry_parallel">Parallel</string>
@@ -444,9 +441,9 @@ and brings out the people in the front."</string>
   <string name="pref_camera_touchafaec_entry_on">On</string>
   <string name="pref_camera_ubifocus_title">Refocus</string>
   <string name="pref_camera_video_duration_entry_10">10 minutes</string>
-  <string name="pref_camera_video_duration_entry_120">Unlimited</string>
+  <string name="pref_camera_video_duration_entry_120">No limit</string>
   <string name="pref_camera_video_duration_entry_30">30 minutes</string>
-  <string name="pref_camera_video_duration_entry_mms">30 seconds (MMS)</string>
+  <string name="pref_camera_video_duration_entry_mms">30 seconds(MMS)</string>
   <string name="pref_camera_video_flashmode_default">off</string>
   <string name="pref_camera_volumekey_function_default">shutter</string>
   <string name="pref_camera_volumekey_function_entry_exposure">Exposure</string>
@@ -483,6 +480,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_zoom_mode_title">Lens</string>
   <string name="pref_camera_zoom_ratio_tele">200</string>
   <string name="pref_camera_zoom_ratio_wide">100</string>
+  <string name="pref_camera_zoom_value_title">Zoom</string>
   <string name="pref_camera_zsl_entry_off">Off</string>
   <string name="pref_camera_zsl_entry_on">On</string>
   <string name="pref_camera_zsl_value_off">off</string>
@@ -492,11 +490,13 @@ and brings out the people in the front."</string>
   <string name="pref_exposure_default">0</string>
   <string name="pref_face_beauty_advanced">a:1</string>
   <string name="pref_face_beauty_close">i:0</string>
-  <string name="pref_face_beauty_default">@string/pref_face_beauty_medium</string>
   <string name="pref_face_beauty_high">i:3</string>
   <string name="pref_face_beauty_low">i:1</string>
   <string name="pref_face_beauty_medium">i:2</string>
   <string name="pref_face_beauty_title">Beautify</string>
+  <string name="pref_face_beauty_xhigh">i:4</string>
+  <string name="pref_face_beauty_xxhigh">i:5</string>
+  <string name="pref_face_beauty_xxxhigh">i:6</string>
   <string name="pref_fingerprint_capture_title">Fingerprint shutter</string>
   <string name="pref_front_mirror_default">auto</string>
   <string name="pref_front_mirror_entry_auto">When face is detected</string>
@@ -517,7 +517,7 @@ and brings out the people in the front."</string>
   <string name="pref_retain_camera_mode_summary">Switch camera to the previously used mode when you open the app.</string>
   <string name="pref_retain_camera_mode_title">Save previous mode</string>
   <string name="pref_scan_qrcode_default">true</string>
-  <string name="pref_scan_qrcode_summary">Only the rear camera can scan QR codes</string>
+  <string name="pref_scan_qrcode_summary">The rear camera can scan QR codes only in the \"Photo\" mode.</string>
   <string name="pref_scan_qrcode_title">Scan QR codes</string>
   <string name="pref_setting_title">Settings</string>
   <string name="pref_simple_hdr_default">off</string>
@@ -532,13 +532,9 @@ and brings out the people in the front."</string>
   <string name="pref_skin_beautify_slim_title">Slim</string>
   <string name="pref_skin_beautify_smooth_default">5</string>
   <string name="pref_skin_beautify_smooth_title">Skin</string>
-  <string name="pref_video_captrue_ability_title">Image capture while recording</string>
-  <string name="pref_video_focusmode_entry_auto">Tap</string>
-  <string name="pref_video_focusmode_entry_continuous">CAF</string>
   <string name="pref_video_focusmode_entryvalue_auto">auto</string>
   <string name="pref_video_focusmode_entryvalue_continuous">continuous-video</string>
   <string name="pref_video_focusmode_entryvalue_default">@string/pref_video_focusmode_entryvalue_continuous</string>
-  <string name="pref_video_focusmode_title">Focus mode</string>
   <string name="pref_video_quality_default">6</string>
   <string name="pref_video_quality_entry_1080p">FULL HD</string>
   <string name="pref_video_quality_entry_480p">SD</string>
@@ -550,13 +546,11 @@ and brings out the people in the front."</string>
   <string name="pref_video_quality_entry_wqvga">WQVGA</string>
   <string name="pref_video_quality_entry_wvga">WVGA</string>
   <string name="pref_video_quality_title">Video quality</string>
-  <string name="pref_video_speed_default">normal</string>
   <string name="pref_video_speed_entry_fast">Fast</string>
   <string name="pref_video_speed_entry_normal">Standard</string>
   <string name="pref_video_speed_entry_slow">Slow</string>
   <string name="pref_video_speed_fast_title">Time-lapse</string>
   <string name="pref_video_speed_slow_title">Slow-motion</string>
-  <string name="pref_video_speed_title">Video capture speed</string>
   <string name="pref_video_speed_value_fast">fast</string>
   <string name="pref_video_speed_value_normal">normal</string>
   <string name="pref_video_speed_value_slow">slow</string>
@@ -597,7 +591,7 @@ and brings out the people in the front."</string>
   <string name="simple_mode_button_text_scene">Turn off Scene mode</string>
   <string name="simple_mode_button_text_slow_video">Turn off time-lapse</string>
   <string name="simple_mode_button_text_square">Turn off Square</string>
-  <string name="simple_mode_button_text_stereo_mode">Turn off Stereo</string>
+  <string name="simple_mode_button_text_stereo_mode">Turn off Focus adjustment</string>
   <string name="simple_mode_button_text_tilt_shift">Turn off Tilt-shift</string>
   <string name="simple_mode_button_text_ubifocus">Turn off Refocus</string>
   <string name="snap_cancel">Cancel</string>

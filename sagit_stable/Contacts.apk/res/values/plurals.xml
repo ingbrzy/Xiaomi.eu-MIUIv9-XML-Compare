@@ -121,10 +121,6 @@
         <item quantity="other">Unblock %1$d phone numbers?</item>
         <item quantity="one">Unblock %1$d phone number?</item>
     </plurals>
-    <plurals name="livetalk_unit">
-        <item quantity="other">Minutes</item>
-        <item quantity="one">Minute</item>
-    </plurals>
     <plurals name="callNoAnswerTimeFormat">
         <item quantity="other">Rang %1$d times</item>
         <item quantity="one">Rang %1$d time</item>
