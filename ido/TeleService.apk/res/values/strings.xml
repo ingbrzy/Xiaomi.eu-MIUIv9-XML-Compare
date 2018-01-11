@@ -979,6 +979,7 @@ Your SIM card will be locked after another unsuccessful attempt."</string>
   <string name="puk_unlock_failed">PUK unlock unsuccessful.</string>
   <string name="puk_unlock_success">PUK unlock successful.</string>
   <string name="puk_unlocked">Your SIM card has been unblocked. Your phone is unlocking…</string>
+  <string name="quick_dial_setting_title">Quick dial</string>
   <string name="radio_off_error">Turn on the radio before viewing these settings.</string>
   <string name="rc_unlock_failed">RUIM Corporate unlock request unsuccessful.</string>
   <string name="rc_unlock_success">RUIM Corporate unlock successful.</string>
