@@ -73,5 +73,7 @@ You must agree to our Terms of Service and Privacy Policy before you can use MIU
 You must agree to our Terms of Service and Privacy Policy before you can use MIUI. Mi services, Mi SIM activation services, Mi Cloud, Find device, Home screen, Game center, MAB ,MiuiDaemon and MSA system components, web apps, quick cards, statistics, smart cards, Mi Link, Mi Account, and Google Play services components will connect to the internet and acquire your location."</string>
   <string name="title_fingerprint">Set password</string>
   <string name="user_agreement">Terms of Service</string>
+  <string name="voice_assist_desp">Say \"Mi AI\" into your phone. Mi AI will recognize your voice and will be able to control your device.</string>
+  <string name="voice_assist_title">Wake with voice</string>
   <string name="welcome">Welcome</string>
 </resources>

@@ -4002,9 +4002,7 @@ Your saved fingerprints will also be removed from this device and you won't be a
   <string name="unlock_disable_frp_warning_content_pin_fingerprint">"Device protection features will not work without your PIN.
 
 Your saved fingerprints will also be removed from this device and you won't be able to unlock your phone, authorize purchases, or sign in to apps with them."</string>
-  <string name="unlock_disable_frp_warning_content_profile">"Profile protection features will not work without your password.
-
- You won't be able to unlock your profile, authorize purchases, or sign in to apps with them."</string>
+  <string name="unlock_disable_frp_warning_content_profile">"Profile protection features won't work without your password."</string>
   <string name="unlock_disable_frp_warning_content_unknown">Device protection features will not work without your screen lock.</string>
   <string name="unlock_disable_frp_warning_content_unknown_fingerprint">"Device protection features will not work without your screen lock.
 
