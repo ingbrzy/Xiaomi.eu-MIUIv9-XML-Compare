@@ -24,7 +24,45 @@
         <item>com.android.updater</item>
         <item>com.android.settings</item>
         <item>com.android.bluetooth</item>
+        <item>com.jeejen.family.miui</item>
+        <item>com.android.server.telecom</item>
+        <item>com.miui.networkassistant</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.android.cts.verifier</item>
+        <item>com.miui.securitycore</item>
+        <item>com.lbe.security.miui</item>
+        <item>com.bsb.hike</item>
+        <item>com.fihtdc.fqc</item>
+        <item>com.android.soundrecorder</item>
+        <item>com.miui.home</item>
+        <item>com.miui.personalassistant</item>
+        <item>com.mi.AutoTest</item>
+        <item>com.miui.packageinstaller</item>
+        <item>com.xiaomi.account</item>
+        <item>com.android.htmlviewer</item>
         <item>com.whatsapp</item>
+        <item>com.facebook.orca</item>
+        <item>com.bbm</item>
+        <item>jp.naver.line.android</item>
+        <item>com.xiaomi.mipicks</item>
+    </string-array>
+    <string-array name="keyguard_whitelist">
+        <item>com.miui.yellowpage</item>
+        <item>com.android.cellbroadcastreceiver</item>
+        <item>com.google.android.talk</item>
+        <item>com.tencent.mm</item>
+        <item>com.tencent.qq</item>
+        <item>com.tencent.mobileqq</item>
+        <item>com.xiaomi.channel</item>
+        <item>com.android.calendar</item>
+        <item>com.android.phone</item>
+        <item>com.android.mms</item>
+        <item>com.google.android.gm</item>
+        <item>com.android.email</item>
+        <item>android</item>
+        <item>com.android.updater</item>
+        <item>com.android.settings</item>
+        <item>com.android.bluetooth</item>
         <item>com.jeejen.family.miui</item>
         <item>com.android.server.telecom</item>
         <item>com.miui.networkassistant</item>

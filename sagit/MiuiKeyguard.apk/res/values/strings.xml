@@ -32,7 +32,7 @@
   <string name="face_data_manage_unlock_msg">Unlock device using your face data</string>
   <string name="face_data_manage_unlock_title">Unlock using face data</string>
   <string name="face_data_siggesstion_next">Next</string>
-  <string name="face_data_siggesstion_next_time">Next(%ds)</string>
+  <string name="face_data_siggesstion_next_time">Next (%ds)</string>
   <string name="face_data_suggesstion_first">Security issues: Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with similar appearance.</string>
   <string name="face_data_suggesstion_second">"Make sure all parts of your face aren't covered by objects and are clearly visible. Your face should be well-lit as well."</string>
   <string name="face_unlock_adjust_distance">Make sure the distance between your face and the screen is optimal.</string>

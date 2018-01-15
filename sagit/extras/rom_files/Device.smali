@@ -771,6 +771,20 @@
     return v0
 .end method
 
+.method public static enableAlgorithmInFileSuffix()Z
+    .locals 2
+
+    const-string/jumbo v0, "enable_algorithm_in_file_suffix"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static enhanceBeautyWithHHT()Z
     .locals 2
 
@@ -789,20 +803,6 @@
     move-result v0
 
     :cond_0
-    return v0
-.end method
-
-.method public static expandSelectorWhenAutoTrigger()Z
-    .locals 2
-
-    const-string/jumbo v0, "expand_selector_when_auto_trigger"
-
-    const/4 v1, 0x0
-
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v0
-
     return v0
 .end method
 
