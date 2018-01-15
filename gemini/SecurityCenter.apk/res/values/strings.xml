@@ -1457,6 +1457,7 @@ This activity shortens battery life."</string>
   <string name="power_btn_analyze">Analyze battery usage</string>
   <string name="power_cell">Cell standby</string>
   <string name="power_center_auto_shutdown">Schedule power on/off</string>
+  <string name="power_center_back">Back power</string>
   <string name="power_center_charge_time">%1$suntil full</string>
   <string name="power_center_main_percent_formatted">%s%%</string>
   <string name="power_center_ontime_boot">Power on time</string>
