@@ -73,7 +73,7 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="one">%d app found</item>
     </plurals>
     <plurals name="network_restrict_count">
-        <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d:&lt;/font> apps"</item>
+        <item quantity="other">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> apps"</item>
         <item quantity="one">"Network access is restricted for &lt;font color='#ff0000'>%d&lt;/font> app"</item>
     </plurals>
     <plurals name="om_ill_proc_multi_app_title">
