@@ -29,8 +29,8 @@
   <string name="action_button_text_60">Fix</string>
   <string name="action_button_text_60_80">Fix</string>
   <string name="action_button_text_80_100">Optimize</string>
-  <string name="action_source_call_title">Blocked Calls</string>
-  <string name="action_source_sms_title">Blocked Messages</string>
+  <string name="action_source_call_title">Blocked calls</string>
+  <string name="action_source_sms_title">Blocked messages</string>
   <string name="activity_title_antispam">Blocklist</string>
   <string name="activity_title_antivirus">Security scan</string>
   <string name="activity_title_apps_manager">Apps</string>
@@ -121,7 +121,7 @@
   <string name="antivirus_update_btn_update">Update</string>
   <string name="apn_exception_summary">"Test carrier's Access Point Name configurations"</string>
   <string name="apn_exception_title">Check APN configurations</string>
-  <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content. Restrict anyway?</string>
+  <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content.</string>
   <string name="app_check_no_issue">Looks like there are no battery issues. Cool!</string>
   <string name="app_detail">Details</string>
   <string name="app_error_tip_for_launcher">"Your device's hardware components or Android system version may cause compatibility issues and make some apps misbehave, freeze, or be force stopped. If you encounter such issues, share your feedback with the app developers."</string>
@@ -355,10 +355,10 @@
   <string name="back_app_name">Go back to App lock</string>
   <string name="back_description_securitycenter">Back</string>
   <string name="back_modifypassword">Go back to changing password</string>
-  <string name="back_sound_data">It requires cellular mobile network, please retry!</string>
-  <string name="back_sound_fail">Failed！By reason of the change of operator interface, you can try to switch current sim card to network card and try again.</string>
-  <string name="back_sound_success">Success!</string>
-  <string name="back_sound_support">"The current network operators doesn't support it！"</string>
+  <string name="back_sound_data">Turn on mobile data and try again.</string>
+  <string name="back_sound_fail">"Couldn't set. Carrier settings changed. Set the current SIM card as your data card, connect to the network, and try again."</string>
+  <string name="back_sound_success">Set successfully</string>
+  <string name="back_sound_support">"Your carrier's network doesn't support this setting."</string>
   <string name="background_restrict_app_dialog_message">Restricting background network access for this app might make it impossible for the app to work normally, receive messages, download content, etc. Restrict anyway?</string>
   <string name="background_traffic">Background %s</string>
   <string name="backsound_set_hint">Set your away message to %s?</string>
@@ -656,7 +656,7 @@
   <string name="dlg_keyword_ok">Save</string>
   <string name="dlg_message_not_open_stranger_identify">To turn this feature on, go to Settings &gt; Phone.</string>
   <string name="dlg_move_to_white">Add to exceptions</string>
-  <string name="dlg_no_block">"Unblock this phone number ?
+  <string name="dlg_no_block">"Unblock this phone number?
 It will be added to exceptions, but previously blocked items won't appear in call history."</string>
   <string name="dlg_no_block_ok">Unblock</string>
   <string name="dlg_not_block_call">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in call history."</string>
@@ -1736,7 +1736,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sc_allow_network_dialog_message">This app needs to connect to the internet to work normally.</string>
   <string name="sc_allow_network_dialog_tiltle">"Can't use this feature"</string>
   <string name="sc_system_risk_fix_info_xspace">"Can't solve this in Second space. Try again in First space."</string>
-  <string name="sc_warning_updater_not_found">Updater application not found. Unable to update !</string>
+  <string name="sc_warning_updater_not_found">"Couldn't find the Updater app."</string>
   <string name="scan_installed_games">Checking installed games…</string>
   <string name="scan_status_risk">Risky</string>
   <string name="scan_status_safe">Secure</string>
@@ -1901,9 +1901,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_message_phone_AntiSpam">Block calls</string>
   <string name="st_message_phonepass">Allow calls</string>
   <string name="st_msg_intercept_contacts">Block SMS from contacts</string>
-  <string name="st_msg_keyword_black">Keyword Blocklist</string>
+  <string name="st_msg_keyword_black">Keyword blocklist</string>
   <string name="st_msg_keyword_group">Keywords</string>
-  <string name="st_msg_keyword_white">Keyword Exceptions</string>
+  <string name="st_msg_keyword_white">Keyword exceptions</string>
   <string name="st_msg_other_group">Other</string>
   <string name="st_msg_settings">SMS blocklist</string>
   <string name="st_msg_stranger_group">Block SMS from strangers</string>
@@ -1936,8 +1936,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_title_call_wait_setting">Call waiting</string>
   <string name="st_title_editblacklist">Edit blocklist</string>
   <string name="st_title_editwhitelist">Edit exceptions</string>
-  <string name="st_title_keywords_blacklist">Keyword blacklist</string>
-  <string name="st_title_keywords_whitelist">Keyword whitelist</string>
+  <string name="st_title_keywords_blacklist">Keyword blocklist</string>
+  <string name="st_title_keywords_whitelist">Keyword exceptions</string>
   <string name="st_title_man_addblacklist">Add number to blocklist</string>
   <string name="st_title_man_addwhitelist">Add phone number to exceptions</string>
   <string name="st_title_man_editblacklist">Choose an area code to add to blocklist</string>
