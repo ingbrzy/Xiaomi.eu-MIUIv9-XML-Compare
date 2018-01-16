@@ -102,6 +102,8 @@
         <item>az_AZ</item>
         <item>in_ID</item>
         <item>ms_MY</item>
+        <item>ca_ES</item>
+        <item>da_DK</item>
         <item>de_DE</item>
         <item>et_EE</item>
         <item>en_IN</item>
@@ -109,12 +111,15 @@
         <item>en_US</item>
         <item>es_ES</item>
         <item>es_US</item>
+        <item>eu_ES</item>
         <item>fr_FR</item>
+        <item>gl_ES</item>
         <item>ha_NG</item>
         <item>it_IT</item>
         <item>lv_LV</item>
         <item>lt_LT</item>
         <item>hu_HU</item>
+        <item>nb_NO</item>
         <item>uz_UZ</item>
         <item>pl_PL</item>
         <item>pt_BR</item>
@@ -157,6 +162,7 @@
         <item>ar_EG</item>
         <item>fa_IR</item>
         <item>iw_IL</item>
+        <item>km_KH</item>
         <item>ko_KR</item>
         <item>zh_CN</item>
         <item>zh_TW</item>

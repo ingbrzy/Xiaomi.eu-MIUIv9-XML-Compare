@@ -222,8 +222,8 @@
   <string name="auto_advance_help_title">After deleting a message, view…</string>
   <string name="auto_advance_label">Delete message flow</string>
   <string name="auto_advance_summary">Choose which message to scroll to after deleting a message</string>
-  <string name="auto_login_fail">Automatic login failed</string>
-  <string name="auto_login_fail_to_retry">Automatic login failed, try again.</string>
+  <string name="auto_login_fail">"Couldn't sign in automatically"</string>
+  <string name="auto_login_fail_to_retry">"Couldn't sign in automatically, try again."</string>
   <string name="auto_mail_describe">139 Email Service Automatical Configuring can help you filling in the login information to the mailbox. Do you want to enable this feature?</string>
   <string name="auto_mail_disable_txt">Disabled</string>
   <string name="auto_mail_enable_txt">Start Settings</string>
@@ -888,9 +888,9 @@ to receive reminders about payments and trips"</string>
   <string name="push_wps_confirm_message">Try using WPS Office to open this attachment.</string>
   <string name="push_wps_confirm_title">Try WPS Office</string>
   <string name="push_wps_no_response_app">No application found to handle this action</string>
-  <string name="qq_auto_login_failed_cpy_pass_success">Copied successfully; please return to the login page and paste to fill the password field</string>
-  <string name="qq_auto_login_failed_dialog_message">Please copy the authorization code, then return to login page and click \"Input username and password to log in\"; paste to fill the password field to login manually</string>
-  <string name="qq_auto_login_failed_dialog_positive_label">Copy the authorization code</string>
+  <string name="qq_auto_login_failed_cpy_pass_success">Copied successfully. Go back to the sign-in page and paste the code into the password form.</string>
+  <string name="qq_auto_login_failed_dialog_message">Copy verification code, tap \"Enter username and password to sign in\" on the sign-in page, and paste the code into the password form.</string>
+  <string name="qq_auto_login_failed_dialog_positive_label">Copy code</string>
   <string name="qq_bar_open_imap">Help</string>
   <string name="qq_bar_send_message">Send SMS</string>
   <string name="qq_login_basecode">Signing in to the web QQ Mail. Enter independent password.</string>
@@ -1000,7 +1000,7 @@ to receive reminders about payments and trips"</string>
   <string name="request_entity_large">File is too big</string>
   <string name="request_permission_activity">Permission Request</string>
   <string name="respond_inline">"   Respond inline"</string>
-  <string name="retry_login">please sign in again</string>
+  <string name="retry_login">Sign in again</string>
   <string name="save_action">Save</string>
   <string name="save_attachment">Save</string>
   <string name="save_draft_failed">Save draft failed</string>
