@@ -81,7 +81,7 @@
   <string name="alarm_lockscreen_btn">开始抢红包</string>
   <string name="alarm_setting_title">红包闹钟设置</string>
   <string name="all_address_choose_hint">All numbers in this province</string>
-  <string name="already_close_gamebooster">Gaming speed boost is off</string>
+  <string name="already_close_gamebooster">Game speed booster is off</string>
   <string name="anti_disturb_msg_detail">Turn off all notifications except for incoming calls</string>
   <string name="anti_disturb_msg_title">DND</string>
   <string name="antispam_mode_details">Blocklist details</string>
@@ -155,14 +155,14 @@
   <string name="app_manager_clear_dlg_title">Clear data</string>
   <string name="app_manager_clear_failed_dlg_message">Couldn’t clear data for app.</string>
   <string name="app_manager_code_size">App size</string>
-  <string name="app_manager_comuting_size">Computing…</string>
+  <string name="app_manager_comuting_size">Calculating…</string>
   <string name="app_manager_copy_pkg_to_clip">Copied to clipboard</string>
   <string name="app_manager_data_size">User data</string>
   <string name="app_manager_default_cleared">Cleared</string>
   <string name="app_manager_default_close_summary">No defaults set.</string>
   <string name="app_manager_default_open_summary">You’ve chosen to launch this app by default for some actions.</string>
   <string name="app_manager_default_open_title">Clear defaults</string>
-  <string name="app_manager_defaults_setting">Defaults</string>
+  <string name="app_manager_defaults_setting">Default apps</string>
   <string name="app_manager_details_electric_title">Battery</string>
   <string name="app_manager_details_storage_title">Storage</string>
   <string name="app_manager_details_traffic_title">Data usage</string>
@@ -198,7 +198,7 @@
   <string name="app_manager_net_mobile">Mobile data</string>
   <string name="app_manager_net_wifi">WLAN</string>
   <string name="app_manager_not_allow">No</string>
-  <string name="app_manager_not_support_uninstall">"Can't uninstall this apps"</string>
+  <string name="app_manager_not_support_uninstall">"Can't uninstall these apps"</string>
   <string name="app_manager_notify_bar">Badges</string>
   <string name="app_manager_notify_floating">Floating notifications</string>
   <string name="app_manager_notify_keyguard">Lock screen</string>
@@ -493,7 +493,7 @@
   <string name="card_main_deepclean_wechat_action">Clear</string>
   <string name="card_main_deepclean_wechat_summary">Clear WeChat cache to free up storage space</string>
   <string name="card_main_deepclean_wechat_title">WeChat cache</string>
-  <string name="card_main_gamebooster_title">Gaming speed boost</string>
+  <string name="card_main_gamebooster_title">Game speed booster</string>
   <string name="card_main_hbassistant_summary">Use this tool to grab the envelopes faster</string>
   <string name="card_main_hbassistant_title">Red envelope assistant</string>
   <string name="card_main_monthreport_action">View</string>
@@ -766,7 +766,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="free_send_net_booster">Free Network speed boost</string>
   <string name="free_send_net_booster_busniess">Get a free Xunlei speed boost</string>
   <string name="free_send_net_booster_busniess_tip">Tap to receive</string>
-  <string name="free_send_net_booster_tip">Enjoy smooth gaming with the free Network speed boost.</string>
+  <string name="free_send_net_booster_tip">Enjoy smooth gaming with the free network speed boost.</string>
   <string name="free_time_traffic">Off-peak data limit</string>
   <string name="free_time_traffic_hint">Enter off-peak data limit</string>
   <string name="free_time_traffic_settings">Off-peak data limit</string>
@@ -836,7 +836,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gs_game_net_priority">Connection priority</string>
   <string name="gs_game_net_priority_detail">Limit download speed to have enough bandwidth for gaming</string>
   <string name="gs_game_performance">Performance</string>
-  <string name="gs_game_shortcut">Enjoy a more fluid game experience</string>
+  <string name="gs_game_shortcut">Improve your gaming experience</string>
   <string name="gs_only_self_start_for_list">Restrict background processes to save battery for gaming</string>
   <string name="gs_open_game_booster">Boost speed</string>
   <string name="gs_performance_mode">Performance mode</string>
@@ -1457,7 +1457,7 @@ This activity shortens battery life."</string>
   <string name="power_btn_analyze">Analyze battery usage</string>
   <string name="power_cell">Cell standby</string>
   <string name="power_center_auto_shutdown">Schedule power on/off</string>
-  <string name="power_center_back">Back power</string>
+  <string name="power_center_back">Back to Power</string>
   <string name="power_center_charge_time">%1$suntil full</string>
   <string name="power_center_main_percent_formatted">%s%%</string>
   <string name="power_center_ontime_boot">Power on time</string>
@@ -2269,7 +2269,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="uninstall_danagerous_btn">Uninstall</string>
   <string name="uninstall_danagerous_desc">\"%s\" may damage your device</string>
   <string name="uninstall_danagerous_msg">\"%s\" may damage your device, lower its performance, or cause reboots.</string>
-  <string name="uninstall_danagerous_title">Uninstall malicious app</string>
+  <string name="uninstall_danagerous_title">Uninstall malicious apps</string>
   <string name="unlike">No thanks</string>
   <string name="unlock_pattern">&lt;u&gt;Pattern&lt;/u&gt;</string>
   <string name="unlock_pattern_to_bind_fingerprint">Enter password to activate fingerprint</string>
