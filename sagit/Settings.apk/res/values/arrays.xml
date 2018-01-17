@@ -100,7 +100,7 @@
         <item>10</item>
     </string-array>
     <string-array name="ap_identify">
-        <item>default</item>
+        <item>Default</item>
         <item>iPhone</item>
     </string-array>
     <string-array name="apn_auth_entries">
@@ -1039,7 +1039,7 @@
         <item>Frankfurt</item>
         <item>Hanoi</item>
         <item>Ankara</item>
-        <item>Bangalore</item>
+        <item>Bengaluru</item>
         <item>Brasília</item>
         <item>Cape Town</item>
         <item>Islamabad</item>
@@ -1057,7 +1057,7 @@
         <item>Monrovia</item>
         <item>Colombo</item>
         <item>Chihuahua</item>
-        <item>Gurgaon</item>
+        <item>Gurugram</item>
         <item>Manchester</item>
         <item>Kyiv</item>
         <item>St. Petersburg</item>

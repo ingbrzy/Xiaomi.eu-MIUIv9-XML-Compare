@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="weather_type_null">'No data'</string>
+    <string name="weather_type_0">Klart</string>
+    <string name="weather_type_1">Overskyet</string>
+    <string name="weather_type_2">Diset</string>
+    <string name="weather_type_3">Tåget</string>
+    <string name="weather_type_4">Kraftig regnvejr</string>
+    <string name="weather_type_5">Regnvejr</string>
+    <string name="weather_type_6">Meget kraftig rain</string>
+    <string name="weather_type_7">Tordenvejr</string>
+    <string name="weather_type_8">Regn</string>
+    <string name="weather_type_9">Kraftig regn</string>
+    <string name="weather_type_10">Regn</string>
+    <string name="weather_type_11">Dryp</string>
+    <string name="weather_type_12">Slud</string>
+    <string name="weather_type_13">Snestorm</string>
+    <string name="weather_type_14">Pletvis snefald</string>
+    <string name="weather_type_15">Kraftig snefald</string>
+    <string name="weather_type_16">Snefald</string>
+    <string name="weather_type_17">Let snefald</string>
+    <string name="weather_type_18">Stærk sandstorm</string>
+    <string name="weather_type_19">Sandstorm</string>
+    <string name="weather_type_20">Let sandstorm</string>
+    <string name="weather_type_21">Sandstorm</string>
+    <string name="weather_type_22">Hagl</string>
+    <string name="weather_type_23">Flydende støv</string>
+    <string name="weather_type_24">Diset</string>
+</resources>
