@@ -1878,7 +1878,7 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="force_hw_ui_summary">Force use of GPU for 2d drawing</string>
   <string name="force_immersive_compatibility_dont_hide">"Don't hide"</string>
   <string name="force_immersive_compatibility_hide">Hide</string>
-  <string name="force_immersive_compatibility_hint_message">Some apps might not work properly if you choose to hide soft buttons.</string>
+  <string name="force_immersive_compatibility_hint_message">Some apps might not work properly if you choose to hide screen buttons.</string>
   <string name="force_immersive_compatibility_hint_title">Compatibility issues</string>
   <string name="force_msaa">Force 4x MSAA</string>
   <string name="force_msaa_summary">Enable 4x MSAA in OpenGL ES 2.0 apps</string>
@@ -3031,7 +3031,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="onehour">30 minutes</string>
   <string name="onekey_migrate">Mi Mover</string>
   <string name="onscreen_keyboard_settings_summary">Onscreen keyboard settings</string>
-  <string name="open_demo_mode">Open</string>
+  <string name="open_demo_mode">Turn on</string>
   <string name="open_demo_mode_warning_message">When Demo mode is on, the clock in the status bar will stop, battery and signal icons will be displayed as full. You can turn Demo mode off or reboot the device to change this.</string>
   <string name="open_miui_optimization_title">Turn on MIUI optimization</string>
   <string name="open_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
@@ -4288,7 +4288,7 @@ Possibly incorrect PIN."</string>
   <string name="spellchecker_security_warning">This spell checker may be able to collect all the text you type, including personal data like passwords and credit card numbers. It comes from the app %1$s. Use this spell checker?</string>
   <string name="spellchecker_switch_title">Turn on Spell checker</string>
   <string name="spellcheckers_settings_title">Spell checker</string>
-  <string name="split_screen">Enter split screen</string>
+  <string name="split_screen">Open Split screen</string>
   <string name="ssid_label">SSID:</string>
   <string name="ssl_ca_cert_warning">Network may be monitored</string>
   <string name="ssl_ca_cert_warning_message">"A third party is capable of monitoring your network activity, including emails, apps, and secure websites.
@@ -4309,8 +4309,8 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_app_enable_message">Badges</string>
   <string name="status_bar_key_position_custom">Change button positions</string>
   <string name="status_bar_notification_info_overflow">999+</string>
-  <string name="status_bar_screen_button_force_immersive_desc">Swipe up from the bottom of the screen to show soft buttons</string>
-  <string name="status_bar_screen_button_key_force_immersive">Hide soft buttons</string>
+  <string name="status_bar_screen_button_force_immersive_desc">Swipe up from the bottom of the screen to show screen buttons</string>
+  <string name="status_bar_screen_button_key_force_immersive">Hide screen buttons</string>
   <string name="status_bar_screen_key_back">Back button</string>
   <string name="status_bar_screen_key_home">Home button</string>
   <string name="status_bar_screen_key_menu">Menu button</string>
