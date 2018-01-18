@@ -7,6 +7,7 @@
   <string name="custom_lock_wallpaper_enter">Enter</string>
   <string name="default_lockscreen_unlock_hint_text">Swipe up to unlock</string>
   <string name="delete">Delete</string>
+  <string name="digital_clock_dot">:</string>
   <string name="do_disclosure_generic">This device is managed by your organization</string>
   <string name="do_disclosure_with_name">This device is managed by %s</string>
   <string name="doze_pickup_subtype_performs_proximity_check"/>
@@ -32,7 +33,7 @@
   <string name="face_data_manage_unlock_msg">Unlock device using your face data</string>
   <string name="face_data_manage_unlock_title">Unlock using face data</string>
   <string name="face_data_siggesstion_next">Next</string>
-  <string name="face_data_siggesstion_next_time">Next(%ds)</string>
+  <string name="face_data_siggesstion_next_time">Next (%ds)</string>
   <string name="face_data_suggesstion_first">Security issues: Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with similar appearance.</string>
   <string name="face_data_suggesstion_second">"Make sure all parts of your face aren't covered by objects and are clearly visible. Your face should be well-lit as well."</string>
   <string name="face_unlock_adjust_distance">Make sure the distance between your face and the screen is optimal.</string>
@@ -108,6 +109,7 @@
   <string name="keyguard_left_buscard">Notes</string>
   <string name="keyguard_left_remotecentral">Calendar</string>
   <string name="keyguard_left_smarthome">Contacts</string>
+  <string name="keyguard_left_view_lock_wallpaper">Wallpaper Carousel</string>
   <string name="keyguard_quick_charging_info_click_to_detail">Quick charging. Tap to view details.</string>
   <string name="keyguard_quickly_charging_info_charging_text">Quick charging…</string>
   <string name="keyguard_torch_cover_text">To keep torch on, hold the Power button</string>
