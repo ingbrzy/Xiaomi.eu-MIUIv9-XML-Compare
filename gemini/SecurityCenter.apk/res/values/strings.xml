@@ -484,7 +484,7 @@
   <string name="cancel">Cancel</string>
   <string name="cancel_button">Cancel</string>
   <string name="card_main_applock_action">Turn on</string>
-  <string name="card_main_applock_summary">Protect private items with App lock</string>
+  <string name="card_main_applock_summary">Protect selected apps with a password. Hide messages, photos, notes, and more.</string>
   <string name="card_main_applock_title">App lock</string>
   <string name="card_main_deepclean_action">Clear</string>
   <string name="card_main_deepclean_qq_title">QQ cleaner</string>
@@ -1150,6 +1150,7 @@ to respond"</string>
   <string name="menu_text_power_percent_title">Battery %s</string>
   <string name="menu_text_power_percent_title_default">Battery</string>
   <string name="menu_wh_remove">Remove from exceptions</string>
+  <string name="menu_white">Except</string>
   <string name="mi_pay_lucky">小米钱包</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_service_traffic_detail">Framework details</string>

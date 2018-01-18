@@ -47,6 +47,7 @@
   <string name="accessibility_display_daltonizer_preference_subtitle">This feature is experimental and may affect performance.</string>
   <string name="accessibility_display_daltonizer_preference_title">Color correction</string>
   <string name="accessibility_divider">Split screen divider</string>
+  <string name="accessibility_drag_hint_message">Drag items to top of the screen</string>
   <string name="accessibility_home">Home</string>
   <string name="accessibility_ime_switch_button">Switch input method button.</string>
   <string name="accessibility_managed_profile">Work profile</string>
@@ -63,8 +64,10 @@
   <string name="accessibility_recent">Recent apps</string>
   <string name="accessibility_recent_task_exit">Closed Recents</string>
   <string name="accessibility_recent_task_locked">Locked, swipe down to unlock.</string>
+  <string name="accessibility_recent_task_locked_state">Locked</string>
   <string name="accessibility_recent_task_memory_info">Total RAM: %2$s | Available RAM: %1$s. Double tap to clear.</string>
   <string name="accessibility_recent_task_unlocked">Unlocked</string>
+  <string name="accessibility_recent_task_unlocked_state">Unlocked</string>
   <string name="accessibility_recents_all_items_dismissed">All recent apps were removed</string>
   <string name="accessibility_recents_item_dismissed">%s was removed</string>
   <string name="accessibility_recents_item_launched">Starting %s…</string>
