@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="weather_type_null">'No data'</string>
-    <string name="weather_type_0">Clear</string>
+    <string name="weather_type_0">Garbitu</string>
     <string name="weather_type_1">Cloudy</string>
     <string name="weather_type_2">Hazy</string>
     <string name="weather_type_3">Foggy</string>

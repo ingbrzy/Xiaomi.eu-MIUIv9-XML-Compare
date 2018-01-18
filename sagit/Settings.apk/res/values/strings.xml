@@ -2743,6 +2743,7 @@ Select your operating system:"</string>
   <string name="music_audio_effect_optimize_summary_with_hifi">Dirac, Hi-Fi, headphones, and other audio settings</string>
   <string name="music_audio_effect_settings">Effects settings</string>
   <string name="music_dirac_control">Optimize audio quality</string>
+  <string name="music_dirac_mode_cancelling">Mi Noise Cancelling (3.5mm)</string>
   <string name="music_dirac_mode_capsule">Mi Capsule</string>
   <string name="music_dirac_mode_earbuds">Mi Earbuds</string>
   <string name="music_dirac_mode_general">General</string>
@@ -2761,7 +2762,7 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_piston_color">Color Edition</string>
   <string name="music_dirac_mode_piston_standard">Standard Edition</string>
   <string name="music_dirac_mode_piston_youth">Youth Edition</string>
-  <string name="music_dirac_mode_reduction_noise">Reduce noise (USB-C)</string>
+  <string name="music_dirac_mode_reduction_noise">Mi Noise Cancelling (TypeC)</string>
   <string name="music_dolby_mode_movie">Video</string>
   <string name="music_dolby_mode_music">Music</string>
   <string name="music_dolby_mode_off">Off</string>
@@ -2799,6 +2800,8 @@ Select your operating system:"</string>
   <string name="my_device_disclaimer">Note: Hardware info, including CPU, battery capacity, screen size and resolution, and camera, is provided by Xiaomi labs, designers, and suppliers.</string>
   <string name="n_cacrts">%d CA certificates</string>
   <string name="nature_color">Default</string>
+  <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
+  <string name="navigation_guide_app_title">"Trigger app's action"</string>
   <string name="navigation_guide_back_anim_summary">"Show animation while you're swiping from the edge of the screen"</string>
   <string name="navigation_guide_back_anim_title">Animate the \"Go back\" gesture</string>
   <string name="navigation_guide_back_summary">Swipe left or right from the edge of the screen</string>
