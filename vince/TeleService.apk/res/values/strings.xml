@@ -900,8 +900,8 @@ Switch to the new provider anyway?"</string>
   <string name="missed_call_notify_times_title">Missed call reminders</string>
   <string name="missed_call_notify_twice">2 times</string>
   <string name="miui_network_selection_reset_text">Reset</string>
-  <string name="miui_notification_network_selection_title">SIM no service</string>
-  <string name="miui_notification_network_selection_title_by_sim">SIM %s no service</string>
+  <string name="miui_notification_network_selection_title">SIM: No service</string>
+  <string name="miui_notification_network_selection_title_by_sim">SIM %s: No service</string>
   <string name="mmiCancelled">MMI code canceled</string>
   <string name="mmiStarted">MMI code started</string>
   <string name="mobile_data_always_on">Cellular data always active</string>
@@ -911,7 +911,7 @@ Switch to the new provider anyway?"</string>
   <string name="mock_location_app">Select mock location app</string>
   <string name="mock_location_app_not_set">No mock location app set</string>
   <string name="mock_location_app_set">Mock location app: %1$s</string>
-  <string name="modem_dialog_body">Mobile network is unstable, causing interruptions or network problems.Send bug report to Mi for analysis? This report may contain Personally Identifiable Information. Your report will be used to help fix this bug and will never be shared in any commercial context.</string>
+  <string name="modem_dialog_body">Mobile network is unstable which results in interruptions and network problems. Send feedback to Mi for analysis? This report may contain personally identifiable information. Your report will be used to help us fix this bug and will never be shared in any commercial context.</string>
   <string name="modem_dialog_title">Mobile network is unstable</string>
   <string name="msim_apn_not_set">Not set</string>
   <string name="msim_default_setting">Default settings</string>
