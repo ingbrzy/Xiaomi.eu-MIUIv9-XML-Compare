@@ -278,6 +278,7 @@
   <string name="sort_by_not_defined">Auto-sort</string>
   <string name="start_activity_failed">"Can't start launcher"</string>
   <string name="starting_preset_app">Starting…</string>
+  <string name="status_bar_notification_info_overflow">999+</string>
   <string name="status_downloaded">Downloaded</string>
   <string name="status_downloading">Downloading</string>
   <string name="status_installing">Installing</string>
