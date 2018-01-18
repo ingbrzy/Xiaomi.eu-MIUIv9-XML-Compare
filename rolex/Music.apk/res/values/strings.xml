@@ -7,7 +7,7 @@
   <string name="action_item_add_to_current_playlist">Current playlist</string>
   <string name="action_item_add_to_favorite_playlist">Favorite playlist</string>
   <string name="action_item_add_to_new_playlist">New</string>
-  <string name="action_item_as_ring">Set as ring</string>
+  <string name="action_item_as_ring">Set as ringtone</string>
   <string name="action_item_cancel">Cancel</string>
   <string name="action_item_delete">Delete</string>
   <string name="action_item_download">Download</string>
@@ -192,8 +192,8 @@ is mainly provided by Ultimate Inc."</string>
   <string name="dialog_media_not_found">"Can't download. SD card isn't available."</string>
   <string name="dialog_not_show_again">"Don't show again"</string>
   <string name="dialog_queued_body">This file is queued for future download.</string>
-  <string name="dialog_show_more_backup">Backup local songs</string>
-  <string name="dialog_show_more_optimize_all">"Optimize song's info"</string>
+  <string name="dialog_show_more_backup">Back up local songs</string>
+  <string name="dialog_show_more_optimize_all">Optimize song info</string>
   <string name="dialog_song_sort_type">Sort songs</string>
   <string name="dialog_song_sort_type_name">By name</string>
   <string name="dialog_song_sort_type_playing_times">By the number of times played</string>
@@ -298,7 +298,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="downloaded_empty">Empty</string>
   <string name="downloading_apk">Downloading… View progress in the Notification shade.</string>
   <string name="downloading_empty">Empty</string>
-  <string name="downloading_pause_apk">Paused. Resume doenload in the Notification shade.</string>
+  <string name="downloading_pause_apk">Paused. Resume download in the Notification shade.</string>
   <string name="downloads_operating">Working…</string>
   <string name="durationformatlong">%1$d:%3$02d:%5$02d</string>
   <string name="durationformatshort">%2$d:%5$02d</string>
@@ -409,7 +409,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="global_search_title_movie">Movie soundtracks</string>
   <string name="global_search_title_prenatal">Prenatal music</string>
   <string name="global_search_title_radar">Music recognition</string>
-  <string name="go_to_settings">Settings</string>
+  <string name="go_to_settings">Go to settings</string>
   <string name="handle_later">Not now</string>
   <string name="hide_album">Hide album cover</string>
   <string name="hide_lyric">Hide lyrics</string>
@@ -420,7 +420,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="hot_icon_in_fast_indexer">H</string>
   <string name="i_know">OK</string>
   <string name="i_know_it">OK</string>
-  <string name="impunity_declaration_content1">"By touching agree, you agree to the terms stated in our "</string>
+  <string name="impunity_declaration_content1">By tapping \"Agree\", you agree to the terms stated in our</string>
   <string name="impunity_declaration_content2">User Agreement</string>
   <string name="impunity_declaration_content3">" and "</string>
   <string name="impunity_declaration_content4">Privacy Policy</string>
@@ -429,13 +429,13 @@ is mainly provided by Ultimate Inc."</string>
   <string name="impunity_declaration_negative_text">Exit</string>
   <string name="impunity_declaration_positive_text">Agree</string>
   <string name="impunity_declaration_settings">Show Terms of Service</string>
-  <string name="impunity_declaration_summary">Show Terms of Service popup for Baidu Online Music Service every time the Music app opens</string>
+  <string name="impunity_declaration_summary">Show Terms of Service every time the Music app is launched</string>
   <string name="impunity_declaration_title">Terms of Service</string>
   <string name="in_searching_please_wait">Searching…</string>
   <string name="individuation_recommend_message">Turn on recommendations to receive personalized suggestions based on your preferences.</string>
   <string name="individuation_recommend_switch_message">Turning this feature off will affect personalized Mi Music services. Turn off anyway?</string>
   <string name="individuation_recommend_title">Recommendations</string>
-  <string name="input_hint_prefix">Please input %1$s</string>
+  <string name="input_hint_prefix">Enter %1$s</string>
   <string name="installing_apk">Installing…</string>
   <string name="insufficient_space">"Not enough space on your device's internal storage"</string>
   <string name="intelligent_recognize">Album covers and lyrics</string>
@@ -461,7 +461,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="local_music">Offline</string>
   <string name="local_music_empty">Local playlist is empty</string>
   <string name="local_music_empty_goto_online">No songs found</string>
-  <string name="local_music_is_not_available">Local music is not available.</string>
+  <string name="local_music_is_not_available">"You don't have songs on your device."</string>
   <string name="local_page_album_more">View all</string>
   <string name="local_page_artist">Followed artists</string>
   <string name="local_page_artist_more">More songs by %s</string>
@@ -592,14 +592,11 @@ is mainly provided by Ultimate Inc."</string>
   <string name="notif_text_engine_off">Xunlei accelerator is off.</string>
   <string name="notif_text_engine_on">Accelerating…</string>
   <string name="notif_title_file_size">%1$d total</string>
-  <string name="notif_title_multiple_downloading">Downloading %1$d songs</string>
   <string name="notif_title_single_downloading">Downloading %1$s</string>
   <string name="notification_des_next_song">Next song: %s</string>
   <string name="notification_des_no_song">Mi Music. New every day.</string>
   <string name="notification_download_complete">Download complete</string>
   <string name="notification_download_failed">"Couldn't download"</string>
-  <string name="notification_download_failed_more">"Couldn't download %1$d songs"</string>
-  <string name="notification_download_success_more">%1$d downloaded</string>
   <string name="notification_need_wifi_for_size">Download size requires Wi-Fi.</string>
   <string name="notification_play_summary">View current and next song, display lyrics on Home screen</string>
   <string name="notification_play_title">Notification shade widget</string>
@@ -607,7 +604,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="notification_recommend_title">Important notifications</string>
   <string name="notification_setting">Notification settings</string>
   <string name="notification_title_no_song">"Check out what everyone's listening to!"</string>
-  <string name="nowplaying_circle_style">Play circle style</string>
+  <string name="nowplaying_circle_style">Play button style</string>
   <string name="nowplaying_circle_style_rainbow">Rainbow</string>
   <string name="nowplaying_circle_style_wave">Wave</string>
   <string name="nowplaying_dialog_title_delete_tracks">Clear current playlist?</string>
@@ -633,8 +630,8 @@ is mainly provided by Ultimate Inc."</string>
   <string name="open_download">Open</string>
   <string name="open_online_service">You need to turn on online services to use this feature. Turn on now?</string>
   <string name="open_service">Turn on</string>
-  <string name="optimize_all_until_optimized">Optimize song info, album and lyric</string>
-  <string name="optimize_all_until_scanned">Scanning local song, please try later</string>
+  <string name="optimize_all_until_optimized">Applying new cover and lyrics…</string>
+  <string name="optimize_all_until_scanned">Wait until Music finishes checking storage for songs.</string>
   <string name="order_pending">Awaiting confirmation</string>
   <string name="order_process_fail">"Couldn't authorize your account. Wait a few minutes and try again."</string>
   <string name="other_filter">Other</string>
@@ -650,7 +647,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="paused_waiting_to_retry">Waiting to retry</string>
   <string name="pay">Pay:</string>
   <string name="pay_now">Current service</string>
-  <string name="payment_fail">Payment failed</string>
+  <string name="payment_fail">"Couldn't complete payment"</string>
   <string name="payment_success">Payment complete</string>
   <string name="pending_apk">Pending…</string>
   <string name="permission_declaration_message">Allow access to storage in Security &gt; Permissions &gt; Permissions &gt; Storage &gt; Music to be able to use Music normally.</string>
@@ -669,7 +666,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="playlist_type_fm">FM</string>
   <string name="playlist_type_my">My playlists</string>
   <string name="playlist_type_recommend">Featured playlists</string>
-  <string name="playlist_unavailable">"Sorry, the playlist isn't available. To delete it, press and hold, then choose delete."</string>
+  <string name="playlist_unavailable">"The playlist isn't available. To delete it, press and hold, then choose \"Delete\"."</string>
   <string name="please_download_first">You need to download this song before you can use it as a ringtone</string>
   <string name="please_search_or_select">Search or select a field</string>
   <string name="please_select_song">Choose a song first</string>
@@ -742,7 +739,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="retry">Retry</string>
   <string name="retry_after_network_available">"Can't connect to the network. Check connection and try again."</string>
   <string name="retry_download">Try again</string>
-  <string name="ringtone_not_support">"This song's format is not supported"</string>
+  <string name="ringtone_not_support">"This song's format isn't supported"</string>
   <string name="root_downloads">Downloads</string>
   <string name="save">Save</string>
   <string name="save_to_playlist">Save as playlist</string>
@@ -770,7 +767,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="selected_count">Selected %1$d out of %2$d</string>
   <string name="send_to">Share</string>
   <string name="send_to_title">Send to (%1$s)</string>
-  <string name="server_error">Server error. Please try again later</string>
+  <string name="server_error">An error occurred, wait a minute or two and try again.</string>
   <string name="service_and_settings">Service and settings</string>
   <string name="service_stop">Service discontinued</string>
   <string name="set_as_ring">Set as ringtone</string>
@@ -819,7 +816,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="song_is_empty">Song name can not be empty.</string>
   <string name="song_name">Song</string>
   <string name="song_not_find">"This song isn't available."</string>
-  <string name="song_offline">Sorry, this song is no longer available.</string>
+  <string name="song_offline">This song is no longer available.</string>
   <string name="song_unit">items</string>
   <string name="sort_by_name">Name</string>
   <string name="sort_by_time">Date</string>
@@ -851,10 +848,15 @@ is mainly provided by Ultimate Inc."</string>
   <string name="tab_track_list">Songs</string>
   <string name="take_effect_afater_restart">You need to restart the app for this setting to take effect.</string>
   <string name="talkback_back">Go back</string>
+  <string name="talkback_cloud_setting">Settings</string>
   <string name="talkback_device">Play on other devices</string>
   <string name="talkback_download">Download</string>
   <string name="talkback_favorite">Like this song</string>
+  <string name="talkback_follow">Follow</string>
+  <string name="talkback_followed">Unfollow</string>
+  <string name="talkback_header_search">"Search "</string>
   <string name="talkback_karaoke">Open Karaoke</string>
+  <string name="talkback_like">Like</string>
   <string name="talkback_mode">Loop</string>
   <string name="talkback_mode_repeat_all">Loop mode</string>
   <string name="talkback_mode_repeat_current">Repeat mode</string>
@@ -869,6 +871,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="talkback_radar">Music recognition</string>
   <string name="talkback_search">Search</string>
   <string name="talkback_share">Share</string>
+  <string name="talkback_unlike">Unlike</string>
   <string name="task_already_exist">Task already exists</string>
   <string name="text_separator">|</string>
   <string name="ticket_summary">Buy tickets for shows, concerts, plays, and other events</string>
@@ -944,7 +947,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="warning_tip_ok">Pause</string>
   <string name="warning_tip_title">Data usage warning</string>
   <string name="welcome_to_new_music">Welcome to the new version of Mi Music</string>
-  <string name="wifi_required_body" formatted="false">"You should use Wi-Fi to complete this %s download. 
+  <string name="wifi_required_body" formatted="false">"Connect to Wi-Fi to complete this %s download.
 
 Tap %s to start this download the next time you're connected to a Wi-Fi network."</string>
   <string name="wifi_required_title">You should connect to Wi-Fi to download this file</string>
