@@ -240,6 +240,18 @@
         <item quantity="other">"Couldn't share. Still processing %d photos…"</item>
         <item quantity="one">"Couldn't share. Still processing %d photo…"</item>
     </plurals>
+    <plurals name="slim_complete_photo_count">
+        <item quantity="other">Optimized %d photos</item>
+        <item quantity="one">Optimized %d photo</item>
+    </plurals>
+    <plurals name="slim_exit_dialog_message">
+        <item quantity="other">"%d photos haven't been optimized. Stop now?"</item>
+        <item quantity="one">"%d photo hasn't been optimized. Stop now?"</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count">
+        <item quantity="other">%d photos left</item>
+        <item quantity="one">%d photo left</item>
+    </plurals>
     <plurals name="sync_error_title">
         <item quantity="other">"Haven't backed up %d photos and videos"</item>
         <item quantity="one">"Haven't backed up %d photo or video"</item>
