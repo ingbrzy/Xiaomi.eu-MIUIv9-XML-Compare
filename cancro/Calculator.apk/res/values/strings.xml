@@ -1,13 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
+  <string name="angle">deg</string>
   <string name="app_name">Calculator</string>
   <string name="app_name_danfa">Mi Calculator</string>
+  <string name="arccos">arccos</string>
+  <string name="arcsin">arcsin</string>
+  <string name="arctan">arctan</string>
   <string name="cal_convert_to_word_figure">Convert to financial characters</string>
   <string name="cal_copy">Copy</string>
   <string name="cal_edit_mode">Edit mode</string>
   <string name="cal_paste">Paste</string>
   <string name="cal_result_format">= %s</string>
   <string name="cal_text_copied">Text copied</string>
+  <string name="cancel">Cancel</string>
   <string name="chinese_character_cross_check">互查</string>
   <string name="chinese_character_daughter">女</string>
   <string name="chinese_character_elder_brother">兄</string>
@@ -47,6 +52,7 @@
   <string name="day">day</string>
   <string name="default_separator_text">的</string>
   <string name="default_text">我</string>
+  <string name="degDesc">Angle</string>
   <string name="del">DEL</string>
   <string name="deleteDesc">delete</string>
   <string name="description_content">Besides its basic features, Calculator also works as a multifunctional converter, mortgage, and tax calculator.Make sure you can do without these features before you uninstall the app.</string>
@@ -107,6 +113,8 @@
   <string name="home_title_calculator">Calculator</string>
   <string name="husband">丈夫</string>
   <string name="income_type"/>
+  <string name="install">Install</string>
+  <string name="install_scanner_to_continued_use">Scanner is uninstalled. Install again?</string>
   <string name="item_title_aa_payment">Split the bill</string>
   <string name="item_title_area_conversion">Area</string>
   <string name="item_title_calculator">Calculator</string>
@@ -143,6 +151,7 @@
   <string name="menuDesc">menu</string>
   <string name="minus">−</string>
   <string name="minusDesc">minus</string>
+  <string name="minusOne">-1</string>
   <string name="month"/>
   <string name="mortgage_amount">Total</string>
   <string name="mortgage_average_repayment_first_month">First month repayment</string>
@@ -208,12 +217,21 @@
   <string name="preference_settings">Settings</string>
   <string name="preference_use_degress_summary">Substitute radians with angles in trigonometric functions</string>
   <string name="preference_use_degress_title">Use angles</string>
+  <string name="radDesc">Radian</string>
+  <string name="radian">rad</string>
   <string name="rate_data_provider">Interest rates are provided by hexun.com</string>
+  <string name="reciprocal">1/X</string>
+  <string name="reciprocalDesc">Reciprocal</string>
   <string name="relationship_cross_check_suggestion">TA称呼我</string>
   <string name="relationship_default_separator_text">的</string>
   <string name="relationship_default_text">我</string>
+  <string name="reverceDesc">arc</string>
   <string name="rightParen">)</string>
   <string name="rightParenDesc">right parenthesis</string>
+  <string name="scannerDesc">Scanner</string>
+  <string name="scanner_had_been_uninstalled">Scanner is uninstalled</string>
+  <string name="secondFunction">2nd</string>
+  <string name="secondFunctionDesc">Switch to the second function</string>
   <string name="settingsDesc">settings</string>
   <string name="sin">sin</string>
   <string name="sinDesc">sine</string>
@@ -223,6 +241,7 @@
   <string name="sqrt">√</string>
   <string name="sqrtDesc">square root</string>
   <string name="start_calculate"/>
+  <string name="switchDesc">Switch</string>
   <string name="tan">tan</string>
   <string name="tanDesc">tangent</string>
   <string name="tan_mathematical_value">tan</string>

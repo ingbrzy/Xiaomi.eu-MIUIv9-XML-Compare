@@ -141,9 +141,9 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="ks_key_status">ks_key_status</string>
   <string name="ks_key_udpate_time">ks_key_udpate_time</string>
   <string name="ks_key_version">ks_key_version</string>
-  <string name="ks_name_alipay">Alipay</string>
+  <string name="ks_name_alipay">IFAA</string>
   <string name="ks_name_fido">FIDO</string>
-  <string name="ks_name_soter">WeChat Pay</string>
+  <string name="ks_name_soter">Soter</string>
   <string name="ks_status_available">Available</string>
   <string name="ks_status_unavailable">Not available</string>
   <string name="ks_update_certificate">Certificate</string>
@@ -424,8 +424,7 @@ Use a different account."</string>
   <string name="micloud_sync_alert_dialog_title">Use Mi Cloud</string>
   <string name="micloud_sync_off">Sync with Mi Cloud is off</string>
   <string name="micloud_sync_prompt_for_no_gallery_sync">Contacts, Calendar, and Notes are synced automatically. Go to Mi Cloud settings to sync more items.</string>
-  <string name="micloud_title_dspt" formatted="false">"%s total
- %s used | %s remaining"</string>
+  <string name="micloud_title_dspt" formatted="false">Used %s/Total space %s,</string>
   <string name="micloud_title_dspt_remain">%s remaining</string>
   <string name="micloud_title_full_dspt">"You've reached your storage limit"</string>
   <string name="micloud_unlogin_for_time_summary"/>
@@ -531,7 +530,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="sub_sync_item_sms_title_wifi_only">Only use WLAN to sync MMS</string>
   <string name="success_upgraded_space">%s added</string>
   <string name="sync_dspt">Sync</string>
-  <string name="sync_dspt_entrance_provision">Mi Cloud helps you sync photos, contacts, and other items across devices. You can access synced items anywhere at %s.</string>
+  <string name="sync_dspt_entrance_provision">"Sync your photos, contacts, call history, and messages across all your devices. Access the things you sync from any browser at %s. "</string>
   <string name="sync_dspt_entrance_provision_2">Learn more</string>
   <string name="sync_dspt_entrance_provision_confirm_close">"Don't use"</string>
   <string name="sync_dspt_entrance_provision_confirm_content">"MIUI's built-in apps need Mi Cloud to back up your photos, contacts, notes, and more. Mi Cloud is free and ready to use out of the box."</string>
@@ -586,10 +585,10 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="virtual_sim_desc">Turn on Mi SIM to locate device without a SIM card</string>
   <string name="voip_choose_sim">Choose phone number to activate Mi Voice</string>
   <string name="wipe_data_dialog_button_check_sync">Check if synced</string>
-  <string name="wipe_data_dialog_msg">"%s weren't synced and will stay on your phone."</string>
+  <string name="wipe_data_dialog_msg">"Some items %s aren't synced. They will be saved on your device and won't be deleted."</string>
   <string name="wipe_data_dialog_msg_and_on">, and some other items</string>
   <string name="wipe_data_dialog_msg_separator">, </string>
-  <string name="wipe_data_dialog_title">"Some items haven't been synced"</string>
+  <string name="wipe_data_dialog_title">"Items aren't synced"</string>
   <string name="wipe_secret_photo_dialog_title">"Hidden photos aren't synced"</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
   <string name="xiaomi_cloud_service">Mi Cloud</string>

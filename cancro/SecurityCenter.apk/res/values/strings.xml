@@ -29,8 +29,8 @@
   <string name="action_button_text_60">Fix</string>
   <string name="action_button_text_60_80">Fix</string>
   <string name="action_button_text_80_100">Optimize</string>
-  <string name="action_source_call_title">Blocked Calls</string>
-  <string name="action_source_sms_title">Blocked Messages</string>
+  <string name="action_source_call_title">Blocked calls</string>
+  <string name="action_source_sms_title">Blocked messages</string>
   <string name="activity_title_antispam">Blocklist</string>
   <string name="activity_title_antivirus">Security scan</string>
   <string name="activity_title_apps_manager">Apps</string>
@@ -81,7 +81,7 @@
   <string name="alarm_lockscreen_btn">开始抢红包</string>
   <string name="alarm_setting_title">红包闹钟设置</string>
   <string name="all_address_choose_hint">All numbers in this province</string>
-  <string name="already_close_gamebooster">Gaming speed boost is off</string>
+  <string name="already_close_gamebooster">Game speed booster is off</string>
   <string name="anti_disturb_msg_detail">Turn off all notifications except for incoming calls</string>
   <string name="anti_disturb_msg_title">DND</string>
   <string name="antispam_mode_details">Blocklist details</string>
@@ -121,7 +121,7 @@
   <string name="antivirus_update_btn_update">Update</string>
   <string name="apn_exception_summary">"Test carrier's Access Point Name configurations"</string>
   <string name="apn_exception_title">Check APN configurations</string>
-  <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content. Restrict anyway?</string>
+  <string name="app_bg_restrict_dialog_message">Restricting background network connection may prevent the app from working normally. For example, it might no longer be able to receive messages or update content.</string>
   <string name="app_check_no_issue">Looks like there are no battery issues. Cool!</string>
   <string name="app_detail">Details</string>
   <string name="app_error_tip_for_launcher">"Your device's hardware components or Android system version may cause compatibility issues and make some apps misbehave, freeze, or be force stopped. If you encounter such issues, share your feedback with the app developers."</string>
@@ -155,14 +155,14 @@
   <string name="app_manager_clear_dlg_title">Clear data</string>
   <string name="app_manager_clear_failed_dlg_message">Couldn’t clear data for app.</string>
   <string name="app_manager_code_size">App size</string>
-  <string name="app_manager_comuting_size">Computing…</string>
+  <string name="app_manager_comuting_size">Calculating…</string>
   <string name="app_manager_copy_pkg_to_clip">Copied to clipboard</string>
   <string name="app_manager_data_size">User data</string>
   <string name="app_manager_default_cleared">Cleared</string>
   <string name="app_manager_default_close_summary">No defaults set.</string>
   <string name="app_manager_default_open_summary">You’ve chosen to launch this app by default for some actions.</string>
   <string name="app_manager_default_open_title">Clear defaults</string>
-  <string name="app_manager_defaults_setting">Defaults</string>
+  <string name="app_manager_defaults_setting">Default apps</string>
   <string name="app_manager_details_electric_title">Battery</string>
   <string name="app_manager_details_storage_title">Storage</string>
   <string name="app_manager_details_traffic_title">Data usage</string>
@@ -198,7 +198,7 @@
   <string name="app_manager_net_mobile">Mobile data</string>
   <string name="app_manager_net_wifi">WLAN</string>
   <string name="app_manager_not_allow">No</string>
-  <string name="app_manager_not_support_uninstall">"Can't uninstall this apps"</string>
+  <string name="app_manager_not_support_uninstall">"Can't uninstall these apps"</string>
   <string name="app_manager_notify_bar">Badges</string>
   <string name="app_manager_notify_floating">Floating notifications</string>
   <string name="app_manager_notify_keyguard">Lock screen</string>
@@ -355,10 +355,10 @@
   <string name="back_app_name">Go back to App lock</string>
   <string name="back_description_securitycenter">Back</string>
   <string name="back_modifypassword">Go back to changing password</string>
-  <string name="back_sound_data">It requires cellular mobile network, please retry!</string>
-  <string name="back_sound_fail">Failed！By reason of the change of operator interface, you can try to switch current sim card to network card and try again.</string>
-  <string name="back_sound_success">Success!</string>
-  <string name="back_sound_support">"The current network operators doesn't support it！"</string>
+  <string name="back_sound_data">Turn on mobile data and try again.</string>
+  <string name="back_sound_fail">"Couldn't set. Carrier settings changed. Set the current SIM card as your data card, connect to the network, and try again."</string>
+  <string name="back_sound_success">Set successfully</string>
+  <string name="back_sound_support">"Your carrier's network doesn't support this setting."</string>
   <string name="background_restrict_app_dialog_message">Restricting background network access for this app might make it impossible for the app to work normally, receive messages, download content, etc. Restrict anyway?</string>
   <string name="background_traffic">Background %s</string>
   <string name="backsound_set_hint">Set your away message to %s?</string>
@@ -484,7 +484,7 @@
   <string name="cancel">Cancel</string>
   <string name="cancel_button">Cancel</string>
   <string name="card_main_applock_action">Turn on</string>
-  <string name="card_main_applock_summary">Protect private items with App lock</string>
+  <string name="card_main_applock_summary">Protect selected apps with a password. Hide messages, photos, notes, and more.</string>
   <string name="card_main_applock_title">App lock</string>
   <string name="card_main_deepclean_action">Clear</string>
   <string name="card_main_deepclean_qq_title">QQ cleaner</string>
@@ -493,7 +493,7 @@
   <string name="card_main_deepclean_wechat_action">Clear</string>
   <string name="card_main_deepclean_wechat_summary">Clear WeChat cache to free up storage space</string>
   <string name="card_main_deepclean_wechat_title">WeChat cache</string>
-  <string name="card_main_gamebooster_title">Gaming speed boost</string>
+  <string name="card_main_gamebooster_title">Game speed booster</string>
   <string name="card_main_hbassistant_summary">Use this tool to grab the envelopes faster</string>
   <string name="card_main_hbassistant_title">Red envelope assistant</string>
   <string name="card_main_monthreport_action">View</string>
@@ -656,7 +656,7 @@
   <string name="dlg_keyword_ok">Save</string>
   <string name="dlg_message_not_open_stranger_identify">To turn this feature on, go to Settings &gt; Phone.</string>
   <string name="dlg_move_to_white">Add to exceptions</string>
-  <string name="dlg_no_block">"Unblock this phone number ?
+  <string name="dlg_no_block">"Unblock this phone number?
 It will be added to exceptions, but previously blocked items won't appear in call history."</string>
   <string name="dlg_no_block_ok">Unblock</string>
   <string name="dlg_not_block_call">"Unblock selected numbers? They will be added to exceptions, but previously blocked items won't appear in call history."</string>
@@ -766,7 +766,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="free_send_net_booster">Free Network speed boost</string>
   <string name="free_send_net_booster_busniess">Get a free Xunlei speed boost</string>
   <string name="free_send_net_booster_busniess_tip">Tap to receive</string>
-  <string name="free_send_net_booster_tip">Enjoy smooth gaming with the free Network speed boost.</string>
+  <string name="free_send_net_booster_tip">Enjoy smooth gaming with the free network speed boost.</string>
   <string name="free_time_traffic">Off-peak data limit</string>
   <string name="free_time_traffic_hint">Enter off-peak data limit</string>
   <string name="free_time_traffic_settings">Off-peak data limit</string>
@@ -836,7 +836,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gs_game_net_priority">Connection priority</string>
   <string name="gs_game_net_priority_detail">Limit download speed to have enough bandwidth for gaming</string>
   <string name="gs_game_performance">Performance</string>
-  <string name="gs_game_shortcut">Enjoy a more fluid game experience</string>
+  <string name="gs_game_shortcut">Improve your gaming experience</string>
   <string name="gs_only_self_start_for_list">Restrict background processes to save battery for gaming</string>
   <string name="gs_open_game_booster">Boost speed</string>
   <string name="gs_performance_mode">Performance mode</string>
@@ -1150,6 +1150,7 @@ to respond"</string>
   <string name="menu_text_power_percent_title">Battery %s</string>
   <string name="menu_text_power_percent_title_default">Battery</string>
   <string name="menu_wh_remove">Remove from exceptions</string>
+  <string name="menu_white">Except</string>
   <string name="mi_pay_lucky">小米钱包</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_service_traffic_detail">Framework details</string>
@@ -1457,7 +1458,7 @@ This activity shortens battery life."</string>
   <string name="power_btn_analyze">Analyze battery usage</string>
   <string name="power_cell">Cell standby</string>
   <string name="power_center_auto_shutdown">Schedule power on/off</string>
-  <string name="power_center_back">Back power</string>
+  <string name="power_center_back">Back to Power</string>
   <string name="power_center_charge_time">%1$suntil full</string>
   <string name="power_center_main_percent_formatted">%s%%</string>
   <string name="power_center_ontime_boot">Power on time</string>
@@ -1736,7 +1737,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sc_allow_network_dialog_message">This app needs to connect to the internet to work normally.</string>
   <string name="sc_allow_network_dialog_tiltle">"Can't use this feature"</string>
   <string name="sc_system_risk_fix_info_xspace">"Can't solve this in Second space. Try again in First space."</string>
-  <string name="sc_warning_updater_not_found">Updater application not found. Unable to update !</string>
+  <string name="sc_warning_updater_not_found">"Couldn't find the Updater app."</string>
   <string name="scan_installed_games">Checking installed games…</string>
   <string name="scan_status_risk">Risky</string>
   <string name="scan_status_safe">Secure</string>
@@ -1901,9 +1902,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_message_phone_AntiSpam">Block calls</string>
   <string name="st_message_phonepass">Allow calls</string>
   <string name="st_msg_intercept_contacts">Block SMS from contacts</string>
-  <string name="st_msg_keyword_black">Keyword Blocklist</string>
+  <string name="st_msg_keyword_black">Keyword blocklist</string>
   <string name="st_msg_keyword_group">Keywords</string>
-  <string name="st_msg_keyword_white">Keyword Exceptions</string>
+  <string name="st_msg_keyword_white">Keyword exceptions</string>
   <string name="st_msg_other_group">Other</string>
   <string name="st_msg_settings">SMS blocklist</string>
   <string name="st_msg_stranger_group">Block SMS from strangers</string>
@@ -1936,8 +1937,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="st_title_call_wait_setting">Call waiting</string>
   <string name="st_title_editblacklist">Edit blocklist</string>
   <string name="st_title_editwhitelist">Edit exceptions</string>
-  <string name="st_title_keywords_blacklist">Keyword blacklist</string>
-  <string name="st_title_keywords_whitelist">Keyword whitelist</string>
+  <string name="st_title_keywords_blacklist">Keyword blocklist</string>
+  <string name="st_title_keywords_whitelist">Keyword exceptions</string>
   <string name="st_title_man_addblacklist">Add number to blocklist</string>
   <string name="st_title_man_addwhitelist">Add phone number to exceptions</string>
   <string name="st_title_man_editblacklist">Choose an area code to add to blocklist</string>
@@ -2269,7 +2270,7 @@ Remaining data includes data that has been rolled over from the previous month."
   <string name="uninstall_danagerous_btn">Uninstall</string>
   <string name="uninstall_danagerous_desc">\"%s\" may damage your device</string>
   <string name="uninstall_danagerous_msg">\"%s\" may damage your device, lower its performance, or cause reboots.</string>
-  <string name="uninstall_danagerous_title">Uninstall malicious app</string>
+  <string name="uninstall_danagerous_title">Uninstall malicious apps</string>
   <string name="unlike">No thanks</string>
   <string name="unlock_pattern">&lt;u&gt;Pattern&lt;/u&gt;</string>
   <string name="unlock_pattern_to_bind_fingerprint">Enter password to activate fingerprint</string>
