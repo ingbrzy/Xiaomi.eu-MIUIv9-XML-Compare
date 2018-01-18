@@ -1,31 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="actionbar_large_unread_count">
+        <item quantity="other">%1$d+ unread</item>
+        <item quantity="one">%1$d+ unread</item>
+    </plurals>
     <plurals name="actionbar_unread_messages">
         <item quantity="other">%1$d unread</item>
+        <item quantity="one">%1$d unread</item>
     </plurals>
     <plurals name="confirm_archive_conversation">
         <item quantity="other">Archive these %1$d conversations?</item>
-        <item quantity="zero">Archive these %1$d conversations?</item>
         <item quantity="one">Archive this conversation?</item>
-        <item quantity="two">Archive these %1$d conversations?</item>
-        <item quantity="few">Archive these %1$d conversations?</item>
-        <item quantity="many">Archive these %1$d conversations?</item>
     </plurals>
     <plurals name="confirm_delete_conversation">
         <item quantity="other">Delete these %1$d conversations?</item>
-        <item quantity="zero">Delete these %1$d conversations?</item>
         <item quantity="one">Delete this conversation?</item>
-        <item quantity="two">Delete these %1$d conversations?</item>
-        <item quantity="few">Delete these %1$d conversations?</item>
-        <item quantity="many">Delete these %1$d conversations?</item>
     </plurals>
     <plurals name="confirm_delete_conversation_with_sub">
         <item quantity="other">These conversations contain merged items. Delete them anyway?</item>
-        <item quantity="zero">These conversations contain merged items. Delete them anyway?</item>
         <item quantity="one">This conversations contains merged items. Delete it anyway?</item>
-        <item quantity="two">These conversations contain merged items. Delete them anyway?</item>
-        <item quantity="few">These conversations contain merged items. Delete them anyway?</item>
-        <item quantity="many">These conversations contain merged items. Delete them anyway?</item>
     </plurals>
     <plurals name="confirm_delete_draft">
         <item quantity="other">Delete %1$d drafts?</item>
@@ -33,11 +26,7 @@
     </plurals>
     <plurals name="contact_num_selected">
         <item quantity="other">%d selected</item>
-        <item quantity="zero">%d selected</item>
         <item quantity="one">%d selected</item>
-        <item quantity="two">%d selected</item>
-        <item quantity="few">%d selected</item>
-        <item quantity="many">%d selected</item>
     </plurals>
     <plurals name="conversation_archived">
         <item quantity="other">&lt;b>%1$d&lt;/b> archived.</item>
@@ -52,8 +41,8 @@
         <item quantity="one">Changed folder.</item>
     </plurals>
     <plurals name="conversation_msg_header_count">
-        <item quantity="other">+%1$d people</item>
-        <item quantity="one">+%1$d person</item>
+        <item quantity="other">+%1$d other people</item>
+        <item quantity="one">+%1$d other person</item>
     </plurals>
     <plurals name="conversation_muted">
         <item quantity="other">&lt;b>%1$d&lt;/b> muted</item>
@@ -93,51 +82,7 @@
     </plurals>
     <plurals name="empty_folder_dialog_message">
         <item quantity="other">%1$d messages will be permanently deleted.</item>
-        <item quantity="zero">%1$d messages will be permanently deleted.</item>
         <item quantity="one">%1$d message will be permanently deleted.</item>
-        <item quantity="two">%1$d messages will be permanently deleted.</item>
-        <item quantity="few">%1$d messages will be permanently deleted.</item>
-        <item quantity="many">%1$d messages will be permanently deleted.</item>
-    </plurals>
-    <plurals name="month">
-        <item quantity="other">%d months</item>
-        <item quantity="one">%d month</item>
-    </plurals>
-    <plurals name="move_conversation">
-        <item quantity="other">Move %1$d conversations</item>
-        <item quantity="zero">Move %1$d conversations</item>
-        <item quantity="one">Move conversation</item>
-        <item quantity="two">Move %1$d conversations</item>
-        <item quantity="few">Move %1$d conversations</item>
-        <item quantity="many">Move %1$d conversations</item>
-    </plurals>
-    <plurals name="new_incoming_messages_many">
-        <item quantity="other">Show %1$d new messages.</item>
-        <item quantity="zero">Show %1$d new messages.</item>
-        <item quantity="one">Show %1$d new message.</item>
-        <item quantity="two">Show %1$d new messages.</item>
-        <item quantity="few">Show %1$d new messages.</item>
-        <item quantity="many">Show %1$d new messages.</item>
-    </plurals>
-    <plurals name="num_selected">
-        <item quantity="other">%d selected</item>
-        <item quantity="zero">%d selected</item>
-        <item quantity="one">%d selected</item>
-        <item quantity="two">%d selected</item>
-        <item quantity="few">%d selected</item>
-        <item quantity="many">%d selected</item>
-    </plurals>
-    <plurals name="show_messages_read">
-        <item quantity="other">%1$d older messages</item>
-        <item quantity="zero">%1$d older messages</item>
-        <item quantity="one">%1$d older message</item>
-        <item quantity="two">%1$d older messages</item>
-        <item quantity="few">%1$d older messages</item>
-        <item quantity="many">%1$d older messages</item>
-    </plurals>
-    <plurals name="actionbar_large_unread_count">
-        <item quantity="other">%1$d+ unread</item>
-        <item quantity="one">%1$d+ unread</item>
     </plurals>
     <plurals name="hide_atts_remaining">
         <item quantity="other">Hide %1$d attachments</item>
@@ -145,26 +90,46 @@
     </plurals>
     <plurals name="local_search_result">
         <item quantity="other">%s results in synced messages</item>
-        <item quantity="one">%s results in synced messages</item>
+        <item quantity="one">%s result in synced messages</item>
+    </plurals>
+    <plurals name="month">
+        <item quantity="other">%d months</item>
+        <item quantity="one">%d month</item>
     </plurals>
     <plurals name="more_atts_remaining">
-        <item quantity="other">%1$d more remaining</item>
-        <item quantity="one">%1$d more remaining</item>
+        <item quantity="other">%1$d attachments remaining</item>
+        <item quantity="one">%1$d attachment remaining</item>
+    </plurals>
+    <plurals name="move_conversation">
+        <item quantity="other">Move %1$d conversations</item>
+        <item quantity="one">Move conversation</item>
+    </plurals>
+    <plurals name="new_incoming_messages_many">
+        <item quantity="other">Show %1$d new messages.</item>
+        <item quantity="one">Show %1$d new message.</item>
     </plurals>
     <plurals name="new_messages">
         <item quantity="other">%1$d new messages</item>
-        <item quantity="one">%1$d new messages</item>
+        <item quantity="one">%1$d new message</item>
+    </plurals>
+    <plurals name="num_selected">
+        <item quantity="other">%d selected</item>
+        <item quantity="one">%d selected</item>
     </plurals>
     <plurals name="quick_reply_hint">
         <item quantity="other">Reply to %1$d people</item>
-        <item quantity="one">Reply to %1$d people</item>
+        <item quantity="one">Reply to %1$d person</item>
     </plurals>
     <plurals name="remote_search_result">
-        <item quantity="other">%s results on server</item>
-        <item quantity="one">%s results on server</item>
+        <item quantity="other">%s results in all accounts</item>
+        <item quantity="one">%s result in all accounts</item>
+    </plurals>
+    <plurals name="show_messages_read">
+        <item quantity="other">%1$d older messages</item>
+        <item quantity="one">%1$d older message</item>
     </plurals>
     <plurals name="unsent_messages_in_outbox">
-        <item quantity="other">%1$s unsent in %2$s</item>
-        <item quantity="one">%1$s unsent in %2$s</item>
+        <item quantity="other">%1$s unsent messages in %2$s</item>
+        <item quantity="one">%1$s unsent message in %2$s</item>
     </plurals>
 </resources>
