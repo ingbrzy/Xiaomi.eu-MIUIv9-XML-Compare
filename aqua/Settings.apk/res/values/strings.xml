@@ -1681,7 +1681,7 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="force_hw_ui_summary">Force use GPU for 2D drawing</string>
   <string name="force_immersive_compatibility_dont_hide">"Don't hide"</string>
   <string name="force_immersive_compatibility_hide">Hide</string>
-  <string name="force_immersive_compatibility_hint_message">Some apps might not work properly if you choose to hide soft buttons.</string>
+  <string name="force_immersive_compatibility_hint_message">Some apps might not work properly if you choose to hide screen buttons.</string>
   <string name="force_immersive_compatibility_hint_title">Compatibility issues</string>
   <string name="force_msaa">Force 4x MSAA</string>
   <string name="force_msaa_summary">Enable 4x MSAA in OpenGL ES 2.0 apps</string>
@@ -2537,6 +2537,7 @@ Select your operating system:"</string>
   <string name="music_audio_effect_optimize_summary_with_hifi">Dirac, Hi-Fi, headphones, and other audio settings</string>
   <string name="music_audio_effect_settings">Effects settings</string>
   <string name="music_dirac_control">Optimize audio quality</string>
+  <string name="music_dirac_mode_cancelling">Mi Noise Cancelling (3.5mm)</string>
   <string name="music_dirac_mode_capsule">Mi Capsule</string>
   <string name="music_dirac_mode_earbuds">Mi Earbuds</string>
   <string name="music_dirac_mode_general">General</string>
@@ -2555,7 +2556,7 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_piston_color">Color Edition</string>
   <string name="music_dirac_mode_piston_standard">Standard Edition</string>
   <string name="music_dirac_mode_piston_youth">Youth Edition</string>
-  <string name="music_dirac_mode_reduction_noise">Reduce noise (USB-C)</string>
+  <string name="music_dirac_mode_reduction_noise">Mi Noise Cancelling (TypeC)</string>
   <string name="music_dolby_mode_movie">Video</string>
   <string name="music_dolby_mode_music">Music</string>
   <string name="music_dolby_mode_off">Off</string>
@@ -2592,6 +2593,8 @@ Select your operating system:"</string>
   <string name="my_device">My device</string>
   <string name="my_device_disclaimer">Note: Hardware info, including CPU, battery capacity, screen size and resolution, and camera, is provided by Xiaomi labs, designers, and suppliers.</string>
   <string name="n_cacrts">%d CA certificates</string>
+  <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
+  <string name="navigation_guide_app_title">"Trigger app's action"</string>
   <string name="navigation_guide_back_anim_summary">"Show animation while you're swiping from the edge of the screen"</string>
   <string name="navigation_guide_back_anim_title">Animate the \"Go back\" gesture</string>
   <string name="navigation_guide_back_summary">Swipe left or right from the edge of the screen</string>
@@ -2778,7 +2781,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="online_resource_entry">Online resources</string>
   <string name="only_one_home_message">Home settings will be hidden until you install another home application.</string>
   <string name="onscreen_keyboard_settings_summary">Onscreen keyboard settings</string>
-  <string name="open_demo_mode">Open</string>
+  <string name="open_demo_mode">Turn on</string>
   <string name="open_demo_mode_warning_message">When Demo mode is on, the clock in the status bar will stop, battery and signal icons will be displayed as full. You can turn Demo mode off or reboot the device to change this.</string>
   <string name="open_miui_optimization_title">Turn on MIUI optimization</string>
   <string name="open_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
@@ -3980,7 +3983,7 @@ Possibly incorrect PIN."</string>
   <string name="spellchecker_security_warning">This spell checker may be able to collect all the text you type, including personal data like passwords and credit card numbers. It comes from the app %1$s. Use this spell checker?</string>
   <string name="spellchecker_switch_title">Turn on Spell checker</string>
   <string name="spellcheckers_settings_title">Spell checker</string>
-  <string name="split_screen">Enter split screen</string>
+  <string name="split_screen">Open Split screen</string>
   <string name="ssid_label">SSID:</string>
   <string name="ssl_ca_cert_warning">Network may be monitored</string>
   <string name="ssl_ca_cert_warning_message">"A third party is capable of monitoring your network activity, including emails, apps, and secure websites.
@@ -4001,8 +4004,8 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_app_enable_message">Badges</string>
   <string name="status_bar_key_position_custom">Change button positions</string>
   <string name="status_bar_notification_info_overflow">999+</string>
-  <string name="status_bar_screen_button_force_immersive_desc">Swipe up from the bottom of the screen to show soft buttons</string>
-  <string name="status_bar_screen_button_key_force_immersive">Hide soft buttons</string>
+  <string name="status_bar_screen_button_force_immersive_desc">Swipe up from the bottom of the screen to show screen buttons</string>
+  <string name="status_bar_screen_button_key_force_immersive">Hide screen buttons</string>
   <string name="status_bar_screen_key_back">Back button</string>
   <string name="status_bar_screen_key_home">Home button</string>
   <string name="status_bar_screen_key_menu">Menu button</string>
@@ -4339,6 +4342,7 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="title_font_current2">System font</string>
   <string name="title_font_size">Font size</string>
   <string name="title_hdmi_color_calibration">Color correction preset</string>
+  <string name="title_jeejen">Jeejen Home screen</string>
   <string name="title_layout_current">Text size</string>
   <string name="title_layout_current2">Text size</string>
   <string name="title_local_resource">Local resources</string>
@@ -4470,9 +4474,7 @@ Your saved fingerprints will also be removed from this device and you won't be a
 
 Your saved fingerprints will also be removed from this profile and you won't be able to unlock your profile, authorize purchases, or sign in to apps with them."</string>
   <string name="unlock_disable_frp_warning_content_pin_profile">Profile protection features will not work without your PIN.</string>
-  <string name="unlock_disable_frp_warning_content_profile">"Profile protection features will not work without your password.
-
- You won't be able to unlock your profile, authorize purchases, or sign in to apps with them."</string>
+  <string name="unlock_disable_frp_warning_content_profile">"Profile protection features won't work without your password."</string>
   <string name="unlock_disable_frp_warning_content_unknown">Device protection features will not work without your screen lock.</string>
   <string name="unlock_disable_frp_warning_content_unknown_fingerprint">"Device protection features will not work without your screen lock.
 
@@ -4932,6 +4934,7 @@ WLAN Assistant"</string>
   <string name="wifi_calling_suggestion_title">Turn on WLAN Calling</string>
   <string name="wifi_cancel">Cancel</string>
   <string name="wifi_certificate">Certificate</string>
+  <string name="wifi_click_login_wlan">Connected. Verification is required.</string>
   <string name="wifi_click_share_wlan">Tap to share password</string>
   <string name="wifi_config_info">WLAN config</string>
   <string name="wifi_configure_titlebar">Configure WLAN</string>
