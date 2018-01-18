@@ -2,7 +2,7 @@
 <resources>
     <plurals name="announce_for_drag">
         <item quantity="other">dragging %1$d items</item>
-        <item quantity="one">dragging</item>
+        <item quantity="one">dragging %1$d item</item>
     </plurals>
     <plurals name="delete_wallpapers_message">
         <item quantity="other">Delete %1$d wallpapers?</item>
