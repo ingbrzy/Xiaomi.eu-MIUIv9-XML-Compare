@@ -225,7 +225,7 @@ you should create an iCloud backup first."</string>
   <string name="notif_backup_complete_title">Backed up successfully</string>
   <string name="notif_backup_content">Backing up user data</string>
   <string name="notif_backup_title">Back up data</string>
-  <string name="notif_calculating_app">Caculating %1$s (%2$s)…</string>
+  <string name="notif_calculating_app">Calculating %1$s (%2$s)…</string>
   <string name="notif_connect_miasist">Connected to Mi PC Suite</string>
   <string name="notif_disconnect_miasist">Not connected to Mi PC Suite</string>
   <string name="notif_icloud_canceled_summary">Canceled</string>
