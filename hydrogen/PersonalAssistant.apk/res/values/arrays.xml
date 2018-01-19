@@ -66,11 +66,6 @@
         <item>6</item>
         <item>-1</item>
     </string-array>
-    <string-array name="payment_chooser">
-        <item>SMS (debit &amp; credit cards)</item>
-        <item>WeChat</item>
-        <item>Alipay</item>
-    </string-array>
     <string-array name="stock_color_schema">
         <item>Red - up, green - down</item>
         <item>Green - up, red - down</item>

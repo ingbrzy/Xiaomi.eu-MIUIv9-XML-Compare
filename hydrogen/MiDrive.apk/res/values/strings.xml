@@ -27,10 +27,10 @@
   <string name="downloading">Downloading</string>
   <string name="downloading_in_3g">Downloading on 3G…</string>
   <string name="downloading_in_wifi">Downloading…</string>
-  <string name="drive_low_memory_description_content">Mobile phone storage space is insufficient, please go to the phone garbage clean up to release more storage space?</string>
-  <string name="drive_low_memory_description_title">Low memory Warning</string>
-  <string name="drive_low_memory_description_toast">Mobile phone storage space is insufficient, please clean up after the use of MiDrive</string>
-  <string name="drive_low_memory_positive_content">Clean Up</string>
+  <string name="drive_low_memory_description_content">"Can't use Mi Drive due to insufficient storage space."</string>
+  <string name="drive_low_memory_description_title">Insufficient storage</string>
+  <string name="drive_low_memory_description_toast">"Can't use Mi Drive due to insufficient storage space. Free up space and try again."</string>
+  <string name="drive_low_memory_positive_content">Free up</string>
   <string name="empty_file_download">"Empty files aren't supported."</string>
   <string name="empty_file_upload">"Empty files aren't supported."</string>
   <string name="fileSizeSuffix">%1$s %2$s</string>
