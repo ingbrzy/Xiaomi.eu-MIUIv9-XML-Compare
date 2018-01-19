@@ -14,7 +14,7 @@
   <string name="all_topic">All topics</string>
   <string name="already_liked">"You've already starred this item"</string>
   <string name="apk_installing">正在安装...</string>
-  <string name="app_name">Explorer</string>
+  <string name="app_name">Mi File Manager</string>
   <string name="app_name_bluetooth">Bluetooth</string>
   <string name="app_name_camera">Camera</string>
   <string name="app_name_downloadedrom">Packages</string>
@@ -126,7 +126,7 @@
   <string name="data_consumption_checkbox_hint">"Don't show again"</string>
   <string name="data_consumption_confirm">OK</string>
   <string name="data_consumption_message">This app needs to connect to the internet using WLAN to work normally.</string>
-  <string name="data_consumption_message1">Explorer needs to connect to the internet to make popular videos and stickers available.</string>
+  <string name="data_consumption_message1">Mi File Manager needs to connect to the internet to make popular videos and stickers available.</string>
   <string name="data_consumption_title">Internet connection</string>
   <string name="decompress_cancel">Cancel</string>
   <string name="decompress_confirm">Extract</string>
@@ -185,7 +185,7 @@
   <string name="encrypt_error">"Couldn't hide files, try again"</string>
   <string name="encrypt_prefix">HIDDEN</string>
   <string name="encrypt_success">Hidden successfully</string>
-  <string name="encrypt_success_first_five">"Encrypted and hid file. You can view hidden files by pulling down on the Explorer's start page."</string>
+  <string name="encrypt_success_first_five">"Encrypted and hid file. You can view hidden files by pulling down on the Mi File Manager's start page."</string>
   <string name="encrypting">Encrypting…</string>
   <string name="error_contains_sharer_path">"Can't encrypt files in folder /MIUI/Gallery/cloud/sharer. Move the file to another folder and try again."</string>
   <string name="error_create_dir">"Couldn't create folder"</string>
@@ -351,7 +351,7 @@
   <string name="month_day_format">MMM dd</string>
   <string name="more_hot_text">更多热门</string>
   <string name="move_failed">"Can't cut"</string>
-  <string name="move_icon_to_desktop_hint">Create a Home screen shortcut for Explorer to manage files more efficiently.</string>
+  <string name="move_icon_to_desktop_hint">Create a Home screen shortcut for Mi File Manager to manage files more efficiently.</string>
   <string name="move_icon_to_desktop_success">Shortcut added to Home screen.</string>
   <string name="move_to">Move to…</string>
   <string name="msg_notify_setting">Notification settings</string>
@@ -362,7 +362,7 @@
   <string name="my_follows">My feed</string>
   <string name="name_empty">Enter a name</string>
   <string name="need_login">Sign in first</string>
-  <string name="need_read_storage_permission">"Explorer requires permission to access device's storage to work as designed."</string>
+  <string name="need_read_storage_permission">"Mi File Manager requires permission to access device's storage to work normally."</string>
   <string name="net_error_text">网络错误</string>
   <string name="network_dialog_checkbox_tip">"Don't show again"</string>
   <string name="network_not_available">"Can't connect to the network"</string>
@@ -374,7 +374,7 @@
   <string name="no_apk">Tap to get apps</string>
   <string name="no_app_tags">Empty</string>
   <string name="no_comment">No comments</string>
-  <string name="no_content">Open Explorer again to view popular videos</string>
+  <string name="no_content">Open Mi File Manager again to view popular videos</string>
   <string name="no_daren_tip">Nothing here yet</string>
   <string name="no_downloaded_sticker_tip">"Couldn't find downloaded stickers. Check out the stickers shared by Mi fans."</string>
   <string name="no_enough_storage_indication">"Device's storage space is full."</string>
@@ -457,8 +457,8 @@
   <string name="path_hot_video">View popular short videos for free</string>
   <string name="path_kuai_chuan">Peer-to-peer file transfers</string>
   <string name="path_recent_file">Manage files on your device</string>
-  <string name="permission_denial">"Couldn't access files. Allow Explorer to access files in the Settings."</string>
-  <string name="permission_required">"Couldn't access files. Allow Explorer to access files in the Settings.​"</string>
+  <string name="permission_denial">"Couldn't access files. Allow Mi File Manager to access files in the Settings."</string>
+  <string name="permission_required">"Couldn't access files. Allow Mi File Manager to access files in the Settings.​"</string>
   <string name="petabyteShort">PB</string>
   <string name="phone">Internal storage</string>
   <string name="phone_bind_skip">Skip</string>
@@ -486,7 +486,7 @@
   <string name="phone_storage_image_title">Images: </string>
   <string name="phone_storage_info_str">%1$s of %2$s available</string>
   <string name="phone_storage_other_title">Other: </string>
-  <string name="phone_storage_size_tip">"Explorer's storage accounting may differ from other apps"</string>
+  <string name="phone_storage_size_tip">"Mi File Manager's storage accounting may differ from other apps"</string>
   <string name="phone_storage_video_title">Videos: </string>
   <string name="phone_storage_zip_title">Archives: </string>
   <string name="phone_valid_code_tip">The code has been entered too many times, try to get a new one</string>

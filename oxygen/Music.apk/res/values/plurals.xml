@@ -117,6 +117,18 @@
         <item quantity="other">%d items selected</item>
         <item quantity="one">%d item selected</item>
     </plurals>
+    <plurals name="notif_title_multiple_downloading">
+        <item quantity="other">Downloading %1$d songs</item>
+        <item quantity="one">Downloading %1$d song</item>
+    </plurals>
+    <plurals name="notification_download_failed_more">
+        <item quantity="other">"Couldn't download %1$d songs"</item>
+        <item quantity="one">"Couldn't download %1$d song"</item>
+    </plurals>
+    <plurals name="notification_download_success_more">
+        <item quantity="other">%1$d songs</item>
+        <item quantity="one">%1$d song</item>
+    </plurals>
     <plurals name="reader_count">
         <item quantity="other">%d followers</item>
         <item quantity="one">%d follower</item>
