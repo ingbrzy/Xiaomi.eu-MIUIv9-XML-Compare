@@ -1199,14 +1199,10 @@ Check your tracking number."</string>
   <string name="payment_clear_records_failed">"Couldn't clear payment history"</string>
   <string name="payment_clear_records_success">Cleared payment history</string>
   <string name="payment_date_time_picker_dialog_title">Set date and time</string>
-  <string name="payment_dialog_chooser_cancel">Cancel</string>
-  <string name="payment_dialog_chooser_message_footer">"Note: All payment info will be securely stored on your phone. It won't be synced with Mi Cloud or used in any other way."</string>
-  <string name="payment_dialog_chooser_message_header">Select sources for \"My payments\"</string>
-  <string name="payment_dialog_chooser_ok">Turn on</string>
-  <string name="payment_dialog_chooser_title">My payments</string>
-  <string name="payment_dialog_chooser_toast">Select at least one source</string>
-  <string name="payment_dialog_notice_ok">Got it</string>
-  <string name="payment_dialog_notice_title">Attention</string>
+  <string name="payment_dialog_notice_message">因微信客户端限制，自动记账功能在微信内将无法使用，您可以手动添加微信的支出信息。其他应用内的自动记账功能仍可继续使用。</string>
+  <string name="payment_dialog_notice_message_inside">因微信客户端限制，自动记账功能在微信内将无法使用，您可以手动添加微信的支出信息。</string>
+  <string name="payment_dialog_notice_ok">我知道了</string>
+  <string name="payment_dialog_notice_title">自动记账说明</string>
   <string name="payment_guide_hint">Collect payment info from Messaging and other apps.</string>
   <string name="payment_guide_hint_link">Security &amp; privacy</string>
   <string name="payment_method_alipay">Alipay</string>
@@ -1259,7 +1255,7 @@ Check your tracking number."</string>
   <string name="payment_upload_data_fail">Upload data failed</string>
   <string name="payment_upload_data_no_data">No data to upload</string>
   <string name="payment_upload_data_success">Upload data successfully</string>
-  <string name="payment_user_notice_bar_text">About \"My payments\"</string>
+  <string name="payment_user_notice_bar_text">About \"Auto payments\"</string>
   <string name="personalAssistant_mainpage">Home page</string>
   <string name="personalAssistant_path">com.miui.home.launcher.assistant</string>
   <string name="pie_chart_label_atm">ATM withdrawals:</string>
