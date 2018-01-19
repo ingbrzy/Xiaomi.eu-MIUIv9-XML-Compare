@@ -116,7 +116,6 @@
   <string name="face_beauty_intelligent_level_3">High</string>
   <string name="face_beauty_smart">Smart</string>
   <string name="face_score_info">Score: %.1f</string>
-  <string name="front_camera_hint_text_confirm">Got it</string>
   <string name="front_camera_hint_text_place">"Taking selfies will be easier
 if you rotate your phone"</string>
   <string name="front_camera_hint_text_rotate">Rotate your phone</string>
@@ -229,7 +228,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_beautify_entryvalue_high">3</string>
   <string name="pref_camera_beautify_entryvalue_low">1</string>
   <string name="pref_camera_beautify_entryvalue_normal">2</string>
-  <string name="pref_camera_beauty_deep">beauty deep</string>
+  <string name="pref_camera_beauty_deep">Beauty-deep</string>
   <string name="pref_camera_bokeh_title">Portrait</string>
   <string name="pref_camera_coloreffect_default">none</string>
   <string name="pref_camera_coloreffect_entry_aqua"/>
