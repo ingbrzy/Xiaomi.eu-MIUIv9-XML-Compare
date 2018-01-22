@@ -16,7 +16,7 @@
     <string name="aqi_pollution">'輕度污染'</string>
     <string name="aqi_unhealthy">'中度污染'</string>
     <string name="aqi_dangerous">'重度污染'</string>
-    <string name="aqi_hazardous">'嚴重污染'</string>
+    <string name="aqi_hazardous">'严重污染'</string>
     <string name="aqi_break">'超標'</string>
     <string name="weather_type_0">晴</string>
     <string name="weather_type_1">多雲</string>
