@@ -551,6 +551,7 @@ For more information, contact your admin."</string>
   <string name="pip_play">Play</string>
   <string name="pip_skip_to_next">Skip to next</string>
   <string name="pip_skip_to_prev">Skip to previous</string>
+  <string name="please_slide_agian">Please slide again</string>
   <string name="pointer_location">Pointer location</string>
   <string name="pointer_location_summary">Screen overlay showing current touch data</string>
   <string name="power_charging">%1$s - %2$s</string>
