@@ -67,6 +67,7 @@ to be able to view them anytime"</string>
   <string name="delete_phone_fingerprint">Delete Second space fingerprint</string>
   <string name="delete_src_file">Delete files</string>
   <string name="delete_src_photo">Delete photos</string>
+  <string name="dialog_title">Attention</string>
   <string name="dir_switch_out_all_photos">Second space Gallery</string>
   <string name="disable">Turn off</string>
   <string name="do_not_ask">"Don't ask again"</string>
@@ -89,6 +90,7 @@ to be able to view them anytime"</string>
   <string name="exit_private_space">Switch</string>
   <string name="finger_print_num">Fingerprint %d</string>
   <string name="finger_print_of_use">Use fingerprint</string>
+  <string name="fingerprint_number_upper_limit">Too many unsuccessful unlock attempts</string>
   <string name="fingerprint_removal_failed">"Couldn't delete fingerprint"</string>
   <string name="function_not_support">Not supported on this device</string>
   <string name="gms_message">Creating dual apps requires working with Google services. Create a dual app for Google services?</string>
@@ -158,6 +160,7 @@ You can also download them separately."</string>
   <string name="openPasswordGuard">Set Second space password</string>
   <string name="openSuccess">Turned on</string>
   <string name="opened">On</string>
+  <string name="optimize_now">Optimize</string>
   <string name="other">Other</string>
   <string name="otherSettings">Other settings</string>
   <string name="passWordGuardSummary">Enter Second space from Lock screen using a password</string>
@@ -174,6 +177,8 @@ Otherwise you may not be able to enter Second space from Lock screen."</string>
   <string name="public_app">Both spaces</string>
   <string name="removeSuccess">Deleted successfully</string>
   <string name="remove_second_space_msg">All Second space app data will be lost after you delete Second space. Delete Second space now?</string>
+  <string name="remove_user_click_message">"*If you don't have any important items in Second space, %s"</string>
+  <string name="remove_user_click_message_action">you can delete Second space and reboot your device now.</string>
   <string name="removingSpace">Deleting…</string>
   <string name="repeat_scanner_fingerprint">Add again</string>
   <string name="reset_passwd_success">Password was reset successfully</string>
@@ -194,7 +199,14 @@ to enter Second space from Lock screen"</string>
   <string name="scanner_fingerprint_tips_desc">"Select existing fingerprint to enter Second space. You won't be able to use it in First space."</string>
   <string name="scanner_fingerprint_tips_title">Enter Second space using existing fingerprint</string>
   <string name="scanner_second_space_fingerprint">Scan Second space fingerprint</string>
-  <string name="sdcardfs_dialog_message">Turn off \"Mock SD card optimization\" in Developer options before entering Second space.</string>
+  <string name="sdcardfs_dialog_message">MIUI 9 has a new file system. Old data might be incompatible with it. To solve this issue, follow the steps to install an update. Your device will reboot twice during this update.</string>
+  <string name="sdcardfs_dialog_title">Important update</string>
+  <string name="sdcradfs_dialog_in_owner_message">"MIUI 9 has a new file system. Old data might be incompatible with it. To update, move items from Second space, reboot your device, and create Second space again.
+If you don't update, dual apps might not work properly as well."</string>
+  <string name="sdcradfs_dialog_in_owner_title">Second space</string>
+  <string name="sdcradfs_dialog_in_sec_message">"To update, you should delete your Second space, and then create it again. Move the data from Second space to First space, and reboot your device to complete the update.
+If you don't update, dual apps might not work properly as well."</string>
+  <string name="sdcradfs_dialog_in_sec_title">Important update</string>
   <string name="search_input_txt_na">"&lt;font color='#ff0000'&gt;%s&lt;/font&gt;"</string>
   <string name="search_result_text">"Couldn't find any apps"</string>
   <string name="secondSpace">Second space</string>
@@ -239,6 +251,7 @@ to enter Second space from Lock screen"</string>
   <string name="show_private_msg_summary">Show private messages​ in Second space</string>
   <string name="skip">Skip</string>
   <string name="spaceSetting">Settings</string>
+  <string name="space_created_success">Created Second space successfully</string>
   <string name="space_deleted">This space was deleted</string>
   <string name="space_des_default">Isolated space with encrypted data</string>
   <string name="space_finger_sub_text">Set Second space fingerprint to switch faster</string>
