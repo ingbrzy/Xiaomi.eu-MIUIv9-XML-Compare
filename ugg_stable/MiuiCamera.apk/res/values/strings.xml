@@ -15,7 +15,7 @@
   <string name="accessibility_setting_button">Additional settings button</string>
   <string name="accessibility_shutter_button">Shutter button</string>
   <string name="accessibility_skin_beautify_button">SkinBeautifyButton</string>
-  <string name="accessibility_stereo_button">Dual camera mode</string>
+  <string name="accessibility_stereo_button">Focus adjustment</string>
   <string name="accessibility_video_capture_button">VideoCaptureButton</string>
   <string name="accessibility_video_module_picker">VideoModulePicker</string>
   <string name="accessibility_video_pause_button">VideoPauseButton</string>
@@ -76,8 +76,7 @@
   <string name="dual_camera_lens_covered_toast">The lens is covered.</string>
   <string name="dual_camera_lowlight_toast">"Looks like it's too dark."</string>
   <string name="dual_camera_too_close_toast">The camera is too close to the object.</string>
-  <string name="dual_camera_use_hint">"Stereo mode helps you blur the background.
-The object shouldn't be further than 2 meters."</string>
+  <string name="dual_camera_use_hint">"Make sure the object isn't further than 2 meters."</string>
   <string name="edit_eye_large">Big eyes</string>
   <string name="edit_face_ruddy">Ruddy</string>
   <string name="edit_face_slender">Slender</string>
@@ -120,6 +119,7 @@ and then create a shot where everyone looks best."</string>
   <string name="hibernate_hint">Tap the screen to wake Camera</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
+  <string name="hint_device_water_mark">Device watermark will be added automatically.</string>
   <string name="hint_fast_motion">The video you shoot will be played faster.</string>
   <string name="hint_groupshot">"Camera will take multiple photos
 and then create a shot where everyone looks best."</string>
@@ -136,6 +136,7 @@ and then create a shot where everyone looks best."</string>
   <string name="module_name_portrait">Portrait</string>
   <string name="module_name_square">Square</string>
   <string name="module_name_video">Video</string>
+  <string name="multi_window_mode_not_supported">"Camera doesn't work in Split screen"</string>
   <string name="no_storage">Insert SD card before using camera</string>
   <string name="not_enough_space">SD card is full</string>
   <string name="object_track_enable_toast">To select an object, simultaneously tap two diagonal points around its border.</string>
@@ -259,6 +260,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_delay_capture_entry_5s">5s delay</string>
   <string name="pref_camera_delay_capture_entry_audio">Audio</string>
   <string name="pref_camera_delay_capture_title">Timer</string>
+  <string name="pref_camera_device_watermark_title">Device watermark</string>
   <string name="pref_camera_exposuretime_default">0</string>
   <string name="pref_camera_exposuretime_entry_0.5">2s</string>
   <string name="pref_camera_exposuretime_entry_1">1s</string>
@@ -432,7 +434,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_sound_title">Camera sounds</string>
   <string name="pref_camera_square_mode_title">Square</string>
   <string name="pref_camera_stereo_default">5</string>
-  <string name="pref_camera_stereo_mode_title">Stereo</string>
+  <string name="pref_camera_stereo_mode_title">Focus adjustment</string>
   <string name="pref_camera_tilt_shift_default">circle</string>
   <string name="pref_camera_tilt_shift_entry_circle">Circle</string>
   <string name="pref_camera_tilt_shift_entry_parallel">Parallel</string>
@@ -597,7 +599,7 @@ and brings out the people in the front."</string>
   <string name="simple_mode_button_text_scene">Turn off Scene mode</string>
   <string name="simple_mode_button_text_slow_video">Turn off time-lapse</string>
   <string name="simple_mode_button_text_square">Turn off Square</string>
-  <string name="simple_mode_button_text_stereo_mode">Turn off Stereo</string>
+  <string name="simple_mode_button_text_stereo_mode">Turn off Focus adjustment</string>
   <string name="simple_mode_button_text_tilt_shift">Turn off Tilt-shift</string>
   <string name="simple_mode_button_text_ubifocus">Turn off Refocus</string>
   <string name="snap_cancel">Cancel</string>

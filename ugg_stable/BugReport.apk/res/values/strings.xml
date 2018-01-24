@@ -21,6 +21,9 @@
   <string name="cta_dialog_content">This app needs to connect to the internet to work normally.</string>
   <string name="cta_dialog_title">Internet connection</string>
   <string name="cta_not_show_again">"Don't show again"</string>
+  <string name="customer_service_apply">Request customer service</string>
+  <string name="customer_service_complain">Report customer service</string>
+  <string name="customer_service_station">Service locations</string>
   <string name="default_text_view">TextView</string>
   <string name="description">Describe the issue</string>
   <string name="dialog_ask_delete">Delete</string>
