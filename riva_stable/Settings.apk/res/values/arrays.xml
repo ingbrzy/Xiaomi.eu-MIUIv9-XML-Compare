@@ -413,12 +413,10 @@
         <item>Largest</item>
     </string-array>
     <string-array name="entryvalues_font_size">
-        <item>small</item>
-        <item>normal</item>
-        <item>medium</item>
-        <item>large</item>
-        <item>huge</item>
-        <item>godzilla</item>
+        <item>0.85</item>
+        <item>1.0</item>
+        <item>1.15</item>
+        <item>1.30</item>
     </string-array>
     <string-array name="wifi_security">
         <item>@string/wifi_security_none</item>
@@ -1697,6 +1695,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>XXL</item>
         <item>XXXL</item>
     </string-array>
+    <string-array name="miui_entryvalues_font_size">
+        <item>small</item>
+        <item>normal</item>
+        <item>medium</item>
+        <item>large</item>
+        <item>huge</item>
+        <item>godzilla</item>
+    </string-array>
     <string-array name="max_number_titles">
         <item>6</item>
         <item>5</item>
@@ -1716,7 +1722,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>2007</item>
     </string-array>
     <string-array name="organized_locales">
-        <item>ab</item>
         <item>af</item>
         <item>al</item>
         <item>dz</item>
@@ -1755,7 +1760,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>cv</item>
         <item>bq</item>
         <item>ky</item>
-        <item>ca</item>
         <item>td</item>
         <item>cl</item>
         <item>co</item>
@@ -1772,7 +1776,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>dj</item>
         <item>dm</item>
         <item>do</item>
-        <item>tl</item>
         <item>ec</item>
         <item>eg</item>
         <item>sv</item>
@@ -1822,7 +1825,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>kz</item>
         <item>ke</item>
         <item>ki</item>
-        <item>xk</item>
         <item>kw</item>
         <item>kg</item>
         <item>la</item>
@@ -1885,6 +1887,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>ru</item>
         <item>rw</item>
         <item>sh</item>
+        <item>kn</item>
         <item>lc</item>
         <item>pm</item>
         <item>vc</item>
@@ -1907,9 +1910,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>ss</item>
         <item>es</item>
         <item>lk</item>
-        <item>kn</item>
-        <item>lc</item>
-        <item>vc</item>
         <item>sd</item>
         <item>sr</item>
         <item>sz</item>
@@ -1920,6 +1920,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>tj</item>
         <item>tz</item>
         <item>th</item>
+        <item>tl</item>
         <item>tg</item>
         <item>tk</item>
         <item>to</item>
@@ -2031,18 +2032,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>3686400</item>
         <item>2073600</item>
     </integer-array>
-    <string-array name="edge_touch_volume_action">
-        <item>Press to adjust - Double press to trigger</item>
-        <item>Slide to adjust - Slide to trigger</item>
-        <item>Press to adjust - Press to trigger</item>
-        <item>Press to adjust - Press &amp; hold to trigger</item>
-    </string-array>
-    <string-array name="edge_touch_volume_action_value">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
     <string-array name="city_name">
         <item>Abidjan</item>
         <item>Accra</item>
@@ -2169,7 +2158,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Phnom Penh</item>
         <item>Pyongyang</item>
         <item>Qatar</item>
-        <item>Rangoon</item>
+        <item>Yangon</item>
         <item>Riyadh</item>
         <item>Seoul</item>
         <item>Shanghai</item>
@@ -2836,18 +2825,6 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Weekdays</item>
         <item>Custom</item>
     </string-array>
-    <string-array name="privacy_password_function_specfication_keys">
-        <item>privacy_mms</item>
-        <item>privacy_gallery</item>
-        <item>privacy_file</item>
-        <item>privacy_notes</item>
-    </string-array>
-    <string-array name="privacy_password_function_specfication_names">
-        <item>Messages</item>
-        <item>Photos</item>
-        <item>Files</item>
-        <item>Notes</item>
-    </string-array>
     <array name="app_permission" />
     <string-array name="standard_configuration_version">
         <item>2.00GB</item>
@@ -2869,5 +2846,17 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>5 inches</item>
         <item>1280 × 720</item>
         <item>7.1.2</item>
+    </string-array>
+    <string-array name="privacy_password_function_specfication_keys">
+        <item>privacy_mms</item>
+        <item>privacy_gallery</item>
+        <item>privacy_file</item>
+        <item>privacy_notes</item>
+    </string-array>
+    <string-array name="privacy_password_function_specfication_names">
+        <item>Messages</item>
+        <item>Photos</item>
+        <item>Files</item>
+        <item>Notes</item>
     </string-array>
 </resources>
