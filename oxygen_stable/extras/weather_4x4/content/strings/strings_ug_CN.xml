@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="date_format">MM ئاينىڭ dd كۈنى E</string>
+    <string name="date_format">MM- ئاينىڭ dd- كۈنى E</string>
     <string name="today">بۈگۈن</string>
     <string name="tomorrow">ئەتە</string>
     <string name="desc_weather_null">'سانلىق مەلۇمات يوق'</string>
-    <string name="desc_weather">\'بۈگۈن\'+\', \'+@weather_location+\', \'+int(#month+1)+\'ئاينىڭ\'+#date+\'كۈنى\'+\', \'+\'ھەپتىگە\'+int(#day_of_week-1)+\',\'+#weather_temperature+\'سېلسىيە گرادۇس\'+\',\'+@weather_description+\',\'+@weather_aqi</string>
+    <string name="desc_weather">\'بۈگۈن\'+\', \'+@weather_location+\', \'+int(#month+1)+\'-ئاينىڭ\'+#date+\'-كۈنى\'+\', \'+\'ھەپتىگە\'+int(#day_of_week-1)+\',\'+#weather_temperature+\'سېلسىيە گرادۇس\'+\',\'+@weather_description+\',\'+@weather_aqi</string>
     <string name="desc_weather_1">'بۈگۈن\'+@weather_description+\', \'+\'ئەڭ يۇقىرى تېمپېراتۇرا\'+#weather_temphigh+\'سېلسىيە گرادۇس\'+\',\'+\'ئەڭ تۆۋەن تېمپېراتۇرا\'+#weather_templow+\'سېلسىيە گرادۇس'</string>
     <string name="desc_weather_2">'ئەتە\'+@weather_description1+\', \'+\'ئەڭ يۇقىرى تېمپېراتۇرا\'+#weather_temphigh1+\'سېلسىيە گرادۇس\'+\',\'+\'ئەڭ تۆۋەن تېمپېراتۇرا\'+#weather_templow1+\'سېلسىيە گرادۇس'</string>
     <string name="desc_weather_3">'ئۆگۈنلۈككە\'+\', \'+@datetime2+\', \'+@weather_description2+\', \'+\'ئەڭ يۇقىرى تېمپېراتۇرا\'+#weather_temphigh2+\'سېلسىيە گرادۇس\'+\',\'+\'ئەڭ تۆۋەن تېمپېراتۇرا\'+#weather_templow2+\'سېلسىيە گرادۇس'</string>
     <string name="desc_weather_4">'ئىندىنلىققا\'+\', \'+@datetime3+\', \'+@weather_description3+\', \'+\'ئەڭ يۇقىرى تېمپېراتۇرا\'+#weather_temphigh3+\'سېلسىيە گرادۇس\'+\',\'+\'ئەڭ تۆۋەن تېمپېراتۇرا\'+#weather_templow3+\'سېلسىيە گرادۇس'</string>
     <string name="weather_type_null">'سانلىق مەلۇمات يوق'</string>
-    <string name="aqi_pure">'بۇلغانمىغان'</string>
+    <string name="aqi_pure">''</string>
     <string name="aqi_good">'ھاۋا سۈپىتى ئەلا'</string>
     <string name="aqi_moderate">'ھاۋا سۈپىتى ياخشى'</string>
     <string name="aqi_pollution">'يېنىك بۇلغىنىش'</string>
@@ -18,7 +18,7 @@
     <string name="aqi_dangerous">'ئېغىر دەرىجىدىكى بۇلغىنىش'</string>
     <string name="aqi_hazardous">'قاتتىق بۇلغىنىش'</string>
     <string name="aqi_break">'چەكتىن ئاشقان'</string>
-    <string name="weather_type_0">ئۇچۇق</string>
+    <string name="weather_type_0">ئوچۇق</string>
     <string name="weather_type_1">بۇلۇتلۇق</string>
     <string name="weather_type_2">تۇتۇق</string>
     <string name="weather_type_3">تۇمان</string>
