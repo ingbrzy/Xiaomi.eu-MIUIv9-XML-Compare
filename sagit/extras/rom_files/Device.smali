@@ -58,8 +58,6 @@
 
 .field public static final IS_D6S:Z
 
-.field public static final IS_E4:Z
-
 .field public static final IS_E6:Z
 
 .field public static final IS_E7:Z
@@ -678,16 +676,6 @@
     move-result v0
 
     sput-boolean v0, Lcom/android/camera/Device;->IS_A13:Z
-
-    const-string/jumbo v0, "nitrogen"
-
-    sget-object v1, Lmiui/os/Build;->DEVICE:Ljava/lang/String;
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    sput-boolean v0, Lcom/android/camera/Device;->IS_E4:Z
 
     const-string/jumbo v0, "ysl"
 
@@ -2536,7 +2524,7 @@
 
     const-string/jumbo v0, "support_picture_watermark"
 
-    const/4 v1, 0x1
+    const/4 v1, 0x0
 
     invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 

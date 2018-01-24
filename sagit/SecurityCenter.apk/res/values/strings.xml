@@ -972,6 +972,8 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="lockpattern_too_many_failed_confirmation_attempts_header">Too many unsuccessful attempts!</string>
   <string name="lockpattern_tutorial_cancel_label">Cancel</string>
   <string name="lockpattern_tutorial_continue_label">Next</string>
+  <string name="lockpattern_tutorial_continue_label_confirm">Click OK</string>
+  <string name="lockpattern_tutorial_continue_label_next">Click next</string>
   <string name="lockscreen_access_pattern_cell_added">Cell added</string>
   <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
   <string name="lockscreen_access_pattern_detected">Pattern completed</string>
