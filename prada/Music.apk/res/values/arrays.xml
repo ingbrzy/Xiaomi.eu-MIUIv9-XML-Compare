@@ -151,10 +151,10 @@
         <item>0x33000000</item>
         <item>0x33000000</item>
         <item>0x33000000</item>
-        <item>0x457f7f7f</item>
-        <item>0x77c7c7c7</item>
-        <item>0xa6e0e0e0</item>
-        <item>0xd4ebebeb</item>
-        <item>0xfff6f6f6</item>
+        <item>0x457F7F7F</item>
+        <item>0x77C7C7C7</item>
+        <item>0xA6E0E0E0</item>
+        <item>0xD4EBEBEB</item>
+        <item>0xFFF6F6F6</item>
     </integer-array>
 </resources>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="date_format">ཟླ་MMཚེས་dd E</string>
-    <string name="today">དེ་རིང་</string>
+    <string name="today">དེ་རིང་།</string>
     <string name="tomorrow">སང་ཉིན།</string>
     <string name="desc_weather_null">'གནས་སྐབས་སུ་གཞི་གྲངས་མི་འདུག'</string>
     <string name="desc_weather">\'དེ་རིང་\'+\', \'+@weather_location+\', \'+int(#month+1)+\'ཟླ\'+#date+\'ཚེས\'+\', \'+\'གཟའ\'+int(#day_of_week-1)+\',\'+#weather_temperature+\'ཏུའུ\'+\',\'+@weather_description+\',\'+@weather_aqi</string>
@@ -9,15 +9,15 @@
     <string name="desc_weather_2">'སང་ཉིན\'+@weather_description1+\', \'+\'དྲོད་ཚད་མཐོ་ཤོས\'+#weather_temphigh1+\'ཏུའུ\'+\',\'+\'དྲོད་ཚད་དམའ་ཤོས\'+#weather_templow1+\'ཏུའུ།'</string>
     <string name="desc_weather_3">'གནངས་ཉིན\'+\', \'+@datetime2+\', \'+@weather_description2+\', \'+\'དྲོད་ཚད་མཐོ་ཤོས\'+#weather_temphigh2+\'ཏུའུ\'+\',\'+\'དྲོད་ཚད་དམའ་ཤོས\'+#weather_templow2+\'ཏུའུ'</string>
     <string name="desc_weather_4">'གཞེས་ཉིན\'+\', \'+@datetime3+\', \'+@weather_description3+\', \'+\'དྲོད་ཚད་མཐོ་ཤོས\'+#weather_temphigh3+\'ཏུའུ\'+\',\'+\'དྲོད་ཚད་དམའ་ཤོས\'+#weather_templow3+\'ཏུའུ།'</string>
-    <string name="weather_type_null">'གནས་སྐབས་སུ་གཞི་གྲངས་མི་འདུག'</string>
+    <string name="weather_type_null">'གནས་སྐབས་གཞི་གྲངས་མི་འདུག'</string>
     <string name="aqi_pure">''</string>
     <string name="aqi_good">'མཁའ་རླུང་རབ།'</string>
     <string name="aqi_moderate">'མཁའ་དབུགས་བཟང་།'</string>
     <string name="aqi_pollution">'སྦགས་བཙོག་ཚད་ཆུང་།'</string>
     <string name="aqi_unhealthy">'སྦགས་བཙོག་ཚད་འབྲིང་།'</string>
     <string name="aqi_dangerous">'སྦགས་བཙོག་ཚད་མཐོ།'</string>
-    <string name="aqi_hazardous">'སྦགས་བཙོག་ཚབས་ཆེན།'</string>
-    <string name="aqi_break">'འགད་ཐོ།'</string>
+    <string name="aqi_hazardous">'སྦགས་བཙོག་ཆབས་ཆེན།'</string>
+    <string name="aqi_break">'ཚད་བརྒལ།'</string>
     <string name="weather_type_0">གནམ་དྭངས།</string>
     <string name="weather_type_1">སྤྲིན་མང་།</string>
     <string name="weather_type_2">གནམ་འཐིབས།</string>
@@ -32,7 +32,7 @@
     <string name="weather_type_11">ཆར་ཆུང་།</string>
     <string name="weather_type_12">ཁ་ཆར་འདྲེས་མ།</string>
     <string name="weather_type_13">ཁ་བ་དྲག་པོ།</string>
-    <string name="weather_type_14">ཐོལ་གངས།</string>
+    <string name="weather_type_14">ཁ་བ་ཡུད་ཙམ་འབབ་པ།</string>
     <string name="weather_type_15">ཁ་བ་ཆེན་པོ།</string>
     <string name="weather_type_16">ཁ་བ་འབྲིང་ཙམ།</string>
     <string name="weather_type_17">ཁ་བ་ཆུང་ཆུང་།</string>
