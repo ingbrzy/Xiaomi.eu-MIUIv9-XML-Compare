@@ -7,8 +7,10 @@
   <string name="custom_lock_wallpaper_enter">Enter</string>
   <string name="default_lockscreen_unlock_hint_text">Swipe up to unlock</string>
   <string name="delete">Delete</string>
+  <string name="digital_clock_dot">:</string>
   <string name="do_disclosure_generic">This device is managed by your organization</string>
   <string name="do_disclosure_with_name">This device is managed by %s</string>
+  <string name="doze_pickup_subtype_performs_proximity_check"/>
   <string name="emergency_call_string">Emergency</string>
   <string name="face_data_input_camera_fail">"Couldn't load camera"</string>
   <string name="face_data_input_camera_ok">Loading camera…</string>
@@ -17,6 +19,8 @@
   <string name="face_data_input_msg">Place your face inside the frame</string>
   <string name="face_data_input_ok">Done</string>
   <string name="face_data_input_ok_msg">Turn on screen to unlock device using your face data.</string>
+  <string name="face_data_input_ok_msg_angle">"Unlock the device with your face when the screen is on.
+(Record your face data including all the required angles.)​"</string>
   <string name="face_data_input_ok_title">Added successfully</string>
   <string name="face_data_input_title">Add face data</string>
   <string name="face_data_introduction_msg">Face data can be used to unlock your device or verify your identity. Add Lock screen password before adding your face data.</string>
@@ -28,7 +32,9 @@
   <string name="face_data_manage_delete_title">Face data</string>
   <string name="face_data_manage_unlock_msg">Unlock device using your face data</string>
   <string name="face_data_manage_unlock_title">Unlock using face data</string>
-  <string name="face_data_suggesstion_first">Unlocking your device using your face data is less secure than using a Lock screen password. Your device might be unlocked by people who look like you.</string>
+  <string name="face_data_siggesstion_next">Next</string>
+  <string name="face_data_siggesstion_next_time">Next (%ds)</string>
+  <string name="face_data_suggesstion_first">Security issues: Face unlock is less secure than a PIN, password, or pattern. Your device might be unlocked with your photo, as well as by people or objects with similar appearance.</string>
   <string name="face_data_suggesstion_second">"Make sure all parts of your face aren't covered by objects and are clearly visible. Your face should be well-lit as well."</string>
   <string name="face_unlock_adjust_distance">Make sure the distance between your face and the screen is optimal.</string>
   <string name="face_unlock_be_on_the_screen">Hold the device in front of your face</string>
@@ -47,6 +53,8 @@
   <string name="face_unlock_passwork">Use password</string>
   <string name="face_unlock_passwork_and_fingerprint">Use password or face data</string>
   <string name="face_unlock_quality">"Couldn't see your face clearly"</string>
+  <string name="face_unlock_reenter_content">Face unlock algorithm is being updated. Tap to record face data again.</string>
+  <string name="face_unlock_reenter_title">Record your face data again.</string>
   <string name="face_unlock_reveal_eye">Make your eyes visible</string>
   <string name="face_unlock_reveal_mouth">Make your lips visible</string>
   <string name="face_unlock_rise">Lower your head</string>
@@ -60,6 +68,7 @@
   <string name="fingerprint_enter_second_psw_msg_oldman">"Can't enter Second space while in Lite mode"</string>
   <string name="fingerprint_enter_second_psw_title">Enter Second space password</string>
   <string name="fingerprint_not_identified_msg">Too many unsuccessful attempts. Enter password now or try using your fingerprint in a few seconds.</string>
+  <string name="fingerprint_not_identified_msg_lock">Too many unsuccessful attempts. Enter password now.</string>
   <string name="fingerprint_not_identified_title">Enter password</string>
   <string name="fingerprint_try_again_msg">"Couldn't verify fingerprint, try again."</string>
   <string name="fingerprint_try_again_text">Try again</string>
@@ -100,6 +109,7 @@
   <string name="keyguard_left_buscard">Notes</string>
   <string name="keyguard_left_remotecentral">Calendar</string>
   <string name="keyguard_left_smarthome">Contacts</string>
+  <string name="keyguard_left_view_lock_wallpaper">Wallpaper Carousel</string>
   <string name="keyguard_quick_charging_info_click_to_detail">Quick charging. Tap to view details.</string>
   <string name="keyguard_quickly_charging_info_charging_text">Quick charging…</string>
   <string name="keyguard_torch_cover_text">To keep torch on, hold the Power button</string>

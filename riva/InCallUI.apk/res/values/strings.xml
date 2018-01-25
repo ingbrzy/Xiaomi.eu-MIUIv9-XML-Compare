@@ -194,7 +194,7 @@
   <string name="onscreen_note_calls_text">Note</string>
   <string name="onscreen_swap_calls_text">Swap</string>
   <string name="onscreen_switch_camera">Switch</string>
-  <string name="package_not_available">\"%s\" is not available</string>
+  <string name="package_not_available">"\"%s\" isn't available"</string>
   <string name="pause_prompt_no">No</string>
   <string name="pause_prompt_yes">Yes</string>
   <string name="payphone">Payphone</string>
@@ -216,6 +216,7 @@
   <string name="upgrade_vt_prompt">Switch to video call?</string>
   <string name="user_locked_prompt">Unlock device to access contacts.</string>
   <string name="video_conference_caller_info_name">"%1$s's video conference call"</string>
+  <string name="video_crbt_title">%s video ringback tone</string>
   <string name="voicemail">Voicemail</string>
   <string name="wait_prompt_str">"Send the following tones?
 "</string>

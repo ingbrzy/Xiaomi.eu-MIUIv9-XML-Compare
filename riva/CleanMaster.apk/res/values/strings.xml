@@ -44,6 +44,10 @@
   <string name="apps_sort_type_title">Sort</string>
   <string name="auto_clean_switch_off">Off</string>
   <string name="auto_clean_switch_on">On</string>
+  <string name="auto_clean_time_every_day">Every day</string>
+  <string name="auto_clean_time_fifteen_day">Every 15 days</string>
+  <string name="auto_clean_time_seven_day">Every 7 days</string>
+  <string name="auto_clean_time_three_day">Every 3 days</string>
   <string name="auto_cleaner_open">Turn on</string>
   <string name="back">Back</string>
   <string name="browser_scan_history_desc">Browser History</string>
@@ -577,6 +581,7 @@
   <string name="wechat_copying_video_dialog_title">Export to Gallery</string>
   <string name="wechat_copying_video_empty">No videos to export</string>
   <string name="wechat_copying_video_success">Exported successfully</string>
+  <string name="wechat_qq_activity_title">Deep clean</string>
   <string name="wechat_qq_celan_tab_file">Files</string>
   <string name="wechat_qq_celan_tab_image">Images</string>
   <string name="wechat_qq_celan_tab_video">Videos</string>

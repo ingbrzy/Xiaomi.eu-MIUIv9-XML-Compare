@@ -16,8 +16,6 @@
         <item>com.miui.voip</item>
     </string-array>
     <string-array name="protected_process_name">
-        <item>com.tencent.mm:push</item>
-        <item>com.tencent.mm</item>
         <item>com.miui.securitycore.remote</item>
     </string-array>
     <string-array name="restart_persist_service">
@@ -87,9 +85,11 @@
     <string-array name="sleepclean_white_list">
         <item>android</item>
         <item>com.android.systemui</item>
+        <item>com.android.phone</item>
         <item>com.miui.miwallpaper</item>
         <item>com.android.mms</item>
         <item>com.android.bluetooth</item>
+        <item>com.xiaomi.bluetooth</item>
         <item>com.miui.home</item>
         <item>com.miui.touchassistant</item>
         <item>com.google.android.marvin.talkback</item>
@@ -99,13 +99,39 @@
         <item>com.miui.wmsvc</item>
         <item>com.android.updater</item>
         <item>com.xiaomi.metoknlp</item>
+        <item>com.android.deskclock</item>
+        <item>com.android.calendar</item>
+        <item>com.android.providers.calendar</item>
+        <item>com.qualcomm.qcrilmsgtunnel</item>
+        <item>com.qualcomm.uimremoteclient</item>
+        <item>com.qualcomm.wfd.service</item>
+        <item>com.qualcomm.qti.telephonyservice</item>
+        <item>com.qualcomm.qti.services.secureui</item>
+        <item>com.qualcomm.qti.callenhancement</item>
+        <item>com.qualcomm.qti.tetherservice</item>
+        <item>com.qualcomm.location</item>
+        <item>com.qualcomm.qti.GBAHttpAuthentication.auth</item>
+        <item>com.qualcomm.qti.auth.sampleauthenticatorservice</item>
+        <item>com.qualcomm.qti.auth.secureextauthservice</item>
+        <item>com.qualcomm.qti.auth.securesampleauthservice</item>
+        <item>com.qti.qualcomm.datastatusnotification</item>
+        <item>com.qualcomm.embms</item>
+        <item>com.qualcomm.fastdormancy</item>
+        <item>com.qualcomm.shutdownlistner</item>
+        <item>com.qualcomm.timeservice</item>
+        <item>com.android.cellbroadcastreceiver</item>
+        <item>com.android.carrierconfig</item>
+        <item>com.android.server.telecom</item>
     </string-array>
     <string-array name="sleepstart_white_list">
+        <item>com.xiaomi.joyose</item>
+        <item>com.miui.whetstone</item>
         <item>com.android.incallui</item>
         <item>com.android.providers.contacts</item>
         <item>com.android.phone</item>
         <item>com.android.mms</item>
         <item>com.android.bluetooth</item>
+        <item>com.xiaomi.bluetooth</item>
         <item>com.qti.cbwidget</item>
         <item>com.miui.touchassistant</item>
         <item>com.google.android.marvin.talkback</item>
@@ -115,12 +141,35 @@
         <item>com.miui.securitycenter</item>
         <item>com.miui.virtualsim</item>
         <item>com.miui.wmsvc</item>
+        <item>com.xiaomi.metoknlp</item>
         <item>com.android.updater</item>
         <item>com.miui.klo.bugreport</item>
         <item>com.android.calendar</item>
         <item>com.android.providers.calendar</item>
         <item>com.android.providers.downloads</item>
         <item>com.miui.guardprovider</item>
+        <item>com.xiaomi.finddevice</item>
+        <item>com.miui.cloudbackup</item>
+        <item>com.qualcomm.qcrilmsgtunnel</item>
+        <item>com.qualcomm.uimremoteclient</item>
+        <item>com.qualcomm.wfd.service</item>
+        <item>com.qualcomm.qti.telephonyservice</item>
+        <item>com.qualcomm.qti.services.secureui</item>
+        <item>com.qualcomm.qti.callenhancement</item>
+        <item>com.qualcomm.qti.tetherservice</item>
+        <item>com.qualcomm.location</item>
+        <item>com.qualcomm.qti.GBAHttpAuthentication.auth</item>
+        <item>com.qualcomm.qti.auth.sampleauthenticatorservice</item>
+        <item>com.qualcomm.qti.auth.secureextauthservice</item>
+        <item>com.qualcomm.qti.auth.securesampleauthservice</item>
+        <item>com.qti.qualcomm.datastatusnotification</item>
+        <item>com.qualcomm.embms</item>
+        <item>com.qualcomm.fastdormancy</item>
+        <item>com.qualcomm.shutdownlistner</item>
+        <item>com.qualcomm.timeservice</item>
+        <item>com.android.cellbroadcastreceiver</item>
+        <item>com.android.carrierconfig</item>
+        <item>com.android.server.telecom</item>
     </string-array>
     <string-array name="sleepclean_normal_kill_list">
         <item>com.xiaomi.hm.health</item>
@@ -222,6 +271,9 @@
     <string-array name="special_foreground_package">
         <item>com.android.chrome</item>
         <item>com.yandex.browser</item>
+    </string-array>
+    <string-array name="protect_not_forcestop">
+        <item>com.tencent.mm</item>
     </string-array>
     <string-array name="aborted_packages">
         <item>com.android.browser</item>

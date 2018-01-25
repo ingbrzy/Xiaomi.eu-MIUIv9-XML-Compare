@@ -8,6 +8,14 @@
         <item quantity="other">Added %d cloud photos, turn off \"Only show local albums\" to view.</item>
         <item quantity="one">Added %d cloud photo, turn off \"Only show local albums\" to view.</item>
     </plurals>
+    <plurals name="add_to_album_failed_with_reason_and_count">
+        <item quantity="other">"%2$d items can't be added to album. %1$s."</item>
+        <item quantity="one">"%2$d item can't be added to album. %1$s."</item>
+    </plurals>
+    <plurals name="add_to_secret_failed_with_reason_and_count">
+        <item quantity="other">"%2$d items can't be added to hidden album. %1$s."</item>
+        <item quantity="one">"%2$d item can't be added to hidden album. %1$s."</item>
+    </plurals>
     <plurals name="age_day">
         <item quantity="other">%d days</item>
         <item quantity="one">%d day</item>
@@ -120,6 +128,10 @@
         <item quantity="other">Total %d photos</item>
         <item quantity="one">Total %d photo</item>
     </plurals>
+    <plurals name="fail_reason_processing_file">
+        <item quantity="other">Processing photos…</item>
+        <item quantity="one">Processing photo…</item>
+    </plurals>
     <plurals name="fast_share_auto_render_failed">
         <item quantity="other">"Skipped %1$d photos which couldn't be rendered."</item>
         <item quantity="one">"Skipped a photo which couldn't be rendered."</item>
@@ -204,6 +216,10 @@
         <item quantity="other">Total %d photos</item>
         <item quantity="one">Total %d photo</item>
     </plurals>
+    <plurals name="remove_from_secret_failed_with_reason_and_count">
+        <item quantity="other">"%2$d items can't be removed from hidden album. %1$s."</item>
+        <item quantity="one">"%2$d item can't be removed from hidden album. %1$s."</item>
+    </plurals>
     <plurals name="search_feedback_done_mark_and_contribute_false_negative">
         <item quantity="other">Added %1$d photos to \"%2$s\" and added to the database.</item>
         <item quantity="one">Added %1$d photo to \"%2$s\" and added to the database.</item>
@@ -219,6 +235,22 @@
     <plurals name="search_feedback_done_mark_false_positive">
         <item quantity="other">Removed %1$d photos from \"%2$s\".</item>
         <item quantity="one">Removed %1$d photo from \"%2$s\".</item>
+    </plurals>
+    <plurals name="send_processing_files_error">
+        <item quantity="other">"Couldn't share. Still processing %d photos…"</item>
+        <item quantity="one">"Couldn't share. Still processing %d photo…"</item>
+    </plurals>
+    <plurals name="slim_complete_photo_count">
+        <item quantity="other">Optimized %d photos</item>
+        <item quantity="one">Optimized %d photo</item>
+    </plurals>
+    <plurals name="slim_exit_dialog_message">
+        <item quantity="other">"%d photos haven't been optimized. Stop now?"</item>
+        <item quantity="one">"%d photo hasn't been optimized. Stop now?"</item>
+    </plurals>
+    <plurals name="slim_remain_photo_count">
+        <item quantity="other">%d photos left</item>
+        <item quantity="one">%d photo left</item>
     </plurals>
     <plurals name="sync_error_title">
         <item quantity="other">"Haven't backed up %d photos and videos"</item>

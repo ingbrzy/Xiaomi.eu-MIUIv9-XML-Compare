@@ -87,7 +87,7 @@
   <string name="account_setup_basics_password_label">Enter password</string>
   <string name="account_setup_basics_title">Add account</string>
   <string name="account_setup_check_settings_check_incoming_msg">Validating server settings…</string>
-  <string name="account_setup_check_settings_check_outgoing_msg">Validating smtp settings…</string>
+  <string name="account_setup_check_settings_check_outgoing_msg">Validating SMTP settings…</string>
   <string name="account_setup_check_settings_retr_info_msg">"    Retrieving account information…"</string>
   <string name="account_setup_correct_address_tips">Enter email address</string>
   <string name="account_setup_creating_account_msg">"    Creating account…"</string>
@@ -166,7 +166,6 @@
   <string name="account_sync_settings_settings">Sync contacts and calendar</string>
   <string name="account_sync_settingstip_description">Sync</string>
   <string name="account_waiting_for_folders_msg">Loading folders…</string>
-  <string name="actionbar_large_unread_count">%1$d+ unread</string>
   <string name="activity_folder_selection">Choose folder</string>
   <string name="activity_mailbox_selection">Choose account</string>
   <string name="ad_merge">Ads &amp; Notifications</string>
@@ -223,6 +222,8 @@
   <string name="auto_advance_help_title">After deleting a message, view…</string>
   <string name="auto_advance_label">Delete message flow</string>
   <string name="auto_advance_summary">Choose which message to scroll to after deleting a message</string>
+  <string name="auto_login_fail">"Couldn't sign in automatically"</string>
+  <string name="auto_login_fail_to_retry">"Couldn't sign in automatically, try again."</string>
   <string name="auto_mail_describe">139 Email Service Automatical Configuring can help you filling in the login information to the mailbox. Do you want to enable this feature?</string>
   <string name="auto_mail_disable_txt">Disabled</string>
   <string name="auto_mail_enable_txt">Start Settings</string>
@@ -553,7 +554,6 @@
   <string name="header_label_general_preferences">General</string>
   <string name="help_and_info">Help</string>
   <string name="help_config">Self configuration</string>
-  <string name="hide_atts_remaining">Hide %1$d attachments</string>
   <string name="hide_elided">▼ Hide quoted text</string>
   <string name="hide_password">Hide password</string>
   <string name="hierarchical_folder_parent_top">%1$s∕%2$s∕</string>
@@ -585,7 +585,6 @@
   <string name="loading_conversations">Loading…</string>
   <string name="loading_from_remote">Loading…</string>
   <string name="local_search">Local search</string>
-  <string name="local_search_result">%s results in synced messages</string>
   <string name="login">Sign in</string>
   <string name="login139">Sign in with China Mobile</string>
   <string name="login_failed_ticker">%s signin unsuccessful.</string>
@@ -712,7 +711,6 @@
   <string name="mibill_privacy_policy_link">"By using this feature, you're agreeing to our "&lt;a href="https://www.mipay.com/res/doc/eula/email.html"&gt;Terms of Service&lt;/a&gt;</string>
   <string name="mibill_privacy_policy_title">Manage bills automatically</string>
   <string name="min_payment_text">Minimum payment</string>
-  <string name="more_atts_remaining">%1$d more remaining</string>
   <string name="more_context">More</string>
   <string name="more_string">+%1$s</string>
   <string name="move_to_selection_dialog_title">Move to another folder</string>
@@ -726,7 +724,6 @@
   <string name="network_try_again">Check network connection and try again</string>
   <string name="network_unavailable">Network not available</string>
   <string name="new_incoming_messages_one">New message from %s. Show.</string>
-  <string name="new_messages">%1$d new messages</string>
   <string name="new_signature_has_saved">Saved successfully</string>
   <string name="next_action">Next</string>
   <string name="no">No</string>
@@ -891,6 +888,9 @@ to receive reminders about payments and trips"</string>
   <string name="push_wps_confirm_message">Try using WPS Office to open this attachment.</string>
   <string name="push_wps_confirm_title">Try WPS Office</string>
   <string name="push_wps_no_response_app">No application found to handle this action</string>
+  <string name="qq_auto_login_failed_cpy_pass_success">Copied successfully. Go back to the sign-in page and paste the code into the password form.</string>
+  <string name="qq_auto_login_failed_dialog_message">Copy verification code, tap \"Enter username and password to sign in\" on the sign-in page, and paste the code into the password form.</string>
+  <string name="qq_auto_login_failed_dialog_positive_label">Copy code</string>
   <string name="qq_bar_open_imap">Help</string>
   <string name="qq_bar_send_message">Send SMS</string>
   <string name="qq_login_basecode">Signing in to the web QQ Mail. Enter independent password.</string>
@@ -916,7 +916,6 @@ to receive reminders about payments and trips"</string>
   <string name="quick_3">"I'll read this later and get back to you."</string>
   <string name="quick_4">"Let's set up a meeting to discuss this."</string>
   <string name="quick_reply_dialog_title">Choose a reply</string>
-  <string name="quick_reply_hint">Reply to %1$d people</string>
   <string name="quick_reply_hint_bcc">(In BCC)</string>
   <string name="quick_reply_hint_cc">(In CC)</string>
   <string name="quick_reply_hint_reply_only_from">Quick reply (sender only)</string>
@@ -984,7 +983,6 @@ to receive reminders about payments and trips"</string>
   <string name="refreshing_done">Done</string>
   <string name="release_to_refresh">Release to refresh</string>
   <string name="remind_attachment_size_limit">Your emails should be less than %sMB</string>
-  <string name="remote_search_result">%s results on server</string>
   <string name="remove_account">Remove account</string>
   <string name="remove_folder">Remove from %1$s</string>
   <string name="remove_star">Unstar</string>
@@ -1002,6 +1000,7 @@ to receive reminders about payments and trips"</string>
   <string name="request_entity_large">File is too big</string>
   <string name="request_permission_activity">Permission Request</string>
   <string name="respond_inline">"   Respond inline"</string>
+  <string name="retry_login">Sign in again</string>
   <string name="save_action">Save</string>
   <string name="save_attachment">Save</string>
   <string name="save_draft_failed">Save draft failed</string>
@@ -1159,7 +1158,6 @@ Remove account?"</string>
   <string name="undo">Undo</string>
   <string name="unknow">Unknown</string>
   <string name="unread_string">conversation unread</string>
-  <string name="unsent_messages_in_outbox">%1$s unsent in %2$s</string>
   <string name="unzip_file_failed">"Couldn't unzip file"</string>
   <string name="update_date_format_templete">HH:mm aa, MMMM dd</string>
   <string name="update_to_wps_mail">Enjoy more features with WPS Mail</string>
