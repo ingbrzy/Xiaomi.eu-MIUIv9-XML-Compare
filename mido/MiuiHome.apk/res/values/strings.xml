@@ -143,6 +143,7 @@
   <string name="gadget_clock_12_label">Clock 2x1</string>
   <string name="gadget_clock_14_label">Clock 4x1</string>
   <string name="gadget_clock_24_label">Clock 4x2</string>
+  <string name="gadget_clock_34_label">Clock 4x3</string>
   <string name="gadget_clock_label">Clock</string>
   <string name="gadget_error_text">"Can't load widget"</string>
   <string name="gadget_google_search_label">Google Search</string>
