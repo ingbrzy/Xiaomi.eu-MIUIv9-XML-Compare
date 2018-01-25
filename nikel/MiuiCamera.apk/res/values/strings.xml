@@ -114,6 +114,9 @@
   <string name="face_beauty_intelligent_level_3">High</string>
   <string name="face_beauty_smart">Smart</string>
   <string name="face_score_info">Score: %.1f</string>
+  <string name="front_camera_hint_text_place">"Taking selfies will be easier
+if you rotate your phone"</string>
+  <string name="front_camera_hint_text_rotate">Rotate your phone</string>
   <string name="groupshot_mode_use_hint">"Camera will take multiple photos
 and then create a shot where everyone looks best."</string>
   <string name="hibernate_hint">Tap the screen to wake Camera</string>
