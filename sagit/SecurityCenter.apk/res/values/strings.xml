@@ -484,7 +484,7 @@
   <string name="cancel">Cancel</string>
   <string name="cancel_button">Cancel</string>
   <string name="card_main_applock_action">Turn on</string>
-  <string name="card_main_applock_summary">Protect selected apps with a password. Hide messages, photos, notes, and more.</string>
+  <string name="card_main_applock_summary">Protect messages, photos, and other items with a password.</string>
   <string name="card_main_applock_title">App lock</string>
   <string name="card_main_deepclean_action">Clear</string>
   <string name="card_main_deepclean_qq_title">QQ cleaner</string>
@@ -972,8 +972,8 @@ Carrier may charge you additional fees if you use mobile data connection again."
   <string name="lockpattern_too_many_failed_confirmation_attempts_header">Too many unsuccessful attempts!</string>
   <string name="lockpattern_tutorial_cancel_label">Cancel</string>
   <string name="lockpattern_tutorial_continue_label">Next</string>
-  <string name="lockpattern_tutorial_continue_label_confirm">Click OK</string>
-  <string name="lockpattern_tutorial_continue_label_next">Click next</string>
+  <string name="lockpattern_tutorial_continue_label_confirm">Tap \"OK\"</string>
+  <string name="lockpattern_tutorial_continue_label_next">Tap \"Next\"</string>
   <string name="lockscreen_access_pattern_cell_added">Cell added</string>
   <string name="lockscreen_access_pattern_cleared">Pattern cleared</string>
   <string name="lockscreen_access_pattern_detected">Pattern completed</string>
@@ -1460,7 +1460,7 @@ This activity shortens battery life."</string>
   <string name="power_btn_analyze">Analyze battery usage</string>
   <string name="power_cell">Cell standby</string>
   <string name="power_center_auto_shutdown">Schedule power on/off</string>
-  <string name="power_center_back">Back to Power</string>
+  <string name="power_center_back">Back to Battery usage</string>
   <string name="power_center_charge_time">%1$suntil full</string>
   <string name="power_center_main_percent_formatted">%s%%</string>
   <string name="power_center_ontime_boot">Power on time</string>
@@ -1470,7 +1470,7 @@ This activity shortens battery life."</string>
   <string name="power_center_state_on">On</string>
   <string name="power_center_time_to_boot">Power on time</string>
   <string name="power_center_time_to_shutdown">Power off time</string>
-  <string name="power_center_title">Power</string>
+  <string name="power_center_title">Battery usage</string>
   <string name="power_consume_hardware_total_format">Hardware: %s</string>
   <string name="power_consume_other">Other</string>
   <string name="power_consume_rank_hardware">Hardware</string>
