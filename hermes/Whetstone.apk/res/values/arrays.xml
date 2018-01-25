@@ -99,6 +99,9 @@
         <item>com.miui.wmsvc</item>
         <item>com.android.updater</item>
         <item>com.xiaomi.metoknlp</item>
+        <item>com.android.deskclock</item>
+        <item>com.android.calendar</item>
+        <item>com.android.providers.calendar</item>
         <item>com.qualcomm.qcrilmsgtunnel</item>
         <item>com.qualcomm.uimremoteclient</item>
         <item>com.qualcomm.wfd.service</item>
@@ -115,11 +118,14 @@
         <item>com.qualcomm.embms</item>
         <item>com.qualcomm.fastdormancy</item>
         <item>com.qualcomm.shutdownlistner</item>
+        <item>com.qualcomm.timeservice</item>
         <item>com.android.cellbroadcastreceiver</item>
         <item>com.android.carrierconfig</item>
         <item>com.android.server.telecom</item>
     </string-array>
     <string-array name="sleepstart_white_list">
+        <item>com.xiaomi.joyose</item>
+        <item>com.miui.whetstone</item>
         <item>com.android.incallui</item>
         <item>com.android.providers.contacts</item>
         <item>com.android.phone</item>
@@ -135,12 +141,15 @@
         <item>com.miui.securitycenter</item>
         <item>com.miui.virtualsim</item>
         <item>com.miui.wmsvc</item>
+        <item>com.xiaomi.metoknlp</item>
         <item>com.android.updater</item>
         <item>com.miui.klo.bugreport</item>
         <item>com.android.calendar</item>
         <item>com.android.providers.calendar</item>
         <item>com.android.providers.downloads</item>
         <item>com.miui.guardprovider</item>
+        <item>com.xiaomi.finddevice</item>
+        <item>com.miui.cloudbackup</item>
         <item>com.qualcomm.qcrilmsgtunnel</item>
         <item>com.qualcomm.uimremoteclient</item>
         <item>com.qualcomm.wfd.service</item>
@@ -157,6 +166,7 @@
         <item>com.qualcomm.embms</item>
         <item>com.qualcomm.fastdormancy</item>
         <item>com.qualcomm.shutdownlistner</item>
+        <item>com.qualcomm.timeservice</item>
         <item>com.android.cellbroadcastreceiver</item>
         <item>com.android.carrierconfig</item>
         <item>com.android.server.telecom</item>
