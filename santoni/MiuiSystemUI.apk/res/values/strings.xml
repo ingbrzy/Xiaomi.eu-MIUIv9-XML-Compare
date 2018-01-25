@@ -513,6 +513,7 @@ For more information, contact your admin."</string>
   <string name="overlay_display_devices_title">Simulate secondary displays</string>
   <string name="picture_color_mode">Picture color mode</string>
   <string name="picture_color_mode_desc">Use sRGB</string>
+  <string name="please_slide_agian">Please slide again</string>
   <string name="pointer_location">Pointer location</string>
   <string name="pointer_location_summary">Screen overlay showing current touch data</string>
   <string name="power_charging">%1$s - %2$s</string>

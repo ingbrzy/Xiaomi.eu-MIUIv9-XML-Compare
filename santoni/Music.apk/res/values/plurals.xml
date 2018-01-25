@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <plurals name="NPlaylist_delete_confirm">
-        <item quantity="other">Delete %d playlists?</item>
-        <item quantity="one">Delete %d playlist?</item>
-    </plurals>
     <plurals name="Nalbum_total_songs">
         <item quantity="other">Total %d songs</item>
-        <item quantity="zero">Total %d song</item>
         <item quantity="one">Total %d song</item>
     </plurals>
     <plurals name="Nartists_count">
@@ -30,7 +25,8 @@
         <item quantity="one">%d band</item>
     </plurals>
     <plurals name="Nnew_tracks_count">
-        <item quantity="other">%d new</item>
+        <item quantity="other">%d new songs</item>
+        <item quantity="one">%d new song</item>
     </plurals>
     <plurals name="Nquit_warning">
         <item quantity="other">Player will stop in %d minutes</item>
@@ -41,9 +37,10 @@
         <item quantity="one">You chose not to find album covers and lyrics for local songs automatically. Delete info for %d song?</item>
     </plurals>
     <plurals name="Nsong_group_detail_subtitle">
-        <item quantity="other">Created on %1$s | total %2$d songs</item>
-        <item quantity="zero">Created on %1$s | total %2$d song</item>
-        <item quantity="one">Created on %1$s | total %2$d song</item>
+        <item quantity="other">"Created on %1$s 
+total %2$d songs"</item>
+        <item quantity="one">"Created on %1$s 
+total %2$d song"</item>
     </plurals>
     <plurals name="Nstop_backup_songs_message">
         <item quantity="other">"%d songs haven't been backed up to Mi Cloud. Stop now?"</item>
@@ -70,7 +67,7 @@
         <item quantity="one">%d similar song</item>
     </plurals>
     <plurals name="Nunbackup_audios">
-        <item quantity="other">"%1$d songs haven't been backed up (%2$.1fMB)"</item>
+        <item quantity="other">"%1$d songs haven't been backed up (%2$.1fMB)\""</item>
         <item quantity="one">"%1$d song hasn't been backed up (%2$.1fMB)"</item>
     </plurals>
     <plurals name="Nupload_song_button">
@@ -116,18 +113,6 @@
     <plurals name="multichoice_title">
         <item quantity="other">%d items selected</item>
         <item quantity="one">%d item selected</item>
-    </plurals>
-    <plurals name="notif_title_multiple_downloading">
-        <item quantity="other">Downloading %1$d songs</item>
-        <item quantity="one">Downloading %1$d song</item>
-    </plurals>
-    <plurals name="notification_download_failed_more">
-        <item quantity="other">"Couldn't download %1$d songs"</item>
-        <item quantity="one">"Couldn't download %1$d song"</item>
-    </plurals>
-    <plurals name="notification_download_success_more">
-        <item quantity="other">%1$d songs</item>
-        <item quantity="one">%1$d song</item>
     </plurals>
     <plurals name="reader_count">
         <item quantity="other">%d followers</item>
