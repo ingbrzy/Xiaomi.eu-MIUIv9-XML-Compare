@@ -25,5 +25,5 @@
     <string name="weather_type_21">Пыльная буря</string>
     <string name="weather_type_22">Град</string>
     <string name="weather_type_23">Пыль</string>
-    <string name="weather_type_24">Дымка</string>
+    <string name="weather_type_24">Смог</string>
 </resources>

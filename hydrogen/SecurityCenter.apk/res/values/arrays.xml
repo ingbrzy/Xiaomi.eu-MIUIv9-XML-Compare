@@ -61,7 +61,7 @@
         <item>Usage frequency</item>
         <item>Used storage</item>
         <item>Installation time</item>
-        <item>You can uninstall these apps</item>
+        <item>Apps that can be uninstalled</item>
     </string-array>
     <string-array name="sort_title">
         <item>Sort by status</item>
