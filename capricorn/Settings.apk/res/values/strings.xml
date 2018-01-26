@@ -956,7 +956,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="close_sdcard_optimization_warning_message">Your device will reboot to apply this change.</string>
   <string name="cloud_backup_section_title">Mi Cloud backup</string>
   <string name="cloud_backup_settings_section_title">Backup settings</string>
-  <string name="cloud_restore_section_summary">Restore apps, Home screen layout, and system settings</string>
+  <string name="cloud_restore_section_summary">Restore system settings, Home screen layout, and apps</string>
   <string name="cloud_restore_section_title">Restore from Mi Cloud</string>
   <string name="cmcc_hardware_version">Hardware version</string>
   <string name="collect_diagnostics_summary">Collect diagnostics data for troubleshooting</string>
