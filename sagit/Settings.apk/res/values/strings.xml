@@ -1801,6 +1801,9 @@ For more details, contact your organization's admin."</string>
   <string name="filter_personal_apps">Personal</string>
   <string name="filter_work_apps">Work</string>
   <string name="filter_write_settings_apps">Can modify system settings</string>
+  <string name="find_my_device">Find My Device</string>
+  <string name="find_my_device_disable">Off</string>
+  <string name="find_my_device_enable">On</string>
   <string name="fingerprint_add_max">You can add up to %d fingerprints</string>
   <string name="fingerprint_add_title">Add fingerprint</string>
   <string name="fingerprint_and_password_entrance_title">Screen lock &amp; fingerprint</string>
@@ -2891,6 +2894,10 @@ Select your operating system:"</string>
   <string name="night_display_temperature_title">Intensity</string>
   <string name="night_display_text">Night Light tints your screen amber. This makes it easier to look at your screen or read in dim light, and may help you fall asleep more easily.</string>
   <string name="night_display_title">Night Light</string>
+  <string name="night_light">Night Light</string>
+  <string name="night_light_brightness">Night Light Brigtness</string>
+  <string name="night_light_color">Night Light Color</string>
+  <string name="night_light_summary">Minimize the backlight in low light environment to enter night light mode</string>
   <string name="no">No</string>
   <string name="no_application">Nothing</string>
   <string name="no_applications">No apps.</string>
@@ -4042,7 +4049,9 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
   <string name="security_settings_premium_sms_desc">Send premium SMS</string>
   <string name="security_settings_summary">Set My Location, screen unlock, SIM card lock, credential storage lock</string>
   <string name="security_settings_title">Security &amp; Location</string>
+  <string name="security_status">Security Status</string>
   <string name="security_status_title">Security status</string>
+  <string name="security_update">Security Update</string>
   <string name="select_all">Select all</string>
   <string name="select_application">Select application</string>
   <string name="select_device_admin_msg">Device admin apps</string>
