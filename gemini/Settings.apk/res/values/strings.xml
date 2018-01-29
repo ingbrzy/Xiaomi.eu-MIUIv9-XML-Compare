@@ -2661,6 +2661,10 @@ Select your operating system:"</string>
   <string name="nfc_quick_toggle_title">NFC</string>
   <string name="nfc_se_route_title">Secure element position</string>
   <string name="nfc_se_wallet_title">Default wallet</string>
+  <string name="night_light">Night Light</string>
+  <string name="night_light_brightness">Night Light Brigtness</string>
+  <string name="night_light_color">Night Light Color</string>
+  <string name="night_light_summary">Minimize the backlight in low light environment to enter night light mode</string>
   <string name="no">No</string>
   <string name="no_account_found">"Couldn't find apps which can add accounts"</string>
   <string name="no_application">Nothing</string>
@@ -2872,6 +2876,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="paper_mode_get_location_dlg_negative_btn_text">Cancel</string>
   <string name="paper_mode_get_location_dlg_positive_btn_text">Go to Settings</string>
   <string name="paper_mode_get_location_dlg_title">Set location</string>
+  <string name="paper_mode_side_effect_hint">Higher intensity might affect the way content is displayed.</string>
   <string name="paper_mode_start_time_title">Turn on</string>
   <string name="passpoint_content">%1$s credentials</string>
   <string name="passpoint_label">Saved via</string>
