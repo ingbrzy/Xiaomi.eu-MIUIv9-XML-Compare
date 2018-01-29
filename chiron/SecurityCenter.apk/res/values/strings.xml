@@ -1188,6 +1188,8 @@ to respond"</string>
   <string name="network_blocked_connected_open_wifi">Connected to public network</string>
   <string name="network_blocked_notification_summary">Test network</string>
   <string name="network_blocked_switch_wifi">Switch networks</string>
+  <string name="network_changed_noti_summary">Using mobile data</string>
+  <string name="network_changed_noti_title">Disconnected from WLAN</string>
   <string name="network_connected_exception_title">Test network</string>
   <string name="network_control">View app settings</string>
   <string name="network_diagnostics">Test network</string>

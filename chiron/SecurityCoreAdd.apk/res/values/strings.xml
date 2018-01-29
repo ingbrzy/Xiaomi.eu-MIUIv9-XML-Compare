@@ -326,7 +326,7 @@ to enter Second space from Lock screen"</string>
 
 Some dual apps require Google Services Framework support. In such cases, dual Google Services Framework is created."</string>
   <string name="xspace_guide_des">Use 2 accounts without switching</string>
-  <string name="xspace_guide_title">Create Dual app for %s</string>
+  <string name="xspace_guide_title">Create a dual app</string>
   <string name="xspace_header">Dual apps</string>
   <string name="xspace_install_completed">Icon added to Home screen</string>
   <string name="xspace_install_failed">"Couldn't create"</string>
