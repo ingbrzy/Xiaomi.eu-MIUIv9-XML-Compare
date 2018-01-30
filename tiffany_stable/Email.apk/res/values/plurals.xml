@@ -17,7 +17,8 @@
         <item quantity="one">Conversation contains multiple messages, delete anyway?</item>
     </plurals>
     <plurals name="confirm_delete_draft">
-        <item quantity="other">Delete %1$d draft？</item>
+        <item quantity="other">Delete %1$d drafts?</item>
+        <item quantity="one">Delete %1$d draft?</item>
     </plurals>
     <plurals name="contact_num_selected">
         <item quantity="other">Selected %d items</item>
@@ -36,8 +37,8 @@
         <item quantity="one">Changed folder.</item>
     </plurals>
     <plurals name="conversation_msg_header_count">
-        <item quantity="other">… %1$d persons</item>
-        <item quantity="one">… %1$d person</item>
+        <item quantity="other">+%1$d people</item>
+        <item quantity="one">+%1$d person</item>
     </plurals>
     <plurals name="conversation_muted">
         <item quantity="other">Ignored %1$d conversations.</item>

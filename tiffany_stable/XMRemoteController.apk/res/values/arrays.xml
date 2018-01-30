@@ -25,6 +25,31 @@
         <item>"Why can I only turn on my A/C and can't turn it off?"</item>
         <item>Can I use Mi 3, Mi 2, and Redmi as an IR remote?</item>
     </string-array>
+    <string-array name="voice_ac_help">
+        <item>Turn on Haier AC in the living room</item>
+        <item>Set the temperature to 25 degrees</item>
+        <item>Set wind direction to \"Up\"</item>
+    </string-array>
+    <string-array name="voice_fan_help">
+        <item>Turn on Gree AC</item>
+        <item>Switch to swinging mode</item>
+        <item>Make AC blow harder</item>
+    </string-array>
+    <string-array name="voice_stb_help">
+        <item>Turn on set-top box</item>
+        <item>I want to watch Hunan TV</item>
+        <item>Go back to channel 15</item>
+    </string-array>
+    <string-array name="voice_tips">
+        <item>Turn on AC</item>
+        <item>I want to watch Shenzhen TV</item>
+        <item>Go back to channel 12</item>
+    </string-array>
+    <string-array name="voice_tv_help">
+        <item>Turn on TV in the bedroom</item>
+        <item>Turn off the TV</item>
+        <item>Turn up the volume on TV</item>
+    </string-array>
     <string-array name="assistant_tab">
         <item>Videos</item>
         <item>Screenshots</item>
@@ -55,10 +80,10 @@
     </string-array>
     <string-array name="epg_channel_tab_v53">
         <item>All</item>
-        <item>Recent</item>
-        <item>HD</item>
         <item>TV</item>
         <item>CCTV</item>
+        <item>HD</item>
+        <item>Recent</item>
     </string-array>
     <string-array name="epg_default_hot_channels">
         <item>Hunan TV</item>

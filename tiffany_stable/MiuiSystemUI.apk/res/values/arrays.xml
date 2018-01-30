@@ -45,17 +45,17 @@
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Off</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
-        <item>4M</item>
-        <item>16M</item>
+        <item>64KB</item>
+        <item>256KB</item>
+        <item>1MB</item>
+        <item>4MB</item>
+        <item>16MB</item>
     </string-array>
     <string-array name="select_logd_size_lowram_titles">
         <item>Off</item>
-        <item>64K</item>
-        <item>256K</item>
-        <item>1M</item>
+        <item>64KB</item>
+        <item>256KB</item>
+        <item>1MB</item>
     </string-array>
     <string-array name="select_logd_size_values">
         <item>32768</item>
@@ -67,15 +67,15 @@
     </string-array>
     <string-array name="select_logd_size_summaries">
         <item>Off</item>
-        <item>64K per log buffer</item>
-        <item>256K per log buffer</item>
-        <item>1M per log buffer</item>
-        <item>4M per log buffer</item>
-        <item>16M per log buffer</item>
+        <item>64KB per log buffer</item>
+        <item>256KB per log buffer</item>
+        <item>1MB per log buffer</item>
+        <item>4MB per log buffer</item>
+        <item>16MB per log buffer</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animation off</item>
-        <item>Animation scale .5x</item>
+        <item>Animation scale 0.5x</item>
         <item>Animation scale 1x</item>
         <item>Animation scale 1.5x</item>
         <item>Animation scale 2x</item>
@@ -93,7 +93,7 @@
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animation off</item>
-        <item>Animation scale .5x</item>
+        <item>Animation scale 0.5x</item>
         <item>Animation scale 1x</item>
         <item>Animation scale 1.5x</item>
         <item>Animation scale 2x</item>
@@ -111,7 +111,7 @@
     </string-array>
     <string-array name="animator_duration_scale_entries">
         <item>Animation off</item>
-        <item>Animation scale .5x</item>
+        <item>Animation scale 0.5x</item>
         <item>Animation scale 1x</item>
         <item>Animation scale 1.5x</item>
         <item>Animation scale 2x</item>
@@ -190,7 +190,7 @@
     <string-array name="debug_hw_overdraw_entries">
         <item>Off</item>
         <item>Show overdraw areas</item>
-        <item>Show areas for Deuteranomaly</item>
+        <item>Show areas for deuteranomaly</item>
     </string-array>
     <string-array name="debug_hw_overdraw_values">
         <item>false</item>
@@ -218,7 +218,7 @@
         <item>MTP (Media Transfer Protocol)</item>
         <item>PTP (Picture Transfer Protocol)</item>
         <item>RNDIS (USB Ethernet)</item>
-        <item>Audio Source</item>
+        <item>Audio source</item>
         <item>MIDI</item>
     </string-array>
     <string-array name="usb_configuration_values">
@@ -382,6 +382,7 @@
         <item>com.miui.gallery</item>
         <item>com.miui.player</item>
         <item>com.android.fileexplorer</item>
+        <item>com.mi.android.globalFileexplorer</item>
         <item>com.miui.securitycenter</item>
         <item>com.miui.cloudappbackup</item>
         <item>com.miui.fmradio</item>
@@ -434,6 +435,8 @@
         <item>com.android.cts.app.stub</item>
         <item>com.xiaomi.mimobile.noti</item>
         <item>com.miui.cleanmaster</item>
+        <item>com.xiaomi.midrop</item>
+        <item>com.android.cellbroadcastreceiver</item>
     </string-array>
     <string-array name="carrier_name">
         <item>SmarToneVodafone</item>
@@ -467,6 +470,16 @@
         <item>40494</item>
         <item>40554</item>
         <item>40497</item>
+    </string-array>
+    <string-array name="usa_mcc">
+        <item>310</item>
+        <item>311</item>
+        <item>312</item>
+        <item>313</item>
+        <item>316</item>
+    </string-array>
+    <string-array name="mx_mcc">
+        <item>334</item>
     </string-array>
     <string-array name="aqi_title_prefix">
         <item>AQI %1$s</item>
