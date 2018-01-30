@@ -188,6 +188,7 @@
     </string-array>
     <string-array name="light_sleep_process_list">
         <item>com.tencent.mm/com.tencent.mm:push</item>
+        <item>com.tencent.mm/com.tencent.mm</item>
         <item>com.tencent.mobileqq/com.tencent.mobileqq:MSF</item>
     </string-array>
     <string-array name="sleep_mode_disable_rtc_start">
