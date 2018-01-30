@@ -2418,6 +2418,20 @@
     return v0
 .end method
 
+.method public static isViceBackRemoasicCamera()Z
+    .locals 2
+
+    const-string/jumbo v0, "is_vice_back_remoasic_camera"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static isVideoSnapshotSizeLimited()Z
     .locals 2
 
