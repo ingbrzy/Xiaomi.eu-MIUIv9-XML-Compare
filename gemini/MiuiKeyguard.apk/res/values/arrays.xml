@@ -5,14 +5,8 @@
         <item>IN</item>
         <item>HK</item>
         <item>TW</item>
-        <item>SG</item>
+        <item>PL</item>
         <item>US</item>
         <item>TR</item>
     </string-array>
-    <integer-array name="config_input_face_unlock">
-        <item>-8</item>
-        <item>8</item>
-        <item>-13</item>
-        <item>13</item>
-    </integer-array>
 </resources>
