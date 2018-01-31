@@ -81,6 +81,7 @@
   <string name="card_title_video_call_paused">Video paused</string>
   <string name="card_title_video_conf_call">Video conference call</string>
   <string name="card_video_hold_swap">Swap</string>
+  <string name="change_to_voice_tips_when_background">The other party has switched to voice call</string>
   <string name="close_camera_failed">"Couldn't turn off camera…"</string>
   <string name="close_camera_requesting">Turning off camera…</string>
   <string name="conference_call_description" formatted="false">%s,%s etc. total %s</string>
@@ -203,7 +204,7 @@
   <string name="onscreen_add_call_text">Add call</string>
   <string name="onscreen_audio_mode_bluetooth">Bluetooth</string>
   <string name="onscreen_audio_mode_conference">Conference</string>
-  <string name="onscreen_audio_mode_handset">Hands-free</string>
+  <string name="onscreen_audio_mode_handset">Earpiece</string>
   <string name="onscreen_audio_mode_headset">Headphones</string>
   <string name="onscreen_audio_mode_speaker">Speaker</string>
   <string name="onscreen_audio_switch_mode">Switch audio</string>
