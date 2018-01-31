@@ -208,6 +208,7 @@
         <item>com.android.keyguard</item>
         <item>com.android.keychain</item>
         <item>com.miui.systemAdSolution</item>
+        <item>com.miui.msa.global</item>
         <item>com.miui.securitycore</item>
         <item>com.miui.personalassistant</item>
         <item>com.android.updater</item>
