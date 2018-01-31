@@ -116,6 +116,7 @@
     </string-array>
     <array name="region_prefix">
         <item>@array/islam</item>
+        <item>@array/notgoogle</item>
         <item>@array/lowkeymidrop</item>
     </array>
     <string-array name="islam">
@@ -124,6 +125,14 @@
         <item>IQ</item>
         <item>OM</item>
         <item>IR</item>
+    </string-array>
+    <string-array name="notgoogle">
+        <item>ID</item>
+        <item>RU</item>
+        <item>SG</item>
+        <item>MY</item>
+        <item>UA</item>
+        <item>HK</item>
     </string-array>
     <string-array name="lowkeymidrop">
         <item>CN</item>
