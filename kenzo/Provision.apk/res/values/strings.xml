@@ -39,8 +39,8 @@
   <string name="multisim_settings_category">SIM card settings</string>
   <string name="multisim_settings_title">2 SIM cards detected</string>
   <string name="navigation_picker_gesture_guide">Gesture guide</string>
-  <string name="navigation_picker_radio_text_full_screen">Full screen mode</string>
-  <string name="navigation_picker_radio_text_virtual_key">Virtual key mode</string>
+  <string name="navigation_picker_radio_text_full_screen">Full screen gestures</string>
+  <string name="navigation_picker_radio_text_virtual_key">Buttons</string>
   <string name="next">Next</string>
   <string name="next_fingerprint">Next</string>
   <string name="other_settings">Additional settings</string>

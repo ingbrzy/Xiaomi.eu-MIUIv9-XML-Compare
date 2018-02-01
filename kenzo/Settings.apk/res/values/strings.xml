@@ -2239,7 +2239,7 @@ Select your operating system:"</string>
   <string name="mtp_ptp_mode_summary">MTP or PTP function is active</string>
   <string name="multi_touch_points_category_title">Multi-touch points</string>
   <string name="multi_touch_points_preference">This setting will take effect after you reboot your device</string>
-  <string name="music_app_unavailable">Depend on music app, make sure it is available</string>
+  <string name="music_app_unavailable">Make sure the Mi Music app is available.</string>
   <string name="music_audio_effect_optimize">Audio settings</string>
   <string name="music_audio_effect_optimize_summary">Dirac, headphones, and other audio settings</string>
   <string name="music_audio_effect_optimize_summary_with_hd">Dirac, Hi-Fi, headphones, and other audio settings</string>
@@ -2265,7 +2265,7 @@ Select your operating system:"</string>
   <string name="music_dirac_mode_piston_color">Color Edition</string>
   <string name="music_dirac_mode_piston_standard">Standard Edition</string>
   <string name="music_dirac_mode_piston_youth">Youth Edition</string>
-  <string name="music_dirac_mode_reduction_noise">Mi Noise Cancelling (TypeC)</string>
+  <string name="music_dirac_mode_reduction_noise">Mi Noise Cancelling (Type-C)</string>
   <string name="music_dolby_mode_movie">Video</string>
   <string name="music_dolby_mode_music">Music</string>
   <string name="music_dolby_mode_off">Off</string>
