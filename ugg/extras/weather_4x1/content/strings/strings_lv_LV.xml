@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="weather_type_null">'Nav datu'</string>
-    <string name="weather_type_0">Notīrīt</string>
+    <string name="weather_type_0">Skaidrs</string>
     <string name="weather_type_1">Mākoņains</string>
     <string name="weather_type_2">Neskaidrs</string>
     <string name="weather_type_3">Miglains</string>
