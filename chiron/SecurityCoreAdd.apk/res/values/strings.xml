@@ -177,7 +177,7 @@ Otherwise you may not be able to enter Second space from Lock screen."</string>
   <string name="private_sms_show_title">Private messages are shown in Second space</string>
   <string name="private_space_setting">Manage</string>
   <string name="public_app">Both spaces</string>
-  <string name="qq_send">Send to QQ friends/devices</string>
+  <string name="qq_send">Send to QQ friends/computer</string>
   <string name="removeSuccess">Deleted successfully</string>
   <string name="remove_second_space_msg">All Second space app data will be lost after you delete Second space. Delete Second space now?</string>
   <string name="remove_user_click_message">"*If you don't have any important items in Second space, %s"</string>

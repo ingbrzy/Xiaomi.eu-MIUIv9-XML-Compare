@@ -1152,7 +1152,7 @@ to respond"</string>
   <string name="menu_text_power_percent_title">Battery %s</string>
   <string name="menu_text_power_percent_title_default">Battery</string>
   <string name="menu_wh_remove">Remove from exceptions</string>
-  <string name="menu_white">Except</string>
+  <string name="menu_white">Add to exceptions</string>
   <string name="mi_pay_lucky">小米钱包</string>
   <string name="mi_service_app_detail">Data usage details</string>
   <string name="mi_service_traffic_detail">Framework details</string>
