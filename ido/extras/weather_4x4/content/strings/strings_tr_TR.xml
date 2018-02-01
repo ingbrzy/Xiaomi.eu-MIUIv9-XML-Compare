@@ -3,7 +3,15 @@
     <string name="date_format">d MMMM EEEE</string>
     <string name="today">Bugün</string>
     <string name="tomorrow">Yarın</string>
-    <string name="weather_type_null">'Verisiz'</string>
+    <string name="aqi_pure"/>
+    <string name="aqi_good"/>
+    <string name="aqi_moderate"/>
+    <string name="aqi_pollution"/>
+    <string name="aqi_unhealthy"/>
+    <string name="aqi_dangerous"/>
+    <string name="aqi_hazardous"/>
+    <string name="aqi_break"/>
+    <string name="weather_type_null">'Belirsiz'</string>
     <string name="weather_type_0">Açık</string>
     <string name="weather_type_1">Bulutlu</string>
     <string name="weather_type_2">Kapalı</string>
