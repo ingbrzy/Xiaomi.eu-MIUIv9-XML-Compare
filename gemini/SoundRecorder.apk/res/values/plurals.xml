@@ -17,8 +17,8 @@
         <item quantity="one">%d not synced</item>
     </plurals>
     <plurals name="btn_clear_records">
-        <item quantity="other">Delete recordings (%d items)</item>
-        <item quantity="one">Delete recordings (%d item)</item>
+        <item quantity="other">Delete %d recordings</item>
+        <item quantity="one">Delete %d recording</item>
     </plurals>
     <plurals name="choose_call_records_count">
         <item quantity="other">%d items</item>
