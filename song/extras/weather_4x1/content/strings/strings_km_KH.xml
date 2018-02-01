@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="weather_type_null">'មិនមានទិន្នន័យ'</string>
-    <string name="weather_type_0">ជម្រះ</string>
+    <string name="weather_type_0">ស្រឡះ</string>
     <string name="weather_type_1">មានពពក</string>
     <string name="weather_type_2">ចុះអ័ភ្រ</string>
     <string name="weather_type_3">ចុះអាប់ខ្លាំង</string>
