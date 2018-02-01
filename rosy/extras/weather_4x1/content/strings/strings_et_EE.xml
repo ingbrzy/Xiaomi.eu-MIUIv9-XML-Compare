@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="weather_type_null">'Andmed puuduvad'</string>
-    <string name="weather_type_0">Puhasta</string>
+    <string name="weather_type_0">Selge</string>
     <string name="weather_type_1">Pilvine</string>
     <string name="weather_type_2">Hägune</string>
     <string name="weather_type_3">Udune</string>
