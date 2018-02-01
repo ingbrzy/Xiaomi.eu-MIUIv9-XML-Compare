@@ -12,7 +12,7 @@
     <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
     <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
     <string name="weather_type_null">'କୌଣସି ଡାଟା ନାହିଁ'</string>
-    <string name="weather_type_0">ସଫା</string>
+    <string name="weather_type_0">ସଫା ପାଗ</string>
     <string name="weather_type_1">ମେଘୁଆ</string>
     <string name="weather_type_2">କୁହୁଡ଼ିଆ</string>
     <string name="weather_type_3">ଘନକୁହୁଡ଼ିଆ</string>

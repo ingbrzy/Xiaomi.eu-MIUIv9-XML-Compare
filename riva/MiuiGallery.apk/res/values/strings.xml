@@ -830,6 +830,17 @@ Take more photos of your friends!"</string>
   <string name="fast_share_auto_render">Beautify</string>
   <string name="fast_share_auto_render_finish">Beautified</string>
   <string name="fileSizeSuffix">%1$s%2$s</string>
+  <string name="filter_bi_memory">Memory</string>
+  <string name="filter_bi_mono">Mono</string>
+  <string name="filter_bi_pink">Pink</string>
+  <string name="filter_bi_portrait">Portrait</string>
+  <string name="filter_bi_retro">Retro</string>
+  <string name="filter_bi_romantic">Romantic</string>
+  <string name="filter_bi_strong">Strong</string>
+  <string name="filter_bi_sunny">Sunny</string>
+  <string name="filter_bi_sweet">Sweet</string>
+  <string name="filter_bi_warm">Warm</string>
+  <string name="filter_bi_young">Young</string>
   <string name="filter_category_film">Film</string>
   <string name="filter_category_food">Food</string>
   <string name="filter_category_portrait">Portrait</string>
@@ -966,6 +977,14 @@ Take more photos of your friends!"</string>
   <string name="main_discard_negative_btn">Discard</string>
   <string name="main_discard_positive_btn">Save &amp; Exit</string>
   <string name="main_save_error_msg">"Couldn't save changes due to an error"</string>
+  <string name="mark_myself_default_name">Me</string>
+  <string name="mark_myself_suggestion_load_more">"That's not me"</string>
+  <string name="mark_myself_suggestion_title">"Select photos with your face
+to personalize Gallery"</string>
+  <string name="mark_operation_failed">"Couldn't add"</string>
+  <string name="mark_operation_processing">Processing…</string>
+  <string name="mark_operation_succeeded">Added successfully</string>
+  <string name="mark_people_ignore_info_message">Press and hold photos of people to add them to groups</string>
   <string name="megabyteShort">MB</string>
   <string name="menu_album_new_album">New album</string>
   <string name="menu_item_sort_date">Date</string>
