@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="weather_type_null">'Babu bayanai'</string>
-    <string name="weather_type_0">Haske</string>
+    <string name="weather_type_0">Sama ta washe</string>
     <string name="weather_type_1">Girgije</string>
     <string name="weather_type_2">Hazo</string>
     <string name="weather_type_3">Hazo so sai</string>
