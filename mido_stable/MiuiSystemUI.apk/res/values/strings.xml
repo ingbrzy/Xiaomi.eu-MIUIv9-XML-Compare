@@ -109,6 +109,7 @@
   <string name="battery_low_title">Connect charger</string>
   <string name="battery_profiles">Use battery profiles</string>
   <string name="block_notification_content_text">"%1$s's notifications won't be shown again. You can change this in the Settings."</string>
+  <string name="block_notification_desc">"The app's notifications won't be shown again. You can change this in the Settings."</string>
   <string name="block_notification_text">Hide</string>
   <string name="block_record_notification_text">Hiding notifications from %1$s.</string>
   <string name="block_record_notification_title">Notifications hidden</string>
@@ -234,6 +235,8 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="demo_mode">Demo mode</string>
   <string name="description_direction_left">Swipe left for %s.</string>
   <string name="description_direction_up">Swipe up for %s.</string>
+  <string name="description_image_button_answer">Answer</string>
+  <string name="description_image_button_reject">Decline</string>
   <string name="description_target_search">Search</string>
   <string name="dev_settings_warning_message">These settings are intended for developers only. Enabling these features may make your device and the apps on it misbehave or cause errors.</string>
   <string name="dev_settings_warning_title">Allow development settings?</string>
@@ -290,7 +293,7 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="flash_device">/sys/class/leds/flashlight/brightness</string>
   <string name="float_incall_ignore">Ignore</string>
   <string name="float_incall_message">Message</string>
-  <string name="force_allow_on_external">Force allow apps ro write on external storage</string>
+  <string name="force_allow_on_external">Force allow apps to write on external storage</string>
   <string name="force_allow_on_external_summary">Makes any app eligible to be written to external storage, regardless of manifest values</string>
   <string name="force_hw_ui">Force GPU rendering</string>
   <string name="force_hw_ui_summary">Force use GPU for 2D drawing</string>
@@ -446,12 +449,12 @@ Use only the supplied charger."</string>
   <string name="recents_drag_hint_message">Drag items here</string>
   <string name="recents_empty_message">No recent items</string>
   <string name="recents_empty_message_dismissed_all">You removed all items</string>
-  <string name="recents_empty_message_multi_window">Go to Home to open apps</string>
+  <string name="recents_empty_message_multi_window">Open apps from the Home screen</string>
   <string name="recents_exit_multi_window_mode">Exit</string>
   <string name="recents_incompatible_app_message">"This app doesn't support Split screen"</string>
-  <string name="recents_launch_disabled_message">%s is stopped in the Safe mode</string>
+  <string name="recents_launch_disabled_message">"%s can't be launched in the Safe mode"</string>
   <string name="recents_launch_error_message">"Couldn't start %s"</string>
-  <string name="recents_lock_to_app_button_label">Fix screen</string>
+  <string name="recents_lock_to_app_button_label">Pin screen</string>
   <string name="recents_multi_window_mode">Split screen</string>
   <string name="recents_multistack_add_stack_dialog_split_custom">Custom</string>
   <string name="recents_multistack_add_stack_dialog_split_horizontal">Split horizontally</string>
@@ -494,6 +497,7 @@ Use only the supplied charger."</string>
   <string name="screenshot_saving_ticker">Saving screenshot…</string>
   <string name="screenshot_saving_title">Saving screenshot…</string>
   <string name="screenshot_send">Send</string>
+  <string name="search_hint">Search for websites, apps, contacts, and videos</string>
   <string name="select_application">Select application</string>
   <string name="select_logd_size_dialog_title">Select size for log buffers</string>
   <string name="select_logd_size_title">Log buffer sizes</string>
@@ -657,7 +661,7 @@ Slide down to lock"</string>
   <string name="weather_description_no_aqi">%1$s</string>
   <string name="weather_publish_time">Updated %1$s</string>
   <string name="wifi_aggressive_handover">Automatic WLAN to Cellular handover</string>
-  <string name="wifi_aggressive_handover_summary">When enabled, connection will switch to mobile data more actively, when WLAN signal is low.</string>
+  <string name="wifi_aggressive_handover_summary">When enabled, connection will switch to mobile data more actively when WLAN signal is low.</string>
   <string name="wifi_allow_scan_with_traffic">Always allow WLAN roam scans</string>
   <string name="wifi_allow_scan_with_traffic_summary">Allow or restrict WLAN roam scans based on the amount of data traffic present in the interface.</string>
   <string name="wifi_connected_no_internet">Connected, no internet</string>
@@ -695,6 +699,6 @@ Slide down to lock"</string>
   <string name="wifi_security_wpa2">WPA2 PSK</string>
   <string name="wifi_security_wpa_wpa2">WPA/WPA2 PSK</string>
   <string name="wifi_verbose_logging">Enable WLAN verbose logging</string>
-  <string name="wifi_verbose_logging_summary">Increase WLAN logging level, show RSSI for every SSID in the list of WLANnetworks.</string>
+  <string name="wifi_verbose_logging_summary">Increase WLAN logging level, show RSSI for every SSID in the list of WLAN networks.</string>
   <string name="window_animation_scale_title">Window animation scale</string>
 </resources>
