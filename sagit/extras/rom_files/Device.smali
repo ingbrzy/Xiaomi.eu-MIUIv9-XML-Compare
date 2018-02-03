@@ -2328,6 +2328,27 @@
     return v0
 .end method
 
+.method public static isSupportedUDCFPortrait()Z
+    .locals 2
+
+    const/4 v0, 0x0
+
+    invoke-static {}, Lcom/android/camera/Device;->isSupportedPortrait()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    const-string/jumbo v1, "is_udcf_portrait"
+
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :cond_0
+    return v0
+.end method
+
 .method public static isSupportedUbiFocus()Z
     .locals 2
 

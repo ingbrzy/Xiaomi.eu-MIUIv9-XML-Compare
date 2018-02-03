@@ -779,7 +779,7 @@ Last ran on %2$s"</string>
   <string name="bluetooth_pairing_pin_error_message">"Couldn't pair with %1$s because of an incorrect PIN or passkey."</string>
   <string name="bluetooth_pairing_rejected_error_message">Pairing rejected by %1$s.</string>
   <string name="bluetooth_pairing_request">Pair with %1$s?</string>
-  <string name="bluetooth_pairing_shares_phonebook">Allow %1$s to access your contacts and call history</string>
+  <string name="bluetooth_pairing_shares_phonebook">Allow access to your contacts and call history</string>
   <string name="bluetooth_pairing_will_share_phonebook">Pairing grants access to your contacts and call history when connected.</string>
   <string name="bluetooth_pan_nap_profile_summary_connected">Sharing local Internet connection with device</string>
   <string name="bluetooth_pan_profile_summary_use_for">Use for Internet access</string>
@@ -1929,6 +1929,8 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="free_xiaomi_wifi_connect_summary">Tap to connect to %1$s.</string>
   <string name="frequently_fragment_delete">Remove</string>
   <string name="frequently_fragment_tempty">Frequently used items will be listed here</string>
+  <string name="fsg_mistake_touch_summary">In some scenes, such as full-screen games and videos, gestures need to be double swipe to take effect</string>
+  <string name="fsg_mistake_touch_title">Double check for the gestures</string>
   <string name="full_transparent_smarrcover_title">Transparent front cover</string>
   <string name="fullbackup_data_summary">"Automatically back up device data (such as WLAN passwords and call history) and app data (such as settings and files stored by apps) remotely.
 
