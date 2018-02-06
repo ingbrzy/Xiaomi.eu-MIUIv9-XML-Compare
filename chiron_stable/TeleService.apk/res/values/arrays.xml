@@ -784,6 +784,22 @@
         <item>ct_1</item>
         <item>ct_2</item>
     </string-array>
+    <string-array name="cfnry_setting_time_entries">
+        <item>@string/cfnry_time_five_sec</item>
+        <item>@string/cfnry_time_ten_sec</item>
+        <item>@string/cfnry_time_fifteen_sec</item>
+        <item>@string/cfnry_time_twenty_sec</item>
+        <item>@string/cfnry_time_twenty_five_sec</item>
+        <item>@string/cfnry_time_thirty_sec</item>
+    </string-array>
+    <integer-array name="cfnry_setting_time_entry_values">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </integer-array>
     <integer-array name="support_networktypes_cdma_master">
         <item>10</item>
         <item>7</item>

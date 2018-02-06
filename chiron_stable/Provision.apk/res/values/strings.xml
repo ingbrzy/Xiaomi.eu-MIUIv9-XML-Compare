@@ -58,6 +58,7 @@ View the selected keyboard's Privacy Policy."</string>
   <string name="setting_locale">Setting region…</string>
   <string name="shut_down">Shut down</string>
   <string name="sim_card_detecting">Checking for SIM card…</string>
+  <string name="sim_card_detecting_confirm_turn_on_network">Allow connecting to mobile data networks? If you do, the SIM card you insert will be used to connect to mobile data networks.</string>
   <string name="sim_card_detecting_title">Check for SIM card</string>
   <string name="sim_card_detection">Insert SIM card</string>
   <string name="sim_card_detection_info">To insert your SIM card, read the instructions that came with your device.</string>
