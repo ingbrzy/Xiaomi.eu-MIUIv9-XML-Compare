@@ -684,7 +684,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bluetooth_pairing_pin_error_message">"Couldn't pair with %1$s because of an incorrect PIN or passkey."</string>
   <string name="bluetooth_pairing_rejected_error_message">Pairing rejected by %1$s.</string>
   <string name="bluetooth_pairing_request">Pair with %1$s?</string>
-  <string name="bluetooth_pairing_shares_phonebook">Allow %1$s to access your contacts and call history</string>
+  <string name="bluetooth_pairing_shares_phonebook">Allow access to your contacts and call history</string>
   <string name="bluetooth_pairing_will_share_phonebook">Pairing grants access to your contacts and call history when connected.</string>
   <string name="bluetooth_pan_nap_profile_summary_connected">Sharing local Internet connection with device</string>
   <string name="bluetooth_pan_profile_summary_use_for">Use for internet access</string>
@@ -809,7 +809,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="breathing_light_freq_title">Notification light pulse frequency</string>
   <string name="brightness">Brightness level</string>
   <string name="brightness_auto_adjust_off">Screen brightness will remain constant.</string>
-  <string name="brightness_auto_adjust_on">Optimize brightness level for available light.</string>
+  <string name="brightness_auto_adjust_on">Screen brightness will be optimized according to ambient light.</string>
   <string name="brightness_summary">Adjust the brightness of the screen</string>
   <string name="brightness_title">Brightness</string>
   <string name="bssid_label">BSSID:</string>
@@ -1357,6 +1357,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="disable_service_title">Stop %1$s?</string>
   <string name="disable_text">Disable</string>
   <string name="disabled">Disabled</string>
+  <string name="disabled_authorised_apps_title">Revoked authorization</string>
   <string name="disabled_because_no_backup_security">To use, first set a screen lock</string>
   <string name="disabled_by_admin">Disabled by administrator</string>
   <string name="disabled_by_admin_summary_text">Controlled by admin</string>
@@ -1511,6 +1512,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="enable_webview_multiprocess">Multiprocess WebView</string>
   <string name="enable_webview_multiprocess_desc">Run WebView renderers separately</string>
   <string name="enable_wifi_display">Wireless display</string>
+  <string name="enabled_authorised_apps_summary">Your authorization will be revoked after you toggle switches of individual apps.</string>
+  <string name="enabled_authorised_apps_title">Granted authorization</string>
   <string name="enabled_by_admin">Enabled by administrator</string>
   <string name="enalbe_identify_iPhone">AP identification</string>
   <string name="encrypt_dont_require_password">No thanks</string>
@@ -1727,6 +1730,8 @@ There seemed to be no horses nor animals of any kind; the men carried things aro
   <string name="free_xiaomi_wifi_connect_summary">Tap to connect to %1$s.</string>
   <string name="frequently_fragment_delete">Remove</string>
   <string name="frequently_fragment_tempty">Frequently used items will be listed here</string>
+  <string name="fsg_mistake_touch_summary">In some scenes, such as full-screen games and videos, gestures need to be double swipe to take effect</string>
+  <string name="fsg_mistake_touch_title">Double check for the gestures</string>
   <string name="full_transparent_smarrcover_title">Transparent front cover</string>
   <string name="fullbackup_data_summary">"Automatically back up device data (such as WLAN passwords and call history) and app data (such as settings and files stored by apps) remotely.
 
@@ -2031,7 +2036,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="launcher_auto_fill_empty_title">Fill empty cells</string>
   <string name="launcher_title">Home screen &amp; Recents</string>
   <string name="launching_cit">Launching CIT</string>
-  <string name="launching_pho">Launching phone info, please wait.</string>
+  <string name="launching_pho">Launching phone info…</string>
   <string name="launching_rep">Reporting…</string>
   <string name="layout_size_exhuge">XXL</string>
   <string name="layout_size_exhuge_text">XXL</string>
@@ -2659,10 +2664,10 @@ Select your operating system:"</string>
   <string name="nfc_quick_toggle_title">NFC</string>
   <string name="nfc_se_route_title">Secure element position</string>
   <string name="nfc_se_wallet_title">Default wallet</string>
-  <string name="night_light">Night Light</string>
-  <string name="night_light_brightness">Night Light Brigtness</string>
-  <string name="night_light_color">Night Light Color</string>
-  <string name="night_light_summary">Minimize the backlight in low light environment to enter night light mode</string>
+  <string name="night_light">Night mode</string>
+  <string name="night_light_brightness">Night mode brigtness</string>
+  <string name="night_light_color">Night mode color temperature</string>
+  <string name="night_light_summary">To turn Night mode on, minimize screen brightness in low light conditions.</string>
   <string name="no">No</string>
   <string name="no_account_found">"Couldn't find apps which can add accounts"</string>
   <string name="no_application">Nothing</string>
@@ -3030,6 +3035,21 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="priority_storage_settings_summary">"If no SD card is detected, your data will be saved to your device's internal storage automatically"</string>
   <string name="priority_storage_summary">Choose where to save your data</string>
   <string name="priority_storage_title">Storage settings</string>
+  <string name="privacy_authorize_dialog_agree">Agree</string>
+  <string name="privacy_authorize_dialog_exit">Exit</string>
+  <string name="privacy_authorize_dialog_message">%1$s requires that you read and agree with %2$s. The app needs to connect to the network to work normally. Agree?</string>
+  <string name="privacy_authorize_network_error">Connect to the network and try again.</string>
+  <string name="privacy_authorize_privacy_policy">Privacy Policy</string>
+  <string name="privacy_authorize_revoke">Revoke</string>
+  <string name="privacy_authorize_revoke_dialog_msg">After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway?</string>
+  <string name="privacy_authorize_revoke_dialog_title">Revoking authorization</string>
+  <string name="privacy_authorize_revoke_failed">"Couldn't revoke authorization"</string>
+  <string name="privacy_authorize_revoke_success">Revoked authorization successfully</string>
+  <string name="privacy_authorize_revoke_time">Revoke (%1$ds)</string>
+  <string name="privacy_authorize_revoke_title">Authorization &amp; revocation</string>
+  <string name="privacy_authorize_revoking">Revoking authorization…</string>
+  <string name="privacy_authorize_success">Granted authorization successfully</string>
+  <string name="privacy_authorize_title">Granting authorization</string>
   <string name="privacy_close_dlg_button_ok">Turn off</string>
   <string name="privacy_close_dlg_msg">When Privacy protection password is off, your items will no longer be protected.</string>
   <string name="privacy_close_dlg_title">Attention</string>
@@ -5018,7 +5038,7 @@ Tap the plus to add words."</string>
   <string name="wifi_hotspot_message">%1$s requires you to sign in online before you connect to the network.</string>
   <string name="wifi_hotspot_title">Sign in to connect?</string>
   <string name="wifi_in_airplane_mode">In Airplane mode</string>
-  <string name="wifi_info_reconnect">Connection failed, please try again!</string>
+  <string name="wifi_info_reconnect">"Couldn't connect, try again."</string>
   <string name="wifi_install_credentials">Install certificates</string>
   <string name="wifi_ip_address">IP address</string>
   <string name="wifi_ip_address_hint">192.168.1.128</string>
