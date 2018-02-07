@@ -501,6 +501,7 @@ Keep devices close to each other."</string>
   <string name="trans_show_qr_code_tips">Scan QR code using old device</string>
   <string name="trans_start_failed_message">"Couldn't start transfer, try again or reboot device."</string>
   <string name="trans_start_failed_title">"Couldn't start transfer"</string>
+  <string name="trans_switching_5g">Switching to 5GHz WLAN…</string>
   <string name="trans_time_format_second">Less than 1 minute</string>
   <string name="trans_time_spent">"
 Time spent: %s"</string>
