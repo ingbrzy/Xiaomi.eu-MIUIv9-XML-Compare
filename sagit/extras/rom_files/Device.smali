@@ -1675,17 +1675,38 @@
 .end method
 
 .method public static isSupportParallelProcess()Z
-    .locals 2
+    .locals 3
 
-    const-string/jumbo v0, "support_parallel_process"
+    sget-boolean v1, Lcom/android/camera/Device;->IS_E7S:Z
 
-    const/4 v1, 0x0
+    if-eqz v1, :cond_0
 
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+    const-string/jumbo v1, "ro.boot.hwc"
 
-    move-result v0
+    invoke-static {v1}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
 
-    return v0
+    move-result-object v0
+
+    const-string/jumbo v1, "India"
+
+    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v1
+
+    xor-int/lit8 v1, v1, 0x1
+
+    return v1
+
+    :cond_0
+    const-string/jumbo v1, "support_parallel_process"
+
+    const/4 v2, 0x0
+
+    invoke-static {v1, v2}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v1
+
+    return v1
 .end method
 
 .method public static isSupportSquare()Z

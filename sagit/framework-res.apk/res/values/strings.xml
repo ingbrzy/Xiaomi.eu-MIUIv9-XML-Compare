@@ -546,8 +546,8 @@ If you have questions, contact your "</string>
   <string name="font_family_subhead_material">sans-serif</string>
   <string name="font_family_title_material">sans-serif-medium</string>
   <string name="force_close">OK</string>
-  <string name="foreground_service_app_in_background">%1$s is running in the background</string>
-  <string name="foreground_service_apps_in_background">%1$d apps are running in the background</string>
+  <string name="foreground_service_app_in_background">%1$s is using battery</string>
+  <string name="foreground_service_apps_in_background">%1$d apps are using battery</string>
   <string name="foreground_service_multiple_separator">%1$s, %2$s</string>
   <string name="foreground_service_tap_for_details">Tap for details on battery and data usage</string>
   <string name="forward_intent_to_owner">"You're using this app outside of your work profile"</string>
@@ -982,7 +982,7 @@ Try again in %2$d seconds."</string>
   <string name="notification_channel_developer">Developer messages</string>
   <string name="notification_channel_device_admin">Device administration</string>
   <string name="notification_channel_emergency_callback">Emergency callback mode</string>
-  <string name="notification_channel_foreground_service">Apps running in background</string>
+  <string name="notification_channel_foreground_service">Apps consuming battery</string>
   <string name="notification_channel_hotspot">WLAN Hotspot notification</string>
   <string name="notification_channel_mobile_data_alert">Mobile data alerts</string>
   <string name="notification_channel_network_alert">Alerts</string>

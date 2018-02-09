@@ -443,7 +443,7 @@ To activate your account, follow the
   <string name="unlock_help_notice">"Help:
 · If you forgot your password, go to id.mi.com to reset it.
 · If you can't unlock the device, go to i.mi.com to turn off Find device.
-· Tell this unlock number to the customer service: %s"</string>
+· Your unlock number: %s"</string>
   <string name="update_contacts">Update contacts</string>
   <string name="update_email_address_dialog_message">You need to verify your identity before you can update email.</string>
   <string name="update_email_address_dialog_title">Update Email</string>
