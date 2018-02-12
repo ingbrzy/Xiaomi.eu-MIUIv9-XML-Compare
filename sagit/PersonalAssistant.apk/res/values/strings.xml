@@ -585,7 +585,7 @@ Check your tracking number."</string>
   <string name="express_num_setting_title">Access order info</string>
   <string name="express_number_txt">Order Number:</string>
   <string name="express_open">Show delivery tracking cards</string>
-  <string name="express_open_locker">Open</string>
+  <string name="express_open_locker">一键开柜</string>
   <string name="express_open_txt">Open</string>
   <string name="express_order_confirmation">Order confirmation</string>
   <string name="express_order_failed">Failed</string>
@@ -612,10 +612,10 @@ Check your tracking number."</string>
   <string name="express_other_app">Allow MIUI to access the order info from other apps.</string>
   <string name="express_phone">Telephone</string>
   <string name="express_phone_tip">Delivering, stay tuned</string>
-  <string name="express_pickup_code">Code: %s</string>
+  <string name="express_pickup_code">取件码: %s</string>
   <string name="express_preview_order">Preview</string>
   <string name="express_region_pick_title">Choose region</string>
-  <string name="express_schedule_delivery">Order service</string>
+  <string name="express_schedule_delivery">预约取件</string>
   <string name="express_select_address">Address</string>
   <string name="express_select_addressee">To</string>
   <string name="express_select_city">Choose city</string>

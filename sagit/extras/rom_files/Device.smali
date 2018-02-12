@@ -2555,6 +2555,32 @@
     return v0
 .end method
 
+.method public static pictureWatermarkDefaultValue()Z
+    .locals 2
+
+    invoke-static {}, Lcom/android/camera/Device;->supportPictureWaterMark()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    const-string/jumbo v0, "camera_picture_watermark_default"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method
+
 .method public static shouldRestartPreviewAfterZslSwitch()Z
     .locals 1
 

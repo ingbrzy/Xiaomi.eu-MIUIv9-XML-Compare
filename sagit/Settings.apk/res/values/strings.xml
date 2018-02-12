@@ -2901,7 +2901,7 @@ Select your operating system:"</string>
   <string name="night_display_text">Night Light tints your screen amber. This makes it easier to look at your screen or read in dim light, and may help you fall asleep more easily.</string>
   <string name="night_display_title">Night Light</string>
   <string name="night_light">Night mode</string>
-  <string name="night_light_brightness">Night mode brigtness</string>
+  <string name="night_light_brightness">Night mode brightness</string>
   <string name="night_light_color">Night mode color temperature</string>
   <string name="night_light_summary">To turn Night mode on, minimize screen brightness in low light conditions.</string>
   <string name="no">No</string>
@@ -5159,6 +5159,7 @@ Tap the plus to add words."</string>
   <string name="virus_scanner_update_lib">Update definitions</string>
   <string name="vision_settings_description">You can customize this device to fit your needs. These accessibility features can be changed later in Settings.</string>
   <string name="vision_settings_title">Vision Settings</string>
+  <string name="voice_assist">Xiao Ai</string>
   <string name="voice_category">Speech</string>
   <string name="voice_helper_title">Voice assistant</string>
   <string name="voice_input_output_settings">Voice input &amp; output</string>
