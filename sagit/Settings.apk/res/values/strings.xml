@@ -4999,7 +4999,8 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="use_location_title">Location &amp; Google search</string>
   <string name="use_open_wifi_automatically_summary">Automatically connect to high‑quality public networks</string>
   <string name="use_open_wifi_automatically_title">Connect to open networks</string>
-  <string name="use_personalized_ad_service">Use advertising identifier</string>
+  <string name="use_personalized_ad_service">Personalized Ad Recommendation</string>
+  <string name="use_personalized_ad_service_summary">When the recommendation feature is switched off, you will still see the same quantity of ads as when it’s on, but not based on your behavior data or your personal information.</string>
   <string name="use_privacy_password_immediate">Use</string>
   <string name="use_system_language_to_select_input_method_subtypes">Use system languages</string>
   <string name="use_this_wlan">Stay connected</string>
