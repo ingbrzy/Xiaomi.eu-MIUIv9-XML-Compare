@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="accessibility_enter_lock_wallpaper">Tap to open Wallpaper Carousel</string>
+  <string name="accessibility_enter_lock_wallpaper">Tap to open Music</string>
   <string name="btn_camera">Enter your face</string>
   <string name="change_to_ac_charging">Switched to wireless charging</string>
   <string name="click_to_enter_text">Tap to view</string>
@@ -108,7 +108,7 @@
   <string name="keyguard_left_buscard">Notes</string>
   <string name="keyguard_left_remotecentral">Calendar</string>
   <string name="keyguard_left_smarthome">Contacts</string>
-  <string name="keyguard_left_view_lock_wallpaper">Wallpaper Carousel</string>
+  <string name="keyguard_left_view_lock_wallpaper">Music</string>
   <string name="keyguard_quick_charging_info_click_to_detail">Quick charging. Tap to view details.</string>
   <string name="keyguard_torch_cover_text">To keep torch on, hold the Power button</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
