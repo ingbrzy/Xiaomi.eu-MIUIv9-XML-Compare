@@ -280,7 +280,7 @@ Customer service center：400-100-3399"</string>
   <string name="mibi_progress_warning_waiting">"Payment hasn't reached your account yet."</string>
   <string name="mibi_prompt_info_button_hint">Attention(%d)</string>
   <string name="mibi_prompt_info_button_text">OK</string>
-  <string name="mibi_prompt_info_for_first_use">&lt;Data&gt;"&amp;lt;font color=#ff7700&amp;gt;Mi Credit can't be used to buy hardware products on Mi.com.&amp;lt;/font&amp;gt;"&lt;/Data&gt;</string>
+  <string name="mibi_prompt_info_for_first_use">"Mi Credit can't be used to buy hardware products on Mi.com."</string>
   <string name="mibi_prompt_info_title">Tips</string>
   <string name="mibi_push_register_fail">Register push fail.</string>
   <string name="mibi_push_register_success">Register push success.</string>
@@ -302,7 +302,8 @@ Customer service center：400-100-3399"</string>
   <string name="mibi_recharge_push_notification_sub_title">Top-up complete.</string>
   <string name="mibi_recharge_value_money">Purchase CNY %s worth of Mi Credits</string>
   <string name="mibi_recharge_value_money_special_unit">Purchase %1$s %2$s worth of Mi Credits</string>
-  <string name="mibi_recharge_warn_text">"You can't buy physical goods using Mi Credits."</string>
+  <string name="mibi_recharge_value_money_with_tip">"Purchase CNY %s worth of Mi Credits &lt;font color=red&gt;(Can't spend Mi Credits at Mi.com)&lt;/font&gt;"</string>
+  <string name="mibi_recharge_value_money_with_tip_special_unit">"Purchase %1$s %2$s worth of Mi Credits &lt;font color=red&gt;(Can't spend Mi Credits at Mi.com)&lt;/font&gt;"</string>
   <string name="mibi_scan_prompt_number">Scan %1$s prepaid card number</string>
   <string name="mibi_scan_prompt_password">Scan %1$s prepaid card password</string>
   <string name="mibi_scan_prompt_voucher">Scan Mi Credit password</string>
