@@ -218,6 +218,8 @@
   <string name="contact_detail_calllog_call_note_tips">Notes</string>
   <string name="contact_detail_calllog_call_record_tips">Recorded call</string>
   <string name="contact_detail_calllog_empty">No history</string>
+  <string name="contact_detail_entry_pay">Pay</string>
+  <string name="contact_detail_entry_pay_dialog_title">Select phone number</string>
   <string name="contact_detail_menu_delete_miprofile">Delete card</string>
   <string name="contact_detail_miprofile_accept">Exchange contact cards</string>
   <string name="contact_detail_miprofile_accept_fail_toast">"Couldn't exchange contact cards"</string>
@@ -897,7 +899,7 @@ To add a contact to your list of favorites:
   <string name="preference_dial_pad_touch_tone_title">Dial pad tones</string>
   <string name="preference_display">Display</string>
   <string name="preference_displayOptions">Display options</string>
-  <string name="preference_display_contact">Display Options</string>
+  <string name="preference_display_contact">Display options</string>
   <string name="preference_export">Export</string>
   <string name="preference_import">Import</string>
   <string name="preference_import_export">Import/Export</string>
