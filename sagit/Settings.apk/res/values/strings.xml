@@ -2669,6 +2669,7 @@ There are other users present on this device.
   <string name="menu_stats_unplugged">%1$s since unplugged</string>
   <string name="menu_use_uss">Use Uss</string>
   <string name="mi_shopping_mall">Mi Store</string>
+  <string name="mi_upi_settings">Mi Pay Account</string>
   <string name="misc_files">Misc files</string>
   <string name="misc_files_selected_count">selected %1$d out of %2$d</string>
   <string name="misc_files_selected_count_bytes">%1$s out of %2$s</string>

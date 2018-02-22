@@ -481,6 +481,13 @@ Sample Rate"</string>
   <string name="cfb_title">Forward when busy</string>
   <string name="cfnrc_title">Forward when unreachable</string>
   <string name="cfnrc_title_cta">Forward when unreachable</string>
+  <string name="cfnry_time_fifteen_sec">15 sec</string>
+  <string name="cfnry_time_five_sec">5 sec</string>
+  <string name="cfnry_time_setting_title">Set wait time</string>
+  <string name="cfnry_time_ten_sec">10 sec</string>
+  <string name="cfnry_time_thirty_sec">30 sec</string>
+  <string name="cfnry_time_twenty_five_sec">25 sec</string>
+  <string name="cfnry_time_twenty_sec">20 sec</string>
   <string name="cfnry_title">Forward when unanswered</string>
   <string name="cfu_title">Always forward calls</string>
   <string name="change_data_preference_4g_only_prompt">Looks like you have a 4G only SIM card. Set it as default for mobile data?</string>
