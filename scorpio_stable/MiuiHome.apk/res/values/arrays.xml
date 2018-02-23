@@ -114,4 +114,64 @@
     <string-array name="quality_business_devices">
         <item>lithium</item>
     </string-array>
+    <array name="region_prefix">
+        <item>@array/islam</item>
+        <item>@array/lowkeymidrop</item>
+    </array>
+    <string-array name="islam">
+        <item>PK</item>
+        <item>SA</item>
+        <item>IQ</item>
+        <item>OM</item>
+        <item>IR</item>
+    </string-array>
+    <string-array name="lowkeymidrop">
+        <item>CN</item>
+        <item>EC</item>
+        <item>CR</item>
+        <item>DE</item>
+        <item>LU</item>
+        <item>SE</item>
+        <item>VE</item>
+        <item>KH</item>
+        <item>GH</item>
+        <item>NZ</item>
+        <item>IT</item>
+        <item>NG</item>
+        <item>SK</item>
+        <item>TT</item>
+        <item>PA</item>
+        <item>LV</item>
+        <item>RS</item>
+        <item>AU</item>
+        <item>FR</item>
+        <item>CA</item>
+        <item>NL</item>
+        <item>NO</item>
+        <item>AT</item>
+        <item>DO</item>
+        <item>PL</item>
+        <item>MK</item>
+        <item>LT</item>
+        <item>PT</item>
+        <item>RO</item>
+        <item>AR</item>
+        <item>CH</item>
+        <item>BE</item>
+        <item>ES</item>
+        <item>HU</item>
+        <item>GB</item>
+        <item>DK</item>
+        <item>KR</item>
+        <item>IE</item>
+        <item>SI</item>
+        <item>FI</item>
+        <item>VN</item>
+        <item>HR</item>
+        <item>US</item>
+        <item>PR</item>
+        <item>BA</item>
+        <item>JP</item>
+        <item>UY</item>
+    </string-array>
 </resources>
