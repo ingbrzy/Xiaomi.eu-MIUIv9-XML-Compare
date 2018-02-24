@@ -2669,6 +2669,7 @@ There are other users present on this device.
   <string name="menu_stats_unplugged">%1$s since unplugged</string>
   <string name="menu_use_uss">Use Uss</string>
   <string name="mi_shopping_mall">Mi Store</string>
+  <string name="mi_upi_settings">Mi Pay Account</string>
   <string name="misc_files">Misc files</string>
   <string name="misc_files_selected_count">selected %1$d out of %2$d</string>
   <string name="misc_files_selected_count_bytes">%1$s out of %2$s</string>
@@ -4687,6 +4688,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="testing_usage_stats">Usage statistics</string>
   <string name="testing_wifi_info">WLAN information</string>
   <string name="tether_and_hotspot_title">Tethering &amp; portable hotspot</string>
+  <string name="tether_auto_disable_summary">Automatically close hotspot when no connected devices</string>
+  <string name="tether_auto_disable_title">Automatically close hotspot</string>
   <string name="tether_data_usage_limit">One-time data limit</string>
   <string name="tether_data_usage_limit_summary">Data limit will be applied next time your hotspot is on</string>
   <string name="tether_devices_management_title">Manage devices</string>
