@@ -6,6 +6,7 @@
   <string name="activity_parse_video_title">Paste video link</string>
   <string name="ad_download">Download</string>
   <string name="ad_downloading">Just a sec…</string>
+  <string name="ad_txt">广告</string>
   <string name="add_one">+1</string>
   <string name="add_private">Hide files now</string>
   <string name="add_private_files">Add files</string>
@@ -173,8 +174,19 @@
   <string name="dislike_toast">"Such videos won't be recommended to you."</string>
   <string name="dislike_video">"I'm not interested"</string>
   <string name="download">Download</string>
+  <string name="download_ad_count">%s人正使用</string>
+  <string name="download_ad_count_more">%s万人正使用</string>
+  <string name="download_complete_txt">下载完成</string>
+  <string name="download_downloading_txt">下载中...</string>
   <string name="download_fail">"Couldn't download"</string>
+  <string name="download_install_txt">安装</string>
+  <string name="download_installing_txt">正在安装</string>
   <string name="download_notification_title_text">正在下载想看视频</string>
+  <string name="download_now_txt">立即下载</string>
+  <string name="download_open_txt">打开</string>
+  <string name="download_pause_txt">暂停下载</string>
+  <string name="download_resume_txt">继续下载</string>
+  <string name="download_txt">下载</string>
   <string name="downloaded_sticker_str">Downloaded</string>
   <string name="downloading">Downloading</string>
   <string name="editor_commend">Edit</string>
@@ -187,6 +199,7 @@
   <string name="encrypt_success">Hidden successfully</string>
   <string name="encrypt_success_first_five">"Encrypted and hid file. You can view hidden files by pulling down on the File Manager's start page."</string>
   <string name="encrypting">Encrypting…</string>
+  <string name="error">出错了~</string>
   <string name="error_contains_sharer_path">"Can't encrypt files in folder /MIUI/Gallery/cloud/sharer. Move the file to another folder and try again."</string>
   <string name="error_create_dir">"Couldn't create folder"</string>
   <string name="error_create_file">"Couldn't create file"</string>
@@ -314,6 +327,7 @@
   <string name="login_expired">Session timed out. Sign in again.</string>
   <string name="login_failed_tip">"Couldn't sign in, try again later"</string>
   <string name="login_success_tip">Signed in successfully</string>
+  <string name="look_detail">查看详情</string>
   <string name="make_private">Hide</string>
   <string name="make_private_msg_1">Hide this file?</string>
   <string name="make_private_msg_2">Hide these files?</string>
@@ -682,6 +696,7 @@
   <string name="topic_title">Topics</string>
   <string name="transfer_done">Files moved successfully.</string>
   <string name="transfer_private_data">Moving hidden folders from SD card…</string>
+  <string name="transition_image">transition image</string>
   <string name="type_not_support">"This file format isn't supported. Unpack this file and try again."</string>
   <string name="ui_main_toast_favorite_added">Added to favorites</string>
   <string name="ui_main_toast_favorite_removed">Unfavorited</string>

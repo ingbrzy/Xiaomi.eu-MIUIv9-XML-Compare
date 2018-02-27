@@ -2568,29 +2568,52 @@
 .end method
 
 .method public static pictureWatermarkDefaultValue()Z
-    .locals 2
+    .locals 3
+
+    const/4 v1, 0x0
+
+    sget-boolean v2, Lcom/android/camera/Device;->IS_E7S:Z
+
+    if-eqz v2, :cond_1
+
+    const-string/jumbo v2, "ro.boot.hwc"
+
+    invoke-static {v2}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
 
     invoke-static {}, Lcom/android/camera/Device;->supportPictureWaterMark()Z
 
-    move-result v0
+    move-result v2
 
-    if-eqz v0, :cond_0
+    if-eqz v2, :cond_0
 
-    const-string/jumbo v0, "camera_picture_watermark_default"
+    const-string/jumbo v1, "India"
 
-    const/4 v1, 0x1
+    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v0
-
-    :goto_0
-    return v0
+    move-result v1
 
     :cond_0
-    const/4 v0, 0x0
+    return v1
 
-    goto :goto_0
+    :cond_1
+    invoke-static {}, Lcom/android/camera/Device;->supportPictureWaterMark()Z
+
+    move-result v2
+
+    if-eqz v2, :cond_2
+
+    const-string/jumbo v1, "camera_picture_watermark_default"
+
+    const/4 v2, 0x1
+
+    invoke-static {v1, v2}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v1
+
+    :cond_2
+    return v1
 .end method
 
 .method public static shouldRestartPreviewAfterZslSwitch()Z
