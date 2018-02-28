@@ -2669,6 +2669,7 @@ There are other users present on this device.
   <string name="menu_stats_unplugged">%1$s since unplugged</string>
   <string name="menu_use_uss">Use Uss</string>
   <string name="mi_shopping_mall">Mi Store</string>
+  <string name="mi_upi_settings">Mi Pay Account</string>
   <string name="misc_files">Misc files</string>
   <string name="misc_files_selected_count">selected %1$d out of %2$d</string>
   <string name="misc_files_selected_count_bytes">%1$s out of %2$s</string>
@@ -2901,7 +2902,7 @@ Select your operating system:"</string>
   <string name="night_display_text">Night Light tints your screen amber. This makes it easier to look at your screen or read in dim light, and may help you fall asleep more easily.</string>
   <string name="night_display_title">Night Light</string>
   <string name="night_light">Night mode</string>
-  <string name="night_light_brightness">Night mode brigtness</string>
+  <string name="night_light_brightness">Night mode brightness</string>
   <string name="night_light_color">Night mode color temperature</string>
   <string name="night_light_summary">To turn Night mode on, minimize screen brightness in low light conditions.</string>
   <string name="no">No</string>
@@ -4687,6 +4688,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="testing_usage_stats">Usage statistics</string>
   <string name="testing_wifi_info">WLAN information</string>
   <string name="tether_and_hotspot_title">Tethering &amp; portable hotspot</string>
+  <string name="tether_auto_disable_summary">Automatically close hotspot when no connected devices</string>
+  <string name="tether_auto_disable_title">Automatically close hotspot</string>
   <string name="tether_data_usage_limit">One-time data limit</string>
   <string name="tether_data_usage_limit_summary">Data limit will be applied next time your hotspot is on</string>
   <string name="tether_devices_management_title">Manage devices</string>
@@ -4999,7 +5002,8 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="use_location_title">Location &amp; Google search</string>
   <string name="use_open_wifi_automatically_summary">Automatically connect to high‑quality public networks</string>
   <string name="use_open_wifi_automatically_title">Connect to open networks</string>
-  <string name="use_personalized_ad_service">Use advertising identifier</string>
+  <string name="use_personalized_ad_service">Personalized Ad Recommendation</string>
+  <string name="use_personalized_ad_service_summary">When the recommendation feature is switched off, you will still see the same quantity of ads as when it’s on, but not based on your behavior data or your personal information.</string>
   <string name="use_privacy_password_immediate">Use</string>
   <string name="use_system_language_to_select_input_method_subtypes">Use system languages</string>
   <string name="use_this_wlan">Stay connected</string>
@@ -5159,6 +5163,7 @@ Tap the plus to add words."</string>
   <string name="virus_scanner_update_lib">Update definitions</string>
   <string name="vision_settings_description">You can customize this device to fit your needs. These accessibility features can be changed later in Settings.</string>
   <string name="vision_settings_title">Vision Settings</string>
+  <string name="voice_assist">Xiao Ai</string>
   <string name="voice_category">Speech</string>
   <string name="voice_helper_title">Voice assistant</string>
   <string name="voice_input_output_settings">Voice input &amp; output</string>

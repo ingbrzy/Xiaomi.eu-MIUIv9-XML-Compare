@@ -31,7 +31,7 @@
   <string name="button_normal_video_title">Record video</string>
   <string name="camera_disabled">Camera has been disabled</string>
   <string name="camera_error_title">Camera error</string>
-  <string name="camera_facedetection_sub_option_hint">Experimental option is now available</string>
+  <string name="camera_facedetection_sub_option_hint">Experimental feature</string>
   <string name="camera_label">Camera</string>
   <string name="camera_mode_options">Modes</string>
   <string name="camera_setting">Camera</string>
@@ -40,7 +40,7 @@
   <string name="camera_snap_mode_title_detail">Tap to view details</string>
   <string name="cannot_connect_camera_once">"Can't connect to camera"</string>
   <string name="cannot_connect_camera_twice">"Still can't connect to camera. Try restarting your device."</string>
-  <string name="cannot_connect_camera_volte_call">Video call is ongoing, please try later.</string>
+  <string name="cannot_connect_camera_volte_call">Video call is in progress, try again later.</string>
   <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
   <string name="color_effect_entry_berry">Berries</string>
   <string name="color_effect_entry_blackwhite">B&amp;W</string>
@@ -121,7 +121,7 @@ if you rotate your phone"</string>
   <string name="front_camera_hint_text_rotate">Rotate your phone</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
-  <string name="hint_device_water_mark">Device watermark will be added automatically.</string>
+  <string name="hint_device_water_mark">Photo watermark will be added automatically.</string>
   <string name="hint_fast_motion">The video you shoot will be played faster.</string>
   <string name="hint_groupshot">"Camera will take multiple photos
 and then create a shot where everyone looks best."</string>
@@ -146,7 +146,7 @@ and then create a shot where everyone looks best."</string>
   <string name="pano_file_name_format">"'PANO'_yyyyMMdd_HHmmss"</string>
   <string name="pano_how_to_use_prompt_align_reference_line">Align the arrow with the reference line</string>
   <string name="pano_how_to_use_prompt_go_on_moving">Keep going…</string>
-  <string name="pano_how_to_use_prompt_slow_down">Please slow down</string>
+  <string name="pano_how_to_use_prompt_slow_down">Slow down…</string>
   <string name="pano_how_to_use_prompt_start">Tap the arrow to switch direction and begin panning slowly.</string>
   <string name="pano_how_to_use_prompt_to_move">Begin panning slowly</string>
   <string name="path_settings">System apps/Camera/Settings</string>
@@ -262,7 +262,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_delay_capture_entry_5s">5s delay</string>
   <string name="pref_camera_delay_capture_entry_audio">Audio</string>
   <string name="pref_camera_delay_capture_title">Timer</string>
-  <string name="pref_camera_device_watermark_title">Device watermark</string>
+  <string name="pref_camera_device_watermark_title">Photo watermark</string>
   <string name="pref_camera_exposuretime_default">0</string>
   <string name="pref_camera_exposuretime_entry_0_5">2s</string>
   <string name="pref_camera_exposuretime_entry_1">1s</string>
@@ -282,7 +282,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_exposuretime_entry_8s">8s</string>
   <string name="pref_camera_exposuretime_entry_auto">AUTO</string>
   <string name="pref_camera_face_info_watermark_title">Add age stamp on photos</string>
-  <string name="pref_camera_facedetection_auto_hidden_title">Face detection auto hidden</string>
+  <string name="pref_camera_facedetection_auto_hidden_title">Hide face detection frame automatically</string>
   <string name="pref_camera_facedetection_title">Face detection</string>
   <string name="pref_camera_flashmode_default">auto</string>
   <string name="pref_camera_flashmode_entry_auto">Auto</string>
@@ -368,7 +368,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_multilevel_entry_middle">Medium (default)</string>
   <string name="pref_camera_multilevel_entry_normal">Normal</string>
   <string name="pref_camera_panoramamode_title">Panorama</string>
-  <string name="pref_camera_parallel_process_enable_title">Enable Picture Parallel Process</string>
+  <string name="pref_camera_parallel_process_enable_title">Turn on parallel processing</string>
   <string name="pref_camera_peak_default">off</string>
   <string name="pref_camera_peak_entry_off">Off</string>
   <string name="pref_camera_peak_entry_on">On</string>
@@ -454,7 +454,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_video_duration_entry_10">10 minutes</string>
   <string name="pref_camera_video_duration_entry_120">No limit</string>
   <string name="pref_camera_video_duration_entry_30">30 minutes</string>
-  <string name="pref_camera_video_duration_entry_mms">30 seconds(MMS)</string>
+  <string name="pref_camera_video_duration_entry_mms">30 seconds (MMS)</string>
   <string name="pref_camera_video_flashmode_default">off</string>
   <string name="pref_camera_volumekey_function_default">shutter</string>
   <string name="pref_camera_volumekey_function_entry_exposure">Exposure</string>
@@ -530,7 +530,7 @@ and brings out the people in the front."</string>
   <string name="pref_retain_camera_mode_summary">Switch camera to the previously used mode when you open the app.</string>
   <string name="pref_retain_camera_mode_title">Save previous mode</string>
   <string name="pref_scan_qrcode_default">true</string>
-  <string name="pref_scan_qrcode_summary">The rear camera can scan QR codes only in the \"Photo\" mode.</string>
+  <string name="pref_scan_qrcode_summary">Only the rear camera can scan QR codes in the \"Photo\" mode.</string>
   <string name="pref_scan_qrcode_title">Scan QR codes</string>
   <string name="pref_setting_title">Settings</string>
   <string name="pref_simple_hdr_default">off</string>
