@@ -38,6 +38,7 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="lock_msg_phone">Contact information: %s</string>
   <string name="login_extra_steps">Sign in verification</string>
   <string name="login_failed">"Couldn't sign in. %s."</string>
+  <string name="open_wifi_settings">Open WLAN settings</string>
   <string name="passport_checking_vcode">Checking password…</string>
   <string name="passport_error_empty_vcode">Enter verification code</string>
   <string name="passport_notification_need_unlock_again">Try to unlock again</string>
