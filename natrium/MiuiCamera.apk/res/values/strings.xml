@@ -189,7 +189,7 @@ facial expression to synthesize into a photo"</string>
   <string name="pref_camera_delay_capture_entry_audio">Audio</string>
   <string name="pref_camera_delay_capture_title">Timer</string>
   <string name="pref_camera_exposuretime_default">0</string>
-  <string name="pref_camera_exposuretime_entry_0.5">2s</string>
+  <string name="pref_camera_exposuretime_entry_0_5">2s</string>
   <string name="pref_camera_exposuretime_entry_1">1s</string>
   <string name="pref_camera_exposuretime_entry_1000">1/1000s</string>
   <string name="pref_camera_exposuretime_entry_125">1/125s</string>

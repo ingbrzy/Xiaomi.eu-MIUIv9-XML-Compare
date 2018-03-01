@@ -380,7 +380,7 @@
   <string name="current_version_pc">Desktop</string>
   <string name="current_version_phone">Phone</string>
   <string name="custom_head_card_text">Always believe that something wonderful is about to happen</string>
-  <string name="data_monitor">Data monitor</string>
+  <string name="data_monitor">Data usage monitor</string>
   <string name="data_monitor_dialog_message">Looks like something is draining your mobile data. Open the start page to stop this.</string>
   <string name="data_traffic_prompt_message">"Using your mobile data connection to browse videos will increase your data usage. If you go over your plan’s data usage limit,     your carrier could charge you additional fees."</string>
   <string name="data_traffic_prompt_title">Data usage warning</string>
@@ -776,6 +776,7 @@ Are you sure you want to navigate away from this page?"</string>
   <string name="mw_miuichromium_error_page_problem_connection_interrupted_reason_device_slept">Connection was interrupted when your device went to sleep.</string>
   <string name="mw_miuichromium_error_page_problem_connection_interrupted_reason_network_changed">Connection was interrupted due to a network change.</string>
   <string name="mw_miuichromium_error_page_problem_file_not_found_reason_moved_or_deleted">"Couldn't find file. It might have been moved or deleted."</string>
+  <string name="mw_miuichromium_error_page_problem_file_not_readable_reason_access_denied">"Couldn't read file. File permissions may be preventing access."</string>
   <string name="mw_miuichromium_error_page_problem_gateway_timed_out">It took too long for %s0 to respond.</string>
   <string name="mw_miuichromium_error_page_problem_network_access_denied">Network access is restricted.</string>
   <string name="mw_miuichromium_error_page_problem_no_internet_connection_reason_proxy_error">"Couldn't connect to the Internet. Something is wrong with the proxy server, or proxy address is incorrect."</string>
@@ -986,7 +987,7 @@ Are you sure you want to navigate away from this page?"</string>
   <string name="nav_screen_incognito_message">"Your browsing and search history won't be saved in Incognito mode.
 Remember that the files you download and the bookmarks you add will still be saved."</string>
   <string name="nav_screen_incognito_title">Incognito mode</string>
-  <string name="navigation_delete_all">swipe left and right to close all tabs</string>
+  <string name="navigation_delete_all">Swipe left and right to close all tabs</string>
   <string name="navigationbar_rightbutton_actiontext_cancle">Cancel</string>
   <string name="navigationbar_rightbutton_actiontext_go">Go</string>
   <string name="navigationbar_rightbutton_actiontext_search">Search</string>
@@ -1025,7 +1026,6 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="popup_window_attempt">Allow this site to open a pop-up window?</string>
   <string name="positive_confirm_message">Turn off anyway</string>
   <string name="pref_accept_quicklink_push">News feed</string>
-  <string name="pref_accessibility">Accessibility</string>
   <string name="pref_accessibility_title">Accessibility</string>
   <string name="pref_accessibility_url_shortcut_enter_summary">Common letter combinations can be entered in one tap in the address bar</string>
   <string name="pref_accessibility_url_shortcut_enter_title">Quick URL input</string>
@@ -1298,11 +1298,11 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="suggest_access_btn_play">Play</string>
   <string name="suggest_access_btn_view">View</string>
   <string name="suggest_access_item_album_songs">%d songs</string>
-  <string name="suggest_access_item_app_mark">APP</string>
+  <string name="suggest_access_item_app_mark">APPS</string>
   <string name="suggest_access_item_app_size">%.2fMB</string>
   <string name="suggest_access_item_app_update">Update: %s</string>
   <string name="suggest_access_item_book_mark">BOOKS</string>
-  <string name="suggest_access_item_mina_mark">INSTANT APPS</string>
+  <string name="suggest_access_item_mina_mark">QUICK APPS</string>
   <string name="suggest_access_item_music_mark">MUSIC</string>
   <string name="suggest_access_item_singer_albums">%d albums</string>
   <string name="suggest_access_item_singer_pop">%d popular songs</string>
@@ -1313,11 +1313,11 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="suggest_access_music">Mi Music</string>
   <string name="suggest_item_delete_text">Delete</string>
   <string name="suggest_open_app_failed">"Couldn't open this app"</string>
-  <string name="suggestion_lottery_detail_pour">%sNOTE</string>
-  <string name="suggestion_lottery_detail_price">EACH NOTE%sYUAN</string>
-  <string name="suggestion_lottery_detail_text">THIS%s</string>
-  <string name="suggestion_lottery_period">NO.%s</string>
-  <string name="suggestion_translation_more">TRANSLATION MORE</string>
+  <string name="suggestion_lottery_detail_pour">%s NOTE</string>
+  <string name="suggestion_lottery_detail_price">EACH NOTE IS WORTH %s YUAN</string>
+  <string name="suggestion_lottery_detail_text">THIS ROUND %s</string>
+  <string name="suggestion_lottery_period">ROUND %s</string>
+  <string name="suggestion_translation_more">VIEW MORE</string>
   <string name="switchText">YES</string>
   <string name="switch_proxy_dialog_msg">"Network hijacking detected. Use MIUI's built-in Security app or report this to your mobile operator."</string>
   <string name="switch_proxy_dialog_title">Network hijacking</string>
@@ -1339,10 +1339,10 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="transfer_prompt_0">Play video</string>
   <string name="transfer_restart">Restart</string>
   <string name="translation_copy">Copy</string>
-  <string name="translation_more">More translation</string>
-  <string name="translation_query_error">No meaning</string>
-  <string name="translation_query_error_network">The query failed, please check the network connection</string>
-  <string name="translation_result_copy">The translation results have been replicated</string>
+  <string name="translation_more">View more</string>
+  <string name="translation_query_error">"Couldn't translate"</string>
+  <string name="translation_query_error_network">"Couldn't get info. Connect to the network and try again."</string>
+  <string name="translation_result_copy">Copied to clipboard</string>
   <string name="unSwitchText">NO</string>
   <string name="undo">Undo</string>
   <string name="unknown_title">Unknown</string>
