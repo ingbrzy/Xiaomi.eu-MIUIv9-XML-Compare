@@ -47,8 +47,8 @@
     <array name="region_prefix">
         <item>@array/islam</item>
         <item>@array/lowkeymidrop</item>
-        <item>@array/islam_lowkeymidrop</item>
         <item>@array/notgoogle</item>
+        <item>@array/islam_lowkeymidrop</item>
     </array>
     <string-array name="transformation_entries">
         <item>Slide</item>
