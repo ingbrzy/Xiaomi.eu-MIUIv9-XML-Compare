@@ -12,13 +12,13 @@
     <string name="aqi_hazardous">\'AQI \'+#weather_aqilevel</string>
     <string name="aqi_break">\'AQI \'+#weather_aqilevel</string>
     <string name="weather_type_null">'Sen datos'</string>
-    <string name="weather_type_0">Limpar</string>
-    <string name="weather_type_1">Anubrado</string>
+    <string name="weather_type_0">Ceo claro</string>
+    <string name="weather_type_1">Nubrado</string>
     <string name="weather_type_2">Brétema</string>
     <string name="weather_type_3">Bretemoso</string>
     <string name="weather_type_4">Tempestade</string>
     <string name="weather_type_5">Tormenta</string>
-    <string name="weather_type_6">Choivas fortes</string>
+    <string name="weather_type_6">Chuvias fortes</string>
     <string name="weather_type_7">Tormenta</string>
     <string name="weather_type_8">Chuvieira</string>
     <string name="weather_type_9">Chuvias fortes</string>

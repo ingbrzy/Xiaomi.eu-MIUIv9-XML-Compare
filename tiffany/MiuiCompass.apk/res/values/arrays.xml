@@ -17,14 +17,17 @@
         <item>libra</item>
         <item>lithium</item>
         <item>natrium</item>
+        <item>nitrogen</item>
         <item>oxygen</item>
         <item>polaris</item>
         <item>rosy</item>
         <item>sagit</item>
         <item>scorpio</item>
+        <item>sirius</item>
         <item>tiffany</item>
         <item>virgo</item>
         <item>vince</item>
+        <item>wayne</item>
     </string-array>
     <string-array name="support_mi_nmea_devices">
         <item>leo</item>
