@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
-  <string name="accessibility_enter_lock_wallpaper">Tap to open Wallpaper Carousel</string>
+  <string name="accessibility_enter_lock_wallpaper">Tap to open Music</string>
   <string name="btn_camera">Enter your face</string>
   <string name="click_to_enter_text">Tap to view</string>
   <string name="confirm_pin_msg">Enter PIN again</string>

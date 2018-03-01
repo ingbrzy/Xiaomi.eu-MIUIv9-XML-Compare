@@ -218,6 +218,8 @@
   <string name="contact_detail_calllog_call_note_tips">Notes</string>
   <string name="contact_detail_calllog_call_record_tips">Recorded call</string>
   <string name="contact_detail_calllog_empty">No history</string>
+  <string name="contact_detail_entry_pay">Pay</string>
+  <string name="contact_detail_entry_pay_dialog_title">Select phone number</string>
   <string name="contact_detail_menu_delete_miprofile">Delete card</string>
   <string name="contact_detail_miprofile_accept">Exchange contact cards</string>
   <string name="contact_detail_miprofile_accept_fail_toast">"Couldn't exchange contact cards"</string>
@@ -828,7 +830,7 @@ To add a contact to your list of favorites:
   <string name="path_key_rebuild_t9_index_title">System apps/Contacts/Organize contacts/Rebuild index data</string>
   <string name="path_key_sim_manage">System apps/Contacts/Organize contacts/SIM cards</string>
   <string name="path_preference_contacts_filter">System apps/Contacts/Display preferences/Configure contact lists</string>
-  <string name="path_quick_dial_setting">System apps/Contacts/Quick dial</string>
+  <string name="path_quick_dial_setting">System apps/Phone/Advanced settings/Quick dial</string>
   <string name="path_remove_duplicate">System apps/Contacts/Organize contacts/Merge duplicate contacts</string>
   <string name="path_share_visible_contacts">System apps/Contacts/Import/Export contacts/Share contacts</string>
   <string name="path_sim_capacity">System apps/Contacts/SIM card storage</string>
@@ -889,6 +891,7 @@ To add a contact to your list of favorites:
   <string name="preference_contacts_display">Display preferences</string>
   <string name="preference_contacts_filter">Configure contact lists</string>
   <string name="preference_contacts_more">Organize contacts</string>
+  <string name="preference_contacts_moresetting">More</string>
   <string name="preference_dial_pad_touch_tone_default">Default</string>
   <string name="preference_dial_pad_touch_tone_human">Voice</string>
   <string name="preference_dial_pad_touch_tone_piano">Piano keys</string>
@@ -896,6 +899,7 @@ To add a contact to your list of favorites:
   <string name="preference_dial_pad_touch_tone_title">Dial pad tones</string>
   <string name="preference_display">Display</string>
   <string name="preference_displayOptions">Display options</string>
+  <string name="preference_display_contact">Display options</string>
   <string name="preference_export">Export</string>
   <string name="preference_import">Import</string>
   <string name="preference_import_export">Import/Export</string>
@@ -1014,7 +1018,7 @@ To add a contact to your list of favorites:
   <string name="search_key_rebuild_t9_index_title">Organize;Contacts;t9</string>
   <string name="search_key_sim_manage">Organize;Contacts</string>
   <string name="search_preference_contacts_filter">Contacts;Display</string>
-  <string name="search_quick_dial_setting">Contacts</string>
+  <string name="search_quick_dial_setting">Phone</string>
   <string name="search_remove_duplicate">Organize;Contacts</string>
   <string name="search_results_searching">Searching…</string>
   <string name="search_settings_description">Names of your contacts</string>

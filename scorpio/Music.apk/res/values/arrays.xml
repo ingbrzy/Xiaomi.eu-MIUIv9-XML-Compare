@@ -103,18 +103,6 @@
         <item>这是一首简单的小情歌...唱着我们心头的白鸽...</item>
         <item>我想我很适合做一个歌颂者，青春在风中飘着...</item>
     </string-array>
-    <string-array name="number_key_entries">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-    </string-array>
     <array name="number_value_entries_dark">
         <item>@drawable/theme_dark_number_0</item>
         <item>@drawable/theme_dark_number_1</item>
@@ -139,22 +127,4 @@
         <item>@drawable/theme_light_number_8</item>
         <item>@drawable/theme_light_number_9</item>
     </array>
-    <string-array name="search_item_type_name">
-        <item>@string/search_title_singer</item>
-        <item>@string/search_title_album</item>
-        <item>@string/search_title_song</item>
-    </string-array>
-    <integer-array name="song_group_detail_gray_colors">
-        <item>0x33000000</item>
-        <item>0x33000000</item>
-        <item>0x33000000</item>
-        <item>0x33000000</item>
-        <item>0x33000000</item>
-        <item>0x33000000</item>
-        <item>0x457F7F7F</item>
-        <item>0x77C7C7C7</item>
-        <item>0xA6E0E0E0</item>
-        <item>0xD4EBEBEB</item>
-        <item>0xFFF6F6F6</item>
-    </integer-array>
 </resources>
