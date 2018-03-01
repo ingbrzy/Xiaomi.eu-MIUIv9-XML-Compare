@@ -219,6 +219,8 @@
   <string name="alipay_risk_process_verify_by_alipay">去手机支付宝验证</string>
   <string name="alipay_scan">Scanner</string>
   <string name="alipay_sdk_minute_refresh">Refresh every minute</string>
+  <string name="alipay_sdk_open_alipay">打开客户端</string>
+  <string name="alipay_sdk_open_extra_money">领取鼓励金</string>
   <string name="alipay_sdk_payed_desc">Original price: %1$s CNY | Saving %2$s CNY</string>
   <string name="alipay_sdk_payed_desc_osfress">%1$s CNY (%2$s)</string>
   <string name="alipay_sdk_payed_finished">Completed payment successfully</string>
@@ -344,6 +346,9 @@
   <string name="card_setting_btn">Customize</string>
   <string name="card_settings">Customize</string>
   <string name="card_settings_rule">Card order settings</string>
+  <string name="card_title_empty_agenda">暂无行程</string>
+  <string name="card_title_empty_express">暂无快递</string>
+  <string name="card_title_empty_note">随便记点什么吧</string>
   <string name="card_title_express">My delivery</string>
   <string name="card_title_favorite">Favorites</string>
   <string name="card_title_funclaunch">ShortCuts</string>
@@ -580,7 +585,7 @@ Check your tracking number."</string>
   <string name="express_num_setting_title">Access order info</string>
   <string name="express_number_txt">Order Number:</string>
   <string name="express_open">Show delivery tracking cards</string>
-  <string name="express_open_locker">Open</string>
+  <string name="express_open_locker">一键开柜</string>
   <string name="express_open_txt">Open</string>
   <string name="express_order_confirmation">Order confirmation</string>
   <string name="express_order_failed">Failed</string>
@@ -607,10 +612,10 @@ Check your tracking number."</string>
   <string name="express_other_app">Allow MIUI to access the order info from other apps.</string>
   <string name="express_phone">Telephone</string>
   <string name="express_phone_tip">Delivering, stay tuned</string>
-  <string name="express_pickup_code">Code: %s</string>
+  <string name="express_pickup_code">取件码: %s</string>
   <string name="express_preview_order">Preview</string>
   <string name="express_region_pick_title">Choose region</string>
-  <string name="express_schedule_delivery">Order service</string>
+  <string name="express_schedule_delivery">预约取件</string>
   <string name="express_select_address">Address</string>
   <string name="express_select_addressee">To</string>
   <string name="express_select_city">Choose city</string>
@@ -880,6 +885,10 @@ Check your tracking number."</string>
   <string name="locations">Frequent places</string>
   <string name="locations_preferences">Addresses</string>
   <string name="login_before_use">You need to sign in first</string>
+  <string name="login_dialog_body">开启小米云同步，重要数据永不丢失，现在登录并开启吗？</string>
+  <string name="login_dialog_negative">暂不</string>
+  <string name="login_dialog_positive">登录并开启</string>
+  <string name="login_dialog_title">开启云同步</string>
   <string name="login_ok">Sign in</string>
   <string name="look_more">View more</string>
   <string name="main_add">Add</string>
@@ -1499,6 +1508,7 @@ Check your tracking number."</string>
   <string name="unusual_weather_setting_brief">Receive alerts in case dangerous weather is approaching your location.</string>
   <string name="unusual_weather_setting_tip">The cities used for issuing alerts can be changed in the Weather app.</string>
   <string name="upgrade_being">正在安装，桌面即将重启</string>
+  <string name="upgrade_bottom_dialog">底部升级弹窗</string>
   <string name="upgrade_find">发现新版本</string>
   <string name="upgrade_later">稍后安装</string>
   <string name="upgrade_log_default">"1.优化性能；
@@ -1506,6 +1516,7 @@ Check your tracking number."</string>
   <string name="upgrade_log_subtitle">（已在Wifi环境下载）</string>
   <string name="upgrade_log_title">信息助手新版本</string>
   <string name="upgrade_now">立即安装</string>
+  <string name="upgrade_now_bottom">底部立即安装</string>
   <string name="uploads_disabled">"Can't upload files"</string>
   <string name="user_id">User ID: %s</string>
   <string name="user_notice_title">Attention</string>
