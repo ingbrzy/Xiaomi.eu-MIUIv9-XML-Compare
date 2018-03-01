@@ -19,6 +19,7 @@
   <string name="abc_shareactionprovider_share_with">Share with</string>
   <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
   <string name="abc_toolbar_collapse_description">Collapse</string>
+  <string name="mibi_all_license_message">"You're about to use Mi Credit, which is a service provided by Xiaomi Inc. Before you can use this service, you must agree to the Terms of Service stated in %1$s. Touch OK if you agree to the terms and conditions described in the %1$s and %1$s. You need to connect to the internet, locate you device to use Mi Credit."</string>
   <string name="mibi_app_name">Mi Credit</string>
   <string name="mibi_applock_config">"Can't set App lock while using Split screen."</string>
   <string name="mibi_applock_dialog_cancel">Not now</string>
@@ -166,7 +167,7 @@ Please check your local date and try again."</string>
   <string name="mibi_label_balance">Balance</string>
   <string name="mibi_label_giftcard">Giftcard</string>
   <string name="mibi_label_pay_remain">Amount due: %1$s Mi Credits</string>
-  <string name="mibi_license_message">"You're about to use Mi Credit, which is a service provided by Xiaomi Inc. Before you can use this service, you must agree to the Terms of Service stated in %1$s. Touch OK if you agree to the terms and conditions described in the %1$s. You need to connect to the internet, locate you device to use Mi Credit."</string>
+  <string name="mibi_license_message">"You're about to use Mi Credit, which is a service provided by Xiaomi Inc. Before you can use this service, you must agree to the Terms of Service stated in %1$s. Touch OK if you agree to the terms and conditions described in the %1$s . You need to connect to the internet, locate you device to use Mi Credit."</string>
   <string name="mibi_license_message_span">Mi Credit User Agreement</string>
   <string name="mibi_license_title">Terms and conditions</string>
   <string name="mibi_list_item_bottom_hint">"You've reached the bottom of this list"</string>
@@ -203,6 +204,7 @@ Please check your local date and try again."</string>
   <string name="mibi_msg_telecom_picker_hint_2_1">Your network provider has been contacted!</string>
   <string name="mibi_msg_telecom_picker_hint_2_2">You will receive a text confirmation shortly.</string>
   <string name="mibi_msg_telecom_sending">Contacting network provider…</string>
+  <string name="mibi_normal_license_name">Terms and conditions</string>
   <string name="mibi_order_balance_lable">Mi Credits</string>
   <string name="mibi_order_balance_lable_append">Mi Credits + coupon</string>
   <string name="mibi_order_balance_title">My Mi Credits</string>
@@ -252,6 +254,7 @@ Please check your local date and try again."</string>
   <string name="mibi_prepaid_picker_hint_2_2_b">If the nominal value of the prepaid card is not &lt;font color=red&gt;￥%1$s&lt;/font&gt;, the card will be void. Xiaomi is not responsible for any monetary loss that occurs as a result of user error.</string>
   <string name="mibi_prepaid_picker_title_default">Select amount</string>
   <string name="mibi_prepaid_picker_title_selected">amount</string>
+  <string name="mibi_privacy_license_name">Privacy Policy</string>
   <string name="mibi_process_expired">"Where'd you go? This operation has timed out."</string>
   <string name="mibi_progress_creating">Retrieving order info…</string>
   <string name="mibi_progress_deduct_creating">Activating %1$s automatic payment protocol​…</string>
@@ -280,7 +283,7 @@ Customer service center：400-100-3399"</string>
   <string name="mibi_progress_warning_waiting">"Payment hasn't reached your account yet."</string>
   <string name="mibi_prompt_info_button_hint">Attention(%d)</string>
   <string name="mibi_prompt_info_button_text">OK</string>
-  <string name="mibi_prompt_info_for_first_use">"Mi Credit can't be used to buy hardware products on Mi.com."</string>
+  <string name="mibi_prompt_info_for_first_use">&lt;Data&gt;"&amp;lt;font color=#ff7700&amp;gt;Mi Credit can't be used to buy hardware products on Mi.com.&amp;lt;/font&amp;gt;"&lt;/Data&gt;</string>
   <string name="mibi_prompt_info_title">Tips</string>
   <string name="mibi_push_register_fail">Register push fail.</string>
   <string name="mibi_push_register_success">Register push success.</string>
@@ -302,8 +305,7 @@ Customer service center：400-100-3399"</string>
   <string name="mibi_recharge_push_notification_sub_title">Top-up complete.</string>
   <string name="mibi_recharge_value_money">Purchase CNY %s worth of Mi Credits</string>
   <string name="mibi_recharge_value_money_special_unit">Purchase %1$s %2$s worth of Mi Credits</string>
-  <string name="mibi_recharge_value_money_with_tip">"Purchase CNY %s worth of Mi Credits &lt;font color=red&gt;(Can't spend Mi Credits at Mi.com)&lt;/font&gt;"</string>
-  <string name="mibi_recharge_value_money_with_tip_special_unit">"Purchase %1$s %2$s worth of Mi Credits &lt;font color=red&gt;(Can't spend Mi Credits at Mi.com)&lt;/font&gt;"</string>
+  <string name="mibi_recharge_warn_text">"You can't buy physical goods using Mi Credits."</string>
   <string name="mibi_scan_prompt_number">Scan %1$s prepaid card number</string>
   <string name="mibi_scan_prompt_password">Scan %1$s prepaid card password</string>
   <string name="mibi_scan_prompt_voucher">Scan Mi Credit password</string>
