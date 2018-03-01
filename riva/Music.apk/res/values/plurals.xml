@@ -4,10 +4,6 @@
         <item quantity="other">Total %d songs</item>
         <item quantity="one">Total %d song</item>
     </plurals>
-    <plurals name="Nartists_count">
-        <item quantity="other">%d artists</item>
-        <item quantity="one">%d artist</item>
-    </plurals>
     <plurals name="Nassociate_songs">
         <item quantity="other">Searching for album covers and lyrics (%1$d/%2$d)</item>
         <item quantity="one">Searching for album covers and lyrics (%1$d/%2$d)</item>
@@ -15,18 +11,6 @@
     <plurals name="Nbackup_songs">
         <item quantity="other">Backing up songs, %1$d songs remaining (%2$.1fMB)</item>
         <item quantity="one">Backing up songs, %1$d song remaining (%2$.1fMB)</item>
-    </plurals>
-    <plurals name="Nexpired_remind">
-        <item quantity="other">%d days remaining</item>
-        <item quantity="one">%d day remaining</item>
-    </plurals>
-    <plurals name="Ngroups_count">
-        <item quantity="other">%d bands</item>
-        <item quantity="one">%d band</item>
-    </plurals>
-    <plurals name="Nnew_tracks_count">
-        <item quantity="other">%d new songs</item>
-        <item quantity="one">%d new song</item>
     </plurals>
     <plurals name="Nquit_warning">
         <item quantity="other">Player will stop in %d minutes</item>
@@ -57,10 +41,6 @@ total %2$d song"</item>
     <plurals name="Ntracks_remove_from_playlist">
         <item quantity="other">%d songs removed from playlist</item>
         <item quantity="one">%d song removed from playlist</item>
-    </plurals>
-    <plurals name="Ntracks_search_result">
-        <item quantity="other">%d songs found</item>
-        <item quantity="one">%d song found</item>
     </plurals>
     <plurals name="Ntracks_similar_count">
         <item quantity="other">%d similar songs</item>
@@ -105,10 +85,6 @@ total %2$d song"</item>
     <plurals name="download_running">
         <item quantity="other">&lt;font color=\"red\">%d songs&lt;/font> downloading</item>
         <item quantity="one">&lt;font color==\"red\">%d song&lt;/font> downloading</item>
-    </plurals>
-    <plurals name="folder_songs_count">
-        <item quantity="other">%d songs</item>
-        <item quantity="one">%d song</item>
     </plurals>
     <plurals name="multichoice_title">
         <item quantity="other">%d items selected</item>
