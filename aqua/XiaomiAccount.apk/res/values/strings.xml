@@ -81,7 +81,7 @@
   <string name="change_password">Change password</string>
   <string name="change_phone_number">Change phone number</string>
   <string name="cloud_service">Mi Cloud</string>
-  <string name="completed">All set</string>
+  <string name="completed">All set!</string>
   <string name="confirm_activate_email">Verified</string>
   <string name="confirm_bundled_phone_dialog_title">Confirm associated phone number</string>
   <string name="confirm_delete_app_message">"After deleting this app, you'll have to verify your phone number next time you sign in to your Mi Account in it."</string>
@@ -95,8 +95,8 @@
   <string name="current_location_title">Current location</string>
   <string name="delete_action">Delete</string>
   <string name="delete_app">Delete app</string>
-  <string name="delete_bank_card_message">Your bank card will be deleted due to security reasons after you sign out</string>
-  <string name="delete_bank_card_title">Deleting your bank card</string>
+  <string name="delete_bank_card_message">Mi Pay bank cards and NFC cards will be deleted after you sign out.</string>
+  <string name="delete_bank_card_title">Attention</string>
   <string name="delete_browser">Delete browser</string>
   <string name="delete_device">Delete device</string>
   <string name="delete_device_btn">Remove</string>
@@ -119,7 +119,6 @@
   <string name="find_device_account_error">"Can't get status due to account error"</string>
   <string name="find_device_activate_account">Activate account</string>
   <string name="find_device_bad_response_error">A server error occurred, wait a minute or two and try again</string>
-  <string name="find_device_display_id">Unlock number: %s</string>
   <string name="find_device_error_password_not_confirmed">"Can't turn off Find device. Enter your Mi Account password again."</string>
   <string name="find_device_error_password_recently_changed">"You've changed your password within last 3 days. Can't turn off Find device now due to security reasons."</string>
   <string name="find_device_interrupted">Action was interrupted, wait a minute or two and try again</string>
@@ -269,6 +268,7 @@ To activate your account, follow the
   <string name="passport_input_password_hint">Enter password</string>
   <string name="passport_input_phone_hint">Enter phone number</string>
   <string name="passport_input_vcode_hint">Enter verification code</string>
+  <string name="passport_input_voice_captcha_hint">Enter voice verification code</string>
   <string name="passport_license_host_unreachable">"Can't connect to the network. You can view this page at %s."</string>
   <string name="passport_loading">Loading…</string>
   <string name="passport_login">Sign in</string>
@@ -280,7 +280,7 @@ To activate your account, follow the
   <string name="passport_login_recycle_account_no">No</string>
   <string name="passport_login_recycle_account_yes">Yes</string>
   <string name="passport_login_title">Sign in to your Mi Account</string>
-  <string name="passport_login_using_other_ways">&lt;u&gt;Other ways to sign in&lt;/u&gt;</string>
+  <string name="passport_login_using_other_ways">Other ways to sign in</string>
   <string name="passport_message_dialog_title">SMS with verifying codes</string>
   <string name="passport_next">Next</string>
   <string name="passport_no">No</string>
@@ -366,7 +366,7 @@ To activate your account, follow the
   <string name="passport_uplink_slot1_reg">Use SIM 1</string>
   <string name="passport_uplink_slot2_reg">Use SIM 2</string>
   <string name="passport_use_generated_pwd_message">Make sure you remember your password. You can use it to sign in to other Mi services.</string>
-  <string name="passport_use_generated_pwd_title">Remember your password</string>
+  <string name="passport_use_generated_pwd_title">Remember your password!</string>
   <string name="passport_user_agreement">User Agreement</string>
   <string name="passport_user_agreement_p1">Agree to </string>
   <string name="passport_user_agreement_p2">User Agreement</string>
@@ -438,11 +438,12 @@ To activate your account, follow the
   <string name="trusted_browsers">Trusted browsers</string>
   <string name="trusted_browsers_prompt">The browser will no longer be trusted if you delete cookies.</string>
   <string name="turn_off_find_device_failed_title">"Can't turn off Find device"</string>
+  <string name="turning_off_find_device">Turning off Find device…</string>
   <string name="unbind_sns_description">"After you disconnect this account, you won't be able to use your %s Account info to sign to your Mi Account."</string>
   <string name="unlock_help_notice">"Help:
 · If you forgot your password, go to id.mi.com to reset it.
 · If you can't unlock the device, go to i.mi.com to turn off Find device.
-· Tell this unlock number to the customer service: %s"</string>
+· Your unlock number: %s"</string>
   <string name="update_contacts">Update contacts</string>
   <string name="update_email_address_dialog_message">You need to verify your identity before you can update email.</string>
   <string name="update_email_address_dialog_title">Update Email</string>
