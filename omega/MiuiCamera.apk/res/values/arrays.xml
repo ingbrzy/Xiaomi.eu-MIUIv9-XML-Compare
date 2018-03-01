@@ -472,7 +472,7 @@
         <item>@string/pref_camera_exposuretime_entry_4</item>
         <item>@string/pref_camera_exposuretime_entry_2</item>
         <item>@string/pref_camera_exposuretime_entry_1</item>
-        <item>@string/pref_camera_exposuretime_entry_0.5</item>
+        <item>@string/pref_camera_exposuretime_entry_0_5</item>
         <item>@string/pref_camera_exposuretime_entry_4s</item>
         <item>@string/pref_camera_exposuretime_entry_8s</item>
         <item>@string/pref_camera_exposuretime_entry_16s</item>

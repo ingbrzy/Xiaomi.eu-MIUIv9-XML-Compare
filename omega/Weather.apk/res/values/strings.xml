@@ -155,6 +155,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="indices_title_uv">UV index</string>
   <string name="indices_title_visibility">Visibility</string>
   <string name="information_manager_extension">Weather extension</string>
+  <string name="information_settings_title">Weather info</string>
   <string name="information_time_source">%1$s | %2$s</string>
   <string name="information_views"/>
   <string name="install">Install</string>
@@ -200,6 +201,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="open_browser">Open in browser</string>
   <string name="open_now">Open</string>
   <string name="other">Other</string>
+  <string name="other_settings">Other settings</string>
   <string name="other_warning_settings">Other alerts</string>
   <string name="particulate_matter_exceeded">High</string>
   <string name="particulate_matter_not_exceeded">Normal</string>
