@@ -9,7 +9,7 @@
   <string name="app_search">Search apps</string>
   <string name="btn_send">Send</string>
   <string name="bugreport_dialog_not_show_again">"Don't show again"</string>
-  <string name="bugreport_dialog_submit_content">Your feedback may contain personal info and location data.</string>
+  <string name="bugreport_dialog_submit_content">"You're saving software logs on this device now. Logs may contain personal info and your location data. Don't share logs with anyone else if you don't want this info to be exposed."</string>
   <string name="bugreport_dump_complete_notification_summary">Tap to view.</string>
   <string name="bugreport_dump_complete_notification_title">Created bug report</string>
   <string name="bugreport_dump_start_notification_summary">This might take several minutes.</string>
@@ -83,9 +83,17 @@
   <string name="feedback_retest_label">Steps to reproduce</string>
   <string name="feedback_select_images">Add images</string>
   <string name="feedback_select_modem_log">Add modem logs</string>
+  <string name="feedback_select_modem_log_not_select_desc">"Haven't selected \"Add modem logs\""</string>
+  <string name="feedback_select_modem_log_select_desc">Selected \"Add modem logs\"</string>
   <string name="feedback_select_problem">Issues</string>
+  <string name="feedback_select_problem_not_select_desc">"Haven't selected \"Issues\""</string>
+  <string name="feedback_select_problem_select_desc">Selected \"Issues\"</string>
   <string name="feedback_select_suggestion">Suggestions</string>
+  <string name="feedback_select_suggestion_not_select_desc">"Haven't selected \"Suggestions\""</string>
+  <string name="feedback_select_suggestion_select_desc">Selected \"Suggestions\"</string>
   <string name="feedback_select_upload_log">Add logs</string>
+  <string name="feedback_select_upload_log_not_select_desc">"Haven't selected \"Add logs\""</string>
+  <string name="feedback_select_upload_log_select_desc">Selected \"Add logs\"</string>
   <string name="feedback_status_answered">Answered</string>
   <string name="feedback_status_change_notification_title">"Your report's progress was updated"</string>
   <string name="feedback_status_commit_failed_title">"Couldn't send report"</string>
@@ -270,7 +278,7 @@
   <string name="submit_dialog_cancel">Cancel</string>
   <string name="submit_dialog_confirm">Send</string>
   <string name="submit_dialog_content">"Your feedback, along with attachments and logs, will be sent to MIUI's servers. It may contain personal info and your location data."</string>
-  <string name="submit_dialog_content_global">"Your feedback, along with attachments and logs, will be sent to MIUI's servers. Logs may contain personal info and your location data. You can choose not to submit logs by unchecking the corresponding box."</string>
+  <string name="submit_dialog_content_global">"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers and a restricted section of MIUI Forum for developers for analysis and further communication. Logs may contain personal info and your location data."</string>
   <string name="submit_dialog_title">Send report</string>
   <string name="submit_feedback_info_failed">"Couldn't send report"</string>
   <string name="suggestion_description">Add description here</string>

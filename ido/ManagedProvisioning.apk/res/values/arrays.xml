@@ -19,6 +19,8 @@
         <item>com.miui.home</item>
     </string-array>
     <string-array name="vendor_required_apps_managed_profile">
+        <item>com.android.vending</item>
+        <item>com.google.android.gms</item>
         <item>com.android.contacts</item>
     </string-array>
 </resources>
