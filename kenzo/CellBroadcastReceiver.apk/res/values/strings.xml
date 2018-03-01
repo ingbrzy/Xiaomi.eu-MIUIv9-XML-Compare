@@ -14,6 +14,9 @@
   <string name="category_india_settings_title">Settings for India</string>
   <string name="cb_other_message_identifiers">Alert Message</string>
   <string name="cell_broadcast_settings_not_available">Cell Broadcast settings are not available for this user</string>
+  <string name="cmas_alert_message">Alert Message</string>
+  <string name="cmas_alert_message_chinese">警訊通知</string>
+  <string name="cmas_alert_message_english">Alert Message</string>
   <string name="cmas_amber_alert">Child abduction (Amber alert)</string>
   <string name="cmas_category_cbrne">Chemical/Biological/Nuclear/Explosive</string>
   <string name="cmas_category_env">Environmental</string>
@@ -39,6 +42,8 @@
   <string name="cmas_opt_out_dialog_text">You are currently receiving Emergency Alerts. Would you like to continue receiving Emergency Alerts?</string>
   <string name="cmas_presidential_level_alert">Presidential alert</string>
   <string name="cmas_required_monthly_test">Required Monthly Test</string>
+  <string name="cmas_required_monthly_test_chinese">每月測試用訊息</string>
+  <string name="cmas_required_monthly_test_english">Required Monthly Test</string>
   <string name="cmas_response_assess">Assess</string>
   <string name="cmas_response_avoid">Avoid</string>
   <string name="cmas_response_evacuate">Evacuate</string>
@@ -92,7 +97,11 @@
   <string name="no_cell_broadcasts">There are no active alerts in your area. You can change the Alert settings using the Settings menu option.</string>
   <string name="notification_multiple">%s unread alerts.</string>
   <string name="notification_multiple_title">New alerts</string>
+  <string name="pws_cmas_presidential_level_alert_chinese">國家級警報</string>
+  <string name="pws_cmas_presidential_level_alert_english">Presidential Alert</string>
   <string name="pws_other_message_identifiers">Emergency alert</string>
+  <string name="pws_other_message_identifiers_chinese">緊急警報</string>
+  <string name="pws_other_message_identifiers_english">Emergency Alert</string>
   <string name="show_cmas_opt_out_summary">Show an opt-out dialog after displaying the first CMAS alert (other than Presidential Alert).</string>
   <string name="show_cmas_opt_out_title">Show opt-out dialog</string>
   <string name="sms_cb_settings">Cell Broadcast settings</string>

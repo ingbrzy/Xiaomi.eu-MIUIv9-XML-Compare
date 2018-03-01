@@ -594,7 +594,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="bluetooth_pairing_pin_error_message">"Couldn't pair with %1$s because of an incorrect PIN or passkey."</string>
   <string name="bluetooth_pairing_rejected_error_message">Pairing rejected by %1$s.</string>
   <string name="bluetooth_pairing_request">Pair with %1$s?</string>
-  <string name="bluetooth_pairing_shares_phonebook">Allow %1$s to access your contacts and call history</string>
+  <string name="bluetooth_pairing_shares_phonebook">Allow access to your contacts and call history</string>
   <string name="bluetooth_pairing_will_share_phonebook">Pairing grants access to your contacts and call history when connected.</string>
   <string name="bluetooth_pan_nap_profile_summary_connected">Sharing local Internet connection with device</string>
   <string name="bluetooth_pan_profile_summary_use_for">Use for internet access</string>
@@ -1188,6 +1188,7 @@ This setting affects all users on this phone."</string>
   <string name="disable_service_title">Stop %1$s?</string>
   <string name="disable_text">Disable</string>
   <string name="disabled">Disabled</string>
+  <string name="disabled_authorised_apps_title">Revoked authorization</string>
   <string name="disabled_because_no_backup_security">To use, first set a screen lock</string>
   <string name="disconnect">disconnect</string>
   <string name="display_auto_rotate_rotate">On</string>
@@ -1322,6 +1323,8 @@ This setting affects all users on this phone."</string>
   <string name="enable_terminal_title">Local terminal</string>
   <string name="enable_text">Enable</string>
   <string name="enable_wifi_display">Wireless display</string>
+  <string name="enabled_authorised_apps_summary">Your authorization will be revoked after you toggle switches of individual apps.</string>
+  <string name="enabled_authorised_apps_title">Granted authorization</string>
   <string name="enalbe_identify_iPhone">AP identification</string>
   <string name="encrypt_dont_require_password">No thanks</string>
   <string name="encrypt_dont_require_pattern">No thanks</string>
@@ -2168,6 +2171,7 @@ There are other users present on this device.
   <string name="menu_stats_unplugged">%1$s since unplugged</string>
   <string name="menu_use_uss">Use Uss</string>
   <string name="mi_shopping_mall">Mi Store</string>
+  <string name="mi_upi_settings">Mi Pay Account</string>
   <string name="misc_files">Misc files</string>
   <string name="misc_files_selected_count">selected %1$d out of %2$d</string>
   <string name="misc_files_selected_count_bytes">%1$s out of %2$s</string>
@@ -2648,6 +2652,21 @@ Select your operating system:"</string>
   <string name="priority_storage_settings_summary">"If no SD card is detected, your data will be saved to your device's internal storage automatically"</string>
   <string name="priority_storage_summary">Choose where to save your data</string>
   <string name="priority_storage_title">Storage settings</string>
+  <string name="privacy_authorize_dialog_agree">Agree</string>
+  <string name="privacy_authorize_dialog_exit">Exit</string>
+  <string name="privacy_authorize_dialog_message">%1$s requires that you read and agree with %2$s. The app needs to connect to the network to work normally. Agree?</string>
+  <string name="privacy_authorize_network_error">Connect to the network and try again.</string>
+  <string name="privacy_authorize_privacy_policy">Privacy Policy</string>
+  <string name="privacy_authorize_revoke">Revoke</string>
+  <string name="privacy_authorize_revoke_dialog_msg">After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway?</string>
+  <string name="privacy_authorize_revoke_dialog_title">Revoking authorization</string>
+  <string name="privacy_authorize_revoke_failed">"Couldn't revoke authorization"</string>
+  <string name="privacy_authorize_revoke_success">Revoked authorization successfully</string>
+  <string name="privacy_authorize_revoke_time">Revoke (%1$ds)</string>
+  <string name="privacy_authorize_revoke_title">Authorization &amp; revocation</string>
+  <string name="privacy_authorize_revoking">Revoking authorization…</string>
+  <string name="privacy_authorize_success">Granted authorization successfully</string>
+  <string name="privacy_authorize_title">Granting authorization</string>
   <string name="privacy_close_dlg_button_ok">Turn off</string>
   <string name="privacy_close_dlg_msg">When Privacy protection password is off, your items will no longer be protected.</string>
   <string name="privacy_close_dlg_title">Attention</string>
@@ -3824,6 +3843,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="testing_usage_stats">Usage statistics</string>
   <string name="testing_wifi_info">WLAN information</string>
   <string name="tether_and_hotspot_title">Tethering &amp; portable hotspot</string>
+  <string name="tether_auto_disable_summary">Automatically close hotspot when no connected devices</string>
+  <string name="tether_auto_disable_title">Automatically close hotspot</string>
   <string name="tether_data_usage_limit">One-time data limit</string>
   <string name="tether_data_usage_limit_summary">Data limit will be applied next time your hotspot is on</string>
   <string name="tether_devices_management_title">Manage devices</string>
@@ -4091,7 +4112,8 @@ Your saved fingerprints will also be removed from this device and you won't be a
   <string name="use_default_tts_settings_title">Always use my settings</string>
   <string name="use_location_summary">Let Google use your location to improve search results and other services</string>
   <string name="use_location_title">Location &amp; Google search</string>
-  <string name="use_personalized_ad_service">Use advertising identifier</string>
+  <string name="use_personalized_ad_service">Personalized Ad Recommendation</string>
+  <string name="use_personalized_ad_service_summary">When the recommendation feature is switched off, you will still see the same quantity of ads as when it’s on, but not based on your behavior data or your personal information.</string>
   <string name="use_privacy_password_immediate">Use</string>
   <string name="use_system_language_to_select_input_method_subtypes">Use system language</string>
   <string name="use_this_wlan">Stay connected</string>
