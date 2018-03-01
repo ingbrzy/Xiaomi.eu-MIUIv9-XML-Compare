@@ -2171,6 +2171,7 @@ There are other users present on this device.
   <string name="menu_stats_unplugged">%1$s since unplugged</string>
   <string name="menu_use_uss">Use Uss</string>
   <string name="mi_shopping_mall">Mi Store</string>
+  <string name="mi_upi_settings">Mi Pay Account</string>
   <string name="miracast_PC2THOR_streaming_on">Miracast is unavailable because a PC is streaming to this device</string>
   <string name="miracast_cancelconnect_dialog">Cancel connection</string>
   <string name="miracast_connection_failed_generic">"Can't connect to display"</string>
@@ -3869,6 +3870,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="testing_usage_stats">Usage statistics</string>
   <string name="testing_wifi_info">WLAN information</string>
   <string name="tether_and_hotspot_title">Tethering &amp; portable hotspot</string>
+  <string name="tether_auto_disable_summary">Automatically close hotspot when no connected devices</string>
+  <string name="tether_auto_disable_title">Automatically close hotspot</string>
   <string name="tether_data_usage_limit">One-time data limit</string>
   <string name="tether_data_usage_limit_summary">Data limit will be applied next time your hotspot is on</string>
   <string name="tether_devices_management_title">Manage devices</string>
@@ -4136,7 +4139,8 @@ Your saved fingerprints will also be removed from this device and you won't be a
   <string name="use_default_tts_settings_title">Always use my settings</string>
   <string name="use_location_summary">Let Google use your location to improve search results and other services</string>
   <string name="use_location_title">Location &amp; Google search</string>
-  <string name="use_personalized_ad_service">Use advertising identifier</string>
+  <string name="use_personalized_ad_service">Personalized Ad Recommendation</string>
+  <string name="use_personalized_ad_service_summary">When the recommendation feature is switched off, you will still see the same quantity of ads as when it’s on, but not based on your behavior data or your personal information.</string>
   <string name="use_privacy_password_immediate">Use</string>
   <string name="use_system_language_to_select_input_method_subtypes">Use system language</string>
   <string name="use_this_wlan">Stay connected</string>

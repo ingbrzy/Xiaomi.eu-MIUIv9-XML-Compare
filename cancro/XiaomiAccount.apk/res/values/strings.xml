@@ -280,7 +280,7 @@ To activate your account, follow the
   <string name="passport_login_recycle_account_no">No</string>
   <string name="passport_login_recycle_account_yes">Yes</string>
   <string name="passport_login_title">Sign in to your Mi Account</string>
-  <string name="passport_login_using_other_ways">&lt;u&gt;Other ways to sign in&lt;/u&gt;</string>
+  <string name="passport_login_using_other_ways">Other ways to sign in</string>
   <string name="passport_message_dialog_title">SMS with verifying codes</string>
   <string name="passport_next">Next</string>
   <string name="passport_no">No</string>
@@ -443,7 +443,7 @@ To activate your account, follow the
   <string name="unlock_help_notice">"Help:
 · If you forgot your password, go to id.mi.com to reset it.
 · If you can't unlock the device, go to i.mi.com to turn off Find device.
-· Tell this unlock number to the customer service: %s"</string>
+· Your unlock number: %s"</string>
   <string name="update_contacts">Update contacts</string>
   <string name="update_email_address_dialog_message">You need to verify your identity before you can update email.</string>
   <string name="update_email_address_dialog_title">Update Email</string>
