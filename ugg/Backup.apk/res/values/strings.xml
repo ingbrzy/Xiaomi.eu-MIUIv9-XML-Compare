@@ -237,6 +237,7 @@ you should create an iCloud backup first."</string>
   <string name="notif_icloud_need_wifi_summary">Waiting for WLAN</string>
   <string name="notif_icloud_saved_summary">Imported successfully</string>
   <string name="notif_icloud_saving_summary">Restoring data…</string>
+  <string name="notif_miasist_try_to_connect">Mi PC Suite is trying to connect to your device</string>
   <string name="notif_parse_select_descript_error">"Couldn't sync the list of backed up items."</string>
   <string name="notif_receiving_transingsd">Receiving %1$s (%2$s)…</string>
   <string name="notif_restore_complete_title">Restored successfully</string>
@@ -500,6 +501,7 @@ Keep devices close to each other."</string>
   <string name="trans_show_qr_code_tips">Scan QR code using old device</string>
   <string name="trans_start_failed_message">"Couldn't start transfer, try again or reboot device."</string>
   <string name="trans_start_failed_title">"Couldn't start transfer"</string>
+  <string name="trans_switching_5g">Switching to 5GHz WLAN…</string>
   <string name="trans_time_format_second">Less than 1 minute</string>
   <string name="trans_time_spent">"
 Time spent: %s"</string>
