@@ -342,6 +342,8 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="hour_minute_time_format">HH:mm</string>
   <string name="how_to_back_home">Go to Home screen</string>
   <string name="how_to_switch_recents">Open Recents</string>
+  <string name="how_to_use_drawer">How to use the app sliding function</string>
+  <string name="how_to_use_drawer_summary">Swipe from the top-left</string>
   <string name="how_to_use_fsg">You can perform these actions using gestures:</string>
   <string name="immediately_destroy_activities">Don’t keep activities</string>
   <string name="immediately_destroy_activities_summary">End every activity as soon as the user leaves it</string>
