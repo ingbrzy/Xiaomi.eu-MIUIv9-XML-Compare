@@ -37,7 +37,7 @@
   <string name="camera_snap_mode_title_detail">Tap to view details</string>
   <string name="cannot_connect_camera_once">"Can't connect to camera"</string>
   <string name="cannot_connect_camera_twice">"Still can't connect to camera. Try restarting your device."</string>
-  <string name="cannot_connect_camera_volte_call">Video call is ongoing, please try later.</string>
+  <string name="cannot_connect_camera_volte_call">Video call is in progress, try again later.</string>
   <string name="cannot_move_warning_message">Taking photo, keep the device still</string>
   <string name="color_effect_entry_berry">Berries</string>
   <string name="color_effect_entry_blackwhite">B&amp;W</string>
@@ -146,7 +146,7 @@ and then create a shot where everyone looks best."</string>
   <string name="pano_file_name_format">"'PANO'_yyyyMMdd_HHmmss"</string>
   <string name="pano_how_to_use_prompt_align_reference_line">Align the arrow with the reference line</string>
   <string name="pano_how_to_use_prompt_go_on_moving">Keep going…</string>
-  <string name="pano_how_to_use_prompt_slow_down">Please slow down</string>
+  <string name="pano_how_to_use_prompt_slow_down">Slow down…</string>
   <string name="pano_how_to_use_prompt_start">Tap the arrow to switch direction and begin panning slowly.</string>
   <string name="pano_how_to_use_prompt_to_move">Begin panning slowly</string>
   <string name="path_settings">System apps/Camera/Settings</string>
@@ -265,7 +265,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_delay_capture_title">Timer</string>
   <string name="pref_camera_device_watermark_title">Device watermark</string>
   <string name="pref_camera_exposuretime_default">0</string>
-  <string name="pref_camera_exposuretime_entry_0.5">2s</string>
+  <string name="pref_camera_exposuretime_entry_0_5">2s</string>
   <string name="pref_camera_exposuretime_entry_1">1s</string>
   <string name="pref_camera_exposuretime_entry_1000">1/1000s</string>
   <string name="pref_camera_exposuretime_entry_125">1/125s</string>
@@ -525,7 +525,7 @@ and brings out the people in the front."</string>
   <string name="pref_retain_camera_mode_summary">Switch camera to the previously used mode when you open the app.</string>
   <string name="pref_retain_camera_mode_title">Save previous mode</string>
   <string name="pref_scan_qrcode_default">true</string>
-  <string name="pref_scan_qrcode_summary">Only the rear camera can scan QR codes</string>
+  <string name="pref_scan_qrcode_summary">Only the rear camera can scan QR codes in the \"Photo\" mode.</string>
   <string name="pref_scan_qrcode_title">Scan QR codes</string>
   <string name="pref_setting_title">Settings</string>
   <string name="pref_simple_hdr_default">off</string>
