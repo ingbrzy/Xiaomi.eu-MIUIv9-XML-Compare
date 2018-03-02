@@ -4,5 +4,5 @@
     <string name="date_time_12">EEE, MMMM dd</string>
     <string name="desc_date_format">EEEE, MMM dd</string>
     <string name="desc_date_format_12">EEEE, MMM dd</string>
-    <string name="desc_time">'nuvarande tid\' + #hour12+\' \'+ifelse(#minute,#minute,\'oclock\')+\', dubbeltryck för att starta klockappen'</string>
+    <string name="desc_time">'nuvarande tid\' + #hour12+\' \'+ifelse(#minute,#minute,\'\')+\', dubbeltryck för att starta klockappen'</string>
 </resources>
