@@ -21,6 +21,7 @@
   <string name="label_recording">Recording: %s</string>
   <string name="menu_exit">Exit</string>
   <string name="menu_headset">Switch to headset</string>
+  <string name="menu_label">Menu</string>
   <string name="menu_new_station">Add</string>
   <string name="menu_record_list">Recordings</string>
   <string name="menu_record_start">Start recording</string>
@@ -34,6 +35,7 @@
   <string name="msg_do_not_support_fm">"This device doesn't support FM Radio"</string>
   <string name="msg_fm_starting">Starting…</string>
   <string name="msg_noantenna_message">No headphones detected. Some functions may not be available.</string>
+  <string name="msg_try_plug_headset">Connect headphones and try again.</string>
   <string name="new_frequency">New frequency</string>
   <string name="next_station">Next station</string>
   <string name="notification_rec_title">Tap to view recording</string>
