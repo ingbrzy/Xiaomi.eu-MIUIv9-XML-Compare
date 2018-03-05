@@ -803,7 +803,7 @@
         <item>1</item>
     </integer-array>
     <string-array name="region_support_volte">
-        <item>HK;capricorn,gemini,lithium,natrium,sagit,scorpio,chiron</item>
+        <item>HK;capricorn,gemini,lithium,natrium,sagit,scorpio,chiron,vince,rosy</item>
         <item>CN</item>
         <item>IN</item>
         <item>MY</item>
@@ -814,5 +814,7 @@
         <item>MO;sagit,chiron</item>
         <item>JP;sagit,chiron</item>
         <item>ID;riva</item>
+        <item>SG;vince</item>
+        <item>RU;vince</item>
     </string-array>
 </resources>
