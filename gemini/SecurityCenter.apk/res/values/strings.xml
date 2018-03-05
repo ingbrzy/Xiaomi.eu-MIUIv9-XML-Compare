@@ -688,7 +688,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="dlg_remove_whitelist">Remove these numbers from exceptions?</string>
   <string name="dlg_remove_whitelist_ing">Removing…</string>
   <string name="dlg_remove_whitelist_title">Remove</string>
+  <string name="dlg_sec_network_unavailable">"Security app can't update because you've restricted the internet connection. Allow Security to connect to the internet?"</string>
   <string name="dlg_title_not_open_stranger_identify">Caller ID</string>
+  <string name="dlg_update_btn_contiue">Continue</string>
+  <string name="dlg_update_btn_open">Allow</string>
+  <string name="dlg_update_data_content">"You aren't connected to WLAN. Using mobile data may generate additional fees. Continue anyway?"</string>
+  <string name="dlg_update_date_title">Warning</string>
+  <string name="dlg_update_updating">Updating…</string>
   <string name="dlg_white_address_antispam_message">Add this location to exceptions?</string>
   <string name="dlg_white_antispam_hint">Exceptions</string>
   <string name="dlg_white_antispam_message">Add this number to exceptions?</string>
@@ -1825,6 +1831,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sms_prefix">Prefix blocklist</string>
   <string name="sms_service">Block service SMS</string>
   <string name="sms_smart_engine_update">Automatically update SMS filter</string>
+  <string name="sms_smart_engine_update_now">Update</string>
   <string name="sms_stranger_block">Block SMS from strangers</string>
   <string name="sorted_dialog_title">Sort by</string>
   <string name="sp_background_risk_dialog_summary">, check and fix payment issues.</string>
@@ -2221,6 +2228,10 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="toast_root_apply_reject">Denied root access for %s</string>
   <string name="toast_set_success">Turned on successfully</string>
   <string name="toast_show_notification">Pinned to notification shade</string>
+  <string name="toast_update_fail">"Couldn't update"</string>
+  <string name="toast_update_nonetwork">"Couldn't connect to the network"</string>
+  <string name="toast_update_notneed">Up to date</string>
+  <string name="toast_update_success">Updated successfully</string>
   <string name="top_game">Top games</string>
   <string name="top_load_fail_detail">"Couldn't load, tap to try again"</string>
   <string name="top_no_network_detial">"Couldn't load, check network connection and try again"</string>
