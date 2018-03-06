@@ -3,6 +3,14 @@
 .source "Device.java"
 
 
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/android/camera/Device$HDR_DEFAULT_VALUE;
+    }
+.end annotation
+
+
 # static fields
 .field public static final IS_A1:Z
 
@@ -895,6 +903,73 @@
     sget-object v2, Lcom/android/camera/Device;->sFpNavEventNameList:Ljava/util/ArrayList;
 
     return-object v2
+.end method
+
+.method public static getHDRDefaultValue(Z)I
+    .locals 3
+    .annotation build Lcom/android/camera/Device$HDR_DEFAULT_VALUE;
+    .end annotation
+
+    const/4 v1, 0x1
+
+    sget-boolean v2, Lcom/android/camera/Device;->IS_E7S:Z
+
+    if-eqz v2, :cond_1
+
+    const-string/jumbo v2, "ro.boot.hwc"
+
+    invoke-static {v2}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string/jumbo v2, "India"
+
+    invoke-virtual {v2, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
+
+    move-result v2
+
+    if-nez v2, :cond_1
+
+    if-eqz p0, :cond_0
+
+    :goto_0
+    return v1
+
+    :cond_0
+    const/4 v1, 0x3
+
+    goto :goto_0
+
+    :cond_1
+    if-eqz p0, :cond_2
+
+    const-string/jumbo v2, "support_camera_front_hdr_default_value"
+
+    :goto_1
+    invoke-static {v2, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+
+    move-result v1
+
+    return v1
+
+    :cond_2
+    const-string/jumbo v2, "support_camera_hdr_default_value"
+
+    goto :goto_1
+.end method
+
+.method public static iSSensorHasLatency()Z
+    .locals 2
+
+    const-string/jumbo v0, "sensor_has_latency"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
 .end method
 
 .method public static is18x9RatioScreen()Z
@@ -2225,6 +2300,33 @@
 
     move-result v0
 
+    return v0
+.end method
+
+.method public static isSupportedPortraitSwitch()Z
+    .locals 2
+
+    const/4 v0, 0x0
+
+    invoke-static {}, Lcom/android/camera/Device;->isSupportedPortrait()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    invoke-static {}, Lcom/android/camera/Device;->isSupportFrontBokeh()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_0
+
+    const-string/jumbo v1, "camera_is_support_portrait_switch"
+
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :cond_0
     return v0
 .end method
 
