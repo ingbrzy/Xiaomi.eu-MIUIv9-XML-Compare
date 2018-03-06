@@ -166,6 +166,7 @@ and then create a shot where everyone looks best."</string>
   <string name="portrait_mode_too_far_hint">Place object within 2.5 meters</string>
   <string name="portrait_mode_use_hint">"Portrait mode blurs the background
 and brings out the people in the front."</string>
+  <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
   <string name="pref_advance_settings">Additional settings</string>
   <string name="pref_ai_detect">AI detection</string>
   <string name="pref_audio_focus_default">normal</string>

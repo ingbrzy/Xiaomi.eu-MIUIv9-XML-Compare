@@ -637,9 +637,9 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="dialog_remobe_luckymoney_cancle">使用单发版</string>
   <string name="dialog_remobe_luckymoney_ok">前往开启</string>
   <string name="dialog_remove_luckymoney">当前MIUI版本已支持系统级红包助手，是否卸载单发版，并前往安全中心开启更快更稳定的小米红包助手？</string>
-  <string name="dialog_restrict_all_mobile_summary">%s Mobile data connection will be restriced for all apps after this.</string>
+  <string name="dialog_restrict_all_mobile_summary">%s Mobile data connection will be restricted for all apps after this.</string>
   <string name="dialog_restrict_all_mobile_title">Restrict %s mobile data connection</string>
-  <string name="dialog_restrict_all_wlan_summary">WLAN connection will be restriced for all apps after this.</string>
+  <string name="dialog_restrict_all_wlan_summary">WLAN connection will be restricted for all apps after this.</string>
   <string name="dialog_restrict_all_wlan_title">Restrict WLAN connection</string>
   <string name="dialog_restrict_negative">Restrict</string>
   <string name="dialog_restrict_positive">Cancel</string>
