@@ -139,8 +139,8 @@
   <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;Select &amp;lt;font color=#a5220e&amp;gt;\"Wipe &amp;amp;amp; Reset\"&amp;lt;/font&amp;gt; and wait until the device reboots.&lt;/Data&gt;</string>
   <string name="phone_locked_forget_password_suggesstions_title">How to erase data?</string>
   <string name="phone_locked_string">Phone has been locked</string>
-  <string name="reset_device_detail_tip">Wireless charging, please align the phone base, to ensure the charging speed.</string>
-  <string name="reset_device_tip">Charge slowly, please reposition the phone</string>
+  <string name="reset_device_detail_tip">Place your device on the wireless charger correctly to ensure high charging speed.</string>
+  <string name="reset_device_tip">Charging is slow. Readjust your device.</string>
   <string name="symbol_colon">:</string>
   <string name="unlock_camera_steady">Please keep steady</string>
   <string name="unlock_failed">Internal error</string>
@@ -152,7 +152,8 @@
   <string name="unlockscreen_recharging_message">Charging %d%%</string>
   <string name="wallpaper_global_des_drop_down_notify_text">Release to view details</string>
   <string name="wireless_charge_dialog_cancel">Cancel</string>
-  <string name="wireless_charge_dialog_title">Position offset, please reposition</string>
-  <string name="wireless_charge_stop">Wireless charging has stopped</string>
+  <string name="wireless_charge_dialog_title">Readjust your device on the wireless charger</string>
+  <string name="wireless_charge_stop">Stopped wireless charging</string>
+  <string name="wireless_current_charge">Current Charge</string>
   <string name="wrong_password">Incorrect password</string>
 </resources>
