@@ -71,7 +71,7 @@ Last backed up on %2$s"</string>
   <string name="enable_cloud_service_notification">You need to activate Mi Cloud</string>
   <string name="enable_find_device_error">"Can't turn on Find device. %1$s"</string>
   <string name="enable_find_device_success">Find device is on.</string>
-  <string name="enable_micloud">Use Mi Cloud</string>
+  <string name="enable_micloud">Sign in to use Mi Cloud</string>
   <string name="enable_sync">Sync</string>
   <string name="enable_sync_dspt">"Don't sync"</string>
   <string name="error_data_in_transfer">Sync will finish in %s hours.</string>
@@ -98,6 +98,8 @@ Last backed up on %2$s"</string>
   <string name="find_device_error_password_changed">Account password has been recently changed.</string>
   <string name="find_device_error_server">Server error</string>
   <string name="find_device_error_unknown">Unknown error.</string>
+  <string name="find_device_gdpr_prompt">By turning on Find device, you agree to \"Privacy Policy\". If you need to revoke your privacy authorization, please turn off this feature.</string>
+  <string name="find_device_gdpr_prompt_policy_doc_name">\"Privacy Policy\"</string>
   <string name="find_device_notice_p1">Go to</string>
   <string name="find_device_notice_p2">i.mi.com</string>
   <string name="find_device_notice_p3">"to locate, lock, or restore your phone.
@@ -108,8 +110,6 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="find_device_pref_alert_positive">OK</string>
   <string name="find_device_pref_alert_title">Remember your Mi Account ID and password</string>
   <string name="find_device_pref_initializing">Initializing…</string>
-  <string name="find_device_reading_status">Loading status…</string>
-  <string name="find_device_reading_status_failure">"Couldn't load status."</string>
   <string name="find_device_send_sms_alert">If you switch SIM cards, another SMS may be sent automatically to reactivate this feature.</string>
   <string name="find_device_service_summary">Visit i.mi.com to locate your device and lock it remotely</string>
   <string name="find_device_service_summary_international">Visit i.mi.com to locate your device and lock it remotely</string>
@@ -133,6 +133,28 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="i_know">OK</string>
   <string name="input_password_hint">Enter password</string>
   <string name="internet_access_dspt">This app needs to connect to the internet to work normally.</string>
+  <string name="ks_certificate_udpate_time">Certificate update</string>
+  <string name="ks_certificate_version">Certificate number</string>
+  <string name="ks_download_certificate">Download certificate</string>
+  <string name="ks_download_success">Downloaded successfully</string>
+  <string name="ks_fingerprint_payment">Fingerprint payments</string>
+  <string name="ks_fingerprint_status">Payment status</string>
+  <string name="ks_key_download_button">ks_key_download_button</string>
+  <string name="ks_key_status">ks_key_status</string>
+  <string name="ks_key_udpate_time">ks_key_udpate_time</string>
+  <string name="ks_key_version">ks_key_version</string>
+  <string name="ks_name_alipay">IFAA</string>
+  <string name="ks_name_fido">FIDO</string>
+  <string name="ks_name_soter">Soter</string>
+  <string name="ks_status_available">Available</string>
+  <string name="ks_status_unavailable">Not available</string>
+  <string name="ks_update_certificate">Certificate</string>
+  <string name="ks_update_fail">"Couldn't download"</string>
+  <string name="ks_update_fail_code">"Couldn't download certificate. Error code: %d"</string>
+  <string name="ks_update_fail_no_network">"Couldn't connect to the network. Connect and try again."</string>
+  <string name="ks_update_fail_request_timeout">Connection request timed out. Wait a minute or two and try again.</string>
+  <string name="ks_update_success">Updated successfully</string>
+  <string name="ks_update_wait">Just a sec…</string>
   <string name="license_host_unreachable">"Can't connect to network. To view this information now, go to %s."</string>
   <string name="loading">Just a sec…</string>
   <string name="loading_hint">Loading</string>
@@ -141,6 +163,8 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="master_alert_notif_dspt_no">Synced</string>
   <string name="master_alert_notif_title">Turn on sync with Mi Cloud</string>
   <string name="member_due_date">Valid until %s</string>
+  <string name="micloud_alert_dialog_negative">Cancel</string>
+  <string name="micloud_alert_dialog_positive">OK</string>
   <string name="micloud_all_sub_1_intl_sms">International SMS will be sent to activate your SIM card. You will be charged by the carrier.</string>
   <string name="micloud_all_sub_1_sms">Regular SMS will be sent to activate your SIM card. You will be charged by the carrier.</string>
   <string name="micloud_all_sub_1_sms_1_intl_sms">2 text messages (regular and international) will be sent to activate your SIM card. You will be charged by the carrier.</string>
@@ -150,7 +174,7 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="micloud_battery_low_notification_message">Connect charger to sync</string>
   <string name="micloud_battery_low_notification_title">Low battery</string>
   <string name="micloud_buy_member">Buy Mi Cloud membership</string>
-  <string name="micloud_buy_member_safe">Buy Mi Cloud membership</string>
+  <string name="micloud_buy_member_safe">Get more Mi Cloud storage</string>
   <string name="micloud_check_sim_notify_text">"Look's like you've changed SIM cards. Sign in
 to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_check_sim_notify_title">Reactivate Mi Cloud</string>
@@ -257,6 +281,8 @@ to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_find_device_verify_progress">Reactivating Find device…</string>
   <string name="micloud_first_login_summary"/>
   <string name="micloud_first_login_title"/>
+  <string name="micloud_footer_international_url">mi.com/micloud</string>
+  <string name="micloud_footer_normal_url">i.mi.com</string>
   <string name="micloud_full_influence_dspt">"All your photos, video, notes, and apps will remain backed up in the cloud. 
 
 This way, if you lose or damage your device, your data will still be safe. 
@@ -276,6 +302,13 @@ To fix this, you can either clean out some old files to make room for new ones, 
   <string name="micloud_main_error_activated_fail">Activate your SIM card.</string>
   <string name="micloud_main_error_network_disallowed">Make sure you allowed access to the internet.</string>
   <string name="micloud_main_error_permission_limit">Allow Mi Cloud to access storage.</string>
+  <string name="micloud_main_head_menu_cloud_backup">Home screen backup</string>
+  <string name="micloud_main_head_menu_finddevice_unavailable">"Find device isn't available in Second space, you can use it in First space."</string>
+  <string name="micloud_main_head_menu_recycle_bin_summary">Restore deleted items</string>
+  <string name="micloud_main_head_menu_recycle_bin_title">Deleted items</string>
+  <string name="micloud_main_head_menu_state_close">Off</string>
+  <string name="micloud_main_head_menu_state_open">On</string>
+  <string name="micloud_main_head_menu_state_unavailable">Unavailable</string>
   <string name="micloud_main_last_sync_time">Last synced %s</string>
   <string name="micloud_main_master_sync_on">Sync on</string>
   <string name="micloud_main_memory_low_message">"To sync, delete some items you've stored in the cloud."</string>
@@ -324,6 +357,7 @@ Use a different account."</string>
   <string name="micloud_main_wait_wlan_charge">Connect to WLAN and fully charge your device to resume sync.</string>
   <string name="micloud_main_wait_wlan_charge_sleep">Connect to WLAN, turn off screen, and fully charge your device to resume sync.</string>
   <string name="micloud_main_wlan_sync_data_count">Items waiting to sync: %d</string>
+  <string name="micloud_manage_space_data">Manage Mi Cloud data</string>
   <string name="micloud_member">Mi Cloud membership</string>
   <string name="micloud_member_advantage">Get more storage space.</string>
   <string name="micloud_member_buy_content" formatted="false">"Valid until %s-%s-%s
@@ -395,8 +429,7 @@ Use a different account."</string>
   <string name="micloud_sync_alert_dialog_title">Use Mi Cloud</string>
   <string name="micloud_sync_off">Sync with Mi Cloud is off</string>
   <string name="micloud_sync_prompt_for_no_gallery_sync">Contacts, Calendar, and Notes are synced automatically. Go to Mi Cloud settings to sync more items.</string>
-  <string name="micloud_title_dspt" formatted="false">"%s total
- %s used | %s remaining"</string>
+  <string name="micloud_title_dspt" formatted="false">Used %s/Total space %s,</string>
   <string name="micloud_title_dspt_remain">%s remaining</string>
   <string name="micloud_title_full_dspt">"You've reached your storage limit"</string>
   <string name="micloud_unlogin_for_time_summary"/>
@@ -459,6 +492,8 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="pref_title_sync_contacts_title">Sync contacts</string>
   <string name="pref_title_sync_display_photo_on_wifi_only">Only use WLAN to sync photos</string>
   <string name="privacy_policy">Privacy Policy</string>
+  <string name="reading_status">Loading status…</string>
+  <string name="reading_status_failure">"Couldn't load status."</string>
   <string name="recommend_open_all_sync">Sync all items</string>
   <string name="remind_later">Not now</string>
   <string name="restoreSync">Sync now</string>
@@ -475,10 +510,10 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="settings_backup_title">Back up system settings</string>
   <string name="share_cancel">Share canceled</string>
   <string name="share_failed">"Couldn't share"</string>
-  <string name="share_miliao_not_installed">Mi Talk is not installed.</string>
+  <string name="share_miliao_not_installed">"Mi Talk isn't installed."</string>
   <string name="share_success">Shared</string>
-  <string name="share_weibo_not_installed">Weibo is not installed.</string>
-  <string name="share_weixin_not_installed">WeChat is not installed.</string>
+  <string name="share_weibo_not_installed">"Weibo isn't installed."</string>
+  <string name="share_weixin_not_installed">"WeChat isn't installed."</string>
   <string name="short_cut_desc">Add Mi Cloud icon to Home screen?</string>
   <string name="sina_share_fail">"Couldn't send"</string>
   <string name="sina_share_fail_content_repeat">"You've already shared this."</string>
@@ -500,7 +535,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="sub_sync_item_sms_title_wifi_only">Only use WLAN to sync MMS</string>
   <string name="success_upgraded_space">%s added</string>
   <string name="sync_dspt">Sync</string>
-  <string name="sync_dspt_entrance_provision">Mi Cloud helps you sync photos, contacts, and other items across devices. You can access synced items anywhere at %s.</string>
+  <string name="sync_dspt_entrance_provision">"Sync your photos, contacts, call history, and messages across all your devices. Access the things you sync from any browser at %s. "</string>
   <string name="sync_dspt_entrance_provision_2">Learn more</string>
   <string name="sync_dspt_entrance_provision_confirm_close">"Don't use"</string>
   <string name="sync_dspt_entrance_provision_confirm_content">"MIUI's built-in apps need Mi Cloud to back up your photos, contacts, notes, and more. Mi Cloud is free and ready to use out of the box."</string>
@@ -531,6 +566,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="sync_sub_dspt">An outgoing SMS message may be required to activate this service. Your carrier will charge you for this message.</string>
   <string name="sync_sub_dspt_provision">Sync photos, contacts, music, apps, and more across all your devices</string>
   <string name="sync_sub_int_dspt">An outgoing international SMS message may be required to activate this service. Your carrier will charge you for this message.</string>
+  <string name="title_back">Back</string>
   <string name="title_reg">Create Mi Account</string>
   <string name="total_space_upgraded_to">Total space:%s</string>
   <string name="trying_to_connect_to_network">Connecting to the network…</string>
@@ -554,12 +590,13 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="virtual_sim_desc">Turn on Mi SIM to locate device without a SIM card</string>
   <string name="voip_choose_sim">Choose phone number to activate Mi Voice</string>
   <string name="wipe_data_dialog_button_check_sync">Check if synced</string>
-  <string name="wipe_data_dialog_msg">"Some items (%s) aren't synced. They will be saved on your device and won't be deleted."</string>
+  <string name="wipe_data_dialog_msg">"Some items %s aren't synced. They will be saved on your device and won't be deleted."</string>
   <string name="wipe_data_dialog_msg_and_on">, and some other items</string>
   <string name="wipe_data_dialog_msg_separator">, </string>
   <string name="wipe_data_dialog_title">"Items aren't synced"</string>
   <string name="wipe_secret_photo_dialog_title">"Hidden photos aren't synced"</string>
   <string name="xiaomi_account_type">com.xiaomi</string>
   <string name="xiaomi_cloud_service">Mi Cloud</string>
+  <string name="xiaomi_cloud_service_subtitle">All important items in one place</string>
   <string name="xmpp_server_addr"/>
 </resources>
