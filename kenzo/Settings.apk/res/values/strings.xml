@@ -1918,10 +1918,6 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="lock_screen_notifications_summary_hide">Show all notifications but hide contents</string>
   <string name="lock_screen_notifications_summary_show">Show all notifications and their contents</string>
   <string name="lock_screen_notifications_title">When device is locked</string>
-  <string name="lock_screen_secure_after_timeout_immediately_never">Never require password</string>
-  <string name="lock_screen_secure_after_timeout_immediately_summary">Require password immediately</string>
-  <string name="lock_screen_secure_after_timeout_summary">Require password: %1$s</string>
-  <string name="lock_screen_secure_after_timeout_title">Require password</string>
   <string name="lock_screen_signature_summary">This message will be displayed on the Lock screen</string>
   <string name="lock_screen_signature_title">Lock screen owner info</string>
   <string name="lock_screen_unlock_show">Skip Lock screen</string>
@@ -2652,9 +2648,10 @@ Select your operating system:"</string>
   <string name="priority_storage_settings_summary">"If no SD card is detected, your data will be saved to your device's internal storage automatically"</string>
   <string name="priority_storage_summary">Choose where to save your data</string>
   <string name="priority_storage_title">Storage settings</string>
+  <string name="privacy_authorize_cloud_msg">"To ensure your account's security, sign in to i.mi.com if you want to revoke authorization for Mi Cloud services (including sync and backups)."</string>
   <string name="privacy_authorize_dialog_agree">Agree</string>
   <string name="privacy_authorize_dialog_exit">Exit</string>
-  <string name="privacy_authorize_dialog_message">%1$s requires that you read and agree with %2$s. The app needs to connect to the network to work normally. Agree?</string>
+  <string name="privacy_authorize_dialog_message">&lt;Data&gt;"In order to use the basic features of Mi Cloud services, you must agree that Xiaomi will collect, process, and use your personal data. Refer to our Privacy Policy to learn how we collect and process personal data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;.&amp;#8203;"&lt;/Data&gt;</string>
   <string name="privacy_authorize_network_error">Connect to the network and try again.</string>
   <string name="privacy_authorize_privacy_policy">Privacy Policy</string>
   <string name="privacy_authorize_revoke">Revoke</string>
@@ -3270,6 +3267,8 @@ To use screen pinning:
   <string name="search_xiaomi_account">Mi Account; Mi Account ID;Account;Account ID</string>
   <string name="search_xspace">Dual app;Dual apps;Double app;Double apps;Clone app;Clone apps;App clone;App clones;Two accounts;2 accounts</string>
   <string name="second_space">Second space</string>
+  <string name="secondspace_category">Second space</string>
+  <string name="secondspace_delete_space_title">Delete Second space</string>
   <string name="secure_keyguard_business_title">Set screen lock</string>
   <string name="secure_lock_encryption_warning">Because you’ve turned on an accessibility service, your device won’t use your screen lock to enhance data encryption.</string>
   <string name="security_enable_widgets_disabled_summary">Disabled by administrator</string>
@@ -4366,6 +4365,9 @@ Tap the plus to add words."</string>
   <string name="wfd_menu_teardown">Stop</string>
   <string name="wfd_settings_description">Connect to a display using WLAN</string>
   <string name="wfd_settings_title">Wireless display</string>
+  <string name="wfd_status_dialog_disconnect">Disconnect</string>
+  <string name="wfd_status_dialog_message">Screen contents are being displayed on another display device through wireless connection</string>
+  <string name="wfd_status_dialog_title">Wireless display</string>
   <string name="wfd_wps_keypad">Use keypad</string>
   <string name="wfd_wps_pbc">Enter PIN</string>
   <string name="whetstone_level_reboot">This setting will take effect after you reboot your device.</string>
