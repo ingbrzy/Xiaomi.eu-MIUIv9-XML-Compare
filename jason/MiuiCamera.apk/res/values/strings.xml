@@ -21,6 +21,8 @@
   <string name="accessibility_video_module_picker">VideoModulePicker</string>
   <string name="accessibility_video_pause_button">VideoPauseButton</string>
   <string name="accessibility_zoom_button">Zoom mode</string>
+  <string name="ai_scene_mode_use_hint_text">"Open the Ai-Scene Camera, identify the picture scene for you 
+ and optimize the picture based on the scene"</string>
   <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_makeup">Advanced</string>
@@ -62,6 +64,7 @@
   <string name="config_name_setting">Settings</string>
   <string name="config_name_sound">Audio</string>
   <string name="config_name_straighten">Straighten</string>
+  <string name="config_name_super_resolution">Super resolution</string>
   <string name="config_name_tilt">Tilt-shift</string>
   <string name="config_name_timer">Timer</string>
   <string name="confirm_install_scanner_message">"Scanner allows you to scan QR codes, barcodes, and more. You don't have to connect to the internet to install it."</string>
@@ -165,7 +168,9 @@ and then create a shot where everyone looks best."</string>
   <string name="portrait_mode_too_far_hint">Place object within 2.5 meters</string>
   <string name="portrait_mode_use_hint">"Portrait mode blurs the background
 and brings out the people in the front."</string>
+  <string name="portrait_mode_use_hint_with_switch">@string/portrait_mode_use_hint</string>
   <string name="pref_advance_settings">Additional settings</string>
+  <string name="pref_ai_detect">AI detection</string>
   <string name="pref_audio_focus_default">normal</string>
   <string name="pref_audio_focus_entry_front">Front</string>
   <string name="pref_audio_focus_entry_general">Normal</string>
@@ -177,6 +182,7 @@ and brings out the people in the front."</string>
   <string name="pref_burst_shoot_title">Burst shoot</string>
   <string name="pref_camcorder_settings">Video</string>
   <string name="pref_camcorder_settings_category">Camera settings</string>
+  <string name="pref_camera_ai_scene_title">AI Camera</string>
   <string name="pref_camera_antibanding_60">60hz</string>
   <string name="pref_camera_antibanding_default">50hz</string>
   <string name="pref_camera_antibanding_entry_0">Off</string>
@@ -228,6 +234,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_beautify_entryvalue_high">3</string>
   <string name="pref_camera_beautify_entryvalue_low">1</string>
   <string name="pref_camera_beautify_entryvalue_normal">2</string>
+  <string name="pref_camera_beauty">Beautify</string>
   <string name="pref_camera_beauty_deep">Beautify Pro</string>
   <string name="pref_camera_bokeh_title">Portrait</string>
   <string name="pref_camera_coloreffect_default">none</string>
@@ -263,6 +270,8 @@ and brings out the people in the front."</string>
   <string name="pref_camera_delay_capture_entry_audio">Audio</string>
   <string name="pref_camera_delay_capture_title">Timer</string>
   <string name="pref_camera_device_watermark_title">Photo watermark</string>
+  <string name="pref_camera_dual_enable_title">Turn on dual camera</string>
+  <string name="pref_camera_dual_sat_enable_title">Turn on dual SAT camera</string>
   <string name="pref_camera_exposuretime_default">0</string>
   <string name="pref_camera_exposuretime_entry_0_5">2s</string>
   <string name="pref_camera_exposuretime_entry_1">1s</string>
@@ -299,6 +308,8 @@ and brings out the people in the front."</string>
   <string name="pref_camera_focusmode_entry_normal">Standard</string>
   <string name="pref_camera_focusmode_title">Focus mode</string>
   <string name="pref_camera_focusmode_value_default">continuous-picture</string>
+  <string name="pref_camera_front_ai_scene_entry_off">AI camera is off</string>
+  <string name="pref_camera_front_ai_scene_entry_on">AI camera</string>
   <string name="pref_camera_front_bokeh_entry_off">Off</string>
   <string name="pref_camera_front_bokeh_entry_on">On</string>
   <string name="pref_camera_gradienter_title">Straighten</string>
@@ -357,6 +368,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_long_pressing_shutter_title">Press &amp; hold Shutter button to lock AE/AF/AWB</string>
   <string name="pref_camera_magic_mirror_title">Magic mirror</string>
   <string name="pref_camera_manual_mode_title">Manual</string>
+  <string name="pref_camera_mfnr_sat_enable_title">Turn on MFNR</string>
   <string name="pref_camera_movie_solid_default">true</string>
   <string name="pref_camera_movie_solid_title">Image stabilization</string>
   <string name="pref_camera_multilevel_entry_high">High</string>
@@ -367,6 +379,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_multilevel_entry_lowest">Lowest</string>
   <string name="pref_camera_multilevel_entry_middle">Medium (default)</string>
   <string name="pref_camera_multilevel_entry_normal">Normal</string>
+  <string name="pref_camera_optimized_flash_enable_title">Optimized flash</string>
   <string name="pref_camera_panoramamode_title">Panorama</string>
   <string name="pref_camera_parallel_process_enable_title">Turn on parallel processing</string>
   <string name="pref_camera_peak_default">off</string>
@@ -545,14 +558,18 @@ and brings out the people in the front."</string>
   <string name="pref_skin_beautify_slim_title">Slim</string>
   <string name="pref_skin_beautify_smooth_default">5</string>
   <string name="pref_skin_beautify_smooth_title">Skin</string>
+  <string name="pref_video_focusmode_entry_auto">Tap</string>
+  <string name="pref_video_focusmode_entry_continuous">CAF</string>
   <string name="pref_video_focusmode_entryvalue_auto">auto</string>
   <string name="pref_video_focusmode_entryvalue_continuous">continuous-video</string>
   <string name="pref_video_focusmode_entryvalue_default">@string/pref_video_focusmode_entryvalue_continuous</string>
+  <string name="pref_video_focusmode_title">Focus mode</string>
+  <string name="pref_video_hfr_title">Video HFR</string>
   <string name="pref_video_quality_default">6</string>
-  <string name="pref_video_quality_entry_1080p">FULL HD</string>
-  <string name="pref_video_quality_entry_480p">SD</string>
-  <string name="pref_video_quality_entry_4kuhd">4K</string>
-  <string name="pref_video_quality_entry_720p">HD</string>
+  <string name="pref_video_quality_entry_1080p">FHD 1080P</string>
+  <string name="pref_video_quality_entry_480p">SD 480P</string>
+  <string name="pref_video_quality_entry_4kuhd">UHD 4K</string>
+  <string name="pref_video_quality_entry_720p">HD 720P</string>
   <string name="pref_video_quality_entry_fwvga">FWVGA</string>
   <string name="pref_video_quality_entry_value_4kuhd">8</string>
   <string name="pref_video_quality_entry_vga">VGA</string>
@@ -568,19 +585,19 @@ and brings out the people in the front."</string>
   <string name="pref_video_speed_value_normal">normal</string>
   <string name="pref_video_speed_value_slow">slow</string>
   <string name="pref_video_time_lapse_frame_interval_default">120</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_10">Interval of 0.3 seconds (10 times)</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_120">Interval of 4 seconds (120 times)</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_150">Interval of 5 seconds (150 times)</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_1800">Interval of 60 seconds (1800 times)</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_2">Interval of 0.06 seconds (2 times)</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_240">Interval of 8 seconds (240 times)</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_30">Interval of 1 second (30 times)</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_300">Interval of 10 seconds (300 times)</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_4">Interval of 0.12 seconds (4 times)</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_450">Interval of 15 seconds (450 times)</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_60">Interval of 2 seconds (60 times)</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_90">Interval of 3 seconds (90 times)</string>
-  <string name="pref_video_time_lapse_frame_interval_entry_900">Interval of 30 seconds (900 times)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_10">10X (0.3-second interval)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_120">120X (4-second interval)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_150">150X (5-second interval)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_1800">1800X (60-second interval)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_2">2X (0.06-second interval)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_240">240X (8-second interval)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_30">30X (1 second)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_300">300X (10-second interval)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_4">4X (0.12-second interval)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_450">450X (15-second interval)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_60">60X (2-second interval)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_90">90X (3-second interval)</string>
+  <string name="pref_video_time_lapse_frame_interval_entry_900">900X (30-second interval)</string>
   <string name="pref_video_time_lapse_frame_interval_title">Time lapse interval</string>
   <string name="preparing_sd">Checking internal storage…</string>
   <string name="record_back_pressed_hint">Touch again to stop recording</string>
@@ -616,6 +633,8 @@ and brings out the people in the front."</string>
   <string name="sticker_tab2">Funny</string>
   <string name="tap_to_exposure">Tap to adjust exposure manually</string>
   <string name="tap_to_focus">Tap to focus</string>
+  <string name="text_ai_scene_selector_text_off">CONTRE-JOUR</string>
+  <string name="text_ai_scene_selector_text_on">SILHOUETTE</string>
   <string name="time_lapse_error">"Can't use this video-size for time-lapse recording"</string>
   <string name="title_snap_double_confirm">Confirm again</string>
   <string name="toast_burst_snap_finished_summary">Burst shot done, %1$s photos taken</string>
