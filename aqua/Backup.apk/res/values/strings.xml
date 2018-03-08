@@ -129,6 +129,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="err_bakfile_broken">"Can't use this backup."</string>
   <string name="err_filesystem_mount">"Can't access router storage"</string>
   <string name="err_low_storage">Not enough space</string>
+  <string name="err_not_allow">Not support</string>
   <string name="err_router_disconnected">"Check your router's connection and try again."</string>
   <string name="err_router_files_delete">"Couldn't delete backup files on router"</string>
   <string name="err_unknown">Unknown error</string>
