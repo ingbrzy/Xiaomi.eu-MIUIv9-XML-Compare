@@ -62,6 +62,7 @@
   <string name="hours">%d hours</string>
   <string name="install_weather_app_error">"Couldn't load app"</string>
   <string name="install_weather_app_loading">Just a sec…</string>
+  <string name="invalid_time">Invalid time: %3$s %1$d: %2$d</string>
   <string name="keep_screen_on">Keep screen on</string>
   <string name="label">Set label</string>
   <string name="label_pref_summary">Label</string>

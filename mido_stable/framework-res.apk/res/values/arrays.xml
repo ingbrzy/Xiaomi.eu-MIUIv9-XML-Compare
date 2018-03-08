@@ -478,6 +478,8 @@
         <item>0x00000001</item>
         <item>0x40800100</item>
         <item>0x000007E0</item>
+        <item>0x40C2C000</item>
+        <item>0x00000001</item>
         <item>0x40400000</item>
         <item>0x00000001</item>
     </integer-array>
