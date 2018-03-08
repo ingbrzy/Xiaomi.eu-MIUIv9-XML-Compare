@@ -13,6 +13,7 @@
   <string name="action_menu_account_not_login_hint">Sign in to sync with Mi Cloud</string>
   <string name="action_menu_bookshelf">Bookshelf</string>
   <string name="action_menu_current_version">Current version</string>
+  <string name="action_menu_download">Download</string>
   <string name="action_menu_request_desktop_site">Website access</string>
   <string name="action_menu_request_desktop_site_off">Website access is off</string>
   <string name="action_menu_request_desktop_site_on">Website access is on</string>
@@ -33,6 +34,7 @@
   <string name="action_menu_text_nightmode">Night mode</string>
   <string name="action_menu_text_nightmode_off">Night mode</string>
   <string name="action_menu_text_nightmode_on">Night mode</string>
+  <string name="action_menu_text_readmode">Reading mode</string>
   <string name="action_menu_text_refresh">Refresh</string>
   <string name="action_menu_text_setting">Settings</string>
   <string name="action_menu_text_share">Share</string>
@@ -296,6 +298,7 @@
   <string name="clear_search_history">Clear history</string>
   <string name="clear_video_download">Clear videos</string>
   <string name="clip_dialog_title">Open the copied URL?</string>
+  <string name="close">Close</string>
   <string name="close_ads_choice_no">Allow</string>
   <string name="close_ads_choice_yes">Block</string>
   <string name="close_ads_message">"Block content from this website? You can view sites you've blocked in Settings &gt; Advanced &gt; Blocked sites."</string>
@@ -326,7 +329,9 @@
   <string name="com_taobao_tae_sdk_trade_confirm_progress_message">交易确认中</string>
   <string name="com_taobao_tae_sdk_trade_title">确认下单</string>
   <string name="com_taobao_tae_sdk_web_view_activity_basewebviewactivity_strings_menulist_copy">已复制到剪贴板</string>
+  <string name="com_taobao_tae_sdk_web_view_activity_feedback_strings_delete">删除</string>
   <string name="com_taobao_tae_sdk_web_view_activity_feedback_strings_titlebar_title">报告问题</string>
+  <string name="com_taobao_tae_sdk_web_view_activity_sendfeedback_strings_add_picture">添加图片</string>
   <string name="com_taobao_tae_sdk_web_view_activity_sendfeedback_strings_email_edit">请输入您的邮件地址或者手机号......</string>
   <string name="com_taobao_tae_sdk_web_view_activity_sendfeedback_strings_feedback_edit">在这里输入您的反馈......</string>
   <string name="com_taobao_tae_sdk_web_view_activity_sendfeedback_strings_feedback_feedbackcomplete">感谢您的反馈，我们会尽快处理</string>
@@ -465,6 +470,9 @@ to view open tabs from other devices."</string>
   <string name="enable_geolocation_confirm_message">Turning off location services will affect the recommendations you receive.</string>
   <string name="enter_developer_mode">Enter developer mode</string>
   <string name="enter_incongnito_mode">Enter incognito mode</string>
+  <string name="enter_the_group_name">Please enter the group name</string>
+  <string name="enter_the_password">Please enter the password</string>
+  <string name="enter_the_user_name">Please enter the user name</string>
   <string name="error_console_eval_button_text">Evaluate</string>
   <string name="error_console_eval_text_hint">Evaluate JavaScript</string>
   <string name="error_console_header_text_maximized">JavaScript console</string>
@@ -1209,6 +1217,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="save_image_success">Image saved</string>
   <string name="save_page_capture_tip">Open notification shade to view screenshot.</string>
   <string name="save_page_capture_to_camera">Screenshot saved</string>
+  <string name="save_to_bookmark">Save to bookmarks</string>
   <string name="save_to_camera">Save to Gallery</string>
   <string name="save_to_camera_failed">"Can't save image"</string>
   <string name="save_to_camera_success">Saved to Gallery</string>
@@ -1288,7 +1297,9 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="ssl_untrusted">"This certificate isn't from a trusted authority."</string>
   <string name="ssl_warnings_header">There are problems with the security certificate for this site.</string>
   <string name="start_save_page_capture">Saving screenshot…</string>
+  <string name="storage_close">Close</string>
   <string name="storage_internal">Internal storage</string>
+  <string name="storage_open">Open</string>
   <string name="storage_permission_request_toast">"Downloads require access to your device's storage"</string>
   <string name="storage_sd_card">SD card</string>
   <string name="storage_usb">USB storage</string>
