@@ -188,6 +188,7 @@
   <string name="mother">妈妈</string>
   <string name="mul">×</string>
   <string name="mulDesc">multiply</string>
+  <string name="negDesc">Switch between temperatures below and above zero</string>
   <string name="network_confirm_content">Currency converter, tax and mortgage calculators need to connect to the internet and access location services to work normally.</string>
   <string name="network_confirm_title">Permissions required</string>
   <string name="percentDesc">percent</string>

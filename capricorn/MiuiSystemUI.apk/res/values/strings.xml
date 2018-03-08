@@ -296,7 +296,7 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="ext_media_badremoval_notification_title">SD card removed unexpectedly</string>
   <string name="ext_media_checking_notification_message">Checking for errors.</string>
   <string name="ext_media_checking_notification_title">Preparing SD card</string>
-  <string name="ext_media_mountable_notification_message">Tap to open in Mi File Manager.</string>
+  <string name="ext_media_mountable_notification_message">Tap to open in File Manager</string>
   <string name="ext_media_mountable_notification_title">USB storage device connected</string>
   <string name="ext_media_nofs_notification_message">SD card blank or has unsupported filesystem.</string>
   <string name="ext_media_nofs_notification_title">Blank SD card</string>
@@ -342,8 +342,8 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="hour_minute_time_format">HH:mm</string>
   <string name="how_to_back_home">Go to Home screen</string>
   <string name="how_to_switch_recents">Open Recents</string>
-  <string name="how_to_use_drawer">How to use the app sliding function</string>
-  <string name="how_to_use_drawer_summary">Swipe from the top-left</string>
+  <string name="how_to_use_drawer">How to open slide menu</string>
+  <string name="how_to_use_drawer_summary">Swipe right in the upper part of the screen</string>
   <string name="how_to_use_fsg">You can perform these actions using gestures:</string>
   <string name="immediately_destroy_activities">Don’t keep activities</string>
   <string name="immediately_destroy_activities_summary">End every activity as soon as the user leaves it</string>
@@ -562,6 +562,7 @@ For more information, contact your admin."</string>
   <string name="quick_settings_wifi_detail_empty_text">No WLAN networks available</string>
   <string name="quick_settings_wifi_label">WLAN</string>
   <string name="quick_settings_wifi_nearby">Select a nearby network</string>
+  <string name="recent_cannot_dock">"can't enter MultiWindow Mode in Second Space"</string>
   <string name="recent_dock_tip">Tap to select apps</string>
   <string name="recent_task_app_info_text">Info</string>
   <string name="recent_task_cleaning">Clearing apps…</string>
