@@ -375,6 +375,24 @@
         <item>com.douban.frodo</item>
         <item>com.tencent.mm</item>
     </string-array>
+    <string-array name="multi_window_force_not_resize_pkgs">
+        <item>com.miui.home</item>
+        <item>com.android.contacts</item>
+        <item>com.android.incallui</item>
+        <item>com.android.phone</item>
+        <item>com.android.camera</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.miui.cleanmaster</item>
+        <item>com.miui.antispam</item>
+        <item>com.miui.player</item>
+        <item>com.miui.yellowpage</item>
+        <item>com.xiaomi.smarthome</item>
+        <item>com.android.updater</item>
+        <item>com.miui.voip</item>
+        <item>com.miui.voiceassist</item>
+        <item>com.miui.securitycore</item>
+        <item>com.wali.live</item>
+    </string-array>
     <string-array name="system_foreground_notification_whitelist">
         <item>com.miui.home</item>
         <item>com.android.providers.contacts</item>
