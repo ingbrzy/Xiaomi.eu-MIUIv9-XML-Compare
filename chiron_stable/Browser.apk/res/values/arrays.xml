@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="menu_theme_setting">
+        <item>White</item>
+        <item>Yellow</item>
+        <item>Grey</item>
+        <item>Brown</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
     <string-array name="pref_fling_on_border_gesture_entries">
         <item>Page back forward</item>
         <item>Switch tabs</item>
@@ -37,14 +45,6 @@
     <string-array name="shortcut_dialog_title">
         <item>Message from Browser</item>
         <item>Follow the Olympics with Mi</item>
-    </string-array>
-    <string-array name="menu_theme_setting">
-        <item>White</item>
-        <item>Yellow</item>
-        <item>Grey</item>
-        <item>Brown</item>
-        <item>Green</item>
-        <item>Blue</item>
     </string-array>
     <string-array name="baidu">
         <item>百度</item>
@@ -130,14 +130,6 @@
     <string-array name="bookmarks_cu_customization">
         <item>沃门户</item>
         <item>http://www.wo.com.cn</item>
-    </string-array>
-    <string-array name="bookmarks_es_vodafone">
-        <item>Mi Web</item>
-        <item>http://miweb.vodafone.es</item>
-        <item>Vodafone Start</item>
-        <item>http://start.vodafone.com</item>
-        <item>Mi Vodafone</item>
-        <item>http://m.vodafone.es</item>
     </string-array>
     <string-array name="bookmarks_zh">
         <item>小米论坛</item>
