@@ -2569,9 +2569,17 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Only show in status bar</item>
         <item>Never show carrier name</item>
     </string-array>
+    <string-array name="status_bar_show_carrier_entries_for_notch">
+        <item>@string/carrier_show_in_lock_screen</item>
+        <item>@string/carrier_show_none</item>
+    </string-array>
     <string-array name="status_bar_show_carrier_values">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="status_bar_show_carrier_values_for_notch">
+        <item>0</item>
         <item>2</item>
     </string-array>
     <string-array name="status_bar_style_entries">

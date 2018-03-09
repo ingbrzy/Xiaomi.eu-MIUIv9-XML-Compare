@@ -1710,6 +1710,7 @@ Contact your carrier if this problem persists."</string>
   <string name="voicemail_change_pin_dialog_title">Change PIN</string>
   <string name="voicemail_change_pin_key">voicemail_change_pin_key</string>
   <string name="voicemail_default">Your carrier</string>
+  <string name="voicemail_notification_vibrate_when_title">Vibrate</string>
   <string name="voicemail_notifications_key">voicemail_notification_key</string>
   <string name="voicemail_notifications_preference_title">Notifications</string>
   <string name="voicemail_number_not_set">&lt;Not set&gt;</string>
