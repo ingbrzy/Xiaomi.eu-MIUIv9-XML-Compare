@@ -2738,6 +2738,20 @@
     goto :goto_0
 .end method
 
+.method public static supportFaceDetectionInVideoMode()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_camera_video_face_detection"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
 .method public static supportPictureWaterMark()Z
     .locals 2
 
