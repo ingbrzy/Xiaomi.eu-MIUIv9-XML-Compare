@@ -598,10 +598,16 @@
   <string name="data_usage_leisure_warning_body">Tap to view data usage details.</string>
   <string name="data_usage_leisure_warning_title">Off-peak data usage limit</string>
   <string name="data_usage_limit_body">Tap to turn on mobile data.</string>
+  <string name="data_usage_mobile_dialog_title">"You've already used 5GB of mobile data. MIUI turned off mobile data."</string>
   <string name="data_usage_mobile_limit_title">Reached mobile data limit</string>
   <string name="data_usage_no_total_package_body">Tap to set data limit</string>
   <string name="data_usage_no_total_package_body_dual">No data limit set for %s</string>
   <string name="data_usage_no_total_package_title">Set a data usage limit</string>
+  <string name="data_usage_protected_dialog_message">"MIUI turned off mobile data to prevent you from generating additional carrier fees.
+
+Your carrier may charge you extra fees if you turn on mobile data again."</string>
+  <string name="data_usage_protected_notify_message">MIUI turned off mobile data to prevent you from generating additional carrier fees.</string>
+  <string name="data_usage_protected_notify_title">"You've already used 5GB of mobile data"</string>
   <string name="data_usage_warning_body">Tap to view data usage details.</string>
   <string name="data_usage_warning_body_notify">Tap to view details</string>
   <string name="data_usage_warning_title_notify">You went over your data limit</string>
@@ -631,6 +637,12 @@
   <string name="dialog_remobe_luckymoney_cancle">使用单发版</string>
   <string name="dialog_remobe_luckymoney_ok">前往开启</string>
   <string name="dialog_remove_luckymoney">当前MIUI版本已支持系统级红包助手，是否卸载单发版，并前往安全中心开启更快更稳定的小米红包助手？</string>
+  <string name="dialog_restrict_all_mobile_summary">%s Mobile data connection will be restricted for all apps after this.</string>
+  <string name="dialog_restrict_all_mobile_title">Restrict %s mobile data connection</string>
+  <string name="dialog_restrict_all_wlan_summary">WLAN connection will be restricted for all apps after this.</string>
+  <string name="dialog_restrict_all_wlan_title">Restrict WLAN connection</string>
+  <string name="dialog_restrict_negative">Restrict</string>
+  <string name="dialog_restrict_positive">Cancel</string>
   <string name="dialog_roaming_message">Allow this app to use mobile data when roaming overseas?</string>
   <string name="dialog_roaming_title">Overseas roaming</string>
   <string name="dialog_text">Create a Home screen shortcut for Game speed booster</string>
@@ -676,7 +688,13 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="dlg_remove_whitelist">Remove these numbers from exceptions?</string>
   <string name="dlg_remove_whitelist_ing">Removing…</string>
   <string name="dlg_remove_whitelist_title">Remove</string>
+  <string name="dlg_sec_network_unavailable">"Security app can't update because you've restricted the internet connection. Allow Security to connect to the internet?"</string>
   <string name="dlg_title_not_open_stranger_identify">Caller ID</string>
+  <string name="dlg_update_btn_contiue">Continue</string>
+  <string name="dlg_update_btn_open">Allow</string>
+  <string name="dlg_update_data_content">"You aren't connected to WLAN. Using mobile data may generate additional fees. Continue anyway?"</string>
+  <string name="dlg_update_date_title">Warning</string>
+  <string name="dlg_update_updating">Updating…</string>
   <string name="dlg_white_address_antispam_message">Add this location to exceptions?</string>
   <string name="dlg_white_antispam_hint">Exceptions</string>
   <string name="dlg_white_antispam_message">Add this number to exceptions?</string>
@@ -815,6 +833,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_description_image_button_reject">Decline</string>
   <string name="gb_description_image_button_video_answer">Video call</string>
   <string name="gb_new_feature">New feature</string>
+  <string name="gdpr_msg">&lt;Data&gt;"In order to use the basic features of Security, you must agree that Xiaomi will collect, process, and use your personal data, including information about the ways you use Security's features (e.g., mobile data usage stats, info about malware, as well as basic info about your device) and other types of information specified in our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
   <string name="ge">个</string>
   <string name="get_sys_info">Getting info…</string>
   <string name="gigabyteShort">GB</string>
@@ -1812,6 +1831,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sms_prefix">Prefix blocklist</string>
   <string name="sms_service">Block service SMS</string>
   <string name="sms_smart_engine_update">Automatically update SMS filter</string>
+  <string name="sms_smart_engine_update_now">Update</string>
   <string name="sms_stranger_block">Block SMS from strangers</string>
   <string name="sorted_dialog_title">Sort by</string>
   <string name="sp_background_risk_dialog_summary">, check and fix payment issues.</string>
@@ -2208,6 +2228,10 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="toast_root_apply_reject">Denied root access for %s</string>
   <string name="toast_set_success">Turned on successfully</string>
   <string name="toast_show_notification">Pinned to notification shade</string>
+  <string name="toast_update_fail">"Couldn't update"</string>
+  <string name="toast_update_nonetwork">"Couldn't connect to the network"</string>
+  <string name="toast_update_notneed">Up to date</string>
+  <string name="toast_update_success">Updated successfully</string>
   <string name="top_game">Top games</string>
   <string name="top_load_fail_detail">"Couldn't load, tap to try again"</string>
   <string name="top_no_network_detial">"Couldn't load, check network connection and try again"</string>
