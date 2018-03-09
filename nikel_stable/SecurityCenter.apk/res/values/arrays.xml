@@ -61,6 +61,7 @@
         <item>Usage frequency</item>
         <item>Used storage</item>
         <item>Installation time</item>
+        <item>You can uninstall these apps</item>
     </string-array>
     <string-array name="sort_title">
         <item>Sort by status</item>
@@ -68,6 +69,7 @@
         <item>Sort by usage frequency</item>
         <item>Sort by used storage</item>
         <item>Sort by installation time</item>
+        <item>Show apps that can be uninstalled first</item>
     </string-array>
     <string-array name="always_enabled_app_list">
         <item>com.android.providers.applications</item>
@@ -105,6 +107,10 @@
         <item>静音</item>
         <item>金币</item>
         <item>红包来了</item>
+    </string-array>
+    <string-array name="tether_limit_warn_type">
+        <item>Turn off and notify</item>
+        <item>Only notify</item>
     </string-array>
     <string-array name="st_antispam_mode_defined">
         <item>@string/st_antispam_mode_smart</item>
@@ -208,6 +214,7 @@
         <item>com.android.keyguard</item>
         <item>com.android.keychain</item>
         <item>com.miui.systemAdSolution</item>
+        <item>com.miui.msa.global</item>
         <item>com.miui.securitycore</item>
         <item>com.miui.personalassistant</item>
         <item>com.android.updater</item>
