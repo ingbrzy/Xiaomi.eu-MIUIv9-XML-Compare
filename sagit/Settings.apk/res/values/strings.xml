@@ -1011,6 +1011,8 @@ Sample Rate"</string>
   <string name="carrier_enabled">APN enable/disable</string>
   <string name="carrier_enabled_summaryOff">APN disabled</string>
   <string name="carrier_enabled_summaryOn">APN enabled</string>
+  <string name="carrier_show_in_lock_screen">Only show in lock screen</string>
+  <string name="carrier_show_none">Never show carrier name</string>
   <string name="category_key_device">com.android.settings.category.device</string>
   <string name="category_key_personal">com.android.settings.category.personal</string>
   <string name="category_key_system">com.android.settings.category.system</string>
