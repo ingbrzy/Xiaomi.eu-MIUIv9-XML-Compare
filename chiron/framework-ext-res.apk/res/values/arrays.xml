@@ -1240,6 +1240,14 @@
         <item>com.hecorat.screenrecorder.free</item>
         <item>com.steam.photoeditor</item>
         <item>com.reliancegames.wwemayhem</item>
+        <item>com.jio.jioplay.tv</item>
+        <item>com.bsbportal.music</item>
+        <item>HinKhoj.Dictionary</item>
+        <item>com.hideitpro</item>
+        <item>com.ideacellular.myidea</item>
+        <item>com.snapwork.hdfc</item>
+        <item>com.netqin.ps</item>
+        <item>com.autonavi.minimap</item>
     </string-array>
     <array name="config_crossSpaceNotificationPackageNames" />
     <string-array name="config_sysBrightnessFileArray">
