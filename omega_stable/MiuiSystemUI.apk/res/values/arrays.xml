@@ -143,6 +143,7 @@
         <item>com.xiaomi.payment</item>
         <item>com.xiaomi.vip</item>
         <item>com.miui.systemAdSolution</item>
+        <item>com.miui.msa.global</item>
         <item>com.miui.analytics</item>
         <item>com.xiaomi.adecom</item>
         <item>com.miui.voip</item>
@@ -162,6 +163,7 @@
         <item>com.xiaomi.mimobile.noti</item>
         <item>com.miui.cleanmaster</item>
         <item>com.xiaomi.midrop</item>
+        <item>com.android.cellbroadcastreceiver</item>
     </string-array>
     <string-array name="carrier_name">
         <item>SmarToneVodafone</item>
@@ -202,9 +204,6 @@
         <item>312</item>
         <item>313</item>
         <item>316</item>
-    </string-array>
-    <string-array name="mx_mcc">
-        <item>334</item>
     </string-array>
     <string-array name="aqi_title_prefix">
         <item>AQI %1$s</item>
