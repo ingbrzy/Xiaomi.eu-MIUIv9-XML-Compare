@@ -93,8 +93,8 @@
   <string name="gift_use_confirmation_dlg_title">Send this gift?</string>
   <string name="gift_use_fail_dlg_title">Something went wrong</string>
   <string name="gift_used">Sent</string>
-  <string name="hide_free">Hide free themes</string>
-  <string name="hide_incompatible">Hide incompatible themes</string>
+  <string name="hide_free">Hide free %1$s</string>
+  <string name="hide_incompatible">Hide incompatible %1$s</string>
   <string name="home_apply_failured">"Can't apply Home screen wallpaper"</string>
   <string name="home_apply_success">Home screen wallpaper applied</string>
   <string name="in_the_end">No more items to show</string>
@@ -137,14 +137,15 @@
   <string name="online_precust_abstract">Abstract</string>
   <string name="online_precust_animal">Animal</string>
   <string name="online_precust_asphalt">Asphalt</string>
+  <string name="online_precust_black_gold">Rhodium</string>
   <string name="online_precust_building">Building</string>
-  <string name="online_precust_chubby_dreamer">Chubby Dreamer</string>
+  <string name="online_precust_chubby_dreamer">Chubby dreamer</string>
   <string name="online_precust_creative">Creative</string>
-  <string name="online_precust_forest_stories">Forest Stories</string>
+  <string name="online_precust_forest_stories">Forest stories</string>
   <string name="online_precust_geometry">Geometry</string>
   <string name="online_precust_lifestyle">Lifestyle</string>
   <string name="online_precust_mi_note2">Mi Note 2</string>
-  <string name="online_precust_paper_world">Paper World</string>
+  <string name="online_precust_paper_world">Paper world</string>
   <string name="online_precust_peach_blossom">Peach blossom</string>
   <string name="online_precust_plant">Plant</string>
   <string name="online_precust_scenery">Scenery</string>
@@ -215,6 +216,7 @@
   <string name="resource_comment_upload_not_logined">You need to sign in first</string>
   <string name="resource_comment_upload_success">Your comment will be displayed after a brief review.</string>
   <string name="resource_continue">Next</string>
+  <string name="resource_current_using_title">Current resources</string>
   <string name="resource_data_empty">No items here.</string>
   <string name="resource_default">Default ringtone</string>
   <string name="resource_default_name">Resource</string>
@@ -261,6 +263,8 @@
   <string name="resource_exchange_wrong_format_by_server">"Code was not verified. Make sure you've entered it correctly."</string>
   <string name="resource_expand_full_text">Expand</string>
   <string name="resource_failed_to_load_list">"Can't load themes."</string>
+  <string name="resource_free_trial_15_days">Try 15 days for free</string>
+  <string name="resource_free_use_last_one_day">Your trial expires tomorrow.</string>
   <string name="resource_get_auth_checking">Verifying…</string>
   <string name="resource_get_auth_exceed_max_limit_tips">10 devices have already been authorized on this account</string>
   <string name="resource_get_auth_exceed_max_limit_title">Number of authorized devices exceeded</string>
@@ -273,6 +277,7 @@
   <string name="resource_import_successful">Complete</string>
   <string name="resource_importing">Importing…</string>
   <string name="resource_list_title">Recently selected</string>
+  <string name="resource_local_picker">Choose local ringtone</string>
   <string name="resource_menu_refresh">Refresh</string>
   <string name="resource_mute">None</string>
   <string name="resource_my">Offline</string>
@@ -282,7 +287,9 @@
   <string name="resource_no_result">"Didn't find anything"</string>
   <string name="resource_notification_default">Notifications</string>
   <string name="resource_on_trial">Trying: %1$s</string>
+  <string name="resource_on_use">Using: %1$s</string>
   <string name="resource_online">Online</string>
+  <string name="resource_online_picker">Choose online ringtone</string>
   <string name="resource_pack_confirm">"Even though you've already purchased %1$d components in this theme, it's still cheaper if you buy the full bundle."</string>
   <string name="resource_pack_discount_info">Savings: %1$s</string>
   <string name="resource_pack_get_auth_has_been_undercarriaged">This theme is no longer available.</string>
@@ -323,6 +330,7 @@
   <string name="resource_select_boot_audio_confirm">Select this boot sound?</string>
   <string name="resource_select_notification_audio_confirm">Select this alarm sound?</string>
   <string name="resource_select_ringtone_audio_confirm">Select this ringtone?</string>
+  <string name="resource_select_ringtone_confirm">Select this ringtone?</string>
   <string name="resource_selected">Featured</string>
   <string name="resource_send">Send</string>
   <string name="resource_server_alert_dialog_title">"We'll be right back…"</string>
@@ -340,9 +348,12 @@
   <string name="resource_title_rank">Top charts</string>
   <string name="resource_title_select_ringtone">Select tone</string>
   <string name="resource_title_subject">Featured</string>
+  <string name="resource_trial_15_days_end_title">15 days trial expired</string>
+  <string name="resource_trial_15_days_immediately">Try 15 days immediately</string>
   <string name="resource_trial_days">(trial: %1$dd)</string>
   <string name="resource_trial_days_hours">(trial: %1$dd %2$dh)</string>
-  <string name="resource_trial_end_message">Trial of %1$s expired. If you like, please purchase it.</string>
+  <string name="resource_trial_end_change">Change</string>
+  <string name="resource_trial_end_message">Trial of %1$s expired. Complete purchase if you like it.</string>
   <string name="resource_trial_end_purchase">Purchase</string>
   <string name="resource_trial_end_restore">Finish trial</string>
   <string name="resource_trial_end_time">(trial until %1$s)</string>
@@ -373,8 +384,8 @@
   <string name="theme_apply_audio_dialog_item_alarm">Alarm</string>
   <string name="theme_apply_audio_dialog_item_notification">Notification</string>
   <string name="theme_apply_audio_dialog_item_ringtone">Ringtone</string>
-  <string name="theme_apply_failured">"Can't apply Lock screen wallpaper"</string>
-  <string name="theme_apply_success">Lock screen applied</string>
+  <string name="theme_apply_failured">"Couldn't apply"</string>
+  <string name="theme_apply_success">Applied successfully</string>
   <string name="theme_applying">Applying…</string>
   <string name="theme_batch_update_all">Update all</string>
   <string name="theme_batch_update_dlg_content">Update %1$s and %2$d other themes now?</string>
@@ -451,6 +462,7 @@
   <string name="title_my_audio_resource">My ringtones</string>
   <string name="title_my_miwallpaper_resource">My live wallpapers</string>
   <string name="title_my_wallpaper_resource">My wallpapers</string>
+  <string name="title_system_audio_notification_resource">System notifications</string>
   <string name="title_system_audio_resource">System ringtones</string>
   <string name="title_system_wallpaper_resource">System wallpapers</string>
   <string name="to_activate_the_account">Activate your Mi Account now</string>
