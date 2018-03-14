@@ -141,7 +141,6 @@
   <string name="app_manager_app_info_label">App info</string>
   <string name="app_manager_app_info_name">App name</string>
   <string name="app_manager_app_info_pkg">APK name</string>
-  <string name="app_manager_app_lock">App lock</string>
   <string name="app_manager_app_power">"Battery usage: "</string>
   <string name="app_manager_app_storage">"Storage: "</string>
   <string name="app_manager_app_traffic">"Data usage: "</string>
@@ -204,7 +203,6 @@
   <string name="app_manager_net_mobile">Mobile data</string>
   <string name="app_manager_net_wifi">WLAN</string>
   <string name="app_manager_not_allow">No</string>
-  <string name="app_manager_not_support_uninstall">"Can't uninstall these apps"</string>
   <string name="app_manager_notify_bar">Badges</string>
   <string name="app_manager_notify_floating">Floating notifications</string>
   <string name="app_manager_notify_keyguard">Lock screen</string>
@@ -236,10 +234,10 @@
   <string name="app_manager_show_all_apps_opened">Showing results from all apps…</string>
   <string name="app_manager_show_detail_infos">View all</string>
   <string name="app_manager_start_by">Started by %s</string>
-  <string name="app_manager_support_uninstall">You can uninstall these apps</string>
   <string name="app_manager_system_mobile_disable">Turn off data</string>
   <string name="app_manager_title">Manage apps</string>
   <string name="app_manager_total_size">Total</string>
+  <string name="app_manager_uninstall">Uninstall</string>
   <string name="app_manager_uninstall_protected_dlg_msg">Uninstalling system apps may prevent some MIUI components from working properly. Uninstall anyway?</string>
   <string name="app_manager_uninstall_protected_dlg_title">Uninstalling system apps</string>
   <string name="app_manager_uninstall_with_xspace_app_dlg_msg">Corresponding dual apps will be removed together with app data.</string>
@@ -832,7 +830,20 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_description_image_button_answer">Answer</string>
   <string name="gb_description_image_button_reject">Decline</string>
   <string name="gb_description_image_button_video_answer">Video call</string>
+  <string name="gb_get_gift_right_now">Check in now</string>
+  <string name="gb_have_signed">Checked in today</string>
+  <string name="gb_network_status_bad">A connection error occurred.</string>
   <string name="gb_new_feature">New feature</string>
+  <string name="gb_sign_gift">Check in to get rewards</string>
+  <string name="gb_sign_gift_button_text">Receive</string>
+  <string name="gb_sign_notification_summary">Check in daily to receive Xunyou boost</string>
+  <string name="gb_sign_notification_title">Boost network speed for games</string>
+  <string name="gb_signed_gift_loading_fail">"Couldn't load"</string>
+  <string name="gb_signed_gift_loading_summary">Just a sec…</string>
+  <string name="gb_signed_title">Checked in this month</string>
+  <string name="gb_xunyou_gift_type_one">Xunyou 1-day boost</string>
+  <string name="gb_xunyou_gift_type_three">Xunyou 3-day boost</string>
+  <string name="gb_xunyou_gift_type_two">Xunyou 2-day boost</string>
   <string name="gdpr_msg">&lt;Data&gt;"In order to use the basic features of Security, you must agree that Xiaomi will collect, process, and use your personal data, including information about the ways you use Security's features (e.g., mobile data usage stats, info about malware, as well as basic info about your device) and other types of information specified in our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt;."&lt;/Data&gt;</string>
   <string name="ge">个</string>
   <string name="get_sys_info">Getting info…</string>
@@ -864,8 +875,10 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gs_game_shortcut">Improve your gaming experience</string>
   <string name="gs_only_self_start_for_list">Restrict background processes to save battery for gaming</string>
   <string name="gs_open_game_booster">Boost speed</string>
+  <string name="gs_open_game_booster_summary">Boost network speed for games</string>
   <string name="gs_performance_mode">Performance mode</string>
   <string name="gs_performance_mode_detail">Increase CPU usage to ensure seamless performance</string>
+  <string name="gs_sign_notification">Remind to check in at 8 PM daily</string>
   <string name="guide_get_operator_error">"&lt;font color='#33b4ff'&gt;&lt;U&gt;Wrong carrier?&lt;/U&gt;&lt;/font&gt;"</string>
   <string name="guide_operator_text">"Your current carrier: "</string>
   <string name="guide_quck_open">Turn on</string>
@@ -1809,6 +1822,10 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="shutdown_cancel_reminder_detail2">"Looks like you're playing a game now. Scheduled power off is canceled."</string>
   <string name="signal_exception_summary">"Can't connect to the network in this area."</string>
   <string name="signal_exception_title">Test signal strength</string>
+  <string name="signed_rule">Rules</string>
+  <string name="signed_rule_one">1.Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
+  <string name="signed_rule_three">"3.Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
+  <string name="signed_rule_two">2.You can get only 1 Xunyou boost per month.</string>
   <string name="sim_location_diagnostic">Location diagnostics</string>
   <string name="sim_location_error_dialog_message">"The SIM you're using is from %1$s. This is different from the location you set manually (%2$s). Change SIM location to %3$s?"</string>
   <string name="sim_location_error_notify_message">Tap to change SIM location.</string>
