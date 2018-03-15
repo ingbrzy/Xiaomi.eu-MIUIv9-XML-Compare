@@ -454,10 +454,9 @@ Use a different account."</string>
   <string name="micloud_warn_full_title">Out of space</string>
   <string name="micloud_warn_low_sum">Your Mi Cloud is 90% full.</string>
   <string name="micloud_warn_low_title">Almost out of space</string>
-  <string name="micloud_web_discription">Visit i.mi.com</string>
   <string name="micloud_web_discription_01">Sign in at i.mi.com</string>
   <string name="micloud_web_discription_02">to store and access your files from anywhere</string>
-  <string name="micloud_web_discription_international">Visit www.mi.com/micloud</string>
+  <string name="micloud_web_discription_place_holder">Visit %1$s</string>
   <string name="micloud_website">Mi Cloud items</string>
   <string name="micloud_wipe_data_confirm_label">Remove data from Mi Cloud</string>
   <string name="micloud_wipe_data_confirm_title">Remove items synced with Mi Cloud from the phone after you sign out?</string>
