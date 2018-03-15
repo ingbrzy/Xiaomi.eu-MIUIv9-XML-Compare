@@ -517,6 +517,7 @@ to view open tabs from other devices."</string>
   <string name="go_supermarket_title">More apps, faster speed, and less data usage in App Store</string>
   <string name="gold_medals">Gold medals</string>
   <string name="google_bookmarks">Google</string>
+  <string name="green_kid_block_request">The website has been banned from visits by parents.</string>
   <string name="have_sent_bookmark_to_home_screen">Placed on Home screen</string>
   <string name="hint">Hint</string>
   <string name="history">History</string>
@@ -1443,6 +1444,9 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="voice_connect_network">"Couldn't connect to the network."</string>
   <string name="voice_description">Voice search</string>
   <string name="voice_network_connection">Voice search requires to connect to the internet to work normally.</string>
+  <string name="voice_open_permission_baidu">Please go to Settings turn on voice permissions for Speech Recognition Settings</string>
+  <string name="voice_open_permission_xiaoai">Please go to Settings turn on voice permissions for Xiaoai Voice Engine</string>
+  <string name="voice_open_permission_xunfei">Please go to Settings turn on voice permissions for Voice Settings</string>
   <string name="voice_search_permission">Voice search needs to access your mic to work normally.</string>
   <string name="voice_semantic_analysis">Browser will be able to analyze semantics after you allow it to connect.</string>
   <string name="voice_start_description">Start</string>
