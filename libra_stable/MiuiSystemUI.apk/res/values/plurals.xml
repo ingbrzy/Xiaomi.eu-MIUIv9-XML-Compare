@@ -28,6 +28,19 @@
         <item quantity="other">Clear</item>
         <item quantity="one">Sunny</item>
     </plurals>
+    <plurals name="accessibility_desc_weather_temperature">
+        <item quantity="other">Weather %d degrees</item>
+        <item quantity="zero">Weather %d degrees</item>
+        <item quantity="one">Weather %d degree</item>
+    </plurals>
+    <plurals name="notification_group_child_count">
+        <item quantity="other">%1$d notifications</item>
+        <item quantity="one">%1$d notification</item>
+    </plurals>
+    <plurals name="notification_group_overflow_description">
+        <item quantity="other">%s more notifications inside.</item>
+        <item quantity="one">%s more notification inside.</item>
+    </plurals>
     <plurals name="fold_tips_title">
         <item quantity="other">%d unimportant notifications</item>
         <item quantity="one">%d unimportant notification</item>
