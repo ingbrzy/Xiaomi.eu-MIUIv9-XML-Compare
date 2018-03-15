@@ -311,4 +311,8 @@ If you turn on mobile data again, your carrier may charge you for additional dat
         <item quantity="other">%d days remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</item>
         <item quantity="one">%d day remaining before Network speed boost session ends. Renew the session to avoid network speed problems.</item>
     </plurals>
+    <plurals name="gb_signed_days_sum">
+        <item quantity="other">Checked in %d days in a row</item>
+        <item quantity="one">Checked in %d time</item>
+    </plurals>
 </resources>
