@@ -389,7 +389,7 @@
   <string name="cta_desc">"It's ideal for shortcuts, info, and your favorite features"</string>
   <string name="cta_dialog_negative">Exit</string>
   <string name="cta_dialog_positive">Agree</string>
-  <string name="cta_dialog_text_all">To use App vault, you should read and agree with %1$s\"User Agreement\" %2$s and %3$s \"Privacy Policy\" %4$s. The service also requires internet connection and access to the location services. Agree?</string>
+  <string name="cta_dialog_text_all">To use App vault, you should read and agree with %1$s\"User Agreement\" %2$s and %3$s \"Privacy Policy\" %4$s. The service also requires internet connection and access to the location services. The content catcher used by some services also requires internet connection. Agree?</string>
   <string name="cta_dialog_title">Terms and Conditions</string>
   <string name="cta_negative">Close</string>
   <string name="cta_positive">Details</string>
@@ -430,7 +430,7 @@
   <string name="didi_not_installed">Install DiDi to use this card</string>
   <string name="didi_other_dest">Other destination</string>
   <string name="didi_price">Fare</string>
-  <string name="didi_price_unit">CNY</string>
+  <string name="didi_price_unit">%sCNY</string>
   <string name="didi_target">Destination     </string>
   <string name="didi_taximeter">Calculate taxi fare</string>
   <string name="didi_trip">Call a taxi</string>
@@ -541,6 +541,7 @@ Check tracking number."</string>
   <string name="express_inquiry_logistics">Select a courier service</string>
   <string name="express_inquiry_logistics_prefix">Courier service: %s</string>
   <string name="express_inquiry_logistics_select_others_indication">Other</string>
+  <string name="express_inquiry_manual">手动查询</string>
   <string name="express_inquiry_no_history">No history</string>
   <string name="express_inquiry_no_result">No results</string>
   <string name="express_inquiry_number_empty">Enter your tracking number.</string>
@@ -559,6 +560,7 @@ Check your tracking number."</string>
   <string name="express_inquiry_status_unknown">Unknown</string>
   <string name="express_install_cainiao_description">%s requires installing the Cainiao app. Install now?</string>
   <string name="express_install_cainiao_hidden">&lt;u&gt;"Don't show again"&lt;/u&gt;</string>
+  <string name="express_install_cainiao_not_found">Not find Mimarket</string>
   <string name="express_install_cainiao_ok">Install</string>
   <string name="express_install_cainiao_title">Install Cainiao</string>
   <string name="express_install_delivery_service">Track your orders, contact delivery personnel, and more.</string>
@@ -625,6 +627,7 @@ Check your tracking number."</string>
   <string name="express_setting_authorized_number_delete">Delete</string>
   <string name="express_setting_authorized_number_description">Privacy statement: Your phone number will only be used for checking delivery order status and details.</string>
   <string name="express_setting_authorized_number_empty">"You haven't verified your phone number yet."</string>
+  <string name="express_setting_authorized_number_limit">最多同时绑定4个手机号码</string>
   <string name="express_setting_brief">Track your express delivery packages</string>
   <string name="express_setting_brief_detail">Track all your packages using your phone number and order info.</string>
   <string name="express_setting_cainiaoguoguo">菜鸟裹裹</string>
@@ -639,12 +642,15 @@ Check your tracking number."</string>
   <string name="express_setting_dialog_delete_title">Delete phone number</string>
   <string name="express_setting_entrance_description">Verify your phone number to check order details.</string>
   <string name="express_setting_number">Phone number</string>
+  <string name="express_setting_number_already_add">手机号码已绑定，请尝试其他号码</string>
   <string name="express_setting_number_invalid">"Make sure you've entered a valid phone number"</string>
   <string name="express_setting_number_save">Verify and save</string>
   <string name="express_setting_number_title">Add phone number</string>
   <string name="express_setting_phone">Allow requesting info using phone number</string>
   <string name="express_setting_request_failed">"Couldn't send request. Error code: %s."</string>
   <string name="express_setting_service_provider">Service provider</string>
+  <string name="express_setting_supported_orders">"现已支持：淘宝、天猫、闲鱼应用中的快递运单；中通，申通，韵达等主流快递公司的快递运单。
+暂不支持：部分非淘宝、天猫、闲鱼商家发货的顺丰快递运单（可手动添加运单号解决）；京东自派送运单。"</string>
   <string name="express_setting_title">Verified phone number</string>
   <string name="express_setting_tracking_disable">Not verified</string>
   <string name="express_setting_verification_code">Code</string>
@@ -906,12 +912,10 @@ Check your tracking number."</string>
   <string name="map_title_congestion">有道路拥堵</string>
   <string name="map_title_congestion_last">公里拥堵</string>
   <string name="map_title_home">Home</string>
-  <string name="map_title_hours">小时</string>
-  <string name="map_title_middle">需要</string>
-  <string name="map_title_minutes">分钟</string>
   <string name="map_title_office">Work</string>
-  <string name="map_title_prve">到</string>
   <string name="map_title_smooth">整体畅通</string>
+  <string name="map_title_time_hours">需要%1$s小时%2$s分钟</string>
+  <string name="map_title_time_minutes">需要%1$s分钟</string>
   <string name="memory_clear_nothing_result">Nothing to clear in cache</string>
   <string name="memory_clear_result">%1$sB cleared</string>
   <string name="menu_new">Add</string>
@@ -1195,14 +1199,10 @@ Check your tracking number."</string>
   <string name="payment_clear_records_failed">"Couldn't clear payment history"</string>
   <string name="payment_clear_records_success">Cleared payment history</string>
   <string name="payment_date_time_picker_dialog_title">Set date and time</string>
-  <string name="payment_dialog_chooser_cancel">Cancel</string>
-  <string name="payment_dialog_chooser_message_footer">"Note: All payment info will be securely stored on your phone. It won't be synced with Mi Cloud or used in any other way."</string>
-  <string name="payment_dialog_chooser_message_header">Select sources for \"My payments\"</string>
-  <string name="payment_dialog_chooser_ok">Turn on</string>
-  <string name="payment_dialog_chooser_title">My payments</string>
-  <string name="payment_dialog_chooser_toast">Select at least one source</string>
-  <string name="payment_dialog_notice_ok">Got it</string>
-  <string name="payment_dialog_notice_title">Attention</string>
+  <string name="payment_dialog_notice_message">因微信客户端限制，自动记账功能在微信内将无法使用，您可以手动添加微信的支出信息。其他应用内的自动记账功能仍可继续使用。</string>
+  <string name="payment_dialog_notice_message_inside">因微信客户端限制，自动记账功能在微信内将无法使用，您可以手动添加微信的支出信息。</string>
+  <string name="payment_dialog_notice_ok">我知道了</string>
+  <string name="payment_dialog_notice_title">自动记账说明</string>
   <string name="payment_guide_hint">Collect payment info from Messaging and other apps.</string>
   <string name="payment_guide_hint_link">Security &amp; privacy</string>
   <string name="payment_method_alipay">Alipay</string>
@@ -1255,7 +1255,7 @@ Check your tracking number."</string>
   <string name="payment_upload_data_fail">Upload data failed</string>
   <string name="payment_upload_data_no_data">No data to upload</string>
   <string name="payment_upload_data_success">Upload data successfully</string>
-  <string name="payment_user_notice_bar_text">About \"My payments\"</string>
+  <string name="payment_user_notice_bar_text">About \"Auto payments\"</string>
   <string name="personalAssistant_mainpage">Home page</string>
   <string name="personalAssistant_path">com.miui.home.launcher.assistant</string>
   <string name="pie_chart_label_atm">ATM withdrawals:</string>
