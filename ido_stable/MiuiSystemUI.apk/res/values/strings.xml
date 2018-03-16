@@ -21,6 +21,18 @@
   <string name="accessibility_data_signal_full">Data signal full.</string>
   <string name="accessibility_data_three_bars">Data three bars.</string>
   <string name="accessibility_data_two_bars">Data two bars.</string>
+  <string name="accessibility_desc_app_allow_block">"%1$s's notifications can be hidden"</string>
+  <string name="accessibility_desc_app_unallow_block">"%1$s's notifications can't be hidden"</string>
+  <string name="accessibility_desc_block_notification">Hide notifications</string>
+  <string name="accessibility_desc_cancel_block">"Don't hide"</string>
+  <string name="accessibility_desc_check_block_notification">"Select %1$s's notifications"</string>
+  <string name="accessibility_desc_confirm_block">Hide</string>
+  <string name="accessibility_desc_details_page">%1$s details page</string>
+  <string name="accessibility_desc_notification_shade">Notification shade</string>
+  <string name="accessibility_desc_quick_settings">Quick settings</string>
+  <string name="accessibility_desc_reconfirm_block">Hide now?</string>
+  <string name="accessibility_desc_select_block_notification">Select notifications to hide</string>
+  <string name="accessibility_desc_uncheck_block_notification">"Deselect %1$s's notifications"</string>
   <string name="accessibility_home">Home</string>
   <string name="accessibility_ime_switch_button">Switch input method button.</string>
   <string name="accessibility_managed_profile">Work profile</string>
@@ -142,6 +154,7 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="important_desc">All important notifications will appear directly on the Notification shade.</string>
   <string name="invalid_charger">"USB charging isn't supported.
 Use only the supplied charger."</string>
+  <string name="ir_mcc">432</string>
   <string name="kilobyte_per_second">K/s</string>
   <string name="label_view">View</string>
   <string name="list_delimeter">", "</string>
@@ -167,6 +180,7 @@ Use only the supplied charger."</string>
   <string name="media_projection_remember_text">"Don't show again"</string>
   <string name="megabyte_per_second">M/s</string>
   <string name="mount_storage">Yes</string>
+  <string name="mx_mcc">334</string>
   <string name="nav_guide_cancel">Ignore</string>
   <string name="nav_guide_message">Use gestures to hide/show soft buttons.</string>
   <string name="nav_guide_ok">Set up</string>
@@ -177,7 +191,7 @@ Use only the supplied charger."</string>
   <string name="no_weather_description">Get weather info &gt;</string>
   <string name="not_support_multi_window">"Current app doesn't support Split screen"</string>
   <string name="notification_header_title">Notifications</string>
-  <string name="notification_hidden_text">Contents hidden</string>
+  <string name="notification_hidden_text">You have a new message</string>
   <string name="notification_low_battery_action_btn">Turn on</string>
   <string name="notification_low_battery_need_charge">The battery is low. Charge your device.</string>
   <string name="notification_low_battery_open_save_mode">Turn on Battery saver</string>
@@ -201,10 +215,9 @@ Use only the supplied charger."</string>
   <string name="notification_otg_unknow_in">OTG device connected</string>
   <string name="notification_otg_unknow_out">OTG device disconnected</string>
   <string name="notification_template_text">" has a notification. Tap to view."</string>
-  <string name="oldman_airplane_mode_text">airplane</string>
-  <string name="oldman_incall_text">incall</string>
-  <string name="oldman_status_bar_time_format_12">h:mm</string>
-  <string name="oldman_status_bar_time_format_24">HH:mm</string>
+  <string name="np_mcc">429</string>
+  <string name="oldman_airplane_mode_text">Airplane</string>
+  <string name="oldman_incall_text">Back to call</string>
   <string name="quick_settings_bluetooth_detail_empty_text">No paired devices available</string>
   <string name="quick_settings_bluetooth_label">Bluetooth</string>
   <string name="quick_settings_connect_success">Connected</string>
@@ -237,10 +250,12 @@ Use only the supplied charger."</string>
   <string name="screenshot_dlg_delete_button">Delete</string>
   <string name="screenshot_edit">Edit</string>
   <string name="screenshot_failed_text">"Can't take screenshot due to limited storage space or the app forbid that."</string>
+  <string name="screenshot_feedback_txt">Feedback</string>
   <string name="screenshot_insert_failed">Fail to load the screenshot, please retake a new one or view the picture in the album</string>
   <string name="screenshot_long_screenshot">Scroll</string>
   <string name="screenshot_saved_text">Tap to view your screenshot.</string>
   <string name="screenshot_send">Send</string>
+  <string name="screenshot_toalbum_txt">Preview</string>
   <string name="search_hint">Search for websites, apps, contacts, and videos</string>
   <string name="settings_custom_notification">Manage notifications</string>
   <string name="settings_toggle_position">Manage toggles</string>
