@@ -507,10 +507,8 @@ For more information, contact your admin."</string>
   <string name="no_application">Nothing</string>
   <string name="no_multi_window_app">No apps which support Split screen</string>
   <string name="no_notification_tips">No notifications.</string>
-  <string name="no_sim_card">No SIM card</string>
   <string name="no_weather_description">Get weather info &gt;</string>
   <string name="not_support_multi_window">"Current app doesn't support Split screen"</string>
-  <string name="notch_status_bar_date_format_12">EEEE, MMMM d</string>
   <string name="notification_group_overflow_indicator">+%s</string>
   <string name="notification_group_title_text">%1$s (%2$s)</string>
   <string name="notification_header_title">Notifications</string>
@@ -570,12 +568,6 @@ For more information, contact your admin."</string>
   <string name="power_remaining_duration_only">About %1$s left</string>
   <string name="power_remaining_duration_only_short">%1$s left</string>
   <string name="process_kernel_label">Android OS</string>
-  <string name="prompt_danger">Danger</string>
-  <string name="prompt_detecting">Detecting</string>
-  <string name="prompt_failure">Failure</string>
-  <string name="prompt_return_to_split">Split</string>
-  <string name="prompt_safe">Safe</string>
-  <string name="prompt_unknown">Unknown</string>
   <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
   <string name="proxy_hostname_hint">proxy.example.com</string>
   <string name="proxy_port_hint">8080</string>
