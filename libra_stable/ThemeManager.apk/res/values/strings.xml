@@ -39,7 +39,7 @@
   <string name="component_title_wallpaper">Wallpapers</string>
   <string name="current_using_desktop_wallpaper_text">Home screen</string>
   <string name="current_using_lockscreen_wallpaper_text">Lock screen</string>
-  <string name="current_version_incompatible">This theme is incompatible</string>
+  <string name="current_version_incompatible">Not compatible</string>
   <string name="deleting">Deleting…</string>
   <string name="description_author">Author</string>
   <string name="description_designer">Designer</string>
@@ -137,14 +137,15 @@
   <string name="online_precust_abstract">Abstract</string>
   <string name="online_precust_animal">Animal</string>
   <string name="online_precust_asphalt">Asphalt</string>
+  <string name="online_precust_black_gold">Rhodium</string>
   <string name="online_precust_building">Building</string>
-  <string name="online_precust_chubby_dreamer">Chubby Dreamer</string>
+  <string name="online_precust_chubby_dreamer">Chubby dreamer</string>
   <string name="online_precust_creative">Creative</string>
-  <string name="online_precust_forest_stories">Forest Stories</string>
+  <string name="online_precust_forest_stories">Forest stories</string>
   <string name="online_precust_geometry">Geometry</string>
   <string name="online_precust_lifestyle">Lifestyle</string>
   <string name="online_precust_mi_note2">Mi Note 2</string>
-  <string name="online_precust_paper_world">Paper World</string>
+  <string name="online_precust_paper_world">Paper world</string>
   <string name="online_precust_peach_blossom">Peach blossom</string>
   <string name="online_precust_plant">Plant</string>
   <string name="online_precust_scenery">Scenery</string>
@@ -275,6 +276,7 @@
   <string name="resource_import_failed">"Can't import"</string>
   <string name="resource_import_successful">Complete</string>
   <string name="resource_importing">Importing…</string>
+  <string name="resource_is_off_shelf">Not available</string>
   <string name="resource_list_title">Recently selected</string>
   <string name="resource_local_picker">Choose local ringtone</string>
   <string name="resource_menu_refresh">Refresh</string>
@@ -468,9 +470,11 @@
   <string name="uid_change_dialog_message">"You've deleted updates. Reboot device to be able to use themes."</string>
   <string name="uid_change_dialog_ok">Got it</string>
   <string name="uid_change_dialog_title">Reboot device</string>
+  <string name="up_to_the_end">"That's all for now. Come back later."</string>
   <string name="wallpaper_apply">Apply</string>
   <string name="wallpaper_crop">Crop</string>
   <string name="wallpaper_decoded_error">"Can't load wallpaper"</string>
+  <string name="wallpaper_detail_load_page_no_network">Connect to the network and try again.</string>
   <string name="wallpaper_scroll_type_tips">Wallpaper scroll</string>
   <string name="wallpaper_set_as_both">Set both</string>
   <string name="wallpaper_set_as_destop">Set as Home screen</string>
