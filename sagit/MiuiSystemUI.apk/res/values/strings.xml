@@ -205,7 +205,7 @@ Sample Rate"</string>
   <string name="call_status_holding">Holding</string>
   <string name="call_status_ringing">Ringing</string>
   <string name="camera_key_action_app_title">Open application</string>
-  <string name="camera_key_action_category_title">Use if Camera app is not open</string>
+  <string name="camera_key_action_category_title">"Use if the Camera app isn't open"</string>
   <string name="camera_key_action_none_title">No action</string>
   <string name="camera_key_action_setting_title">Mi Button</string>
   <string name="camera_key_action_shortcut_call">Call</string>
@@ -449,8 +449,8 @@ Use only the supplied charger."</string>
   <string name="long_screenshot_top_msg">Creating screenshot…</string>
   <string name="long_screenshot_top_msg_manual">Crop the screenshot and tap the button to finish</string>
   <string name="low_temperature_button_ok">Got it</string>
-  <string name="low_temperature_warning_message">The temperature is too low,the phone may shut down at any time, please save the data.</string>
-  <string name="low_temperature_warning_title">Shutdown warning</string>
+  <string name="low_temperature_warning_message">The temperature is too low. Your phone may shut down anytime now. Make sure you save all the important changes.</string>
+  <string name="low_temperature_warning_title">Low temperature warning</string>
   <string name="managed_profile_foreground_toast">"You're using your work profile"</string>
   <string name="managed_user_title">All work apps</string>
   <string name="mdb_entering">Starting…</string>
@@ -570,10 +570,10 @@ For more information, contact your admin."</string>
   <string name="power_remaining_duration_only">About %1$s left</string>
   <string name="power_remaining_duration_only_short">%1$s left</string>
   <string name="process_kernel_label">Android OS</string>
-  <string name="prompt_danger">Danger</string>
+  <string name="prompt_danger">Risk</string>
   <string name="prompt_detecting">Detecting</string>
-  <string name="prompt_failure">Failure</string>
-  <string name="prompt_return_to_split">Split</string>
+  <string name="prompt_failure">Error</string>
+  <string name="prompt_return_to_split">Split screen</string>
   <string name="prompt_safe">Safe</string>
   <string name="prompt_unknown">Unknown</string>
   <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
@@ -606,7 +606,7 @@ For more information, contact your admin."</string>
   <string name="quick_settings_wifi_detail_empty_text">No WLAN networks available</string>
   <string name="quick_settings_wifi_label">WLAN</string>
   <string name="quick_settings_wifi_nearby">Select a nearby network</string>
-  <string name="recent_cannot_dock">"can't enter MultiWindow Mode in Second Space"</string>
+  <string name="recent_cannot_dock">"Can't use Split screen in Second Space"</string>
   <string name="recent_dock_tip">Tap to select apps</string>
   <string name="recent_task_app_info_text">Info</string>
   <string name="recent_task_cleaning">Clearing apps…</string>
