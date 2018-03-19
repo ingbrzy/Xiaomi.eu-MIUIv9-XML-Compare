@@ -176,6 +176,10 @@
         <item quantity="other">%d permissions granted</item>
         <item quantity="one">%d permission granted</item>
     </plurals>
+    <plurals name="print_jobs_summary">
+        <item quantity="other">%1$d print jobs</item>
+        <item quantity="one">1 print job</item>
+    </plurals>
     <plurals name="print_settings_summary">
         <item quantity="other">%1$d print services on</item>
         <item quantity="one">1 print service on</item>
