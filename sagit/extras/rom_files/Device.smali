@@ -6,7 +6,8 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lcom/android/camera/Device$HDR_DEFAULT_VALUE;
+        Lcom/android/camera/Device$HDR_DEFAULT_VALUE;,
+        Lcom/android/camera/Device$HFR_QUALITY;
     }
 .end annotation
 
@@ -968,6 +969,22 @@
     const-string/jumbo v2, "support_camera_hdr_default_value"
 
     goto :goto_1
+.end method
+
+.method public static getMaxHFRQuality()I
+    .locals 2
+    .annotation build Lcom/android/camera/Device$HFR_QUALITY;
+    .end annotation
+
+    const-string/jumbo v0, "support_camera_hfr_max_quality"
+
+    const/4 v1, 0x2
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getInteger(Ljava/lang/String;I)I
+
+    move-result v0
+
+    return v0
 .end method
 
 .method public static iSSensorHasLatency()Z
@@ -2215,6 +2232,34 @@
     const-string/jumbo v0, "support_camera_manual_function"
 
     const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static isSupportedManualFunctionET()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_camera_manual_function_et"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public static isSupportedManualFunctionFocus()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_camera_manual_function_focus"
+
+    const/4 v1, 0x1
 
     invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
