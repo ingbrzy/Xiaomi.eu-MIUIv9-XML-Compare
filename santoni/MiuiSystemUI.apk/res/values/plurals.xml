@@ -26,7 +26,7 @@
     </plurals>
     <plurals name="view_realtime_clear">
         <item quantity="other">Clear</item>
-        <item quantity="one">Sunny</item>
+        <item quantity="one">Clear</item>
     </plurals>
     <plurals name="accessibility_desc_weather_temperature">
         <item quantity="other">Weather %d degrees</item>
