@@ -7,6 +7,7 @@ Messages will only appear in Second space."</string>
   <string name="PrivacyContactDes2">"If you used private messages in First space,
 this feature will be added to Second space automatically."</string>
   <string name="add_finger_print">Add fingerprint</string>
+  <string name="add_spare_text">守护中</string>
   <string name="air_space_created">Created Work space successfully</string>
   <string name="air_space_deleted">Deleted Work space successfully</string>
   <string name="air_space_exit">Exit space</string>
@@ -15,8 +16,10 @@ this feature will be added to Second space automatically."</string>
   <string name="appData">Installed apps</string>
   <string name="app_name">Security Core Component</string>
   <string name="back">Back</string>
+  <string name="bind_device">绑定设备</string>
   <string name="can_not_delete_when_calling">"Can't delete spaces during a call"</string>
   <string name="can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
+  <string name="can_not_switch_when_green_kid_active">家长守护中禁止切换分身</string>
   <string name="cancelClosePassword">"Don't turn off"</string>
   <string name="cancel_button">Cancel</string>
   <string name="changePassword">Change password</string>
@@ -49,6 +52,7 @@ this feature will be added to Second space automatically."</string>
 to be able to view them anytime"</string>
   <string name="contact_us">Contact us</string>
   <string name="continueButton">Continue</string>
+  <string name="control_and_guarding">管控守护中</string>
   <string name="createANewSpace">Create a separate space on your phone.</string>
   <string name="createUserFail">"Couldn't create"</string>
   <string name="create_app_icon_failed">"Couldn't create icon"</string>
@@ -89,6 +93,7 @@ to be able to view them anytime"</string>
   <string name="err_unknown">Unknown error</string>
   <string name="err_volume_not_enough">Not enough storage space</string>
   <string name="exit_private_space">Switch</string>
+  <string name="experience_more_features">绑定设备后可体验更多功能</string>
   <string name="finger_print_num">Fingerprint %d</string>
   <string name="finger_print_of_use">Use fingerprint</string>
   <string name="fingerprint_number_upper_limit">Too many unsuccessful unlock attempts</string>
@@ -101,6 +106,12 @@ to be able to view them anytime"</string>
   <string name="go_on_import">Keep importing</string>
   <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
   <string name="gpg_title">Dual app for Google Play Games</string>
+  <string name="green_guard">蜂巢</string>
+  <string name="green_guard_des1">一键绑定设备，操作简单快捷</string>
+  <string name="green_guard_des2">实时定位查询，守护外出安全</string>
+  <string name="green_guard_des3">管理设备应用，控制使用时间</string>
+  <string name="green_guard_title2">查看定位</string>
+  <string name="green_guard_title3">管理应用</string>
   <string name="guide_contact_sub_title_desc">"Contacts added to Second space will be private.
 Messages will only appear in Second space."</string>
   <string name="guide_contact_suc_sub_title_desc">Only private contacts and messages will be shown in Second space</string>
