@@ -15,8 +15,10 @@ this feature will be added to Second space automatically."</string>
   <string name="appData">Installed apps</string>
   <string name="app_name">Security Core Component</string>
   <string name="back">Back</string>
+  <string name="bind_device">Add devices</string>
   <string name="can_not_delete_when_calling">"Can't delete spaces during a call"</string>
   <string name="can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
+  <string name="can_not_switch_when_green_kid_active">Switching to Second space is restricted by parental controls</string>
   <string name="cancelClosePassword">"Don't turn off"</string>
   <string name="cancel_button">Cancel</string>
   <string name="changePassword">Change password</string>
@@ -89,6 +91,7 @@ to be able to view them anytime"</string>
   <string name="err_unknown">Unknown error</string>
   <string name="err_volume_not_enough">Not enough storage space</string>
   <string name="exit_private_space">Switch</string>
+  <string name="experience_more_features">Add a device to view all features</string>
   <string name="finger_print_num">Fingerprint %d</string>
   <string name="finger_print_of_use">Use fingerprint</string>
   <string name="fingerprint_number_upper_limit">Too many unsuccessful unlock attempts</string>
@@ -101,6 +104,12 @@ to be able to view them anytime"</string>
   <string name="go_on_import">Keep importing</string>
   <string name="gpg_message">Creating dual apps for games requires working with Google Play Games. Create a dual app for Google Play Games?</string>
   <string name="gpg_title">Dual app for Google Play Games</string>
+  <string name="green_guard">Parental controls</string>
+  <string name="green_guard_des1">Add devices to manage them remotely</string>
+  <string name="green_guard_des2">Know where exactly all managed devices are</string>
+  <string name="green_guard_des3">Control installed apps and restrict usage</string>
+  <string name="green_guard_title2">View location info</string>
+  <string name="green_guard_title3">Manage apps</string>
   <string name="guide_contact_sub_title_desc">"Contacts added to Second space will be private.
 Messages will only appear in Second space."</string>
   <string name="guide_contact_suc_sub_title_desc">Only private contacts and messages will be shown in Second space</string>
@@ -141,6 +150,7 @@ You can also download them separately."</string>
   <string name="msg_switch_photo">Delete these photos in First space after they are moved?</string>
   <string name="needSetKeyguardFirst">Set First space password</string>
   <string name="needSetKeyguardFirstDes">Set First space password before you set Second space password</string>
+  <string name="need_network_when_bind">Connect to the network before Adding devices</string>
   <string name="need_network_when_create">Connect to the network before creating Work space</string>
   <string name="need_reset_passwd">Reset Work space password before entering Work space</string>
   <string name="need_set_second_space_desc">Add Second space password before adding Second space fingerprint</string>
