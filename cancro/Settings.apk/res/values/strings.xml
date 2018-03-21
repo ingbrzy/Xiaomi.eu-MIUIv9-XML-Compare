@@ -1097,7 +1097,6 @@ This setting affects all users on this phone."</string>
   <string name="debug_monitoring_category">Monitoring</string>
   <string name="debug_networking_category">Networking</string>
   <string name="debug_view_attributes">Enable view attribute inspection</string>
-  <string name="defalut_launcher_title">Default launcher</string>
   <string name="default_app">(Default)</string>
   <string name="default_apps_title">Default Apps</string>
   <string name="default_assist_none">None</string>
@@ -1722,6 +1721,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="key_gesture_function_preview">Button and gesture previews</string>
   <string name="key_gesture_function_shortcut">Functional shortcuts</string>
   <string name="key_none">None</string>
+  <string name="key_operation_diagram">Operation diagram</string>
   <string name="key_position_cat">Button positions</string>
   <string name="key_settings">Button and gesture shortcuts</string>
   <string name="key_settings_title">Button and gesture shortcuts</string>
@@ -1802,7 +1802,6 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="launch_google_search">Launch Google Search</string>
   <string name="launch_recents">Launch Recents</string>
   <string name="launch_voice_assistant">Launch Voice assistant</string>
-  <string name="launcher_auto_fill_empty_title">Fill empty cells</string>
   <string name="launcher_title">Home screen &amp; Recents</string>
   <string name="launching_cit">Launching CIT</string>
   <string name="launching_pho">Launching phone info, please wait.</string>
@@ -1911,7 +1910,6 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="lock_after_timeout_summary_with_exception">%1$s after sleep, except when kept unlocked by %2$s</string>
   <string name="lock_immediately_summary_with_exception">Immediately after sleep, except when kept unlocked by %1$s</string>
   <string name="lock_intro_message">Lock_intro_message</string>
-  <string name="lock_screen_cells_title">Lock Home screen layout</string>
   <string name="lock_screen_notifications_interstitial_message">When your device is locked, how do you want notifications to show?</string>
   <string name="lock_screen_notifications_interstitial_title">Notifications</string>
   <string name="lock_screen_notifications_summary_disable">Don’t show notifications at all</string>
@@ -2219,7 +2217,6 @@ There are other users present on this device.
   <string name="miui_lab_slogan">Learn. Explore. Discover.</string>
   <string name="miui_lab_taplus_desc">Press and hold items to trigger actions</string>
   <string name="miui_lab_taplus_title">Taplus</string>
-  <string name="miui_screen_config_title">Home screen settings</string>
   <string name="miui_updater">System update</string>
   <string name="mms_breathing_light_color_title">Messages light color</string>
   <string name="mms_breathing_light_freq_title">Messages pulse frequency</string>
@@ -2363,8 +2360,8 @@ Select your operating system:"</string>
   <string name="nfc_payment_app_and_desc">%1$s - %2$s</string>
   <string name="nfc_payment_default">Payment default</string>
   <string name="nfc_payment_default_not_set">Not set</string>
-  <string name="nfc_payment_favor_default">Always</string>
-  <string name="nfc_payment_favor_open">Except when another payment app is open</string>
+  <string name="nfc_payment_favor_default">Always use default app</string>
+  <string name="nfc_payment_favor_open">Replace default app when another payment app is open</string>
   <string name="nfc_payment_how_it_works">How it works</string>
   <string name="nfc_payment_no_apps">Pay with your phone in stores</string>
   <string name="nfc_payment_pay_with">At a Tap &amp; pay terminal, pay with:</string>
@@ -2453,11 +2450,6 @@ Select your operating system:"</string>
   <string name="open_demo_mode_warning_message">When Demo mode is on, the clock in the status bar will stop, battery and signal icons will be displayed as full. You can turn Demo mode off or reboot the device to change this.</string>
   <string name="open_miui_optimization_title">Turn on MIUI optimization</string>
   <string name="open_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
-  <string name="open_personal_assistant_dialog_btn_cancel">Cancel</string>
-  <string name="open_personal_assistant_dialog_btn_confirm">Turn off</string>
-  <string name="open_personal_assistant_dialog_desc">"You won't be able to use App vault and receive its updates. Turn off now?"</string>
-  <string name="open_personal_assistant_dialog_title">Turn off App vault</string>
-  <string name="open_personal_assistant_title">Turn on App vault</string>
   <string name="open_wifi_connect_summary">Tap to view details.</string>
   <string name="open_wifi_connect_title">Connected to %1$s</string>
   <string name="opening_paragraph_delete_profile_unknown_company">This work profile is managed by:</string>
@@ -2782,6 +2774,7 @@ Select your operating system:"</string>
   <string name="profile_owner_add_title">Activate Profile Manager?</string>
   <string name="progress_scanning">Searching</string>
   <string name="provider_label">Push subscriptions</string>
+  <string name="provision_activation">Active</string>
   <string name="provision_back">Back</string>
   <string name="provision_next">Next</string>
   <string name="provision_page_layout_confirm_message">Your device needs to reboot to apply these changes. This takes about 1 minute.</string>
@@ -2879,7 +2872,6 @@ Select your operating system:"</string>
   <string name="receiver_clean">Free up space</string>
   <string name="recent_location_requests_summary">View apps requesting to access your location info</string>
   <string name="recent_location_requests_title">Location access</string>
-  <string name="recents_config_title">Recents</string>
   <string name="recommend_item_1">Phone case</string>
   <string name="recommend_item_2">Mi Band</string>
   <string name="recommend_item_3">Power bank</string>
@@ -2990,7 +2982,6 @@ This setting affects all users on this phone."</string>
   <string name="screen">Screen</string>
   <string name="screen_button">Screen buttons</string>
   <string name="screen_button_tips">Swipe down to hide screen buttons</string>
-  <string name="screen_cells_config_title">Home screen layout</string>
   <string name="screen_color_and_optimize">Colors &amp; contrast</string>
   <string name="screen_color_and_optimize_disabled">"Can't adjust color temperature in Reading mode"</string>
   <string name="screen_color_temperature">Colors</string>
@@ -3441,7 +3432,6 @@ To use screen pinning:
   <string name="show_hw_screen_updates">Show GPU view updates</string>
   <string name="show_hw_screen_updates_summary">Flash views inside windows when drawn with the GPU</string>
   <string name="show_magnifier_when_input">Text magnifying glass</string>
-  <string name="show_mem_info_title">Show memory status</string>
   <string name="show_menu">Show menu</string>
   <string name="show_non_rect_clip">Debug non-rectangular clip operations</string>
   <string name="show_owner_info_on_lockscreen_label">Show owner info on Lock screen</string>
@@ -3899,7 +3889,6 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="title_font_current2">System font</string>
   <string name="title_font_size">Font size</string>
   <string name="title_hdmi_color_calibration">Color correction preset</string>
-  <string name="title_jeejen">Jeejen Home screen</string>
   <string name="title_layout_current">Text size</string>
   <string name="title_layout_current2">Text size</string>
   <string name="title_local_resource">Local resources</string>

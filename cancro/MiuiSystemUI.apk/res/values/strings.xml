@@ -138,7 +138,7 @@
   <string name="call_status_holding">Holding</string>
   <string name="call_status_ringing">Ringing</string>
   <string name="camera_key_action_app_title">Open application</string>
-  <string name="camera_key_action_category_title">Use if Camera app is not open</string>
+  <string name="camera_key_action_category_title">"Use if the Camera app isn't open"</string>
   <string name="camera_key_action_none_title">No action</string>
   <string name="camera_key_action_setting_title">Mi Button</string>
   <string name="camera_key_action_shortcut_call">Call</string>
@@ -219,8 +219,8 @@ Use only the supplied charger."</string>
   <string name="long_screenshot_top_msg">Creating screenshot…</string>
   <string name="long_screenshot_top_msg_manual">Crop the screenshot and tap the button to finish</string>
   <string name="low_temperature_button_ok">Got it</string>
-  <string name="low_temperature_warning_message">The temperature is too low,the phone may shut down at any time, please save the data.</string>
-  <string name="low_temperature_warning_title">Shutdown warning</string>
+  <string name="low_temperature_warning_message">The temperature is too low. Your phone may shut down anytime now. Make sure you save all the important changes.</string>
+  <string name="low_temperature_warning_title">Low temperature warning</string>
   <string name="managed_profile_foreground_toast">"You're using your work profile"</string>
   <string name="mdb_entering">Starting…</string>
   <string name="mdb_restore_cancel">Cancel</string>
