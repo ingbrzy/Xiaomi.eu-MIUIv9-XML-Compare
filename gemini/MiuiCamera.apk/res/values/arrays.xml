@@ -46,6 +46,58 @@
         <item>30000</item>
         <item>60000</item>
     </string-array>
+    <string-array name="pref_video_focusmode_entries">
+        <item>@string/pref_video_focusmode_entry_auto</item>
+        <item>@string/pref_video_focusmode_entry_continuous</item>
+    </string-array>
+    <string-array name="pref_video_focusmode_entryvalues">
+        <item>@string/pref_video_focusmode_entryvalue_auto</item>
+        <item>@string/pref_video_focusmode_entryvalue_continuous</item>
+    </string-array>
+    <string-array name="pref_camera_picturesize_entries">
+        <item>@string/pref_camera_picturesize_entry_4208x3120</item>
+        <item>@string/pref_camera_picturesize_entry_4208x2368</item>
+        <item>@string/pref_camera_picturesize_entry_3264x2448</item>
+        <item>@string/pref_camera_picturesize_entry_3200x2400</item>
+        <item>@string/pref_camera_picturesize_entry_3328x1872</item>
+        <item>@string/pref_camera_picturesize_entry_3200x1800</item>
+        <item>@string/pref_camera_picturesize_entry_3264x1840</item>
+        <item>@string/pref_camera_picturesize_entry_3264x1836</item>
+        <item>@string/pref_camera_picturesize_entry_2592x1944</item>
+        <item>@string/pref_camera_picturesize_entry_2048x1536</item>
+        <item>@string/pref_camera_picturesize_entry_1920x1088</item>
+        <item>@string/pref_camera_picturesize_entry_1920x1080</item>
+        <item>@string/pref_camera_picturesize_entry_1600x1200</item>
+        <item>@string/pref_camera_picturesize_entry_1440x1080</item>
+        <item>@string/pref_camera_picturesize_entry_1472x1104</item>
+        <item>@string/pref_camera_picturesize_entry_1280x960</item>
+        <item>@string/pref_camera_picturesize_entry_1472x832</item>
+        <item>@string/pref_camera_picturesize_entry_1440x816</item>
+        <item>@string/pref_camera_picturesize_entry_1280x720</item>
+        <item>@string/pref_camera_picturesize_entry_1024x768</item>
+    </string-array>
+    <string-array name="pref_camera_picturesize_entryvalues">
+        <item>4208x3120</item>
+        <item>4208x2368</item>
+        <item>3264x2448</item>
+        <item>3200x2400</item>
+        <item>3328x1872</item>
+        <item>3200x1800</item>
+        <item>3264x1840</item>
+        <item>3264x1836</item>
+        <item>2592x1944</item>
+        <item>2048x1536</item>
+        <item>1920x1088</item>
+        <item>1920x1080</item>
+        <item>1600x1200</item>
+        <item>1440x1080</item>
+        <item>1472x1104</item>
+        <item>1280x960</item>
+        <item>1472x832</item>
+        <item>1440x816</item>
+        <item>1280x720</item>
+        <item>1024x768</item>
+    </string-array>
     <string-array name="pref_camera_picture_format_entries">
         <item>@string/pref_camera_picture_format_entry_jpeg</item>
         <item>@string/pref_camera_picture_format_entry_raw</item>
@@ -110,10 +162,10 @@
         <item>torch</item>
     </string-array>
     <array name="camera_flashmode_icons">
-        <item>@drawable/ic_config_flash_off</item>
-        <item>@drawable/ic_config_flash_auto</item>
-        <item>@drawable/ic_config_flash_on</item>
-        <item>@drawable/ic_config_flash_torch</item>
+        <item>@drawable/ic_flash_button_off</item>
+        <item>@drawable/ic_flash_button_auto</item>
+        <item>@drawable/ic_flash_button_on</item>
+        <item>@drawable/ic_flash_button_torch</item>
     </array>
     <string-array name="pref_camera_video_flashmode_entries">
         <item>@string/pref_camera_flashmode_entry_on</item>
@@ -124,8 +176,8 @@
         <item>off</item>
     </string-array>
     <array name="video_flashmode_icons">
-        <item>@drawable/ic_config_flash_on</item>
-        <item>@drawable/ic_config_flash_off</item>
+        <item>@drawable/ic_flash_button_on</item>
+        <item>@drawable/ic_flash_button_off</item>
     </array>
     <string-array name="pref_camera_recordlocation_entryvalues">
         <item>on</item>
@@ -159,6 +211,43 @@
         <item>@drawable/bg_white_balance_cloudy</item>
         <item>@drawable/bg_white_balance_manual</item>
     </array>
+    <string-array name="pref_video_whitebalance_entries">
+        <item>@string/pref_camera_whitebalance_entry_auto</item>
+        <item>@string/pref_camera_whitebalance_entry_incandescent</item>
+        <item>@string/pref_camera_whitebalance_entry_daylight</item>
+        <item>@string/pref_camera_whitebalance_entry_fluorescent</item>
+        <item>@string/pref_camera_whitebalance_entry_cloudy</item>
+    </string-array>
+    <string-array name="pref_video_whitebalance_entryvalues">
+        <item>@string/pref_camera_whitebalance_entryvalue_auto</item>
+        <item>@string/pref_camera_whitebalance_entryvalue_incandescent</item>
+        <item>@string/pref_camera_whitebalance_entryvalue_daylight</item>
+        <item>@string/pref_camera_whitebalance_entryvalue_fluorescent</item>
+        <item>@string/pref_camera_whitebalance_entryvalue_cloudy</item>
+    </string-array>
+    <array name="video_whitebalance_icons">
+        <item>@drawable/bg_white_balance_auto</item>
+        <item>@drawable/bg_white_balance_incandescent</item>
+        <item>@drawable/bg_white_balance_sunlight</item>
+        <item>@drawable/bg_white_balance_fluorescent</item>
+        <item>@drawable/bg_white_balance_cloudy</item>
+    </array>
+    <string-array name="pref_camera_coloreffect_entries">
+        <item>@string/pref_camera_coloreffect_entry_none</item>
+        <item>@string/pref_camera_coloreffect_entry_mono</item>
+        <item>@string/pref_camera_coloreffect_entry_sepia</item>
+        <item>@string/pref_camera_coloreffect_entry_negative</item>
+        <item>@string/pref_camera_coloreffect_entry_posterize</item>
+        <item>@string/pref_camera_coloreffect_entry_aqua</item>
+    </string-array>
+    <string-array name="pref_camera_coloreffect_entryvalues">
+        <item>none</item>
+        <item>mono</item>
+        <item>sepia</item>
+        <item>negative</item>
+        <item>posterize</item>
+        <item>aqua</item>
+    </string-array>
     <string-array name="pref_camera_touchafaec_entries">
         <item>@string/pref_camera_touchafaec_entry_on</item>
         <item>@string/pref_camera_touchafaec_entry_off</item>
@@ -362,6 +451,18 @@
         <item>@string/pref_camera_hfr_value_2x</item>
         <item>@string/pref_camera_hfr_value_3x</item>
     </string-array>
+    <string-array name="pref_video_speed_entries">
+        <item>@string/pref_video_speed_entry_normal</item>
+        <item>@string/pref_video_speed_entry_slow</item>
+    </string-array>
+    <string-array name="pref_video_speed_entryvalues">
+        <item>@string/pref_video_speed_value_normal</item>
+        <item>@string/pref_video_speed_value_slow</item>
+    </string-array>
+    <array name="pref_video_speed_largeicons">
+        <item>@drawable/bg_video_speed_normal</item>
+        <item>@drawable/bg_video_speed_slow</item>
+    </array>
     <string-array name="pref_camera_histogram_entryvalues">
         <item>@string/pref_camera_histogram_value_enable</item>
         <item>@string/pref_camera_histogram_value_disable</item>
@@ -406,6 +507,14 @@
         <item>@string/pref_camera_zsl_value_on</item>
         <item>@string/pref_camera_zsl_value_off</item>
     </string-array>
+    <array name="camera_coloreffect_largeIcons">
+        <item>@drawable/ic_camera_coloreffect_none</item>
+        <item>@drawable/ic_camera_coloreffect_mono</item>
+        <item>@drawable/ic_camera_coloreffect_sepia</item>
+        <item>@drawable/ic_camera_coloreffect_negative</item>
+        <item>@drawable/ic_camera_coloreffect_posterize</item>
+        <item>@drawable/ic_camera_coloreffect_aqua</item>
+    </array>
     <string-array name="pref_camera_exposuretime_entries">
         <item>@string/pref_camera_exposuretime_entry_auto</item>
         <item>@string/pref_camera_exposuretime_entry_1000</item>
@@ -523,10 +632,6 @@
         <item>@string/pref_camera_setting_switch_entryvalue_off</item>
         <item>@string/pref_camera_setting_switch_entryvalue_on</item>
     </string-array>
-    <string-array name="pref_camera_portrait_mode_entries">
-        <item>@string/pref_camera_portrait_mode_entry_off</item>
-        <item>@string/pref_camera_portrait_mode_entry_on</item>
-    </string-array>
     <string-array name="pref_front_mirror_entries">
         <item>@string/pref_front_mirror_entry_auto</item>
         <item>@string/pref_front_mirror_entry_on</item>
@@ -577,10 +682,10 @@
         <item>@string/pref_camera_hdr_entryvalue_live</item>
     </string-array>
     <array name="pref_camera_hdr_icons">
-        <item>@drawable/ic_config_hdr_off</item>
-        <item>@drawable/ic_config_hdr_auto</item>
-        <item>@drawable/ic_config_hdr_normal</item>
-        <item>@drawable/ic_config_hdr_live</item>
+        <item>@drawable/ic_hdr_off</item>
+        <item>@drawable/ic_hdr_auto</item>
+        <item>@drawable/ic_hdr_normal</item>
+        <item>@drawable/ic_hdr_live</item>
     </array>
     <string-array name="pref_simple_hdr_entries">
         <item>@string/pref_simple_hdr_entry_off</item>
@@ -591,8 +696,8 @@
         <item>on</item>
     </string-array>
     <array name="pref_simple_hdr_icons">
-        <item>@drawable/ic_config_hdr_off</item>
-        <item>@drawable/ic_config_hdr_normal</item>
+        <item>@drawable/ic_hdr_off</item>
+        <item>@drawable/ic_hdr_normal</item>
     </array>
     <string-array name="pref_camera_delay_capture_entries">
         <item>@string/pref_camera_delay_capture_entry_audio</item>
@@ -639,14 +744,6 @@
         <item>2</item>
         <item>1</item>
         <item>0</item>
-    </string-array>
-    <string-array name="pref_camera_zoom_mode_entries">
-        <item>@string/pref_camera_zoom_mode_entry_wide</item>
-        <item>@string/pref_camera_zoom_mode_entry_tele</item>
-    </string-array>
-    <string-array name="pref_camera_zoom_mode_entryvalues">
-        <item>@string/pref_camera_zoom_mode_entryvalue_wide</item>
-        <item>@string/pref_camera_zoom_mode_entryvalue_tele</item>
     </string-array>
     <string-array name="pref_skin_beautify_multi_level_entries">
         <item>@string/pref_camera_beautify_entry_0</item>
