@@ -81,6 +81,7 @@
   <string name="current_preview">Preview</string>
   <string name="current_wallpaper">Current</string>
   <string name="custom_wallpaper_picker">Browse</string>
+  <string name="defalut_launcher_title">Default launcher</string>
   <string name="default_folder_title_claro">Claro</string>
   <string name="default_folder_title_game">Games</string>
   <string name="default_folder_title_microsoft">Microsoft</string>
@@ -183,13 +184,16 @@
   <string name="invalid_contact_shortcut">Invalid contact</string>
   <string name="is_setting_wallpaper_message">Setting wallpaper…</string>
   <string name="is_system_wallpaper_message">"Can't delete system resources"</string>
+  <string name="launcher_auto_fill_empty_title">Fill empty cells</string>
   <string name="launcher_not_exist">An error occurred, go back to Home screen and try again.</string>
+  <string name="launcher_title">Home screen &amp; Recents</string>
   <string name="like">Favorite</string>
   <string name="liked">Favorited</string>
   <string name="loading_desktop">Just a sec…</string>
   <string name="loading_wallpaper">Just a sec…</string>
   <string name="local_wallpaper">Downloaded</string>
   <string name="lock_screen">Lock screen</string>
+  <string name="lock_screen_cells_title">Lock Home screen layout</string>
   <string name="lock_screen_failed_message">"Can't set Lock screen wallpaper"</string>
   <string name="lock_screen_success_message">Applied to Lock screen</string>
   <string name="lock_screen_wallpaper">Lock screen wallpaper</string>
@@ -216,6 +220,7 @@
   <string name="menu_wallpaper">Wallpaper</string>
   <string name="menu_workspace_preview">Home screen previews</string>
   <string name="mi_wallpaper">MIUI Theme Store</string>
+  <string name="miui_screen_config_title">Home screen settings</string>
   <string name="mtzgadget_missing_text">"Widget isn't available"</string>
   <string name="multi_selecting_tips">To pick up an app, drag its icon and drop here</string>
   <string name="no_detail_page">No details page</string>
@@ -224,6 +229,11 @@
   <string name="notification_installed">Installed successfully</string>
   <string name="notification_open_button">Open</string>
   <string name="online_wallpaper">Online</string>
+  <string name="open_personal_assistant_dialog_btn_cancel">Cancel</string>
+  <string name="open_personal_assistant_dialog_btn_confirm">Turn off</string>
+  <string name="open_personal_assistant_dialog_desc">"You won't be able to use App vault and receive its updates. Turn off now?"</string>
+  <string name="open_personal_assistant_dialog_title">Turn off App vault</string>
+  <string name="open_personal_assistant_title">Turn on App vault</string>
   <string name="out_of_space">No more room on this Home screen</string>
   <string name="permdesc_install_shortcut">Allows an app to add shortcuts without user intervention.</string>
   <string name="permdesc_install_widget">Allows an app to add widgets without user intervention.</string>
@@ -253,7 +263,9 @@
   <string name="pref_wallpaper_scroll_type_title">Wallpaper alignment</string>
   <string name="preferences_general_title">Additional settings</string>
   <string name="preferences_title">Launcher settings</string>
+  <string name="preferred_app_settings_not_selected">Not selected</string>
   <string name="process"/>
+  <string name="recents_config_title">Recents</string>
   <string name="recommend_apk_size_and_desc">%1$dMB | %2$s</string>
   <string name="recommend_apps_default_title">Empty</string>
   <string name="recommend_apps_no_data">No Data</string>
@@ -263,6 +275,7 @@
   <string name="recommend_apps_tips">"This feature needs to connect to the internet to work normally. To turn this feature off, touch this folder's name."</string>
   <string name="recommend_loading">Loading</string>
   <string name="reset_scene_prompt">Screen will be reset to default layout.</string>
+  <string name="screen_cells_config_title">Home screen layout</string>
   <string name="screen_locked_toast">Home screen layout is locked</string>
   <string name="screen_number">%d screen</string>
   <string name="select_all">Select all</string>
@@ -274,6 +287,7 @@
   <string name="share">Share</string>
   <string name="sharedUserId"/>
   <string name="show_all">Show all</string>
+  <string name="show_mem_info_title">Show memory status</string>
   <string name="sort_by_abc">Sort by name</string>
   <string name="sort_by_frequency">Sort by usage</string>
   <string name="sort_by_not_defined">Auto-sort</string>
@@ -285,6 +299,7 @@
   <string name="status_installing">Installing</string>
   <string name="status_paused">Paused</string>
   <string name="status_pending">Waiting</string>
+  <string name="title_jeejen">Jeejen Home screen</string>
   <string name="title_select_live_folder">Select folder</string>
   <string name="title_select_shortcut">Select shortcut</string>
   <string name="toast_screen_icons_misplaced">Restored from other source, some icons may be misplaced</string>
