@@ -1892,6 +1892,20 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>TT</item>
         <item>UY</item>
         <item>VE</item>
+        <item>PL</item>
+        <item>GR</item>
+        <item>ME</item>
+        <item>CZ</item>
+        <item>HU</item>
+        <item>SK</item>
+        <item>AT</item>
+        <item>HR</item>
+        <item>RS</item>
+        <item>EE</item>
+        <item>ES</item>
+        <item>IT</item>
+        <item>PT</item>
+        <item>FR</item>
     </string-array>
     <string-array name="ncc_locales">
         <item>TW</item>
