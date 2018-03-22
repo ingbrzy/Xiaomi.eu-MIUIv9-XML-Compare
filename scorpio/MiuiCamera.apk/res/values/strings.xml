@@ -527,8 +527,8 @@ and brings out the people in the front."</string>
   <string name="pref_camera_whitebalance_entryvalue_measure">measure</string>
   <string name="pref_camera_whitebalance_title">WB</string>
   <string name="pref_camera_zoom_mode_default">@string/pref_camera_zoom_mode_entryvalue_wide</string>
-  <string name="pref_camera_zoom_mode_entry_high_pixel">HIGH PIXEL</string>
-  <string name="pref_camera_zoom_mode_entry_standard">STANDARD</string>
+  <string name="pref_camera_zoom_mode_entry_high_pixel">LOW LIGHT</string>
+  <string name="pref_camera_zoom_mode_entry_standard">REGULAR</string>
   <string name="pref_camera_zoom_mode_entry_tele">TELE</string>
   <string name="pref_camera_zoom_mode_entry_wide">WIDE</string>
   <string name="pref_camera_zoom_mode_entryvalue_tele">tele</string>
