@@ -2848,3 +2848,21 @@
 
     return v0
 .end method
+
+.method public static useLongDelayToEnableVideoStop()Z
+    .locals 1
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_C3D:Z
+
+    if-nez v0, :cond_0
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_C3C:Z
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x1
+
+    goto :goto_0
+.end method
