@@ -101,7 +101,7 @@
     </string-array>
     <string-array name="ap_identify">
         <item>Default</item>
-        <item>iPhone</item>
+        <item>Moblie hotspot</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>None</item>

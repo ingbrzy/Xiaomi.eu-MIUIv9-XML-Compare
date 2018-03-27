@@ -1688,7 +1688,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="enabled_authorised_apps_summary">Your authorization will be revoked after you toggle switches of individual apps.</string>
   <string name="enabled_authorised_apps_title">Granted authorization</string>
   <string name="enabled_by_admin">Enabled by admin</string>
-  <string name="enalbe_identify_iPhone">AP identification</string>
+  <string name="enalbe_identify_iPhone">Device identification</string>
   <string name="encrypt_talkback_dialog_message_password">When you enter your password to start this device, accessibility services like %1$s won’t yet be available.</string>
   <string name="encrypt_talkback_dialog_message_pattern">When you enter your pattern to start this device, accessibility services like %1$s won’t yet be available.</string>
   <string name="encrypt_talkback_dialog_message_pin">When you enter your PIN to start this device, accessibility services like %1$s won’t yet be available.</string>
@@ -2549,6 +2549,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="lockscreen_glogin_password_hint">Password</string>
   <string name="lockscreen_glogin_submit_button">Sign in</string>
   <string name="lockscreen_magazine">Wallpaper Carousel</string>
+  <string name="lockscreen_magazine_summary">High quality wallpaper carousel</string>
   <string name="lockscreen_magazine_title">Wallpaper Carousel</string>
   <string name="lockscreen_remote_input">If device is locked, prevent typing replies or other text in notifications</string>
   <string name="lockscreen_settings_title">Lock screen preferences</string>
@@ -3230,6 +3231,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="phone_language_summary"/>
   <string name="physical_device_title">%1$s - %2$s</string>
   <string name="physical_keyboard_title">Physical keyboard</string>
+  <string name="pick_up_gesture_wakeup_title">Pick up gesture to wake</string>
   <string name="picture_color_mode">Picture color mode</string>
   <string name="picture_color_mode_desc">Use sRGB</string>
   <string name="picture_in_picture_app_detail_summary">"Allow this app to create a picture-in-picture window while the app is open or after you leave it (for example, to continue watching a video). This window displays on top of other apps "</string>
@@ -3749,6 +3751,7 @@ This setting affects all users on this phone."</string>
   <string name="screen_paper_mode_apps_title">Use Reading mode</string>
   <string name="screen_paper_mode_global_summary">Use Reading mode for all apps</string>
   <string name="screen_paper_mode_global_title">All apps</string>
+  <string name="screen_paper_mode_hdr_toast">"Reading mode will be turned off while you're playing HDR videos. It will be turned back on automatically after the playback is over."</string>
   <string name="screen_paper_mode_local_summary">Use Reading mode for apps you select</string>
   <string name="screen_paper_mode_local_title">Selected apps</string>
   <string name="screen_paper_mode_off_apps_title">"Don't use Reading mode"</string>
