@@ -311,7 +311,7 @@ Free up at least %s."</string>
   <string name="select_empty">Select items to import</string>
   <string name="select_item_calendar">Calendar</string>
   <string name="select_item_contacts">Contacts</string>
-  <string name="select_item_empty_summary">No contents</string>
+  <string name="select_item_empty_summary">No items</string>
   <string name="select_item_notes">Notes</string>
   <string name="select_item_photos">Photos</string>
   <string name="select_item_summary_loading">Loading data…</string>
