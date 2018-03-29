@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="traffic_type">
+        <item>"Mobile usage "</item>
+        <item>"WLAN usage "</item>
+    </string-array>
+    <string-array name="date_of_traffic">
+        <item>"Today "</item>
+        <item>"This month "</item>
+        <item>"Last month "</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix">
+        <item>"Today: "</item>
+        <item>"This month: "</item>
+        <item>"Last month: "</item>
+    </string-array>
+    <string-array name="date_of_app_all">
+        <item>Today (data)</item>
+        <item>This month (data)</item>
+        <item>Last month (data)</item>
+        <item>Today WLAN</item>
+        <item>This month WLAN</item>
+        <item>Last month WLAN</item>
+    </string-array>
     <string-array name="status_bar_style_entries">
         <item>Combined</item>
         <item>Separate</item>
@@ -16,6 +38,14 @@
     <string-array name="status_bar_show_carrier_values">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="status_bar_show_carrier_entries_for_notch">
+        <item>@string/carrier_show_in_lock_screen</item>
+        <item>@string/carrier_show_none</item>
+    </string-array>
+    <string-array name="status_bar_show_carrier_values_for_notch">
+        <item>0</item>
         <item>2</item>
     </string-array>
     <string-array name="check_importance_entries">
