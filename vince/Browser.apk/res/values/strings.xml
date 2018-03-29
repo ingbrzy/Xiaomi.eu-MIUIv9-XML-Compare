@@ -266,9 +266,9 @@
   <string name="bookmark_move_to">Move to</string>
   <string name="bookmark_needs_title">Bookmark must have a name</string>
   <string name="bookmark_needs_url">Bookmark must contain a URL</string>
-  <string name="bookmark_not_saved">"Couldn't save bookmark"</string>
+  <string name="bookmark_not_saved">"Couldn't add to bookmarks"</string>
   <string name="bookmark_rename_group">Rename group</string>
-  <string name="bookmark_saved">Saved to bookmarks</string>
+  <string name="bookmark_saved">Added to bookmarks</string>
   <string name="bookmark_title">Bookmark name</string>
   <string name="bookmark_title_lable">Title</string>
   <string name="bookmark_url">URL http://</string>
@@ -344,7 +344,9 @@
   <string name="comment_app_menu">Comment</string>
   <string name="comment_description">Comment</string>
   <string name="comment_hint">Comment</string>
+  <string name="comment_max_length">Sorry, the input box is full.</string>
   <string name="comment_menu">Comment</string>
+  <string name="comment_num_description">Comment number</string>
   <string name="common_use_phrase_bottom_bar_cn_txt">.cn</string>
   <string name="common_use_phrase_bottom_bar_com_txt">.com</string>
   <string name="common_use_phrase_bottom_bar_https_txt">https://</string>
@@ -470,9 +472,9 @@ to view open tabs from other devices."</string>
   <string name="enable_geolocation_confirm_message">Turning off location services will affect the recommendations you receive.</string>
   <string name="enter_developer_mode">Enter developer mode</string>
   <string name="enter_incongnito_mode">Enter incognito mode</string>
-  <string name="enter_the_group_name">Please enter the group name</string>
-  <string name="enter_the_password">Please enter the password</string>
-  <string name="enter_the_user_name">Please enter the user name</string>
+  <string name="enter_the_group_name">Enter group name</string>
+  <string name="enter_the_password">Enter password</string>
+  <string name="enter_the_user_name">Enter username</string>
   <string name="error_console_eval_button_text">Evaluate</string>
   <string name="error_console_eval_text_hint">Evaluate JavaScript</string>
   <string name="error_console_header_text_maximized">JavaScript console</string>
@@ -483,6 +485,7 @@ to view open tabs from other devices."</string>
   <string name="error_unauthorized">Syncing with your Mi Account has been turned off due to too many sign-in attempts.</string>
   <string name="exit">Exit</string>
   <string name="exit_browser_warning">Exit Browser now?</string>
+  <string name="favorite">Favorite</string>
   <string name="file_dir">Change folder</string>
   <string name="file_name">"Name: "</string>
   <string name="file_picker">Select path</string>
@@ -517,7 +520,7 @@ to view open tabs from other devices."</string>
   <string name="go_supermarket_title">More apps, faster speed, and less data usage in App Store</string>
   <string name="gold_medals">Gold medals</string>
   <string name="google_bookmarks">Google</string>
-  <string name="green_kid_block_request">The website has been banned from visits by parents.</string>
+  <string name="green_kid_block_request">Access to this website is restricted.</string>
   <string name="have_sent_bookmark_to_home_screen">Placed on Home screen</string>
   <string name="hint">Hint</string>
   <string name="history">History</string>
@@ -1074,7 +1077,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="pref_enable_videos">Videos</string>
   <string name="pref_extras_reset_default">Restore defaults</string>
   <string name="pref_extras_reset_default_dlg">Restore default settings?</string>
-  <string name="pref_extras_reset_default_summary">Restore default settings</string>
+  <string name="pref_extras_reset_default_summary">Restore default order</string>
   <string name="pref_extras_reset_default_title">Other</string>
   <string name="pref_extras_send_feedback">Send feedback</string>
   <string name="pref_extras_title">Additional settings</string>
@@ -1218,7 +1221,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="save_image_success">Image saved</string>
   <string name="save_page_capture_tip">Open notification shade to view screenshot.</string>
   <string name="save_page_capture_to_camera">Screenshot saved</string>
-  <string name="save_to_bookmark">Save to bookmarks</string>
+  <string name="save_to_bookmark">Add to bookmarks</string>
   <string name="save_to_camera">Save to Gallery</string>
   <string name="save_to_camera_failed">"Can't save image"</string>
   <string name="save_to_camera_success">Saved to Gallery</string>
@@ -1281,7 +1284,7 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="snapshot_failed">"Couldn't save page"</string>
   <string name="snapshot_successed">Open Bookmarks &amp; History -&gt; LOCAL to view page</string>
   <string name="soft_toast_see_view">View</string>
-  <string name="speech_engine_not_install">Speech engine is not installed</string>
+  <string name="speech_engine_not_install">"Speech engine isn't installed"</string>
   <string name="ssl_bad_clock_date_settings">Set date</string>
   <string name="ssl_bad_clock_warning" formatted="false">"A private connection to %s1 can't be established because your device's date and time (%s2) are incorrect."</string>
   <string name="ssl_certificate">Security certificate</string>
@@ -1325,6 +1328,15 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="suggest_access_music">Mi Music</string>
   <string name="suggest_item_delete_text">Delete</string>
   <string name="suggest_open_app_failed">"Couldn't open this app"</string>
+  <string name="suggestion_express_button_query_more">SEE MORE</string>
+  <string name="suggestion_express_button_text_query">QUERY</string>
+  <string name="suggestion_express_exception_net">The network is abnormal. Please check the network connection</string>
+  <string name="suggestion_express_exception_number">The number is incorrect, please check the related number</string>
+  <string name="suggestion_express_exception_server">Abnormal server, please check later</string>
+  <string name="suggestion_express_input_empty">The tracking number should not be empty</string>
+  <string name="suggestion_express_input_hint_inside">Please enter tracking number</string>
+  <string name="suggestion_express_input_hint_out">Tracking number:</string>
+  <string name="suggestion_express_title">Express single number query</string>
   <string name="suggestion_lottery_detail_pour">%s NOTE</string>
   <string name="suggestion_lottery_detail_price">EACH NOTE IS WORTH %s YUAN</string>
   <string name="suggestion_lottery_detail_text">THIS ROUND %s</string>
@@ -1444,9 +1456,9 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="voice_connect_network">"Couldn't connect to the network."</string>
   <string name="voice_description">Voice search</string>
   <string name="voice_network_connection">Voice search requires to connect to the internet to work normally.</string>
-  <string name="voice_open_permission_baidu">Please go to Settings turn on voice permissions for Speech Recognition Settings</string>
-  <string name="voice_open_permission_xiaoai">Please go to Settings turn on voice permissions for Xiaoai Voice Engine</string>
-  <string name="voice_open_permission_xunfei">Please go to Settings turn on voice permissions for Voice Settings</string>
+  <string name="voice_open_permission_baidu">Go to Settings and allow the speech engine to access your microphone.</string>
+  <string name="voice_open_permission_xiaoai">Go to Settings and allow Mi AI speech engine to access your microphone.</string>
+  <string name="voice_open_permission_xunfei">Go to Settings and give Mi Browser all the required permissions.</string>
   <string name="voice_search_permission">Voice search needs to access your mic to work normally.</string>
   <string name="voice_semantic_analysis">Browser will be able to analyze semantics after you allow it to connect.</string>
   <string name="voice_start_description">Start</string>
