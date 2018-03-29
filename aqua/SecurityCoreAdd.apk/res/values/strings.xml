@@ -77,6 +77,13 @@ to be able to view them anytime"</string>
   <string name="dont_import">Not now</string>
   <string name="downloading_space">Downloading…</string>
   <string name="enable">Turn on</string>
+  <string name="encrypt_space_delete_dialog_click_message">"*If you don't need to move data, %s"</string>
+  <string name="encrypt_space_delete_dialog_click_message_action">delete and create Second space now.</string>
+  <string name="encrypt_space_delete_dialog_message">"You're about to update Android. After the update, Second space data will become incompatible. To avoid this, move all data to First space, delete Second space, and create it again."</string>
+  <string name="encrypt_space_delete_dialog_positive_text">Move data</string>
+  <string name="encrypt_space_delete_dialog_title">Attention</string>
+  <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
+  <string name="encrypt_space_delete_notification_title">Second space</string>
   <string name="enter_air_space">Go to Work space</string>
   <string name="err_copy_contacts">"Couldn't copy contacts"</string>
   <string name="err_copy_files">"Couldn't copy files"</string>
