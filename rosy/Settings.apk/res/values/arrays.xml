@@ -301,6 +301,28 @@
         <item>50%</item>
         <item>100%</item>
     </string-array>
+    <string-array name="traffic_type">
+        <item>"Mobile usage "</item>
+        <item>"WLAN usage "</item>
+    </string-array>
+    <string-array name="date_of_traffic">
+        <item>"Today "</item>
+        <item>"This month "</item>
+        <item>"Last month "</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix">
+        <item>"Today: "</item>
+        <item>"This month: "</item>
+        <item>"Last month: "</item>
+    </string-array>
+    <string-array name="date_of_app_all">
+        <item>Today (data)</item>
+        <item>This month (data)</item>
+        <item>Last month (data)</item>
+        <item>Today WLAN</item>
+        <item>This month WLAN</item>
+        <item>Last month WLAN</item>
+    </string-array>
     <string-array name="status_bar_style_entries">
         <item>Combined</item>
         <item>Separate</item>
