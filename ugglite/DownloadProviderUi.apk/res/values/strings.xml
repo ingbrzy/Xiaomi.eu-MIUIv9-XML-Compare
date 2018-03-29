@@ -7,7 +7,7 @@
   <string name="DOWNLOAD_UNIT_TB">TB</string>
   <string name="Only_the_wifi">Only use WLAN</string>
   <string name="about">About</string>
-  <string name="action_back">back</string>
+  <string name="action_back">Back</string>
   <string name="action_settings">Settings</string>
   <string name="ad_download">Install</string>
   <string name="ad_mark">AD</string>
@@ -26,6 +26,7 @@
   <string name="app_size">%1$s</string>
   <string name="auth_activity_title">Xunlei Account</string>
   <string name="auth_fail">"Couldn't get authorization"</string>
+  <string name="average_speed">Average speed</string>
   <string name="bind_xunlei_account">Added Xunlei account %1$s</string>
   <string name="bt_download">Download</string>
   <string name="bt_path_not_exit">"This path doesn't exist"</string>
@@ -156,16 +157,19 @@
   <string name="editmode_menu_share">Share</string>
   <string name="engine_open">Open</string>
   <string name="enter_search">Web search</string>
+  <string name="everyone_test">Everyone is testing</string>
   <string name="experience_xunlei_account_speed">Xunlei members can enjoy downloads at lightening speed.</string>
   <string name="expire_notification_msg">Xunlei membership expires soon.</string>
   <string name="expire_today_notification_msg">Xunlei membership expires today.</string>
   <string name="extend">More</string>
   <string name="extra_ad_title">You may also like</string>
   <string name="extract_file">Unpacking file…</string>
+  <string name="fastest_speed">Top speed</string>
   <string name="fileSizeSuffix">%1$s %2$s</string>
   <string name="file_exist_hint">This file already exists</string>
   <string name="file_picker">Choose a location</string>
   <string name="file_size">Size:</string>
+  <string name="flow_consume">Traffic</string>
   <string name="force_touch_newdownload">New download</string>
   <string name="force_touch_rank">Rankings</string>
   <string name="force_touch_search">Search the web</string>
@@ -211,7 +215,7 @@
   <string name="menu_des_vip">Xunlei membership</string>
   <string name="menu_enter_edit_mode">Editor</string>
   <string name="menu_preferences">Downloads settings</string>
-  <string name="menu_title_fileexplore">Explorer</string>
+  <string name="menu_title_fileexplore">File Manager</string>
   <string name="menu_title_pause_all">Pause all</string>
   <string name="menu_title_resume_all">Start all</string>
   <string name="menu_title_settings">Settings</string>
@@ -403,6 +407,7 @@ across all your devices with Xunlei"</string>
   <string name="speed_entrance">Test WLAN speed</string>
   <string name="speed_result_broadband_text1">Current download speed</string>
   <string name="speed_result_broadband_text2">%s of bandwidth</string>
+  <string name="speed_result_broadband_text3">Broadband</string>
   <string name="speed_result_finish">Done</string>
   <string name="speed_result_restart">Test again</string>
   <string name="speed_start">Test</string>
@@ -428,6 +433,10 @@ across all your devices with Xunlei"</string>
   <string name="task_detail_notfound_confirm">OK</string>
   <string name="task_fail">"Couldn't complete operation"</string>
   <string name="terabyteShort">TB</string>
+  <string name="test_speed">Test</string>
+  <string name="test_speed_detail">Details</string>
+  <string name="test_speed_please">Tap to test speed...</string>
+  <string name="test_speed_result">Test result</string>
   <string name="text_showmore_infoflow">View more sources</string>
   <string name="third_web_cancel">Cancel</string>
   <string name="third_web_confirm">OK</string>
@@ -436,6 +445,7 @@ across all your devices with Xunlei"</string>
   <string name="third_web_filesize">Size</string>
   <string name="third_web_savepath">Location</string>
   <string name="third_web_title">Download</string>
+  <string name="time_consume">Duration</string>
   <string name="title_homepage_infoflow">Recent updates</string>
   <string name="title_tips">Attention</string>
   <string name="title_unbind_xunlei">Remove your Xunlei Account</string>
@@ -445,6 +455,7 @@ across all your devices with Xunlei"</string>
   <string name="torrent_file_error">"Couldn't parse this torrent file"</string>
   <string name="torrent_no_subfile">No subfiles in this torrent</string>
   <string name="total_speedup">Speed boost (total)</string>
+  <string name="try_download">Try to download</string>
   <string name="turn_off_xunlei_message">You may experience slower download speeds.</string>
   <string name="turn_off_xunlei_tips">Xunlei download acceleration is off</string>
   <string name="turn_off_xunlei_title">Turn off Xunlei</string>
@@ -476,7 +487,7 @@ Accelerate downloads across all your devices."</string>
   <string name="xl_month_vip_open">Monthly membership (%1$s Mi Credits)</string>
   <string name="xl_month_vip_renew">Renew for 1 month (%1$s Mi Credits)</string>
   <string name="xl_pay_info">Total %1$s CNY, saving %2$s CNY</string>
-  <string name="xl_privilege_play">Download playback</string>
+  <string name="xl_privilege_play">Sync playback</string>
   <string name="xl_privilege_play_info">Stream unfinished downloads on multiple devices</string>
   <string name="xl_privilege_speedup">Download accelerator</string>
   <string name="xl_privilege_speedup_info">High-speed channel and support for offline downloads</string>
