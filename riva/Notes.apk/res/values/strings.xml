@@ -201,4 +201,5 @@
   - Set reminders"</string>
   <string name="widget_content_loading">Just a sec…</string>
   <string name="widget_havenot_content">Tap to create a note. Hold widget to resize.</string>
+  <string name="xiaomi_account_type">com.xiaomi</string>
 </resources>
