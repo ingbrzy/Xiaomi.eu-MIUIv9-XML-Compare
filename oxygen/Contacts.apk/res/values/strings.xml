@@ -1004,7 +1004,7 @@ To add a contact to your list of favorites:
   <string name="search_contacts_display">Contacts;Display</string>
   <string name="search_contacts_more">Organize;Contacts</string>
   <string name="search_contacts_recovery">Contacts</string>
-  <string name="search_contacts_setting">Contact settings;Display photos and info;Assign contact photos;Import and export;Share; Import from SD card;Import from SIM card;Import from other phone;Export from SD card;Export from SIM card;Share contacts; Display preferences;Hide incomplete numbers;Show SIM contacts;Configure contact lists;Smart groups;Organize contacts; Merge duplicate contacts;Delete batch;Clear data;Rebuild index data;t9;SIM cards;SIM card storage;Contacts recovery introduction;Contact photos</string>
+  <string name="search_contacts_setting">Contact settings;Display photos and info;Assign contact photos;Import and export;Share; Import from storage;Import from SIM card;Import from other phone;Export to storage;Export to SIM card;Share contacts; Display preferences;Hide incomplete numbers;Show SIM contacts;Configure contact lists;Smart groups;Organize contacts; Merge duplicate contacts;Delete batch;Clear data;Rebuild index data;t9;SIM cards;SIM card storage;Contacts recovery introduction;Contact photos</string>
   <string name="search_display_only_phones">Contacts;Display</string>
   <string name="search_display_sim_contacts">Contacts;Display</string>
   <string name="search_export_to_sdcard">Contacts;Export;storage</string>
@@ -1027,7 +1027,7 @@ To add a contact to your list of favorites:
   <string name="search_simple_mode">Display;info;photos;Contacts</string>
   <string name="search_smart_group_title">Contacts;Display</string>
   <string name="search_wipe_data">Organize;Contacts</string>
-  <string name="searching_vcard_message">Searching for vCard data on SD card…</string>
+  <string name="searching_vcard_message">Searching for vCard data from device…</string>
   <string name="select_all">Select all</string>
   <string name="select_all_exceed">"Select no more than %1$d, can't select all"</string>
   <string name="select_exceed">Select no more than %1$d</string>
