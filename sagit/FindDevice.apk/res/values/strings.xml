@@ -14,7 +14,7 @@ Contact your sales agent for details."</string>
   <string name="disable_find_device_error">"Can't turn off Find device. %1$s"</string>
   <string name="disable_find_device_success">Find device is off</string>
   <string name="doing_extra_login_steps">Verifying sign in…</string>
-  <string name="emergency_call">Emergency Call</string>
+  <string name="emergency_call">Emergency call</string>
   <string name="enable_find_device_error">"Can't turn on Find device. %1$s"</string>
   <string name="enable_find_device_success">Find device is on</string>
   <string name="find_device">Find device</string>
@@ -51,7 +51,7 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="phone_locked">This device may be associated with existing Mi Account (%s). Sign in to activate this device.</string>
   <string name="phone_locked_account_email">, associated email: %s</string>
   <string name="phone_locked_account_phone">, associated phone number: %s</string>
-  <string name="return_to_call">Return to Call</string>
+  <string name="return_to_call">Return to call</string>
   <string name="stop_on_empty_captcha">"Captcha can't be blank"</string>
   <string name="stop_on_empty_password">"Password can't be blank"</string>
   <string name="sys_notification_async_open_failed_content">Tap to try again or cancel.</string>

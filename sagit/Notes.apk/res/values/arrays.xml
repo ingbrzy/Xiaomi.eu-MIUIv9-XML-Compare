@@ -75,6 +75,14 @@ Tap the \"More\" button in the upper right corner of a note, select \"Reminders\
         <item></item>
         <item></item>
     </string-array>
+    <integer-array name="welcome_notes_color">
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
     <string-array name="contact_values">
         <item>vnd.android.cursor.item/name</item>
         <item>vnd.android.cursor.item/nickname</item>
@@ -88,12 +96,4 @@ Tap the \"More\" button in the upper right corner of a note, select \"Reminders\
         <item>vnd.android.cursor.item/postal-address_v2</item>
         <item>vnd.android.cursor.item/note</item>
     </string-array>
-    <integer-array name="welcome_notes_color">
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>0</item>
-        <item>1</item>
-    </integer-array>
 </resources>
