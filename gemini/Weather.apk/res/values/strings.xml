@@ -86,6 +86,7 @@
   <string name="change_alert">Check your network connection and try again</string>
   <string name="china_version_first_start_network_msg">"By using this product, you agree to Xiaomi's%1$s and %2$s.This app needs to connect to the internet and access your location to work normally."</string>
   <string name="city_exceeded_warning">You can add up to 10 cities</string>
+  <string name="clear_net_mock_success">Net mock clear success</string>
   <string name="commercial">Commercial</string>
   <string name="common_loading_text">Just a sec…</string>
   <string name="connect_fail">"Couldn't connect to the network, try again"</string>
@@ -236,6 +237,7 @@ Tap the screen to manually add or reposition city"</string>
   <string name="realtime_humidity_title">Relative humidity</string>
   <string name="realtime_temperature_no_data">N/A</string>
   <string name="realtime_wind_default_title">Wind</string>
+  <string name="receive_net_mock_success">Net mock receive success</string>
   <string name="refresh_fail">"Couldn't connect to network"</string>
   <string name="reminder_from_xiaomi_weather_app">Mi Weather alert</string>
   <string name="retry">Try again</string>

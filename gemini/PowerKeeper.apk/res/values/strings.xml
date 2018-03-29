@@ -27,6 +27,7 @@ Battery saver will treat important apps selectively."</string>
   <string name="disable_hide_mode_warning">"Turning off Battery saver may increase your device's power consumption."</string>
   <string name="empty_title_apps_container_list">No apps</string>
   <string name="enable_hide_mode">Turn on Battery saver</string>
+  <string name="enable_sleep_mode">Enabling sleep mode to optimize night standby</string>
   <string name="error_filename_too_long">The filename you entered is too long.</string>
   <string name="extreme_power_config_mode_category">Extreme mode</string>
   <string name="extreme_power_config_mode_desc">Switch to extreme mode to turn off sync, Bluetooth, GPS, NFC, double tapping, button lights, waking Lock screen for notifications, as well as notification lights. MIUI will focus on saving battery.</string>
@@ -59,6 +60,7 @@ Battery saver will treat important apps selectively."</string>
   <string name="power_config_apps">Battery saver</string>
   <string name="power_config_event_delete">Delete</string>
   <string name="power_config_select_apps_title">Apps</string>
+  <string name="power_consume_abnormal_night">In night power consume abnormal</string>
   <string name="power_hide_mode_app_list_summary">Saving power in the background</string>
   <string name="power_hide_mode_title">Battery &amp; performance</string>
   <string name="power_mode">Power settings</string>
@@ -72,6 +74,11 @@ Battery saver will treat important apps selectively."</string>
   <string name="sleep_config_enhance_description">"Whenever MIUI detects that you're sleeping, it will close background apps, restrict NFC, Bluetooth, GPS, mobile data and WLAN usage, and won't light up screen for notifications."</string>
   <string name="sleep_config_enhance_description_non_nfc">"Whenever MIUI detects that you're sleeping, it will close background apps, restrict Bluetooth, GPS, mobile data and WLAN usage, and won't light up screen for notifications."</string>
   <string name="sleep_config_enhance_title">Sleep mode</string>
+  <string name="sleepmode_disclaimer_agree">Agree</string>
+  <string name="sleepmode_disclaimer_cancel">Cancle</string>
+  <string name="sleepmode_privacy_content">This feature will use your phone system and device information data, which will not be uploaded to the server</string>
+  <string name="sleepmode_privacy_link">Detailed security and privacy</string>
+  <string name="sleepmode_privacy_title">Sleep mode</string>
   <string name="sucess">Done</string>
   <string name="update_profile_failture_not_connect_wifi">"Couldn't update. Connect to WLAN and try again."</string>
   <string name="update_profile_sucess">Updated from server sucessfully</string>
