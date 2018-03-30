@@ -4,7 +4,7 @@
   <string name="abort_restore_confirm">"Restore hasn't finished. Stop anyway?"</string>
   <string name="account_contact_backup_info">Google Account, Mi Account, and Contacts data</string>
   <string name="account_login">Sign in</string>
-  <string name="account_summary">Backup Google Account, Mi Account, and other user data</string>
+  <string name="account_summary">Back up Google Account, Mi Account, and other user data</string>
   <string name="alert_button_agree_and_continue">Allow</string>
   <string name="alert_button_deny">Decline</string>
   <string name="alert_message_backup_to_miasist">Mi PC Suite is requesting permission to create a backup on a computer. Allow?</string>
@@ -129,7 +129,7 @@ https://appleid.apple.com/#!&amp;page=signin to close"</string>
   <string name="err_bakfile_broken">"Can't use this backup."</string>
   <string name="err_filesystem_mount">"Can't access router storage"</string>
   <string name="err_low_storage">Not enough space</string>
-  <string name="err_not_allow">Not support</string>
+  <string name="err_not_allow">Not supported</string>
   <string name="err_router_disconnected">"Check your router's connection and try again."</string>
   <string name="err_router_files_delete">"Couldn't delete backup files on router"</string>
   <string name="err_unknown">Unknown error</string>
@@ -311,7 +311,7 @@ Free up at least %s."</string>
   <string name="select_empty">Select items to import</string>
   <string name="select_item_calendar">Calendar</string>
   <string name="select_item_contacts">Contacts</string>
-  <string name="select_item_empty_summary">No contents</string>
+  <string name="select_item_empty_summary">No items</string>
   <string name="select_item_notes">Notes</string>
   <string name="select_item_photos">Photos</string>
   <string name="select_item_summary_loading">Loading data…</string>
