@@ -1716,7 +1716,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="report_only">Choose a message to report</string>
   <string name="report_success">Message reported</string>
   <string name="report_warning">"Report %1$s SMS to Mi? These messages and the phone numbers they were sent from will be uploaded to Mi's servers for review. Any personal info associated with these messages is always kept anonymous."</string>
-  <string name="report_warning_title">Report SMS</string>
+  <string name="report_warning_title">Attention</string>
   <string name="resource_antispam">Blocklist</string>
   <string name="resource_antivirus">Virus scan</string>
   <string name="resource_app_permissions">App permissions</string>
@@ -1823,9 +1823,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="signal_exception_summary">"Can't connect to the network in this area."</string>
   <string name="signal_exception_title">Test signal strength</string>
   <string name="signed_rule">Rules</string>
-  <string name="signed_rule_one">1.Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
-  <string name="signed_rule_three">"3.Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
-  <string name="signed_rule_two">2.You can get only 1 Xunyou boost per month.</string>
+  <string name="signed_rule_one">1. Check in 10, 20, or 28 days in a row every month to get a Xunyou boost for 1, 2, or 3 days respectively.</string>
+  <string name="signed_rule_three">"3. Days when you check in are annulled at the beginning of every month. The remaining days aren't rolled over."</string>
+  <string name="signed_rule_two">2. You can get only 1 Xunyou boost per month.</string>
   <string name="sim_location_diagnostic">Location diagnostics</string>
   <string name="sim_location_error_dialog_message">"The SIM you're using is from %1$s. This is different from the location you set manually (%2$s). Change SIM location to %3$s?"</string>
   <string name="sim_location_error_notify_message">Tap to change SIM location.</string>
@@ -2055,8 +2055,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sys_app_prot_cracked_confirm">Got it</string>
   <string name="sys_cpu_title">CPU usage</string>
   <string name="sys_freememory_title">Available</string>
-  <string name="sys_title_gamebooster_unit_gb">G</string>
-  <string name="sys_title_gamebooster_unit_mb">M</string>
+  <string name="sys_title_gamebooster_unit_gb">GB</string>
+  <string name="sys_title_gamebooster_unit_mb">MB</string>
   <string name="system_app">System apps</string>
   <string name="system_application">System apps</string>
   <string name="tab_blacklist">Blocklist</string>

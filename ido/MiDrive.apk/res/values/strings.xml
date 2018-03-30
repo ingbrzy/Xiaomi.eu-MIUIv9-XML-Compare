@@ -104,7 +104,7 @@
   <string name="operation_upload">Upload</string>
   <string name="paused">Paused</string>
   <string name="petabyteShort">PB</string>
-  <string name="pick_from_fileexplor_failed">Update Explorer first.</string>
+  <string name="pick_from_fileexplor_failed">Update File Manager first.</string>
   <string name="quota_info">Mi Drive: %1$s available, %2$s total</string>
   <string name="rename_alert">"If you change this file's extension, you may not be able to open it."</string>
   <string name="rename_failed">A file with the same name already exists.</string>

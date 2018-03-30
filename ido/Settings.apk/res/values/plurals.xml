@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <plurals name="firewall_item_summary">
+        <item quantity="other">Restricted connection for %s apps</item>
+        <item quantity="one">Restricted connection for %s app</item>
+    </plurals>
+    <plurals name="bg_network_allow_count">
+        <item quantity="other">%d apps can connect to the network</item>
+        <item quantity="one">%d app can connect to the network</item>
+    </plurals>
+    <plurals name="bg_network_restrict_count">
+        <item quantity="other">"%d apps can't connect to the network"</item>
+        <item quantity="one">"%d app can't connect to the network"</item>
+    </plurals>
     <plurals name="status_bar_settings_disabled_header_title">
         <item quantity="other">"%d apps can't show notifications"</item>
         <item quantity="one">"%d app can't show notifications"</item>
