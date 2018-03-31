@@ -1347,9 +1347,7 @@
 .method public static isIndiaBeautyFilter()Z
     .locals 2
 
-    invoke-static {}, Lcom/android/camera/Device;->isSupportIndiaFilter()Z
-
-    move-result v0
+    sget-boolean v0, Lcom/android/camera/Device;->IS_E7S:Z
 
     if-eqz v0, :cond_0
 
@@ -1780,20 +1778,6 @@
     .locals 2
 
     const-string/jumbo v0, "support_camera_groupshot"
-
-    const/4 v1, 0x0
-
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v0
-
-    return v0
-.end method
-
-.method public static isSupportIndiaFilter()Z
-    .locals 2
-
-    const-string/jumbo v0, "camera_support_india_filter"
 
     const/4 v1, 0x0
 
@@ -2427,53 +2411,6 @@
 
     :cond_0
     return v0
-.end method
-
-.method public static isSupportedPortraitZoom()Z
-    .locals 3
-
-    const/4 v1, 0x0
-
-    sget-boolean v2, Lcom/android/camera/Device;->IS_E7S:Z
-
-    if-eqz v2, :cond_1
-
-    const-string/jumbo v2, "ro.boot.hwc"
-
-    invoke-static {v2}, Landroid/os/SystemProperties;->get(Ljava/lang/String;)Ljava/lang/String;
-
-    move-result-object v0
-
-    invoke-static {}, Lcom/android/camera/Device;->isSupportedPortrait()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_0
-
-    const-string/jumbo v1, "India"
-
-    invoke-virtual {v1, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v1
-
-    :cond_0
-    return v1
-
-    :cond_1
-    invoke-static {}, Lcom/android/camera/Device;->isSupportedPortrait()Z
-
-    move-result v2
-
-    if-eqz v2, :cond_2
-
-    const-string/jumbo v2, "camera_support_portrait_zoom"
-
-    invoke-static {v2, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
-
-    move-result v1
-
-    :cond_2
-    return v1
 .end method
 
 .method public static isSupportedQuickSnap()Z
