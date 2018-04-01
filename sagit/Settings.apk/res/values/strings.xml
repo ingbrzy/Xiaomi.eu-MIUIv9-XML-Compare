@@ -1393,6 +1393,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="debug_networking_category">Networking</string>
   <string name="debug_view_attributes">Enable view attribute inspection</string>
   <string name="decline_remote_bugreport_action">Decline</string>
+  <string name="defalut_launcher_title">Default Home screen</string>
   <string name="default_admin_support_msg">"This action is disabled. To learn more, contact your organization's admin."</string>
   <string name="default_app">(Default)</string>
   <string name="default_apps_title">Default</string>
@@ -1405,6 +1406,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="default_for_work">Default for work</string>
   <string name="default_input_method">Choose default keyboard</string>
   <string name="default_keyboard_layout">Default</string>
+  <string name="default_launcher_title">Default Launcher</string>
   <string name="default_map_app_title">Map app</string>
   <string name="default_notification_assistant">Notification assistant</string>
   <string name="default_phone_title">Phone app</string>
@@ -1503,7 +1505,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="dialog_title_hdmi_color_calibration">Color correction preset</string>
   <string name="dialog_title_login">Sign in to your Mi Account</string>
   <string name="dialog_yes">Yes</string>
-  <string name="direct_boot_unaware_dialog_message">"Note: After a reboot, this app can't start until you unlock your phone"</string>
+  <string name="direct_boot_unaware_dialog_message">"Note: You'll be able to use this keyboard after a reboot only if you unlock your device."</string>
   <string name="disableNetwork">disableNetwork</string>
   <string name="disable_overlays">Disable HW overlays</string>
   <string name="disable_overlays_summary">Always use GPU for screen compositing</string>
@@ -2742,6 +2744,7 @@ There are other users present on this device.
   <string name="miui_lab_taplus_title">Taplus</string>
   <string name="miui_master_clear_summary">Erases all data on phone</string>
   <string name="miui_updater">System update</string>
+  <string name="miui_userguide">User guide</string>
   <string name="mms_breathing_light_color_title">Messages light color</string>
   <string name="mms_breathing_light_freq_title">Messages pulse frequency</string>
   <string name="mms_privacy_password_role_instruction">Your conversations with private contacts will be stored here.</string>
@@ -3103,6 +3106,14 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
   <string name="ok_rules">Finish</string>
   <string name="okay">OK</string>
+  <string name="oldman_app_label">Lite mode</string>
+  <string name="oldman_installed_current_btn">Restore original Home screen</string>
+  <string name="oldman_installed_current_des">"You've set Lite mode as your default Home screen. Tap the button below to switch back to the originsl Home screen."</string>
+  <string name="oldman_installed_not_current_btn">Set as default Home screen</string>
+  <string name="oldman_installed_not_current_des">Lite mode is installed on your device. You can use it as your default Home screen.</string>
+  <string name="oldman_mode_entry_name">Lite mode</string>
+  <string name="oldman_uninstalled_btn">Install</string>
+  <string name="oldman_uninstalled_des">Lite mode gets rid of the visual clutter and keeps your Home screen simple and minimalist.</string>
   <string name="one_cacrt">one CA certificate</string>
   <string name="one_usercrt">one user certificate</string>
   <string name="one_userkey">one user key</string>
@@ -3231,7 +3242,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="phone_language_summary"/>
   <string name="physical_device_title">%1$s - %2$s</string>
   <string name="physical_keyboard_title">Physical keyboard</string>
-  <string name="pick_up_gesture_wakeup_title">Pick up gesture to wake</string>
+  <string name="pick_up_gesture_wakeup_title">Raise to wake</string>
   <string name="picture_color_mode">Picture color mode</string>
   <string name="picture_color_mode_desc">Use sRGB</string>
   <string name="picture_in_picture_app_detail_summary">"Allow this app to create a picture-in-picture window while the app is open or after you leave it (for example, to continue watching a video). This window displays on top of other apps "</string>
@@ -4174,7 +4185,7 @@ Note: You can’t use your fingerprint to unlock this device. For more informati
   <string name="set_data_warning">Set data warning</string>
   <string name="setting_privacy_password">Set Privacy protection password</string>
   <string name="settings_ad_loading">Loading…</string>
-  <string name="settings_ad_loading_unavailable">There is a problem when loading.</string>
+  <string name="settings_ad_loading_unavailable">"Couldn't load info."</string>
   <string name="settings_backup">Back up settings</string>
   <string name="settings_backup_summary">Back up my settings</string>
   <string name="settings_button">Settings</string>
@@ -4751,8 +4762,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="testing_usage_stats">Usage statistics</string>
   <string name="testing_wifi_info">WLAN information</string>
   <string name="tether_and_hotspot_title">Tethering &amp; portable hotspot</string>
-  <string name="tether_auto_disable_summary">Automatically close hotspot when no connected devices</string>
-  <string name="tether_auto_disable_title">Automatically close hotspot</string>
+  <string name="tether_auto_disable_summary">Turn off hotspot automatically when no devices are connected</string>
+  <string name="tether_auto_disable_title">Turn off hotspot automatically</string>
   <string name="tether_custom_dialog_title">Mobile data limit</string>
   <string name="tether_data_usage_limit">One-time data limit</string>
   <string name="tether_data_usage_limit_summary">Data limit will be applied next time your hotspot is on</string>
@@ -5073,8 +5084,8 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="use_location_title">Location &amp; Google search</string>
   <string name="use_open_wifi_automatically_summary">Automatically connect to high‑quality public networks</string>
   <string name="use_open_wifi_automatically_title">Connect to open networks</string>
-  <string name="use_personalized_ad_service">Personalized Ad Recommendation</string>
-  <string name="use_personalized_ad_service_summary">When the recommendation feature is switched off, you will still see the same quantity of ads as when it’s on, but not based on your behavior data or your personal information.</string>
+  <string name="use_personalized_ad_service">Personalized ad recommendations</string>
+  <string name="use_personalized_ad_service_summary">"When the recommendations are off, you'll still see the same quantity of ads as when it's on, but they won't be based on your behavior data or your personal information."</string>
   <string name="use_privacy_password_immediate">Use</string>
   <string name="use_system_language_to_select_input_method_subtypes">Use system languages</string>
   <string name="use_this_wlan">Stay connected</string>
@@ -5234,7 +5245,7 @@ Tap the plus to add words."</string>
   <string name="virus_scanner_update_lib">Update definitions</string>
   <string name="vision_settings_description">You can customize this device to fit your needs. These accessibility features can be changed later in Settings.</string>
   <string name="vision_settings_title">Vision Settings</string>
-  <string name="voice_assist">Xiao Ai</string>
+  <string name="voice_assist">Mi AI</string>
   <string name="voice_category">Speech</string>
   <string name="voice_helper_title">Voice assistant</string>
   <string name="voice_input_output_settings">Voice input &amp; output</string>
