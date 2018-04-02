@@ -73,6 +73,14 @@
         <item>4MB per log buffer</item>
         <item>16MB per log buffer</item>
     </string-array>
+    <string-array name="select_logd_system_levels">
+        <item>Off</item>
+        <item>Error</item>
+        <item>Warn</item>
+        <item>Info</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animation off</item>
         <item>Animation scale 0.5x</item>
@@ -1419,7 +1427,7 @@
         <item>Create a directory: mkdir /media/mtp</item>
         <item>Confirm user group permissions in the current fuse user group</item>
         <item>Sign in again</item>
-        <item>Access mounted device: mtpfs /media/mtp via file explorer; same as local directory</item>
+        <item>Access mounted device: mtpfs /media/mtp via File Manager; same as local folder.</item>
         <item>"Uninstall device: fusermount -u /media/mtp
 Note: Only for Ubuntu 8.04!"</item>
     </string-array>
@@ -2063,7 +2071,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Lock screen</item>
         <item>Privacy password</item>
         <item>Child mode</item>
-        <item>File Explorer</item>
+        <item>File Manager</item>
         <item>App lock</item>
         <item>Second space</item>
     </string-array>
@@ -2893,5 +2901,27 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Photos</item>
         <item>Files</item>
         <item>Notes</item>
+    </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>whyred</item>
+        <item>polaris</item>
+        <item>ysl</item>
     </string-array>
 </resources>
