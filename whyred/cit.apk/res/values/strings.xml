@@ -454,7 +454,8 @@ the selected?"</string>
   <string name="key_9">9</string>
   <string name="keyboard">KEY</string>
   <string name="keyboard_and_motor_test">Key And Motor</string>
-  <string name="keyboard_show">The current key button button BACK、button MENU、button VOLUME_UP、button VOLUME_DOWN</string>
+  <string name="keyboard_show">The current key button button BACK、button HOME、button MENU、button VOLUME_UP、button VOLUME_DOWN</string>
+  <string name="keyboard_show_miui">The current key button button POWER、button VOLUME_UP、button VOLUME_DOWN</string>
   <string name="keyboard_test">KEY/OFN</string>
   <string name="keyboardlight">Key Light</string>
   <string name="keyboardlight_info">Please note if the keyboard light blink or not</string>
