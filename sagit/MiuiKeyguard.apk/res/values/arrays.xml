@@ -31,6 +31,7 @@
         <item>nitrogen</item>
         <item>wayne</item>
         <item>ysl</item>
+        <item>sakura</item>
     </string-array>
     <string-array name="device_global_support_face">
         <item>whyred</item>
@@ -45,6 +46,7 @@
         <item>nitrogen</item>
         <item>wayne</item>
         <item>ysl</item>
+        <item>sakura</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
