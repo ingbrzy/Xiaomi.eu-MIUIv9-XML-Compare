@@ -367,6 +367,8 @@
   <string name="date_heading">"Date: "</string>
   <string name="date_message_received">%1$s %2$s</string>
   <string name="date_message_received_today">Today, %1$s</string>
+  <string name="debug_mode_preferencecategory">please set LOG output mode</string>
+  <string name="debug_mode_settings">DEBUG mode</string>
   <string name="default_">DEFAULT</string>
   <string name="default_exchange">EXCHANGE</string>
   <string name="default_imap">IMAP</string>
@@ -477,6 +479,7 @@
   <string name="file_rar_not_support">"Can't open encrypted rar files"</string>
   <string name="file_save_path_dialog_cancel">Got it</string>
   <string name="file_save_path_dialog_ok">Change now</string>
+  <string name="file_save_term">File save term</string>
   <string name="filtered_tag">" [%1$s]%2$s"</string>
   <string name="first_quick_default_reply">Tap the button to send \"%s\" to all people in the conversation</string>
   <string name="float_window_content">Detects that you are using the mailbox, click Confirm for you to automatically fill 139 E-mail account and password.</string>
@@ -518,6 +521,7 @@
   <string name="folder_trash_name_en1">Deleted Messages</string>
   <string name="folder_trash_name_en2">Deleted Message</string>
   <string name="folder_trash_name_en3">[Gmail]/Bin</string>
+  <string name="forever">Forever</string>
   <string name="formatted_email_address">&lt;%1$s&gt;</string>
   <string name="formatted_subject">%1$s %2$s</string>
   <string name="forward">Forward</string>
@@ -585,6 +589,7 @@
   <string name="loading_conversations">Loading…</string>
   <string name="loading_from_remote">Loading…</string>
   <string name="local_search">Local search</string>
+  <string name="log_save_path">LOG save path</string>
   <string name="login">Sign in</string>
   <string name="login139">Sign in with China Mobile</string>
   <string name="login_failed_ticker">%s signin unsuccessful.</string>
@@ -761,6 +766,9 @@ Try a different inbox."</string>
   <string name="oauth_login_usr_proxy">Sign in using proxy</string>
   <string name="ok">OK</string>
   <string name="okay_action">OK</string>
+  <string name="one_day">One day</string>
+  <string name="one_month">One month</string>
+  <string name="one_week">One week</string>
   <string name="open_calendar_and_contacts_permission">Allow Mail to access contacts and calendar info in the Settings</string>
   <string name="open_external_storage_and_calendar_permission">Allow Mail to access storage and calendar info in the Settings</string>
   <string name="open_external_storage_and_contacts_and_calendar_permission">Allow Mail to access storage, contacts, and calendar info in the Settings</string>
@@ -786,6 +794,10 @@ Try a different inbox."</string>
   <string name="outbox_alert_select_operation">Choose an action</string>
   <string name="outbox_alert_title_sent_failed">"Couldn't send mail"</string>
   <string name="outbox_no_mails">Empty</string>
+  <string name="output_all_log">Output all LOG</string>
+  <string name="output_db_summary">This will output your database</string>
+  <string name="output_db_title">Output database</string>
+  <string name="output_to_disk">Output LOG to file</string>
   <string name="over_due">Overdue</string>
   <string name="overlays_fail_tip">Very sorry that your mailbox is not configured successfully, open the floating Windows permissions and try again</string>
   <string name="overlays_ok">Open permissions</string>
@@ -997,6 +1009,7 @@ to receive reminders about payments and trips"</string>
   <string name="report_rendering_problem">Looks bad</string>
   <string name="report_rendering_problem_desc">This message looks bad.</string>
   <string name="report_spam">Report spam</string>
+  <string name="request_copy_db_to_disk">Email request copy your database to the file</string>
   <string name="request_entity_large">File is too big</string>
   <string name="request_permission_activity">Permission Request</string>
   <string name="respond_inline">"   Respond inline"</string>
@@ -1027,7 +1040,7 @@ to receive reminders about payments and trips"</string>
          met"</string>
   <string name="security_notification_content_update_title">Security update required</string>
   <string name="security_unsupported_ticker_fmt">"Account \"%s\" can't be synced due to security requirements."</string>
-  <string name="see_more_content">See more content</string>
+  <string name="see_more_content">View more</string>
   <string name="select_attachment_type">Choose attachment from</string>
   <string name="select_no_file">No attachments selected</string>
   <string name="select_path">Select path</string>
@@ -1117,6 +1130,7 @@ to receive reminders about payments and trips"</string>
   <string name="tablet">tablet</string>
   <string name="tap_to_configure">Touch to set up.</string>
   <string name="tap_to_enable_sync">Touch to turn on.</string>
+  <string name="three_day">Three days</string>
   <string name="to">To</string>
   <string name="to_heading">"To: "</string>
   <string name="toast_bar_fail_synchronization">"Can't connect to the network"</string>
