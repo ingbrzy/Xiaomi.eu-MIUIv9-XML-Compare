@@ -301,6 +301,20 @@
         <item>large</item>
         <item>huge</item>
     </string-array>
+    <string-array name="log_file_save_term_entries">
+        <item>@string/one_day</item>
+        <item>@string/three_day</item>
+        <item>@string/one_week</item>
+        <item>@string/one_month</item>
+        <item>@string/forever</item>
+    </string-array>
+    <string-array name="log_file_save_term_values">
+        <item>1</item>
+        <item>3</item>
+        <item>7</item>
+        <item>30</item>
+        <item>-1</item>
+    </string-array>
     <string-array name="prefValues_autoAdvance">
         <item>newer</item>
         <item>older</item>
