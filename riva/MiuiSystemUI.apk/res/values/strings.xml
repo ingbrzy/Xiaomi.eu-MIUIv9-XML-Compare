@@ -207,7 +207,7 @@
   <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
   <string name="click_expand">Tap to expand</string>
   <string name="click_to_return_multi_window">Tap to return to Split screen</string>
-  <string name="click_to_return_multi_window_of_notch">return to Split screen</string>
+  <string name="click_to_return_multi_window_of_notch">Return to Split screen</string>
   <string name="config_systemUIFactoryComponent">com.android.systemui.SystemUIFactory</string>
   <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
   <string name="confirm_enable_oem_unlock_title">Allow OEM unlocking?</string>
@@ -637,6 +637,7 @@ For more information, contact your admin."</string>
   <string name="screenshot_toalbum_txt">Preview</string>
   <string name="search_hint">Search for websites, apps, contacts, and videos</string>
   <string name="select_application">Select application</string>
+  <string name="select_logd_level">Select log level</string>
   <string name="select_logd_size_dialog_title">Select size for log buffers</string>
   <string name="select_logd_size_title">Log buffer sizes</string>
   <string name="select_usb_configuration_dialog_title">Select USB configuration</string>
