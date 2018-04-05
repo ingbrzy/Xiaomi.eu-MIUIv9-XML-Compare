@@ -73,6 +73,14 @@
         <item>4MB per log buffer</item>
         <item>16MB per log buffer</item>
     </string-array>
+    <string-array name="select_logd_system_levels">
+        <item>Off</item>
+        <item>Error</item>
+        <item>Warn</item>
+        <item>Info</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animation off</item>
         <item>Animation scale 0.5x</item>
