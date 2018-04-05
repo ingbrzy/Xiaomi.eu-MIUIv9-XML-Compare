@@ -73,6 +73,14 @@
         <item>4MB per log buffer</item>
         <item>16MB per log buffer</item>
     </string-array>
+    <string-array name="select_logd_system_levels">
+        <item>Off</item>
+        <item>Error</item>
+        <item>Warn</item>
+        <item>Info</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animation off</item>
         <item>Animation scale 0.5x</item>
@@ -1158,7 +1166,7 @@
     </string-array>
     <string-array name="ap_identify">
         <item>Default</item>
-        <item>iPhone</item>
+        <item>Portable hotspot</item>
     </string-array>
     <string-array name="battery_indicator_style_entries">
         <item>Graphical</item>
@@ -1419,7 +1427,7 @@
         <item>Create a directory: mkdir /media/mtp</item>
         <item>Confirm user group permissions in the current fuse user group</item>
         <item>Sign in again</item>
-        <item>Access mounted device: mtpfs /media/mtp via file explorer; same as local directory</item>
+        <item>Access mounted device: mtpfs /media/mtp via File Manager; same as local folder.</item>
         <item>"Uninstall device: fusermount -u /media/mtp
 Note: Only for Ubuntu 8.04!"</item>
     </string-array>
@@ -2063,7 +2071,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Lock screen</item>
         <item>Privacy password</item>
         <item>Child mode</item>
-        <item>File Explorer</item>
+        <item>File Manager</item>
         <item>App lock</item>
         <item>Second space</item>
     </string-array>
@@ -2877,6 +2885,32 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Weekend</item>
         <item>Custom</item>
     </string-array>
+    <string-array name="dirac_equalizer_preset_values">
+        <item>0,0,0,0,0,0,0</item>
+        <item>4,2,-2,0,-2,-2,4</item>
+        <item>0,0,0,-2,-3,0,0</item>
+        <item>0,-3,-5,0,0,-3,0</item>
+        <item>0,0,0,0,3,6,6</item>
+        <item>3,3,-3,0,-3,0,2</item>
+        <item>2,4,-6,4,0,1,2</item>
+        <item>3,3,-1,0,-3,0,0</item>
+        <item>0,0,-2,-2,2,2,0</item>
+        <item>0,4,2,0,-2,-2,4</item>
+        <item>2,0,0,-2,-4,0,0</item>
+    </string-array>
+    <string-array name="dirac_equalizer_preset_names">
+        <item>@string/eq_flat</item>
+        <item>@string/eq_rock</item>
+        <item>@string/eq_jazz</item>
+        <item>@string/eq_pop</item>
+        <item>@string/eq_classical</item>
+        <item>@string/eq_hiphop</item>
+        <item>@string/eq_blues</item>
+        <item>@string/eq_electronic</item>
+        <item>@string/eq_country</item>
+        <item>@string/eq_dance</item>
+        <item>@string/eq_metal</item>
+    </string-array>
     <string-array name="standard_configuration_version">
         <item>3.00GB</item>
         <item>32GB</item>
@@ -2893,5 +2927,28 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Photos</item>
         <item>Files</item>
         <item>Notes</item>
+    </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>sakura</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>whyred</item>
+        <item>polaris</item>
+        <item>ysl</item>
     </string-array>
 </resources>
