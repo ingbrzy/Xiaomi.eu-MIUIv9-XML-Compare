@@ -174,7 +174,7 @@
   <string name="chooseUsbActivity">Select an app for the USB device</string>
   <string name="click_expand">Tap to expand</string>
   <string name="click_to_return_multi_window">Tap to return to Split screen</string>
-  <string name="click_to_return_multi_window_of_notch">return to Split screen</string>
+  <string name="click_to_return_multi_window_of_notch">Return to Split screen</string>
   <string name="config_systemUIFactoryComponent">com.android.systemui.SystemUIFactory</string>
   <string name="connected_via_passpoint">Connected via %1$s</string>
   <string name="connected_via_wfa">Connected via WLAN assistant</string>

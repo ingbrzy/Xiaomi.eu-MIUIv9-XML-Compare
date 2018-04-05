@@ -85,6 +85,7 @@ to be able to view them anytime"</string>
   <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
   <string name="encrypt_space_delete_notification_title">Second space</string>
   <string name="enter_air_space">Go to Work space</string>
+  <string name="entrance_reopen_toast_msg">Showing Second space shortcut due to different password types</string>
   <string name="err_copy_contacts">"Couldn't copy contacts"</string>
   <string name="err_copy_files">"Couldn't copy files"</string>
   <string name="err_copy_photos">"Couldn't copy photos"</string>
@@ -206,6 +207,9 @@ Otherwise you may not be able to enter Second space from Lock screen."</string>
   <string name="removingSpace">Deleting…</string>
   <string name="repeat_scanner_fingerprint">Add again</string>
   <string name="reset_passwd_success">Password was reset successfully</string>
+  <string name="reset_password_dialog_message">"You're using different password types for First space and Second space. Second space should use the same password type as First space for the shortcut to be hidden."</string>
+  <string name="reset_password_dialog_positve_btn_title">Change</string>
+  <string name="reset_password_dialog_title">"Can't hide Second space shortcut"</string>
   <string name="restore_normal_show">"Don't show private messages"</string>
   <string name="restore_show_desc">"Don't show private messages in Second space. They will still be available in First space."</string>
   <string name="restore_show_toast">Not showing private messages</string>
@@ -372,6 +376,7 @@ Some dual apps require Google Services Framework support. In such cases, dual Go
   <string name="xspace_guide_title">Create a dual app</string>
   <string name="xspace_header">Dual apps</string>
   <string name="xspace_install_completed">Icon added to Home screen</string>
+  <string name="xspace_install_completed_global">Icon added to drawer</string>
   <string name="xspace_install_failed">"Couldn't create"</string>
   <string name="xspace_installing">Installing…</string>
   <string name="xspace_introduce">Recommended</string>
