@@ -84,11 +84,10 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="date_format">HH:mm:ss MM-dd-yyyy</string>
   <string name="deskclock_backup">Alarm clock</string>
   <string name="desktop_downloading">Downloading</string>
-  <string name="desktop_failed">Failed</string>
+  <string name="desktop_failed">Error</string>
   <string name="desktop_installing">Installing</string>
   <string name="desktop_wait_wifi">Waiting</string>
   <string name="desktop_waiting">Waiting</string>
-  <string name="device_corrupt">Mi Phone (Data is corrupted)</string>
   <string name="device_delete_prompt">Delete backup of %s?</string>
   <string name="device_xiaomi">Mi Phone</string>
   <string name="dialog_btn_next">Next</string>
@@ -108,6 +107,9 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="download_settings">Downloading Home screen settings %s%%</string>
   <string name="download_settings_fail">"Couldn't download Home screen settings"</string>
   <string name="error_unknown">Something went wrong</string>
+  <string name="get_device_id_error">"Couldn't get device ID"</string>
+  <string name="home_hint_global_launcher">Poco Home screen</string>
+  <string name="home_restore_error">"Couldn't restore Home screen"</string>
   <string name="lack_of_storage">Not enough storage space</string>
   <string name="latest_backup_time_loading">Loading…</string>
   <string name="managespace_delete_backup">Delete</string>
@@ -153,6 +155,7 @@ Note: Data for apps you've installed won't be backed up to Mi Cloud."</string>
   <string name="restore_unfinished">Restoring, try again later</string>
   <string name="retry">Retry</string>
   <string name="self_phone">This phone</string>
+  <string name="self_phone_home">This phone: %s</string>
   <string name="settings_backup">System settings</string>
   <string name="size_unknown">Unknown size</string>
   <string name="start_backup_to_micloud">Back up apps to Mi Cloud</string>
