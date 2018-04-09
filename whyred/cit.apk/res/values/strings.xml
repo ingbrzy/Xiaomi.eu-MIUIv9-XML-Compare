@@ -740,6 +740,7 @@ mod:0-15"</string>
   <string name="softversion">Software version</string>
   <string name="softversion_hint">Enter the function test？</string>
   <string name="someinfo">Some info</string>
+  <string name="sound_file_delete">sound file is not exit ,can not play！</string>
   <string name="speak_from_mic">Speaking to the MIC, the speaker playback.The sound must more than &lt;b&gt;29DB&lt;/b&gt;.</string>
   <string name="speak_from_sub_mic">Speaking to the Sub MIC, the speaker playback. The sound must more than &lt;b&gt;29DB&lt;/b&gt;.</string>
   <string name="speaker">Speaker</string>
