@@ -735,6 +735,15 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="exception_notify_message">"Couldn't calculate data stats due to an error. Reboot to restore."</string>
   <string name="exception_titile">An error occurred</string>
   <string name="exit">Exit</string>
+  <string name="exit_dialog_garbage_clean_message">The amount of trash on your device is more than %s. Clean up trash?</string>
+  <string name="exit_dialog_garbage_clean_positive_button">Clean up</string>
+  <string name="exit_dialog_garbage_clean_title">Clean up trash</string>
+  <string name="exit_dialog_release_storage_message">More than 80% of storage on your device is occupied. Free up space by uninstalling the apps you never use.</string>
+  <string name="exit_dialog_release_storage_positive_button">Free up space</string>
+  <string name="exit_dialog_release_storage_title">Free up space</string>
+  <string name="exit_dialog_scan_message">"Your device's performance score is lower than 75 points. Optimize now?"</string>
+  <string name="exit_dialog_scan_positive_button">Optimize</string>
+  <string name="exit_dialog_scan_title">Optimize performance</string>
   <string name="fast_open">速抢模式</string>
   <string name="fast_open_dialog_message">开启速抢模式后，当您收到红包时，系统将自动打开抢红包页面，抢红包更快更方便。</string>
   <string name="fast_open_dialog_message_summary">注意：建议关闭导航类、视频类、游戏类应用的速抢模式，以免影响应用的正常操作。手机锁屏状态下不会进行红包速抢。</string>

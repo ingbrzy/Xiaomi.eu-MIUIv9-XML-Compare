@@ -2768,6 +2768,7 @@ There are other users present on this device.
   <string name="miui_lab_taplus_desc">Press and hold items to trigger actions</string>
   <string name="miui_lab_taplus_title">Taplus</string>
   <string name="miui_master_clear_summary">Erases all data on phone</string>
+  <string name="miui_touch_filtered_warning">If an app is blocking a permissions dialog, drag the overlapping item away or close the app.</string>
   <string name="miui_updater">System update</string>
   <string name="miui_userguide">User guide</string>
   <string name="mms_breathing_light_color_title">Messages light color</string>
@@ -5846,6 +5847,7 @@ Tap"&lt;b&gt; Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_wps_setup_title">WLAN Protected Setup</string>
   <string name="wimax_settings">4G</string>
   <string name="window_animation_scale_title">Window animation scale</string>
+  <string name="wireless_connected">Connected</string>
   <string name="wireless_networks_settings_title">Wireless &amp; networks</string>
   <string name="wireless_off">Off</string>
   <string name="wireless_on">On</string>

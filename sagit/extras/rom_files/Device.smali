@@ -2411,13 +2411,20 @@
 
     move-result v1
 
-    if-eqz v1, :cond_0
+    if-nez v1, :cond_0
 
+    invoke-static {}, Lcom/android/camera/Device;->isSupportedStereo()Z
+
+    move-result v1
+
+    if-eqz v1, :cond_1
+
+    :cond_0
     invoke-static {}, Lcom/android/camera/Device;->isSupportFrontBokeh()Z
 
     move-result v1
 
-    if-eqz v1, :cond_0
+    if-eqz v1, :cond_1
 
     const-string/jumbo v1, "camera_is_support_portrait_switch"
 
@@ -2425,7 +2432,7 @@
 
     move-result v0
 
-    :cond_0
+    :cond_1
     return v0
 .end method
 
@@ -2908,6 +2915,14 @@
     invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v0
+
+    return v0
+.end method
+
+.method public static supportRefocusMode()Z
+    .locals 1
+
+    const/4 v0, 0x0
 
     return v0
 .end method
