@@ -138,6 +138,8 @@ You can't zoom in on the keyboard and navigation bar."</string>
   <string name="accessibility_toggle_screen_magnification_auto_update_preference_title">Auto update screen magnification</string>
   <string name="accessibility_wifi_off">Wifi off.</string>
   <string name="accessibility_wifi_one_bar">Wifi one bar.</string>
+  <string name="accessibility_wifi_security_type_none">Open network</string>
+  <string name="accessibility_wifi_security_type_secured">Secure network</string>
   <string name="accessibility_wifi_signal_full">Wifi signal full.</string>
   <string name="accessibility_wifi_three_bars">Wifi three bars.</string>
   <string name="accessibility_wifi_two_bars">Wifi two bars.</string>
@@ -1148,6 +1150,9 @@ Sample Rate"</string>
   <string name="confirm_erase">Erase</string>
   <string name="confirm_fingerprint_icon_content_description">Use your fingerprint to continue.</string>
   <string name="confirm_fingerprint_msg">Put your finger on the sensor</string>
+  <string name="confirm_frp_credential_message">You device was factory reset, you can unlock it with your previous secret.</string>
+  <string name="confirm_frp_credential_skip_txt">USE MY GOOGLE ACCOUNT INSTEAD</string>
+  <string name="confirm_frp_credential_title">Factory Reset Protection</string>
   <string name="confirm_new_backup_pw_prompt">Retype your new full backup password here</string>
   <string name="confirm_privacy_password">Enter Privacy protection password</string>
   <string name="confirm_privacy_password_fingerprint">Scan fingerprint or enter Privacy protection password</string>
@@ -5792,6 +5797,7 @@ Tap"&lt;b&gt; Back&lt;/b&gt; to connect to a different WLAN network.</string>
   <string name="wifi_tether_configure_ssid_default">AndroidHotspot</string>
   <string name="wifi_tether_configure_subtext">%1$s %2$s portable</string>
   <string name="wifi_tether_enabled_subtext">%1$s is active</string>
+  <string name="wifi_tether_enabled_summary">%1$s is active</string>
   <string name="wifi_tether_failed_subtext">Portable hotspot error</string>
   <string name="wifi_tether_setting_title">Settings</string>
   <string name="wifi_tether_settings_title">Portable hotspot</string>
