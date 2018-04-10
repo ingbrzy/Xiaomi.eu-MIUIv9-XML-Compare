@@ -112,6 +112,7 @@
   <string name="keyguard_left_view_lock_wallpaper">Music</string>
   <string name="keyguard_quick_charging_info_click_to_detail">Quick charging. Tap to view details.</string>
   <string name="keyguard_torch_cover_text">To keep torch on, hold the Power button</string>
+  <string name="kg_password_pin_failed">SIM PIN operation failed!</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
   <string name="lock_screen_no_sim_card">No SIM card</string>
