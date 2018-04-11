@@ -202,7 +202,7 @@ Otherwise you may not be able to enter Second space from Lock screen."</string>
   <string name="radio_button_password_switch_title">Using a password</string>
   <string name="removeSuccess">Deleted successfully</string>
   <string name="remove_button">Remove and reboot</string>
-  <string name="remove_button_time">Remove and reboot(%ds)</string>
+  <string name="remove_button_time">Remove and reboot (%ds)</string>
   <string name="remove_second_space_msg">All Second space app data will be lost after you delete Second space. Delete Second space now?</string>
   <string name="remove_user_click_message">"*If you don't have any important items in Second space, %s"</string>
   <string name="remove_user_click_message_action">you can delete Second space and reboot your device now.</string>
