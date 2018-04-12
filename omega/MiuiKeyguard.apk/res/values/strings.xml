@@ -74,6 +74,9 @@
   <string name="fingerprint_try_again_msg">"Couldn't verify fingerprint, try again."</string>
   <string name="fingerprint_try_again_text">Try again</string>
   <string name="forget_password_string">Forgot password</string>
+  <string name="gxzw_press_harder">Please press harder</string>
+  <string name="gxzw_try_more_again">Try more again</string>
+  <string name="gxzw_use_password">Please use password</string>
   <string name="incorrect_pincode">Incorrect PIN code</string>
   <string name="incorrect_pukcode">Incorrect PUK code</string>
   <string name="input_password_after_boot_msg">To unlock device, enter your password</string>
@@ -112,6 +115,7 @@
   <string name="keyguard_left_view_lock_wallpaper">Music</string>
   <string name="keyguard_quick_charging_info_click_to_detail">Quick charging. Tap to view details.</string>
   <string name="keyguard_torch_cover_text">To keep torch on, hold the Power button</string>
+  <string name="kg_password_pin_failed">SIM PIN operation failed!</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
   <string name="lock_screen_no_sim_card">No SIM card</string>
