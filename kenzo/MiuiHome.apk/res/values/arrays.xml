@@ -95,6 +95,8 @@
     </string-array>
     <array name="device_prefix">
         <item>@array/dgoogle</item>
+        <item>@array/dyandex</item>
+        <item>@array/dgoogle_dyandex</item>
     </array>
     <string-array name="dgoogle">
         <item>mido</item>
@@ -102,6 +104,8 @@
         <item>oxygen</item>
         <item>sagit</item>
         <item>chiron</item>
+    </string-array>
+    <string-array name="dgoogle_dyandex">
         <item>ugglite</item>
         <item>ugg</item>
         <item>riva</item>
@@ -112,6 +116,10 @@
         <item>ysl</item>
         <item>cactus</item>
         <item>cereus</item>
+    </string-array>
+    <string-array name="dyandex">
+        <item>dipper</item>
+        <item>beryllium</item>
     </string-array>
     <string-array name="islam">
         <item>PK</item>
@@ -177,9 +185,8 @@
         <item>JP</item>
         <item>UY</item>
     </string-array>
-    <string-array name="notgoogle">
+    <string-array name="no_pay_google">
         <item>ID</item>
-        <item>RU</item>
         <item>SG</item>
         <item>MY</item>
         <item>UA</item>
@@ -191,8 +198,9 @@
     <array name="region_prefix">
         <item>@array/islam</item>
         <item>@array/lowkeymidrop</item>
-        <item>@array/notgoogle</item>
+        <item>@array/no_pay_google</item>
         <item>@array/islam_lowkeymidrop</item>
+        <item>@array/yandex</item>
     </array>
     <string-array name="widget_sizes">
         <item>home_edit_box_area_1_1</item>
@@ -211,5 +219,8 @@
         <item>home_edit_box_area_4_2</item>
         <item>home_edit_box_area_4_3</item>
         <item>home_edit_box_area_4_4</item>
+    </string-array>
+    <string-array name="yandex">
+        <item>RU</item>
     </string-array>
 </resources>
