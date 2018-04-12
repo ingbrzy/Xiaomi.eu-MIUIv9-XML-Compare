@@ -101,6 +101,7 @@
     <string-array name="organized_languages_international">
         <item>az_AZ</item>
         <item>ms_MY</item>
+        <item>bs_BA</item>
         <item>ca_ES</item>
         <item>cs_CZ</item>
         <item>da_DK</item>
@@ -121,6 +122,7 @@
         <item>lv_LV</item>
         <item>lt_LT</item>
         <item>hu_HU</item>
+        <item>mt_MT</item>
         <item>nl_NL</item>
         <item>nb_NO</item>
         <item>uz_UZ</item>
@@ -128,6 +130,7 @@
         <item>pt_BR</item>
         <item>pt_PT</item>
         <item>ro_RO</item>
+        <item>sq_AL</item>
         <item>sk_SK</item>
         <item>sl_SI</item>
         <item>fi_FI</item>
@@ -143,6 +146,7 @@
         <item>sr_RS</item>
         <item>uk_UA</item>
         <item>ka_GE</item>
+        <item>hy_AM</item>
         <item>iw_IL</item>
         <item>ur_IN</item>
         <item>ur_PK</item>
