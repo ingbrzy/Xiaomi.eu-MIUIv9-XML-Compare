@@ -74,4 +74,8 @@
         <item quantity="other">Selected %s items</item>
         <item quantity="one">Selected %s item</item>
     </plurals>
+    <plurals name="shopping_delete_num">
+        <item quantity="other">确认要删除所选的 %s 件商品吗？</item>
+        <item quantity="one">确认要删除所选的 %s 件商品吗？</item>
+    </plurals>
 </resources>
