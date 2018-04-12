@@ -22,12 +22,13 @@
         <item>多肉</item>
         <item>建筑</item>
         <item>城市</item>
-        <item>阴天</item>
         <item>多云</item>
+        <item>阴天</item>
         <item>逆光人像</item>
+        <item>剪影</item>
+        <item>人像</item>
     </string-array>
     <array name="ai_scene_drawables">
-        <item>@drawable/ic_ai_scene_off</item>
         <item>@drawable/ic_ai_scene_on</item>
         <item>@drawable/ic_ai_scene_doc</item>
         <item>@drawable/ic_ai_scene_flower</item>
@@ -51,19 +52,19 @@
         <item>@drawable/ic_ai_scene_city</item>
         <item>@drawable/ic_ai_scene_cloud</item>
         <item>@drawable/ic_ai_scene_overcast</item>
-        <item>@drawable/ic_ai_scene_backlight</item>
+        <item>@drawable/ic_ai_scene_human</item>
+        <item>@drawable/ic_ai_scene_human</item>
+        <item>@drawable/ic_ai_scene_human</item>
     </array>
     <string-array name="pref_video_quality_entries">
         <item>@string/pref_video_quality_entry_4kuhd</item>
         <item>@string/pref_video_quality_entry_1080p</item>
         <item>@string/pref_video_quality_entry_720p</item>
-        <item>@string/pref_video_quality_entry_480p</item>
     </string-array>
     <string-array name="pref_video_quality_entryvalues">
         <item>@string/pref_video_quality_entry_value_4kuhd</item>
         <item>6</item>
         <item>5</item>
-        <item>4</item>
     </string-array>
     <string-array name="pref_video_encoder_entries">
         <item>@string/pref_video_encoder_entry_h264</item>
@@ -74,10 +75,10 @@
         <item>h265</item>
     </string-array>
     <string-array name="pref_video_hfr_entries">
-        <item>720p,120fps</item>
-        <item>1080p,120fps</item>
-        <item>720p,240fps</item>
-        <item>1080p,240fps</item>
+        <item>720p, 120fps</item>
+        <item>1080p, 120fps</item>
+        <item>720p, 240fps</item>
+        <item>1080p, 240fps</item>
     </string-array>
     <string-array name="pref_video_hfr_entryvalues">
         <item>1280x720:120</item>
@@ -105,7 +106,7 @@
         <item>@string/pref_video_time_lapse_frame_interval_entry_1800</item>
     </string-array>
     <string-array name="pref_video_time_lapse_frame_interval_entryvalues">
-        <item>60</item>
+        <item>67</item>
         <item>120</item>
         <item>300</item>
         <item>1000</item>
@@ -189,22 +190,14 @@
         <item>6</item>
     </string-array>
     <string-array name="pref_camera_sharpness_entries">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
+        <item>@string/pref_camera_multilevel_entry_low</item>
+        <item>@string/pref_camera_multilevel_entry_normal</item>
+        <item>@string/pref_camera_multilevel_entry_high</item>
     </string-array>
     <string-array name="pref_camera_sharpness_entryvalues">
         <item>0</item>
         <item>1</item>
         <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
     </string-array>
     <string-array name="pref_camera_iso_entryvalues">
         <item>@string/pref_camera_iso_value_auto</item>
@@ -216,10 +209,10 @@
         <item>@string/pref_camera_iso_value_iso3200</item>
     </string-array>
     <string-array name="pref_camera_antibanding_entries">
-        <item>@string/pref_camera_antibanding_entry_off</item>
-        <item>@string/pref_camera_antibanding_entry_50hz</item>
-        <item>@string/pref_camera_antibanding_entry_60hz</item>
-        <item>@string/pref_camera_antibanding_entry_auto</item>
+        <item>@string/pref_camera_antibanding_entry_0</item>
+        <item>@string/pref_camera_antibanding_entry_1</item>
+        <item>@string/pref_camera_antibanding_entry_2</item>
+        <item>@string/pref_camera_antibanding_entry_3</item>
     </string-array>
     <string-array name="pref_camera_antibanding_entryvalues">
         <item>@string/pref_camera_antibanding_entryvalue_off</item>
@@ -248,17 +241,14 @@
         <item>@string/pref_camera_volumekey_function_entryvalue_volume</item>
     </string-array>
     <string-array name="pref_front_mirror_entries">
-        <item>@string/pref_front_mirror_entry_auto</item>
         <item>@string/pref_front_mirror_entry_on</item>
         <item>@string/pref_front_mirror_entry_off</item>
     </string-array>
     <string-array name="pref_front_mirror_entryvalues">
-        <item>@string/pref_front_mirror_entryvalue_auto</item>
         <item>@string/pref_front_mirror_entryvalue_on</item>
         <item>@string/pref_front_mirror_entryvalue_off</item>
     </string-array>
     <string-array name="pref_front_mirror_labels">
-        <item>@string/pref_front_mirror_label_auto</item>
         <item>@string/pref_front_mirror_entry_on</item>
         <item>@string/pref_front_mirror_entry_off</item>
     </string-array>

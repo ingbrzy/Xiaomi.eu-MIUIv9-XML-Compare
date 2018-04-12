@@ -35,7 +35,7 @@
   <string name="mibi_bill_record_empty">No records.</string>
   <string name="mibi_btn_agree">Agree</string>
   <string name="mibi_btn_back">Return</string>
-  <string name="mibi_btn_count_down_auto">Inquire after %1$s seconds</string>
+  <string name="mibi_btn_count_down_auto">Inquire after %1$d seconds</string>
   <string name="mibi_btn_finish">finish</string>
   <string name="mibi_btn_mili_center_recharge">Top-up Mi Credit</string>
   <string name="mibi_btn_net_connection_retry">Retry</string>
@@ -58,6 +58,7 @@
   <string name="mibi_button_pay">Confirm</string>
   <string name="mibi_button_reget">Resend</string>
   <string name="mibi_button_retry">Retry</string>
+  <string name="mibi_camera_open_failed">Camera open failed</string>
   <string name="mibi_cancel">Cancel</string>
   <string name="mibi_change_security_lock">More screen locks</string>
   <string name="mibi_check_giftcard">View coupons</string>
@@ -271,6 +272,7 @@ Please check your local date and try again."</string>
   <string name="mibi_progress_prepaid_creating">Generating order…</string>
   <string name="mibi_progress_querying">Processing…</string>
   <string name="mibi_progress_submit_hint">Top-up will be reflected in you account balance within 3 minutes.</string>
+  <string name="mibi_progress_submit_pay">Payment will be complete in about 3 minutes…</string>
   <string name="mibi_progress_submit_recharge_summary">Topping up: %1$s Mi Credits.</string>
   <string name="mibi_progress_submit_title">Request submitted</string>
   <string name="mibi_progress_success_pay_title">%1$s Mi Credit payment complete</string>

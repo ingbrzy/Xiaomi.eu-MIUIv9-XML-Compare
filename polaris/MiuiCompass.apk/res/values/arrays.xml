@@ -22,12 +22,16 @@
         <item>polaris</item>
         <item>rosy</item>
         <item>sagit</item>
+        <item>sakura</item>
         <item>scorpio</item>
         <item>sirius</item>
         <item>tiffany</item>
         <item>virgo</item>
         <item>vince</item>
         <item>wayne</item>
+        <item>dipper</item>
+        <item>sirius</item>
+        <item>beryllium</item>
     </string-array>
     <string-array name="support_mi_nmea_devices">
         <item>leo</item>

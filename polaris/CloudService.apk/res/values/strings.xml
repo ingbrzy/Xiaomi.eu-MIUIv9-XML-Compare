@@ -98,8 +98,8 @@ Last backed up on %2$s"</string>
   <string name="find_device_error_password_changed">Account password has been recently changed.</string>
   <string name="find_device_error_server">Server error</string>
   <string name="find_device_error_unknown">Unknown error.</string>
-  <string name="find_device_gdpr_prompt">By turning on Find device, you agree to \"Privacy Policy\". If you need to revoke your privacy authorization, please turn off this feature.</string>
-  <string name="find_device_gdpr_prompt_policy_doc_name">\"Privacy Policy\"</string>
+  <string name="find_device_gdpr_prompt">By turning on Find device, you agree to our Privacy Policy. If you need to revoke authorization, turn this feature off.</string>
+  <string name="find_device_gdpr_prompt_policy_doc_name">Privacy Policy</string>
   <string name="find_device_notice_p1">Go to</string>
   <string name="find_device_notice_p2">i.mi.com</string>
   <string name="find_device_notice_p3">"to locate, lock, or restore your phone.
@@ -360,9 +360,6 @@ Use a different account."</string>
   <string name="micloud_manage_space_data">Manage Mi Cloud data</string>
   <string name="micloud_member">Mi Cloud membership</string>
   <string name="micloud_member_advantage">Get more storage space.</string>
-  <string name="micloud_member_buy_content" formatted="false">"Valid until %s-%s-%s
-
-%s Mi Credits"</string>
   <string name="micloud_member_buy_title">Confirm order</string>
   <string name="micloud_member_net_error_alert_message">"You don't have an internet connection."</string>
   <string name="micloud_member_net_error_alert_title">"Can't connect to the network"</string>
@@ -391,21 +388,22 @@ Use a different account."</string>
   <string name="micloud_notif_title_master_depend_wifi">"Can't sync with Mi Cloud"</string>
   <string name="micloud_notif_title_memory_low">"Can't sync with Mi Cloud"</string>
   <string name="micloud_notif_title_multi_user_error">"Can't sync with Mi Cloud"</string>
-  <string name="micloud_notif_title_privacy_reopen_failed">"Couldn't start cloud service"</string>
+  <string name="micloud_notif_title_privacy_reopen_failed">"Couldn't turn on Mi Cloud services"</string>
   <string name="micloud_notif_title_sync_finish">Synced</string>
   <string name="micloud_notif_title_sync_not_finish">"Some items haven't been synced"</string>
   <string name="micloud_notif_title_sync_progress">Syncing</string>
   <string name="micloud_notif_title_sync_with_off">Sync with Mi Cloud</string>
   <string name="micloud_other_product_price">Compare prices</string>
-  <string name="micloud_privacy_cloud_off">Sync Off</string>
-  <string name="micloud_privacy_cloud_sync">Active Mi Cloud</string>
-  <string name="micloud_privacy_explanation">Active Mi Cloud after enabling the authorization</string>
-  <string name="micloud_privacy_licence_agreed">Agree with Mi Cloud privacy policy.</string>
-  <string name="micloud_privacy_licence_privacy_policy">privacy policy</string>
-  <string name="micloud_privacy_more">more</string>
+  <string name="micloud_privacy_cloud_off">Sync is off</string>
+  <string name="micloud_privacy_cloud_sync">Turn on Mi Cloud services</string>
+  <string name="micloud_privacy_explanation">Grant authorization to turn on Mi Cloud services</string>
+  <string name="micloud_privacy_licence_agreed">Agree to Mi Cloud Privacy Policy.</string>
+  <string name="micloud_privacy_licence_privacy_policy">Privacy Policy</string>
+  <string name="micloud_privacy_more">More</string>
+  <string name="micloud_privacy_progress_content">Granting authorization…</string>
   <string name="micloud_privacy_warning_button">Back</string>
-  <string name="micloud_privacy_warning_content">"Can't active Mi Cloud. Try it later."</string>
-  <string name="micloud_privacy_warning_title">Hint</string>
+  <string name="micloud_privacy_warning_content">"Can't turn on Mi Cloud services. Wait a minute or two and try again."</string>
+  <string name="micloud_privacy_warning_title">Attention</string>
   <string name="micloud_proceed">Continue</string>
   <string name="micloud_request_permission_confirm">Got it</string>
   <string name="micloud_request_permission_content">Mi Cloud needs permissions to sync data. Allow Mi Cloud to access Calendar, Contacts, Mi Account, SIM card status, call history, and messages.</string>
@@ -453,10 +451,9 @@ Use a different account."</string>
   <string name="micloud_warn_full_title">Out of space</string>
   <string name="micloud_warn_low_sum">Your Mi Cloud is 90% full.</string>
   <string name="micloud_warn_low_title">Almost out of space</string>
-  <string name="micloud_web_discription">Visit i.mi.com</string>
   <string name="micloud_web_discription_01">Sign in at i.mi.com</string>
   <string name="micloud_web_discription_02">to store and access your files from anywhere</string>
-  <string name="micloud_web_discription_international">Visit www.mi.com/micloud</string>
+  <string name="micloud_web_discription_place_holder">Visit %1$s on your computer to manage your data.</string>
   <string name="micloud_website">Mi Cloud items</string>
   <string name="micloud_wipe_data_confirm_label">Remove data from Mi Cloud</string>
   <string name="micloud_wipe_data_confirm_title">Remove items synced with Mi Cloud from the phone after you sign out?</string>
@@ -589,11 +586,10 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="upgrade_space_successful_total">%sGB available</string>
   <string name="upgrade_space_tb">TB</string>
   <string name="user_agreement">User Agreement</string>
+  <string name="user_agreement_content">"By using this service, you're agreeing to %s."</string>
+  <string name="user_agreement_link">"Mi Cloud's Terms of Service"</string>
   <string name="user_agreement_p5">"
 "</string>
-  <string name="user_agreement_p6">"By using this service, you're agreeing to "</string>
-  <string name="user_agreement_p7">"Mi Cloud's Terms of Service"</string>
-  <string name="user_agreement_p8">.</string>
   <string name="user_agreement_title">"Mi Cloud's Terms of Service"</string>
   <string name="vcode">Verification code</string>
   <string name="verify">Verify</string>

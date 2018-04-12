@@ -205,7 +205,7 @@ Sample Rate"</string>
   <string name="call_status_holding">Holding</string>
   <string name="call_status_ringing">Ringing</string>
   <string name="camera_key_action_app_title">Open application</string>
-  <string name="camera_key_action_category_title">Use if Camera app is not open</string>
+  <string name="camera_key_action_category_title">"Use if the Camera app isn't open"</string>
   <string name="camera_key_action_none_title">No action</string>
   <string name="camera_key_action_setting_title">Mi Button</string>
   <string name="camera_key_action_shortcut_call">Call</string>
@@ -225,6 +225,7 @@ Sample Rate"</string>
   <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
   <string name="click_expand">Tap to expand</string>
   <string name="click_to_return_multi_window">Tap to return to Split screen</string>
+  <string name="click_to_return_multi_window_of_notch">Back to Split screen</string>
   <string name="config_systemUIFactoryComponent">com.android.systemui.SystemUIFactory</string>
   <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
   <string name="confirm_enable_oem_unlock_title">Allow OEM unlocking?</string>
@@ -319,7 +320,7 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="ext_media_badremoval_notification_title">USB storage removed unexpectedly</string>
   <string name="ext_media_checking_notification_message">Checking for errors.</string>
   <string name="ext_media_checking_notification_title">Preparing USB storage</string>
-  <string name="ext_media_mountable_notification_message">Tap to open in Mi File Manager.</string>
+  <string name="ext_media_mountable_notification_message">Tap to open in File Manager</string>
   <string name="ext_media_mountable_notification_title">USB storage device connected</string>
   <string name="ext_media_nofs_notification_message">USB storage blank or has unsupported filesystem.</string>
   <string name="ext_media_nofs_notification_title">Blank USB storage</string>
@@ -368,8 +369,8 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="hour_minute_time_format">HH:mm</string>
   <string name="how_to_back_home">Go to Home screen</string>
   <string name="how_to_switch_recents">Open Recents</string>
-  <string name="how_to_use_drawer">How to use the app sliding function</string>
-  <string name="how_to_use_drawer_summary">Swipe from the top-left</string>
+  <string name="how_to_use_drawer">How to open slide menu</string>
+  <string name="how_to_use_drawer_summary">Swipe right in the upper part of the screen</string>
   <string name="how_to_use_fsg">You can perform these actions using gestures:</string>
   <string name="ime_security_warning">This input method may be able to collect all the text you type, including personal data like passwords and credit card numbers. It comes from the app %1$s. Use this input method?</string>
   <string name="immediately_destroy_activities">Don’t keep activities</string>
@@ -448,6 +449,9 @@ Use only the supplied charger."</string>
   <string name="long_screenshot_stop">Done</string>
   <string name="long_screenshot_top_msg">Creating screenshot…</string>
   <string name="long_screenshot_top_msg_manual">Crop the screenshot and tap the button to finish</string>
+  <string name="low_temperature_button_ok">Got it</string>
+  <string name="low_temperature_warning_message">The temperature is too low. Your phone may shut down anytime now. Make sure you save all the important changes.</string>
+  <string name="low_temperature_warning_title">Low temperature warning</string>
   <string name="managed_profile_foreground_toast">"You're using your work profile"</string>
   <string name="managed_user_title">All work apps</string>
   <string name="mdb_entering">Starting…</string>
@@ -504,8 +508,10 @@ For more information, contact your admin."</string>
   <string name="no_application">Nothing</string>
   <string name="no_multi_window_app">No apps which support Split screen</string>
   <string name="no_notification_tips">No notifications.</string>
+  <string name="no_sim_card">No SIM card</string>
   <string name="no_weather_description">Get weather info &gt;</string>
   <string name="not_support_multi_window">"Current app doesn't support Split screen"</string>
+  <string name="notch_status_bar_date_format_12">EEEE, MMMM d</string>
   <string name="notification_group_overflow_indicator">+%s</string>
   <string name="notification_group_title_text">%1$s (%2$s)</string>
   <string name="notification_header_title">Notifications</string>
@@ -565,6 +571,12 @@ For more information, contact your admin."</string>
   <string name="power_remaining_duration_only">About %1$s left</string>
   <string name="power_remaining_duration_only_short">%1$s left</string>
   <string name="process_kernel_label">Android OS</string>
+  <string name="prompt_danger">Danger</string>
+  <string name="prompt_detecting">Detecting</string>
+  <string name="prompt_failure">Error</string>
+  <string name="prompt_return_to_split">Split screen</string>
+  <string name="prompt_safe">Safe</string>
+  <string name="prompt_unknown">Unknown</string>
   <string name="proxy_exclusionlist_hint">example.com,mycomp.test.com,localhost</string>
   <string name="proxy_hostname_hint">proxy.example.com</string>
   <string name="proxy_port_hint">8080</string>
@@ -595,6 +607,7 @@ For more information, contact your admin."</string>
   <string name="quick_settings_wifi_detail_empty_text">No WLAN networks available</string>
   <string name="quick_settings_wifi_label">WLAN</string>
   <string name="quick_settings_wifi_nearby">Select a nearby network</string>
+  <string name="recent_cannot_dock">"Can't use Split screen in Second Space"</string>
   <string name="recent_dock_tip">Tap to select apps</string>
   <string name="recent_task_app_info_text">Info</string>
   <string name="recent_task_cleaning">Clearing apps…</string>

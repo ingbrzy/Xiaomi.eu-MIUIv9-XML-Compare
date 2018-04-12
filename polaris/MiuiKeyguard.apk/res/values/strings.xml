@@ -74,10 +74,14 @@
   <string name="fingerprint_try_again_msg">"Couldn't verify fingerprint, try again."</string>
   <string name="fingerprint_try_again_text">Try again</string>
   <string name="forget_password_string">Forgot password</string>
+  <string name="gxzw_press_harder">Please press harder</string>
+  <string name="gxzw_try_more_again">Try more again</string>
+  <string name="gxzw_use_password">Please use password</string>
   <string name="incorrect_pincode">Incorrect PIN code</string>
   <string name="incorrect_pukcode">Incorrect PUK code</string>
   <string name="input_password_after_boot_msg">To unlock device, enter your password</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
+  <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
   <string name="input_password_handle_sdcard_fs">"Can't enter Second space from Lock screen. Enter from First space."</string>
   <string name="input_password_hint_text">Enter password</string>
@@ -111,6 +115,7 @@
   <string name="keyguard_left_view_lock_wallpaper">Music</string>
   <string name="keyguard_quick_charging_info_click_to_detail">Quick charging. Tap to view details.</string>
   <string name="keyguard_torch_cover_text">To keep torch on, hold the Power button</string>
+  <string name="kg_password_pin_failed">SIM PIN operation failed!</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
   <string name="lock_screen_date_12">EEEE, MMMM d</string>
   <string name="lock_screen_no_sim_card">No SIM card</string>
@@ -139,8 +144,8 @@
   <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;Select &amp;lt;font color=#a5220e&amp;gt;\"Wipe &amp;amp;amp; Reset\"&amp;lt;/font&amp;gt; and wait until the device reboots.&lt;/Data&gt;</string>
   <string name="phone_locked_forget_password_suggesstions_title">How to erase data?</string>
   <string name="phone_locked_string">Phone has been locked</string>
-  <string name="reset_device_detail_tip">Wireless charging, please align the phone base, to ensure the charging speed.</string>
-  <string name="reset_device_tip">Charge slowly, please reposition the phone</string>
+  <string name="reset_device_detail_tip">Place your device on the wireless charger correctly to ensure high charging speed.</string>
+  <string name="reset_device_tip">Charging is slow. Readjust your device.</string>
   <string name="symbol_colon">:</string>
   <string name="unlock_camera_steady">Please keep steady</string>
   <string name="unlock_failed">Internal error</string>
@@ -152,7 +157,8 @@
   <string name="unlockscreen_recharging_message">Charging %d%%</string>
   <string name="wallpaper_global_des_drop_down_notify_text">Release to view details</string>
   <string name="wireless_charge_dialog_cancel">Cancel</string>
-  <string name="wireless_charge_dialog_title">Position offset, please reposition</string>
-  <string name="wireless_charge_stop">Wireless charging has stopped</string>
+  <string name="wireless_charge_dialog_title">Readjust your device on the wireless charger</string>
+  <string name="wireless_charge_stop">Stopped wireless charging</string>
+  <string name="wireless_current_charge">Current Charge</string>
   <string name="wrong_password">Incorrect password</string>
 </resources>

@@ -100,9 +100,10 @@
     </string-array>
     <string-array name="organized_languages_international">
         <item>az_AZ</item>
-        <item>in_ID</item>
         <item>ms_MY</item>
+        <item>bs_BA</item>
         <item>ca_ES</item>
+        <item>cs_CZ</item>
         <item>da_DK</item>
         <item>de_DE</item>
         <item>et_EE</item>
@@ -115,59 +116,64 @@
         <item>fr_FR</item>
         <item>gl_ES</item>
         <item>ha_NG</item>
+        <item>hr_HR</item>
+        <item>in_ID</item>
         <item>it_IT</item>
         <item>lv_LV</item>
         <item>lt_LT</item>
         <item>hu_HU</item>
+        <item>mt_MT</item>
+        <item>nl_NL</item>
         <item>nb_NO</item>
         <item>uz_UZ</item>
         <item>pl_PL</item>
         <item>pt_BR</item>
         <item>pt_PT</item>
         <item>ro_RO</item>
+        <item>sq_AL</item>
         <item>sk_SK</item>
         <item>sl_SI</item>
         <item>fi_FI</item>
         <item>sv_SE</item>
         <item>vi_VN</item>
         <item>tr_TR</item>
-        <item>cs_CZ</item>
-        <item>sr_RS</item>
-        <item>hr_HR</item>
+        <item>el_GR</item>
+        <item>be_BY</item>
+        <item>bg_BG</item>
         <item>kk_KZ</item>
         <item>mk_MK</item>
         <item>ru_RU</item>
+        <item>sr_RS</item>
         <item>uk_UA</item>
-        <item>bg_BG</item>
-        <item>el_GR</item>
         <item>ka_GE</item>
-        <item>hi_IN</item>
+        <item>hy_AM</item>
+        <item>iw_IL</item>
+        <item>ur_IN</item>
+        <item>ur_PK</item>
+        <item>ar_EG</item>
+        <item>fa_IR</item>
+        <item>ne_IN</item>
+        <item>ne_NP</item>
         <item>mr_IN</item>
-        <item>bn_IN</item>
-        <item>gu_IN</item>
-        <item>pa_IN</item>
+        <item>hi_IN</item>
         <item>as_IN</item>
+        <item>bn_IN</item>
+        <item>bn_BD</item>
+        <item>pa_IN</item>
+        <item>gu_IN</item>
+        <item>or_IN</item>
         <item>ta_IN</item>
         <item>te_IN</item>
         <item>kn_IN</item>
         <item>ml_IN</item>
-        <item>ne_IN</item>
-        <item>or_IN</item>
-        <item>ur_IN</item>
-        <item>ur_PK</item>
-        <item>bn_BD</item>
-        <item>ne_NP</item>
         <item>th_TH</item>
         <item>my_MM</item>
-        <item>ar_EG</item>
-        <item>fa_IR</item>
-        <item>iw_IL</item>
         <item>km_KH</item>
         <item>ko_KR</item>
+        <item>ja_JP</item>
         <item>zh_CN</item>
         <item>zh_TW</item>
         <item>zh_HK</item>
-        <item>ja_JP</item>
     </string-array>
     <string-array name="organized_languages_default">
         <item>zh_CN</item>
@@ -1238,12 +1244,54 @@
         <item>com.hecorat.screenrecorder.free</item>
         <item>com.steam.photoeditor</item>
         <item>com.reliancegames.wwemayhem</item>
+        <item>com.jio.jioplay.tv</item>
+        <item>com.bsbportal.music</item>
+        <item>HinKhoj.Dictionary</item>
+        <item>com.hideitpro</item>
+        <item>com.ideacellular.myidea</item>
+        <item>com.snapwork.hdfc</item>
+        <item>com.netqin.ps</item>
+        <item>com.autonavi.minimap</item>
     </string-array>
     <array name="config_crossSpaceNotificationPackageNames" />
     <string-array name="config_sysBrightnessFileArray">
         <item>/sys/class/leds/lcd-backlight/brightness</item>
         <item>/sys/class/backlight/panel0-backlight/brightness</item>
     </string-array>
+    <integer-array name="config_maxBrightnessRemapIn">
+        <item>1</item>
+        <item>10</item>
+        <item>50</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+    </integer-array>
+    <integer-array name="config_maxBrightnessRemapOut">
+        <item>140</item>
+        <item>140</item>
+        <item>140</item>
+        <item>255</item>
+        <item>255</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_manualBrightnessRemapIn">
+        <item>0</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>128</item>
+        <item>192</item>
+        <item>255</item>
+    </integer-array>
+    <integer-array name="config_manualBrightnessRemapOut">
+        <item>0</item>
+        <item>1</item>
+        <item>8</item>
+        <item>20</item>
+        <item>60</item>
+        <item>120</item>
+        <item>255</item>
+    </integer-array>
     <string-array name="securespaces_extension_accelerometer_userRestrictions">
         <item>ss_no_accelerometer_access,1</item>
     </string-array>

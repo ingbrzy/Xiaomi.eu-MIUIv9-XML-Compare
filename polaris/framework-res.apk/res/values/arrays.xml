@@ -187,6 +187,13 @@
         <item>/system/framework/arm/boot-framework.oat</item>
         <item>/system/framework/arm64/boot-core-libart.oat</item>
         <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/lib64/libRScpp.so</item>
+        <item>/system/lib64/libRS.so</item>
+        <item>/system/lib64/libRS_internal.so</item>
+        <item>/system/lib64/libbcinfo.so</item>
+        <item>/system/lib64/libRSDriver.so</item>
+        <item>/system/lib64/libRSCpuRef.so</item>
+        <item>/system/lib64/libblas.so</item>
     </string-array>
     <array name="config_default_vm_number" />
     <array name="config_disabledUntilUsedPreinstalledCarrierApps" />
@@ -270,24 +277,6 @@
         <item>-108</item>
         <item>-98</item>
         <item>-44</item>
-    </integer-array>
-    <integer-array name="config_manualBrightnessRemapIn">
-        <item>0</item>
-        <item>15</item>
-        <item>30</item>
-        <item>60</item>
-        <item>128</item>
-        <item>192</item>
-        <item>255</item>
-    </integer-array>
-    <integer-array name="config_manualBrightnessRemapOut">
-        <item>0</item>
-        <item>1</item>
-        <item>8</item>
-        <item>20</item>
-        <item>60</item>
-        <item>120</item>
-        <item>255</item>
     </integer-array>
     <array name="config_mobile_hotspot_provision_app" />
     <string-array name="config_mobile_tcp_buffers">
@@ -1131,6 +1120,14 @@
         <item>zh-Hant-MO</item>
         <item>zh-Hant-TW</item>
         <item>zu-ZA</item>
+    </string-array>
+    <string-array name="webview_list">
+        <item>com.tencent.smtt.webkit.WebView</item>
+        <item>com.miui.webkit.WebView</item>
+        <item>com.uc.webkit.WebView</item>
+        <item>com.baidu.webkit.sdk.WebView</item>
+        <item>sogou.webkit.WebView</item>
+        <item>com.qihoo.webkit.WebView</item>
     </string-array>
     <string-array name="wfcOperatorErrorAlertMessages">
         <item>To make calls and send messages over WLAN, first ask your carrier to set up this service. Then turn on WLAN calling again from Settings.</item>
