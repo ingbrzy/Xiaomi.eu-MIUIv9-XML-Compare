@@ -225,7 +225,7 @@ Sample Rate"</string>
   <string name="clear_adb_keys">Revoke USB debugging authorizations</string>
   <string name="click_expand">Tap to expand</string>
   <string name="click_to_return_multi_window">Tap to return to Split screen</string>
-  <string name="click_to_return_multi_window_of_notch">Return to Split screen</string>
+  <string name="click_to_return_multi_window_of_notch">Back to Split screen</string>
   <string name="config_systemUIFactoryComponent">com.android.systemui.SystemUIFactory</string>
   <string name="confirm_enable_oem_unlock_text">WARNING: Device protection features will not work on this device while this setting is turned on.</string>
   <string name="confirm_enable_oem_unlock_title">Allow OEM unlocking?</string>
@@ -571,7 +571,7 @@ For more information, contact your admin."</string>
   <string name="power_remaining_duration_only">About %1$s left</string>
   <string name="power_remaining_duration_only_short">%1$s left</string>
   <string name="process_kernel_label">Android OS</string>
-  <string name="prompt_danger">Risk</string>
+  <string name="prompt_danger">Danger</string>
   <string name="prompt_detecting">Detecting</string>
   <string name="prompt_failure">Error</string>
   <string name="prompt_return_to_split">Split screen</string>
