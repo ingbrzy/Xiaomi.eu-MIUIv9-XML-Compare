@@ -3,8 +3,8 @@
   <string name="about_hide_mode">About Battery saver</string>
   <string name="app_list_title">Choose apps</string>
   <string name="app_name">Battery and performance</string>
-  <string name="app_preload_policies_summary">Use ML model to predict apps you will use and load resources in advance, obvoiusly improve the app launching performance</string>
-  <string name="app_preload_policies_title">AI PreLoad</string>
+  <string name="app_preload_policies_summary">"Use machine learning to predict the apps you're most likely to use, and load resources in advance."</string>
+  <string name="app_preload_policies_title">AI pre-loading</string>
   <string name="base_info">Base info</string>
   <string name="cloud_addr_info">Cloud info</string>
   <string name="cloud_china_addr">Update Chinese server data</string>
