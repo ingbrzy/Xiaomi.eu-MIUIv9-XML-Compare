@@ -6,10 +6,12 @@
   <string name="HIPS_Perm_Location">Get location info</string>
   <string name="HIPS_Perm_PhoneID">Get device info</string>
   <string name="HIPS_Perm_Settings">Modify system settings</string>
+  <string name="HIPS_Perm_SystemAlert">Display pop-up window</string>
   <string name="HIPS_Perm_WIFI_Connectivity">Change WLAN connectivity</string>
   <string name="HIPS_Perm_background_start_activity">Start in background</string>
   <string name="HIPS_Perm_get_accounts">Access accounts on device</string>
   <string name="HIPS_Perm_get_installed_apps">Get info about installed apps</string>
+  <string name="HIPS_Perm_show_when_locked">Show on Lock screen</string>
   <string name="Register">register</string>
   <string name="Start">Start</string>
   <string name="StartScan">StartScan</string>
