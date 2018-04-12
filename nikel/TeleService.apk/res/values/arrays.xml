@@ -411,18 +411,4 @@
         <item>SG;vince,rosy</item>
         <item>RU;vince,rosy</item>
     </string-array>
-    <string-array name="devices_support_ct_volte">
-        <item>tiffany</item>
-        <item>vince</item>
-        <item>sagit</item>
-        <item>chiron</item>
-        <item>polaris</item>
-        <item>sirius</item>
-        <item>nitrogen</item>
-        <item>dipper</item>
-        <item>jason</item>
-        <item>ugg</item>
-        <item>ugglite</item>
-        <item>rosy</item>
-    </string-array>
 </resources>
