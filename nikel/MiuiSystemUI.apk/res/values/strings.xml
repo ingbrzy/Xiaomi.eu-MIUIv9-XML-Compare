@@ -478,6 +478,7 @@ For more information, contact your admin."</string>
   <string name="screenshot_send">Send</string>
   <string name="screenshot_toalbum_txt">Preview</string>
   <string name="search_hint">Search for websites, apps, contacts, and videos</string>
+  <string name="select_logd_level">Select log level</string>
   <string name="settings_custom_notification">Manage notifications</string>
   <string name="settings_package">com.android.settings</string>
   <string name="settings_toggle_position">Manage toggles</string>

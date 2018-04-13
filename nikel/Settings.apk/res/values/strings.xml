@@ -894,9 +894,9 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="confirm_erase">Erase</string>
   <string name="confirm_fingerprint_icon_content_description">Use your fingerprint to continue.</string>
   <string name="confirm_fingerprint_msg">Put your finger on the sensor</string>
-  <string name="confirm_frp_credential_message">You device was factory reset, you can unlock it with your previous secret.</string>
-  <string name="confirm_frp_credential_skip_txt">USE MY GOOGLE ACCOUNT INSTEAD</string>
-  <string name="confirm_frp_credential_title">Factory Reset Protection</string>
+  <string name="confirm_frp_credential_message">You device was factory reset. You can unlock it using your previous password.</string>
+  <string name="confirm_frp_credential_skip_txt">Use Google account instead</string>
+  <string name="confirm_frp_credential_title">Unlock after Factory reset</string>
   <string name="confirm_new_backup_pw_prompt">Retype your new full backup password here</string>
   <string name="confirm_privacy_password">Enter Privacy protection password</string>
   <string name="confirm_privacy_password_fingerprint">Scan fingerprint or enter Privacy protection password</string>
@@ -1644,10 +1644,10 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gxzw_add_fingerprint_know">Got it</string>
   <string name="gxzw_add_fingerprint_message">Keep fingers and screen surface clean</string>
   <string name="gxzw_add_fingerprint_move_indicate">Move your finger slightly</string>
-  <string name="gxzw_add_fingerprint_move_message">Too many finger repeat areas, please move your finger slightly</string>
+  <string name="gxzw_add_fingerprint_move_message">"Can't record the remaining areas of your fingerprint. Move your finger slightly"</string>
   <string name="gxzw_add_fingerprint_move_title">Move your finger slightly</string>
-  <string name="gxzw_add_fingerprint_put_finger_message">Press harder, lifted after vibration and repeated several times</string>
-  <string name="gxzw_add_fingerprint_put_finger_title">Press harder, lift after vibration</string>
+  <string name="gxzw_add_fingerprint_put_finger_message">Press a bit harder and lift your finger after you feel vibration. Repeat several times.</string>
+  <string name="gxzw_add_fingerprint_put_finger_title">Press harder and lift after vibration</string>
   <string name="gxzw_add_fingerprint_title">Add fingerprint</string>
   <string name="handy_mode">One-handed mode</string>
   <string name="handy_mode_enable">One-handed mode</string>
@@ -3484,6 +3484,7 @@ To use screen pinning:
   <string name="select_all">Select all</string>
   <string name="select_application">Select application</string>
   <string name="select_device_admin_msg">Device administrators</string>
+  <string name="select_logd_level">Select log level</string>
   <string name="select_logd_size_dialog_title">Select Logger sizes per log buffer</string>
   <string name="select_logd_size_title">Logger buffer sizes</string>
   <string name="select_sim_for_calls">Call with</string>

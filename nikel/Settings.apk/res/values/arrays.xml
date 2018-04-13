@@ -91,6 +91,14 @@
         <item>Blocked</item>
         <item>Temporarily avoiding poor connection</item>
     </string-array>
+    <string-array name="select_logd_system_levels">
+        <item>Off</item>
+        <item>Error</item>
+        <item>Warn</item>
+        <item>Info</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
     <string-array name="timezone_filters">
         <item>America</item>
         <item>Europe</item>
