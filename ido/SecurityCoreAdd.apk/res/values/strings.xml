@@ -85,6 +85,7 @@ to be able to view them anytime"</string>
   <string name="encrypt_space_delete_notification_message">Delete your Second space and create a new one to update your device successfully.</string>
   <string name="encrypt_space_delete_notification_title">Second space</string>
   <string name="enter_air_space">Go to Work space</string>
+  <string name="entrance_reopen_toast_msg">Showing Second space shortcut due to different password types</string>
   <string name="err_copy_contacts">"Couldn't copy contacts"</string>
   <string name="err_copy_files">"Couldn't copy files"</string>
   <string name="err_copy_photos">"Couldn't copy photos"</string>
@@ -200,12 +201,17 @@ Otherwise you may not be able to enter Second space from Lock screen."</string>
   <string name="radio_button_icon_switch_title">Using a shortcut</string>
   <string name="radio_button_password_switch_title">Using a password</string>
   <string name="removeSuccess">Deleted successfully</string>
+  <string name="remove_button">Remove and reboot</string>
+  <string name="remove_button_time">Remove and reboot (%ds)</string>
   <string name="remove_second_space_msg">All Second space app data will be lost after you delete Second space. Delete Second space now?</string>
   <string name="remove_user_click_message">"*If you don't have any important items in Second space, %s"</string>
   <string name="remove_user_click_message_action">you can delete Second space and reboot your device now.</string>
   <string name="removingSpace">Deleting…</string>
   <string name="repeat_scanner_fingerprint">Add again</string>
   <string name="reset_passwd_success">Password was reset successfully</string>
+  <string name="reset_password_dialog_message">"You're using different password types for First space and Second space. Second space should use the same password type as First space for the shortcut to be hidden."</string>
+  <string name="reset_password_dialog_positve_btn_title">Change</string>
+  <string name="reset_password_dialog_title">"Can't hide Second space shortcut"</string>
   <string name="restore_normal_show">"Don't show private messages"</string>
   <string name="restore_show_desc">"Don't show private messages in Second space. They will still be available in First space."</string>
   <string name="restore_show_toast">Not showing private messages</string>
@@ -309,6 +315,8 @@ If you don't update, dual apps might not work properly as well."</string>
   <string name="start_new_fingerprint_tips">"Use Second space fingerprint
 to enter Second space from Lock screen"</string>
   <string name="start_setting_guide_desc_title">There are a few things to set up</string>
+  <string name="stop_xspace_alert_content">"You deleted all dual apps. Delete dual app accounts and app data as well? After this, you'll have to create dual apps again when you need them."</string>
+  <string name="stop_xspace_alert_title">Deleting dual app accounts</string>
   <string name="summary_switch_apps_settings">Select apps used in the current space</string>
   <string name="support_desc">Security services provided by Spaces Mobile</string>
   <string name="sure_to_use">Confirm</string>
@@ -372,6 +380,7 @@ Some dual apps require Google Services Framework support. In such cases, dual Go
   <string name="xspace_guide_title">Create a dual app</string>
   <string name="xspace_header">Dual apps</string>
   <string name="xspace_install_completed">Icon added to Home screen</string>
+  <string name="xspace_install_completed_global">Icon added to drawer</string>
   <string name="xspace_install_failed">"Couldn't create"</string>
   <string name="xspace_installing">Installing…</string>
   <string name="xspace_introduce">Recommended</string>

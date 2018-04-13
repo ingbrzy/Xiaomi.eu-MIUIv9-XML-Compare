@@ -629,6 +629,8 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="diagnostic_attention_dialog_message">"Diagnostics for %1$s is in progress. Wait until it's finished and try again."</string>
   <string name="dialog_app_roaming_message">"%1$s can't use mobile data when roaming. When you're roaming overseas, only apps you've added to exceptions can use mobile data."</string>
   <string name="dialog_app_roaming_title">"Overseas roaming isn't enabled for %1$s"</string>
+  <string name="dialog_button_ignore">Ignore</string>
+  <string name="dialog_button_yes">Yes</string>
   <string name="dialog_msg_auto_start_declare">Some apps may incorrectly indicate that MIUI has prevented them from starting. Check permissions that have been granted to individual apps in Settings &gt; Apps.</string>
   <string name="dialog_msg_stop_virus_scan">"Stop security scan before it's finished?"</string>
   <string name="dialog_no_longer_alert">"Don't show again"</string>
@@ -733,6 +735,16 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="exception_notify_message">"Couldn't calculate data stats due to an error. Reboot to restore."</string>
   <string name="exception_titile">An error occurred</string>
   <string name="exit">Exit</string>
+  <string name="exit_dialog_garbage_clean_message">The amount of trash on your device is more than %s. Clean up trash?</string>
+  <string name="exit_dialog_garbage_clean_positive_button">Clean up</string>
+  <string name="exit_dialog_garbage_clean_title">Clean up trash</string>
+  <string name="exit_dialog_homepage_optimise_message">"Your device's performance score is lower than 80 points. Optimize now?"</string>
+  <string name="exit_dialog_release_storage_message">More than 80% of storage on your device is occupied. Free up space by uninstalling the apps you never use.</string>
+  <string name="exit_dialog_release_storage_positive_button">Free up space</string>
+  <string name="exit_dialog_release_storage_title">Free up space</string>
+  <string name="exit_dialog_scan_message">"Your device's performance score is lower than 75 points. Optimize now?"</string>
+  <string name="exit_dialog_scan_positive_button">Optimize</string>
+  <string name="exit_dialog_scan_title">Optimize performance</string>
   <string name="fast_open">速抢模式</string>
   <string name="fast_open_dialog_message">开启速抢模式后，当您收到红包时，系统将自动打开抢红包页面，抢红包更快更方便。</string>
   <string name="fast_open_dialog_message_summary">注意：建议关闭导航类、视频类、游戏类应用的速抢模式，以免影响应用的正常操作。手机锁屏状态下不会进行红包速抢。</string>
@@ -832,6 +844,12 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_description_image_button_video_answer">Video call</string>
   <string name="gb_get_gift_right_now">Check in now</string>
   <string name="gb_have_signed">Checked in today</string>
+  <string name="gb_msg_completely_shielded">Hide messages</string>
+  <string name="gb_msg_completely_shielded_summary">Hide</string>
+  <string name="gb_msg_quickly_answer">Allow quick replies</string>
+  <string name="gb_msg_quickly_answer_summary">Quick replies</string>
+  <string name="gb_msg_transparent_dispaly">Notifications with transparent background</string>
+  <string name="gb_msg_transparent_dispaly_summary">Transparent</string>
   <string name="gb_network_status_bad">A connection error occurred.</string>
   <string name="gb_new_feature">New feature</string>
   <string name="gb_sign_gift">Check in to get rewards</string>
@@ -2017,6 +2035,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="suggest_scan_again">Complete the scan to avoid security risks.</string>
   <string name="summary_app_lock_disable">Protect your data with App lock</string>
   <string name="summary_auto_update">MIUI will select the most suitable time to download and install updates.</string>
+  <string name="summary_background_connection">You restricted background connection for this app. Tap to fix.</string>
+  <string name="summary_block_calls_from_cantacts">"You're using blocklist. Tap to fix."</string>
+  <string name="summary_block_calls_from_strangers">You only allow calls from contacts. Tap to fix.</string>
   <string name="summary_cleaner_cloudscan">Upload and compare folder names with online definitions</string>
   <string name="summary_cloud_account">Get the most out of your Mi device</string>
   <string name="summary_cloud_service">Sync your photos, contacts, and more across all your devices</string>
@@ -2027,6 +2048,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="summary_data_flow">Control mobile data usage to avoid additional fees</string>
   <string name="summary_default_app">"%s isn't set as a default system app"</string>
   <string name="summary_dev">Avoid malware and protect personal data</string>
+  <string name="summary_do_not_disturb">"You're using DND mode. Tap to fix."</string>
+  <string name="summary_eye_shield">"You're using Reading mode. Tap to fix."</string>
   <string name="summary_find_device">Locate and lock your device from anywhere</string>
   <string name="summary_flow_notification">Show your monthly data usage stats in the notification shade</string>
   <string name="summary_flow_purchase">"Looks like there isn't much data left. Buy data to stay connected."</string>
@@ -2044,6 +2067,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="summary_permission_root">Looks like this device has root access. It may damage the security of your device.</string>
   <string name="summary_power_optimizer">"Reduce your device's performance when battery is low"</string>
   <string name="summary_realname_verify">Verify your identity to make payments more secure.</string>
+  <string name="summary_restrict_data_usage">You restricted data usage for this app. Tap to fix.</string>
   <string name="summary_show_notification">Clear cache, view battery status, and block items in Notification shade</string>
   <string name="summary_telecom_operator">Get your monthly data usage stats from your carrier</string>
   <string name="summary_usb">Prevent malware from being transmitted via USB</string>
@@ -2175,6 +2199,9 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_app_lock_disable">Lock apps</string>
   <string name="title_app_update">Updates available</string>
   <string name="title_auto_update">Update automatically</string>
+  <string name="title_background_connection">"Can't use %s in the background?"</string>
+  <string name="title_block_calls_from_cantacts">Miss calls from your contacts?</string>
+  <string name="title_block_calls_from_strangers">Miss important calls?</string>
   <string name="title_chain_start">Restrict chain start</string>
   <string name="title_cleaner_cloudscan">Cloud trash scan</string>
   <string name="title_cloud_account">Mi Account</string>
@@ -2189,6 +2216,8 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_dev_no">Developer options on</string>
   <string name="title_dev_yes">Developer options off</string>
   <string name="title_device_not_root">"Root access wasn't granted"</string>
+  <string name="title_do_not_disturb">"Can't hear your ringtone?"</string>
+  <string name="title_eye_shield">"Screen color doesn't look right?"</string>
   <string name="title_find_device">Find device</string>
   <string name="title_flow_notification">Mobile data notification</string>
   <string name="title_flow_purchase">Buy mobile data</string>
@@ -2217,6 +2246,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="title_permission_yes">Permission manager on</string>
   <string name="title_power_optimizer">Battery saver</string>
   <string name="title_realname_verify">ID verification</string>
+  <string name="title_restrict_data_usage">"%s can't connect to the internet?"</string>
   <string name="title_show_notification">Notification shade widget</string>
   <string name="title_system_auto_download">Updates will be downloaded automatically</string>
   <string name="title_telecom_operator">Auto adjust</string>

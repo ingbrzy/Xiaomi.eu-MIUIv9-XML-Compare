@@ -33,7 +33,7 @@
   <string name="attach_sound">Audio</string>
   <string name="attach_subject">Subject</string>
   <string name="attach_take_photo">Take photo</string>
-  <string name="attach_transaction">Send money</string>
+  <string name="attach_transaction">Transfer money</string>
   <string name="attach_video">Video</string>
   <string name="audio_download_failed">"Couldn't download audio"</string>
   <string name="audio_message_expired">This voice message has expired.</string>
@@ -156,7 +156,7 @@
   <string name="enter_edit_mode">Edit messages</string>
   <string name="error_code_label">"Error code: "</string>
   <string name="error_state">Inconsistent state</string>
-  <string name="error_state_text">The state of threads and recipients is inconsistent. Please capture a bug report and report it via http://go/droidanizer</string>
+  <string name="error_state_text">The state of threads and recipients is inconsistent. Capture a bug report and report it via http://go/droidanizer</string>
   <string name="error_timed_msg">Invalid time.</string>
   <string name="ex_type_guide">Information</string>
   <string name="ex_type_mx">Mi Message</string>
