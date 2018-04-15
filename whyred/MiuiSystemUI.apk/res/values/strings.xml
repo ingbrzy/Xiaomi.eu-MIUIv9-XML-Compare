@@ -673,6 +673,7 @@ For more information, contact your admin."</string>
   <string name="screenshot_toalbum_txt">Preview</string>
   <string name="search_hint">Search for websites, apps, contacts, and videos</string>
   <string name="select_application">Select application</string>
+  <string name="select_logd_level">Select log level</string>
   <string name="select_logd_size_dialog_title">Select Logger sizes per log buffer</string>
   <string name="select_logd_size_title">Logger buffer sizes</string>
   <string name="select_logpersist_dialog_title">Select log buffers to store persistently on device</string>

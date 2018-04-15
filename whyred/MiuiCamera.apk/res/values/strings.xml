@@ -235,6 +235,7 @@ and brings out the people in the front."</string>
   <string name="pref_camera_antibanding_entry_3">Auto</string>
   <string name="pref_camera_antibanding_title">Anti banding</string>
   <string name="pref_camera_asd_night_title">Enhance lowlight photos automatically</string>
+  <string name="pref_camera_asd_popup_title">Notify when flash is needed</string>
   <string name="pref_camera_audio_capture_title">Audio</string>
   <string name="pref_camera_auto_capture_when_stable_summary">To select an object, tap two diagonal points around its border. When the object is stationary, the camera will snap a shot automatically.</string>
   <string name="pref_camera_auto_capture_when_stable_title">Capture selected objects when stationary</string>
@@ -602,6 +603,7 @@ and brings out the people in the front."</string>
   <string name="pref_skin_beautify_slim_title">Slim</string>
   <string name="pref_skin_beautify_smooth_default">5</string>
   <string name="pref_skin_beautify_smooth_title">Skin</string>
+  <string name="pref_video_captrue_ability_title">Image capture while recording</string>
   <string name="pref_video_focusmode_entry_auto">Tap</string>
   <string name="pref_video_focusmode_entry_continuous">CAF</string>
   <string name="pref_video_focusmode_entryvalue_auto">auto</string>

@@ -2554,6 +2554,14 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>4194304</item>
         <item>16777216</item>
     </string-array>
+    <string-array name="select_logd_system_levels">
+        <item>Off</item>
+        <item>Error</item>
+        <item>Warn</item>
+        <item>Info</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Off</item>
         <item>All log buffers</item>
