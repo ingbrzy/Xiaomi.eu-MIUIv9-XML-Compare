@@ -1257,7 +1257,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="debug_networking_category">Networking</string>
   <string name="debug_view_attributes">Enable viewing attributes</string>
   <string name="decline_remote_bugreport_action">Decline</string>
-  <string name="defalut_launcher_title">Default launcher</string>
+  <string name="defalut_launcher_title">Default Home screen</string>
   <string name="default_admin_support_msg">"This action is disabled. Contact your organization's administrator to learn more."</string>
   <string name="default_app">(Default)</string>
   <string name="default_apps_title">Default</string>
@@ -2776,6 +2776,14 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="oem_unlock_enable_summary">Allow the bootloader to be unlocked</string>
   <string name="ok_rules">Finish</string>
   <string name="okay">OK</string>
+  <string name="oldman_app_label">Lite mode</string>
+  <string name="oldman_installed_current_btn">Restore original Home screen</string>
+  <string name="oldman_installed_current_des">"You've set Lite mode as your default Home screen. Tap the button below to switch back to the originsl Home screen."</string>
+  <string name="oldman_installed_not_current_btn">Set as default Home screen</string>
+  <string name="oldman_installed_not_current_des">Lite mode is installed on your device. You can use it as your default Home screen.</string>
+  <string name="oldman_mode_entry_name">Lite mode</string>
+  <string name="oldman_uninstalled_btn">Install</string>
+  <string name="oldman_uninstalled_des">Lite mode gets rid of the visual clutter and keeps your Home screen simple and minimalist.</string>
   <string name="one_cacrt">one CA certificate</string>
   <string name="one_usercrt">one user certificate</string>
   <string name="one_userkey">one user key</string>

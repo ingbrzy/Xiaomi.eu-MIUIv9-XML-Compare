@@ -454,6 +454,7 @@
   <string name="clir_choices_hide_number">Hide number</string>
   <string name="clir_choices_network_default">Network default</string>
   <string name="clir_choices_show_number">Show number</string>
+  <string name="close">Turn off</string>
   <string name="close_dialog">OK</string>
   <string name="close_profile">Close</string>
   <string name="cloud_antispam_title">Identify unknown numbers</string>
@@ -1247,6 +1248,9 @@ Your phone will be locked automatically after another failed attempt"</string>
   <string name="private_num">Private number</string>
   <string name="process_kernel_label">Android OS</string>
   <string name="progress_dialog_exiting_ecm">Exiting Emergency Callback mode</string>
+  <string name="prompt_to_turnoff_volte_when_failed">"VoLTE services aren't available. Turn off VoLTE to make a call."</string>
+  <string name="prompt_to_turnoff_volte_when_supp_service">"Service isn't available. Turn off VoLTE in the Settings."</string>
+  <string name="prompt_when_turnon_volte_without_lte">"LTE networks aren't available now. Turning on VoLTE may prevent you from making regular calls."</string>
   <string name="proximity_mode_title">Turn on proximity sensor</string>
   <string name="proximity_off_summary">When you answer a call, the screen will be turned on always.</string>
   <string name="proximity_on_summary">When you answer a call, the screen will be turned off to save power.</string>
@@ -1667,7 +1671,9 @@ Contact your carrier if this problem persists."</string>
   <string name="volte_switch_not_support_summary">"VoLTE calls aren't supported for the mobile data SIM card."</string>
   <string name="volte_switch_not_support_summary2">"VoLTE calls aren't supported by the carrier."</string>
   <string name="volte_switch_summary">Use VoLTE to improve voice and video call quality</string>
+  <string name="volte_switch_summary2">Confirm that your carrier supports this feature before turning on. Otherwise, regular calls might be affected.</string>
   <string name="volte_switch_title">VoLTE enabled</string>
+  <string name="volte_tips_when_turn_on">China Telecom VoLTE services are only provided in the areas with LTE network coverage.</string>
   <string name="vpn_settings_not_available">VPN settings are not available for this user</string>
   <string name="vvm_unsupported_message_format">Unsupported message type, call %s to listen.</string>
   <string name="wait_for_debugger">Wait for debugger</string>
