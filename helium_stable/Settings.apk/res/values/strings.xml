@@ -1357,6 +1357,7 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="disable_service_title">Stop %1$s?</string>
   <string name="disable_text">Disable</string>
   <string name="disabled">Disabled</string>
+  <string name="disabled_authorised_apps_title">Revoked authorization</string>
   <string name="disabled_because_no_backup_security">To use, first set a screen lock</string>
   <string name="disabled_by_admin">Disabled by administrator</string>
   <string name="disabled_by_admin_summary_text">Controlled by admin</string>
@@ -1511,6 +1512,8 @@ Since data usage is measured by your phone, and your carrier may account for usa
   <string name="enable_webview_multiprocess">Multiprocess WebView</string>
   <string name="enable_webview_multiprocess_desc">Run WebView renderers separately</string>
   <string name="enable_wifi_display">Wireless display</string>
+  <string name="enabled_authorised_apps_summary">Your authorization will be revoked after you toggle switches of individual apps.</string>
+  <string name="enabled_authorised_apps_title">Granted authorization</string>
   <string name="enabled_by_admin">Enabled by administrator</string>
   <string name="enalbe_identify_iPhone">AP identification</string>
   <string name="encrypt_dont_require_password">No thanks</string>
@@ -3025,6 +3028,22 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="priority_storage_settings_summary">"If no SD card is detected, your data will be saved to your device's internal storage automatically"</string>
   <string name="priority_storage_summary">Choose where to save your data</string>
   <string name="priority_storage_title">Storage settings</string>
+  <string name="privacy_authorize_cloud_msg">"To ensure your account's security, sign in to i.mi.com if you want to revoke authotization for Mi Cloud services (including sync and backups)."</string>
+  <string name="privacy_authorize_dialog_agree">Agree</string>
+  <string name="privacy_authorize_dialog_exit">Exit</string>
+  <string name="privacy_authorize_dialog_message">&lt;Data&gt;"In order to use the basic features of Mi Cloud services, you must agree that Xiaomi will collect, process, and use your personal data. Refer to our Privacy Policy to learn how we collect and process personal data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;.&amp;#8203;"&lt;/Data&gt;</string>
+  <string name="privacy_authorize_network_error">Connect to the network and try again.</string>
+  <string name="privacy_authorize_privacy_policy">Privacy Policy</string>
+  <string name="privacy_authorize_revoke">Revoke</string>
+  <string name="privacy_authorize_revoke_dialog_msg">After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway?</string>
+  <string name="privacy_authorize_revoke_dialog_title">Revoking authorization</string>
+  <string name="privacy_authorize_revoke_failed">"Couldn't revoke authorization"</string>
+  <string name="privacy_authorize_revoke_success">Revoked authorization successfully</string>
+  <string name="privacy_authorize_revoke_time">Revoke (%1$ds)</string>
+  <string name="privacy_authorize_revoke_title">Authorization &amp; revocation</string>
+  <string name="privacy_authorize_revoking">Revoking authorization…</string>
+  <string name="privacy_authorize_success">Granted authorization successfully</string>
+  <string name="privacy_authorize_title">Granting authorization</string>
   <string name="privacy_close_dlg_button_ok">Turn off</string>
   <string name="privacy_close_dlg_msg">When Privacy protection password is off, your items will no longer be protected.</string>
   <string name="privacy_close_dlg_title">Attention</string>
@@ -4525,7 +4544,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="untitled_apn">Untitled</string>
   <string name="update_new_version">Update is available</string>
   <string name="update_progress_for_updates">Updating (%s)</string>
-  <string name="upload_debug_log_summary">Diagnostic data may include the info about your usage of hardware, operating system, and apps. The data will be used to locate and analyze the problems in the system and will never be used to identify you personally.</string>
+  <string name="upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
   <string name="upload_debug_log_title">Send diagnostic data automatically</string>
   <string name="usage">Usage</string>
   <string name="usage_access">Usage access</string>
@@ -4605,7 +4624,8 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="usb_use_power_only_desc">Supply power to the other connected device</string>
   <string name="use_location_summary">Let Google use your location to improve search results and other services</string>
   <string name="use_location_title">Location &amp; Google search</string>
-  <string name="use_personalized_ad_service">Use advertising identifier</string>
+  <string name="use_personalized_ad_service">Personalized Ad Recommendation</string>
+  <string name="use_personalized_ad_service_summary">When the recommendation feature is switched off, you will still see the same quantity of ads as when it’s on, but not based on your behavior data or your personal information.</string>
   <string name="use_privacy_password_immediate">Use</string>
   <string name="use_system_language_to_select_input_method_subtypes">Use system languages</string>
   <string name="use_this_wlan">Stay connected</string>
@@ -4673,7 +4693,7 @@ Tap the plus to add words."</string>
   <string name="user_exit_guest_dialog_remove">Remove</string>
   <string name="user_exit_guest_title">Remove guest</string>
   <string name="user_experience_program">User Experience Program</string>
-  <string name="user_experience_program_summary">Help improve MIUI by sending anonymous usage data</string>
+  <string name="user_experience_program_summary">Help us improve our products and services by sharing your usage stats with us</string>
   <string name="user_experience_program_title">User Experience Program</string>
   <string name="user_guest">Guest</string>
   <string name="user_image_choose_photo">Choose photo from Gallery</string>
