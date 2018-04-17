@@ -54,7 +54,7 @@
         <item>avrcp16</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
@@ -74,7 +74,7 @@
         <item>6</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
@@ -84,7 +84,7 @@
         <item>Disable Optional Codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -98,14 +98,14 @@
         <item>8</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
@@ -117,13 +117,13 @@
         <item>4</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
@@ -133,15 +133,15 @@
         <item>2</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimized for Audio Quality (990kbps/909kbps)</item>
-        <item>Balanced Audio And Connection Quality (660kbps/606kbps)</item>
-        <item>Optimized for Connection Quality (330kbps/303kbps)</item>
-        <item>Best Effort (Adaptive Bit Rate)</item>
+        <item>Optimized for audio quality (990kbps/909kbps)</item>
+        <item>Balanced audio and connection quality (660kbps/606kbps)</item>
+        <item>Optimized for connection quality (330kbps/303kbps)</item>
+        <item>Best effect (Adaptive bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_values">
         <item>1000</item>
@@ -150,10 +150,10 @@
         <item>1003</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Optimized for Audio Quality</item>
-        <item>Balanced Audio And Connection Quality</item>
-        <item>Optimized for Connection Quality</item>
-        <item>Best Effort (Adaptive Bit Rate)</item>
+        <item>Optimized for audio quality</item>
+        <item>Balanced audio and connection quality</item>
+        <item>Optimized for connection quality</item>
+        <item>Best effect (Adaptive bit rate)</item>
     </string-array>
     <string-array name="select_logd_size_titles">
         <item>Off</item>
@@ -202,14 +202,14 @@
     <string-array name="select_logpersist_titles">
         <item>Off</item>
         <item>All</item>
-        <item>All but radio</item>
-        <item>kernel only</item>
+        <item>All except radio</item>
+        <item>Kernel only</item>
     </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Off</item>
         <item>All log buffers</item>
-        <item>All but radio log buffers</item>
-        <item>kernel log buffer only</item>
+        <item>All except radio log buffers</item>
+        <item>Kernel log buffer only</item>
     </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animation off</item>

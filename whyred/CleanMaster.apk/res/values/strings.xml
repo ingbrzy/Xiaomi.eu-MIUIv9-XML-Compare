@@ -169,6 +169,7 @@
   <string name="default_cache_type">Data Files</string>
   <string name="delete_confirm">Delete</string>
   <string name="delete_confirm_msg">Delete all selected files permanently?</string>
+  <string name="desc_image">image</string>
   <string name="dialog_content_checkbox_delete_cloud_image">Delete photos from Mi Cloud as well</string>
   <string name="dialog_content_select_all_confirm">Keep a copy of this photo?</string>
   <string name="dialog_msg_add_white_list_error">"Can't add this file to exceptions"</string>
