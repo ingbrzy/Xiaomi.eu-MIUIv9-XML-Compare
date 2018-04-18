@@ -580,6 +580,7 @@
   <string name="tuesday_short">Tue</string>
   <string name="tuesday_shortest">T</string>
   <string name="user_agreement">Terms of Service</string>
+  <string name="user_experience_program">User Experience Program</string>
   <string name="user_manual">User guide</string>
   <string name="web_sso_login_fail">You need to sign in again</string>
   <string name="web_sso_login_message">Signing in…</string>
