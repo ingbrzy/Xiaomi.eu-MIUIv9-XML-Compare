@@ -81,7 +81,7 @@
   <string name="accessibility_lock_screen_progress">%1$d of %2$d characters used</string>
   <string name="accessibility_long_press_timeout_preference_title">Touch &amp; hold delay</string>
   <string name="accessibility_menu_item_settings">Settings</string>
-  <string name="accessibility_more_settings">additional settings</string>
+  <string name="accessibility_more_settings">Additional settings</string>
   <string name="accessibility_no_service_selected">No service selected</string>
   <string name="accessibility_no_services_installed">No services installed</string>
   <string name="accessibility_no_wifi">Disconnected from WLAN.</string>
@@ -1080,7 +1080,8 @@ Sample rate"</string>
   <string name="close_demo_mode">Cancel</string>
   <string name="close_gesture">Close using gesture</string>
   <string name="close_miui_optimization_title">Turn off MIUI optimization</string>
-  <string name="close_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
+  <string name="close_optimization_message">Text layout, accounts, and other parts off MIUI might be affected after you turn this feature off.</string>
+  <string name="close_optimization_option">Turn off</string>
   <string name="cloud_backup_section_title">Mi Cloud backup</string>
   <string name="cloud_backup_settings_section_title">Backup settings</string>
   <string name="cloud_restore_section_summary">Restore system settings, Home screen layout, and apps</string>
@@ -2326,7 +2327,7 @@ You can change this later from Settings &gt; Apps &amp; notifications."</string>
   <string name="keywords_vibrate">Vibrate;Vibration</string>
   <string name="keywords_voice_input">recognizer, input, speech, speak, language, hands-free, hand free, recognition, offensive, word, audio, history, bluetooth headset</string>
   <string name="keywords_vr_listener">vr virtual reality listener stereo helper service</string>
-  <string name="keywords_wifi">wifi;wi-fi;WLAN;WLAN;wlan;WLAN</string>
+  <string name="keywords_wifi">wifi;wi-fi;Wi-Fi;WLAN;wlan;WLAN</string>
   <string name="keywords_wifi_calling">wifi, wi-fi, call, calling</string>
   <string name="keywords_write_settings">write modify system settings</string>
   <string name="kilobyteShort">KB</string>
@@ -3170,14 +3171,13 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="open_demo_mode">Turn on</string>
   <string name="open_demo_mode_warning_message">When Demo mode is on, the clock in the status bar will stop, battery and signal icons will be displayed as full. You can turn Demo mode off or reboot the device to change this.</string>
   <string name="open_miui_optimization_title">Turn on MIUI optimization</string>
-  <string name="open_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
+  <string name="open_optimization_message">Turn on optimization to enjoy a smoother, faster UI.</string>
+  <string name="open_optimization_option">Turn on</string>
   <string name="open_wifi_connect_summary">Tap to view details.</string>
   <string name="open_wifi_connect_title">Connected to %1$s</string>
   <string name="opening_paragraph_delete_profile_unknown_company">This work profile is managed by:</string>
   <string name="operator_warning">Carrier data accounting may differ from device accounting</string>
   <string name="optimization_cancel">Cancel</string>
-  <string name="optimization_close">Turn off &amp; reboot</string>
-  <string name="optimization_open">Turn on</string>
   <string name="ota_disable_automatic_update">Automatic system updates</string>
   <string name="other_advanced_settings">Additional settings</string>
   <string name="other_device_info">Others</string>
