@@ -169,6 +169,7 @@
   <string name="default_cache_type">Data Files</string>
   <string name="delete_confirm">Delete</string>
   <string name="delete_confirm_msg">Delete all selected files permanently?</string>
+  <string name="desc_image">image</string>
   <string name="dialog_content_checkbox_delete_cloud_image">Delete photos from Mi Cloud as well</string>
   <string name="dialog_content_select_all_confirm">Keep a copy of this photo?</string>
   <string name="dialog_msg_add_white_list_error">"Can't add this file to exceptions"</string>
@@ -216,6 +217,14 @@
   <string name="go_to">Proceed</string>
   <string name="goto_set">Set</string>
   <string name="grabage_rank_title">Cleaned today</string>
+  <string name="guide_secure_dialog_message">The optimization score of your device is lower than 80 points. Optimize now?</string>
+  <string name="guide_secure_dialog_negative">Cancel</string>
+  <string name="guide_secure_dialog_positive">Optimize</string>
+  <string name="guide_secure_dialog_title">Optimize performance</string>
+  <string name="guide_virus_dialog_message">Scanning apps and installation packages protects your device from viruses and malware. Scan your device now?</string>
+  <string name="guide_virus_dialog_negative">Cancel</string>
+  <string name="guide_virus_dialog_positive">Scan</string>
+  <string name="guide_virus_dialog_title">Antivirus scan</string>
   <string name="header_optimizer">By using this feature, you are agreeing to %s.</string>
   <string name="hint_clean_select_items">Deleting duplicates…</string>
   <string name="hints_ad_header_left">Obsolete files</string>
@@ -366,6 +375,7 @@
   <string name="low_memory_warning_dialog_ok_button">Clear</string>
   <string name="low_memory_warning_dialog_title">Not enough free space</string>
   <string name="main_title_filesize">%1$s trash</string>
+  <string name="mainbtn_text_no_trash">Skip</string>
   <string name="mainbtn_text_quick_cleanup">Clean up %s</string>
   <string name="mainbtn_text_quick_cleanup_default">Clean up</string>
   <string name="megabyteShort">MB</string>
