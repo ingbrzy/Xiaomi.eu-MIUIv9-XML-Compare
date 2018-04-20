@@ -68,4 +68,11 @@
         <item>friend</item>
         <item>unknown</item>
     </string-array>
+    <string-array name="search_voice_assistant_suggestion">
+        <item>帮我找出身份证的照片</item>
+        <item>我想看在三亚拍的照片</item>
+        <item>找出有小米文字的图片</item>
+        <item>搜索去年春节的照片</item>
+        <item>帮我搜我和妈妈上个月在海边的合影</item>
+    </string-array>
 </resources>

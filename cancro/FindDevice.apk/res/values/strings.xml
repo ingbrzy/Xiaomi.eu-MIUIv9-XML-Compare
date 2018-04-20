@@ -29,8 +29,8 @@ Contact your sales agent for details."</string>
   <string name="find_device_noise_title">Find device alarm</string>
   <string name="find_device_notice_p1">Go to</string>
   <string name="find_device_notice_p2">i.mi.com</string>
-  <string name="find_device_notice_p3">"to locate, lock, or restore your phone.
-If you switch SIM cards, another SMS will be sent automatically to reactivate this feature."</string>
+  <string name="find_device_notice_p3">to locate, lock, or restore your device.</string>
+  <string name="find_device_notice_sms_alert">If you switch SIM cards, another SMS may be sent automatically to reactivate this feature.</string>
   <string name="find_device_stop_noise">Tap OK to silence</string>
   <string name="find_device_storage_corrupted">Find Device storage corrupted. Your device is unsafe now.</string>
   <string name="find_device_success_title">Find device</string>
@@ -74,14 +74,14 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="unlock_error_unknown">"Can't sign in"</string>
   <string name="unlock_error_user_name">Invalid username</string>
   <string name="unlock_error_wrong_vcode">The code you entered is incorrect</string>
-  <string name="unlock_help">"Stay connected to the network
-Make sure you've installed a working SIM card, and your device is not connected to an ineffective WLAN network
+  <string name="unlock_help">"Stay connected to the network.
+Make sure you've installed a working SIM card (if your device supports that), and your device is connected to a valid WLAN network.
 
 Forgot password?
-Go to id.mi.com to reset your password
+Go to id.mi.com to reset your password.
 
 Other reasons
-Sign in to i.mi.com and try unlocking your device from there"</string>
+Sign in to i.mi.com and try unlocking your device from there."</string>
   <string name="unlock_help_title">Unlock help:</string>
   <string name="unlock_wrong_captcha">The code you entered is incorrect</string>
   <string name="unlocking">Activating…</string>
