@@ -11,6 +11,7 @@
   <string name="digital_clock_dot">:</string>
   <string name="do_disclosure_generic">This device is managed by your organization</string>
   <string name="do_disclosure_with_name">This device is managed by %s</string>
+  <string name="doze_brightness_sensor_type"/>
   <string name="doze_pickup_subtype_performs_proximity_check"/>
   <string name="emergency_call_string">Emergency</string>
   <string name="face_data_input_camera_fail">"Couldn't load camera"</string>
@@ -74,9 +75,9 @@
   <string name="fingerprint_try_again_msg">"Couldn't verify fingerprint, try again."</string>
   <string name="fingerprint_try_again_text">Try again</string>
   <string name="forget_password_string">Forgot password</string>
-  <string name="gxzw_press_harder">Please press harder</string>
-  <string name="gxzw_try_more_again">Try more again</string>
-  <string name="gxzw_use_password">Please use password</string>
+  <string name="gxzw_press_harder">Press a bit harder</string>
+  <string name="gxzw_try_more_again">Try again</string>
+  <string name="gxzw_use_password">Use your password to unlock</string>
   <string name="incorrect_pincode">Incorrect PIN code</string>
   <string name="incorrect_pukcode">Incorrect PUK code</string>
   <string name="input_password_after_boot_msg">To unlock device, enter your password</string>
