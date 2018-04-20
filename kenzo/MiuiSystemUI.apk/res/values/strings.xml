@@ -79,7 +79,7 @@
   <string name="accessibility_search_scanner">Scanner</string>
   <string name="accessibility_settings">Settings</string>
   <string name="accessibility_tty_enabled">TeleTypewriter enabled.</string>
-  <string name="accessibility_wifi_off">Wifi off.</string>
+  <string name="accessibility_wifi_off">WLAN is off.</string>
   <string name="accessibility_wifi_one_bar">WLAN one bar.</string>
   <string name="accessibility_wifi_signal_full">WLAN signal full.</string>
   <string name="accessibility_wifi_three_bars">WLAN three bars.</string>
@@ -478,6 +478,7 @@ For more information, contact your admin."</string>
   <string name="screenshot_send">Send</string>
   <string name="screenshot_toalbum_txt">Preview</string>
   <string name="search_hint">Search for websites, apps, contacts, and videos</string>
+  <string name="select_logd_level">Select log level</string>
   <string name="settings_custom_notification">Manage notifications</string>
   <string name="settings_package">com.android.settings</string>
   <string name="settings_toggle_position">Manage toggles</string>
