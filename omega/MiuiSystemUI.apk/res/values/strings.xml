@@ -79,7 +79,7 @@
   <string name="accessibility_search_scanner">Scanner</string>
   <string name="accessibility_settings">Settings</string>
   <string name="accessibility_tty_enabled">TeleTypewriter enabled.</string>
-  <string name="accessibility_wifi_off">Wifi off.</string>
+  <string name="accessibility_wifi_off">WLAN is off.</string>
   <string name="accessibility_wifi_one_bar">WLAN one bar.</string>
   <string name="accessibility_wifi_signal_full">WLAN signal full.</string>
   <string name="accessibility_wifi_three_bars">WLAN three bars.</string>
