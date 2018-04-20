@@ -74,14 +74,14 @@ Contact your sales agent for details."</string>
   <string name="unlock_error_unknown">"Can't sign in"</string>
   <string name="unlock_error_user_name">Invalid username</string>
   <string name="unlock_error_wrong_vcode">The code you entered is incorrect</string>
-  <string name="unlock_help">"Stay connected to the network
-Make sure you've installed a working SIM card(if your device support that), and your device is not connected to an ineffective WLAN network
+  <string name="unlock_help">"Stay connected to the network.
+Make sure you've installed a working SIM card (if your device supports that), and your device is connected to a valid WLAN network.
 
 Forgot password?
-Go to id.mi.com to reset your password
+Go to id.mi.com to reset your password.
 
 Other reasons
-Sign in to i.mi.com and try unlocking your device from there"</string>
+Sign in to i.mi.com and try unlocking your device from there."</string>
   <string name="unlock_help_title">Unlock help:</string>
   <string name="unlock_wrong_captcha">The code you entered is incorrect</string>
   <string name="unlocking">Activating…</string>
