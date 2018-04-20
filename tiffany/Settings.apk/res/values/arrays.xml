@@ -2953,6 +2953,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>wayne</item>
         <item>ysl</item>
         <item>sakura</item>
+        <item>clover</item>
     </string-array>
     <string-array name="device_global_support_face">
         <item>whyred</item>
