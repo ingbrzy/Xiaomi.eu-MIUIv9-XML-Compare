@@ -155,6 +155,7 @@ You can also download them separately."</string>
   <string name="lock_screen_open_second_space">Enter Second space from Lock screen</string>
   <string name="messageData">Messages</string>
   <string name="msg_switch_file">Delete these files in First space after they are moved?</string>
+  <string name="msg_switch_file_second">Delete these files in Second space after they are moved?</string>
   <string name="msg_switch_photo">Delete these photos in First space after they are moved?</string>
   <string name="needSetKeyguardFirst">Set First space password</string>
   <string name="needSetKeyguardFirstDes">Set First space password before you set Second space password</string>
@@ -358,6 +359,7 @@ to enter Second space from Lock screen"</string>
   <string name="transferImage">Photos from Second space will be moved to \"Second space\" album in First space</string>
   <string name="transferMessage">Messages from Second space will be moved to First space</string>
   <string name="tryNow">Try now</string>
+  <string name="use_xiaoai_open">Wake using voice assistant</string>
   <string name="wating">Just a sec…</string>
   <string name="weibo_send">Send to Weibo</string>
   <string name="weixin_pay">WeChat Pay</string>

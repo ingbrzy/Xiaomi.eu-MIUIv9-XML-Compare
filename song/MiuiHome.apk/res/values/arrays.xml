@@ -37,7 +37,7 @@
         <item>Light sandstorm</item>
         <item>Sandstorm</item>
         <item>Hail</item>
-        <item>Floating Dust</item>
+        <item>Floating dust</item>
         <item>Haze</item>
     </string-array>
     <string-array name="gadget_weather_theme_type_entries">
