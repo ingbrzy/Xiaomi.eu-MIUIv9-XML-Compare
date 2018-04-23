@@ -2037,6 +2037,7 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="gadget_wifi">WLAN</string>
   <string name="gallery_privacy_password_role_instruction">Your private photos will be stored here.</string>
   <string name="game_controller_settings_category">Game Controller</string>
+  <string name="game_mode_settings">Gaming mode</string>
   <string name="game_storage_settings">Games</string>
   <string name="gesture_double_twist_sensor_name"/>
   <string name="gesture_double_twist_sensor_vendor"/>

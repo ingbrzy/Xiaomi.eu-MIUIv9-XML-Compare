@@ -33,6 +33,7 @@
         <item>ysl</item>
         <item>sakura</item>
         <item>clover</item>
+        <item>dipper</item>
     </string-array>
     <string-array name="device_global_support_face">
         <item>whyred</item>
@@ -52,6 +53,7 @@
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
+        <item>dipper</item>
     </string-array>
     <integer-array name="config_doze_brightness_sensor_to_brightness">
         <item>-1</item>

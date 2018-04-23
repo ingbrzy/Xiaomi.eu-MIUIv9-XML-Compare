@@ -1306,4 +1306,5 @@
         <item>com.android.contacts</item>
         <item>contacts</item>
     </string-array>
+    <array name="screen_resolution_supported" />
 </resources>
