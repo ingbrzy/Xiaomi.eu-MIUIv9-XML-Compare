@@ -217,6 +217,14 @@
   <string name="go_to">Proceed</string>
   <string name="goto_set">Set</string>
   <string name="grabage_rank_title">Cleaned today</string>
+  <string name="guide_secure_dialog_message">The optimization score of your device is lower than 80 points. Optimize now?</string>
+  <string name="guide_secure_dialog_negative">Cancel</string>
+  <string name="guide_secure_dialog_positive">Optimize</string>
+  <string name="guide_secure_dialog_title">Optimize performance</string>
+  <string name="guide_virus_dialog_message">Scanning apps and installation packages protects your device from viruses and malware. Scan your device now?</string>
+  <string name="guide_virus_dialog_negative">Cancel</string>
+  <string name="guide_virus_dialog_positive">Scan</string>
+  <string name="guide_virus_dialog_title">Antivirus scan</string>
   <string name="header_optimizer">By using this feature, you are agreeing to %s.</string>
   <string name="hint_clean_select_items">Deleting duplicates…</string>
   <string name="hints_ad_header_left">Obsolete files</string>
@@ -367,6 +375,7 @@
   <string name="low_memory_warning_dialog_ok_button">Clear</string>
   <string name="low_memory_warning_dialog_title">Not enough free space</string>
   <string name="main_title_filesize">%1$s trash</string>
+  <string name="mainbtn_text_no_trash">Skip</string>
   <string name="mainbtn_text_quick_cleanup">Clean up %s</string>
   <string name="mainbtn_text_quick_cleanup_default">Clean up</string>
   <string name="megabyteShort">MB</string>
@@ -382,7 +391,7 @@
   <string name="msg_update_error_code_network_error">"Can't connect to the network"</string>
   <string name="msg_update_error_code_no_newer_db">Cleaner is up to date</string>
   <string name="msg_update_error_code_success">Done</string>
-  <string name="msg_update_error_code_unknown_error">Unknown error</string>
+  <string name="msg_update_error_code_unknown_error">Servers are too busy,please try again later</string>
   <string name="name_debuglog_dir">Bsp Debug Log</string>
   <string name="name_optimizer">Privacy Policy</string>
   <string name="nb_clear_set">Clear cache, view battery and blocklist info in the notification shade</string>

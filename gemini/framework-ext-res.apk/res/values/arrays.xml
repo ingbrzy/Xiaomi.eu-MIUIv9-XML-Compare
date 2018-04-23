@@ -45,6 +45,7 @@
         <item>com.bbm</item>
         <item>jp.naver.line.android</item>
         <item>com.xiaomi.mipicks</item>
+        <item>com.miui.greenguard</item>
     </string-array>
     <string-array name="keyguard_whitelist">
         <item>com.miui.yellowpage</item>
@@ -1305,4 +1306,5 @@
         <item>com.android.contacts</item>
         <item>contacts</item>
     </string-array>
+    <array name="screen_resolution_supported" />
 </resources>
