@@ -359,6 +359,7 @@ to enter Second space from Lock screen"</string>
   <string name="transferImage">Photos from Second space will be moved to \"Second space\" album in First space</string>
   <string name="transferMessage">Messages from Second space will be moved to First space</string>
   <string name="tryNow">Try now</string>
+  <string name="use_xiaoai_open">Wake using voice assistant</string>
   <string name="wating">Just a sec…</string>
   <string name="weibo_send">Send to Weibo</string>
   <string name="weixin_pay">WeChat Pay</string>

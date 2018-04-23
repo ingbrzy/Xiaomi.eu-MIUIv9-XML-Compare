@@ -2224,14 +2224,19 @@
 .method public static isSupportedIntelligentBeautify()Z
     .locals 2
 
-    const-string/jumbo v0, "support_camera_age_detection"
+    const/4 v0, 0x0
 
-    const/4 v1, 0x0
+    sget-boolean v1, Lmiui/os/Build;->IS_INTERNATIONAL_BUILD:Z
 
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+    if-nez v1, :cond_0
+
+    const-string/jumbo v1, "support_camera_age_detection"
+
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v0
 
+    :cond_0
     return v0
 .end method
 
@@ -2486,14 +2491,19 @@
 .method public static isSupportedQuickSnap()Z
     .locals 2
 
-    const-string/jumbo v0, "support_camera_quick_snap"
+    const/4 v0, 0x0
 
-    const/4 v1, 0x0
+    sget-boolean v1, Lmiui/os/Build;->IS_INTERNATIONAL_BUILD:Z
 
-    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+    if-nez v1, :cond_0
+
+    const-string/jumbo v1, "support_camera_quick_snap"
+
+    invoke-static {v1, v0}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
 
     move-result v0
 
+    :cond_0
     return v0
 .end method
 
@@ -2926,6 +2936,36 @@
     return v0
 .end method
 
+.method public static supportHFRBitRateScale()Z
+    .locals 2
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_MI4:Z
+
+    if-nez v0, :cond_0
+
+    sget-boolean v0, Lcom/android/camera/Device;->IS_X5:Z
+
+    xor-int/lit8 v0, v0, 0x1
+
+    if-eqz v0, :cond_0
+
+    const-string/jumbo v0, "support_camera_hfr_bitrate_scale"
+
+    const/4 v1, 0x1
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    :goto_0
+    return v0
+
+    :cond_0
+    const/4 v0, 0x0
+
+    goto :goto_0
+.end method
+
 .method public static supportPictureWaterMark()Z
     .locals 2
 
@@ -2964,4 +3004,18 @@
     const/4 v0, 0x1
 
     goto :goto_0
+.end method
+
+.method public static useMtkLegacyHfr()Z
+    .locals 2
+
+    const-string/jumbo v0, "support_camera_use_mtk_legacy_hfr"
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Lmiui/util/FeatureParser;->getBoolean(Ljava/lang/String;Z)Z
+
+    move-result v0
+
+    return v0
 .end method
