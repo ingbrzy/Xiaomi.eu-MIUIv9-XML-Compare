@@ -386,13 +386,13 @@
   <string name="menu_view">View in folder</string>
   <string name="month_day_format">MMM dd</string>
   <string name="msg_cleanup_db_update_checking">Checking for updates…</string>
-  <string name="msg_cleanup_db_update_time_unknown">Last update unknown</string>
+  <string name="msg_cleanup_db_update_time_unknown">Last update: Unknown</string>
   <string name="msg_update_error_code_already_running">Updating…</string>
   <string name="msg_update_error_code_network_error">"Can't connect to the network"</string>
   <string name="msg_update_error_code_no_newer_db">Cleaner is up to date</string>
   <string name="msg_update_error_code_success">Done</string>
-  <string name="msg_update_error_code_unknown_error">Servers are too busy,please try again later</string>
-  <string name="name_debuglog_dir">Bsp Debug Log</string>
+  <string name="msg_update_error_code_unknown_error">Servers are busy. Wait a minute or two and try again.</string>
+  <string name="name_debuglog_dir">BSP debug log</string>
   <string name="name_optimizer">Privacy Policy</string>
   <string name="nb_clear_set">Clear cache, view battery and blocklist info in the notification shade</string>
   <string name="network_not_available">"Can't connect to the network"</string>

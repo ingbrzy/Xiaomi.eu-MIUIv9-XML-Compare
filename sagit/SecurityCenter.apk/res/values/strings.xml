@@ -1193,7 +1193,7 @@ to respond"</string>
   <string name="menu_item_virus_lib_auto_update_summary">Updated on %s</string>
   <string name="menu_remove">Delete</string>
   <string name="menu_report">Report error</string>
-  <string name="menu_setting_traffic">手动设置</string>
+  <string name="menu_setting_traffic">Set manually</string>
   <string name="menu_sms">Send message</string>
   <string name="menu_text_antispam">Blocklist</string>
   <string name="menu_text_antivirus">Security scan</string>

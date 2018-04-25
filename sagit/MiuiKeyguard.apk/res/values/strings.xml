@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="accessibility_enter_lock_wallpaper">Tap to open Music</string>
+  <string name="app_name">Keyguard</string>
   <string name="btn_camera">Enter your face</string>
   <string name="change_to_ac_charging">Switched to wired charging</string>
   <string name="click_to_enter_text">Tap to view</string>

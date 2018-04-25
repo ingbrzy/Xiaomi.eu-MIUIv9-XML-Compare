@@ -7,7 +7,6 @@
         <item>com.miui.powerkeeper/.PowerKeeperBackgroundService</item>
         <item>com.miui.klo.bugreport/.service.FeedbackBackgroundService</item>
         <item>com.xiaomi.metok/.MetokClService</item>
-        <item>com.miui.sysbase/.MetokClService</item>
         <item>com.xiaomi.joyose/.smartop.SmartOpService</item>
     </string-array>
     <string-array name="allow_persist_service">
@@ -50,7 +49,6 @@
         <item>com.android.providers.media</item>
         <item>com.xiaomi.xmsf</item>
         <item>com.xiaomi.metok</item>
-        <item>com.miui.sysbase</item>
         <item>com.lbe.security.miui</item>
         <item>com.google.android.marvin.talkback</item>
         <item>com.android.updater</item>
