@@ -267,10 +267,10 @@
   <string name="section_err_type">Bug type</string>
   <string name="section_screenshot">Screenshot</string>
   <string name="select_system_app_tag">Select an issue</string>
-  <string name="submit_dialog_cancel">Cancel</string>
-  <string name="submit_dialog_confirm">Send</string>
+  <string name="submit_dialog_cancel">"Don't agree"</string>
+  <string name="submit_dialog_confirm">Agree</string>
   <string name="submit_dialog_content">"Your feedback, along with attachments and logs, will be sent to MIUI's servers. It may contain personal info and your location data."</string>
-  <string name="submit_dialog_content_global">"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers and a restricted section of MIUI Forum for developers for analysis and further communication. Logs may contain personal info and your location data."</string>
+  <string name="submit_dialog_content_global">"Your feedback, along with attachments (if any) and logs (you can uncheck the corresponding boxes for the items you don't want to upload) will be sent to MIUI's servers and a restricted section of MIUI Forum for developers. The information about your threads and forum activity will also be collected for analysis and further communication. Logs may contain personal info and your location data."</string>
   <string name="submit_dialog_title">Send report</string>
   <string name="submit_feedback_info_failed">"Couldn't send report"</string>
   <string name="suggestion_description">Add description here</string>

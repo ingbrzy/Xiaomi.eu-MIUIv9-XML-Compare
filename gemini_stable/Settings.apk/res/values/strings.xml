@@ -3032,9 +3032,10 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="priority_storage_settings_summary">"If no SD card is detected, your data will be saved to your device's internal storage automatically"</string>
   <string name="priority_storage_summary">Choose where to save your data</string>
   <string name="priority_storage_title">Storage settings</string>
+  <string name="privacy_authorize_cloud_msg">"To ensure your account's security, sign in to i.mi.com if you want to revoke authotization for Mi Cloud services (including sync and backups)."</string>
   <string name="privacy_authorize_dialog_agree">Agree</string>
   <string name="privacy_authorize_dialog_exit">Exit</string>
-  <string name="privacy_authorize_dialog_message">%1$s requires that you read and agree with %2$s. The app needs to connect to the network to work normally. Agree?</string>
+  <string name="privacy_authorize_dialog_message">&lt;Data&gt;"In order to use the basic features of Mi Cloud services, you must agree that Xiaomi will collect, process, and use your personal data. Refer to our Privacy Policy to learn how we collect and process personal data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;.&amp;#8203;"&lt;/Data&gt;</string>
   <string name="privacy_authorize_network_error">Connect to the network and try again.</string>
   <string name="privacy_authorize_privacy_policy">Privacy Policy</string>
   <string name="privacy_authorize_revoke">Revoke</string>
@@ -4545,7 +4546,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="untitled_apn">Untitled</string>
   <string name="update_new_version">Update is available</string>
   <string name="update_progress_for_updates">Updating (%s)</string>
-  <string name="upload_debug_log_summary">Diagnostic data may include the info about your usage of hardware, operating system, and apps. The data will be used to locate and analyze the problems in the system and will never be used to identify you personally.</string>
+  <string name="upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
   <string name="upload_debug_log_title">Send diagnostic data automatically</string>
   <string name="usage">Usage</string>
   <string name="usage_access">Usage access</string>
@@ -4694,7 +4695,7 @@ Tap the plus to add words."</string>
   <string name="user_exit_guest_dialog_remove">Remove</string>
   <string name="user_exit_guest_title">Remove guest</string>
   <string name="user_experience_program">User Experience Program</string>
-  <string name="user_experience_program_summary">Help improve MIUI by sending anonymous usage data</string>
+  <string name="user_experience_program_summary">Help us improve our products and services by sharing your usage stats with us</string>
   <string name="user_experience_program_title">User Experience Program</string>
   <string name="user_guest">Guest</string>
   <string name="user_image_choose_photo">Choose photo from Gallery</string>
