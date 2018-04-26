@@ -810,11 +810,11 @@
         <item>KR;capricorn,gemini,lithium,natrium,sagit,scorpio,chiron</item>
         <item>KH;capricorn,gemini,lithium,natrium,sagit,scorpio,chiron,ugg,ugglite,rosy,riva</item>
         <item>US;scorpio,chiron</item>
-        <item>TW;sagit,chiron</item>
+        <item>TW;sagit,chiron,vince,rosy</item>
         <item>MO;sagit,chiron</item>
         <item>JP;sagit,chiron</item>
-        <item>ID;riva</item>
-        <item>SG;vince</item>
-        <item>RU;vince</item>
+        <item>ID;riva,vince,rosy</item>
+        <item>SG;vince,rosy</item>
+        <item>RU;vince,rosy</item>
     </string-array>
 </resources>
