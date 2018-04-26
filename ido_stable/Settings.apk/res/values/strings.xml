@@ -1015,7 +1015,7 @@ This setting affects all users on this phone."</string>
   <string name="debug_layout_summary">Show clip bounds, margins, etc.</string>
   <string name="debug_monitoring_category">Monitoring</string>
   <string name="debug_view_attributes">Enable view attribute inspection</string>
-  <string name="defalut_launcher_title">Default launcher</string>
+  <string name="defalut_launcher_title">Default Home screen</string>
   <string name="default_date_format">MM/dd/yyyy</string>
   <string name="default_input_method">Choose default keyboard</string>
   <string name="default_sound">Default sound</string>
@@ -2211,6 +2211,14 @@ Select your operating system:"</string>
   <string name="oem_unlock_enable">Enable OEM unlock</string>
   <string name="oem_unlock_enable_summary">Allow the device to be OEM unlocked</string>
   <string name="okay">OK</string>
+  <string name="oldman_app_label">Lite mode</string>
+  <string name="oldman_installed_current_btn">Restore original Home screen</string>
+  <string name="oldman_installed_current_des">"You've set Lite mode as your default Home screen. Tap the button below to switch back to the originsl Home screen."</string>
+  <string name="oldman_installed_not_current_btn">Set as default Home screen</string>
+  <string name="oldman_installed_not_current_des">Lite mode is installed on your device. You can use it as your default Home screen.</string>
+  <string name="oldman_mode_entry_name">Lite mode</string>
+  <string name="oldman_uninstalled_btn">Install</string>
+  <string name="oldman_uninstalled_des">Lite mode gets rid of the visual clutter and keeps your Home screen simple and minimalist.</string>
   <string name="onekey_migrate">Mi Mover</string>
   <string name="online_resource_entry">Online resources</string>
   <string name="only_one_home_message">Home settings will be hidden until you install another home application.</string>
