@@ -98,6 +98,8 @@ Last backed up on %2$s"</string>
   <string name="find_device_error_password_changed">Account password has been recently changed.</string>
   <string name="find_device_error_server">Server error</string>
   <string name="find_device_error_unknown">Unknown error.</string>
+  <string name="find_device_gdpr_prompt">By turning on Find device, you agree to our Privacy Policy. If you need to revoke authorization, turn this feature off.</string>
+  <string name="find_device_gdpr_prompt_policy_doc_name">Privacy Policy</string>
   <string name="find_device_notice_p1">Go to</string>
   <string name="find_device_notice_p2">i.mi.com</string>
   <string name="find_device_notice_p3">"to locate, lock, or restore your phone.
@@ -301,7 +303,7 @@ To fix this, you can either clean out some old files to make room for new ones, 
   <string name="micloud_main_error_network_disallowed">Make sure you allowed access to the internet.</string>
   <string name="micloud_main_error_permission_limit">Allow Mi Cloud to access storage.</string>
   <string name="micloud_main_head_menu_cloud_backup">Home screen backup</string>
-  <string name="micloud_main_head_menu_finddevice_unavailable">"Find device isn't available in Second space, you can use it in First space."</string>
+  <string name="micloud_main_head_menu_finddevice_unavailable">Find device is unavailable in Second space, you can use it in First space.</string>
   <string name="micloud_main_head_menu_recycle_bin_summary">Restore deleted items</string>
   <string name="micloud_main_head_menu_recycle_bin_title">Deleted items</string>
   <string name="micloud_main_head_menu_state_close">Off</string>
@@ -379,6 +381,7 @@ Use a different account."</string>
   <string name="micloud_notif_content_master_depend_wifi">Connect to WLAN first.</string>
   <string name="micloud_notif_content_memory_low">Not enough storage space.</string>
   <string name="micloud_notif_content_multi_user_error">You signed in with the same account as in First space.</string>
+  <string name="micloud_notif_content_privacy_reopen_failed">View details</string>
   <string name="micloud_notif_content_sync_finish">Account</string>
   <string name="micloud_notif_content_sync_not_finish">Details</string>
   <string name="micloud_notif_content_sync_with_off">Tap to sync your device now.</string>
@@ -388,11 +391,22 @@ Use a different account."</string>
   <string name="micloud_notif_title_master_depend_wifi">"Can't sync with Mi Cloud"</string>
   <string name="micloud_notif_title_memory_low">"Can't sync with Mi Cloud"</string>
   <string name="micloud_notif_title_multi_user_error">"Can't sync with Mi Cloud"</string>
+  <string name="micloud_notif_title_privacy_reopen_failed">"Couldn't turn on Mi Cloud services"</string>
   <string name="micloud_notif_title_sync_finish">Synced</string>
   <string name="micloud_notif_title_sync_not_finish">"Some items haven't been synced"</string>
   <string name="micloud_notif_title_sync_progress">Syncing</string>
   <string name="micloud_notif_title_sync_with_off">Sync with Mi Cloud</string>
   <string name="micloud_other_product_price">Compare prices</string>
+  <string name="micloud_privacy_cloud_off">Sync is off</string>
+  <string name="micloud_privacy_cloud_sync">Turn on Mi Cloud services</string>
+  <string name="micloud_privacy_explanation">Grant authorization to turn on Mi Cloud services</string>
+  <string name="micloud_privacy_licence_agreed">Agree to Mi Cloud Privacy Policy.</string>
+  <string name="micloud_privacy_licence_privacy_policy">Privacy Policy</string>
+  <string name="micloud_privacy_more">More</string>
+  <string name="micloud_privacy_progress_content">Granting authorization…</string>
+  <string name="micloud_privacy_warning_button">Back</string>
+  <string name="micloud_privacy_warning_content">"Can't turn on Mi Cloud services. Wait a minute or two and try again."</string>
+  <string name="micloud_privacy_warning_title">Attention</string>
   <string name="micloud_proceed">Continue</string>
   <string name="micloud_request_permission_confirm">Got it</string>
   <string name="micloud_request_permission_content">Mi Cloud needs permissions to sync data. Allow Mi Cloud to access Calendar, Contacts, Mi Account, SIM card status, call history, and messages.</string>
@@ -566,7 +580,7 @@ This feature encrypts and sends your device's ID to Mi's servers."</string>
   <string name="sync_sub_int_dspt">An outgoing international SMS message may be required to activate this service. Your carrier will charge you for this message.</string>
   <string name="title_back">Back</string>
   <string name="title_reg">Create Mi Account</string>
-  <string name="total_space_upgraded_to">Total space:%s</string>
+  <string name="total_space_upgraded_to">Total space: %s</string>
   <string name="trying_to_connect_to_network">Connecting to the network…</string>
   <string name="unactivated_user">Signed out</string>
   <string name="upgrade_space">Add space</string>
