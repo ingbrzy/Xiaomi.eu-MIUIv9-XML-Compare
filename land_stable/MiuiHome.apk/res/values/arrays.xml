@@ -59,11 +59,6 @@
         <item>Left</item>
         <item>Right</item>
     </string-array>
-    <array name="region_prefix">
-        <item>@array/islam</item>
-        <item>@array/lowkeymidrop</item>
-        <item>@array/notgoogle</item>
-    </array>
     <array name="app_locating_animation_scaler">
         <item>1.0</item>
         <item>1.4</item>
@@ -183,6 +178,11 @@
     <string-array name="quality_business_devices">
         <item>lithium</item>
     </string-array>
+    <array name="region_prefix">
+        <item>@array/islam</item>
+        <item>@array/lowkeymidrop</item>
+        <item>@array/notgoogle</item>
+    </array>
     <string-array name="widget_sizes">
         <item>home_edit_box_area_1_1</item>
         <item>home_edit_box_area_1_2</item>
