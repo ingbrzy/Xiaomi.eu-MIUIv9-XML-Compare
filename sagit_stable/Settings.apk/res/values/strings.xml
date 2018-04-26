@@ -1065,8 +1065,6 @@ Sample Rate"</string>
   <string name="close_gesture">Close using gesture</string>
   <string name="close_miui_optimization_title">Turn off MIUI optimization</string>
   <string name="close_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
-  <string name="close_sdcard_optimization_title">Turn off mock SD card optimization</string>
-  <string name="close_sdcard_optimization_warning_message">Your device will reboot to apply this change.</string>
   <string name="cloud_backup_section_title">Mi Cloud backup</string>
   <string name="cloud_backup_settings_section_title">Backup settings</string>
   <string name="cloud_restore_section_summary">Restore apps, Home screen layout, and system settings</string>
@@ -3051,8 +3049,6 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="open_personal_assistant_dialog_desc">"You won't be able to use App vault and receive its updates. Turn off now?"</string>
   <string name="open_personal_assistant_dialog_title">Turn off App vault</string>
   <string name="open_personal_assistant_title">Turn on App vault</string>
-  <string name="open_sdcard_optimization_title">Turn on mock SD card optimization</string>
-  <string name="open_sdcard_optimization_warning_message">Your device will reboot to apply this change.</string>
   <string name="open_wifi_connect_summary">Tap to view details.</string>
   <string name="open_wifi_connect_title">Connected to %1$s</string>
   <string name="opening_paragraph_delete_profile_unknown_company">This work profile is managed by:</string>
@@ -3780,11 +3776,6 @@ To use screen pinning:
   <string name="sd_mount_summary"/>
   <string name="sdcard_changes_instructions">Changes take effect when USB cable is reconnected.</string>
   <string name="sdcard_format">Erase USB storage</string>
-  <string name="sdcard_optimization">Mock SD card optimization</string>
-  <string name="sdcard_optimization_cancel">Cancel</string>
-  <string name="sdcard_optimization_close">Turn off &amp; reboot</string>
-  <string name="sdcard_optimization_open">Turn on</string>
-  <string name="sdcard_optimization_summary">Make your SD card much faster</string>
   <string name="sdcard_setting">USB storage</string>
   <string name="sdcard_settings_available_bytes_label">Available bytes:</string>
   <string name="sdcard_settings_bad_removal_status">USB storage was removed while still in use!</string>
@@ -4909,7 +4900,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="untitled_apn">Untitled</string>
   <string name="update_new_version">Update is available</string>
   <string name="update_progress_for_updates">Updating (%s)</string>
-  <string name="upload_debug_log_summary">Diagnostic data may include the info about your usage of hardware, operating system, and apps. The data will be used to locate and analyze the problems in the system and will never be used to identify you personally.</string>
+  <string name="upload_debug_log_summary">Usage stats which help us locate and solve issues may contain your personal info</string>
   <string name="upload_debug_log_title">Send diagnostic data automatically</string>
   <string name="usage">Usage</string>
   <string name="usage_access">Usage access</string>
@@ -5065,7 +5056,7 @@ Tap the plus to add words."</string>
   <string name="user_exit_guest_dialog_remove">Remove</string>
   <string name="user_exit_guest_title">Remove guest</string>
   <string name="user_experience_program">User Experience Program</string>
-  <string name="user_experience_program_summary">Help improve MIUI by sending anonymous usage data</string>
+  <string name="user_experience_program_summary">Help us improve our products and services by sharing your usage stats with us</string>
   <string name="user_experience_program_title">User Experience Program</string>
   <string name="user_guest">Guest</string>
   <string name="user_image_choose_photo">Choose photo from Gallery</string>
