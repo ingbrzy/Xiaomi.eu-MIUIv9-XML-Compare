@@ -44,10 +44,6 @@
         <item>Default</item>
         <item>Classic</item>
     </string-array>
-    <array name="region_prefix">
-        <item>@array/islam</item>
-        <item>@array/lowkeymidrop</item>
-    </array>
     <string-array name="transformation_entries">
         <item>Slide</item>
         <item>Crossfade</item>
@@ -96,6 +92,24 @@
         <item>center</item>
         <item>left</item>
         <item>right</item>
+    </string-array>
+    <array name="device_prefix">
+        <item>@array/dgoogle</item>
+    </array>
+    <string-array name="dgoogle">
+        <item>mido</item>
+        <item>santoni</item>
+        <item>oxygen</item>
+        <item>sagit</item>
+        <item>chiron</item>
+        <item>ugglite</item>
+        <item>ugg</item>
+        <item>riva</item>
+        <item>vince</item>
+        <item>whyred</item>
+        <item>rosy</item>
+        <item>polaris</item>
+        <item>ysl</item>
     </string-array>
     <string-array name="islam">
         <item>PK</item>
@@ -153,9 +167,22 @@
         <item>JP</item>
         <item>UY</item>
     </string-array>
+    <string-array name="notgoogle">
+        <item>ID</item>
+        <item>RU</item>
+        <item>SG</item>
+        <item>MY</item>
+        <item>UA</item>
+        <item>HK</item>
+    </string-array>
     <string-array name="quality_business_devices">
         <item>lithium</item>
     </string-array>
+    <array name="region_prefix">
+        <item>@array/islam</item>
+        <item>@array/lowkeymidrop</item>
+        <item>@array/notgoogle</item>
+    </array>
     <string-array name="widget_sizes">
         <item>home_edit_box_area_1_1</item>
         <item>home_edit_box_area_1_2</item>
