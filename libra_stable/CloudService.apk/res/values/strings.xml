@@ -99,7 +99,7 @@ Last backed up on %2$s"</string>
   <string name="find_device_error_server">Server error</string>
   <string name="find_device_error_unknown">Unknown error.</string>
   <string name="find_device_gdpr_prompt">By turning on Find device, you agree to our Privacy Policy. If you need to revoke authorization, turn this feature off.</string>
-  <string name="find_device_gdpr_prompt_policy_doc_name">\"Privacy Policy\"</string>
+  <string name="find_device_gdpr_prompt_policy_doc_name">Privacy Policy</string>
   <string name="find_device_notice_p1">Go to</string>
   <string name="find_device_notice_p2">i.mi.com</string>
   <string name="find_device_notice_p3">"to locate, lock, or restore your phone.
