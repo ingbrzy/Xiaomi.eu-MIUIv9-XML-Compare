@@ -85,6 +85,9 @@
   <string name="conference_caller_info_name">"%1$s's conference call"</string>
   <string name="conference_callers_exceeded">"Can't add more people"</string>
   <string name="contacts_icon_label">Contacts</string>
+  <string name="crbt_second_hold_prompt">%s is on hold…</string>
+  <string name="crbt_second_hold_prompt_conference">Conference call is on hold…</string>
+  <string name="crbt_second_hold_prompt_no_name">Previous call is on hold…</string>
   <string name="default_area_code_setting">Default area code</string>
   <string name="description_image_button_answer">Answer</string>
   <string name="description_image_button_dialpad">Dialpad</string>
