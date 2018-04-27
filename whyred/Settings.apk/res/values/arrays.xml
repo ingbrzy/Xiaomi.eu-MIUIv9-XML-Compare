@@ -1536,6 +1536,7 @@
         <item>ysl</item>
         <item>sakura</item>
         <item>clover</item>
+        <item>dipper</item>
     </string-array>
     <string-array name="dirac_equalizer_preset_names">
         <item>@string/eq_flat</item>
@@ -2442,6 +2443,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Standard</item>
         <item>Cool</item>
     </string-array>
+    <integer-array name="screen_density">
+        <item>640</item>
+        <item>480</item>
+        <item>320</item>
+    </integer-array>
     <string-array name="screen_key_long_press_action_value">
         <item>none</item>
         <item>recent_panel</item>
@@ -2490,13 +2496,19 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Standard</item>
     </string-array>
     <integer-array name="screen_resolution">
-        <item>3686400</item>
-        <item>2073600</item>
+        <item>1440</item>
+        <item>1080</item>
+        <item>720</item>
     </integer-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
         <item>@string/screen_resolution_high_format</item>
         <item>@string/screen_resolution_normal_format</item>
+    </string-array>
+    <string-array name="screen_resolution_text">
+        <item>2K</item>
+        <item>1080P</item>
+        <item>720P</item>
     </string-array>
     <string-array name="screen_saturation_title">
         <item>Brilliant</item>
@@ -2635,7 +2647,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>pt_BR</item>
     </string-array>
     <string-array name="special_locale_names_global">
-        <item>简体中文 (中国)</item>
+        <item>简体中文</item>
         <item>繁體中文 (台湾)</item>
         <item>繁體中文 (香港)</item>
         <item>Español (América)</item>
