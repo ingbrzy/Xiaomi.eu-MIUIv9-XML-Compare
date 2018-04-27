@@ -91,6 +91,7 @@
   <string name="life_post_weather_degree_invalid">--</string>
   <string name="life_post_weather_description">%1$s, %2$s, %3$s</string>
   <string name="life_post_weather_description_secondary">%1$s,%2$s,%3$s</string>
+  <string name="life_post_weather_description_third">%1$s，%2$s</string>
   <string name="life_post_weather_invalid">"Couldn't get weather info, tap to try again"</string>
   <string name="life_post_weather_temperature_centigrade">°</string>
   <string name="loading_ringtone">Loading ringtone…</string>
