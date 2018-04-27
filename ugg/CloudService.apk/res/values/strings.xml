@@ -188,7 +188,7 @@ to your Mi Account to reactivate Mi Cloud."</string>
   <string name="micloud_main_head_menu_recycle_bin_title">Deleted items</string>
   <string name="micloud_main_head_menu_state_close">Off</string>
   <string name="micloud_main_head_menu_state_open">On</string>
-  <string name="micloud_main_head_menu_state_unavailable">Unavailable</string>
+  <string name="micloud_main_head_menu_state_unavailable">Unsupported</string>
   <string name="micloud_main_master_sync_on">Sync on</string>
   <string name="micloud_main_memory_low_message">"To sync, delete some items you've stored in the cloud."</string>
   <string name="micloud_main_memory_low_title">"Phone's internal storage is almost full"</string>
