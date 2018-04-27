@@ -291,6 +291,10 @@ If you re-enable data, you may be charged by the operator."</string>
   <string name="enable_webview_multiprocess">Multiprocess WebView</string>
   <string name="enable_webview_multiprocess_desc">Run WebView renderers separately</string>
   <string name="enabled_by_admin">Enabled by administrator</string>
+  <string name="enter_special_mode_message">After restarting the application, the application content will be extended to the top status bar area. If there are exceptions such as content occlusion and click misplacement, you can click the button again to restore the default mode.</string>
+  <string name="enter_special_mode_title">Restart the app and expand the display space</string>
+  <string name="exit_special_mode_message">After restarting the application, the application display space will be restored to the default mode.</string>
+  <string name="exit_special_mode_title">Restart the application and restore the display space</string>
   <string name="expanded_confirm_disable_notification">Hide</string>
   <string name="expanded_notification_manager">Manage notifications</string>
   <string name="ext_media_badremoval_notification_message">Unmount SD card before removing to avoid data loss.</string>
@@ -666,6 +670,8 @@ For more information, contact your admin."</string>
   <string name="show_touches">Show taps</string>
   <string name="show_touches_summary">Show visual feedback for taps</string>
   <string name="simulate_color_space">Simulate color space</string>
+  <string name="special_mode_cancel">Cancel</string>
+  <string name="special_mode_ok">Restart</string>
   <string name="stat_sys_data_connected_1x_half">1X</string>
   <string name="status_bar_accessibility_dismiss_recents">Dismiss recent apps</string>
   <string name="status_bar_clock_date_format">EEEE, MMMM d</string>
