@@ -37,7 +37,7 @@
         <item>Light sandstorm</item>
         <item>Sandstorm</item>
         <item>Hail</item>
-        <item>Floating Dust</item>
+        <item>Floating dust</item>
         <item>Haze</item>
     </string-array>
     <string-array name="gadget_weather_theme_type_entries">
@@ -96,7 +96,6 @@
     <array name="device_prefix">
         <item>@array/dgoogle</item>
         <item>@array/dyandex</item>
-        <item>@array/dgoogle_dyandex</item>
     </array>
     <string-array name="dgoogle">
         <item>mido</item>
@@ -104,8 +103,6 @@
         <item>oxygen</item>
         <item>sagit</item>
         <item>chiron</item>
-    </string-array>
-    <string-array name="dgoogle_dyandex">
         <item>ugglite</item>
         <item>ugg</item>
         <item>riva</item>
@@ -116,10 +113,33 @@
         <item>ysl</item>
         <item>cactus</item>
         <item>cereus</item>
+        <item>dipper</item>
+        <item>nitrogen</item>
+        <item>tulip</item>
     </string-array>
     <string-array name="dyandex">
+        <item>ugglite</item>
+        <item>ugg</item>
+        <item>riva</item>
+        <item>vince</item>
+        <item>whyred</item>
+        <item>rosy</item>
+        <item>polaris</item>
+        <item>ysl</item>
+        <item>cactus</item>
+        <item>cereus</item>
         <item>dipper</item>
-        <item>beryllium</item>
+        <item>nitrogen</item>
+        <item>tulip</item>
+    </string-array>
+    <string-array name="filter_prefix">
+        <item>dyandex_yandex</item>
+        <item>mipicks</item>
+        <item>dgoogle_islam</item>
+        <item>dgoogle_islam_lowkeymidrop</item>
+        <item>dgoogle_lowkeymidrop</item>
+        <item>dgoogle_no_pay_google</item>
+        <item>dgoogle_tw</item>
     </string-array>
     <string-array name="islam">
         <item>PK</item>
@@ -185,8 +205,15 @@
         <item>JP</item>
         <item>UY</item>
     </string-array>
-    <string-array name="no_pay_google">
+    <string-array name="mipicks">
+        <item>IN</item>
         <item>ID</item>
+        <item>RU</item>
+    </string-array>
+    <string-array name="no_pay_google">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
         <item>SG</item>
         <item>MY</item>
         <item>UA</item>
@@ -201,6 +228,7 @@
         <item>@array/no_pay_google</item>
         <item>@array/islam_lowkeymidrop</item>
         <item>@array/yandex</item>
+        <item>@array/mipicks</item>
     </array>
     <string-array name="widget_sizes">
         <item>home_edit_box_area_1_1</item>

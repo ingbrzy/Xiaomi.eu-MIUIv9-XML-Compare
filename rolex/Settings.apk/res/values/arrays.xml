@@ -40,6 +40,14 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+    <string-array name="status_bar_show_carrier_entries_for_notch">
+        <item>@string/carrier_show_in_lock_screen</item>
+        <item>@string/carrier_show_none</item>
+    </string-array>
+    <string-array name="status_bar_show_carrier_values_for_notch">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
     <string-array name="check_importance_entries">
         <item>Recommended</item>
         <item>Important</item>
@@ -82,6 +90,14 @@
         <item>Unsuccessful</item>
         <item>Blocked</item>
         <item>Temporarily avoiding poor connection</item>
+    </string-array>
+    <string-array name="select_logd_system_levels">
+        <item>Off</item>
+        <item>Error</item>
+        <item>Warn</item>
+        <item>Info</item>
+        <item>Debug</item>
+        <item>Verbose</item>
     </string-array>
     <string-array name="timezone_filters">
         <item>America</item>
@@ -2774,6 +2790,8 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>wayne</item>
         <item>ysl</item>
         <item>sakura</item>
+        <item>clover</item>
+        <item>dipper</item>
     </string-array>
     <string-array name="device_global_support_face">
         <item>whyred</item>
