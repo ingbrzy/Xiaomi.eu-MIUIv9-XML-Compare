@@ -805,6 +805,8 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="carrier_enabled">APN enable/disable</string>
   <string name="carrier_enabled_summaryOff">APN disabled</string>
   <string name="carrier_enabled_summaryOn">APN enabled</string>
+  <string name="carrier_show_in_lock_screen">Only show in lock screen</string>
+  <string name="carrier_show_none">Never show carrier name</string>
   <string name="category_key_device">com.android.settings.category.device</string>
   <string name="category_key_personal">com.android.settings.category.personal</string>
   <string name="category_key_system">com.android.settings.category.system</string>
@@ -848,7 +850,7 @@ Broadcasting uses low-power Bluetooth signals."</string>
   <string name="close_demo_mode">Cancel</string>
   <string name="close_gesture">Close using gesture</string>
   <string name="close_miui_optimization_title">Turn off MIUI optimization</string>
-  <string name="close_optimization_message">Text layout, accounts, and other parts off MIUI might be affected after you turn this feature off.</string>
+  <string name="close_optimization_message">Text layout, accounts, and other parts of MIUI might be affected after you turn this feature off.</string>
   <string name="close_optimization_option">Turn off</string>
   <string name="cloud_backup_section_title">Mi Cloud backup</string>
   <string name="cloud_backup_settings_section_title">Backup settings</string>
@@ -1545,6 +1547,10 @@ Some apps may not work until updated by their developers."</string>
   <string name="forbidden_switch_apn_string">"Selected APN settings don't match current network type"</string>
   <string name="force_hw_ui">Force GPU rendering</string>
   <string name="force_hw_ui_summary">Force use of GPU for 2d drawing</string>
+  <string name="force_immersive_compatibility_dont_hide">"Don't hide"</string>
+  <string name="force_immersive_compatibility_hide">Hide</string>
+  <string name="force_immersive_compatibility_hint_message">Some apps might not work properly if you choose to hide screen buttons.</string>
+  <string name="force_immersive_compatibility_hint_title">Compatibility issues</string>
   <string name="force_msaa">Force 4x MSAA</string>
   <string name="force_msaa_summary">Enable 4x MSAA in OpenGL ES 2.0 apps</string>
   <string name="force_rtl_layout_all_locales">Force RTL layout direction</string>
@@ -1590,6 +1596,8 @@ Some apps may not work until updated by their developers."</string>
   <string name="free_xiaomi_wifi_connect_summary">Tap to connect to %1$s.</string>
   <string name="frequently_fragment_delete">Remove</string>
   <string name="frequently_fragment_tempty">Frequently used items will be listed here</string>
+  <string name="fsg_mistake_touch_summary">In some scenes, such as full-screen games and videos, gestures need to be double swipe to take effect</string>
+  <string name="fsg_mistake_touch_title">Double check for the gestures</string>
   <string name="full_transparent_smarrcover_title">Transparent front cover</string>
   <string name="fullbackup_data_summary">"Automatically back up device data (such as WLAN passwords and call history) and app data (such as settings and files stored by apps) remotely.
 
@@ -1747,6 +1755,8 @@ When you turn on automatic backup, device and app data is periodically saved rem
   <string name="incoming_call_breathing_light_color_title">Calls light color</string>
   <string name="incoming_call_breathing_light_freq_title">Calls pulse frequency</string>
   <string name="incoming_call_volume_title">Ringtone</string>
+  <string name="infinity_display_settings">Full display</string>
+  <string name="infinity_display_slogan">Innovation on full display</string>
   <string name="information_dialog_button_text">Got it</string>
   <string name="input_hint_prefix">Enter %1$s</string>
   <string name="input_method">Keyboard</string>
@@ -2181,6 +2191,7 @@ There are other users present on this device.
   <string name="master_clear_progress_title">Erasing</string>
   <string name="master_clear_summary">Erases all data on phone</string>
   <string name="master_clear_title">Factory data reset</string>
+  <string name="max_aspect_settings_all_app_display_loading">Just a sec…</string>
   <string name="max_cpu10_info">"Deca-core Max "</string>
   <string name="max_cpu2_info">Dual-core Max</string>
   <string name="max_cpu4_info">"Quad-core Max "</string>
@@ -2309,6 +2320,11 @@ There are other users present on this device.
   <string name="move_app_to_internal">Move to phone</string>
   <string name="move_app_to_sdcard">Move to SD card</string>
   <string name="moving">Moving</string>
+  <string name="mqs_privacy_automatically_upload">Upload automatically next time</string>
+  <string name="mqs_privacy_dialog_cancel">Cancel</string>
+  <string name="mqs_privacy_dialog_confirm">Upload</string>
+  <string name="mqs_privacy_dialog_content">Upload logs to help us locate and solve this problem? Logs may contain your personal info, including the info about your location.</string>
+  <string name="mqs_privacy_dialog_title">An error occurred</string>
   <string name="msd_driver_download">Download driver</string>
   <string name="msd_driver_download_mac">OSX: Download the driver and install AndroidFileTransfer.dmg.</string>
   <string name="msd_driver_download_mac_url">Get the driver at http://www.android.com/filetransfer/</string>
@@ -2398,6 +2414,25 @@ Select your operating system:"</string>
   <string name="mvno_type">MVNO type</string>
   <string name="my_device">My device</string>
   <string name="my_device_disclaimer">Note: Hardware info, including CPU, battery capacity, screen size and resolution, and camera, is provided by Xiaomi labs, designers, and suppliers.</string>
+  <string name="navigation_guide_app_summary">Swipe left or right from the edge of the screen in top area</string>
+  <string name="navigation_guide_app_title">"Trigger app's action"</string>
+  <string name="navigation_guide_back_anim_summary">"Show animation while you're swiping from the edge of the screen"</string>
+  <string name="navigation_guide_back_anim_title">Animate the \"Go back\" gesture</string>
+  <string name="navigation_guide_back_summary">Swipe left or right from the edge of the screen</string>
+  <string name="navigation_guide_back_title">Go back</string>
+  <string name="navigation_guide_dialog_dont_show_again">"Don't show again"</string>
+  <string name="navigation_guide_dialog_ok">Learn</string>
+  <string name="navigation_guide_dialog_skip">Not now</string>
+  <string name="navigation_guide_dialog_summary">Learn what gestures you can use for system navigation.</string>
+  <string name="navigation_guide_dialog_title">Learn gestures</string>
+  <string name="navigation_guide_home_summary">Swipe up from the bottom of the screen</string>
+  <string name="navigation_guide_home_title">Go to Home screen</string>
+  <string name="navigation_guide_recent_summary">Swipe up from the bottom of the screen and pause</string>
+  <string name="navigation_guide_recent_title">Open Recents</string>
+  <string name="navigation_guide_settings">Gesture demos</string>
+  <string name="navigation_type_radio_text_full_screen">Full screen gestures</string>
+  <string name="navigation_type_radio_text_virtual_key">Buttons</string>
+  <string name="navigation_type_settings">System navigation</string>
   <string name="nearby_wifi">Available networks</string>
   <string name="need_reboot_now">Reboot to install update.</string>
   <string name="netcheck_title">Network diagnostics</string>
@@ -2768,7 +2803,7 @@ Select your operating system:"</string>
   <string name="privacy_authorize_cloud_msg">"To ensure your account's security, sign in to i.mi.com if you want to revoke authorization for Mi Cloud services (including sync and backups)."</string>
   <string name="privacy_authorize_dialog_agree">Agree</string>
   <string name="privacy_authorize_dialog_exit">Exit</string>
-  <string name="privacy_authorize_dialog_message">&lt;Data&gt;"In order to use the basic features of Mi Cloud services, you must agree that Xiaomi will collect, process, and use your personal data. Refer to our Privacy Policy to learn how we collect and process personal data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;.&amp;#8203;"&lt;/Data&gt;</string>
+  <string name="privacy_authorize_dialog_message">&lt;Data&gt;"In order to use the basic features of this service, you must agree that Xiaomi will collect, process, and use your personal data. Refer to our Privacy Policy to learn how we collect and process personal data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;.&amp;#8203;"&lt;/Data&gt;</string>
   <string name="privacy_authorize_network_error">Connect to the network and try again.</string>
   <string name="privacy_authorize_privacy_policy">Privacy Policy</string>
   <string name="privacy_authorize_revoke">Revoke</string>
@@ -3014,6 +3049,7 @@ Select your operating system:"</string>
   <string name="restore_default_apn_completed">Reset default APN settings completed.</string>
   <string name="restr_pin_enter_admin_pin">Enter administrator PIN</string>
   <string name="restrict_bg_app">Restrict</string>
+  <string name="restrict_max_aspect_ratio_title">"These apps don't work well in fullscreen mode"</string>
   <string name="restriction_bluetooth_config_summary">Allow modification of Bluetooth pairings and settings</string>
   <string name="restriction_bluetooth_config_title">Bluetooth</string>
   <string name="restriction_location_enable_summary">Let apps use your location information</string>
@@ -3092,6 +3128,8 @@ This setting affects all users on this phone."</string>
   <string name="screen_key_press">Press navigation buttons</string>
   <string name="screen_key_press_action">Trigger function</string>
   <string name="screen_locking_sounds_title">Screen locking sounds</string>
+  <string name="screen_max_aspect_ratio_desc">Allow selected apps to work in fullscreen mode</string>
+  <string name="screen_max_aspect_ratio_title">Fullscreen mode</string>
   <string name="screen_monochrome_mode_apps_loading">Just a sec…</string>
   <string name="screen_monochrome_mode_apps_title">Use Monochrome mode</string>
   <string name="screen_monochrome_mode_global_summary">Use Monochrome mode for all apps</string>
@@ -3682,8 +3720,10 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_app_enable_message">Badges</string>
   <string name="status_bar_key_position_custom">Change button positions</string>
   <string name="status_bar_screen_button_desc">Swipe down to hide screen buttons</string>
+  <string name="status_bar_screen_button_force_immersive_desc">Swipe up from the bottom of the screen to show screen buttons</string>
   <string name="status_bar_screen_button_key">Screen buttons</string>
   <string name="status_bar_screen_button_key_can_hide">Screen buttons can be hidden</string>
+  <string name="status_bar_screen_button_key_force_immersive">Hide screen buttons</string>
   <string name="status_bar_screen_key_back">Back button</string>
   <string name="status_bar_screen_key_home">Home button</string>
   <string name="status_bar_screen_key_menu">Menu button</string>
@@ -3891,6 +3931,7 @@ Consider using a faster ^1 for better performance."</string>
   <string name="storageuse_settings_title">Storage use</string>
   <string name="strict_mode">Strict mode enabled</string>
   <string name="strict_mode_summary">Flash screen when apps do long operations on main thread</string>
+  <string name="suggest_unrestrict_max_aspect_ratio_title">These apps work best in fullscreen mode</string>
   <string name="suggestion_for_phone_recycled">Add a different phone number</string>
   <string name="sum_carrier_select">Choose a network operator</string>
   <string name="summary_divider_text">", "</string>
@@ -4160,6 +4201,7 @@ Your saved fingerprints will also be removed from this device and you won't be a
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
   <string name="unmount_inform_text">SD card will be unmounted.</string>
+  <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
   <string name="untitled_apn">Untitled</string>
   <string name="update_new_version">Update is available</string>
   <string name="update_progress_for_updates">Updating (%s)</string>
