@@ -789,6 +789,7 @@ To add a contact to your list of favorites:
   <string name="no_contacts_dialog_title">"Can't find contacts"</string>
   <string name="no_contacts_selected">No contacts selected.</string>
   <string name="no_sdcard_message">No SD card was found.</string>
+  <string name="no_setting_menu">No menu options available</string>
   <string name="non_phone_add_to_contacts">Add to an existing contact</string>
   <string name="non_phone_caption">Phone number</string>
   <string name="non_phone_close">Close</string>
