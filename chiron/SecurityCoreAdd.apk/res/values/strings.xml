@@ -161,12 +161,12 @@ You can also download them separately."</string>
   <string name="msg_switch_photo">Delete these photos in First space after they are moved?</string>
   <string name="needSetKeyguardFirst">Set First space password</string>
   <string name="needSetKeyguardFirstDes">Set First space password before you set Second space password</string>
-  <string name="need_network_when_bind">Connect to the network before Adding devices</string>
+  <string name="need_network_when_bind">Connect to the network before adding devices</string>
   <string name="need_network_when_create">Connect to the network before creating Work space</string>
   <string name="need_reset_passwd">Reset Work space password before entering Work space</string>
   <string name="need_set_second_space_desc">Add Second space password before adding Second space fingerprint</string>
   <string name="need_set_second_space_pwd_first">Set Second space password first</string>
-  <string name="net_work_notice">Parental controls need to connect to the internet and get access to your location to work normally. This permissions are required to send the info about battery levels, step count, and your location to the controlled devices. Allow?</string>
+  <string name="net_work_notice">Parental controls need to connect to the internet and get access to your location to work normally. These permissions are required to send the info about battery levels, step count, and your location to the controlling devices. Allow?</string>
   <string name="newSecondSpace">Turn on Second space</string>
   <string name="next_setp">Next</string>
   <string name="no_match_repate_scanner">"Couldn't find matching fingerprints, scan again"</string>
@@ -201,6 +201,7 @@ Otherwise you may not be able to enter Second space from Lock screen."</string>
   <string name="private_sms_show_title">Private messages are shown in Second space</string>
   <string name="private_space_setting">Manage</string>
   <string name="public_app">Both spaces</string>
+  <string name="qq_login">Sign in to QQ</string>
   <string name="qq_send">Send to QQ friends/computer</string>
   <string name="radio_button_icon_switch_title">Using a shortcut</string>
   <string name="radio_button_password_switch_title">Using a password</string>

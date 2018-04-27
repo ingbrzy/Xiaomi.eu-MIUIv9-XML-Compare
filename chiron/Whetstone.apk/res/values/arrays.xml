@@ -273,14 +273,4 @@
     <string-array name="protect_not_forcestop">
         <item>com.tencent.mm</item>
     </string-array>
-    <string-array name="aborted_packages">
-        <item>com.android.browser</item>
-    </string-array>
-    <string-array name="aborted_intent_actions">
-        <item>com.miui.whetstone.kloserver.BROWSER_ABORTED</item>
-    </string-array>
-    <string-array name="aborted_types">
-        <item>am_crash</item>
-        <item>am_kill</item>
-    </string-array>
 </resources>
