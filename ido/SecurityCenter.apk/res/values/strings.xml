@@ -74,6 +74,7 @@
   <string name="add_whitelist">Add to exceptions</string>
   <string name="address">Address</string>
   <string name="address_choose_hint">%1$s, %2$s, and %3$d other locations</string>
+  <string name="adjust_sms_cmd">&lt;u&gt;Adjust calibration SMS template&lt;/u&gt;</string>
   <string name="adjust_traffic_carrier_summary_more_onemonth_before">Updated over a month ago</string>
   <string name="adjust_traffic_carrier_summary_more_oneweek_before">Updated over a week ago</string>
   <string name="adjust_traffic_carrier_summary_oneweek_before">Updated 1 week ago</string>
@@ -645,6 +646,9 @@ Your carrier may charge you extra fees if you turn on mobile data again."</strin
   <string name="dialog_restrict_positive">Cancel</string>
   <string name="dialog_roaming_message">Allow this app to use mobile data when roaming overseas?</string>
   <string name="dialog_roaming_title">Overseas roaming</string>
+  <string name="dialog_roaming_warning_checkbox">"Don't show again"</string>
+  <string name="dialog_roaming_warning_message">The carrier will charge you a fee after you turn on international data roaming. Turn on anyway?</string>
+  <string name="dialog_roaming_warning_ok">Turn on</string>
   <string name="dialog_text">Create a Home screen shortcut for Game speed booster</string>
   <string name="dialog_title_attention">Attention</string>
   <string name="dialog_title_auto_start_declare">About autostart</string>
@@ -1189,6 +1193,7 @@ to respond"</string>
   <string name="menu_item_virus_lib_auto_update_summary">Updated on %s</string>
   <string name="menu_remove">Delete</string>
   <string name="menu_report">Report error</string>
+  <string name="menu_setting_traffic">Set manually</string>
   <string name="menu_sms">Send message</string>
   <string name="menu_text_antispam">Blocklist</string>
   <string name="menu_text_antivirus">Security scan</string>
@@ -1859,6 +1864,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="sms_contact_block">Block SMS from contacts</string>
   <string name="sms_delete_hint">Delete all blocked messages from this number?</string>
   <string name="sms_delete_title">Delete messages</string>
+  <string name="sms_detail_correct_success_text">"Here's the data usage stats from the previous calibration (%1$s):"</string>
   <string name="sms_detail_fragment_title_bill">Phone balance</string>
   <string name="sms_detail_fragment_title_traffic">Remaining data</string>
   <string name="sms_filter">Smart filter</string>
@@ -2091,6 +2097,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="tab_guide">Guide</string>
   <string name="tab_sms">SMS</string>
   <string name="tab_title">Blocklist</string>
+  <string name="tc_cmd_invalid">Template is invalid</string>
   <string name="tc_diagnostic_all_error_notification_summary">Tap to report an issue</string>
   <string name="tc_diagnostic_all_error_notification_title">"Couldn't complete diagnostics"</string>
   <string name="tc_diagnostic_brand_error_notification_summary">Tap to adjust network type</string>
@@ -2130,6 +2137,10 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="tc_diagnostic_upload_button">Report</string>
   <string name="tc_diagnostic_upload_no_network">Thank you for your feedback! Your report will be submitted when you connect to the network.</string>
   <string name="tc_diagnostic_upload_success">Thank you for your feedback!</string>
+  <string name="tc_get_cmd_error">"Couldn't get template"</string>
+  <string name="tc_parse_error">"Couldn't parse SMS"</string>
+  <string name="tc_receive_timeout">Calibration timed out</string>
+  <string name="tc_send_sms_error">"Couldn't send SMS"</string>
   <string name="tc_sms_report_direction">SMS inquiry code</string>
   <string name="tc_sms_report_do_report">Send</string>
   <string name="tc_sms_report_get_default">"You won't incur charges for the messages used to get the data usage info from your carrier."</string>
@@ -2163,6 +2174,7 @@ While calibrating, MIUI will send a text message to your carrier to receive the 
   <string name="tc_sms_report_type">Report type</string>
   <string name="tc_sms_report_upload_success">"Data usage report SMS submitted. We'll get right on it!"</string>
   <string name="tc_sms_report_upload_when_net">Thank you for the feedback!</string>
+  <string name="tc_web_correct_error">"Couldn't calibrate"</string>
   <string name="ten_percent_total_pkg">%s (10%% of monthly data)</string>
   <string name="tether_custom_dialog_title">Mobile data limit</string>
   <string name="tether_limit_dialog_title">Mobile data limit</string>

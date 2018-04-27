@@ -436,14 +436,14 @@
   <string name="download_dialog_file_length_nolength_txt">Just a sec…</string>
   <string name="download_failed">"Couldn't complete download"</string>
   <string name="download_filter_all">All</string>
-  <string name="download_filter_apk">Apk</string>
+  <string name="download_filter_apk">APK</string>
   <string name="download_filter_application">Apps</string>
   <string name="download_filter_audio">Music</string>
-  <string name="download_filter_image">Photos</string>
+  <string name="download_filter_image">Images</string>
   <string name="download_filter_others">Other</string>
-  <string name="download_filter_text">Files</string>
+  <string name="download_filter_text">Documents</string>
   <string name="download_filter_video">Videos</string>
-  <string name="download_filter_zip">Zip</string>
+  <string name="download_filter_zip">ZIP</string>
   <string name="download_in_process">Dowloading…</string>
   <string name="download_list_open_xl_ok">OK</string>
   <string name="download_memory_info_avai">" available %s|"</string>
@@ -1230,7 +1230,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="same_folder_name_warning">A group with the same name already exists</string>
   <string name="save_button_text">Save</string>
   <string name="save_dialog_title">Save</string>
-  <string name="save_file">Save %s file</string>
+  <string name="save_file">Save %s</string>
   <string name="save_file_already_exist_alert_message">A file with the same name already exists, replace it?</string>
   <string name="save_file_already_exist_alert_title">Replace file?</string>
   <string name="save_form_data_confirm_message">Turning this feature off may affect usage.</string>
