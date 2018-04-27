@@ -72,11 +72,19 @@
     <string-array name="screenrecorder_settings_sound">
         <item>Mute</item>
         <item>Mic</item>
-        <item>Speaker</item>
+        <item>System sounds</item>
     </string-array>
     <string-array name="screenrecorder_settings_sound_values">
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="screenrecorder_settings_storage_location">
+        <item>Internal storage</item>
+        <item>External storage</item>
+    </string-array>
+    <string-array name="screenrecorder_settings_storage_location_values">
+        <item>0</item>
+        <item>1</item>
     </string-array>
 </resources>
