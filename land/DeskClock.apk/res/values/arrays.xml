@@ -88,11 +88,13 @@
     <string-array name="weather_tips_value">
         <item>Reduce outdoor activities</item>
         <item>The roads are slippery</item>
-        <item>The weather is stormy, be careful!</item>
-        <item>The air is polluted, wear a mask!</item>
+        <item>The weather is stormy, be careful.</item>
+        <item>"It's foggy today. Drive responsibly."</item>
+        <item>The air is polluted, wear a mask.</item>
         <item>Take an umbrella when you go out</item>
         <item>Be careful on the road</item>
-        <item>Sandstorm is coming, wear a mask!</item>
+        <item>"It's hailing today, be careful."</item>
+        <item>Sandstorm is coming, wear a mask.</item>
         <item>Have a nice day!</item>
     </string-array>
     <string-array name="cities_names_miui">
