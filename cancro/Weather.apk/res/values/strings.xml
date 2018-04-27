@@ -84,7 +84,7 @@
   <string name="button_sure_abandon">Discard changes?</string>
   <string name="card_vote_item_vs">VS</string>
   <string name="change_alert">Check your network connection and try again</string>
-  <string name="china_version_first_start_network_msg">"By using this product, you agree to Xiaomi's%1$s and %2$s.This app needs to connect to the internet and access your location to work normally."</string>
+  <string name="china_version_first_start_network_msg">"By using this product, you agree to Xiaomi's %1$s and %2$s. This app needs to connect to the internet and access your location to work normally."</string>
   <string name="city_exceeded_warning">You can add up to 10 cities</string>
   <string name="clear_net_mock_success">Net mock clear success</string>
   <string name="commercial">Commercial</string>
@@ -126,7 +126,7 @@ Pull down to refresh or check the network settings"</string>
   <string name="feedback_result_fail_no_choice">Choose the current weather conditions</string>
   <string name="feedback_result_success">Submitted successfully, thank you for your feedback.</string>
   <string name="feedback_sand">Sand</string>
-  <string name="feedback_sunny">Sunny</string>
+  <string name="feedback_sunny">Clear</string>
   <string name="first_start_network_msg">This app needs to connect to the internet and access your location to work normally.</string>
   <string name="first_start_network_title">Internet connection and location access</string>
   <string name="global_aqi">AQI: %1$s %2$s</string>
