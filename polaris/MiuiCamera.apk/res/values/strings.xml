@@ -81,6 +81,7 @@
   <string name="front_camera_hint_text_place">"Taking selfies will be easier
 if you rotate your phone"</string>
   <string name="front_camera_hint_text_rotate">Rotate your phone</string>
+  <string name="hibernate_hint">Tap the screen to wake Camera</string>
   <string name="hine_hht">"In low light, camera will take multiple photos
 and then create a shot with a minimal amount of noise."</string>
   <string name="hint_fast_motion">The video you shoot will be played faster.</string>
@@ -116,9 +117,12 @@ and then create a shot where everyone looks best."</string>
   <string name="portait_effect_entry_japanese">Sky blue</string>
   <string name="portait_effect_entry_maze">Maze</string>
   <string name="portait_effect_entry_mood">Emotions</string>
+  <string name="portait_effect_entry_movie">Movie</string>
   <string name="portait_effect_entry_nature">Nature</string>
   <string name="portait_effect_entry_pink">Blush</string>
+  <string name="portait_effect_entry_riddle">Riddle</string>
   <string name="portait_effect_entry_romance">Romantic</string>
+  <string name="portait_effect_entry_story">Story</string>
   <string name="portrait_mode_depth_effect_success_hint">Depth effect</string>
   <string name="portrait_mode_lowlight_hint">"It's too dark now"</string>
   <string name="portrait_mode_too_close_hint">Move farther from the object</string>

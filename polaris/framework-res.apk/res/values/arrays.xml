@@ -1122,11 +1122,11 @@
         <item>zu-ZA</item>
     </string-array>
     <string-array name="webview_list">
-        <item>com.tencent.smtt.webkit.WebView</item>
+        <item>com.tencent.tbs.core.webkit.WebView</item>
         <item>com.miui.webkit.WebView</item>
-        <item>com.uc.webkit.WebView</item>
+        <item>com.uc.webkit.bf</item>
         <item>com.baidu.webkit.sdk.WebView</item>
-        <item>sogou.webkit.WebView</item>
+        <item>com.sogou.webkit.WebView</item>
         <item>com.qihoo.webkit.WebView</item>
     </string-array>
     <string-array name="wfcOperatorErrorAlertMessages">

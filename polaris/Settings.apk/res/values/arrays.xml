@@ -409,13 +409,13 @@
         <item>4</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
@@ -427,12 +427,12 @@
         <item>4</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
@@ -442,16 +442,16 @@
         <item>2</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Optimized for Audio Quality</item>
-        <item>Balanced Audio And Connection Quality</item>
-        <item>Optimized for Connection Quality</item>
-        <item>Best Effort (Adaptive Bit Rate)</item>
+        <item>Optimized for audio quality</item>
+        <item>Balanced audio and connection quality</item>
+        <item>Optimized for connection quality</item>
+        <item>Best effect (Adaptive bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimized for Audio Quality (990kbps/909kbps)</item>
-        <item>Balanced Audio And Connection Quality (660kbps/606kbps)</item>
-        <item>Optimized for Connection Quality (330kbps/303kbps)</item>
-        <item>Best Effort (Adaptive Bit Rate)</item>
+        <item>Optimized for audio quality (990kbps/909kbps)</item>
+        <item>Balanced audio and connection quality (660kbps/606kbps)</item>
+        <item>Optimized for connection quality (330kbps/303kbps)</item>
+        <item>Best effect (Adaptive bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_values">
         <item>1000</item>
@@ -460,14 +460,14 @@
         <item>1003</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -481,7 +481,7 @@
         <item>8</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
@@ -491,7 +491,7 @@
         <item>Disable Optional Codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
@@ -1540,6 +1540,8 @@
         <item>wayne</item>
         <item>ysl</item>
         <item>sakura</item>
+        <item>clover</item>
+        <item>dipper</item>
     </string-array>
     <string-array name="dirac_equalizer_preset_names">
         <item>@string/eq_flat</item>
@@ -2446,6 +2448,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Standard</item>
         <item>Cool</item>
     </string-array>
+    <integer-array name="screen_density">
+        <item>640</item>
+        <item>480</item>
+        <item>320</item>
+    </integer-array>
     <string-array name="screen_key_long_press_action_value">
         <item>none</item>
         <item>recent_panel</item>
@@ -2494,13 +2501,19 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Standard</item>
     </string-array>
     <integer-array name="screen_resolution">
-        <item>3686400</item>
-        <item>2073600</item>
+        <item>1440</item>
+        <item>1080</item>
+        <item>720</item>
     </integer-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
         <item>@string/screen_resolution_high_format</item>
         <item>@string/screen_resolution_normal_format</item>
+    </string-array>
+    <string-array name="screen_resolution_text">
+        <item>2K</item>
+        <item>1080P</item>
+        <item>720P</item>
     </string-array>
     <string-array name="screen_saturation_title">
         <item>Brilliant</item>
@@ -2559,17 +2572,25 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>4194304</item>
         <item>16777216</item>
     </string-array>
+    <string-array name="select_logd_system_levels">
+        <item>Off</item>
+        <item>Error</item>
+        <item>Warn</item>
+        <item>Info</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Off</item>
         <item>All log buffers</item>
-        <item>All but radio log buffers</item>
-        <item>kernel log buffer only</item>
+        <item>All except radio log buffers</item>
+        <item>Kernel log buffer only</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Off</item>
         <item>All</item>
-        <item>All but radio</item>
-        <item>kernel only</item>
+        <item>All except radio</item>
+        <item>Kernel only</item>
     </string-array>
     <string-array name="select_logpersist_values">
         <item></item>
@@ -2631,7 +2652,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>pt_BR</item>
     </string-array>
     <string-array name="special_locale_names_global">
-        <item>简体中文 (中国)</item>
+        <item>简体中文</item>
         <item>繁體中文 (台湾)</item>
         <item>繁體中文 (香港)</item>
         <item>Español (América)</item>

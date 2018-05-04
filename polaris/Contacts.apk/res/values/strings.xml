@@ -3,8 +3,8 @@
   <string name="accessibility_calllog_detail">Call history details</string>
   <string name="accessibility_contact_detail">Contact details</string>
   <string name="account_container_title">Imported from</string>
-  <string name="account_default">Phone</string>
-  <string name="account_phone">Phone-only, unsynced</string>
+  <string name="account_default">Local</string>
+  <string name="account_phone">Device-only, unsynced</string>
   <string name="account_sdn">SDN</string>
   <string name="account_sdn2">SDN %d</string>
   <string name="account_sim">SIM card</string>
@@ -57,7 +57,7 @@
   <string name="button_join_service_number">Add service number</string>
   <string name="button_my_center">Profile</string>
   <string name="button_scan">Rescan</string>
-  <string name="caching_vcard_message">Caching vCard to phone…</string>
+  <string name="caching_vcard_message">Caching vCard to device…</string>
   <string name="caching_vcard_title">Caching</string>
   <string name="callAgain">Call again</string>
   <string name="callBack">Call back</string>
@@ -165,7 +165,7 @@
   <string name="chat_qq">Chat using QQ</string>
   <string name="chat_skype">Chat using Skype</string>
   <string name="chat_yahoo">Chat using Yahoo</string>
-  <string name="checkhint">Check the target phone</string>
+  <string name="checkhint">Check the target device</string>
   <string name="clearCallLogConfirmation">All your call records will be deleted.</string>
   <string name="clearCallLogConfirmation_title">Clear all call logs?</string>
   <string name="clearCallLogProgress_title">Clearing call log…</string>
@@ -190,7 +190,7 @@
   <string name="combined_title_and_miprofile_swaped_huge_mode">"%1$s
 %2$s"</string>
   <string name="composer_failed_to_get_database_infomation">"Couldn't get database information."</string>
-  <string name="composer_has_no_exportable_contact">There are no exportable contacts. If you do have contacts on your phone, some data providers may not allow the contacts to be exported from the phone.</string>
+  <string name="composer_has_no_exportable_contact">There are no exportable contacts. If you do have contacts on your device, some data providers may not allow the contacts to be exported from the device.</string>
   <string name="composer_not_initialized">"The vCard composer didn't start properly."</string>
   <string name="config_export_dir">/mnt/sdcard</string>
   <string name="config_export_extensions_to_consider"/>
@@ -373,9 +373,9 @@ Contact cards are turned off"</string>
   <string name="device_import_progress_message">Importing…</string>
   <string name="device_import_progress_toast">%1$d contacts imported</string>
   <string name="device_import_title">Import</string>
-  <string name="device_list_title">Choose a phone</string>
-  <string name="device_other_guide">Other phone supports bluetooth?</string>
-  <string name="device_other_title">Import from other phones</string>
+  <string name="device_list_title">Choose a device</string>
+  <string name="device_other_guide">Other device supports bluetooth?</string>
+  <string name="device_other_title">Import from other devices</string>
   <string name="device_paired_dialog_message">Fetching contacts…</string>
   <string name="device_paired_dialog_title">Fetching contacts…</string>
   <string name="device_pairing_dialog_message">Pairing…</string>
@@ -466,7 +466,7 @@ To avoid frequent queries, we update balance info once a day."</string>
   <string name="export_to_sim2">Export to SIM card 2</string>
   <string name="export_to_sim_prepare_title">Preparing…</string>
   <string name="export_to_sim_title">Exporting…</string>
-  <string name="export_vcard_description">"Export vCard to phone's storage"</string>
+  <string name="export_vcard_description">"Export vCard to device's storage"</string>
   <string name="exporting_contact_failed_message">"The contact data wasn't exported.
 Reason: \"%s\""</string>
   <string name="exporting_contact_failed_title">"Couldn't export"</string>
@@ -548,7 +548,7 @@ Reason: \"%s\""</string>
   <string name="import_contact_card_button">Import contact</string>
   <string name="import_failure_no_vcard_file">No vCard files found in storage.</string>
   <string name="import_from_onekey_migrate">Import using Mi Mover</string>
-  <string name="import_from_other_phone">Import from another phone</string>
+  <string name="import_from_other_device">Import from another device</string>
   <string name="import_from_sdcard">Import from storage</string>
   <string name="import_from_sim">Import from SIM card</string>
   <string name="import_from_sim1">Import from SIM card 1</string>
@@ -566,7 +566,7 @@ Reason: \"%s\""</string>
   <string name="import_to_xiaomi_account_progress_message">Importing…</string>
   <string name="import_to_xiaomi_account_progress_title">Import contacts to Mi Account</string>
   <string name="import_to_xiaomi_account_title">Import to Mi Account</string>
-  <string name="import_vcard_description">"Import contacts from your phone's storage"</string>
+  <string name="import_vcard_description">"Import contacts from your device's storage"</string>
   <string name="import_vcard_dialog_message">Import vCard?</string>
   <string name="importing_sim_contacts_miui">Importing contacts from SIM card…</string>
   <string name="importing_sim_contacts_miui_prepare">Preparing contacts…</string>
@@ -577,7 +577,7 @@ Reason: \"%s\""</string>
   <string name="insertGroupDescription">Create group</string>
   <string name="invalidContactMessage">"Contact doesn't exist"</string>
   <string name="keep_local">"Don't sync"</string>
-  <string name="keep_local_btn">"Use phone's internal storage"</string>
+  <string name="keep_local_btn">"Use device's internal storage"</string>
   <string name="label_custom_type">Custom</string>
   <string name="label_duplicate_count">(%1$d)</string>
   <string name="label_no_duplicate_contacts">No duplicates found</string>
@@ -785,10 +785,11 @@ To add a contact to your list of favorites:
 • Back up your contacts securely."</string>
   <string name="no_contact_details">No additional information for this contact.</string>
   <string name="no_contact_in_other_phone">No contacts detected</string>
-  <string name="no_contacts_dialog_message">"Contacts may be stored on your SIM card. Try importing them from your SIM card to your phone's internal storage and then try again."</string>
+  <string name="no_contacts_dialog_message">"Contacts may be stored on your SIM card. Try importing them from your SIM card to your device's internal storage and then try again."</string>
   <string name="no_contacts_dialog_title">"Can't find contacts"</string>
   <string name="no_contacts_selected">No contacts selected.</string>
   <string name="no_sdcard_message">No SD card was found.</string>
+  <string name="no_setting_menu">No menu options available</string>
   <string name="non_phone_add_to_contacts">Add to an existing contact</string>
   <string name="non_phone_caption">Phone number</string>
   <string name="non_phone_close">Close</string>
@@ -814,7 +815,7 @@ To add a contact to your list of favorites:
   <string name="organizationLabelsGroup">Organization</string>
   <string name="organization_company_and_title">%1$s, %2$s</string>
   <string name="other_contacts">Other contacts</string>
-  <string name="other_phone">Other phones</string>
+  <string name="other_phone">Other devices</string>
   <string name="path_batch_delete">System apps/Contacts/Organize contacts/Delete batch</string>
   <string name="path_contacts_display">System apps/Contacts/Display preferences</string>
   <string name="path_contacts_more">System apps/Contacts/Organize contacts</string>
@@ -847,7 +848,7 @@ To add a contact to your list of favorites:
   <string name="phone_info_divider">" ｜ "</string>
   <string name="phone_number_too_long_toast">Number is too long</string>
   <string name="phone_primary">Primary</string>
-  <string name="photoPickerNotFoundText">No pictures are available on the phone.</string>
+  <string name="photoPickerNotFoundText">No pictures are available on the device.</string>
   <string name="photo_fragment">Photo</string>
   <string name="photo_load_failed">"Couldn't load photo"</string>
   <string name="pick_new_photo">Choose new photo from %s</string>
@@ -912,7 +913,7 @@ To add a contact to your list of favorites:
   <string name="preference_key_trash_bin_title">Recover contacts</string>
   <string name="preference_other">Other</string>
   <string name="preference_others">Other</string>
-  <string name="preference_phone">Phone</string>
+  <string name="preference_phone">Device</string>
   <string name="preference_phone_more_title">Call settings</string>
   <string name="preference_remove_duplicate">Merge duplicate contacts</string>
   <string name="preference_show_yellowpage_tab_description">Yellow pages might not work properly when this feature is off.</string>
@@ -1039,7 +1040,7 @@ To add a contact to your list of favorites:
   <string name="select_all_exceed">"Select no more than %1$d, can't select all"</string>
   <string name="select_exceed">Select no more than %1$d</string>
   <string name="select_groups">Select groups</string>
-  <string name="select_none">Nothing selected</string>
+  <string name="select_none">No selected items</string>
   <string name="select_show_contacts">Contact list</string>
   <string name="select_vcard_title">Choose vCard file</string>
   <string name="send_contact_shortcut_todesktop_success">Added to Home screen</string>
@@ -1128,7 +1129,7 @@ To add a contact to your list of favorites:
   <string name="social_widget_label">Contact</string>
   <string name="social_widget_loading">Loading…</string>
   <string name="solar_calendar">公历</string>
-  <string name="special_code_security_exception">Operation rejected：Not default dialer</string>
+  <string name="special_code_security_exception">"Couldn't complete action. This isn't your default dial pad."</string>
   <string name="splitConfirmation">This contact will be separated into multiple contacts.</string>
   <string name="splitConfirmation_title">Separate contact?</string>
   <string name="starredList">Starred</string>
@@ -1158,8 +1159,8 @@ To add a contact to your list of favorites:
   <string name="toast_copy_done">Done</string>
   <string name="toast_copying">Copying…</string>
   <string name="toast_displaying_all_contacts">Displaying all contacts</string>
-  <string name="toast_finish_delete_call_log">Call history cleared</string>
-  <string name="toast_finish_delete_selected_call_log">Call history cleared</string>
+  <string name="toast_finish_delete_call_log">Cleared successfully</string>
+  <string name="toast_finish_delete_selected_call_log">Cleared successfully</string>
   <string name="toast_for_failed_saving_nickname">"Couldn't save nickname"</string>
   <string name="toast_for_saving_nickname">Nickname saved</string>
   <string name="toast_join_with_empty_contact">Type contact name before merging with another</string>

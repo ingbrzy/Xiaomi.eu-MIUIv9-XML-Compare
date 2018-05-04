@@ -277,7 +277,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_demoModeLauncherComponent">com.android.retaildemo/.DemoPlayer</string>
   <string name="config_deviceProvisioningPackage"/>
   <string name="config_doubleTouchGestureEnableFile"/>
-  <string name="config_dozeComponent">com.android.keyguard/com.android.keyguard.doze.DozeService</string>
+  <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
   <string name="config_dozeDoubleTapSensorType"/>
   <string name="config_dreamsDefaultComponent">com.google.android.deskclock/com.android.deskclock.Screensaver</string>
   <string name="config_emergency_call_number">112</string>
@@ -951,6 +951,7 @@ Try again in %2$d seconds."</string>
   <string name="mobile_provisioning_url"/>
   <string name="month_day_year" formatted="false">%B %-e, %Y</string>
   <string name="more_item_label">More</string>
+  <string name="move_button_text">Switch</string>
   <string name="muted_by">Muted by %1$s</string>
   <string name="needPuk">Your SIM card is PUK-locked. Type the PUK code to unlock it.</string>
   <string name="needPuk2">Type PUK2 to unblock SIM card.</string>
