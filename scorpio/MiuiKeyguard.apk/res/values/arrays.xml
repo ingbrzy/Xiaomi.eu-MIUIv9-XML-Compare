@@ -32,6 +32,8 @@
         <item>wayne</item>
         <item>ysl</item>
         <item>sakura</item>
+        <item>clover</item>
+        <item>dipper</item>
     </string-array>
     <string-array name="device_global_support_face">
         <item>whyred</item>
@@ -47,8 +49,24 @@
         <item>wayne</item>
         <item>ysl</item>
         <item>sakura</item>
+        <item>clover</item>
     </string-array>
     <string-array name="device_use_cameratwo">
         <item>polaris</item>
+        <item>dipper</item>
     </string-array>
+    <integer-array name="config_doze_brightness_sensor_to_brightness">
+        <item>-1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>27</item>
+        <item>28</item>
+    </integer-array>
+    <integer-array name="config_doze_brightness_sensor_to_scrim_opacity">
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
 </resources>
