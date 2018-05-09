@@ -785,6 +785,7 @@ Sample Rate"</string>
   <string name="enable_disable_retail_directory">Retail Directory</string>
   <string name="enable_disable_stock_quotes">Stock Quotes</string>
   <string name="enable_disable_technology_news">Technology News</string>
+  <string name="enable_dual_4g_if_dual_ct">Prefer 4G networks for both SIM cards to use VoLTE on the secondary SIM when two China Telecom SIM cards are installed.</string>
   <string name="enable_dual_4g_prompt_when_turn_on_volte">VoLTE requires 4G connectivity for both SIM slots. Switch to Dual 4G now?</string>
   <string name="enable_fdn">Enable FDN</string>
   <string name="enable_fdn_ok">Disable FDN</string>
@@ -799,6 +800,7 @@ Sample Rate"</string>
   <string name="enable_sim_pin">Set SIM PIN</string>
   <string name="enable_terminal_summary">Enable terminal app that offers local shell access</string>
   <string name="enable_terminal_title">Local terminal</string>
+  <string name="enable_vice_volte_if_dual_ct">Turn on VoLTE for the secondary SIM automaticaly when two China Telecom SIM cards are installed.</string>
   <string name="enable_video_calling_dialog_close">Close</string>
   <string name="enable_video_calling_dialog_msg">To turn on video calling, you need to enable Enhanced 4G LTE Mode in network settings.</string>
   <string name="enable_video_calling_dialog_settings">Network settings</string>
