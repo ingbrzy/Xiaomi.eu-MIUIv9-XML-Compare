@@ -706,6 +706,7 @@ mod:0-15"</string>
   <string name="rpmb_info">RPMB Provisioned:</string>
   <string name="sar_cal">Sarsensor Calibration</string>
   <string name="sar_test">Sarsensor Test</string>
+  <string name="sar_test_show">The following shows the output data values of each channel about SAR sensor, use hand to cover the bottom of the mobile phone, the data is changed to indicate normal, please do not test when charging USB</string>
   <string name="save">Save</string>
   <string name="save_local_freq">Save local frequence</string>
   <string name="sd_u_test">SD_U disk</string>
