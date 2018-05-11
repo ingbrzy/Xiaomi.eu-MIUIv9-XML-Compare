@@ -3053,6 +3053,8 @@ Select your operating system:"</string>
   <string name="normal_smartcover_title">Opaque front cover</string>
   <string name="not_battery_optimizing">Not using battery optimization</string>
   <string name="not_installed">Not installed for this user</string>
+  <string name="notch_force_black_desc">When turned on, the screen notch area is black</string>
+  <string name="notch_force_black_title">Hide Screen notch</string>
   <string name="notes_privacy_password_role_instruction">Your private notes will be stored here.</string>
   <string name="notification_app_settings_button">Notification settings</string>
   <string name="notification_badge_title">Allow notification dot</string>
