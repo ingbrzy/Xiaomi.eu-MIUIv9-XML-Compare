@@ -1,6 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="access_sd_fail">"Couldn't access SD card."</string>
+  <string name="accessibility_ai_scene_off">AI camera is off</string>
+  <string name="accessibility_ai_scene_on">AI camera</string>
   <string name="accessibility_audio_shutter_bg">Audio Shutter background</string>
   <string name="accessibility_back_preview_status">Rear camera preview</string>
   <string name="accessibility_beauty_panel_closed">Beautify menu is hidden</string>
@@ -51,8 +53,8 @@
   <string name="accessibility_video_module_picker">VideoModulePicker</string>
   <string name="accessibility_video_pause_button">VideoPauseButton</string>
   <string name="accessibility_zoom_button">Zoom mode</string>
-  <string name="ai_scene_mode_use_hint_text">"AI camera detects scenes automatically
-and optimizes your photos based on this info"</string>
+  <string name="ai_scene_mode_use_hint_text">"Open the Ai-Scene Camera, identify the picture scene for you 
+ and optimize the picture based on the scene"</string>
   <string name="audio_focus_exit_button_text">Turn off Audio focus</string>
   <string name="beauty_fragment_tab_name_beauty">Beauty</string>
   <string name="beauty_fragment_tab_name_makeup">Advanced</string>
@@ -215,7 +217,7 @@ and brings out the people in the front."</string>
   <string name="pref_burst_shoot_title">Burst shoot</string>
   <string name="pref_camcorder_settings">Video</string>
   <string name="pref_camcorder_settings_category">Camera settings</string>
-  <string name="pref_camera_ai_scene_title">AI camera</string>
+  <string name="pref_camera_ai_scene_title">AI Camera</string>
   <string name="pref_camera_antibanding_60">60hz</string>
   <string name="pref_camera_antibanding_default">50hz</string>
   <string name="pref_camera_antibanding_entry_0">Off</string>

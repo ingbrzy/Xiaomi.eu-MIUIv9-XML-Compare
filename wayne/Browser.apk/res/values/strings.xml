@@ -45,7 +45,9 @@
   <string name="action_menu_useful_page_added">Added to start page</string>
   <string name="action_menu_user_center">Profile</string>
   <string name="action_modify_bookmark">Modify bookmark</string>
+  <string name="action_one_touch">Open notifications</string>
   <string name="action_put_in_search_box">Put %s in the search box</string>
+  <string name="action_skip">Skip</string>
   <string name="adblock_force_updating_rules_toast">Updating Ad blocker</string>
   <string name="adblock_notification">%d ads blocked</string>
   <string name="adblock_rules_not_updated_toast">"Couldn't update"</string>
@@ -475,6 +477,7 @@ to view open tabs from other devices."</string>
   <string name="enable_geolocation_confirm_message">Turning off location services will affect the recommendations you receive.</string>
   <string name="enter_developer_mode">Enter developer mode</string>
   <string name="enter_incongnito_mode">Enter incognito mode</string>
+  <string name="enter_infoflow_guide">Slide up to see news</string>
   <string name="enter_the_group_name">Enter group name</string>
   <string name="enter_the_password">Enter password</string>
   <string name="enter_the_user_name">Enter username</string>
@@ -537,8 +540,10 @@ to view open tabs from other devices."</string>
   <string name="homepage_more_sites">More websites</string>
   <string name="homepage_search_hint">Search</string>
   <string name="homepage_top_card_menu">Top</string>
+  <string name="hot_words_item_ads_mark">Ads</string>
   <string name="ignore_add_pwa_dialog_today">"Don't show today"</string>
   <string name="in_secureaccess">Browser switched to Safe mode</string>
+  <string name="info_flow_description">Info channel</string>
   <string name="isReplacePage">File already exists, replace?</string>
   <string name="is_first_history_item">This is the first page in Browser history</string>
   <string name="is_first_tab">This is the first tab</string>
@@ -570,6 +575,7 @@ to view open tabs from other devices."</string>
   <string name="menu_title_open_file_management">Open File Manager</string>
   <string name="menu_title_pause_all">Pause all</string>
   <string name="menu_title_resume_all">Start all</string>
+  <string name="message_notice_push">Latest hot spots no longer miss!</string>
   <string name="miui_autologin_bar_error">"Can't sign in"</string>
   <string name="miui_autologin_bar_title">Sign in with Mi Account</string>
   <string name="miui_bookmark_action_bar_add_group_title">Add group</string>
@@ -1123,6 +1129,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="pref_nav_mode_summary_pad">Pad</string>
   <string name="pref_nav_mode_summary_phone">Phone</string>
   <string name="pref_nav_mode_title">Browser Mode</string>
+  <string name="pref_navscreen_layoutstate_title">Multi-window management</string>
   <string name="pref_notifications_hint">Notifications</string>
   <string name="pref_notifications_receive">Notifications</string>
   <string name="pref_notifications_title">Notifications</string>
@@ -1206,6 +1213,7 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="readmode_recommend_message">"You've read this book already. :)"</string>
   <string name="readmode_refresh">Refresh</string>
   <string name="readmodelist_bookmarks_to_show">Reading list</string>
+  <string name="refresh_description">Refresh</string>
   <string name="refuse_permissions_request">Restrict</string>
   <string name="remember_passwords_confirm_message">Turning this feature off may affect usage.</string>
   <string name="remove_bookmark">Delete bookmark</string>
@@ -1230,9 +1238,10 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="same_folder_name_warning">A group with the same name already exists</string>
   <string name="save_button_text">Save</string>
   <string name="save_dialog_title">Save</string>
-  <string name="save_file">Save %s</string>
+  <string name="save_file">Save</string>
   <string name="save_file_already_exist_alert_message">A file with the same name already exists, replace it?</string>
   <string name="save_file_already_exist_alert_title">Replace file?</string>
+  <string name="save_file_suffix">file</string>
   <string name="save_form_data_confirm_message">Turning this feature off may affect usage.</string>
   <string name="save_image_failed">"Couldn't save image"</string>
   <string name="save_image_success">Image saved</string>
@@ -1283,6 +1292,8 @@ Remember that the files you download and the bookmarks you add will still be sav
   <string name="share_image_text">Look what I shared! @MIUI</string>
   <string name="share_page_text">Look what I shared: %1$s @MIUI| %2$s</string>
   <string name="share_video">Share video</string>
+  <string name="short_video_description">Video channel</string>
+  <string name="short_video_tip">Look! Fun video</string>
   <string name="show_check_security_url_check_tip_dialog_description">"We will collect and use your personal data if you choose to use our services.
 Here's the data that we'll collect:
 1. Secure URLs: We'll collect the URLs of the websites you visit while using our services.
@@ -1346,6 +1357,7 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="suggest_access_music">Mi Music</string>
   <string name="suggest_item_delete_text">Delete</string>
   <string name="suggest_open_app_failed">"Couldn't open this app"</string>
+  <string name="suggestion_clear_record_message">Do you confirm empty input record?</string>
   <string name="suggestion_express_button_query_more">VIEW MORE</string>
   <string name="suggestion_express_button_text_query">CHECK</string>
   <string name="suggestion_express_exception_net">"Couldn't connect to the network. Check your network settings and try again."</string>
@@ -1376,6 +1388,7 @@ Browser needs to connect to the internet to work normally. You must agree to our
   <string name="tae_sdk_qr_login_icon_scan"></string>
   <string name="temp_refuse">No thanks</string>
   <string name="title_bar_loading">Loading…</string>
+  <string name="title_notice_push">Notice reminding</string>
   <string name="too_many_windows_dialog_message">"Browser can't open a new tab until you close another tab"</string>
   <string name="too_many_windows_dialog_title">"Can't open more tabs"</string>
   <string name="transfer_prompt_0">Play video</string>
