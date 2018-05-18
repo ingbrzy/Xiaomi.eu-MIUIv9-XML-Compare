@@ -66,33 +66,6 @@
         <item>1.1</item>
         <item>1.0</item>
     </array>
-    <string-array name="editing_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <array name="item_shake_animation_scaler">
-        <item>0.0dip</item>
-        <item>-4.0dip</item>
-        <item>2.0dip</item>
-        <item>-1.0dip</item>
-        <item>0.0dip</item>
-    </array>
-    <string-array name="transformation_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>5</item>
-        <item>7</item>
-        <item>8</item>
-        <item>4</item>
-    </string-array>
-    <string-array name="wallpaper_scroll_values">
-        <item>byTheme</item>
-        <item>center</item>
-        <item>left</item>
-        <item>right</item>
-    </string-array>
     <array name="device_prefix">
         <item>@array/dgoogle</item>
         <item>@array/dyandex</item>
@@ -131,6 +104,11 @@
         <item>dipper</item>
         <item>nitrogen</item>
         <item>tulip</item>
+    </string-array>
+    <string-array name="editing_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
     </string-array>
     <string-array name="filter_prefix">
         <item>dyandex_yandex</item>
@@ -178,6 +156,13 @@
         <item>RO</item>
         <item>HR</item>
     </string-array>
+    <array name="item_shake_animation_scaler">
+        <item>0.0dip</item>
+        <item>-4.0dip</item>
+        <item>2.0dip</item>
+        <item>-1.0dip</item>
+        <item>0.0dip</item>
+    </array>
     <string-array name="lowkeymidrop">
         <item>CN</item>
         <item>EC</item>
@@ -230,6 +215,21 @@
         <item>@array/yandex</item>
         <item>@array/mipicks</item>
     </array>
+    <string-array name="transformation_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_values">
+        <item>byTheme</item>
+        <item>center</item>
+        <item>left</item>
+        <item>right</item>
+    </string-array>
     <string-array name="widget_sizes">
         <item>home_edit_box_area_1_1</item>
         <item>home_edit_box_area_1_2</item>

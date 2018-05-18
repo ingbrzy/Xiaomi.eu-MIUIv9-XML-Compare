@@ -7,7 +7,6 @@ Messages will only appear in Second space."</string>
   <string name="PrivacyContactDes2">"If you used private messages in First space,
 this feature will be added to Second space automatically."</string>
   <string name="add_finger_print">Add fingerprint</string>
-  <string name="agree">Agree</string>
   <string name="air_space_created">Created Work space successfully</string>
   <string name="air_space_deleted">Deleted Work space successfully</string>
   <string name="air_space_exit">Exit space</string>
@@ -74,7 +73,6 @@ to be able to view them anytime"</string>
   <string name="dialog_title">Attention</string>
   <string name="dir_switch_out_all_photos">Second space Gallery</string>
   <string name="disable">Turn off</string>
-  <string name="disagree">"Don't agree"</string>
   <string name="do_not_ask">"Don't ask again"</string>
   <string name="dont_import">Not now</string>
   <string name="downloading_space">Downloading…</string>
@@ -166,7 +164,6 @@ You can also download them separately."</string>
   <string name="need_reset_passwd">Reset Work space password before entering Work space</string>
   <string name="need_set_second_space_desc">Add Second space password before adding Second space fingerprint</string>
   <string name="need_set_second_space_pwd_first">Set Second space password first</string>
-  <string name="net_work_notice">Parental controls need to connect to the internet and get access to your location to work normally. These permissions are required to send the info about battery levels, step count, and your location to the controlling devices. Allow?</string>
   <string name="newSecondSpace">Turn on Second space</string>
   <string name="next_setp">Next</string>
   <string name="no_match_repate_scanner">"Couldn't find matching fingerprints, scan again"</string>
