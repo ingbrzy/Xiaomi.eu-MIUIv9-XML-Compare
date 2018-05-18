@@ -850,6 +850,7 @@ It will be added to exceptions, but previously blocked items won't appear in cal
   <string name="gb_have_signed">Checked in today</string>
   <string name="gb_msg_completely_shielded">Hide messages</string>
   <string name="gb_msg_completely_shielded_summary">Hide</string>
+  <string name="gb_msg_not_shielded_summary">Show</string>
   <string name="gb_msg_quickly_answer">Allow quick replies</string>
   <string name="gb_msg_quickly_answer_summary">Quick replies</string>
   <string name="gb_msg_transparent_dispaly">Notifications with transparent background</string>

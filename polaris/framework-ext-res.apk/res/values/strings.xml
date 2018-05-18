@@ -140,6 +140,7 @@
   <string name="memory_clear_nothing_result">Nothing to clear in cache</string>
   <string name="memory_clear_result">%1$sB cleared</string>
   <string name="miui">miui</string>
+  <string name="miui_forbid_poweroff_when_device_locked">"Can't power off, device is locked."</string>
   <string name="miui_screen_ratio_hint">Screen ratio issues</string>
   <string name="miui_screen_ratio_hint_dont_show_again">"Don't show again"</string>
   <string name="miui_screen_ratio_hint_go_to_settings">Go to Settings</string>
