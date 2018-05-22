@@ -5,6 +5,8 @@
   <string name="account_container_title">Imported from</string>
   <string name="account_default">Phone</string>
   <string name="account_phone">Phone-only, unsynced</string>
+  <string name="account_sdn">SDN</string>
+  <string name="account_sdn2">SDN %d</string>
   <string name="account_sim">SIM card</string>
   <string name="account_sim2">SIM card %d</string>
   <string name="account_type_format">%1$s contact</string>
@@ -878,6 +880,9 @@ To add a contact to your list of favorites:
   <string name="pref_key_photo_word_title">Assign contact photos</string>
   <string name="pref_key_rebuild_t9_index_message">Rebuild index to resolve search issues</string>
   <string name="pref_key_rebuild_t9_index_title">Rebuild index data</string>
+  <string name="pref_key_sdn_manage">View SDN</string>
+  <string name="pref_key_sdn_manage1">View SDN card 1</string>
+  <string name="pref_key_sdn_manage2">View SDN card 2</string>
   <string name="pref_key_sim_manage">SIM cards</string>
   <string name="pref_key_sim_manage1">Set up SIM card 1</string>
   <string name="pref_key_sim_manage2">Set up SIM card 2</string>
@@ -999,6 +1004,8 @@ To add a contact to your list of favorites:
   <string name="scan_qrcode_card_hint2"/>
   <string name="scanning_sdcard_failed_message">Reason: \"%s\".</string>
   <string name="scanning_sdcard_failed_title">"The storage couldn't be scanned"</string>
+  <string name="sdnContacts_empty">No SDN</string>
+  <string name="sdnContacts_emptyLoading">Loading SDN…</string>
   <string name="searchHint">Search contacts</string>
   <string name="search_batch_delete">Organize;Contacts</string>
   <string name="search_contacts_display">Contacts;Display</string>
@@ -1132,6 +1139,7 @@ To add a contact to your list of favorites:
   <string name="strequentList">Favorites</string>
   <string name="success_message_import_from_account">Contact imported</string>
   <string name="summary_kind_title">Summary</string>
+  <string name="sv">SV</string>
   <string name="t9_search_empty_create_contact">New contact</string>
   <string name="t9_search_empty_edit_contact">Add to contacts</string>
   <string name="t9_search_empty_send_sms">Send message</string>
