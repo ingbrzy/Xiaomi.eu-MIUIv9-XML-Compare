@@ -1041,6 +1041,7 @@ Sample Rate"</string>
   <string name="checking_decryption">Checking…</string>
   <string name="checking_find_device_status">Checking Find device status…</string>
   <string name="checking_for_updates">Checking for updates…</string>
+  <string name="choose_a_card_to_reset">Select SIM card to reset</string>
   <string name="choose_profile">Choose profile</string>
   <string name="choose_smartcover_type">Choose case type</string>
   <string name="choose_spell_checker">Choose spell checker</string>
@@ -1064,7 +1065,8 @@ Sample Rate"</string>
   <string name="close_demo_mode">Cancel</string>
   <string name="close_gesture">Close using gesture</string>
   <string name="close_miui_optimization_title">Turn off MIUI optimization</string>
-  <string name="close_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
+  <string name="close_optimization_message">Text layout, accounts, and other parts off MIUI might be affected after you turn this feature off.</string>
+  <string name="close_optimization_option">Turn off</string>
   <string name="cloud_backup_section_title">Mi Cloud backup</string>
   <string name="cloud_backup_settings_section_title">Backup settings</string>
   <string name="cloud_restore_section_summary">Restore apps, Home screen layout, and system settings</string>
@@ -3043,7 +3045,8 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="open_demo_mode">Turn on</string>
   <string name="open_demo_mode_warning_message">When Demo mode is on, the clock in the status bar will stop, battery and signal icons will be displayed as full. You can turn Demo mode off or reboot the device to change this.</string>
   <string name="open_miui_optimization_title">Turn on MIUI optimization</string>
-  <string name="open_miui_optimization_warning_message">Your device will reboot to apply this change.</string>
+  <string name="open_optimization_message">Turn on optimization to enjoy a smoother, faster UI.</string>
+  <string name="open_optimization_option">Turn on</string>
   <string name="open_personal_assistant_dialog_btn_cancel">Cancel</string>
   <string name="open_personal_assistant_dialog_btn_confirm">Turn off</string>
   <string name="open_personal_assistant_dialog_desc">"You won't be able to use App vault and receive its updates. Turn off now?"</string>
@@ -3054,8 +3057,6 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="opening_paragraph_delete_profile_unknown_company">This work profile is managed by:</string>
   <string name="operator_warning">Carrier data accounting may differ from device accounting</string>
   <string name="optimization_cancel">Cancel</string>
-  <string name="optimization_close">Turn off &amp; reboot</string>
-  <string name="optimization_open">Turn on</string>
   <string name="ota_disable_automatic_update">Automatic system updates</string>
   <string name="other_advanced_settings">Additional settings</string>
   <string name="other_device_info">Others</string>
@@ -3300,7 +3301,7 @@ This will also give the app the ability to turn Do Not Disturb on or off and cha
   <string name="privacy_authorize_cloud_msg">"To ensure your account's security, sign in to i.mi.com if you want to revoke authotization for Mi Cloud services (including sync and backups)."</string>
   <string name="privacy_authorize_dialog_agree">Agree</string>
   <string name="privacy_authorize_dialog_exit">Exit</string>
-  <string name="privacy_authorize_dialog_message">&lt;Data&gt;"In order to use the basic features of Mi Cloud services, you must agree that Xiaomi will collect, process, and use your personal data. Refer to our Privacy Policy to learn how we collect and process personal data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;.&amp;#8203;"&lt;/Data&gt;</string>
+  <string name="privacy_authorize_dialog_message">&lt;Data&gt;"In order to use the basic features of this service, you must agree that Xiaomi will collect, process, and use your personal data. Refer to our Privacy Policy to learn how we collect and process personal data. Selecting \"Agree\" means that you've read and agreed to our &amp;lt;a href=\"http://www.miui.com/res/doc/privacy.html?region=%1$s&amp;amp;lang=%2$s\"&amp;gt;Privacy Policy&amp;lt;/a&amp;gt; and &amp;lt;a href=\"http://www.miui.com/res/doc/eula.html?region=%3$s&amp;amp;lang=%4$s\"&amp;gt;User Agreement&amp;lt;/a&amp;gt;.&amp;#8203;"&lt;/Data&gt;</string>
   <string name="privacy_authorize_network_error">Connect to the network and try again.</string>
   <string name="privacy_authorize_privacy_policy">Privacy Policy</string>
   <string name="privacy_authorize_revoke">Revoke</string>
@@ -3552,13 +3553,17 @@ UT Interface: %5$s"</string>
   <string name="reset_app_preferences_title">Reset app preferences?</string>
   <string name="reset_dashboard_title">Reset</string>
   <string name="reset_legacy_password_settings_preface_text">You need to reset your lock screen password.</string>
+  <string name="reset_network_bluetooth">Bluetooth</string>
   <string name="reset_network_button_text">Reset settings</string>
+  <string name="reset_network_category">This will reset all network settings, including:</string>
   <string name="reset_network_complete_toast">Network settings have been reset</string>
   <string name="reset_network_confirm_title">Reset?</string>
+  <string name="reset_network_data">Mobile data</string>
   <string name="reset_network_desc">This will reset all network settings</string>
   <string name="reset_network_final_button_text">Reset settings</string>
   <string name="reset_network_final_desc">Reset all network settings? You can’t undo this action!</string>
   <string name="reset_network_title">Network settings reset</string>
+  <string name="reset_network_wifi">WLAN</string>
   <string name="reset_second_space_passwd">Reset Second space password</string>
   <string name="reset_second_space_passwd_cancel">Cancel</string>
   <string name="reset_second_space_passwd_confirm">Continue</string>
