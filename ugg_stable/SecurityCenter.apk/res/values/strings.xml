@@ -627,6 +627,9 @@
   <string name="dialog_remove_luckymoney">当前MIUI版本已支持系统级红包助手，是否卸载单发版，并前往安全中心开启更快更稳定的小米红包助手？</string>
   <string name="dialog_roaming_message">Allow this app to use mobile data when roaming overseas?</string>
   <string name="dialog_roaming_title">Overseas roaming</string>
+  <string name="dialog_roaming_warning_checkbox">"Don't show again"</string>
+  <string name="dialog_roaming_warning_message">The carrier will charge you a fee after you turn on international data roaming. Turn on anyway?</string>
+  <string name="dialog_roaming_warning_ok">Turn on</string>
   <string name="dialog_text">Create a Home screen shortcut for Game speed booster</string>
   <string name="dialog_title_attention">Attention</string>
   <string name="dialog_title_auto_start_declare">About autostart</string>
@@ -1054,6 +1057,7 @@ to respond"</string>
   <string name="main_toolbar_statistic">Data usage stats</string>
   <string name="main_used_bill">%s CNY</string>
   <string name="man_add_application">Add autostart apps manually</string>
+  <string name="managed_user_title">All work apps</string>
   <string name="manual_input_free_traffic">Set off-peak data usage</string>
   <string name="manual_input_traffic">Set data usage</string>
   <string name="manual_item_white_list_summary">Prevent selected apps from being optimized</string>
