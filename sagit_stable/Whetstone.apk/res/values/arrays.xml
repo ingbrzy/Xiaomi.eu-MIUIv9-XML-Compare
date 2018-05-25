@@ -6,7 +6,6 @@
     <string-array name="persist_service">
         <item>com.miui.powerkeeper/.PowerKeeperBackgroundService</item>
         <item>com.miui.klo.bugreport/.service.FeedbackBackgroundService</item>
-        <item>com.miui.whetstone/.net.MiuiDnsService</item>
         <item>com.xiaomi.metok/.MetokClService</item>
         <item>com.miui.sysbase/.MetokClService</item>
         <item>com.xiaomi.joyose/.smartop.SmartOpService</item>
