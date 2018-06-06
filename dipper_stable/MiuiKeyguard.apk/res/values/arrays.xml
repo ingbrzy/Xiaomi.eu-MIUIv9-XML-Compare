@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="region_support_mihome">
+        <item>CN</item>
+        <item>IN</item>
+        <item>HK</item>
+        <item>TW</item>
+        <item>SG</item>
+        <item>US</item>
+        <item>TR</item>
+    </string-array>
+    <integer-array name="config_input_face_unlock">
+        <item>-8</item>
+        <item>8</item>
+        <item>-13</item>
+        <item>13</item>
+    </integer-array>
+    <integer-array name="config_doze_brightness_sensor_to_brightness">
+        <item>-1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>27</item>
+        <item>28</item>
+    </integer-array>
+    <integer-array name="config_doze_brightness_sensor_to_scrim_opacity">
+        <item>-1</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+        <item>0</item>
+    </integer-array>
+</resources>
