@@ -2,6 +2,7 @@
 <resources>
   <string name="accept">Accept</string>
   <string name="accept_or_deny">%1$s shared the album %2$s with you.</string>
+  <string name="actionbar_overflow_item_desc">More options</string>
   <string name="add_automatically_alert_msg">Add photos from \"%1$s\" to this album automatically?</string>
   <string name="add_automatically_alert_title">Add photos automatically</string>
   <string name="add_secret_ensure_title">Hide</string>
@@ -19,6 +20,7 @@
   <string name="add_to_secret_failed_with_reason">"Can't add to hidden album. %1$s."</string>
   <string name="add_to_secret_successful">Added to hidden album</string>
   <string name="add_to_share_album_not_delete">"Can't delete photo from Shared Album"</string>
+  <string name="added_to_favorites">Added to favorites</string>
   <string name="added_to_favorites_tip">Added to \"Favorites\" album</string>
   <string name="adding">Adding…</string>
   <string name="adding_recipients">Adding recipients…</string>
@@ -90,6 +92,7 @@
   <string name="app_name">Gallery</string>
   <string name="app_name_view_picture">View photos</string>
   <string name="app_name_view_video">View videos</string>
+  <string name="application_icon">App icon</string>
   <string name="apply">Apply</string>
   <string name="assistant_page_label">Assistant</string>
   <string name="associate_face_album">Choose an album</string>
@@ -109,11 +112,13 @@
   <string name="baby_album_needs_auto_backup_tip">"Can't turn off automatic backup for Baby album"</string>
   <string name="baby_album_new_photo_remind">There are new photos in your Baby album.</string>
   <string name="baby_album_setting_title">Baby info</string>
+  <string name="baby_album_settings">Baby album settings</string>
   <string name="baby_album_sharer_accept_dialog_msg">"Dear %1$s's %2$s,
 %3$s's %4$s shared %5$s's album with you"</string>
   <string name="baby_album_sharer_recommand_face">Add existing photos of %1$s?</string>
   <string name="baby_album_sharers_page_title">Share with family</string>
   <string name="baby_birthday">Birthday</string>
+  <string name="baby_face_desc">Baby album</string>
   <string name="baby_lock_wallpaper">Lock screen wallpaper</string>
   <string name="baby_lock_wallpaper_cancelled">Switched to default Lock screen wallpaper</string>
   <string name="baby_lock_wallpaper_save_settings_msg">Apply current settings?</string>
@@ -125,6 +130,7 @@
   <string name="baby_nick_name">Nickname</string>
   <string name="baby_sexy">Gender</string>
   <string name="baby_suffix">baby</string>
+  <string name="back">Back</string>
   <string name="backup_automatically_summary">Back up photos and videos from all devices to Mi Cloud. Thus, you can conveniently browse, sort, edit, and share photos and videos on all your devices.</string>
   <string name="backup_automatically_title">Back up automatically</string>
   <string name="backup_battery_low_desc">You can still choose to continue backing up items</string>
@@ -599,6 +605,8 @@
   <string name="cleaner_stop_scan">Stop scanning</string>
   <string name="click_download_gif">Tap to download GIF</string>
   <string name="click_top_right">Tap this icon</string>
+  <string name="close">Close</string>
+  <string name="close_dialog_desc">Close dialog box</string>
   <string name="cloud_camera_display_name">Camera photos</string>
   <string name="cloud_guide_auto_backup_title">Choose albums to back up</string>
   <string name="cloud_guide_login_title">Back up photos and videos automatically</string>
@@ -621,6 +629,7 @@
   <string name="cloudfolder_contain_invalidate_char">"Album name can't contain '%s'"</string>
   <string name="cloudfolder_name_cannot_empty">Enter an album name</string>
   <string name="cloudfolder_name_reserved">Album name is reserved</string>
+  <string name="collage__talkback_effect">%d effect</string>
   <string name="collage_choose">Select</string>
   <string name="collage_margin_text">Margins</string>
   <string name="collage_mirror">Mirror</string>
@@ -658,6 +667,9 @@
   <string name="context_menu_add_contact">Add to contacts</string>
   <string name="context_menu_copy">Copy</string>
   <string name="context_menu_copy_notice">Copied to clipboard</string>
+  <string name="correct_photo_time">Correct date and time for photos</string>
+  <string name="correct_time_success">Corrected successfully</string>
+  <string name="correct_time_tip">Correcting date and time…</string>
   <string name="create_baby_album">Create a Baby album</string>
   <string name="create_baby_album_dialog_msg">Create an album for \"%s\"?</string>
   <string name="create_baby_album_later_toast">Create a Baby album anytime in Settings</string>
@@ -671,6 +683,7 @@
   <string name="custom_select_title_quickly_share">Share</string>
   <string name="custom_select_title_select_all">Select all</string>
   <string name="custom_select_title_select_item">Select items</string>
+  <string name="debugging_info">Debug info has been generated successfully. Tap OK to open folder.</string>
   <string name="debugging_tip">Generating debug data</string>
   <string name="default_relation_name">New group</string>
   <string name="define_by_user">Custom</string>
@@ -802,6 +815,7 @@
   <string name="exit_share_in_process">Leaving album \"%s\"…</string>
   <string name="exit_share_successfully">Exited %1$s</string>
   <string name="exit_video_play">Exit</string>
+  <string name="expand_desc">More</string>
   <string name="expand_people">Show more people</string>
   <string name="face_album_detecting_tip">Just a sec…</string>
   <string name="face_album_empty">"Not enough photos to recognize people.
@@ -827,6 +841,7 @@ Take more photos of your friends!"</string>
   <string name="fail_to_pick_email">Invalid email address</string>
   <string name="fail_to_sync_album">"Couldn't sync album. Check your data connection and try again."</string>
   <string name="family_member_invitation_text">Other family member</string>
+  <string name="fancy_color_desc">Colors</string>
   <string name="fast_share_auto_render">Beautify</string>
   <string name="fast_share_auto_render_finish">Beautified</string>
   <string name="fileSizeSuffix">%1$s%2$s</string>
@@ -843,6 +858,7 @@ Take more photos of your friends!"</string>
   <string name="filter_bi_young">Young</string>
   <string name="filter_category_film">Film</string>
   <string name="filter_category_food">Food</string>
+  <string name="filter_category_master">Master</string>
   <string name="filter_category_portrait">Portrait</string>
   <string name="filter_category_scene">Landscape</string>
   <string name="filter_film_blackwhite">B&amp;W</string>
@@ -861,15 +877,23 @@ Take more photos of your friends!"</string>
   <string name="filter_food_latte">Latte</string>
   <string name="filter_food_softdrink">Soda</string>
   <string name="filter_food_wholemeal">Grains</string>
+  <string name="filter_master_hazy">Hazy</string>
+  <string name="filter_master_mellow">Mellow</string>
+  <string name="filter_master_memoire">Memoire</string>
+  <string name="filter_master_rise">Rise</string>
+  <string name="filter_master_somber">Somber</string>
   <string name="filter_original">None</string>
   <string name="filter_people_fairytale">Kids</string>
   <string name="filter_people_heart">Emotions</string>
   <string name="filter_people_japanese">Fresh</string>
   <string name="filter_people_maze">Maze</string>
   <string name="filter_people_mint">Mint</string>
+  <string name="filter_people_movie">Movie</string>
   <string name="filter_people_nature">Natural</string>
   <string name="filter_people_pink">Blush</string>
+  <string name="filter_people_riddle">Riddle</string>
   <string name="filter_people_roman">Romantic</string>
+  <string name="filter_people_story">Story</string>
   <string name="filter_scene_city">City</string>
   <string name="filter_scene_df">Mist</string>
   <string name="filter_scene_koizora">Amour</string>
@@ -882,6 +906,7 @@ Take more photos of your friends!"</string>
   <string name="finish_fill_baby">Create</string>
   <string name="flash_off">No flash</string>
   <string name="flash_on">Flash used</string>
+  <string name="free_view_desc">3D view</string>
   <string name="gallery_setting">Settings</string>
   <string name="gallery_sync_disable_toast">Sync is off for Gallery</string>
   <string name="get_album_info_in_process">"Getting shared album's details…"</string>
@@ -1128,6 +1153,27 @@ to personalize Gallery"</string>
   <string name="photo_editor_rotate">Rotate</string>
   <string name="photo_editor_saving">Saving…</string>
   <string name="photo_editor_sticker">Sticker</string>
+  <string name="photo_editor_talkback_cancel">Cancel</string>
+  <string name="photo_editor_talkback_confirm">Confirm</string>
+  <string name="photo_editor_talkback_crop_16_9">Sixteen to nine</string>
+  <string name="photo_editor_talkback_crop_1_1">One to one</string>
+  <string name="photo_editor_talkback_crop_3_4">Three to four</string>
+  <string name="photo_editor_talkback_crop_4_3">Four to three</string>
+  <string name="photo_editor_talkback_crop_9_16">Nine to sixteen</string>
+  <string name="photo_editor_talkback_crop_free">Free</string>
+  <string name="photo_editor_talkback_crop_mirror">Mirror</string>
+  <string name="photo_editor_talkback_crop_original">Original</string>
+  <string name="photo_editor_talkback_crop_rotate">Rotate</string>
+  <string name="photo_editor_talkback_doodle_arrow">Arrow</string>
+  <string name="photo_editor_talkback_doodle_circular">Circle</string>
+  <string name="photo_editor_talkback_doodle_line">Line</string>
+  <string name="photo_editor_talkback_doodle_path">Brush</string>
+  <string name="photo_editor_talkback_doodle_rectangle">Rectangle</string>
+  <string name="photo_editor_talkback_effect">%d effect</string>
+  <string name="photo_editor_talkback_eraser">Erase</string>
+  <string name="photo_editor_talkback_recently">Recently used</string>
+  <string name="photo_editor_talkback_redo">Redo</string>
+  <string name="photo_editor_talkback_undo">Undo</string>
   <string name="photo_editor_text">Text</string>
   <string name="photo_editor_transition_image_view">photo_view</string>
   <string name="photo_editor_transition_menu_view">menu_view</string>
@@ -1179,6 +1225,8 @@ to personalize Gallery"</string>
   <string name="picker_title_specify_format_one">Select %d photo</string>
   <string name="picker_title_unlimit">Select photos</string>
   <string name="places_album_empty_title">Photos can be sorted by location</string>
+  <string name="play_gif_desc">Play GIF</string>
+  <string name="play_video_desc">Play video</string>
   <string name="preparing_data">Just a sec…</string>
   <string name="projection_cancel">Cancel</string>
   <string name="projection_checkbox_text">Remember this display</string>
@@ -1206,6 +1254,19 @@ to personalize Gallery"</string>
   <string name="recovery_merge_or_rename">Merge albums</string>
   <string name="recovery_merge_or_rename_message">"There's an existing album with this name. Merge now?"</string>
   <string name="recovery_rename">Rename</string>
+  <string name="refocus_desc">Focus again</string>
+  <string name="refocus_discard_confirm_message">Save changes?</string>
+  <string name="refocus_discard_negative_btn">Discard</string>
+  <string name="refocus_discard_positive_btn">Save</string>
+  <string name="refocus_photo_not_support">"Can't apply blur to this photo"</string>
+  <string name="refocus_save_cancel">Cancel</string>
+  <string name="refocus_save_title">Select format</string>
+  <string name="refocus_save_to_photo">Save as image</string>
+  <string name="refocus_save_to_video">Save as video</string>
+  <string name="refocus_saving">Saving…</string>
+  <string name="refocus_title">Blur</string>
+  <string name="refocus_type_static">Blur level</string>
+  <string name="refocus_type_video">Light trails</string>
   <string name="relation_text_empty_alert">Add relationship info</string>
   <string name="relation_text_family">Family member</string>
   <string name="relation_text_father">Father</string>
@@ -1292,6 +1353,7 @@ to personalize Gallery"</string>
   <string name="search_setting_title">Find photos in Gallery</string>
   <string name="search_syncing">Syncing data, come back in a while</string>
   <string name="search_title_album">Album</string>
+  <string name="search_title_app_screenshot">App screenshots</string>
   <string name="search_title_history">Search history</string>
   <string name="search_title_location">Locations</string>
   <string name="search_title_more">More</string>
@@ -1302,6 +1364,7 @@ to personalize Gallery"</string>
   <string name="search_title_tag">Objects</string>
   <string name="search_transition_element_icon">search_icon</string>
   <string name="search_transition_element_input">search_input</string>
+  <string name="search_transition_element_voice">search_voice</string>
   <string name="searching_cast_devices">Looking for projector…</string>
   <string name="secret_album_card_description">The best place for all your little secrets</string>
   <string name="secret_album_card_title">Try hidden album</string>
@@ -1322,8 +1385,11 @@ to personalize Gallery"</string>
   <string name="see_ignore_faces">"View people you've ignored"</string>
   <string name="select_item_face">"Is this '%s'?"</string>
   <string name="select_origin_tip">Original file (%s)</string>
+  <string name="send_file_beautify_failed">"Couldn't share"</string>
   <string name="send_multiple_files_hint_format">Send (%s)</string>
   <string name="send_public_url">Send album URL</string>
+  <string name="send_secret_file_failed">"Couldn't share"</string>
+  <string name="send_secret_file_space_low">Not enough storage space</string>
   <string name="send_too_many_files_error">Can send up to %d items at a time</string>
   <string name="set_as_baby_lock_wallpaper">Set as Lock screen wallpaper</string>
   <string name="set_as_wallpaper_description">This image is a thumbnail, download the original?</string>
@@ -1339,6 +1405,7 @@ to personalize Gallery"</string>
   <string name="share">Share</string>
   <string name="share_album">Share album</string>
   <string name="share_album_needs_auto_upload_tip">"Can't turn off backups for shared albums"</string>
+  <string name="share_album_qr_code">"Album's QR code"</string>
   <string name="share_by_email_start">Share %1$s in background</string>
   <string name="share_by_email_successfully">Shared %1$s</string>
   <string name="share_public_url_text">"I've shared the album %1$s with you. View it at %2$s"</string>
@@ -1383,6 +1450,9 @@ to personalize Gallery"</string>
   <string name="sticker_spring">Spring</string>
   <string name="sticker_summer">Summer</string>
   <string name="sticker_words">Words</string>
+  <string name="storage_description_primary">Internal storage</string>
+  <string name="storage_description_sdcard">SD card</string>
+  <string name="storage_description_xspace">Dual apps data</string>
   <string name="storage_no_space">Not enough space</string>
   <string name="sub_discard_confirm_message">Save changes?</string>
   <string name="sub_discard_negative_btn">Discard</string>
@@ -1521,6 +1591,7 @@ to personalize Gallery"</string>
   <string name="video_not_exist">"Video doesn't exist"</string>
   <string name="view_by_gallery_tip">MIUI Gallery</string>
   <string name="view_face_album">View album</string>
+  <string name="view_more_face_desc">View more people</string>
   <string name="view_queuing_status">Check status</string>
   <string name="welcome_to_auto_backup">@string/welcome_to_micloud</string>
   <string name="welcome_to_micloud">Welcome to Mi Cloud</string>

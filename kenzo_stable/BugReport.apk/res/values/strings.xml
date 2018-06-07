@@ -83,9 +83,17 @@
   <string name="feedback_retest_label">Steps to reproduce</string>
   <string name="feedback_select_images">Add images</string>
   <string name="feedback_select_modem_log">Add modem logs</string>
+  <string name="feedback_select_modem_log_not_select_desc">"Haven't selected \"Add modem logs\""</string>
+  <string name="feedback_select_modem_log_select_desc">Selected \"Add modem logs\"</string>
   <string name="feedback_select_problem">Issues</string>
+  <string name="feedback_select_problem_not_select_desc">"Haven't selected \"Issues\""</string>
+  <string name="feedback_select_problem_select_desc">Selected \"Issues\"</string>
   <string name="feedback_select_suggestion">Suggestions</string>
+  <string name="feedback_select_suggestion_not_select_desc">"Haven't selected \"Suggestions\""</string>
+  <string name="feedback_select_suggestion_select_desc">Selected \"Suggestions\"</string>
   <string name="feedback_select_upload_log">Add logs</string>
+  <string name="feedback_select_upload_log_not_select_desc">"Haven't selected \"Add logs\""</string>
+  <string name="feedback_select_upload_log_select_desc">Selected \"Add logs\"</string>
   <string name="feedback_status_answered">Answered</string>
   <string name="feedback_status_change_notification_title">"Your report's progress was updated"</string>
   <string name="feedback_status_commit_failed_title">"Couldn't send report"</string>
