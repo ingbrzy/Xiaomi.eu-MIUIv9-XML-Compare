@@ -4,8 +4,8 @@
   <string name="account_and_cloud">Account</string>
   <string name="action_item_add">Add to playlist</string>
   <string name="action_item_add_song">Add to playlist</string>
-  <string name="action_item_add_to_current_playlist">Current playlist</string>
-  <string name="action_item_add_to_favorite_playlist">Favorite playlist</string>
+  <string name="action_item_add_to_current_playlist">Queue</string>
+  <string name="action_item_add_to_favorite_playlist">Favorites</string>
   <string name="action_item_add_to_new_playlist">New</string>
   <string name="action_item_as_ring">Set as ringtone</string>
   <string name="action_item_cancel">Cancel</string>
@@ -21,7 +21,7 @@
   <string name="action_item_play_all">Play all</string>
   <string name="action_item_play_next">Play later</string>
   <string name="action_item_remove">Remove</string>
-  <string name="action_item_remove_from_favorite">Unfavorite</string>
+  <string name="action_item_remove_from_favorite">Remove from favorites</string>
   <string name="action_item_send">Send</string>
   <string name="action_item_share">Share</string>
   <string name="action_item_show_album">Album: %s</string>
@@ -31,8 +31,8 @@
   <string name="ad_data_exception">Ad data error</string>
   <string name="ad_extension">Promotion</string>
   <string name="ad_mark">AD</string>
-  <string name="ad_recommend">Recommendations</string>
-  <string name="ad_setting">Ad settings</string>
+  <string name="ad_recommend">Receive recommendations</string>
+  <string name="ad_setting">Additional settings</string>
   <string name="add_music">Add songs</string>
   <string name="add_to_last_of_playlist">Add to the end of playlist</string>
   <string name="add_to_playlist_successful">Added successfully</string>
@@ -135,7 +135,12 @@
   <string name="cloud_state_storage_full">Not enough phone storage, paused backup</string>
   <string name="cloud_welcome_message">Back up songs</string>
   <string name="cloud_welcome_summary">Back up your songs to Mi Cloud and listen to them on other devices</string>
+  <string name="comment_action_title">"%s's comment"</string>
   <string name="comment_format" formatted="false">%s: %s</string>
+  <string name="comment_input_empty">"Can't add empty comments."</string>
+  <string name="comment_input_hint">Enter comment</string>
+  <string name="comment_ref_format">%1$s: %2$s</string>
+  <string name="comment_ref_reply_format">Reply to @%1$s: %2$s</string>
   <string name="confirm">OK</string>
   <string name="confirm_download">Download</string>
   <string name="confirm_to_renew">Renew</string>
@@ -155,6 +160,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="data_usage_warning_summary">Using your mobile data connection to stream high quality music may increase your data usage charges.</string>
   <string name="date_format_str">MM-dd-yyyy</string>
   <string name="delete">Delete</string>
+  <string name="delete_comment_failed">"Couldn't delete comment"</string>
   <string name="delete_download">Delete</string>
   <string name="delete_downloads_records">Delete downloads</string>
   <string name="delete_file_as_well">Permanently delete this song</string>
@@ -246,6 +252,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="download_error">Unsuccessful</string>
   <string name="download_error_insufficient_space">Not enough space</string>
   <string name="download_fail_to_fetch_info">"Couldn't download, try again"</string>
+  <string name="download_fee_alert_title">Downloading paid songs</string>
   <string name="download_filesize_unknown">Unknown</string>
   <string name="download_in_process">DOWNLOADING</string>
   <string name="download_info_start_deleted_tasks">Remove downloads</string>
@@ -262,7 +269,6 @@ is mainly provided by Ultimate Inc."</string>
   <string name="download_paused_in_power_save_mode">Downloads are paused when Battery saver is on</string>
   <string name="download_pending">Download pending</string>
   <string name="download_percent">%d%%</string>
-  <string name="download_processing">Downloading…</string>
   <string name="download_quality">Download quality</string>
   <string name="download_quality_summary">Additional settings for songs that you download</string>
   <string name="download_queued">Queued</string>
@@ -420,11 +426,9 @@ is mainly provided by Ultimate Inc."</string>
   <string name="hot_icon_in_fast_indexer">H</string>
   <string name="i_know">OK</string>
   <string name="i_know_it">OK</string>
-  <string name="impunity_declaration_content1">By tapping \"Agree\", you agree to the terms stated in our</string>
-  <string name="impunity_declaration_content2">User Agreement</string>
-  <string name="impunity_declaration_content3">" and "</string>
-  <string name="impunity_declaration_content4">Privacy Policy</string>
-  <string name="impunity_declaration_content5">.</string>
+  <string name="impunity_declaration_content">You must read and agree with our %1$s and %2$s before using this product.</string>
+  <string name="impunity_declaration_content_agreement">User Agreement</string>
+  <string name="impunity_declaration_content_policy">Privacy Policy</string>
   <string name="impunity_declaration_ignore">"Don't show again"</string>
   <string name="impunity_declaration_negative_text">Exit</string>
   <string name="impunity_declaration_positive_text">Agree</string>
@@ -452,6 +456,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="ktv_playlist">KTV playlist</string>
   <string name="latest_song">Play history (%d)</string>
   <string name="like">Like</string>
+  <string name="like_comment_failed">"Couldn't like comment"</string>
   <string name="list_item_play_FM_radio">Touch to play FM radio</string>
   <string name="list_item_play_all_tracks">Play all</string>
   <string name="load_shuffle">Loading…</string>
@@ -575,7 +580,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="no_downloads">No downloads</string>
   <string name="no_enough_info">Not enough song info</string>
   <string name="no_favorites_songs">Empty</string>
-  <string name="no_file_picker_find">"Explorer isn't installed on this device"</string>
+  <string name="no_file_picker_find">"File Manager isn't installed."</string>
   <string name="no_introduction">No summary.</string>
   <string name="no_local_songs">Empty</string>
   <string name="no_local_songs_selected">"Can't send songs because they haven't been downloaded"</string>
@@ -607,8 +612,8 @@ is mainly provided by Ultimate Inc."</string>
   <string name="nowplaying_circle_style">Play button style</string>
   <string name="nowplaying_circle_style_rainbow">Rainbow</string>
   <string name="nowplaying_circle_style_wave">Wave</string>
-  <string name="nowplaying_dialog_title_delete_tracks">Clear current playlist?</string>
-  <string name="nowplaying_menu_item_delete">Clear</string>
+  <string name="nowplaying_dialog_title_delete_tracks">Remove this song from the queue?</string>
+  <string name="nowplaying_menu_item_delete">Remove from queue</string>
   <string name="ok">OK</string>
   <string name="one_month">1 month</string>
   <string name="online_bill">Charts</string>
@@ -644,6 +649,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="paused_queued_for_wifi">Waiting for connection</string>
   <string name="paused_unknown">Paused</string>
   <string name="paused_waiting_for_network">Waiting for connection</string>
+  <string name="paused_waiting_to_pay">Waiting for payment</string>
   <string name="paused_waiting_to_retry">Waiting to retry</string>
   <string name="pay">Pay:</string>
   <string name="pay_now">Current service</string>
@@ -670,6 +676,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="please_download_first">You need to download this song before you can use it as a ringtone</string>
   <string name="please_search_or_select">Search or select a field</string>
   <string name="please_select_song">Choose a song first</string>
+  <string name="post_comment_failed">"Couldn't add comment"</string>
   <string name="power_save_mode_dialog_msg">Battery saver is on. Start downloading now?</string>
   <string name="pref_download_settings_title">Download size limit</string>
   <string name="pref_summary_any_bytes_popup">Always wait for Wi-Fi connection to download files</string>
@@ -733,6 +740,8 @@ is mainly provided by Ultimate Inc."</string>
   <string name="renew_period">"Expires: "</string>
   <string name="repeat_all_notif">Repeating all songs.</string>
   <string name="repeat_current_notif">Repeating current song.</string>
+  <string name="reply_comment">Reply</string>
+  <string name="reply_comment_hint">Reply to @%s</string>
   <string name="restart_download">Restart</string>
   <string name="restart_immediate">Restart</string>
   <string name="resume_download">Resume</string>
@@ -765,6 +774,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="select_none">Deselect all</string>
   <string name="select_operation_items">Choose items</string>
   <string name="selected_count">Selected %1$d out of %2$d</string>
+  <string name="send_comment">Comment</string>
   <string name="send_to">Share</string>
   <string name="send_to_title">Send to (%1$s)</string>
   <string name="server_error">An error occurred, wait a minute or two and try again.</string>
@@ -797,12 +807,14 @@ is mainly provided by Ultimate Inc."</string>
   <string name="settings_search_title_notification">Music notifications</string>
   <string name="settings_search_title_vip_service">Premium songs</string>
   <string name="share_append_text">From @MIUI</string>
+  <string name="share_choice">Select</string>
   <string name="share_chooser_title">Share using</string>
   <string name="share_description">From Mi Music</string>
   <string name="share_end_note">From Mi Music</string>
   <string name="share_image_error">"Couldn't share image due to a download error"</string>
   <string name="share_text_list">"Playlist from Mi Music: "</string>
   <string name="share_text_song">"Song in Mi Music: "</string>
+  <string name="show_download_manager">Downloads</string>
   <string name="show_more">Show %s more</string>
   <string name="shuffle_music">Shuffle playback</string>
   <string name="shuffle_off_notif">Shuffle is off.</string>
@@ -812,7 +824,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="sleep_mode_canceled">Sleep mode turned off</string>
   <string name="sleep_mode_summary">Stop player after a certain time</string>
   <string name="sleep_mode_title">Sleep timer</string>
-  <string name="song_exist_in_playlist">This song is already in the playlist</string>
+  <string name="song_exist_in_playlist">This song is already in the queue</string>
   <string name="song_is_empty">Song name can not be empty.</string>
   <string name="song_name">Song</string>
   <string name="song_not_find">"This song isn't available."</string>
@@ -887,6 +899,7 @@ is mainly provided by Ultimate Inc."</string>
   <string name="title_online_suggest">You might like</string>
   <string name="title_search_history">Search history</string>
   <string name="title_search_hot">Popular</string>
+  <string name="to_be_downloaded">PENDING</string>
   <string name="to_mi_pay">Mi Credits</string>
   <string name="toast_download_error_by_count_limit">You have used up your download quota for this month.</string>
   <string name="toast_download_error_by_not_login">Sign in to Mi Account and try again.</string>

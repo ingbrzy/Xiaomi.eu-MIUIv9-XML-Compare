@@ -73,6 +73,14 @@
         <item>4MB per log buffer</item>
         <item>16MB per log buffer</item>
     </string-array>
+    <string-array name="select_logd_system_levels">
+        <item>Off</item>
+        <item>Error</item>
+        <item>Warn</item>
+        <item>Info</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
     <string-array name="window_animation_scale_entries">
         <item>Animation off</item>
         <item>Animation scale 0.5x</item>
@@ -375,12 +383,29 @@
         <item>com.douban.frodo</item>
         <item>com.tencent.mm</item>
     </string-array>
+    <string-array name="multi_window_force_not_resize_pkgs">
+        <item>com.miui.home</item>
+        <item>com.android.contacts</item>
+        <item>com.android.incallui</item>
+        <item>com.android.phone</item>
+        <item>com.android.camera</item>
+        <item>com.miui.securitycenter</item>
+        <item>com.miui.cleanmaster</item>
+        <item>com.miui.antispam</item>
+        <item>com.miui.player</item>
+        <item>com.miui.yellowpage</item>
+        <item>com.xiaomi.smarthome</item>
+        <item>com.android.updater</item>
+        <item>com.miui.voip</item>
+        <item>com.miui.voiceassist</item>
+        <item>com.miui.securitycore</item>
+        <item>com.wali.live</item>
+    </string-array>
     <string-array name="system_foreground_notification_whitelist">
         <item>com.miui.home</item>
         <item>com.android.providers.contacts</item>
         <item>com.android.updater</item>
         <item>com.miui.gallery</item>
-        <item>com.miui.player</item>
         <item>com.android.fileexplorer</item>
         <item>com.mi.android.globalFileexplorer</item>
         <item>com.miui.securitycenter</item>
@@ -475,7 +500,7 @@
         <item>%1$s</item>
     </string-array>
     <string-array name="weather_type">
-        <item>Sunny</item>
+        <item>Clear</item>
         <item>Cloudy</item>
         <item>Overcast</item>
         <item>Foggy</item>

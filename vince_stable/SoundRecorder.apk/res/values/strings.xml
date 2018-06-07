@@ -5,11 +5,9 @@
   <string name="alert_message_delete_record_title">Delete recording?</string>
   <string name="app_name">Recorder</string>
   <string name="back">Back</string>
-  <string name="btn_clear_records">Delete recordings (%d items)</string>
   <string name="button_queue_for_wifi">Wait</string>
   <string name="button_start_now">Download</string>
   <string name="call_record">Recorded calls</string>
-  <string name="choose_call_records_count">%d items</string>
   <string name="clear_records">Delete synced recordings</string>
   <string name="cloud_record_open">Sync recordings</string>
   <string name="cloud_record_tip">Sync recordings with Mi Cloud.</string>
@@ -26,7 +24,7 @@
   <string name="deleting_message">Deleting…</string>
   <string name="details">Details</string>
   <string name="dialog_content_storage_full">"Recording stopped because there's not enough storage space left on your device."</string>
-  <string name="dialog_privacy_revoke_tips">"After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway?To ensure your account's security, sign in to i.mi.com before revoking authorization for Mi Cloud services."</string>
+  <string name="dialog_privacy_revoke_tips">"After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway? To ensure your account's security, sign in to i.mi.com before revoking authorization for Mi Cloud services."</string>
   <string name="dialog_title_storage_full">Not enough space</string>
   <string name="duration_format_hour">%sh</string>
   <string name="duration_format_minute">%sm</string>
@@ -65,7 +63,6 @@
   <string name="notification_recording_ticker">Phone muted</string>
   <string name="notification_stopped">Recording stopped</string>
   <string name="notification_title_all_paused">Download paused</string>
-  <string name="notification_warning">Storage low (less than %d minutes)</string>
   <string name="path_soundrecorder_setting">System apps/Recorder</string>
   <string name="pause">Pause</string>
   <string name="playback_delete_records">Delete recording</string>
@@ -152,7 +149,7 @@
   <string name="timer_format" formatted="false">%02d:%02d</string>
   <string name="timer_format_three_sections" formatted="false">%02d:%02d:%02d</string>
   <string name="toast_max_record_time">%1$s can record for about %2$s</string>
-  <string name="toast_uninstall_fileexplorer">"Explorer app isn't installed"</string>
+  <string name="toast_uninstall_fileexplorer">"File Manager isn't installed"</string>
   <string name="wifi_recommended_body" formatted="false">Using your mobile data connection to download this file (%s) will increase your data usage. If you go over your plan’s data usage limit, your carrier could charge you additional fees. To wait for a WLAN connection to download this file, tap %s.</string>
   <string name="wifi_recommended_title">Data usage warning</string>
   <string name="xiaomi_account_type">com.xiaomi</string>

@@ -37,7 +37,7 @@
         <item>Light sandstorm</item>
         <item>Sandstorm</item>
         <item>Hail</item>
-        <item>Floating Dust</item>
+        <item>Floating dust</item>
         <item>Haze</item>
     </string-array>
     <string-array name="gadget_weather_theme_type_entries">
@@ -66,36 +66,9 @@
         <item>1.1</item>
         <item>1.0</item>
     </array>
-    <string-array name="editing_mode_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-    <array name="item_shake_animation_scaler">
-        <item>0.0dip</item>
-        <item>-4.0dip</item>
-        <item>2.0dip</item>
-        <item>-1.0dip</item>
-        <item>0.0dip</item>
-    </array>
-    <string-array name="transformation_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>5</item>
-        <item>7</item>
-        <item>8</item>
-        <item>4</item>
-    </string-array>
-    <string-array name="wallpaper_scroll_values">
-        <item>byTheme</item>
-        <item>center</item>
-        <item>left</item>
-        <item>right</item>
-    </string-array>
     <array name="device_prefix">
         <item>@array/dgoogle</item>
-        <item>@array/dgoogle_dyandex</item>
+        <item>@array/dyandex</item>
     </array>
     <string-array name="dgoogle">
         <item>mido</item>
@@ -103,8 +76,6 @@
         <item>oxygen</item>
         <item>sagit</item>
         <item>chiron</item>
-    </string-array>
-    <string-array name="dgoogle_dyandex">
         <item>ugglite</item>
         <item>ugg</item>
         <item>riva</item>
@@ -116,6 +87,37 @@
         <item>cactus</item>
         <item>cereus</item>
         <item>dipper</item>
+        <item>nitrogen</item>
+        <item>tulip</item>
+    </string-array>
+    <string-array name="dyandex">
+        <item>ugglite</item>
+        <item>ugg</item>
+        <item>riva</item>
+        <item>vince</item>
+        <item>whyred</item>
+        <item>rosy</item>
+        <item>polaris</item>
+        <item>ysl</item>
+        <item>cactus</item>
+        <item>cereus</item>
+        <item>dipper</item>
+        <item>nitrogen</item>
+        <item>tulip</item>
+    </string-array>
+    <string-array name="editing_mode_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="filter_prefix">
+        <item>dyandex_yandex</item>
+        <item>mipicks</item>
+        <item>dgoogle_islam</item>
+        <item>dgoogle_islam_lowkeymidrop</item>
+        <item>dgoogle_lowkeymidrop</item>
+        <item>dgoogle_no_pay_google</item>
+        <item>dgoogle_tw</item>
     </string-array>
     <string-array name="islam">
         <item>PK</item>
@@ -154,6 +156,13 @@
         <item>RO</item>
         <item>HR</item>
     </string-array>
+    <array name="item_shake_animation_scaler">
+        <item>0.0dip</item>
+        <item>-4.0dip</item>
+        <item>2.0dip</item>
+        <item>-1.0dip</item>
+        <item>0.0dip</item>
+    </array>
     <string-array name="lowkeymidrop">
         <item>CN</item>
         <item>EC</item>
@@ -181,8 +190,15 @@
         <item>JP</item>
         <item>UY</item>
     </string-array>
-    <string-array name="no_pay_google">
+    <string-array name="mipicks">
+        <item>IN</item>
         <item>ID</item>
+        <item>RU</item>
+    </string-array>
+    <string-array name="no_pay_google">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
         <item>SG</item>
         <item>MY</item>
         <item>UA</item>
@@ -197,7 +213,23 @@
         <item>@array/no_pay_google</item>
         <item>@array/islam_lowkeymidrop</item>
         <item>@array/yandex</item>
+        <item>@array/mipicks</item>
     </array>
+    <string-array name="transformation_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="wallpaper_scroll_values">
+        <item>byTheme</item>
+        <item>center</item>
+        <item>left</item>
+        <item>right</item>
+    </string-array>
     <string-array name="widget_sizes">
         <item>home_edit_box_area_1_1</item>
         <item>home_edit_box_area_1_2</item>

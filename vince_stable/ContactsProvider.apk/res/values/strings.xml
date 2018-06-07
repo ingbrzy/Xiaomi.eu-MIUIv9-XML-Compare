@@ -15,13 +15,14 @@
   <string name="local_invisible_directory">Other</string>
   <string name="low_memory_toast">"Can't continue to use due to low memory."</string>
   <string name="metadata_sync_pacakge"/>
-  <string name="pound_search_tip">Input number after # to search contacts</string>
+  <string name="pound_search_tip">Enter a number after # to search for contacts</string>
   <string name="provider_label">Contacts</string>
   <string name="read_write_all_voicemail_description">Allows the app to store and retrieve all voicemails that this device can access.</string>
   <string name="read_write_all_voicemail_label">Access all voicemails</string>
   <string name="search_the_yellowpage">Search Yellow pages</string>
-  <string name="send_sms">Send message</string>
+  <string name="send_sms">Send a message</string>
   <string name="sharedUserLabel">Android Core Apps</string>
+  <string name="sim_state_changed">SIM card changed</string>
   <string name="third_party_delete_contact_info">"\"%s\" is trying to delete your contacts. This action can't be carried out by third-party apps. To delete contacts, use MIUI's built-in Contacts app instead."</string>
   <string name="update_accounts_changed">Accounts changed</string>
   <string name="upgrade_msg">Updating contacts database.</string>
@@ -29,5 +30,6 @@
   <string name="upgrade_out_of_memory_notification_ticker">Update requires more memory.</string>
   <string name="upgrade_out_of_memory_notification_title">Updating storage for contacts</string>
   <string name="video_call">Video call</string>
+  <string name="voicemail_cleanup">Clean up voicemail</string>
   <string name="voicemail_from_column">"Voicemail from "</string>
 </resources>

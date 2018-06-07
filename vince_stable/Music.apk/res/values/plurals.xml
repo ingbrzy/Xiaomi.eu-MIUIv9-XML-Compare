@@ -21,6 +21,10 @@
         <item quantity="other">Backing up songs, %1$d songs remaining (%2$.1fMB)</item>
         <item quantity="one">Backing up songs, %1$d song remaining (%2$.1fMB)</item>
     </plurals>
+    <plurals name="Ndownload_fee_alert_message">
+        <item quantity="other">"At the request of the copyright owner, %d selected songs can't be downloaded for free. These songs were added to downloads."</item>
+        <item quantity="one">"At the request of the copyright owner, %d selected song can't be downloaded for free. This song was added to downloads."</item>
+    </plurals>
     <plurals name="Nexpired_remind">
         <item quantity="other">%d days remaining</item>
         <item quantity="one">%d day remaining</item>

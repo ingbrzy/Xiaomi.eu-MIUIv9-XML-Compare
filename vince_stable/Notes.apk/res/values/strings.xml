@@ -28,7 +28,7 @@
   <string name="db_downgrade_clear_date_reminder">"Switching to a different version of MIUI requires clearing the app data for Notes. Before you do that, make sure you've backed up your notes to Mi Cloud."</string>
   <string name="default_folder_name">Unnamed folder</string>
   <string name="delete_folder_dialog_tile">Delete folder</string>
-  <string name="dialog_privacy_revoke_tips">"After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway?To ensure your account's security, sign in to i.mi.com before revoking authorization for Mi Cloud services."</string>
+  <string name="dialog_privacy_revoke_tips">"After you revoke authorization, the app will stop collecting data, and all the related data will be deleted from the servers. This might make the app virtually unusable. Revoke authorization anyway? To ensure your account's security, sign in to i.mi.com before revoking authorization for Mi Cloud services."</string>
   <string name="dialog_share_as_pic">Share note as picture</string>
   <string name="dialog_share_as_text">Share note as text</string>
   <string name="dialog_share_title">Share note</string>
@@ -121,8 +121,8 @@
   <string name="pref_title_skip_confirm_for_quick_delete">Quick delete</string>
   <string name="recover_notes_hint">An error occurred, go to i.mi.com to restore notes.</string>
   <string name="redo">Redo</string>
+  <string name="refuse_to_open_as_pic_because_of_loading">Wait until the note is loaded and try again.</string>
   <string name="refuse_to_share_as_pic_because_of_content">This note is too big to share.</string>
-  <string name="refuse_to_share_as_pic_because_of_loading">Wait until the note is loaded and try again.</string>
   <string name="rename_folder_dialog_tile">Rename folder</string>
   <string name="root_folder_name">Quick notes</string>
   <string name="search">Notes</string>
@@ -174,6 +174,7 @@
   <string name="theme_title_yellow">Yellow</string>
   <string name="theme_white_description">White</string>
   <string name="theme_yellow_description">Yellow</string>
+  <string name="toast_cancel_to_insert_image">"Couldn't add image."</string>
   <string name="toast_message_add_image_fail">"Couldn't add image"</string>
   <string name="toast_notes_delete_success">Deleted successfully</string>
   <string name="toast_notes_hidden">Hidden successfully</string>
@@ -200,4 +201,5 @@
   - Set reminders"</string>
   <string name="widget_content_loading">Just a sec…</string>
   <string name="widget_havenot_content">Tap to create a note. Hold widget to resize.</string>
+  <string name="xiaomi_account_type">com.xiaomi</string>
 </resources>

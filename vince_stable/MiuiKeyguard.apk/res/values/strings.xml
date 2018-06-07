@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <resources>
   <string name="accessibility_enter_lock_wallpaper">Tap to open Wallpaper Carousel</string>
+  <string name="app_name">Lock screen</string>
   <string name="btn_camera">Enter your face</string>
+  <string name="change_to_ac_charging">Switched to wired charging</string>
   <string name="click_to_enter_text">Tap to view</string>
   <string name="confirm_pin_msg">Enter PIN again</string>
   <string name="custom_lock_wallpaper_enter">Enter</string>
@@ -10,6 +12,7 @@
   <string name="digital_clock_dot">:</string>
   <string name="do_disclosure_generic">This device is managed by your organization</string>
   <string name="do_disclosure_with_name">This device is managed by %s</string>
+  <string name="doze_brightness_sensor_type"/>
   <string name="doze_pickup_subtype_performs_proximity_check"/>
   <string name="emergency_call_string">Emergency</string>
   <string name="face_data_input_camera_fail">"Couldn't load camera"</string>
@@ -73,10 +76,14 @@
   <string name="fingerprint_try_again_msg">"Couldn't verify fingerprint, try again."</string>
   <string name="fingerprint_try_again_text">Try again</string>
   <string name="forget_password_string">Forgot password</string>
+  <string name="gxzw_press_harder">Press a bit harder</string>
+  <string name="gxzw_try_more_again">Try again</string>
+  <string name="gxzw_use_password">Use your password to unlock</string>
   <string name="incorrect_pincode">Incorrect PIN code</string>
   <string name="incorrect_pukcode">Incorrect PUK code</string>
   <string name="input_password_after_boot_msg">To unlock device, enter your password</string>
   <string name="input_password_after_boot_msg_can_not_switch_when_calling">"Can't switch between spaces during a call"</string>
+  <string name="input_password_after_boot_msg_can_not_switch_when_greenkid_active">"Can't switch between spaces when parental controls are on"</string>
   <string name="input_password_after_boot_msg_must_enter_owner_space">You need to enter First space after the device was rebooted</string>
   <string name="input_password_handle_sdcard_fs">"Can't enter Second space from Lock screen. Enter from First space."</string>
   <string name="input_password_hint_text">Enter password</string>
@@ -87,14 +94,12 @@
   <string name="invalid_sim_pin_hint">PIN should contain 4 to 8 numbers</string>
   <string name="invalid_sim_puk_hint">PUK should be at least 8 numbers long</string>
   <string name="keyguard_charging_info_battery_used_time_text">On battery</string>
-  <string name="keyguard_charging_info_charging_text">Charging</string>
   <string name="keyguard_charging_info_click_to_detail">View details</string>
   <string name="keyguard_charging_info_data_c">%s℃</string>
   <string name="keyguard_charging_info_data_ma">%smA</string>
   <string name="keyguard_charging_info_data_percent">%s%%</string>
   <string name="keyguard_charging_info_data_v">%sV</string>
   <string name="keyguard_charging_info_drained_power_percent_text">Drained</string>
-  <string name="keyguard_charging_info_finished_charging_text">Fully charged</string>
   <string name="keyguard_charging_info_last_charge_time">M/d H:mm</string>
   <string name="keyguard_charging_info_last_charge_today_time">Today %s</string>
   <string name="keyguard_charging_info_last_charge_yesterday_time">Yesterday %s</string>
@@ -111,7 +116,6 @@
   <string name="keyguard_left_smarthome">Mi Home</string>
   <string name="keyguard_left_view_lock_wallpaper">Wallpaper Carousel</string>
   <string name="keyguard_quick_charging_info_click_to_detail">Quick charging. Tap to view details.</string>
-  <string name="keyguard_quickly_charging_info_charging_text">Quick charging…</string>
   <string name="keyguard_torch_cover_text">To keep torch on, hold the Power button</string>
   <string name="kg_password_pin_failed">SIM PIN operation failed!</string>
   <string name="lock_screen_date">EEEE, MMMM d</string>
@@ -142,6 +146,8 @@
   <string name="phone_locked_forget_password_suggesstion_two_content">&lt;Data&gt;Select &amp;lt;font color=#a5220e&amp;gt;\"Wipe &amp;amp;amp; Reset\"&amp;lt;/font&amp;gt; and wait until the device reboots.&lt;/Data&gt;</string>
   <string name="phone_locked_forget_password_suggesstions_title">How to erase data?</string>
   <string name="phone_locked_string">Phone has been locked</string>
+  <string name="reset_device_detail_tip">Make sure the position of your device on the charging base is correct</string>
+  <string name="reset_device_tip">Charging is slow. Adjust your device.</string>
   <string name="symbol_colon">:</string>
   <string name="unlock_camera_steady">Please keep steady</string>
   <string name="unlock_failed">Internal error</string>
@@ -152,5 +158,9 @@
   <string name="unlockscreen_recharge_completed">Battery charged</string>
   <string name="unlockscreen_recharging_message">Charging %d%%</string>
   <string name="wallpaper_global_des_drop_down_notify_text">Release to view details</string>
+  <string name="wireless_charge_dialog_cancel">Got it</string>
+  <string name="wireless_charge_dialog_title">Place your device on the center of the charging base</string>
+  <string name="wireless_charge_stop">Stopped wireless charging</string>
+  <string name="wireless_current_charge">Charging</string>
   <string name="wrong_password">Incorrect password</string>
 </resources>

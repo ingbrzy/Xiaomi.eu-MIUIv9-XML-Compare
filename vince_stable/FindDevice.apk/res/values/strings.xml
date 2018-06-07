@@ -14,6 +14,7 @@ Contact your sales agent for details."</string>
   <string name="disable_find_device_error">"Can't turn off Find device. %1$s"</string>
   <string name="disable_find_device_success">Find device is off</string>
   <string name="doing_extra_login_steps">Verifying sign in…</string>
+  <string name="emergency_call">Emergency call</string>
   <string name="enable_find_device_error">"Can't turn on Find device. %1$s"</string>
   <string name="enable_find_device_success">Find device is on</string>
   <string name="find_device">Find device</string>
@@ -28,8 +29,8 @@ Contact your sales agent for details."</string>
   <string name="find_device_noise_title">Find device alarm</string>
   <string name="find_device_notice_p1">Go to</string>
   <string name="find_device_notice_p2">i.mi.com</string>
-  <string name="find_device_notice_p3">"to locate, lock, or restore your phone.
-If you switch SIM cards, another SMS will be sent automatically to reactivate this feature."</string>
+  <string name="find_device_notice_p3">to locate, lock, or restore your device.</string>
+  <string name="find_device_notice_sms_alert">If you switch SIM cards, another SMS may be sent automatically to reactivate this feature.</string>
   <string name="find_device_stop_noise">Tap OK to silence</string>
   <string name="find_device_storage_corrupted">Find Device storage corrupted. Your device is unsafe now.</string>
   <string name="find_device_success_title">Find device</string>
@@ -38,6 +39,7 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="lock_msg_phone">Contact information: %s</string>
   <string name="login_extra_steps">Sign in verification</string>
   <string name="login_failed">"Couldn't sign in. %s."</string>
+  <string name="open_wifi_settings">Open WLAN settings</string>
   <string name="passport_checking_vcode">Checking password…</string>
   <string name="passport_error_empty_vcode">Enter verification code</string>
   <string name="passport_notification_need_unlock_again">Try to unlock again</string>
@@ -49,6 +51,7 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="phone_locked">This device may be associated with existing Mi Account (%s). Sign in to activate this device.</string>
   <string name="phone_locked_account_email">, associated email: %s</string>
   <string name="phone_locked_account_phone">, associated phone number: %s</string>
+  <string name="return_to_call">Return to call</string>
   <string name="stop_on_empty_captcha">"Captcha can't be blank"</string>
   <string name="stop_on_empty_password">"Password can't be blank"</string>
   <string name="sys_notification_async_open_failed_content">Tap to try again or cancel.</string>
@@ -71,14 +74,14 @@ If you switch SIM cards, another SMS will be sent automatically to reactivate th
   <string name="unlock_error_unknown">"Can't sign in"</string>
   <string name="unlock_error_user_name">Invalid username</string>
   <string name="unlock_error_wrong_vcode">The code you entered is incorrect</string>
-  <string name="unlock_help">"Stay connected to the network
-Make sure you've installed a working SIM card, and your device is not connected to an ineffective WLAN network
+  <string name="unlock_help">"Stay connected to the network.
+Make sure you've installed a working SIM card (if your device supports that), and your device is connected to a valid WLAN network.
 
 Forgot password?
-Go to id.mi.com to reset your password
+Go to id.mi.com to reset your password.
 
 Other reasons
-Sign in to i.mi.com and try unlocking your device from there"</string>
+Sign in to i.mi.com and try unlocking your device from there."</string>
   <string name="unlock_help_title">Unlock help:</string>
   <string name="unlock_wrong_captcha">The code you entered is incorrect</string>
   <string name="unlocking">Activating…</string>
