@@ -173,6 +173,13 @@
         <item>/system/framework/arm/boot-framework.oat</item>
         <item>/system/framework/arm64/boot-core-libart.oat</item>
         <item>/system/framework/arm/boot-core-libart.oat</item>
+        <item>/system/lib64/libRScpp.so</item>
+        <item>/system/lib64/libRS.so</item>
+        <item>/system/lib64/libRS_internal.so</item>
+        <item>/system/lib64/libbcinfo.so</item>
+        <item>/system/lib64/libRSDriver.so</item>
+        <item>/system/lib64/libRSCpuRef.so</item>
+        <item>/system/lib64/libblas.so</item>
     </string-array>
     <array name="config_default_vm_number" />
     <array name="config_disabledUntilUsedPreinstalledCarrierApps" />
@@ -256,7 +263,8 @@
         <item>-44</item>
     </integer-array>
     <integer-array name="config_manualBrightnessRemapIn">
-        <item>1</item>
+        <item>0</item>
+        <item>15</item>
         <item>30</item>
         <item>60</item>
         <item>128</item>
@@ -264,6 +272,7 @@
         <item>255</item>
     </integer-array>
     <integer-array name="config_manualBrightnessRemapOut">
+        <item>0</item>
         <item>1</item>
         <item>8</item>
         <item>20</item>
@@ -611,8 +620,6 @@
         <item>@string/unpin_target</item>
         <item>@string/app_info</item>
     </string-array>
-    <array name="securespaces_extension_encryption_userRestrictions" />
-    <array name="securespaces_extension_hidden_userRestrictions" />
     <array name="sim_colors">
         <item>@color/Teal_700</item>
         <item>@color/Blue_700</item>
