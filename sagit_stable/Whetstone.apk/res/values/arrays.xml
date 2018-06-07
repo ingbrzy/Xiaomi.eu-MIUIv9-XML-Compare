@@ -7,7 +7,6 @@
         <item>com.miui.powerkeeper/.PowerKeeperBackgroundService</item>
         <item>com.miui.klo.bugreport/.service.FeedbackBackgroundService</item>
         <item>com.xiaomi.metok/.MetokClService</item>
-        <item>com.miui.sysbase/.MetokClService</item>
         <item>com.xiaomi.joyose/.smartop.SmartOpService</item>
     </string-array>
     <string-array name="allow_persist_service">
@@ -15,8 +14,6 @@
         <item>com.miui.voip</item>
     </string-array>
     <string-array name="protected_process_name">
-        <item>com.tencent.mm:push</item>
-        <item>com.tencent.mm</item>
         <item>com.miui.securitycore.remote</item>
     </string-array>
     <string-array name="restart_persist_service">
@@ -52,7 +49,6 @@
         <item>com.android.providers.media</item>
         <item>com.xiaomi.xmsf</item>
         <item>com.xiaomi.metok</item>
-        <item>com.miui.sysbase</item>
         <item>com.lbe.security.miui</item>
         <item>com.google.android.marvin.talkback</item>
         <item>com.android.updater</item>
@@ -100,6 +96,9 @@
         <item>com.miui.wmsvc</item>
         <item>com.android.updater</item>
         <item>com.xiaomi.metoknlp</item>
+        <item>com.android.deskclock</item>
+        <item>com.android.calendar</item>
+        <item>com.android.providers.calendar</item>
         <item>com.qualcomm.qcrilmsgtunnel</item>
         <item>com.qualcomm.uimremoteclient</item>
         <item>com.qualcomm.wfd.service</item>
@@ -116,11 +115,14 @@
         <item>com.qualcomm.embms</item>
         <item>com.qualcomm.fastdormancy</item>
         <item>com.qualcomm.shutdownlistner</item>
+        <item>com.qualcomm.timeservice</item>
         <item>com.android.cellbroadcastreceiver</item>
         <item>com.android.carrierconfig</item>
         <item>com.android.server.telecom</item>
     </string-array>
     <string-array name="sleepstart_white_list">
+        <item>com.xiaomi.joyose</item>
+        <item>com.miui.whetstone</item>
         <item>com.android.incallui</item>
         <item>com.android.providers.contacts</item>
         <item>com.android.phone</item>
@@ -136,12 +138,15 @@
         <item>com.miui.securitycenter</item>
         <item>com.miui.virtualsim</item>
         <item>com.miui.wmsvc</item>
+        <item>com.xiaomi.metoknlp</item>
         <item>com.android.updater</item>
         <item>com.miui.klo.bugreport</item>
         <item>com.android.calendar</item>
         <item>com.android.providers.calendar</item>
         <item>com.android.providers.downloads</item>
         <item>com.miui.guardprovider</item>
+        <item>com.xiaomi.finddevice</item>
+        <item>com.miui.cloudbackup</item>
         <item>com.qualcomm.qcrilmsgtunnel</item>
         <item>com.qualcomm.uimremoteclient</item>
         <item>com.qualcomm.wfd.service</item>
@@ -158,6 +163,7 @@
         <item>com.qualcomm.embms</item>
         <item>com.qualcomm.fastdormancy</item>
         <item>com.qualcomm.shutdownlistner</item>
+        <item>com.qualcomm.timeservice</item>
         <item>com.android.cellbroadcastreceiver</item>
         <item>com.android.carrierconfig</item>
         <item>com.android.server.telecom</item>
@@ -179,6 +185,7 @@
     </string-array>
     <string-array name="light_sleep_process_list">
         <item>com.tencent.mm/com.tencent.mm:push</item>
+        <item>com.tencent.mm/com.tencent.mm</item>
         <item>com.tencent.mobileqq/com.tencent.mobileqq:MSF</item>
     </string-array>
     <string-array name="sleep_mode_disable_rtc_start">
@@ -263,14 +270,7 @@
         <item>com.android.chrome</item>
         <item>com.yandex.browser</item>
     </string-array>
-    <string-array name="aborted_packages">
-        <item>com.android.browser</item>
-    </string-array>
-    <string-array name="aborted_intent_actions">
-        <item>com.miui.whetstone.kloserver.BROWSER_ABORTED</item>
-    </string-array>
-    <string-array name="aborted_types">
-        <item>am_crash</item>
-        <item>am_kill</item>
+    <string-array name="protect_not_forcestop">
+        <item>com.tencent.mm</item>
     </string-array>
 </resources>

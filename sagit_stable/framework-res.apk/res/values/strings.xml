@@ -317,7 +317,7 @@ Battery saver turns off automatically when your device is charging."</string>
   <string name="config_wifi_framework_sap_2G_channel_list">1,6,11</string>
   <string name="config_wifi_p2p_device_type">10-0050F204-5</string>
   <string name="config_wifi_random_mac_oui">DA-A1-19</string>
-  <string name="config_wifi_tcp_buffers">524288,1048576,2097152,262144,524288,1048576</string>
+  <string name="config_wifi_tcp_buffers">524288,1048576,5505024,262144,524288,5505024</string>
   <string name="config_wifi_tether_enable">com.android.settings/.TetherService</string>
   <string name="config_wimaxManagerClassname"/>
   <string name="config_wimaxNativeLibLocation"/>
@@ -546,8 +546,8 @@ If you have questions, contact your "</string>
   <string name="font_family_subhead_material">sans-serif</string>
   <string name="font_family_title_material">sans-serif-medium</string>
   <string name="force_close">OK</string>
-  <string name="foreground_service_app_in_background">%1$s is running in the background</string>
-  <string name="foreground_service_apps_in_background">%1$d apps are running in the background</string>
+  <string name="foreground_service_app_in_background">%1$s is using battery</string>
+  <string name="foreground_service_apps_in_background">%1$d apps are using battery</string>
   <string name="foreground_service_multiple_separator">%1$s, %2$s</string>
   <string name="foreground_service_tap_for_details">Tap for details on battery and data usage</string>
   <string name="forward_intent_to_owner">"You're using this app outside of your work profile"</string>
@@ -951,6 +951,7 @@ Try again in %2$d seconds."</string>
   <string name="mobile_provisioning_url"/>
   <string name="month_day_year" formatted="false">%B %-e, %Y</string>
   <string name="more_item_label">More</string>
+  <string name="move_button_text">Switch</string>
   <string name="muted_by">Muted by %1$s</string>
   <string name="needPuk">Your SIM card is PUK-locked. Type the PUK code to unlock it.</string>
   <string name="needPuk2">Type PUK2 to unblock SIM card.</string>
@@ -982,7 +983,7 @@ Try again in %2$d seconds."</string>
   <string name="notification_channel_developer">Developer messages</string>
   <string name="notification_channel_device_admin">Device administration</string>
   <string name="notification_channel_emergency_callback">Emergency callback mode</string>
-  <string name="notification_channel_foreground_service">Apps running in background</string>
+  <string name="notification_channel_foreground_service">Apps consuming battery</string>
   <string name="notification_channel_hotspot">WLAN Hotspot notification</string>
   <string name="notification_channel_mobile_data_alert">Mobile data alerts</string>
   <string name="notification_channel_network_alert">Alerts</string>
@@ -1430,10 +1431,6 @@ Listening at high volume for long periods may damage your hearing."</string>
   <string name="searchview_description_voice">Voice search</string>
   <string name="second">sec</string>
   <string name="seconds">secs</string>
-  <string name="securespaces_extension_encryption_name">ENCRYPTION_EXTENSION</string>
-  <string name="securespaces_extension_encryption_serviceName">spaceencryption</string>
-  <string name="securespaces_extension_hidden_name">HIDDEN_EXTENSION</string>
-  <string name="securespaces_extension_hidden_serviceName"/>
   <string name="selectAll">Select all</string>
   <string name="selectTextMode">Select text</string>
   <string name="select_character">Insert character</string>

@@ -23,7 +23,7 @@
     <string name="weather_type_8">Дождь</string>
     <string name="weather_type_9">Сильный дождь</string>
     <string name="weather_type_10">Дождь</string>
-    <string name="weather_type_11">Небольшой дождь</string>
+    <string name="weather_type_11">Изморось</string>
     <string name="weather_type_12">Мокрый снег</string>
     <string name="weather_type_13">Метель</string>
     <string name="weather_type_14">Местами снег</string>
@@ -36,5 +36,5 @@
     <string name="weather_type_21">Пыльная буря</string>
     <string name="weather_type_22">Град</string>
     <string name="weather_type_23">Пыль</string>
-    <string name="weather_type_24">Дымка</string>
+    <string name="weather_type_24">Смог</string>
 </resources>

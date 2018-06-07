@@ -101,7 +101,7 @@
     </string-array>
     <string-array name="ap_identify">
         <item>Default</item>
-        <item>iPhone</item>
+        <item>Portable hotspot</item>
     </string-array>
     <string-array name="apn_auth_entries">
         <item>None</item>
@@ -409,13 +409,13 @@
         <item>4</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_bits_per_sample_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>16 bits/sample</item>
         <item>24 bits/sample</item>
         <item>32 bits/sample</item>
@@ -427,12 +427,12 @@
         <item>4</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_channel_mode_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>Mono</item>
         <item>Stereo</item>
     </string-array>
@@ -442,16 +442,16 @@
         <item>2</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_summaries">
-        <item>Optimized for Audio Quality</item>
-        <item>Balanced Audio And Connection Quality</item>
-        <item>Optimized for Connection Quality</item>
-        <item>Best Effort (Adaptive Bit Rate)</item>
+        <item>Optimized for audio quality</item>
+        <item>Balanced audio and connection quality</item>
+        <item>Optimized for connection quality</item>
+        <item>Best effect (Adaptive bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_titles">
-        <item>Optimized for Audio Quality (990kbps/909kbps)</item>
-        <item>Balanced Audio And Connection Quality (660kbps/606kbps)</item>
-        <item>Optimized for Connection Quality (330kbps/303kbps)</item>
-        <item>Best Effort (Adaptive Bit Rate)</item>
+        <item>Optimized for audio quality (990kbps/909kbps)</item>
+        <item>Balanced audio and connection quality (660kbps/606kbps)</item>
+        <item>Optimized for connection quality (330kbps/303kbps)</item>
+        <item>Best effect (Adaptive bit rate)</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_ldac_playback_quality_values">
         <item>1000</item>
@@ -460,14 +460,14 @@
         <item>1003</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
         <item>96.0 kHz</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_sample_rate_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>44.1 kHz</item>
         <item>48.0 kHz</item>
         <item>88.2 kHz</item>
@@ -481,7 +481,7 @@
         <item>8</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_summaries">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
@@ -491,7 +491,7 @@
         <item>Disable Optional Codecs</item>
     </string-array>
     <string-array name="bluetooth_a2dp_codec_titles">
-        <item>Use System Selection (Default)</item>
+        <item>Use system preference (Default)</item>
         <item>SBC</item>
         <item>AAC</item>
         <item>aptX</item>
@@ -574,6 +574,20 @@
         <item>TT</item>
         <item>UY</item>
         <item>VE</item>
+        <item>PL</item>
+        <item>GR</item>
+        <item>ME</item>
+        <item>CZ</item>
+        <item>HU</item>
+        <item>SK</item>
+        <item>AT</item>
+        <item>HR</item>
+        <item>RS</item>
+        <item>EE</item>
+        <item>ES</item>
+        <item>IT</item>
+        <item>PT</item>
+        <item>FR</item>
     </string-array>
     <string-array name="button_light_timeout_entries">
         <item>1 second</item>
@@ -1430,7 +1444,7 @@
         <item>Lock screen</item>
         <item>Privacy password</item>
         <item>Child mode</item>
-        <item>File Explorer</item>
+        <item>File Manager</item>
         <item>App lock</item>
         <item>Second space</item>
     </string-array>
@@ -1460,6 +1474,24 @@
         <item>Last 30 days</item>
         <item>Set usage cycle...</item>
     </string-array>
+    <string-array name="date_of_app_all">
+        <item>Today (data)</item>
+        <item>This month (data)</item>
+        <item>Last month (data)</item>
+        <item>Today WLAN</item>
+        <item>This month WLAN</item>
+        <item>Last month WLAN</item>
+    </string-array>
+    <string-array name="date_of_traffic">
+        <item>"Today "</item>
+        <item>"This month "</item>
+        <item>"Last month "</item>
+    </string-array>
+    <string-array name="date_of_traffic_prefix">
+        <item>"Today: "</item>
+        <item>"This month: "</item>
+        <item>"Last month: "</item>
+    </string-array>
     <string-array name="debug_hw_overdraw_entries">
         <item>Off</item>
         <item>Show overdraw areas</item>
@@ -1487,6 +1519,48 @@
         <item>HK</item>
         <item>TW</item>
         <item>UA</item>
+    </string-array>
+    <string-array name="device_global_support_face">
+        <item>whyred</item>
+        <item>polaris</item>
+        <item>ysl</item>
+    </string-array>
+    <string-array name="device_support_face">
+        <item>jason</item>
+        <item>polaris</item>
+        <item>whyred</item>
+        <item>nitrogen</item>
+        <item>wayne</item>
+        <item>ysl</item>
+        <item>sakura</item>
+        <item>clover</item>
+        <item>dipper</item>
+    </string-array>
+    <string-array name="dirac_equalizer_preset_names">
+        <item>@string/eq_flat</item>
+        <item>@string/eq_rock</item>
+        <item>@string/eq_jazz</item>
+        <item>@string/eq_pop</item>
+        <item>@string/eq_classical</item>
+        <item>@string/eq_hiphop</item>
+        <item>@string/eq_blues</item>
+        <item>@string/eq_electronic</item>
+        <item>@string/eq_country</item>
+        <item>@string/eq_dance</item>
+        <item>@string/eq_metal</item>
+    </string-array>
+    <string-array name="dirac_equalizer_preset_values">
+        <item>0,0,0,0,0,0,0</item>
+        <item>4,2,-2,0,-2,-2,4</item>
+        <item>0,0,0,-2,-3,0,0</item>
+        <item>0,-3,-5,0,0,-3,0</item>
+        <item>0,0,0,0,3,6,6</item>
+        <item>3,3,-3,0,-3,0,2</item>
+        <item>2,4,-6,4,0,1,2</item>
+        <item>3,3,-1,0,-3,0,0</item>
+        <item>0,0,-2,-2,2,2,0</item>
+        <item>0,4,2,0,-2,-2,4</item>
+        <item>2,0,0,-2,-4,0,0</item>
     </string-array>
     <string-array name="dndm_auto_time_trun_on_off">
         <item>@string/dndm_auto_time_turn_on</item>
@@ -1870,7 +1944,7 @@
         <item>Create a directory: mkdir /media/mtp</item>
         <item>Confirm user group permissions in the current fuse user group</item>
         <item>Sign in again</item>
-        <item>Access mounted device: mtpfs /media/mtp via file explorer; same as local directory</item>
+        <item>Access mounted device: mtpfs /media/mtp via File Manager; same as local folder.</item>
         <item>"Uninstall device: fusermount -u /media/mtp
 Note: Only for Ubuntu 8.04!"</item>
     </string-array>
@@ -2351,6 +2425,13 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Critical</item>
         <item>\?</item>
     </string-array>
+    <string-array name="region_support_face">
+        <item>IN</item>
+        <item>ID</item>
+        <item>RU</item>
+        <item>HK</item>
+        <item>TW</item>
+    </string-array>
     <string-array name="screen_button_style">
         <item>Left hand style</item>
         <item>Right hand style</item>
@@ -2360,6 +2441,11 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Standard</item>
         <item>Cool</item>
     </string-array>
+    <integer-array name="screen_density">
+        <item>640</item>
+        <item>480</item>
+        <item>320</item>
+    </integer-array>
     <string-array name="screen_key_long_press_action_value">
         <item>none</item>
         <item>recent_panel</item>
@@ -2408,13 +2494,19 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Standard</item>
     </string-array>
     <integer-array name="screen_resolution">
-        <item>3686400</item>
-        <item>2073600</item>
+        <item>1440</item>
+        <item>1080</item>
+        <item>720</item>
     </integer-array>
     <string-array name="screen_resolution_format">
         <item>@string/screen_resolution_ultrahigh_format</item>
         <item>@string/screen_resolution_high_format</item>
         <item>@string/screen_resolution_normal_format</item>
+    </string-array>
+    <string-array name="screen_resolution_text">
+        <item>2K</item>
+        <item>1080P</item>
+        <item>720P</item>
     </string-array>
     <string-array name="screen_saturation_title">
         <item>Brilliant</item>
@@ -2473,17 +2565,25 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>4194304</item>
         <item>16777216</item>
     </string-array>
+    <string-array name="select_logd_system_levels">
+        <item>Off</item>
+        <item>Error</item>
+        <item>Warn</item>
+        <item>Info</item>
+        <item>Debug</item>
+        <item>Verbose</item>
+    </string-array>
     <string-array name="select_logpersist_summaries">
         <item>Off</item>
         <item>All log buffers</item>
-        <item>All but radio log buffers</item>
-        <item>kernel log buffer only</item>
+        <item>All except radio log buffers</item>
+        <item>Kernel log buffer only</item>
     </string-array>
     <string-array name="select_logpersist_titles">
         <item>Off</item>
         <item>All</item>
-        <item>All but radio</item>
-        <item>kernel only</item>
+        <item>All except radio</item>
+        <item>Kernel only</item>
     </string-array>
     <string-array name="select_logpersist_values">
         <item></item>
@@ -2545,7 +2645,7 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>pt_BR</item>
     </string-array>
     <string-array name="special_locale_names_global">
-        <item>简体中文 (中国)</item>
+        <item>简体中文</item>
         <item>繁體中文 (台湾)</item>
         <item>繁體中文 (香港)</item>
         <item>Español (América)</item>
@@ -2569,9 +2669,17 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>Only show in status bar</item>
         <item>Never show carrier name</item>
     </string-array>
+    <string-array name="status_bar_show_carrier_entries_for_notch">
+        <item>@string/carrier_show_in_lock_screen</item>
+        <item>@string/carrier_show_none</item>
+    </string-array>
     <string-array name="status_bar_show_carrier_values">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="status_bar_show_carrier_values_for_notch">
+        <item>0</item>
         <item>2</item>
     </string-array>
     <string-array name="status_bar_style_entries">
@@ -2635,6 +2743,10 @@ Note: Only for Ubuntu 8.04!"</item>
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+    <string-array name="traffic_type">
+        <item>"Mobile usage "</item>
+        <item>"WLAN usage "</item>
     </string-array>
     <string-array name="transition_animation_scale_entries">
         <item>Animation off</item>

@@ -4,7 +4,6 @@
   <string name="antispam_marked_count">Reported by %1$d MIUI users</string>
   <string name="antispam_notification_title">Unknown number</string>
   <string name="antispam_provider">Identified by %s</string>
-  <string name="areacode_set_default">Set as default</string>
   <string name="callFailed_cb_enabled">"You can't make outgoing calls while call barring is on."</string>
   <string name="callFailed_congestion">Network busy</string>
   <string name="callFailed_dialToDial">Dial request modified to dial with different number.</string>
@@ -50,7 +49,6 @@
   <string name="call_recording_notification_title_error">"Couldn't record call"</string>
   <string name="call_title_redialing_with_times">Redialed %d times</string>
   <string name="caller_manage_header">Conference call %s</string>
-  <string name="can_not_call_oneself">"Can't call this number"</string>
   <string name="can_not_use">"Can't use"</string>
   <string name="cancel">Cancel</string>
   <string name="card_title_answering">Answering call</string>
@@ -88,7 +86,6 @@
   <string name="crbt_second_hold_prompt">%s is on hold…</string>
   <string name="crbt_second_hold_prompt_conference">Conference call is on hold…</string>
   <string name="crbt_second_hold_prompt_no_name">Previous call is on hold…</string>
-  <string name="default_area_code_setting">Default area code</string>
   <string name="description_image_button_answer">Answer</string>
   <string name="description_image_button_dialpad">Dialpad</string>
   <string name="description_image_button_eight">eight</string>
@@ -110,8 +107,6 @@
   <string name="description_image_button_video_answer">Video call</string>
   <string name="description_image_button_zero">zero</string>
   <string name="description_target_answer">Answer</string>
-  <string name="dialog_activate_livetalk">Verify number</string>
-  <string name="dialog_call_ordinary_telephone">Regular call</string>
   <string name="dialpad_abc">ABC</string>
   <string name="dialpad_def">DEF</string>
   <string name="dialpad_eight">8</string>
@@ -130,7 +125,6 @@
   <string name="dialpad_two">2</string>
   <string name="dialpad_wxyz">WXYZ</string>
   <string name="dialpad_zero">0</string>
-  <string name="do_not_ask">Dont show again</string>
   <string name="do_not_support_video_calls_by_remote">"Video calls aren't supported on the other device"</string>
   <string name="emergency_call_dialog_number_for_display">Emergency number</string>
   <string name="inCallLabel">InCallUI</string>
@@ -151,20 +145,8 @@
   <string name="incoming_circle_text_message_p">Slide up</string>
   <string name="incoming_circle_text_reject">Release</string>
   <string name="incoming_circle_text_reject_p">Slide up</string>
-  <string name="keep_wait_call_back">Keep waiting</string>
-  <string name="livetalk_dial">Using Top-up package</string>
-  <string name="livetalk_hangup">Hang up</string>
   <string name="manageConferenceLabel">Manage conference call</string>
   <string name="msim_select_default_time_left">(%d s)</string>
-  <string name="network_error_message">Current network is unstable. Switching to regular call for which you might be charged by the carrier.</string>
-  <string name="network_error_title">Unstable network</string>
-  <string name="no_call_back_message">Its taking too long to connect. Switching to regular call for which you might be charged by the carrier.</string>
-  <string name="no_call_back_title">Attention</string>
-  <string name="not_activate_sim_card_content">Verify your phone number to start using Top-up package. You can still make a regular call for which youll be charged by the carrier.</string>
-  <string name="not_activate_sim_card_content_title">Phone number isnt verified</string>
-  <string name="not_activate_sim_card_content_with_operator">Verify SIM %1$s (%2$s) to make a call using Top-up package. You can still make a regular call for which youll be charged by the carrier.</string>
-  <string name="not_support_message">Cant call this number. Switching to regular call for which you might be charged by the carrier.</string>
-  <string name="not_support_title">This number isnt supported</string>
   <string name="notification_action_accept">Accept</string>
   <string name="notification_action_answer_video">Video</string>
   <string name="notification_action_answer_voice">Voice</string>
@@ -204,6 +186,7 @@
   <string name="phone_info_divider">" ｜ "</string>
   <string name="picking_participant">Getting contact info…</string>
   <string name="private_num">Private number</string>
+  <string name="prompt_no_volte_when_failed">"VoLTE services aren't available."</string>
   <string name="remind_unlock_message">Your device is locked now. \"%s\" will be available after you unlock your device. Unlock now?</string>
   <string name="respond_via_sms_custom_message">Custom SMS</string>
   <string name="select_audio_dialog_title">Select answering mode</string>
@@ -213,7 +196,6 @@
   <string name="separate_from_conference">Separate call</string>
   <string name="sip_call_not_support_record">"Can't record SIP calls"</string>
   <string name="suspect_info">Be careful with your personal info.</string>
-  <string name="time_left_livetalk">(%ds)</string>
   <string name="unknown">Unknown</string>
   <string name="unlock_phone">Unlock device</string>
   <string name="upgrade_vt_prompt">Switch to video call?</string>
