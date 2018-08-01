@@ -27,13 +27,17 @@
   <string name="battery_stats_wifi_running_label">WLAN</string>
   <string name="cpu_usage_android_system">Android system</string>
   <string name="details_subtitle">Use details</string>
+  <string name="enter_gamemode_tip">Opening game…</string>
   <string name="firewall_network_allow">Allowed %1$s to use %2$s connection</string>
   <string name="firewall_network_restrict_notify_mobile">Mobile data</string>
   <string name="firewall_temp_rule_reason">%2$s restricted internet connection for %1$s</string>
   <string name="firewall_wifi">WLAN</string>
   <string name="game_booster">Game speed booster</string>
+  <string name="gb_antimsg_summary">No disturbances</string>
   <string name="gb_description_image_button_answer">Answer</string>
   <string name="gb_description_image_button_reject">Decline</string>
+  <string name="gb_net_summary">Optimized connection</string>
+  <string name="gb_preformance_summary">Better performance</string>
   <string name="hints_power_percent_title">battery</string>
   <string name="menu_item_app_details">Details</string>
   <string name="menu_item_force_stop">Force stop</string>

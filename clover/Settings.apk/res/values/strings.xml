@@ -2435,7 +2435,7 @@ you should create an iCloud backup first."</string>
   <string name="instant_app_details_summary">More info on %1$s</string>
   <string name="instant_apps_account">Instant apps account</string>
   <string name="instruction_privacy_password">This password protects the following items</string>
-  <string name="instruction_title">Instructions</string>
+  <string name="instruction_title">Important safety information</string>
   <string name="insufficient_storage">Not enough storage space.</string>
   <string name="intent_sender_account_label">Account:</string>
   <string name="intent_sender_action_label">Action:</string>
@@ -4823,7 +4823,7 @@ Possibly incorrect PIN."</string>
 A trusted credential installed on your device is making this possible."</string>
   <string name="stable_build">" | Stable"</string>
   <string name="standard">Silent</string>
-  <string name="standard_info">Calls and notifications will be silenced</string>
+  <string name="standard_info">Voice calls and notifications will be silenced</string>
   <string name="start_backup">Back up</string>
   <string name="start_restore">Restore</string>
   <string name="start_silent_mode">Turn on Silent mode</string>
@@ -4860,9 +4860,11 @@ A trusted credential installed on your device is making this possible."</string>
   <string name="status_bar_settings_no_carrier">None</string>
   <string name="status_bar_settings_notification_bar">Notification shade</string>
   <string name="status_bar_settings_notification_led">Notification light</string>
+  <string name="status_bar_settings_notification_led_custom">Custom color</string>
   <string name="status_bar_settings_notification_priority">Priority</string>
   <string name="status_bar_settings_notification_priority_summary">Show notifications at the top of the list</string>
   <string name="status_bar_settings_notification_sound">Sound</string>
+  <string name="status_bar_settings_notification_sound_custom">Custom sound</string>
   <string name="status_bar_settings_notification_vibrate">Vibration</string>
   <string name="status_bar_settings_show_carrier">Show carrier name</string>
   <string name="status_bar_settings_show_carrier_summary">Carrier name is still displayed on the lock screen and in the notification shade when this feature is off</string>
@@ -5268,8 +5270,8 @@ A Google approach to syncing data to allow access to your contacts, appointments
   <string name="toast_lockscreen_glogin_empty_password">Enter password</string>
   <string name="toast_need_login">Sign in to your Mi Account</string>
   <string name="total">DND</string>
-  <string name="total_info">Silence sounds %1$sexcept for the alarms</string>
-  <string name="total_info_sub">and turn off vibration</string>
+  <string name="total_info">Silence sounds and turn off vibration except for the alarms</string>
+  <string name="total_info_no_vibrator">Voice calls, notifications, and reminders will be silenced</string>
   <string name="total_memory">Total memory</string>
   <string name="total_size">%s total</string>
   <string name="total_size_label">Total</string>
@@ -5603,6 +5605,7 @@ Your saved fingerprints will also be removed from this profile and you won't be 
   <string name="unlock_set_unlock_summary">Set a screen lock</string>
   <string name="unlock_setup_wizard_fingerprint_details">Once you’ve set up a screen lock, you can also set up your fingerprint in Settings &gt; Security.</string>
   <string name="unmount_inform_text">SD card will be unmounted.</string>
+  <string name="unmute_sound_title">Unmute sound</string>
   <string name="unrestrict_max_aspect_ratio_title">These apps are optimized for fullscreen mode</string>
   <string name="unrestricted_app_summary">Allow unrestricted data access when Data Saver is on</string>
   <string name="unrestricted_app_title">Unrestricted data usage</string>

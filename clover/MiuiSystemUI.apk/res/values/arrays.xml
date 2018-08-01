@@ -590,6 +590,7 @@
         <item>com.wali.live</item>
     </string-array>
     <string-array name="system_foreground_notification_whitelist">
+        <item>com.xiaomi.joyose</item>
         <item>com.miui.home</item>
         <item>com.android.providers.contacts</item>
         <item>com.android.updater</item>

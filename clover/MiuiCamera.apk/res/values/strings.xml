@@ -43,7 +43,7 @@
   <string name="can_not_play_video">Unlock screen to view playback</string>
   <string name="cancel">Cancel</string>
   <string name="cannot_connect_camera_once">"Can't connect to camera"</string>
-  <string name="cannot_connect_camera_twice">"Still can't connect to camera. Try restarting your phone."</string>
+  <string name="cannot_connect_camera_twice">"Still can't connect to camera. Try restarting your pad."</string>
   <string name="clear_effects">Clear effects</string>
   <string name="close">Close</string>
   <string name="cloud_album_details">Cloud album details:</string>
